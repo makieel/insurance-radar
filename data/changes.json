@@ -1,0 +1,198 @@
+[
+  {
+    "id": "r:메리츠화재:업무용:2026-09-26",
+    "category": "auto",
+    "title": "메리츠화재 업무용 자동차보험료 -1%",
+    "when": "exact",
+    "date": "2026-09-26",
+    "period": null,
+    "phrase": "시행시기 20260926",
+    "quote": "메리츠화재 업무용 -1% 20260926 예정사업비 변경에 따른 보험료 조정",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-23",
+    "sources": [
+      {
+        "name": "손보협회 공시실",
+        "url": "https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do"
+      }
+    ],
+    "origin": "rates",
+    "rate": {
+      "company": "메리츠화재",
+      "kind": "업무용",
+      "total": -1
+    },
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "r:메리츠화재:영업용:2026-09-26",
+    "category": "auto",
+    "title": "메리츠화재 영업용 자동차보험료 -1%",
+    "when": "exact",
+    "date": "2026-09-26",
+    "period": null,
+    "phrase": "시행시기 20260926",
+    "quote": "메리츠화재 영업용 -1% 20260926 예정사업비 변경에 따른 보험료 조정",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-23",
+    "sources": [
+      {
+        "name": "손보협회 공시실",
+        "url": "https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do"
+      }
+    ],
+    "origin": "rates",
+    "rate": {
+      "company": "메리츠화재",
+      "kind": "영업용",
+      "total": -1
+    },
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "r:현대해상:영업용:2026-09-21",
+    "category": "auto",
+    "title": "현대해상 영업용 자동차보험료 0%",
+    "when": "exact",
+    "date": "2026-09-21",
+    "period": null,
+    "phrase": "시행시기 20260921",
+    "quote": "현대해상 영업용 0% 20260921 손해율 실적 반영한 보험료 조정(대물확장, 자차보장확대 특약 포함)",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-23",
+    "sources": [
+      {
+        "name": "손보협회 공시실",
+        "url": "https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do"
+      }
+    ],
+    "origin": "rates",
+    "rate": {
+      "company": "현대해상",
+      "kind": "영업용",
+      "total": 0
+    },
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:fsc-rule:4171:notice",
+    "category": "general",
+    "title": "「보험업감독규정」 일부개정고시안 규정변경예고",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "예고기간 ~9.21",
+    "quote": "예고기간 : 2026-09-11 ~ 2026-09-21",
+    "status": "proposed",
+    "past": true,
+    "announced": "2026-09-11",
+    "sources": [
+      {
+        "name": "금융위원회 입법·규정변경예고",
+        "url": "https://www.fsc.go.kr/po040301/view?noticeId=4171"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:fss-press:226952:2026-09-07",
+    "category": "general",
+    "title": "금융 인허가, 등록 사전협의 절차가 더욱 편리해집니다.",
+    "when": "exact",
+    "date": "2026-09-07",
+    "period": null,
+    "phrase": "'26.9.7.",
+    "quote": "ㅇ '26.9.7.(월)부터 인허가, 등록 등 신청인들의 편의를 제고하고 신속하게 업무를 처리하기 위해 ㅇ 주요 인허가,등록 8종에 대한 사전협의 신청시 자가점검 기능, 진행상황 안내 등을 제공하고 신청자료를 본심사까지 활용할 수 있도록 하는 「온라인 인허가등록 사전협의」 시스템과 함께 ㅇ 보험계리사(업),손해사정사(업)(이하 '보험전문인(업))' 등록 등",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-09-06",
+    "sources": [
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=226952&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:fss-press:218711:2026-06-22",
+    "category": "general",
+    "title": "보험금 심사기준 변경 사실을 사전에 안내하여 소비자 피해와 분쟁을 예방하겠습니다",
+    "when": "exact",
+    "date": "2026-06-22",
+    "period": null,
+    "phrase": "'26.6.22.",
+    "quote": "ㅁ 이번 행정지도에 따른 소비자 안내의무는 '26.6.22.부터 시행되며, 보험금 심사기준 변경으로 소비자 피해가 발생할 우려가 있는 모든 보험상품에 적용됩니다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-06-21",
+    "sources": [
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218711&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "r:현대해상:업무용:2026-06-16",
+    "category": "auto",
+    "title": "현대해상 업무용 자동차보험료 0%",
+    "when": "exact",
+    "date": "2026-06-16",
+    "period": null,
+    "phrase": "시행시기 20260616",
+    "quote": "현대해상 업무용 0% 20260616 손해율 실적 반영한 보험료 조정 (대물확장, 자차보장확대특약 포함)",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-23",
+    "sources": [
+      {
+        "name": "손보협회 공시실",
+        "url": "https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do"
+      }
+    ],
+    "origin": "rates",
+    "rate": {
+      "company": "현대해상",
+      "kind": "업무용",
+      "total": 0
+    },
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "r:하나손보:개인용:2026-06-08",
+    "category": "auto",
+    "title": "하나손보 개인용 자동차보험료 0%",
+    "when": "exact",
+    "date": "2026-06-08",
+    "period": null,
+    "phrase": "시행시기 20260608",
+    "quote": "하나손보 개인용 0% 20260608 손해실적에 따른 담보별 보험료 조정(자동차상해특약, 차량단독사고 특약 포함)",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-23",
+    "sources": [
+      {
+        "name": "손보협회 공시실",
+        "url": "https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do"
+      }
+    ],
+    "origin": "rates",
+    "rate": {
+      "company": "하나손보",
+      "kind": "개인용",
+      "total": 0
+    },
+    "firstSeen": "2026-10-23"
+  }
+]
