@@ -47,3 +47,9 @@ if (process.env.GITHUB_STEP_SUMMARY) {
   const { appendFileSync } = await import('node:fs');
   appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## 출처 접속 시험\n\n${table}\n`);
 }
+// 로그인 없이 볼 수 있도록 실행 요약 화면에 알림으로도 남긴다.
+if (process.env.GITHUB_ACTIONS) {
+  const bad = rows.filter((r) => r[1] !== '200' || r[3]);
+  console.log(`::notice title=출처 접속 ${rows.length - bad.length}/${rows.length} 정상::${rows.map((r) => `${r[0]} ${r[1]}${r[3] ? ' ' + r[3] : ''}`).join(' | ')}`);
+  for (const r of bad) console.log(`::warning title=${r[0]}::상태 ${r[1]} ${r[3]} (${r[4]})`);
+}
