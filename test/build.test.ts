@@ -200,3 +200,11 @@ test('데이터가 없어도 스키마에 맞는 빈 화면 데이터를 만든�
   assert.deepEqual(result.status, []);
   assert.ok(Latest.safeParse(result).success);
 });
+
+test('하루 여러 번 실행으로 따로 생긴 같은 소식 묶음은 화면에서 하나로 합친다', () => {
+  const a = group('insjournal', { title: '9월 車보험 손해율 85.0%…전년 동월보다 8.8%p 하락', topic: 'auto', relevance: 'medium' });
+  const b = group('insnews', { title: '9월 자동차보험 손해율 85%… 1년 전보다 9.2%p 하락', topic: 'auto', relevance: 'medium' });
+  const result = buildLatest({ ...input(), dailies: [daily(today, [a]), daily(today, [b])] });
+  assert.equal(result.news.length, 1);
+  assert.equal(result.news[0]?.sources.length, 2);
+});

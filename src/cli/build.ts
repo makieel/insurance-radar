@@ -1,6 +1,7 @@
 import { loadConfig } from '../config.ts';
 import type { Config } from '../config.ts';
 import { ruleRelevance } from '../analyze/relevance.ts';
+import { similar } from '../analyze/group.ts';
 import { addDays } from '../lib/dates.ts';
 import { DailyReport, Latest } from '../schema.ts';
 import type { Change, NewsGroup, RateRow, SourceId, SourceKind, SourceStatus } from '../schema.ts';
@@ -9,6 +10,29 @@ import {
   dailyPath, pipelineDate, rawPath, readJson, writeJson,
 } from '../store.ts';
 import { RawSnapshot } from '../schema.ts';
+
+/**
+ * 여러 번의 실행(하루 세 번)에 걸쳐 따로 생긴 같은 소식 묶음을 화면에서 하나로 합친다.
+ * 앞쪽(더 공식적이거나 먼저 정렬된) 묶음을 대표로 두고 출처와 글 목록을 더한다.
+ */
+export function mergeSimilar(groups: NewsGroup[]): NewsGroup[] {
+  const KIND_ORDER = ['gov', 'assoc', 'insurer', 'press'];
+  const ordered = [...groups].sort((a, b) => KIND_ORDER.indexOf(a.kind) - KIND_ORDER.indexOf(b.kind) || b.sources.length - a.sources.length);
+  const out: NewsGroup[] = [];
+  for (const g of ordered) {
+    // 같은 매체끼리는 분석 단계에서 이미 묶였으므로, 서로 다른 매체의 묶음만 합친다.
+    const near = out.find(o => o.topic === g.topic
+      && !o.sources.some(x => g.sources.some(y => y.name === x.name))
+      && Math.abs(Date.parse(o.published) - Date.parse(g.published)) <= 2 * 86_400_000
+      && similar(o.title, g.title));
+    if (!near) { out.push({ ...g, sources: [...g.sources], itemIds: [...g.itemIds] }); continue; }
+    for (const src of g.sources) if (!near.sources.some(x => x.url === src.url)) near.sources.push(src);
+    for (const id of g.itemIds) if (!near.itemIds.includes(id)) near.itemIds.push(id);
+    near.summary ??= g.summary;
+    near.important ||= g.important;
+  }
+  return out;
+}
 
 export function buildLatest(input: {
   today: string; generatedAt: string; changes: Change[]; dailies: DailyReport[];
@@ -39,7 +63,7 @@ export function buildLatest(input: {
         groups.set(group.id, { ...group, kind, relevance, relevanceBy });
       }
     }
-    return [...groups.values()].sort((a, b) => b.published.localeCompare(a.published) || b.firstSeen.localeCompare(a.firstSeen));
+    return mergeSimilar([...groups.values()]).sort((a, b) => b.published.localeCompare(a.published) || b.firstSeen.localeCompare(a.firstSeen));
   };
   const news = groupsWithin(3)
     .filter(group => group.topic !== 'industry' && (group.kind === 'insurer' || group.kind === 'press')
