@@ -6,11 +6,13 @@ import { kliaPress } from './klia.ts';
 import { kiri } from './kiri.ts';
 import { hanwha, kyobo, samsungfire, meritz } from './insurers.ts';
 import { insnews, insweek, insjournal, fins } from './press.ts';
+import { yna, chosun, donga, joongang } from './media.ts';
 import { naver } from './naver.ts';
 
 export const COLLECTORS: Collector[] = [
   fscPress, fscRule, fssPress, fssAlert,
   kniaPress, kniaRates, kliaPress, kiri,
   hanwha, kyobo, samsungfire, meritz,
-  insnews, insweek, insjournal, fins, naver,
+  insnews, insweek, insjournal, fins,
+  joongang, donga, chosun, yna, naver,
 ];

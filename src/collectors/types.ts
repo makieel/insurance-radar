@@ -24,6 +24,8 @@ export interface CollectResult {
   rates?: RateRow[];
   /** 대체 경로를 썼을 때 화면에 보여 줄 안내 */
   note?: string | null;
+  /** 거르기 전에 읽은 글 수. 일반 언론처럼 보험 기사가 없는 날 0건이 정상인 출처는 이 값으로 응답이 왔는지 판단한다 */
+  scanned?: number;
 }
 
 export interface Collector {

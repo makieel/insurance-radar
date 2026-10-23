@@ -55,8 +55,20 @@ function group(source: SourceId, overrides: Partial<NewsGroup> = {}): NewsGroup 
     // 기간 판정은 게시일 기준이므로, 테스트 묶음의 게시일은 기본으로 오늘로 둔다(fixture의 실제 게시일은 published 덮어쓰기로 확인).
     url, published: overrides.published ?? (published >= today ? published : today), firstSeen: today,
     sources: [{ name: configured.name, url }],
-    itemIds: [id], summary: null, relevance: null, important: false, relevanceBy: null, ...overrides,
+    // 기존 분류 테스트는 화면에 보이는 관련도(medium)를 기본으로 둔다. 관련도 판단은 아래 테스트에서 따로 확인한다.
+    itemIds: [id], summary: null, relevance: 'medium', important: false, relevanceBy: 'rule', ...overrides,
   };
+}
+
+/** 같은 출처의 서로 다른 묶음(번호만 다르게) */
+function numbered(source: SourceId, n: number, overrides: Partial<NewsGroup> = {}): NewsGroup {
+  const entry = group(source, overrides);
+  const id = `${entry.itemIds[0]}-${n}`;
+  return { ...entry, id: `g:${id}`, itemIds: [id] };
+}
+
+function threeSources(entry: NewsGroup): NewsGroup['sources'] {
+  return ['insnews', 'insweek', 'insjournal'].map(source => ({ name: config.sources.find(s => s.id === source)!.name, url: entry.url }));
 }
 
 function daily(date: string, groups: NewsGroup[]): DailyReport {
@@ -64,7 +76,7 @@ function daily(date: string, groups: NewsGroup[]): DailyReport {
 }
 
 function input(): Parameters<typeof buildLatest>[0] {
-  return { today, generatedAt, changes: [], dailies: [], rates: [], status: [], sourceKinds };
+  return { today, generatedAt, changes: [], dailies: [], rates: [], status: [], sourceKinds, keywords: config.keywords };
 }
 
 test('오래된 정확한 날짜를 제외하고 겹치는 기간과 원문 표현을 보존한다', () => {
@@ -77,7 +89,7 @@ test('오래된 정확한 날짜를 제외하고 겹치는 기간과 원문 표�
 });
 
 test('소식·공식 발표·업계 동향을 출처와 주제로 나눈다', () => {
-  const groups = [group('fsc-press'), group('knia-press'), group('hanwha'), group('insnews'), group('insweek', { topic: 'industry' })];
+  const groups = [group('fsc-press'), group('knia-press'), group('hanwha'), group('insnews'), group('insweek', { topic: 'industry', important: true })];
   const result = buildLatest({ ...input(), dailies: [daily(today, groups)] });
   assert.deepEqual(result.news.map(entry => entry.kind).sort(), ['insurer', 'press']);
   assert.deepEqual(result.official.map(entry => entry.kind).sort(), ['assoc', 'gov']);
@@ -103,8 +115,8 @@ test('최근 3일·30일·14일은 오늘을 포함하고 미래 보고서는 �
   const newsOut = group('insnews', { firstSeen: addDays(today, -3), published: addDays(today, -3) });
   const officialIn = group('knia-press', { firstSeen: addDays(today, -29), published: addDays(today, -29) });
   const officialOut = group('fsc-press', { firstSeen: addDays(today, -30), published: addDays(today, -30) });
-  const industryIn = group('insweek', { topic: 'industry', firstSeen: addDays(today, -13), published: addDays(today, -13) });
-  const industryOut = group('fins', { topic: 'industry', firstSeen: addDays(today, -14), published: addDays(today, -14) });
+  const industryIn = group('insweek', { topic: 'industry', important: true, firstSeen: addDays(today, -13), published: addDays(today, -13) });
+  const industryOut = group('fins', { topic: 'industry', important: true, firstSeen: addDays(today, -14), published: addDays(today, -14) });
   const future = group('hanwha', { firstSeen: addDays(today, 1), published: addDays(today, 1) });
   const entries = [newsIn, newsOut, officialIn, officialOut, industryIn, industryOut, future];
   const result = buildLatest({ ...input(), dailies: entries.map(entry => daily(entry.firstSeen, [entry])) });
@@ -135,6 +147,50 @@ test('공시표는 시행일 내림차순으로 최대 30행을 반환한다', (
   assert.equal(result.rates.length, 30);
   assert.equal(result.rates[0]?.effective, row.effective);
   assert.equal(rates.length, 31);
+});
+
+test('소식에는 관련도 low가 없고 관련도가 없는 옛 데이터는 규칙으로 채운다', () => {
+  const high = numbered('insnews', 1, { relevance: 'high' });
+  const low = numbered('insweek', 2, { relevance: 'low' });
+  const legacyHigh = numbered('fins', 3, { relevance: null, relevanceBy: null, title: '연금저축보험, 가입 때 안내받은 연금액 보장 안돼…중도해지 땐 세금 부담' });
+  const legacyLow = numbered('fins', 4, { relevance: null, relevanceBy: null, title: '보험산업 성장률 내년 3.5%' });
+  const result = buildLatest({ ...input(), dailies: [daily(today, [high, low, legacyHigh, legacyLow])] });
+  assert.ok(result.news.every(entry => entry.relevance === 'high' || entry.relevance === 'medium'));
+  assert.deepEqual(result.news.map(entry => entry.id).sort(), [high.id, legacyHigh.id].sort());
+  const filled = result.news.find(entry => entry.id === legacyHigh.id);
+  assert.equal(filled?.relevance, 'high');
+  assert.equal(filled?.relevanceBy, 'rule');
+  // low지만 중요하지도, 여러 출처도 아니면 업계 동향에도 넣지 않는다.
+  assert.deepEqual(result.industry, []);
+});
+
+test('소식은 관련도 high를 먼저, 그다음 게시일 최신순으로 둔다', () => {
+  const mediumToday = numbered('insnews', 1, { relevance: 'medium', published: today });
+  const highYesterday = numbered('insnews', 2, { relevance: 'high', published: addDays(today, -1) });
+  const highToday = numbered('insweek', 3, { relevance: 'high', published: today });
+  const result = buildLatest({ ...input(), dailies: [daily(today, [mediumToday, highYesterday, highToday])] });
+  assert.deepEqual(result.news.map(entry => entry.id), [highToday.id, highYesterday.id, mediumToday.id]);
+});
+
+test('업계 동향은 중요한 것을 먼저 두고 (소식+공식 발표)/9개로 자른다', () => {
+  const news = Array.from({ length: 18 }, (_, n) => numbered('insnews', n));
+  const importantMany = numbered('insweek', 1, { topic: 'industry', important: true });
+  importantMany.sources = threeSources(importantMany);
+  const importantOne = numbered('insweek', 2, { topic: 'industry', important: true });
+  const many = numbered('insweek', 3, { topic: 'industry' });
+  many.sources = threeSources(many);
+  const lowMany = numbered('insweek', 4, { relevance: 'low' });
+  lowMany.sources = threeSources(lowMany);
+  const plain = numbered('insweek', 5, { topic: 'industry' });
+  const industry = [plain, lowMany, many, importantOne, importantMany];
+
+  const result = buildLatest({ ...input(), dailies: [daily(today, [...news, ...industry])] });
+  assert.equal(result.news.length, 18);
+  assert.equal(result.official.length, 0);
+  assert.deepEqual(result.industry.map(entry => entry.id), [importantMany.id, importantOne.id]);
+
+  const alone = buildLatest({ ...input(), dailies: [daily(today, industry)] });
+  assert.deepEqual(alone.industry.map(entry => entry.id), [importantMany.id]);
 });
 
 test('데이터가 없어도 스키마에 맞는 빈 화면 데이터를 만든다', () => {

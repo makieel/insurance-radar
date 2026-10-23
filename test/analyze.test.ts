@@ -67,11 +67,39 @@ test('보험에 무관한 전문지 글은 버리고 본 기록만 남긴다', (
   assert.equal(result.seen[excluded.id], today);
 });
 
-test('처음 보는 묶음은 대표 출처의 요약 대기에 들어간다', () => {
+test('처음 보는 묶음은 대표 출처의 관련도·요약 대기에 들어간다', () => {
   const result = analyze(input());
   const group = result.daily.groups[0];
   assert.ok(group);
-  assert.deepEqual(result.pending, [{ type: 'summary', id: group.id, url: item.url, source: item.source, date: today }]);
+  assert.deepEqual(result.pending, [
+    { type: 'relevance', id: group.id, url: item.url, source: item.source, date: today },
+    { type: 'summary', id: group.id, url: item.url, source: item.source, date: today },
+  ]);
+});
+
+test('단합대회 같은 잡음 글은 소식이 되지 않고 본 기록만 남긴다', () => {
+  const noise: RawItem = {
+    id: 'insweek:72799', source: 'insweek', title: '손해사정사회, 임시총회·회원 단합대회 개최',
+    url: 'https://www.insweek.co.kr/news/articleView.html?idxno=72799', published: today, hints: [], attachments: [],
+  };
+  const result = analyze(input([noise]));
+  assert.deepEqual(result.daily.groups, []);
+  assert.deepEqual(result.pending, []);
+  assert.equal(result.seen[noise.id], today);
+});
+
+test('묶음마다 규칙 관련도를 채우고 관련도 대기를 요약 대기보다 앞에 둔다', () => {
+  const pension: RawItem = {
+    id: 'fins:110290', source: 'fins', title: '연금저축보험, 가입 때 안내받은 연금액 보장 안돼…중도해지 땐 세금 부담',
+    url: 'http://www.fins.co.kr/news/articleView.html?idxno=110290', published: today, hints: [], attachments: [],
+  };
+  const result = analyze(input([item, pension]));
+  const byId = new Map(result.daily.groups.map(group => [group.id, group]));
+  assert.equal(byId.get(`g:${item.id}`)?.relevance, 'medium');
+  assert.equal(byId.get(`g:${pension.id}`)?.relevance, 'high');
+  assert.ok(result.daily.groups.every(group => group.relevanceBy === 'rule'));
+  const types = result.pending.map(job => job.type);
+  assert.deepEqual(types, ['relevance', 'relevance', 'summary', 'summary']);
 });
 
 test('공식 발표의 정확한 시행일은 규칙으로 추출하고 판정 대기에서 뺀다', () => {
@@ -107,7 +135,7 @@ test('규정변경예고는 본문에 정확한 날짜가 있어도 예고로 �
   assert.equal(result.changes[0]?.date, null);
 });
 
-test('요약은 공식 출처를 우선하고 같은 종류에서는 여러 출처 묶음을 먼저 둔다', () => {
+test('요약은 공식 출처를 우선하고 같은 종류에서는 여러 출처 묶음을 먼저 두며 업계 동향은 관련도만 맡긴다', () => {
   const press: RawItem[] = [
     { id: 'insnews:93476', source: 'insnews', title: '‘크루즈’로 변한 한화손보 한남사옥, 도심에서 체험하는 ‘웰니스 여정’', url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93476', published: today, hints: [], attachments: [] },
     { id: 'insnews:93466', source: 'insnews', title: '교보생명, 보험금 지급까지 2시간… 생명보험업계 최단기간', url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93466', published: today, hints: [], attachments: [] },
@@ -118,5 +146,9 @@ test('요약은 공식 출처를 우선하고 같은 종류에서는 여러 출�
   assert.equal(summaries[0]?.source, 'knia-press');
   const second = result.daily.groups.find(group => group.id === summaries[1]?.id);
   assert.equal(second?.sources.length, 2);
-  assert.equal(summaries.length, 3);
+  // 사옥 체험 기사는 업계 동향(관련도 low)이라 요약하지 않는다.
+  assert.equal(summaries.length, 2);
+  assert.ok(!summaries.some(job => job.id === 'g:insnews:93476'));
+  assert.ok(result.pending.some(job => job.type === 'relevance' && job.id === 'g:insnews:93476'));
+  assert.equal(result.pending.filter(job => job.type === 'relevance').length, 3);
 });

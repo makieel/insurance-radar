@@ -25,6 +25,10 @@ export const ConfigSchema = z.object({
     exclude: z.array(z.string()),
     /** 하나도 없으면 보험 무관 소식으로 보고 버린다(전문지 피드의 은행·카드 기사 등) */
     insurance: z.array(z.string()),
+    /** 제목에 있고 personal 단어가 없으면 아예 버린다(실적 점유율, 인사, 행사 등) */
+    noise: z.array(z.string()),
+    /** 개인(가입자·가족) 관련 신호. 관련도 규칙과 noise 구제에 쓴다 */
+    personal: z.array(z.string()),
   }),
   limits: z.object({
     /** 하루 AI 호출 상한(요약 + 변경 판정) */

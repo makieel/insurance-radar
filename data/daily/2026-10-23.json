@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T13:13:38.254Z",
+  "generatedAt": "2026-10-23T13:22:14.354Z",
   "groups": [
     {
       "id": "g:kyobo:17361",
@@ -16260,6 +16260,116 @@
       "relevance": null,
       "important": false,
       "relevanceBy": null
+    },
+    {
+      "id": "g:chosun:GNSTSOJQGA2TINJXMQZWCMRYMU",
+      "topic": "auto",
+      "kind": "press",
+      "title": "9월 자동차보험 손해율 85%… 1년 전보다 9.2%p 하락",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/23/GNSTSOJQGA2TINJXMQZWCMRYMU/",
+      "published": "2026-10-23",
+      "firstSeen": "2026-10-23",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/10/23/GNSTSOJQGA2TINJXMQZWCMRYMU/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GNSTSOJQGA2TINJXMQZWCMRYMU"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule"
+    },
+    {
+      "id": "g:yna:AKR20261023069100002",
+      "topic": "auto",
+      "kind": "press",
+      "title": "9월 차보험 손해율 85.0%로 9.2%p↓…올해 누적도 소폭 개선",
+      "url": "https://www.yna.co.kr/view/AKR20261023069100002",
+      "published": "2026-10-23",
+      "firstSeen": "2026-10-23",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261023069100002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261023069100002"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule"
+    },
+    {
+      "id": "g:joongang:25471082",
+      "topic": "auto",
+      "kind": "press",
+      "title": "수리비 비싼 전기차 올해 75% 급증…보험업계 속탄다",
+      "url": "https://www.joongang.co.kr/article/25471082",
+      "published": "2026-10-20",
+      "firstSeen": "2026-10-23",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25471082"
+        }
+      ],
+      "itemIds": [
+        "joongang:25471082"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule"
+    },
+    {
+      "id": "g:joongang:25470904",
+      "topic": "auto",
+      "kind": "press",
+      "title": "테슬라 약진에 보험업계는 속앓이…전기차 손해율, 내연차보다 높아",
+      "url": "https://www.joongang.co.kr/article/25470904",
+      "published": "2026-10-19",
+      "firstSeen": "2026-10-23",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25470904"
+        }
+      ],
+      "itemIds": [
+        "joongang:25470904"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule"
+    },
+    {
+      "id": "g:joongang:25469804",
+      "topic": "life",
+      "kind": "press",
+      "title": "‘가장의 보험’ 가장 덕보게…살아서 쓰는 새 종신보험 등장",
+      "url": "https://www.joongang.co.kr/article/25469804",
+      "published": "2026-10-15",
+      "firstSeen": "2026-10-23",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469804"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469804"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule"
     }
   ],
   "status": [
@@ -16387,6 +16497,38 @@
       "source": "fins",
       "ok": true,
       "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 3,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": false,
+      "count": 0,
+      "error": "수집 결과가 0건입니다. 출처 응답과 페이지 구조를 확인하세요.",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
       "error": null,
       "note": null,
       "disabled": false

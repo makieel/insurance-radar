@@ -2,7 +2,8 @@ name: 보험 레이더 갱신
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # 일반 언론 RSS가 10~11시간치라 하루 세 번(09·15·21시 KST) 수집한다.
+    - cron: '0 0,6,12 * * *'
   workflow_dispatch:
   push:
     branches: [main]

@@ -446,5 +446,96 @@
     "url": "https://www.fsc.go.kr/no010101/87818",
     "date": "2026-10-23",
     "source": "fsc-press"
+  },
+  {
+    "type": "relevance",
+    "id": "g:chosun:GNSTSOJQGA2TINJXMQZWCMRYMU",
+    "url": "https://www.chosun.com/economy/stock-finance/2026/10/23/GNSTSOJQGA2TINJXMQZWCMRYMU/",
+    "date": "2026-10-23",
+    "source": "chosun"
+  },
+  {
+    "type": "relevance",
+    "id": "g:yna:AKR20261023069100002",
+    "url": "https://www.yna.co.kr/view/AKR20261023069100002",
+    "date": "2026-10-23",
+    "source": "yna"
+  },
+  {
+    "type": "relevance",
+    "id": "g:joongang:25471082",
+    "url": "https://www.joongang.co.kr/article/25471082",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "relevance",
+    "id": "g:joongang:25470904",
+    "url": "https://www.joongang.co.kr/article/25470904",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "relevance",
+    "id": "g:joongang:25469804",
+    "url": "https://www.joongang.co.kr/article/25469804",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:chosun:GNSTSOJQGA2TINJXMQZWCMRYMU",
+    "url": "https://www.chosun.com/economy/stock-finance/2026/10/23/GNSTSOJQGA2TINJXMQZWCMRYMU/",
+    "date": "2026-10-23",
+    "source": "chosun"
+  },
+  {
+    "type": "summary",
+    "id": "g:yna:AKR20261023069100002",
+    "url": "https://www.yna.co.kr/view/AKR20261023069100002",
+    "date": "2026-10-23",
+    "source": "yna"
+  },
+  {
+    "type": "summary",
+    "id": "g:joongang:25470904",
+    "url": "https://www.joongang.co.kr/article/25470904",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:joongang:25469804",
+    "url": "https://www.joongang.co.kr/article/25469804",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "judge",
+    "id": "yna:AKR20261023069100002",
+    "url": "https://www.yna.co.kr/view/AKR20261023069100002",
+    "date": "2026-10-23",
+    "source": "yna"
+  },
+  {
+    "type": "judge",
+    "id": "joongang:25471082",
+    "url": "https://www.joongang.co.kr/article/25471082",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "judge",
+    "id": "joongang:25470904",
+    "url": "https://www.joongang.co.kr/article/25470904",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "judge",
+    "id": "joongang:25469804",
+    "url": "https://www.joongang.co.kr/article/25469804",
+    "date": "2026-10-23",
+    "source": "joongang"
   }
 ]

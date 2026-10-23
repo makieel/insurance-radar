@@ -28,13 +28,24 @@ export function titleKey(title: string): Set<string> {
   return key;
 }
 
+/** 제목 속 숫자(소수점 끝 0은 지움: 85.0 → 85). 같은 통계를 매체마다 다른 제목으로 쓴 기사를 묶는 데 쓴다 */
+function keyNumbers(title: string): Set<string> {
+  const nums = title.match(/\d+(?:\.\d+)?/g) ?? [];
+  return new Set(nums.map(n => n.replace(/\.0+$/, '')).filter(n => n.length >= 2));
+}
+
 export function similar(a: string, b: string): boolean {
   const ka = titleKey(a);
   const kb = titleKey(b);
   if (!ka.size || !kb.size) return false;
   let inter = 0;
   for (const t of ka) if (kb.has(t)) inter++;
-  return inter / (ka.size + kb.size - inter) >= 0.45;
+  const jaccard = inter / (ka.size + kb.size - inter);
+  if (jaccard >= 0.45) return true;
+  // 같은 숫자(두 자리 이상)를 함께 쓰고 제목이 어느 정도 겹치면 같은 소식으로 본다.
+  const na = keyNumbers(a);
+  const shared = [...keyNumbers(b)].filter(n => na.has(n)).length;
+  return shared >= 1 && jaccard >= 0.2;
 }
 
 function kindRank(kind: SourceKind): number {

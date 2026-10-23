@@ -117,3 +117,11 @@ test('실패한 수집기의 부분 본문은 반환하지 않는다', async () 
   } }], context());
   assert.deepEqual(result.bodies, {});
 });
+
+test('보험 기사가 없는 날의 일반 언론처럼 읽은 글은 있고 거른 뒤 0건이면 성공으로 본다', async () => {
+  const collectors: Collector[] = [{ id: 'donga', async run() { return { items: [], scanned: 50 }; } }];
+  const [status] = (await runCollectors(collectors, context())).status;
+  assert.equal(status?.ok, true);
+  assert.equal(status?.count, 0);
+  assert.match(status?.note ?? '', /보험 기사 없음/);
+});

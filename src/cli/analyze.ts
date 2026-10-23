@@ -6,9 +6,10 @@ import type { GroupInput } from '../analyze/group.ts';
 import { changeSentences } from '../analyze/dates-ko.ts';
 import { ruleChanges, noticeChange, rateChange, mergeChanges } from '../analyze/changes.ts';
 import { newRates } from '../analyze/rates.ts';
+import { isNoise, ruleRelevance } from '../analyze/relevance.ts';
 import { addDays } from '../lib/dates.ts';
 import { DailyReport, RawSnapshot, SOURCE_KINDS } from '../schema.ts';
-import type { Category, Change, RateRow } from '../schema.ts';
+import type { Category, Change, NewsGroup, RateRow } from '../schema.ts';
 import {
   CHANGES_PATH, RATES_PATH, SEEN_PATH, PENDING_PATH,
   bodiesPath, dailyPath, rawPath, pipelineDate, readJson, writeJson,
@@ -33,7 +34,7 @@ export function analyze(input: {
     if (!source) throw new Error(`설정에 출처가 없습니다: ${item.source}`);
     const body = bodies[item.id] ?? '';
     const topic = classify({ title: item.title, hints: item.hints, body: body || null, kind: source.kind }, config.keywords);
-    if (topic === 'exclude') continue;
+    if (topic === 'exclude' || isNoise(item.title, config.keywords)) continue;
     inputs.push({ item, topic, kind: source.kind, sourceName: source.name });
     const changeTopic: Category = topic === 'industry' ? 'general' : topic;
     const found: Change[] = [];
@@ -50,20 +51,31 @@ export function analyze(input: {
     }
   }
 
-  const groups = groupItems(inputs, today);
-  // 요약은 화면에 보이는 기간(최근 30일) 안의 묶음만 맡긴다. 첫 실행 채우기의 옛 글로 AI 한도를 쓰지 않기 위해서다.
-  const summaries: PendingAi[] = [...groups]
+  const representativeOf = (group: NewsGroup): GroupInput => {
+    const representative = inputs.find(({ item }) => `g:${item.id}` === group.id)
+      ?? inputs.find(({ item }) => item.url === group.url);
+    if (!representative) throw new Error('묶음의 대표 출처를 찾을 수 없습니다.');
+    return representative;
+  };
+  const groups = groupItems(inputs, today).map((group): NewsGroup => {
+    const { item, topic, kind } = representativeOf(group);
+    const relevance = ruleRelevance({ title: item.title, hints: item.hints, body: bodies[item.id] || null, kind, topic }, config.keywords);
+    return { ...group, relevance, relevanceBy: 'rule' };
+  });
+  // AI 작업은 화면에 보이는 기간(최근 30일) 안의 묶음만 맡긴다. 첫 실행 채우기의 옛 글로 AI 한도를 쓰지 않기 위해서다.
+  const recent = [...groups]
     .filter(group => group.published >= addDays(today, -29))
-    .sort((a, b) => SOURCE_KINDS.indexOf(a.kind) - SOURCE_KINDS.indexOf(b.kind) || b.sources.length - a.sources.length || b.published.localeCompare(a.published))
-    .map(group => {
-      const representative = inputs.find(({ item }) => `g:${item.id}` === group.id)
-        ?? inputs.find(({ item }) => item.url === group.url);
-      if (!representative) throw new Error('묶음의 대표 출처를 찾을 수 없습니다.');
-      return { type: 'summary', id: group.id, url: group.url, date: today, source: representative.item.source };
-    });
+    .sort((a, b) => SOURCE_KINDS.indexOf(a.kind) - SOURCE_KINDS.indexOf(b.kind) || b.sources.length - a.sources.length || b.published.localeCompare(a.published));
+  const jobOf = (type: PendingAi['type'], group: NewsGroup): PendingAi =>
+    ({ type, id: group.id, url: group.url, date: today, source: representativeOf(group).item.source });
+  const relevances = recent.map(group => jobOf('relevance', group));
+  // 업계 내부 이야기는 요약하지 않는다. 공식 발표는 관련도와 무관하게 요약한다.
+  const summaries = recent
+    .filter(group => group.relevance !== 'low' || group.kind === 'gov' || group.kind === 'assoc')
+    .map(group => jobOf('summary', group));
   const jobs = new Map<string, PendingAi>();
   const newestJudges = judges.sort((a, b) => b.published.localeCompare(a.published)).map(({ published: _p, ...job }) => job);
-  for (const job of [...input.pending, ...summaries, ...newestJudges]) {
+  for (const job of [...input.pending, ...relevances, ...summaries, ...newestJudges]) {
     const key = `${job.type}:${job.id}`;
     if (!jobs.has(key)) jobs.set(key, job);
   }

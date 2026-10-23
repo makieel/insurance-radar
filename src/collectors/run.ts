@@ -57,7 +57,8 @@ export async function runCollectors(
       ]);
       state.count = new Set(result.items.map(item => item.id)).size + (result.rates?.length ?? 0);
       state.note = result.note ?? null;
-      if (state.count === 0) throw new Error('수집 결과가 0건입니다. 출처 응답과 페이지 구조를 확인하세요.');
+      if (state.count === 0 && !(result.scanned && result.scanned > 0)) throw new Error('수집 결과가 0건입니다. 출처 응답과 페이지 구조를 확인하세요.');
+      if (state.count === 0) state.note ??= `오늘 보험 기사 없음(읽은 글 ${result.scanned}건)`;
       for (const item of result.items) if (!items.has(item.id)) items.set(item.id, item);
       rates.push(...(result.rates ?? []));
       Object.assign(bodies, sourceBodies);
