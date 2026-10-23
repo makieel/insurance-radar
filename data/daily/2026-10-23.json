@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T11:34:50.708Z",
+  "generatedAt": "2026-10-23T11:47:40.293Z",
   "groups": [
     {
       "id": "g:kyobo:17361",
@@ -34,7 +34,7 @@
         "insweek:72796",
         "fins:110307"
       ],
-      "summary": null
+      "summary": "올해 상반기 교보생명의 보험금 신속지급 평균기간은 0.24일로 생명보험업계에서 가장 빨랐습니다. 이는 업계 평균인 0.71일보다 약 3배 빠른 수준입니다."
     },
     {
       "id": "g:insnews:93476",
@@ -72,7 +72,7 @@
       "itemIds": [
         "insnews:93478"
       ],
-      "summary": null
+      "summary": "올해 9월까지 주요 손해보험사의 자동차보험 누적 손해율이 지난해보다 소폭 낮아졌어요. 강수량과 고속도로 통행량 감소 등이 영향을 미친 것으로 나타났어요."
     },
     {
       "id": "g:insnews:93475",
@@ -467,7 +467,7 @@
       "itemIds": [
         "kiri:224294"
       ],
-      "summary": null
+      "summary": "보험연구원이 2027년 보험산업 전망과 과제 세미나를 개최합니다."
     },
     {
       "id": "g:insnews:93453",
@@ -1746,7 +1746,7 @@
         "insnews:93402",
         "insweek:72756"
       ],
-      "summary": null
+      "summary": "메트라이프생명이 사망보장과 변액펀드 운용을 통한 자산관리를 결합한 ‘(무)메트라이프 변액리치정기보험’을 출시했어요. 이 상품은 생애주기별 전환 기능을 함께 제공해요."
     },
     {
       "id": "g:insnews:93400",
@@ -1813,7 +1813,7 @@
         "insnews:93396",
         "insweek:72754"
       ],
-      "summary": null
+      "summary": "삼성생명은 오는 21일 폐렴과 로봇 인공관절수술 보장을 강화한 삼성 시니어대표건강보험 종합보장형 등을 개정 출시했어요. 장기요양 판정 이후 치료 과정을 통합 보장하는 내용도 포함되었어요."
     },
     {
       "id": "g:insnews:93395",
@@ -1989,7 +1989,7 @@
         "samsungfire:1417",
         "insweek:72746"
       ],
-      "summary": null
+      "summary": "삼성화재가 고객에게 더 잘 맞는 건강보험 THE FIT을 출시했습니다."
     },
     {
       "id": "g:insnews:93387",
@@ -2773,7 +2773,7 @@
       "itemIds": [
         "hanwha:3566"
       ],
-      "summary": null
+      "summary": "한화생명에서 사망보험금이 최대 210% 체증되는 「한화생명 필요할때 쓰는 종신보험」을 출시했어요. 보험료 완납 후에는 고객이 원하는 시점에 활용할 수 있어요."
     },
     {
       "id": "g:kiri:222794",
@@ -2792,7 +2792,7 @@
       "itemIds": [
         "kiri:222794"
       ],
-      "summary": null
+      "summary": "보험연구원이 기후위기 시대, 자연재해 위험관리와 기후보험 세미나를 개최합니다."
     },
     {
       "id": "g:fss-press:239722",
@@ -2811,7 +2811,7 @@
       "itemIds": [
         "fss-press:239722"
       ],
-      "summary": null
+      "summary": "금융권의 소멸시효 연장 관행을 개선하기 위해 조건부 대손인정제도가 시행됩니다."
     },
     {
       "id": "g:hanwha:3565",
@@ -2849,7 +2849,7 @@
       "itemIds": [
         "knia-press:88765"
       ],
-      "summary": null
+      "summary": "손해보험협회가 자동차보험 경상환자 보상처리 피해 신고센터를 운영합니다."
     },
     {
       "id": "g:fss-press:237413",
@@ -2868,7 +2868,7 @@
       "itemIds": [
         "fss-press:237413"
       ],
-      "summary": null
+      "summary": "전환하고 싶어요 한 마디면 보험료가 할인됩니다."
     },
     {
       "id": "g:fss-press:232597",
@@ -2887,7 +2887,7 @@
       "itemIds": [
         "fss-press:232597"
       ],
-      "summary": null
+      "summary": "의료계와 플랫폼 협력으로 실손24 연계율 제고에 나섭니다."
     },
     {
       "id": "g:knia-press:88762",
@@ -2906,7 +2906,7 @@
       "itemIds": [
         "knia-press:88762"
       ],
-      "summary": null
+      "summary": "손해보험 상위 1% 모집종사자 최고의 영예인 2026 블루리본 컨설턴트로 1,602명이 선정되었습니다."
     },
     {
       "id": "g:hanwha:3564",
@@ -2963,7 +2963,7 @@
       "itemIds": [
         "fss-press:231823"
       ],
-      "summary": null
+      "summary": "2026년 상반기 보험사기 적발현황 및 대응방안이 발표되었습니다."
     },
     {
       "id": "g:knia-press:88760",
@@ -14069,17 +14069,17 @@
   "status": [
     {
       "source": "fsc-press",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
-      "note": null,
+      "ok": true,
+      "count": 61,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집",
       "disabled": false
     },
     {
       "source": "fsc-rule",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 10,
+      "error": null,
       "note": null,
       "disabled": false
     },

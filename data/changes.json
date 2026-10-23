@@ -1,5 +1,71 @@
 [
   {
+    "id": "c:fins:110266:ai",
+    "category": "medical",
+    "title": "실손의료보험 계약재매입 제도 내달 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "다음 달부터",
+    "quote": "다음 달부터 실손의료보험 계약재매입 제도 시행을 앞둔 가운데, 주요 손해보험사들이 관련 상품 개발과 전산 구축 등 준비 작업에 속도를 내고 있다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-20",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110266"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:insweek:72754:ai",
+    "category": "life",
+    "title": "삼성생명, '삼성 시니어대표건강보험' 보장 강화 개정",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 21일",
+    "quote": "삼성생명은 오는 21일 폐렴과 로봇 인공관절수술 보장을 강화한 ‘삼성 시니어대표건강보험 종합보장형’과 장기요양(LTC) 판정 이후 치료",
+    "status": "confirmed",
+    "past": true,
+    "announced": "2026-10-20",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72754"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:insweek:72740:ai",
+    "category": "general",
+    "title": "판매수수료 4년 분급 방식 도입",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년부터",
+    "quote": "내년부터는 판매수수료가 4년 분급 방식으로, 2029년부터는 7년 분급체계가 예정돼 있다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-19",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72740"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-23"
+  },
+  {
     "id": "c:fsc-press:87818:2026-09-30",
     "category": "medical",
     "title": "의료계·플랫폼 협력으로 “실손24” 연계율 제고 나선다.",
