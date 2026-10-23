@@ -1,5 +1,6 @@
 import type { Config } from '../config.ts';
 import type { FetchLike } from '../lib/http.ts';
+import type { PdfBudget } from '../lib/pdf.ts';
 import type { RateRow, RawItem, SourceId } from '../schema.ts';
 
 export interface CollectCtx {
@@ -14,6 +15,8 @@ export interface CollectCtx {
   seen: Set<string>;
   /** 처음 보는 글의 본문 텍스트를 넘긴다(PDF 텍스트 포함). 저장소에 커밋하지 않는 임시 저장소로 간다 */
   putBody(id: string, text: string): void;
+  /** 하루 PDF 첨부 예산(모든 수집기가 함께 씀). fetchPdfText에 넘긴다 */
+  pdfBudget: PdfBudget;
 }
 
 export interface CollectResult {
