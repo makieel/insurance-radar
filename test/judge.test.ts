@@ -165,3 +165,13 @@ test('judgeChanges: 호출이 실패하면 예외', async () => {
   };
   await assert.rejects(judgeChanges([knia], chat, TODAY), /429/);
 });
+
+test('judgeChanges: 근거 문장의 날짜가 시행 시점이 아니면(게시일 등) exact로 쓰지 않는다', async () => {
+  const body = "금융위원회는 '26.10.20. 보도자료에서 해당 특약 할인이 다음 달부터 적용된다고 밝혔다.";
+  const input = { ...knia, item: { ...knia.item, id: 'knia-press:1' }, body };
+  const { chat } = fakeChat([{ id: input.item.id, isChange: true, title: '특약 할인 적용', quote: body, category: 'auto' }]);
+  const [c] = await judgeChanges([input], chat, TODAY);
+  assert.equal(c.when, 'phrase');
+  assert.equal(c.date, null);
+  assert.match(c.phrase, /다음 달부터/);
+});

@@ -46,8 +46,10 @@ function toChange(input: JudgeInput, raw: Record<string, unknown>, today: string
   let period: Change['period'] = null;
   let phrase: string;
   let past = false;
+  // 근거 문장에 게시일 같은 다른 날짜가 섞일 수 있으므로, 날짜 바로 뒤에 시행 시점을 뜻하는 말이 올 때만 정확한 날짜로 본다.
   const exact = exactDateIn(quote);
-  if (exact) {
+  const effective = exact !== null && /^[^가-힣]{0,6}(?:\([^)]{0,6}\))?\s*(?:일\s*)?(?:부터|이후|시행|적용|체결|가입|개시|출시|운영)/.test(quote.slice(quote.indexOf(exact.raw) + exact.raw.length));
+  if (exact && effective) {
     when = 'exact';
     date = exact.iso;
     phrase = exact.raw;

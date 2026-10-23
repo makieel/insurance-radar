@@ -6,6 +6,7 @@ import type { GroupInput } from '../analyze/group.ts';
 import { changeSentences } from '../analyze/dates-ko.ts';
 import { ruleChanges, noticeChange, rateChange, mergeChanges } from '../analyze/changes.ts';
 import { newRates } from '../analyze/rates.ts';
+import { addDays } from '../lib/dates.ts';
 import { DailyReport, RawSnapshot, SOURCE_KINDS } from '../schema.ts';
 import type { Category, Change, RateRow } from '../schema.ts';
 import {
@@ -22,7 +23,7 @@ export function analyze(input: {
   const seen = { ...input.seen };
   const inputs: GroupInput[] = [];
   const incoming: Change[] = [];
-  const judges: PendingAi[] = [];
+  const judges: (PendingAi & { published: string })[] = [];
   const sources = new Map(config.sources.map(source => [source.id, source]));
 
   for (const item of raw.items) {
@@ -45,13 +46,15 @@ export function analyze(input: {
     }
     incoming.push(...found);
     if (found.length === 0 && topic !== 'industry' && changeSentences(body).length > 0) {
-      judges.push({ type: 'judge', id: item.id, url: item.url, date: today, source: item.source });
+      judges.push({ type: 'judge', id: item.id, url: item.url, date: today, source: item.source, published: item.published });
     }
   }
 
   const groups = groupItems(inputs, today);
+  // 요약은 화면에 보이는 기간(최근 30일) 안의 묶음만 맡긴다. 첫 실행 채우기의 옛 글로 AI 한도를 쓰지 않기 위해서다.
   const summaries: PendingAi[] = [...groups]
-    .sort((a, b) => SOURCE_KINDS.indexOf(a.kind) - SOURCE_KINDS.indexOf(b.kind) || b.sources.length - a.sources.length)
+    .filter(group => group.published >= addDays(today, -29))
+    .sort((a, b) => SOURCE_KINDS.indexOf(a.kind) - SOURCE_KINDS.indexOf(b.kind) || b.sources.length - a.sources.length || b.published.localeCompare(a.published))
     .map(group => {
       const representative = inputs.find(({ item }) => `g:${item.id}` === group.id)
         ?? inputs.find(({ item }) => item.url === group.url);
@@ -59,7 +62,8 @@ export function analyze(input: {
       return { type: 'summary', id: group.id, url: group.url, date: today, source: representative.item.source };
     });
   const jobs = new Map<string, PendingAi>();
-  for (const job of [...input.pending, ...summaries, ...judges]) {
+  const newestJudges = judges.sort((a, b) => b.published.localeCompare(a.published)).map(({ published: _p, ...job }) => job);
+  for (const job of [...input.pending, ...summaries, ...newestJudges]) {
     const key = `${job.type}:${job.id}`;
     if (!jobs.has(key)) jobs.set(key, job);
   }
