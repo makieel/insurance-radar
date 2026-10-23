@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T13:22:14.354Z",
+  "generatedAt": "2026-10-23T13:24:34.885Z",
   "groups": [
     {
       "id": "g:kyobo:17361",
@@ -1939,7 +1939,7 @@
       "itemIds": [
         "insnews:93419"
       ],
-      "summary": null,
+      "summary": "4대 은행이 SK하이닉스, 한국무역보험공사와 함께 반도체 협력기업에 총 2조원 규모의 금융지원에 나서요.",
       "relevance": null,
       "important": false,
       "relevanceBy": null
@@ -1961,7 +1961,7 @@
       "itemIds": [
         "insnews:93410"
       ],
-      "summary": null,
+      "summary": "대형 법인보험대리점 인카금융서비스가 국정감사 지적에 따라 지급한 수수료의 120%까지 돌려받던 징벌적 환수기준을 폐지해요.",
       "relevance": null,
       "important": false,
       "relevanceBy": null
@@ -2032,7 +2032,7 @@
       "itemIds": [
         "insnews:93400"
       ],
-      "summary": null,
+      "summary": "큐핏이 자사 PV가격산출솔루션의 핵심 기술인 보험요율 자동 산출 장치, 방법 및 컴퓨터 프로그램에 대한 특허 등록을 완료했어요.",
       "relevance": null,
       "important": false,
       "relevanceBy": null
@@ -2196,7 +2196,7 @@
       "itemIds": [
         "fins:110270"
       ],
-      "summary": null,
+      "summary": "메트라이프생명이 20일 사망보장 중심의 정기보험에 변액펀드 운용과 생애주기별 전환 기능을 결합한 무배당 메트라이프 변액리치정기보험을 출시했어요.",
       "relevance": null,
       "important": false,
       "relevanceBy": null
@@ -2218,7 +2218,7 @@
       "itemIds": [
         "fins:110269"
       ],
-      "summary": null,
+      "summary": "오는 21일 삼성생명이 폐렴 및 로봇 인공관절수술 보장을 강화한 종합보장형과 장기요양 판정 이후 치료 과정을 통합 보장하는 LTC통합치료형 상품을 출시해요.",
       "relevance": null,
       "important": false,
       "relevanceBy": null
@@ -2240,7 +2240,7 @@
       "itemIds": [
         "fins:110268"
       ],
-      "summary": null,
+      "summary": "내년 3월 1일 지역 농·축협에 적용되는 방카슈랑스 규제 특례가 만료될 예정이에요.",
       "relevance": null,
       "important": false,
       "relevanceBy": null
@@ -2262,7 +2262,7 @@
       "itemIds": [
         "fins:110266"
       ],
-      "summary": null,
+      "summary": "다음 달 실손의료보험 계약재매입 제도 시행을 앞두고 주요 손해보험사들이 관련 상품 개발과 전산 구축을 준비하고 있어요.",
       "relevance": null,
       "important": false,
       "relevanceBy": null
@@ -2311,7 +2311,7 @@
       "itemIds": [
         "insnews:93387"
       ],
-      "summary": null,
+      "summary": "보험업권이 취약 어르신 65만명을 대상으로 낙상사고 치료비와 치매배상책임보험, 헬스케어 등을 무료로 제공해요.",
       "relevance": null,
       "important": false,
       "relevanceBy": null
@@ -16281,7 +16281,7 @@
       "summary": null,
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "rule"
+      "relevanceBy": "ai"
     },
     {
       "id": "g:yna:AKR20261023069100002",
@@ -16303,7 +16303,7 @@
       "summary": null,
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "rule"
+      "relevanceBy": "ai"
     },
     {
       "id": "g:joongang:25471082",
@@ -16323,9 +16323,9 @@
         "joongang:25471082"
       ],
       "summary": null,
-      "relevance": "low",
+      "relevance": "medium",
       "important": false,
-      "relevanceBy": "rule"
+      "relevanceBy": "ai"
     },
     {
       "id": "g:joongang:25470904",
@@ -16347,7 +16347,7 @@
       "summary": null,
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "rule"
+      "relevanceBy": "ai"
     },
     {
       "id": "g:joongang:25469804",
@@ -16369,7 +16369,7 @@
       "summary": null,
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "rule"
+      "relevanceBy": "ai"
     }
   ],
   "status": [
@@ -16511,10 +16511,10 @@
     },
     {
       "source": "donga",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "수집 결과가 0건입니다. 출처 응답과 페이지 구조를 확인하세요.",
-      "note": null,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건)",
       "disabled": false
     },
     {

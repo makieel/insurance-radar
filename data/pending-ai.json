@@ -1,216 +1,6 @@
 [
   {
     "type": "summary",
-    "id": "g:insjournal:33587",
-    "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33587",
-    "date": "2026-10-23",
-    "source": "insjournal"
-  },
-  {
-    "type": "summary",
-    "id": "g:insjournal:33586",
-    "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33586",
-    "date": "2026-10-23",
-    "source": "insjournal"
-  },
-  {
-    "type": "summary",
-    "id": "g:insjournal:33585",
-    "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33585",
-    "date": "2026-10-23",
-    "source": "insjournal"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110292",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110292",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110290",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110290",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110289",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110289",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110283",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110283",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110281",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110281",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110275",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110275",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110273",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110273",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110272",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110272",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:insnews:93419",
-    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93419",
-    "date": "2026-10-23",
-    "source": "insnews"
-  },
-  {
-    "type": "summary",
-    "id": "g:insnews:93410",
-    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93410",
-    "date": "2026-10-23",
-    "source": "insnews"
-  },
-  {
-    "type": "summary",
-    "id": "g:insnews:93409",
-    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93409",
-    "date": "2026-10-23",
-    "source": "insnews"
-  },
-  {
-    "type": "summary",
-    "id": "g:insnews:93400",
-    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93400",
-    "date": "2026-10-23",
-    "source": "insnews"
-  },
-  {
-    "type": "summary",
-    "id": "g:insnews:93395",
-    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93395",
-    "date": "2026-10-23",
-    "source": "insnews"
-  },
-  {
-    "type": "summary",
-    "id": "g:insweek:72758",
-    "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72758",
-    "date": "2026-10-23",
-    "source": "insweek"
-  },
-  {
-    "type": "summary",
-    "id": "g:insweek:72757",
-    "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72757",
-    "date": "2026-10-23",
-    "source": "insweek"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110271",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110271",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110270",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110270",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110269",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110269",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110268",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110268",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:fins:110266",
-    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110266",
-    "date": "2026-10-23",
-    "source": "fins"
-  },
-  {
-    "type": "summary",
-    "id": "g:insnews:93387",
-    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93387",
-    "date": "2026-10-23",
-    "source": "insnews"
-  },
-  {
-    "type": "summary",
-    "id": "g:insnews:93389",
-    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93389",
-    "date": "2026-10-23",
-    "source": "insnews"
-  },
-  {
-    "type": "summary",
-    "id": "g:insweek:72752",
-    "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72752",
-    "date": "2026-10-23",
-    "source": "insweek"
-  },
-  {
-    "type": "summary",
-    "id": "g:insweek:72753",
-    "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72753",
-    "date": "2026-10-23",
-    "source": "insweek"
-  },
-  {
-    "type": "summary",
-    "id": "g:insweek:72751",
-    "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72751",
-    "date": "2026-10-23",
-    "source": "insweek"
-  },
-  {
-    "type": "summary",
-    "id": "g:insweek:72749",
-    "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72749",
-    "date": "2026-10-23",
-    "source": "insweek"
-  },
-  {
-    "type": "summary",
-    "id": "g:insweek:72748",
-    "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72748",
-    "date": "2026-10-23",
-    "source": "insweek"
-  },
-  {
-    "type": "summary",
     "id": "g:insweek:72747",
     "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72747",
     "date": "2026-10-23",
@@ -448,93 +238,37 @@
     "source": "fsc-press"
   },
   {
-    "type": "relevance",
+    "type": "summary",
     "id": "g:chosun:GNSTSOJQGA2TINJXMQZWCMRYMU",
     "url": "https://www.chosun.com/economy/stock-finance/2026/10/23/GNSTSOJQGA2TINJXMQZWCMRYMU/",
     "date": "2026-10-23",
     "source": "chosun"
   },
   {
-    "type": "relevance",
+    "type": "summary",
     "id": "g:yna:AKR20261023069100002",
     "url": "https://www.yna.co.kr/view/AKR20261023069100002",
     "date": "2026-10-23",
     "source": "yna"
   },
   {
-    "type": "relevance",
+    "type": "summary",
+    "id": "g:joongang:25470904",
+    "url": "https://www.joongang.co.kr/article/25470904",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:joongang:25469804",
+    "url": "https://www.joongang.co.kr/article/25469804",
+    "date": "2026-10-23",
+    "source": "joongang"
+  },
+  {
+    "type": "summary",
     "id": "g:joongang:25471082",
     "url": "https://www.joongang.co.kr/article/25471082",
-    "date": "2026-10-23",
-    "source": "joongang"
-  },
-  {
-    "type": "relevance",
-    "id": "g:joongang:25470904",
-    "url": "https://www.joongang.co.kr/article/25470904",
-    "date": "2026-10-23",
-    "source": "joongang"
-  },
-  {
-    "type": "relevance",
-    "id": "g:joongang:25469804",
-    "url": "https://www.joongang.co.kr/article/25469804",
-    "date": "2026-10-23",
-    "source": "joongang"
-  },
-  {
-    "type": "summary",
-    "id": "g:chosun:GNSTSOJQGA2TINJXMQZWCMRYMU",
-    "url": "https://www.chosun.com/economy/stock-finance/2026/10/23/GNSTSOJQGA2TINJXMQZWCMRYMU/",
-    "date": "2026-10-23",
-    "source": "chosun"
-  },
-  {
-    "type": "summary",
-    "id": "g:yna:AKR20261023069100002",
-    "url": "https://www.yna.co.kr/view/AKR20261023069100002",
-    "date": "2026-10-23",
-    "source": "yna"
-  },
-  {
-    "type": "summary",
-    "id": "g:joongang:25470904",
-    "url": "https://www.joongang.co.kr/article/25470904",
-    "date": "2026-10-23",
-    "source": "joongang"
-  },
-  {
-    "type": "summary",
-    "id": "g:joongang:25469804",
-    "url": "https://www.joongang.co.kr/article/25469804",
-    "date": "2026-10-23",
-    "source": "joongang"
-  },
-  {
-    "type": "judge",
-    "id": "yna:AKR20261023069100002",
-    "url": "https://www.yna.co.kr/view/AKR20261023069100002",
-    "date": "2026-10-23",
-    "source": "yna"
-  },
-  {
-    "type": "judge",
-    "id": "joongang:25471082",
-    "url": "https://www.joongang.co.kr/article/25471082",
-    "date": "2026-10-23",
-    "source": "joongang"
-  },
-  {
-    "type": "judge",
-    "id": "joongang:25470904",
-    "url": "https://www.joongang.co.kr/article/25470904",
-    "date": "2026-10-23",
-    "source": "joongang"
-  },
-  {
-    "type": "judge",
-    "id": "joongang:25469804",
-    "url": "https://www.joongang.co.kr/article/25469804",
     "date": "2026-10-23",
     "source": "joongang"
   }

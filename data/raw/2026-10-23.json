@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T13:22:14.354Z",
+  "generatedAt": "2026-10-23T13:24:34.885Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -5696,10 +5696,10 @@
     },
     {
       "source": "donga",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "수집 결과가 0건입니다. 출처 응답과 페이지 구조를 확인하세요.",
-      "note": null,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건)",
       "disabled": false
     },
     {
