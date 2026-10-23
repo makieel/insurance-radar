@@ -52,7 +52,8 @@ function group(source: SourceId, overrides: Partial<NewsGroup> = {}): NewsGroup 
   }
   return {
     id: `g:${id}`, kind: configured.kind, topic: 'general', title,
-    url, published, firstSeen: today,
+    // 기간 판정은 게시일 기준이므로, 테스트 묶음의 게시일은 기본으로 오늘로 둔다(fixture의 실제 게시일은 published 덮어쓰기로 확인).
+    url, published: overrides.published ?? (published >= today ? published : today), firstSeen: today,
     sources: [{ name: configured.name, url }],
     itemIds: [id], summary: null, ...overrides,
   };
@@ -98,18 +99,25 @@ test('예정과 최근 건수는 날짜·기간 끝·원문 과거 여부로 센
 });
 
 test('최근 3일·30일·14일은 오늘을 포함하고 미래 보고서는 제외한다', () => {
-  const newsIn = group('hanwha', { firstSeen: addDays(today, -2) });
-  const newsOut = group('insnews', { firstSeen: addDays(today, -3) });
-  const officialIn = group('knia-press', { firstSeen: addDays(today, -29) });
-  const officialOut = group('fsc-press', { firstSeen: addDays(today, -30) });
-  const industryIn = group('insweek', { topic: 'industry', firstSeen: addDays(today, -13) });
-  const industryOut = group('fins', { topic: 'industry', firstSeen: addDays(today, -14) });
-  const future = group('hanwha', { firstSeen: addDays(today, 1) });
+  const newsIn = group('hanwha', { firstSeen: addDays(today, -2), published: addDays(today, -2) });
+  const newsOut = group('insnews', { firstSeen: addDays(today, -3), published: addDays(today, -3) });
+  const officialIn = group('knia-press', { firstSeen: addDays(today, -29), published: addDays(today, -29) });
+  const officialOut = group('fsc-press', { firstSeen: addDays(today, -30), published: addDays(today, -30) });
+  const industryIn = group('insweek', { topic: 'industry', firstSeen: addDays(today, -13), published: addDays(today, -13) });
+  const industryOut = group('fins', { topic: 'industry', firstSeen: addDays(today, -14), published: addDays(today, -14) });
+  const future = group('hanwha', { firstSeen: addDays(today, 1), published: addDays(today, 1) });
   const entries = [newsIn, newsOut, officialIn, officialOut, industryIn, industryOut, future];
   const result = buildLatest({ ...input(), dailies: entries.map(entry => daily(entry.firstSeen, [entry])) });
   assert.deepEqual(result.news.map(entry => entry.id), [newsIn.id]);
   assert.deepEqual(result.official.map(entry => entry.id), [officialIn.id]);
   assert.deepEqual(result.industry.map(entry => entry.id), [industryIn.id]);
+});
+
+test('첫 실행 채우기로 처음 본 옛 글은 최근 소식에 넣지 않는다', () => {
+  const old = group('insnews', { published: '2026-05-01' });
+  const result = buildLatest({ ...input(), dailies: [daily(today, [old])] });
+  assert.equal(result.news.length, 0);
+  assert.equal(result.counts.newToday, 0);
 });
 
 test('여러 보고서에 같은 묶음이 있어도 한 번만 보여 준다', () => {

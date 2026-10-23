@@ -26,12 +26,13 @@ export function buildLatest(input: {
     for (const daily of [...input.dailies].sort((a, b) => b.date.localeCompare(a.date))) {
       if (daily.date < since || daily.date > today) continue;
       for (const group of daily.groups) {
-        if (group.firstSeen < since || group.firstSeen > today || groups.has(group.id)) continue;
+        // 게시일 기준으로 자른다. 첫 실행 채우기로 처음 본 옛 글이 "최근 소식"이 되지 않게 한다.
+        if (group.published < since || group.published > today || groups.has(group.id)) continue;
         const source = group.id.slice(2).split(':')[0] as SourceId;
         groups.set(group.id, { ...group, kind: sourceKinds[source] ?? group.kind });
       }
     }
-    return [...groups.values()].sort((a, b) => b.firstSeen.localeCompare(a.firstSeen) || b.published.localeCompare(a.published));
+    return [...groups.values()].sort((a, b) => b.published.localeCompare(a.published) || b.firstSeen.localeCompare(a.firstSeen));
   };
   return Latest.parse({
     date: today, generatedAt, changes,
@@ -41,7 +42,8 @@ export function buildLatest(input: {
     rates: [...input.rates].sort((a, b) => b.effective.localeCompare(a.effective)).slice(0, 30),
     status: input.status,
     counts: {
-      newToday: new Set(input.dailies.filter(daily => daily.date === today).flatMap(daily => daily.groups.map(group => group.id))).size,
+      newToday: new Set(input.dailies.filter(daily => daily.date === today)
+        .flatMap(daily => daily.groups.filter(group => group.published >= addDays(today, -2)).map(group => group.id))).size,
       upcoming: changes.filter(change =>
         (change.when === 'exact' && change.date !== null && change.date > today)
         || (change.when === 'period' && change.period !== null && change.period.end > today)

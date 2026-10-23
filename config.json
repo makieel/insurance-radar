@@ -1,32 +1,248 @@
 {
   "siteUrl": "https://makieel.github.io/insurance-radar/",
   "sources": [
-    { "id": "fsc-press", "name": "금융위원회", "kind": "gov", "enabled": true },
-    { "id": "fsc-rule", "name": "금융위원회 입법·규정변경예고", "kind": "gov", "enabled": true },
-    { "id": "fss-press", "name": "금융감독원", "kind": "gov", "enabled": true },
-    { "id": "fss-alert", "name": "금융감독원 소비자경보", "kind": "gov", "enabled": true },
-    { "id": "knia-press", "name": "손해보험협회", "kind": "assoc", "enabled": true },
-    { "id": "knia-rates", "name": "손보협회 공시실", "kind": "assoc", "enabled": true },
-    { "id": "klia-press", "name": "생명보험협회", "kind": "assoc", "enabled": true },
-    { "id": "kiri", "name": "보험연구원", "kind": "assoc", "enabled": true },
-    { "id": "hanwha", "name": "한화생명", "kind": "insurer", "enabled": true },
-    { "id": "kyobo", "name": "교보생명", "kind": "insurer", "enabled": true },
-    { "id": "samsungfire", "name": "삼성화재", "kind": "insurer", "enabled": true },
-    { "id": "meritz", "name": "메리츠화재", "kind": "insurer", "enabled": true },
-    { "id": "insnews", "name": "한국보험신문", "kind": "press", "enabled": true },
-    { "id": "insweek", "name": "보험신보", "kind": "press", "enabled": true },
-    { "id": "insjournal", "name": "보험저널", "kind": "press", "enabled": true },
-    { "id": "fins", "name": "보험매일", "kind": "press", "enabled": true },
-    { "id": "naver", "name": "네이버 뉴스", "kind": "press", "enabled": false, "keyEnv": ["NAVER_CLIENT_ID", "NAVER_CLIENT_SECRET"] }
+    {
+      "id": "fsc-press",
+      "name": "금융위원회",
+      "kind": "gov",
+      "enabled": true
+    },
+    {
+      "id": "fsc-rule",
+      "name": "금융위원회 입법·규정변경예고",
+      "kind": "gov",
+      "enabled": true
+    },
+    {
+      "id": "fss-press",
+      "name": "금융감독원",
+      "kind": "gov",
+      "enabled": true
+    },
+    {
+      "id": "fss-alert",
+      "name": "금융감독원 소비자경보",
+      "kind": "gov",
+      "enabled": true
+    },
+    {
+      "id": "knia-press",
+      "name": "손해보험협회",
+      "kind": "assoc",
+      "enabled": true
+    },
+    {
+      "id": "knia-rates",
+      "name": "손보협회 공시실",
+      "kind": "assoc",
+      "enabled": true
+    },
+    {
+      "id": "klia-press",
+      "name": "생명보험협회",
+      "kind": "assoc",
+      "enabled": true
+    },
+    {
+      "id": "kiri",
+      "name": "보험연구원",
+      "kind": "assoc",
+      "enabled": true
+    },
+    {
+      "id": "hanwha",
+      "name": "한화생명",
+      "kind": "insurer",
+      "enabled": true
+    },
+    {
+      "id": "kyobo",
+      "name": "교보생명",
+      "kind": "insurer",
+      "enabled": true
+    },
+    {
+      "id": "samsungfire",
+      "name": "삼성화재",
+      "kind": "insurer",
+      "enabled": true
+    },
+    {
+      "id": "meritz",
+      "name": "메리츠화재",
+      "kind": "insurer",
+      "enabled": true
+    },
+    {
+      "id": "insnews",
+      "name": "한국보험신문",
+      "kind": "press",
+      "enabled": true
+    },
+    {
+      "id": "insweek",
+      "name": "보험신보",
+      "kind": "press",
+      "enabled": true
+    },
+    {
+      "id": "insjournal",
+      "name": "보험저널",
+      "kind": "press",
+      "enabled": true
+    },
+    {
+      "id": "fins",
+      "name": "보험매일",
+      "kind": "press",
+      "enabled": true
+    },
+    {
+      "id": "naver",
+      "name": "네이버 뉴스",
+      "kind": "press",
+      "enabled": false,
+      "keyEnv": [
+        "NAVER_CLIENT_ID",
+        "NAVER_CLIENT_SECRET"
+      ]
+    }
   ],
   "keywords": {
-    "auto": ["자동차보험", "자동차 보험", "車보험", "차보험", "운전자보험", "자동차손해배상", "대물", "자차", "경상환자", "교통사고", "블랙박스", "UBI", "안전운전"],
-    "medical": ["실손", "실손의료", "실손24", "비급여", "의료비 청구", "청구전산화"],
-    "life": ["생명보험", "종신보험", "건강보험", "암보험", "상해보험", "치매", "간병", "연금보험", "연금저축보험", "어린이보험", "치아보험", "정기보험", "변액", "시니어", "요양", "낙상"],
-    "general": ["보험업법", "보험업감독규정", "약관", "표준약관", "보험료", "보험금", "해지환급금", "계약전환", "불완전판매", "보험사기", "소비자", "숨은보험금", "보험계약"],
-    "industry": ["순익", "순이익", "실적", "영업이익", "인사", "선임", "취임", "대표이사", "설계사", "GA", "법인보험대리점", "판매수수료", "시책", "주가", "마감시황", "IPO", "상장", "사회공헌", "봉사", "기부", "후원", "캠페인", "MOU", "업무협약", "세미나", "포럼", "채용", "입찰", "K-ICS", "IFRS17", "지급여력", "자본", "투자", "사모대출", "성장률", "출범", "개소"],
-    "exclude": ["기업성보험", "단체보험", "기업보험", "중소기업 사이버", "사이버보험", "배상책임보험(기업)", "재보험", "선박보험", "해상보험", "화재보험협회", "대체위험전가"],
-    "insurance": ["보험", "실손", "보장", "보험료", "보험금", "손보", "생보", "설계사", "GA", "약관"]
+    "auto": [
+      "자동차보험",
+      "자동차 보험",
+      "車보험",
+      "차보험",
+      "운전자보험",
+      "자동차손해배상",
+      "대물",
+      "자차",
+      "경상환자",
+      "교통사고",
+      "블랙박스",
+      "UBI",
+      "안전운전"
+    ],
+    "medical": [
+      "실손",
+      "실손의료",
+      "실손24",
+      "비급여",
+      "의료비 청구",
+      "청구전산화"
+    ],
+    "life": [
+      "생명보험",
+      "종신보험",
+      "건강보험",
+      "암보험",
+      "상해보험",
+      "치매",
+      "간병",
+      "연금보험",
+      "연금저축보험",
+      "어린이보험",
+      "치아보험",
+      "정기보험",
+      "변액",
+      "시니어",
+      "요양",
+      "낙상"
+    ],
+    "general": [
+      "보험업법",
+      "보험업감독규정",
+      "약관",
+      "표준약관",
+      "보험료",
+      "보험금",
+      "해지환급금",
+      "계약전환",
+      "불완전판매",
+      "보험사기",
+      "소비자",
+      "숨은보험금",
+      "보험계약"
+    ],
+    "industry": [
+      "순익",
+      "순이익",
+      "실적",
+      "영업이익",
+      "인사",
+      "선임",
+      "취임",
+      "대표이사",
+      "설계사",
+      "GA",
+      "법인보험대리점",
+      "판매수수료",
+      "시책",
+      "주가",
+      "마감시황",
+      "IPO",
+      "상장",
+      "사회공헌",
+      "봉사",
+      "기부",
+      "후원",
+      "캠페인",
+      "MOU",
+      "업무협약",
+      "세미나",
+      "포럼",
+      "채용",
+      "입찰",
+      "K-ICS",
+      "IFRS17",
+      "지급여력",
+      "자본",
+      "투자",
+      "사모대출",
+      "성장률",
+      "출범",
+      "개소",
+      "스폰서",
+      "총회",
+      "단합대회",
+      "사옥",
+      "창립",
+      "시상",
+      "수상",
+      "행사",
+      "체험",
+      "라운지",
+      "이상거래탐지",
+      "구속기소",
+      "슬로건",
+      "브랜드"
+    ],
+    "exclude": [
+      "기업성보험",
+      "단체보험",
+      "기업보험",
+      "중소기업 사이버",
+      "사이버보험",
+      "배상책임보험(기업)",
+      "재보험",
+      "선박보험",
+      "해상보험",
+      "화재보험협회",
+      "대체위험전가"
+    ],
+    "insurance": [
+      "보험",
+      "실손",
+      "보장",
+      "보험료",
+      "보험금",
+      "손보",
+      "생보",
+      "설계사",
+      "GA",
+      "약관"
+    ]
   },
   "limits": {
     "aiCallsPerDay": 120,
@@ -39,7 +255,13 @@
   "ai": {
     "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
     "keyEnv": "GEMINI_API_KEY",
-    "models": ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-3.8-flash", "gemini-2.5-flash"],
+    "models": [
+      "gemini-3.5-flash-lite",
+      "gemini-3.1-flash-lite",
+      "gemini-3.6-flash",
+      "gemini-3.8-flash",
+      "gemini-2.5-flash"
+    ],
     "timeoutMs": 150000
   }
 }

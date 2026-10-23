@@ -39,11 +39,12 @@ export function analyze(input: {
     if (item.source === 'fsc-rule') {
       const notice = noticeChange({ item, topic: changeTopic, sourceName: source.name, today });
       if (notice) found.push(notice);
-    } else if (source.kind === 'gov' || source.kind === 'assoc') {
+    } else if (topic !== 'industry' && item.source !== 'kiri' && (source.kind === 'gov' || source.kind === 'assoc')) {
+      // 업계 동향과 연구원 행사 글의 날짜는 시행일이 아니므로 규칙 추출에서 뺀다.
       found.push(...ruleChanges({ item, body, topic: changeTopic, sourceName: source.name, today }));
     }
     incoming.push(...found);
-    if (found.length === 0 && changeSentences(body).length > 0) {
+    if (found.length === 0 && topic !== 'industry' && changeSentences(body).length > 0) {
       judges.push({ type: 'judge', id: item.id, url: item.url, date: today, source: item.source });
     }
   }

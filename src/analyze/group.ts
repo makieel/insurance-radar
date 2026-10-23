@@ -17,7 +17,8 @@ const WORD = /\d+(?:\.\d+)?|[a-z]+/g;
  * 띄어쓰기를 지우는 것은 "생명보험업계"와 "생보 업계"처럼 띄어쓰기가 다른 제목을 맞추기 위해서다.
  */
 export function titleKey(title: string): Set<string> {
-  const s = title.normalize('NFKC').toLowerCase();
+  // 언론이 자주 쓰는 한자 약칭(車보험)을 한글로 맞춘다.
+  const s = title.normalize('NFKC').toLowerCase().replace(/車/g, '차').replace(/社/g, '사');
   const key = new Set<string>();
   const joined = s.replace(/[^가-힣一-鿿0-9a-z]/g, '');
   for (const run of joined.match(HANGUL_RUN) ?? []) {
