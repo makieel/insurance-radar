@@ -1,0 +1,3 @@
+const urls=["https://www.knia.or.kr/data/news","https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do","https://www.e-insmarket.or.kr/ntc/ntcList.knia","https://www.klia.or.kr/board/2/list.do","https://kiri.or.kr/community/materialList.do","https://fine.fss.or.kr/fine/bbs/B0000343/list.do?menuNo=900025&cl1Cd=2"];
+for(const u of urls){try{const r=await fetch(u,{redirect:"follow"});const t=await r.text();console.log(r.status,r.redirected,t.length,/보안정책/.test(t)?"BLOCK":"ok",u)}catch(e){console.log("ERR",u,e.cause?.code||e.message)}}
+const r=await fetch(urls[0],{headers:{"User-Agent":"insurance-radar-bot/1.0 (+https://github.com)"}});console.log("customUA",r.status);

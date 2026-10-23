@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>보험 레이더 시안 v4-1</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* ── 디자인 토큰: 색 · 간격(4의 배수) · 글자 단계 · 선 ── */
+:root {
+  --bg:#f2f4f8; --panel:#ffffff; --ink:#111c33; --ink2:#3c4862; --ink3:#5a6680; --line:#dce2ec;
+  --navy:#1f3561; --navy-soft:#e9eef7; --strip:#f5f7fb;
+  --accent:#0f8a80; --accent-soft:#d5f3ef; --on-accent:#ffffff;
+  --today:#dc2626; --on-today:#ffffff;
+  --fz:#c2410c; --fz-soft:#fff3ea;
+  --car:#2563eb; --med:#e11d48; --life:#16a34a; --ind:#7c3aed;
+  --up:#e11d48; --dn:#2563eb; --warn:#c2410c; --ok:#15803d;
+  --focus:#0f8a80; --scrim:rgba(10,15,28,.38); --shadow:0 16px 40px rgba(17,28,51,.18);
+
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px;
+  --t-xs:11px; --t-sm:12px; --t-md:13px; --t-base:14px; --t-lg:16px; --t-xl:22px;
+  --r-sm:6px; --r-md:10px; --r-lg:12px;
+  --bw:1px; --bw-em:2px;
+  --mono:"JetBrains Mono", ui-monospace, monospace;
+  --panel-w:420px;
+}
+[data-theme="dark"] {
+  --bg:#0a0f1c; --panel:#111a2d; --ink:#e4e9f4; --ink2:#aab5cb; --ink3:#8592ad; --line:#24324f;
+  --navy:#b8c8ea; --navy-soft:#1a2642; --strip:#0d1525;
+  --accent:#2dd4bf; --accent-soft:#0d3a3a; --on-accent:#03201c;
+  --today:#fb7185; --on-today:#2a070d;
+  --fz:#fb923c; --fz-soft:#2a1a0c;
+  --car:#60a5fa; --med:#fb7185; --life:#4ade80; --ind:#a78bfa;
+  --up:#fb7185; --dn:#60a5fa; --warn:#fb923c; --ok:#4ade80;
+  --focus:#2dd4bf; --scrim:rgba(0,0,0,.55); --shadow:0 16px 40px rgba(0,0,0,.55);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font-family: Pretendard, system-ui, sans-serif; font-size: var(--t-base); line-height: 1.5; background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 2px; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: var(--bw-em) solid var(--focus); outline-offset: 2px; border-radius: var(--r-sm); }
+.hide { display: none !important; }
+.mono { font-family: var(--mono); }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 var(--s4); }
+.c-car { --c: var(--car); } .c-med { --c: var(--med); } .c-life { --c: var(--life); } .c-ind { --c: var(--ind); }
+.catdot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; background: var(--c, var(--ink3)); flex: none; }
+
+/* ── 머리 ── */
+.topbar { position: relative; display: flex; align-items: center; min-height: 36px; padding-top: var(--s2); }
+.tag { font-size: var(--t-xs); font-weight: 700; color: var(--navy); background: var(--navy-soft); padding: 2px var(--s2); border-radius: 99px; }
+#themeBtn { position: absolute; top: var(--s2); right: 0; font-size: var(--t-sm); padding: var(--s1) var(--s3); border-radius: 99px; border: var(--bw) solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+.mast { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--s3) var(--s5); padding: var(--s1) 0 var(--s3); }
+.brand h1 { margin: 0; font-size: var(--t-xl); line-height: 1.2; letter-spacing: -.02em; color: var(--navy); }
+.brand h1 span { color: var(--accent); }
+.brand .upd { margin: 2px 0 0; font-size: var(--t-sm); color: var(--ink2); }
+.brand .upd time { font-family: var(--mono); font-weight: 600; }
+.kpis { display: flex; align-items: stretch; gap: var(--s2); flex-wrap: wrap; }
+.kpi { display: flex; align-items: baseline; gap: var(--s2); padding: var(--s1) var(--s3); border: var(--bw) solid var(--line); border-radius: var(--r-md); background: var(--panel); }
+.kpi b { font-family: var(--mono); font-size: var(--t-lg); font-weight: 800; color: var(--navy); font-variant-numeric: tabular-nums; }
+.kpi b.fzn { color: var(--fz); }
+.kpi span { font-size: var(--t-sm); color: var(--ink2); white-space: nowrap; }
+.sig { display: flex; align-items: center; gap: var(--s2); padding: var(--s1) var(--s3); border: var(--bw) solid var(--line); border-radius: var(--r-md); background: var(--panel); cursor: pointer; font-size: var(--t-sm); color: var(--ink2); white-space: nowrap; }
+.sig:hover { border-color: var(--ink3); }
+.sig .car { font-size: 10px; color: var(--ink3); transition: transform .15s; }
+.sig[aria-expanded="true"] .car { transform: rotate(180deg); }
+.lamp { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ok) 22%, transparent); flex: none; }
+.lamp.warn { background: var(--warn); box-shadow: 0 0 0 3px color-mix(in srgb, var(--warn) 22%, transparent); }
+.lamp.err { background: var(--today); box-shadow: 0 0 0 3px color-mix(in srgb, var(--today) 22%, transparent); }
+.siglist { margin: 0 0 var(--s3); padding: var(--s3) var(--s4); background: var(--panel); border: var(--bw) solid var(--line); border-radius: var(--r-lg); }
+.siglist h2 { margin: 0 0 var(--s2); font-size: var(--t-md); color: var(--navy); }
+.siglist ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: var(--s2) var(--s5); }
+.siglist li { display: flex; align-items: baseline; gap: var(--s2); font-size: var(--t-md); }
+.siglist li .lamp { width: 8px; height: 8px; box-shadow: none; transform: translateY(-1px); }
+.siglist li span { color: var(--ink3); font-size: var(--t-sm); }
+.siglist li.warn { grid-column: 1 / -1; }
+.siglist li.warn span { color: var(--warn); font-weight: 600; }
+
+/* ── 카드 공통 ── */
+.card { background: var(--panel); border: var(--bw) solid var(--line); border-radius: var(--r-lg); padding: var(--s4); }
+.card > h2 { margin: 0 0 var(--s3); font-size: var(--t-lg); line-height: 1.3; display: flex; justify-content: space-between; align-items: baseline; gap: var(--s2); flex-wrap: wrap; color: var(--navy); }
+.card > h2 small { font-size: var(--t-sm); color: var(--ink3); font-weight: 500; }
+.hrow { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--s1) var(--s4); margin: 0 0 var(--s3); }
+.hrow h2 { margin: 0; font-size: var(--t-lg); color: var(--navy); }
+.hrow h2 small { font-size: var(--t-sm); color: var(--ink3); font-weight: 500; margin-left: var(--s2); }
+.legend { display: flex; flex-wrap: wrap; gap: var(--s1) var(--s3); font-size: var(--t-sm); color: var(--ink2); }
+.step { font-size: var(--t-xs); font-weight: 800; letter-spacing: .04em; color: var(--accent); margin: 0 0 var(--s2); }
+
+/* ── ① 개요 띠 ── */
+.strip { display: grid; grid-template-columns: minmax(0, 1fr) 280px; height: 118px; background: var(--strip); border: var(--bw) solid var(--line); border-radius: var(--r-md); }
+.axbox { position: relative; min-width: 0; }
+.axis { position: relative; height: 100%; margin: 0 var(--s5); }
+.axis .base { position: absolute; left: 0; right: 0; top: 62px; height: var(--bw-em); background: var(--navy); opacity: .35; }
+.axis .tk { position: absolute; top: 57px; width: var(--bw); height: 12px; background: var(--ink3); }
+.axis .tl { position: absolute; top: 76px; transform: translateX(-50%); font-family: var(--mono); font-weight: 600; font-size: var(--t-xs); color: var(--ink3); white-space: nowrap; }
+.axis .mon { position: absolute; top: 94px; font-size: var(--t-xs); font-weight: 700; color: var(--navy); opacity: .75; }
+.axis .now { position: absolute; top: var(--s2); bottom: var(--s2); width: var(--bw-em); margin-left: -1px; background: var(--today); }
+.axis .now span { position: absolute; top: 0; right: 5px; font-size: var(--t-xs); font-weight: 800; color: var(--on-today); background: var(--today); padding: 1px 7px; border-radius: 99px; white-space: nowrap; }
+.dot { position: absolute; top: 63px; width: 28px; height: 28px; margin: -14px 0 0 -14px; padding: 0; border: 0; background: transparent; cursor: pointer; z-index: 2; border-radius: 50%; }
+.dot::before { content: ""; position: absolute; left: 7px; top: 7px; width: 14px; height: 14px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 3px var(--strip); transition: transform .15s; }
+.dot .dl { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); font-family: var(--mono); font-size: var(--t-xs); font-weight: 800; color: var(--c); white-space: nowrap; }
+.dot:hover::before, .dot.on::before, .dot.peek::before, .dot:focus-visible::before { transform: scale(1.3); }
+.dot.on::before { box-shadow: 0 0 0 3px var(--strip), 0 0 0 5px var(--accent); }
+.dot:focus-visible { outline-offset: 0; border-radius: 50%; }
+.dot.pl .dl { transform: translateX(-82%); } .dot.pr .dl { transform: translateX(-18%); }
+.fzb { border-left: var(--bw-em) dashed var(--fz); padding: var(--s3) var(--s4); display: flex; flex-direction: column; gap: var(--s2); border-radius: 0 var(--r-md) var(--r-md) 0; background: var(--fz-soft); min-width: 0; }
+.fzh { display: flex; justify-content: space-between; align-items: baseline; gap: var(--s2); }
+.fzh b { font-size: var(--t-md); font-weight: 800; color: var(--fz); }
+.fzh b small { font-weight: 500; color: var(--ink3); font-size: var(--t-xs); margin-left: var(--s1); }
+.fzt { border: 0; background: none; padding: 0; cursor: pointer; font-size: var(--t-xs); font-weight: 700; color: var(--fz); text-decoration: underline; text-underline-offset: 2px; white-space: nowrap; }
+.fzt[aria-pressed="true"] { text-decoration: none; background: var(--fz); color: var(--panel); padding: 0 var(--s2); border-radius: 99px; }
+.fzl { display: flex; flex-wrap: wrap; gap: var(--s1) 6px; }
+.fzi { font-size: var(--t-sm); line-height: 1.5; padding: 1px var(--s2) 1px 6px; border-radius: 99px; border: var(--bw) dashed var(--c); background: var(--panel); color: var(--ink); white-space: nowrap; cursor: pointer; }
+.fzi i { font-style: normal; color: var(--ink3); }
+.fzi:hover { border-style: solid; }
+.fzi.on { border-style: solid; box-shadow: 0 0 0 var(--bw-em) var(--accent); }
+
+/* 띠 아래 고정 안내 줄 (말풍선 대신) */
+.guide { display: flex; align-items: center; gap: var(--s2); min-height: 36px; margin: var(--s2) 0 var(--s3); padding: var(--s2) var(--s3); border: var(--bw) solid var(--line); border-radius: var(--r-md); background: var(--panel); font-size: var(--t-md); color: var(--ink2); }
+.guide .gk { flex: none; font-size: var(--t-xs); font-weight: 800; color: var(--accent); background: var(--accent-soft); padding: 0 var(--s2); border-radius: 99px; }
+.guide.sel .gk { color: var(--on-accent); background: var(--accent); }
+.guide .gt { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.guide .gt b { color: var(--ink); font-weight: 700; }
+.guide .gt .gm { font-weight: 800; color: var(--c, var(--ink2)); }
+.guide .gt .gm.ex { font-family: var(--mono); }
+.guide kbd { font-family: var(--mono); font-size: var(--t-xs); padding: 0 5px; border: var(--bw) solid var(--line); border-bottom-width: var(--bw-em); border-radius: 4px; background: var(--strip); color: var(--ink2); }
+
+/* ── ② 레인 표 ── */
+.lanes { display: grid; grid-template-columns: 138px minmax(0, 1fr) 34px minmax(0, 1fr); border: var(--bw) solid var(--line); border-radius: var(--r-md); overflow: hidden; }
+.lanes > div { border-top: var(--bw) solid var(--line); transition: opacity .2s; }
+.lanes > .lh { border-top: 0; font-size: var(--t-xs); font-weight: 700; color: var(--ink3); background: var(--strip); padding: 6px var(--s3); }
+.lanes > .lh.fzc { color: var(--fz); }
+.lanes > .nowh { border-top: 0; background: var(--strip); color: var(--today); font-size: var(--t-xs); font-weight: 800; text-align: center; padding: 6px 0; }
+.ln { padding: var(--s2) var(--s3); border-left: var(--s1) solid var(--c); display: flex; flex-direction: column; justify-content: center; gap: 2px; }
+.ln b { font-size: var(--t-md); color: var(--c); line-height: 1.3; }
+.ln span { font-size: var(--t-xs); color: var(--ink3); }
+.nowc { background: linear-gradient(var(--today), var(--today)) center / var(--bw-em) 100% no-repeat; opacity: .55; }
+.cell { padding: 6px var(--s2); display: flex; flex-direction: column; gap: var(--s1); justify-content: center; min-width: 0; }
+.li { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 0 var(--s2); width: 100%; padding: var(--s1) var(--s2); border: 0; border-left: 3px solid var(--c); border-radius: var(--r-sm); background: var(--panel); text-align: left; cursor: pointer; transition: background .15s, box-shadow .15s; }
+.li:hover { background: var(--navy-soft); }
+.li.fz { border-left-style: dashed; border-left-color: var(--fz); }
+.li .w { font-family: var(--mono); font-size: var(--t-xs); font-weight: 800; color: var(--ink2); line-height: 1.4; padding-top: 1px; }
+.li .w i { display: block; font-style: normal; font-weight: 600; color: var(--ink3); }
+.li.fz .w { font-family: Pretendard, system-ui, sans-serif; color: var(--fz); font-size: var(--t-sm); }
+.li .tx { display: block; min-width: 0; }
+.li .t { display: block; font-size: var(--t-md); line-height: 1.4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.li .m { display: block; font-size: var(--t-xs); color: var(--ink3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.li.hl, .lanes.fzon .li.fz { background: var(--accent-soft); box-shadow: inset 0 0 0 var(--bw-em) var(--accent); }
+.li.hl .t { font-weight: 700; }
+.cell .none { font-size: var(--t-sm); color: var(--ink3); padding: 0 var(--s2); }
+.dim { opacity: .25; }
+
+/* ── 필터 줄 (붙어 있음) ── */
+.fsent { height: 1px; }
+.fbar { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: var(--s3); margin: var(--s4) calc(var(--s4) * -1) var(--s3); padding: var(--s2) var(--s4); background: var(--bg); border-bottom: var(--bw) solid transparent; transition: border-color .15s, box-shadow .15s; }
+.fbar.stuck { border-bottom-color: var(--line); box-shadow: 0 6px 16px -12px rgba(0,0,0,.35); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; min-width: 0; }
+.chip { cursor: pointer; font-size: var(--t-md); padding: 5px var(--s3); border-radius: 99px; background: var(--panel); border: var(--bw) solid var(--line); color: var(--ink2); white-space: nowrap; }
+.chip:hover { border-color: var(--ink3); }
+.chip[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: var(--panel); font-weight: 700; }
+.fcount { flex: none; font-size: var(--t-sm); color: var(--ink3); }
+.fcount b { font-family: var(--mono); color: var(--ink2); }
+
+/* ── 아래 영역 ── */
+.below { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: var(--s4); align-items: start; }
+.sh { margin: 0 0 var(--s2); font-size: var(--t-lg); color: var(--navy); display: flex; justify-content: space-between; align-items: baseline; }
+.sh small { font-size: var(--t-sm); font-weight: 500; color: var(--ink3); }
+.news { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s3); }
+.item { background: var(--panel); border: var(--bw) solid var(--line); border-radius: var(--r-lg); padding: var(--s3) var(--s4); border-top: 3px solid var(--c); }
+.item .top { display: flex; gap: 6px; align-items: center; font-size: var(--t-sm); color: var(--ink3); margin-bottom: var(--s1); flex-wrap: wrap; }
+.item .cat { font-weight: 700; color: var(--c); }
+.item h3 { margin: 0 0 6px; font-size: var(--t-base); line-height: 1.45; }
+.item p { margin: 0; font-size: var(--t-md); color: var(--ink2); line-height: 1.65; }
+.item .srcs { margin-top: var(--s2); font-size: var(--t-sm); color: var(--ink3); }
+.empty { font-size: var(--t-md); color: var(--ink3); padding: var(--s4); border: var(--bw) dashed var(--line); border-radius: var(--r-lg); text-align: center; grid-column: 1 / -1; }
+.side { display: flex; flex-direction: column; gap: var(--s4); }
+.row { display: flex; justify-content: space-between; gap: var(--s3); padding: var(--s2) 0; border-bottom: var(--bw) solid var(--line); font-size: var(--t-md); line-height: 1.45; }
+.row:last-of-type { border-bottom: 0; }
+.row .n { font-family: var(--mono); font-weight: 600; white-space: nowrap; }
+.row .n.dt { font-weight: 400; color: var(--ink3); }
+.row .off { flex: none; font-size: var(--t-xs); font-weight: 700; color: var(--panel); background: var(--navy); padding: 0 5px; border-radius: 4px; height: 17px; line-height: 17px; margin-top: 2px; }
+.row .ot { flex: 1; min-width: 0; }
+.row .ot small { display: block; color: var(--ink3); font-size: var(--t-xs); }
+.n.up { color: var(--up); } .n.dn { color: var(--dn); }
+footer { margin: var(--s5) 0 0; padding: var(--s4) 0 var(--s6); color: var(--ink3); font-size: var(--t-sm); line-height: 1.7; border-top: var(--bw) solid var(--line); }
+
+/* ── 상세 패널 (오른쪽 / 모바일은 아래 시트) ── */
+.scrim { position: fixed; inset: 0; z-index: 70; background: var(--scrim); opacity: 0; visibility: hidden; transition: opacity .2s, visibility .2s; }
+.dp { position: fixed; top: 0; right: 0; bottom: 0; z-index: 80; width: min(var(--panel-w), 100vw); display: flex; flex-direction: column; background: var(--panel); border-left: var(--bw) solid var(--line); box-shadow: var(--shadow); transform: translateX(100%); visibility: hidden; transition: transform .22s ease, visibility .22s; }
+.dp.open { transform: none; visibility: visible; }
+.dp::before { content: ""; display: block; height: var(--s1); background: var(--c, var(--accent)); flex: none; }
+.dp-head { display: flex; align-items: center; justify-content: space-between; gap: var(--s2); padding: var(--s3) var(--s4) 0; flex: none; }
+.dp-kind { font-size: var(--t-sm); font-weight: 700; color: var(--c, var(--ink2)); display: flex; align-items: center; }
+.dp-x { width: 32px; height: 32px; border-radius: 50%; border: var(--bw) solid var(--line); background: var(--panel); color: var(--ink2); cursor: pointer; font-size: var(--t-base); line-height: 1; }
+.dp-x:hover { background: var(--strip); color: var(--ink); }
+.dp-body { overflow-y: auto; padding: var(--s2) var(--s4) var(--s5); flex: 1; overscroll-behavior: contain; }
+.dp-body h2 { margin: 0 0 var(--s4); font-size: 18px; line-height: 1.45; letter-spacing: -.01em; color: var(--ink); }
+.dp-body h2:focus { outline: none; }
+.dp-body h2:focus-visible { outline: var(--bw-em) solid var(--focus); }
+.facts { margin: 0 0 var(--s4); display: grid; grid-template-columns: 72px minmax(0, 1fr); border-top: var(--bw) solid var(--line); }
+.facts dt, .facts dd { margin: 0; padding: var(--s2) 0; border-bottom: var(--bw) solid var(--line); font-size: var(--t-md); }
+.facts dt { color: var(--ink3); }
+.facts dd { color: var(--ink); }
+.facts dd .mono { font-weight: 600; }
+.badge { display: inline-block; margin-left: 6px; font-size: var(--t-xs); font-weight: 700; padding: 0 var(--s2); border-radius: 99px; background: var(--navy-soft); color: var(--navy); vertical-align: 1px; }
+.badge.fz { background: var(--fz-soft); color: var(--fz); border: var(--bw) dashed var(--fz); }
+.badge.soon { background: var(--accent-soft); color: var(--accent); }
+.dp-sec { margin: var(--s5) 0 var(--s2); font-size: var(--t-sm); font-weight: 800; color: var(--ink3); letter-spacing: .02em; display: flex; justify-content: space-between; align-items: baseline; }
+.dp-sec small { font-weight: 500; }
+.dp-sec:first-of-type { margin-top: 0; }
+.raw { margin: 0; padding: var(--s3) var(--s3) var(--s3) var(--s4); border-left: 3px solid var(--c, var(--accent)); background: var(--strip); border-radius: 0 var(--r-sm) var(--r-sm) 0; font-size: var(--t-base); line-height: 1.6; color: var(--ink); }
+.srcbtn { display: flex; justify-content: space-between; align-items: center; gap: var(--s2); margin-top: var(--s3); padding: var(--s3) var(--s4); border-radius: var(--r-md); background: var(--navy); color: var(--panel); font-size: var(--t-md); font-weight: 700; }
+.srcbtn small { font-weight: 500; opacity: .8; font-size: var(--t-xs); display: block; }
+.srcbtn:hover { text-decoration: none; filter: brightness(1.12); }
+.rel { list-style: none; margin: 0; padding: 0; }
+.rel li { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: var(--s2); padding: var(--s2) 0; border-bottom: var(--bw) solid var(--line); }
+.rel li:last-child { border-bottom: 0; }
+.rel p { margin: 0; font-size: var(--t-md); line-height: 1.5; }
+.rel small { display: block; margin-top: 2px; font-size: var(--t-xs); color: var(--ink3); }
+.rk { align-self: start; margin-top: 2px; text-align: center; font-size: var(--t-xs); font-weight: 700; padding: 0 var(--s1); border-radius: 4px; border: var(--bw) solid var(--line); color: var(--ink2); }
+.rk.off { background: var(--navy); border-color: var(--navy); color: var(--panel); }
+.dp-none { margin: 0; font-size: var(--t-md); color: var(--ink3); }
+.dp-foot { margin: var(--s5) 0 0; font-size: var(--t-xs); color: var(--ink3); line-height: 1.6; }
+
+@media (max-width: 1000px) { .below { grid-template-columns: 1fr; } }
+@media (max-width: 760px) {
+  .mast { align-items: flex-start; }
+  .kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; }
+  .kpi { flex-direction: column; gap: 0; padding: 6px var(--s2); }
+  .kpi span { font-size: var(--t-xs); }
+  .sig { grid-column: 1 / -1; justify-content: center; padding: 6px var(--s3); }
+  .strip { grid-template-columns: 1fr; height: auto; }
+  .axbox { height: 118px; }
+  .axis { margin: 0 var(--s4); }
+  .fzb { border-left: 0; border-top: var(--bw-em) dashed var(--fz); border-radius: 0 0 var(--r-md) var(--r-md); }
+  .guide { align-items: flex-start; min-height: 58px; }
+  .guide .gt { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .lanes { grid-template-columns: 1fr; }
+  .lanes > .lh, .lanes > .nowh, .nowc { display: none; }
+  .ln { flex-direction: row; justify-content: flex-start; align-items: baseline; gap: var(--s2); background: var(--strip); }
+  .li { grid-template-columns: 80px minmax(0, 1fr); }
+  .cell::before { content: attr(data-h); font-size: var(--t-xs); font-weight: 700; color: var(--ink3); padding: 0 2px; }
+  .cell.fzcell::before { color: var(--fz); }
+  .lanes > .cell { border-top: 0; }
+  .fbar { flex-wrap: wrap; gap: var(--s1); }
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; width: 100%; padding: 2px; margin: -2px; }
+  .chips::-webkit-scrollbar { display: none; }
+  .news { grid-template-columns: 1fr; }
+  .brand h1 { font-size: 20px; }
+  .dp { top: auto; left: 0; right: 0; width: 100%; max-height: 82vh; border-left: 0; border-top: var(--bw) solid var(--line); border-radius: 16px 16px 0 0; transform: translateY(100%); overflow: hidden; }
+  .dp::before { width: 40px; height: var(--s1); margin: var(--s2) auto 0; border-radius: 99px; background: var(--line); }
+  .dp-head { padding-top: var(--s2); }
+  .scrim.open { opacity: 1; visibility: visible; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<div class="scrim" id="scrim"></div>
+<aside class="dp" id="dp" role="dialog" aria-labelledby="dpTitle" aria-hidden="true" inert>
+  <div class="dp-head"><span class="dp-kind" id="dpKind"></span><button type="button" class="dp-x" id="dpX" aria-label="상세 닫기 (Esc)">✕</button></div>
+  <div class="dp-body" id="dpBody"></div>
+</aside>
+
+<script>
+// ── 2026-10-23 실제 수집 데이터 (시안용, v1과 같음) ──
+const TODAY = '2026-10-23';
+const CATS = ['전체', '자동차', '실손', '생명·건강·상해', '제도·공통'];
+const CK = { '자동차': 'car', '실손': 'med', '생명·건강·상해': 'life', '제도·공통': 'ind' };
+
+const CHANGES = [
+  { exact: false, when: "'27.1분기 중", raw: "원문 \"'27.1분기 중 사업을 시행\"", pub: '2026-10-19', src: '금융위원회', cat: '생명·건강·상해',
+    title: '취약어르신 65만명에 낙상사고 치료비·치매배상책임보험 무료 제공', url: 'https://www.fsc.go.kr/no010101/87952' },
+  { exact: false, when: "'27.1월", raw: "원문 \"'27.1월 시행사항\"", pub: '2026-06-30', src: '금융위원회', cat: '제도·공통',
+    title: '보험 판매수수료 개편 다음 단계 시행', url: 'https://www.fsc.go.kr/no010101/87217' },
+  { exact: false, when: '연말까지', raw: '원문 "연말까지 실손24 연계율 80~90% 목표"', pub: '2026-09-30', src: '금융위원회', cat: '실손',
+    title: '병·의원 실손24 연계율 80~90%로 확대 목표', url: 'https://www.fsc.go.kr/no010101/87818' },
+  { exact: false, past: true, when: '오는 21일', raw: '원문 "오는 21일 … 출시" · 기사 10.20', pub: '2026-10-20', src: '보험신보', cat: '생명·건강·상해',
+    title: "삼성생명 '시니어대표건강보험' 개정 출시 (폐렴·로봇 인공관절수술 보장 강화)", url: 'https://www.insweek.co.kr/news/articleView.html?idxno=72754' },
+  { exact: true, date: '2026-10-12', raw: "원문 \"'26.10.12.(월)부터\"", src: '손해보험협회', cat: '자동차',
+    title: '자동차보험 경상환자 보상처리 피해 신고센터 운영 시작', url: 'https://www.knia.or.kr/data/news/content?index=88765' },
+  { exact: true, date: '2026-09-26', raw: '공시표 시행시기 20260926', src: '손보협회 공시실', cat: '자동차',
+    title: '메리츠화재 업무용·영업용 자동차보험료 -1%', note: '예정사업비 변경에 따른 보험료 조정', url: 'https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do' },
+  { exact: true, date: '2026-09-21', raw: '공시표 시행시기 20260921', src: '손보협회 공시실', cat: '자동차',
+    title: '현대해상 영업용 자동차보험료 조정 (전체 0%)', note: '손해율 실적 반영, 대물확장·자차보장확대 특약 포함', url: 'https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do' },
+  { exact: true, date: '2026-09-10', raw: "원문 \"'26.9.10. 이후 사고부터 시행\"", src: '금융감독원', cat: '자동차',
+    title: '자동차보험 치료비 보상 절차 개편', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=226318&menuNo=200218' },
+];
+
+const NEWS = [
+  { cat: '자동차', title: '9월 자동차보험 손해율 85.0%… 전년 동월보다 8.8%p 하락',
+    sum: ['대형 손보사 4곳의 9월 자동차보험 손해율이 평균 85.0%로, 지난해 같은 달 94.2%보다 낮아졌습니다.', '1~9월 누적 손해율은 84.7%입니다.'],
+    srcs: [['보험저널', 'https://www.insjournal.co.kr/news/articleView.html?idxno=33625'], ['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110306']] },
+  { cat: '자동차', title: '[국감] "보험사, 안전운전 할인 특약 내세워 운전정보만 수집"',
+    sum: ['안전운전(UBI) 할인 특약을 이유로 운전정보 제공 동의를 받았지만, 실제 가입은 4건 중 1건이었다는 지적입니다.', '금감원에 동의 실태 전수 점검과 점수 산정 기준 공개를 촉구했습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110296']] },
+  { cat: '실손', title: '[국감] "실손보험 청구 민간 배제, 불공정"',
+    sum: ['실손24 시행 뒤 민간 핀테크가 만든 간편 청구 서비스 이용이 제한되고 있다는 지적이 나왔습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110300']] },
+  { cat: '생명·건강·상해', title: '연금저축보험, 가입 때 안내받은 연금액이 보장되지 않을 수 있어',
+    sum: ['적용이율이 가입 뒤 내려가면 연금액이 줄 수 있습니다.', '중도 인출·해지 땐 세금 부담으로 납입금보다 적게 돌려받을 수 있다고 금감원이 안내했습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110290']] },
+  { cat: '생명·건강·상해', title: '교보생명, 보험금 신속지급 평균 0.24일… 생보업계 가장 짧아',
+    sum: ['올해 상반기 신속지급 평균기간이 0.24일로, 업계 평균 0.71일보다 짧았습니다.'],
+    srcs: [['한국보험신문', 'https://www.insnews.co.kr/news/articleView.html?idxno=93466'], ['보험신보', 'https://www.insweek.co.kr/news/articleView.html?idxno=72796'], ['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110307']] },
+];
+
+const OFFICIAL = [
+  { day: '2026-10-19', src: '금융위원회', cat: '생명·건강·상해', title: '보험업권·복지부 산하 노인지원기관, 취약어르신 65만명에 낙상사고 치료비·치매배상책임보험 무료 제공', url: 'https://www.fsc.go.kr/no010101/87952' },
+  { day: '2026-10-05', src: '금융감독원', cat: '제도·공통', title: '"전환하고 싶어요" 한 마디면 보험료가 할인됩니다', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=237413&menuNo=200218' },
+  { day: '2026-09-30', src: '금융위원회', cat: '실손', title: '의료계·플랫폼 협력으로 "실손24" 연계율 제고 나선다', url: 'https://www.fsc.go.kr/no010101/87818' },
+  { day: '2026-09-28', src: '금융감독원', cat: '제도·공통', title: '2026년 상반기 보험사기 적발현황 및 대응방안', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=231823&menuNo=200218' },
+  { day: '2026-09-15', src: '금융감독원', cat: '자동차', title: '2026년 상반기 자동차보험 사업실적(잠정)', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=228597&menuNo=200218' },
+];
+
+const INDUSTRY = [
+  { title: '내년 보험산업 성장률 3.5% 전망 (보험연구원 세미나)', srcs: 4, url: 'https://www.insweek.co.kr/news/articleView.html?idxno=72766' },
+  { title: 'ABL생명, 전속 설계사 3000명 돌파… 2027년 4000명 목표', srcs: 4, url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93450' },
+  { title: '신한라이프, 민원 예방 AI 에이전트 도입', srcs: 3, url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93446' },
+  { title: '한은, 기준금리 연 3.00% 동결', srcs: 2, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33607' },
+  { title: '2027년 판매수수료 개편 앞두고 "계약체결비용 최대 20% 감소" 고민', srcs: 1, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33615' },
+  { title: '보험사 해외 사모대출 22조원… 국감서 관리 주문', srcs: 1, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33622' },
+];
+
+const RATES = [
+  ['메리츠화재', '업무용', '-1', '2026-09-26'], ['메리츠화재', '영업용', '-1', '2026-09-26'], ['현대해상', '영업용', '0', '2026-09-21'],
+  ['현대해상', '업무용', '0', '2026-06-16'], ['하나손보', '개인용', '0', '2026-06-08'], ['흥국화재', '개인용', '+1.4', '2026-03-13'],
+  ['롯데손보', '개인용', '+1.4', '2026-03-01'], ['메리츠화재', '개인용', '+1.3', '2026-02-21'], ['한화손보', '개인용', '+1.2', '2026-02-21'],
+];
+
+const STATUS = [
+  ['금융위원회', 'warn', 'RSS 점검 중(503) → 목록 페이지로 수집'], ['금융감독원', 'ok', ''], ['손해보험협회', 'ok', ''], ['손보협회 공시실', 'ok', ''],
+  ['생명보험협회', 'ok', ''], ['보험연구원', 'ok', ''], ['보험사 4곳', 'ok', ''], ['보험 전문지 4곳', 'ok', '오늘 37건'],
+];
+
+// ── 도우미 ──
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const md = (d) => { const [, m, dd] = d.split('-'); return `${+m}.${+dd}`; };
+const WK = '일월화수목금토';
+const wk = (d) => WK[new Date(d + 'T00:00:00').getDay()];
+const full = (d) => { const [y, m, dd] = d.split('-'); return `${y}.${+m}.${+dd} (${wk(d)})`; };
+const dayDiff = (d) => Math.round((new Date(TODAY) - new Date(d)) / 86400000);
+const dLabel = (c) => { const n = dayDiff(c.date); return n > 0 ? `D+${n}` : n === 0 ? 'D-DAY' : `D${n}`; };
+const cc = (cat) => 'c-' + CK[cat];
+const link = (o) => `<a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.title)}</a>`;
+const srcLinks = (srcs) => srcs.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(' · ');
+const sign = (v) => (v.startsWith('+') ? 'up' : v.startsWith('-') ? 'dn' : '');
+const DISCLAIMER = '이 사이트는 공개된 보도자료와 기사를 자동으로 모아 보여 주는 정보 제공용이며, 보험 가입이나 해지를 권유하지 않습니다. 요약은 AI가 만들었으므로 정확한 내용은 반드시 원문과 약관에서 확인하세요.';
+
+const LANES = CATS.slice(1);
+const upcoming = CHANGES.filter((c) => !c.exact && !c.past);
+const recent = CHANGES.filter((c) => c.exact || c.past);
+const fuzzy = CHANGES.filter((c) => !c.exact);
+const exacts = CHANGES.filter((c) => c.exact).sort((a, b) => a.date.localeCompare(b.date)); // Tab 순서 = 날짜 순서
+const START = new Date('2026-09-01'), END = new Date('2026-10-31');
+const pos = (d) => ((new Date(d) - START) / (END - START)) * 100;
+const TICKS = ['2026-09-01', '2026-09-15', '2026-10-01', '2026-10-15', '2026-10-31'];
+const idx = (c) => CHANGES.indexOf(c);
+
+// 머리 요약 숫자 (모두 데이터에서 계산)
+const newsToday = (() => { const m = STATUS.map((s) => s[2]).join(' ').match(/오늘 (\d+)건/); return m ? m[1] : '–'; })();
+const okN = STATUS.filter((s) => s[1] === 'ok').length;
+const sigLevel = STATUS.some((s) => s[1] === 'err') ? 'err' : STATUS.some((s) => s[1] !== 'ok') ? 'warn' : 'ok';
+const sigText = sigLevel === 'ok' ? '수집 정상' : `수집 ${okN}/${STATUS.length} 정상`;
+
+// ── 머리 ──
+const mastHtml = () => `
+  <div class="topbar"><span class="tag">시안 v4-1 · 완성형</span><button id="themeBtn" type="button" class="hide">☾ 다크</button></div>
+  <header class="mast">
+    <div class="brand"><h1>보험 <span>레이더</span></h1><p class="upd"><time datetime="${TODAY}T09:00">${full(TODAY)} 09:00</time> 갱신</p></div>
+    <div class="kpis" aria-label="오늘 요약">
+      <div class="kpi"><b>${esc(newsToday)}</b><span>새 소식</span></div>
+      <div class="kpi"><b class="fzn">${upcoming.length}</b><span>바뀌는 것 예정</span></div>
+      <div class="kpi"><b>${recent.length}</b><span>최근 시행</span></div>
+      <button type="button" class="sig" id="sig" aria-expanded="false" aria-controls="sigList"><i class="lamp ${sigLevel}" aria-hidden="true"></i><span>${sigText}</span><span class="car" aria-hidden="true">▼</span></button>
+    </div>
+  </header>
+  <section class="siglist" id="sigList" hidden aria-label="수집 상태">
+    <h2>수집 상태 · 출처 ${STATUS.length}곳</h2>
+    <ul>${STATUS.map((s) => `<li class="${s[1]}"><i class="lamp ${s[1]}" aria-hidden="true"></i><b>${esc(s[0])}</b><span>${s[1] === 'ok' ? '정상' : '주의'}${s[2] ? ' · ' + esc(s[2]) : ''}</span></li>`).join('')}</ul>
+  </section>`;
+
+// ── ① 개요 띠 ──
+const stripHtml = () => {
+  const ticks = TICKS.map((d) => `<div class="tk" style="left:${pos(d)}%"></div><div class="tl" style="left:${pos(d)}%">${md(d)}</div>`).join('');
+  // 날짜가 가까운 두 점은 날짜 글자를 양옆으로 벌려 겹치지 않게 한다
+  const near = (a, b) => a && b && Math.abs(dayDiff(a.date) - dayDiff(b.date)) <= 7;
+  const side = (k) => near(exacts[k], exacts[k + 1]) ? ' pl' : near(exacts[k - 1], exacts[k]) ? ' pr' : '';
+  const dots = exacts.map((c, k) => `<button type="button" class="dot ${cc(c.cat)}${side(k)}" data-i="${idx(c)}" data-cat="${esc(c.cat)}" style="left:${pos(c.date)}%" aria-haspopup="dialog" aria-label="${esc(md(c.date) + ' ' + dLabel(c) + ' ' + c.cat + ': ' + c.title)}"><span class="dl" aria-hidden="true">${md(c.date)}</span></button>`).join('');
+  return `<div class="strip">
+      <div class="axbox"><div class="axis"><div class="base"></div>${ticks}
+        <span class="mon" style="left:${pos('2026-09-01')}%">9월</span><span class="mon" style="left:${pos('2026-10-01')}%">10월</span>
+        <div class="now" style="left:${pos(TODAY)}%"><span>오늘 ${md(TODAY)}</span></div>${dots}</div></div>
+      <div class="fzb">
+        <div class="fzh"><b>미확정 ${fuzzy.length}건<small>원문 표현 그대로</small></b><button type="button" class="fzt" id="fzt" aria-pressed="false">표에서 강조</button></div>
+        <div class="fzl">${fuzzy.map((c) => `<button type="button" class="fzi ${cc(c.cat)}" data-i="${idx(c)}" data-cat="${esc(c.cat)}" aria-haspopup="dialog" aria-label="${esc(c.when + (c.past ? ' (지난 일)' : '') + ' ' + c.cat + ': ' + c.title)}"><span class="catdot"></span>${esc(c.when)}${c.past ? ' <i>(지난 일)</i>' : ''}</button>`).join('')}</div>
+      </div>
+    </div>`;
+};
+
+// ── ② 레인 표 ──
+const liHtml = (c) => c.exact
+  ? `<button type="button" class="li ${cc(c.cat)}" data-i="${idx(c)}" aria-haspopup="dialog"><span class="w">${md(c.date)}<i>${dLabel(c)}</i></span><span class="tx"><span class="t">${esc(c.title)}</span><span class="m">${esc(c.raw)} · ${esc(c.src)}${c.note ? ' · ' + esc(c.note) : ''}</span></span></button>`
+  : `<button type="button" class="li fz ${cc(c.cat)}" data-i="${idx(c)}" aria-haspopup="dialog"><span class="w">${esc(c.when)}${c.past ? '<i>(지난 일) · 미확정</i>' : '<i>날짜 미확정</i>'}</span><span class="tx"><span class="t">${esc(c.title)}</span><span class="m">${esc(c.raw)} · ${esc(c.src)}${c.pub ? ' ' + md(c.pub) + ' 발표' : ''}</span></span></button>`;
+const laneRow = (cat) => {
+  const past = recent.filter((c) => c.cat === cat), fut = upcoming.filter((c) => c.cat === cat);
+  return `<div class="ln ${cc(cat)}" data-lane="${esc(cat)}"><b>${esc(cat)}</b><span>최근 시행 ${past.length} · 예정 ${fut.length}</span></div>
+    <div class="cell" data-lane="${esc(cat)}" data-h="최근 시행">${past.length ? past.map(liHtml).join('') : '<span class="none">없음</span>'}</div>
+    <div class="nowc" data-lane="${esc(cat)}"></div>
+    <div class="cell fzcell" data-lane="${esc(cat)}" data-h="예정">${fut.length ? fut.map(liHtml).join('') : '<span class="none">없음</span>'}</div>`;
+};
+const lanesHtml = () => `<div class="lanes" id="lanes">
+    <div class="lh"></div><div class="lh">최근 시행 · ${recent.length}건 (지난 미확정 포함)</div><div class="nowh">오늘</div><div class="lh fzc">예정 · ${upcoming.length}건</div>
+    ${LANES.map(laneRow).join('')}
+  </div>`;
+
+// ── 아래 영역 ──
+const chipsHtml = () => `<div class="fsent" id="fsent"></div><div class="fbar" id="fbar">
+    <div class="chips" role="group" aria-label="보험 종류 필터">${CATS.map((c, i) => `<button type="button" class="chip ${i ? cc(c) : ''}" data-f="${esc(c)}" aria-pressed="${i ? 'false' : 'true'}">${i ? '<span class="catdot"></span>' : ''}${esc(c)}</button>`).join('')}</div>
+    <span class="fcount" id="fcount" aria-live="polite"></span>
+  </div>`;
+const newsItem = (n) => `<div class="item ${cc(n.cat)}" data-cat="${esc(n.cat)}"><div class="top"><span class="cat"><span class="catdot"></span>${esc(n.cat)}</span>${n.srcs.length > 1 ? `· ${n.srcs.length}곳 보도` : ''}</div><h3>${esc(n.title)}</h3><p>${esc(n.sum.join(' '))}</p><div class="srcs">${srcLinks(n.srcs)}</div></div>`;
+const officialRows = () => OFFICIAL.map((o) => `<div class="row ${cc(o.cat)}" data-cat="${esc(o.cat)}"><span class="off">공식</span><span class="ot"><span class="catdot"></span>${link(o)}<small>${esc(o.src)} · ${esc(o.cat)}</small></span><span class="n dt">${md(o.day)}</span></div>`).join('');
+const industryRows = () => INDUSTRY.map((i) => `<div class="row">${link(i)}<span class="n">${i.srcs}곳</span></div>`).join('');
+const rateRows = () => RATES.map((r) => `<div class="row"><span>${esc(r[0])} · ${esc(r[1])}</span><span class="n ${sign(r[2])}">${md(r[3])} &nbsp; ${esc(r[2])}%</span></div>`).join('');
+
+document.getElementById('app').innerHTML = `
+  ${mastHtml()}
+  <section class="card" aria-label="바뀌는 것">
+    <div class="hrow"><h2>바뀌는 것<small>9.1 ~ 10.31 · 약관·보험료·제도</small></h2>
+      <span class="legend" aria-hidden="true"><span><span class="catdot c-car"></span>자동차</span><span><span class="catdot c-med"></span>실손</span><span><span class="catdot c-life"></span>생명·건강·상해</span><span><span class="catdot c-ind"></span>제도·공통</span></span></div>
+    <div class="step">① 한눈에 보기</div>
+    ${stripHtml()}
+    <div class="guide" id="guide" aria-live="polite"><span class="gk" id="gk">안내</span><span class="gt" id="gt"></span></div>
+    <div class="step">② 보험 종류별로 보기</div>
+    ${lanesHtml()}
+  </section>
+  ${chipsHtml()}
+  <div class="below">
+    <section><h2 class="sh">오늘 소식 <small>${NEWS.length}개 주제</small></h2><div class="news" data-list>${NEWS.map(newsItem).join('')}<div class="empty hide">이 종류의 소식이 없습니다</div></div></section>
+    <aside class="side">
+      <div class="card"><h2>공식 발표 <small>정부·감독기관</small></h2><div data-list>${officialRows()}<div class="empty hide">이 종류의 발표가 없습니다</div></div></div>
+      <div class="card"><h2>자동차보험료 조정 <small>손보협회 공시실</small></h2>${rateRows()}</div>
+      <div class="card"><h2>업계 동향</h2>${industryRows()}</div>
+    </aside>
+  </div>
+  <footer>${DISCLAIMER}</footer>`;
+
+// ── 안내 줄 ──
+const $ = (s) => document.querySelector(s);
+const guide = $('#guide'), gk = $('#gk'), gt = $('#gt');
+const narrow = matchMedia('(max-width: 760px)');
+const defaultGuide = () => narrow.matches ? '점이나 표의 항목을 누르면 아래에서 원문 근거와 관련 소식이 올라옵니다' : '점이나 표의 항목을 누르면 오른쪽에 원문 근거와 관련 소식이 열립니다 · <kbd>Tab</kbd> 이동 <kbd>Enter</kbd> 열기 <kbd>Esc</kbd> 닫기';
+const whenText = (c) => c.exact ? `${md(c.date)} (${wk(c.date)}) · ${dLabel(c)}` : `${c.when}${c.past ? ' (지난 일)' : ''} · 날짜 미확정`;
+const guideFor = (c) => `<span class="gm ${cc(c.cat)}${c.exact ? ' ex' : ''}">${esc(whenText(c))}</span> · ${esc(c.cat)} · <b>${esc(c.title)}</b>`;
+let cur = null, opener = null;
+const setGuide = (c, mode) => {
+  guide.classList.toggle('sel', mode === 'sel');
+  gk.textContent = mode === 'sel' ? '선택됨' : mode === 'peek' ? '미리 보기' : '안내';
+  gt.innerHTML = c ? guideFor(c) : defaultGuide();
+};
+const restoreGuide = () => setGuide(cur === null ? null : CHANGES[cur], cur === null ? '' : 'sel');
+restoreGuide();
+narrow.addEventListener && narrow.addEventListener('change', restoreGuide);
+
+// ── 상세 패널 ──
+const dp = $('#dp'), dpBody = $('#dpBody'), dpKind = $('#dpKind'), scrim = $('#scrim');
+const kindOf = (c) => c.exact ? '시행일 확정' : c.past ? '날짜 미확정 · 지난 일' : '날짜 미확정 · 예정';
+const relHtml = (c) => {
+  const ns = NEWS.filter((n) => n.cat === c.cat), os = OFFICIAL.filter((o) => o.cat === c.cat);
+  if (!ns.length && !os.length) return '<p class="dp-none">같은 종류의 관련 소식이 없습니다.</p>';
+  return `<ul class="rel">${ns.map((n) => `<li><span class="rk">소식</span><div><p>${esc(n.title)}</p><small>${srcLinks(n.srcs)}</small></div></li>`).join('')}${os.map((o) => `<li><span class="rk off">공식</span><div><p>${link(o)}</p><small>${esc(o.src)} · ${md(o.day)}${o.url === c.url ? ' · 이 항목의 원문 발표' : ''}</small></div></li>`).join('')}</ul>`;
+};
+const whenFact = (c) => {
+  if (c.exact) {
+    const n = dayDiff(c.date);
+    const st = n > 0 ? `<span class="badge">${dLabel(c)} · 시행 중</span>` : n === 0 ? '<span class="badge soon">오늘 시행</span>' : `<span class="badge soon">${dLabel(c)} · 예정</span>`;
+    return `<dt>시행일</dt><dd><span class="mono">${full(c.date)}</span>${st}</dd>`;
+  }
+  return `<dt>시행 시기</dt><dd><b>${esc(c.when)}</b>${c.past ? ' (지난 일)' : ''}<span class="badge fz">원문 표현 · 날짜 미확정</span></dd>`;
+};
+const detailHtml = (c) => {
+  const relN = NEWS.filter((n) => n.cat === c.cat).length + OFFICIAL.filter((o) => o.cat === c.cat).length;
+  return `<h2 id="dpTitle" tabindex="-1">${esc(c.title)}</h2>
+    <dl class="facts">
+      <dt>종류</dt><dd><span class="catdot"></span>${esc(c.cat)}</dd>
+      ${whenFact(c)}
+      ${c.pub ? `<dt>발표</dt><dd><span class="mono">${full(c.pub)}</span></dd>` : ''}
+      <dt>출처</dt><dd>${esc(c.src)}</dd>
+      ${c.note ? `<dt>참고</dt><dd>${esc(c.note)}</dd>` : ''}
+    </dl>
+    <h3 class="dp-sec">원문 근거</h3>
+    <blockquote class="raw">${esc(c.raw)}</blockquote>
+    <a class="srcbtn" href="${esc(c.url)}" target="_blank" rel="noopener"><span>${esc(c.src)} 원문 보기<small>새 창에서 열림</small></span><span aria-hidden="true">↗</span></a>
+    <h3 class="dp-sec">같은 종류의 관련 소식 <small>${esc(c.cat)} · ${relN}건</small></h3>
+    ${relHtml(c)}
+    <p class="dp-foot">요약과 분류는 자동 수집 결과입니다. 정확한 내용은 원문과 약관에서 확인하세요.</p>`;
+};
+const mark = (i) => {
+  document.querySelectorAll('.dot.on, .fzi.on, .li.hl').forEach((el) => el.classList.remove('on', 'hl'));
+  if (i === null) return;
+  document.querySelectorAll(`.dot[data-i="${i}"], .fzi[data-i="${i}"]`).forEach((el) => el.classList.add('on'));
+  document.querySelectorAll(`.li[data-i="${i}"]`).forEach((el) => el.classList.add('hl'));
+};
+const openDetail = (i, from) => {
+  const c = CHANGES[i];
+  cur = i; opener = from || null;
+  dp.className = `dp open ${cc(c.cat)}`;
+  dpKind.innerHTML = `<span class="catdot"></span>${esc(c.cat)} · ${kindOf(c)}`;
+  dpBody.innerHTML = detailHtml(c);
+  dpBody.scrollTop = 0;
+  dp.removeAttribute('inert'); dp.setAttribute('aria-hidden', 'false');
+  if (narrow.matches) { scrim.classList.add('open'); dp.setAttribute('aria-modal', 'true'); } else dp.removeAttribute('aria-modal');
+  mark(i); setGuide(c, 'sel');
+  setTimeout(() => { const h = $('#dpTitle'); if (h) h.focus({ preventScroll: true }); }, 30);
+};
+const closeDetail = (refocus) => {
+  if (cur === null) return;
+  dp.classList.remove('open'); dp.setAttribute('inert', ''); dp.setAttribute('aria-hidden', 'true');
+  scrim.classList.remove('open');
+  cur = null; mark(null); restoreGuide();
+  if (refocus && opener && document.contains(opener)) opener.focus();
+  opener = null;
+};
+$('#dpX').addEventListener('click', () => closeDetail(true));
+scrim.addEventListener('click', () => closeDetail(true));
+
+// ── 클릭 ──
+const applyFilter = (f) => {
+  const all = f === '전체';
+  document.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.f === f)));
+  document.querySelectorAll('.below [data-cat]').forEach((el) => el.classList.toggle('hide', !all && el.dataset.cat !== f));
+  document.querySelectorAll('.lanes [data-lane]').forEach((el) => el.classList.toggle('dim', !all && el.dataset.lane !== f));
+  document.querySelectorAll('.strip [data-cat]').forEach((el) => el.classList.toggle('dim', !all && el.dataset.cat !== f));
+  document.querySelectorAll('.below [data-list]').forEach((l) => {
+    const any = [...l.querySelectorAll('[data-cat]')].some((el) => !el.classList.contains('hide'));
+    l.querySelector('.empty').classList.toggle('hide', any);
+  });
+  const nN = document.querySelectorAll('.news .item:not(.hide)').length;
+  const oN = document.querySelectorAll('.side .row[data-cat]:not(.hide)').length;
+  $('#fcount').innerHTML = `${all ? '전체' : esc(f)} · 소식 <b>${nN}</b> · 공식 발표 <b>${oN}</b>`;
+};
+applyFilter('전체');
+
+document.addEventListener('click', (e) => {
+  const opn = e.target.closest('.dot, .fzi, .li');
+  if (opn) {
+    const i = +opn.dataset.i;
+    if (cur === i && dp.classList.contains('open')) closeDetail(false); else openDetail(i, opn);
+    return;
+  }
+  const fzt = e.target.closest('#fzt');
+  if (fzt) {
+    const on = fzt.getAttribute('aria-pressed') !== 'true';
+    fzt.setAttribute('aria-pressed', String(on));
+    $('#lanes').classList.toggle('fzon', on);
+    return;
+  }
+  const sig = e.target.closest('#sig');
+  if (sig) {
+    const on = sig.getAttribute('aria-expanded') !== 'true';
+    sig.setAttribute('aria-expanded', String(on));
+    $('#sigList').hidden = !on;
+    return;
+  }
+  const chip = e.target.closest('.chip');
+  if (chip) { applyFilter(chip.dataset.f); return; }
+  // 패널 바깥을 누르면 닫는다 (패널 안, 테마 토글은 제외)
+  if (cur !== null && !e.target.closest('#dp, #themeBtn')) closeDetail(false);
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  if (cur !== null) { closeDetail(true); return; }
+  const sig = $('#sig');
+  if (sig.getAttribute('aria-expanded') === 'true') { sig.click(); sig.focus(); }
+});
+
+// 미리 보기: 점·미확정 칩에 올리거나 포커스하면 안내 줄에 제목, 표 항목에 올리면 띠의 점을 키움
+const peekOn = (el) => {
+  document.querySelectorAll('.dot.peek').forEach((d) => d.classList.remove('peek'));
+  if (!el) { restoreGuide(); return; }
+  const i = +el.dataset.i;
+  if (el.classList.contains('li')) { const d = $(`.dot[data-i="${i}"]`); if (d) d.classList.add('peek'); return; }
+  if (cur !== i) setGuide(CHANGES[i], 'peek');
+};
+document.addEventListener('mouseover', (e) => { const el = e.target.closest('.dot, .fzi, .li'); peekOn(el); });
+document.addEventListener('focusin', (e) => { const el = e.target.closest('.dot, .fzi, .li'); if (el) peekOn(el); else if (!e.target.closest('#dp')) peekOn(null); });
+
+// 필터 줄이 위에 붙었을 때 아래 선 표시
+if ('IntersectionObserver' in window) {
+  new IntersectionObserver(([en]) => $('#fbar').classList.toggle('stuck', !en.isIntersecting)).observe($('#fsent'));
+}
+
+// ── 테마 ──
+const q = new URLSearchParams(location.search).get('theme');
+if (q === 'dark' || q === 'light') document.documentElement.dataset.theme = q;
+addEventListener('message', (e) => { if (e.data && e.data.type === 'theme' && (e.data.theme === 'dark' || e.data.theme === 'light')) { document.documentElement.dataset.theme = e.data.theme; syncBtn(); } });
+const btn = document.getElementById('themeBtn');
+function syncBtn() { btn.textContent = document.documentElement.dataset.theme === 'dark' ? '☀ 밝은 모드' : '☾ 다크'; }
+if (window.top === window) {
+  btn.classList.remove('hide'); syncBtn();
+  btn.onclick = () => { document.documentElement.dataset.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; syncBtn(); };
+}
+</script>
+</body>
+</html>

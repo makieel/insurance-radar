@@ -1,0 +1,1088 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>보험 레이더 시안 v5 · 모바일</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#f2f4f8; --panel:#ffffff; --ink:#111c33; --ink2:#3c4862; --ink3:#5a6680; --line:#dce2ec;
+  --navy:#1f3561; --navy-soft:#e9eef7; --strip:#f5f7fb; --future:#eef6f6;
+  --accent:#0f8a80; --accent-soft:#d5f3ef; --on-accent:#ffffff;
+  --today:#dc2626; --on-today:#ffffff;
+  --fz:#c2410c; --fz-soft:#fff3ea;
+  --car:#2563eb; --med:#e11d48; --life:#16a34a; --ind:#7c3aed;
+  --up:#e11d48; --dn:#2563eb; --warn:#c2410c;
+  --r-up:#dc2626; --r-dn:#2563eb; --r-zero:#6b7280; --on-rate:#ffffff;
+  --radius:12px;
+}
+[data-theme="dark"] {
+  --bg:#0a0f1c; --panel:#111a2d; --ink:#e4e9f4; --ink2:#aab5cb; --ink3:#8592ad; --line:#24324f;
+  --navy:#b8c8ea; --navy-soft:#1a2642; --strip:#0d1525; --future:#0c1d24;
+  --accent:#2dd4bf; --accent-soft:#0d3a3a; --on-accent:#03201c;
+  --today:#fb7185; --on-today:#2a070d;
+  --fz:#fb923c; --fz-soft:#2a1a0c;
+  --car:#60a5fa; --med:#fb7185; --life:#4ade80; --ind:#a78bfa;
+  --up:#fb7185; --dn:#60a5fa; --warn:#fb923c;
+  --r-up:#f87171; --r-dn:#60a5fa; --r-zero:#9ca3af; --on-rate:#0a0f1c;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font-family: Pretendard, system-ui, sans-serif; background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.hide { display: none !important; }
+.mono { font-family: "JetBrains Mono", monospace; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+#themeBtn { position: fixed; top: 10px; right: 12px; z-index: 60; font: inherit; font-size: 12.5px; padding: 5px 11px; border-radius: 99px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+
+header { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 4px 14px; padding: 12px 0 8px; }
+body.toggle header { padding-right: 110px; }
+header .tag { display: inline-block; font-size: 11px; font-weight: 700; color: var(--navy); background: var(--navy-soft); padding: 2px 8px; border-radius: 99px; margin-bottom: 4px; }
+header h1 { margin: 0; font-size: 22px; letter-spacing: -.02em; color: var(--navy); }
+header h1 span { color: var(--accent); }
+header .d { color: var(--ink2); font-size: 13px; }
+
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.card > h2 { margin: 0 0 10px; font-size: 16px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; color: var(--navy); }
+.card > h2 small { font-size: 12px; color: var(--ink3); font-weight: 500; }
+.chg { padding-top: 13px; }
+.chg > h2 { margin-bottom: 6px; }
+.c-car { --c: var(--car); } .c-med { --c: var(--med); } .c-life { --c: var(--life); } .c-ind { --c: var(--ind); }
+.catdot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 1px; background: var(--c, var(--ink3)); }
+
+/* ── 1단계: 띠 조작 ── */
+.step { font-size: 11px; font-weight: 800; letter-spacing: .04em; color: var(--accent); margin: 0 0 6px; }
+.ctl { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px 12px; margin: 0 0 6px; }
+.ctl .step { margin: 0; }
+.opts { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; overflow: hidden; background: var(--panel); }
+.seg button { font: 600 12px/1 "JetBrains Mono", monospace; padding: 6px 10px; border: 0; background: transparent; color: var(--ink2); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--navy); color: var(--panel); font-weight: 800; }
+.tg { font: inherit; font-size: 12px; padding: 4px 10px 4px 7px; border-radius: 99px; border: 1px solid var(--line); background: var(--panel); color: var(--ink2); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.tg .sw { width: 26px; height: 15px; border-radius: 99px; background: var(--line); position: relative; flex: none; }
+.tg .sw::after { content: ""; position: absolute; top: 2px; left: 2px; width: 11px; height: 11px; border-radius: 50%; background: var(--panel); transition: left .15s; }
+.tg[aria-pressed="true"] { border-color: var(--accent); color: var(--ink); font-weight: 700; }
+.tg[aria-pressed="true"] .sw { background: var(--accent); }
+.tg[aria-pressed="true"] .sw::after { left: 13px; }
+
+/* ── 띠 ── */
+.strip { display: grid; grid-template-columns: 50px minmax(0, 1fr) 250px; background: var(--strip); border: 1px solid var(--line); border-radius: 10px; }
+.rlab { position: relative; border-right: 1px dashed var(--line); }
+.rlab span { position: absolute; left: 0; right: 0; transform: translateY(-50%); text-align: center; font-size: 11px; font-weight: 700; color: var(--ink3); line-height: 1.2; }
+.rlab span i { font-style: normal; font-weight: 500; font-size: 10px; }
+.axbox { position: relative; overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; }
+.axis { position: relative; margin: 0 18px; }
+.axis .fut { position: absolute; top: 0; bottom: 0; right: -18px; background: var(--future); }
+.axis .gl { position: absolute; width: 1px; bottom: 20px; background: var(--line); }
+.axis .gm { position: absolute; bottom: 4px; padding-left: 4px; font-size: 11px; font-weight: 700; color: var(--navy); opacity: .8; white-space: nowrap; }
+.axis .gm i { font-style: normal; font-weight: 500; color: var(--ink3); margin-left: 3px; font-size: 10px; }
+.axis .base { position: absolute; left: 0; right: 0; height: 2px; margin-top: -1px; background: var(--navy); opacity: .35; }
+.axis .sep { position: absolute; left: 0; right: 0; border-top: 1px dashed var(--line); }
+.axis .cl { position: absolute; top: 5px; font-size: 11px; font-weight: 700; color: var(--ink3); white-space: nowrap; display: flex; gap: 4px; align-items: center; }
+.axis .cl.l { left: 0; } .axis .cl.r { right: 0; }
+.axis .cl .mono { font-weight: 600; font-size: 10.5px; }
+.oor { font: inherit; font-size: 11px; font-weight: 700; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+span.oor { color: var(--ink3); text-decoration: none; font-weight: 500; cursor: help; }
+.axis .now { position: absolute; top: 3px; bottom: 20px; width: 2px; margin-left: -1px; background: var(--today); z-index: 1; }
+.axis .now span { position: absolute; top: 0; left: 1px; transform: translateX(-50%); font-size: 11px; font-weight: 800; color: var(--on-today); background: var(--today); padding: 1px 7px; border-radius: 99px; white-space: nowrap; }
+.nofut { position: absolute; transform: translateY(-50%); font-size: 11px; color: var(--ink3); background: var(--panel); border: 1px solid var(--line); padding: 1px 8px; border-radius: 99px; white-space: nowrap; z-index: 1; }
+.dot { position: absolute; width: 26px; height: 26px; margin: -13px 0 0 -13px; padding: 0; border: 0; background: transparent; cursor: pointer; z-index: 2; }
+.dot::before { content: ""; position: absolute; left: 6px; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 3px var(--strip); transition: transform .15s; }
+.r6 .dot::before { left: 7px; top: 7px; width: 12px; height: 12px; }
+.dot .dl { position: absolute; bottom: 22px; left: 50%; transform: translateX(-50%); font-family: "JetBrains Mono", monospace; font-size: 10.5px; font-weight: 800; color: var(--c); white-space: nowrap; }
+.dot.lv1 .dl { bottom: 34px; }
+.dot:hover::before, .dot.on::before, .dot.peek::before, .dot:focus-visible::before { transform: scale(1.3); }
+.dot.on::before { box-shadow: 0 0 0 3px var(--strip), 0 0 0 5px var(--accent); }
+.dot:focus-visible { outline: none; }
+.band { position: absolute; height: 18px; margin-top: 2px; padding: 0 6px; border: 1.5px dashed var(--c); border-radius: 5px; background: color-mix(in srgb, var(--c) 13%, transparent); color: var(--ink); font: 700 11px/15px Pretendard, system-ui, sans-serif; text-align: left; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; z-index: 2; }
+.band.cut-r { border-right-style: none; border-radius: 5px 0 0 5px; -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 14px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 14px), transparent); }
+.band.cut-l { border-left-style: none; border-radius: 0 5px 5px 0; }
+.band:hover, .band.peek, .band:focus-visible { background: color-mix(in srgb, var(--c) 24%, transparent); outline: none; }
+.band.on { border-width: 2px; box-shadow: 0 0 0 2px var(--accent); background: color-mix(in srgb, var(--c) 24%, transparent); }
+.blab { position: absolute; margin-top: 2px; font: 700 11px/18px Pretendard, system-ui, sans-serif; color: var(--c); white-space: nowrap; cursor: pointer; z-index: 2; }
+.rp { position: absolute; height: 16px; padding: 0 5px; border: 0; border-radius: 4px; transform: translateX(-50%); font: 800 10.5px/16px "JetBrains Mono", monospace; color: var(--on-rate); background: var(--rc); cursor: pointer; white-space: nowrap; z-index: 2; }
+.rp::after { content: ""; position: absolute; left: 50%; top: 100%; width: 1px; height: 4px; background: var(--rc); }
+.rp.up { --rc: var(--r-up); } .rp.dn { --rc: var(--r-dn); } .rp.zero { --rc: var(--r-zero); }
+.rp:hover, .rp.on, .rp:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.fzb { border-left: 2px dashed var(--fz); padding: 10px 12px; display: flex; flex-direction: column; gap: 5px; cursor: pointer; border-radius: 0 10px 10px 0; background: var(--fz-soft); font: inherit; color: inherit; text-align: left; border-top: 0; border-right: 0; border-bottom: 0; }
+.fzb:hover .fzt, .fzb.on .fzt { text-decoration: underline; }
+.fzb.on { box-shadow: inset 0 0 0 2px var(--fz); }
+.fzt { font-size: 13px; font-weight: 800; color: var(--fz); }
+.fzt small { font-weight: 500; color: var(--ink3); font-size: 11px; margin-left: 4px; }
+.fzs { font-size: 11px; font-weight: 700; color: var(--ink2); margin-top: 2px; }
+.fzl { display: flex; flex-wrap: wrap; gap: 4px; }
+.fzl > span { font-size: 11.5px; padding: 1px 8px 1px 6px; border-radius: 99px; border: 1px solid var(--c); background: var(--panel); color: var(--ink); white-space: nowrap; }
+.fzl > span.bd { border-style: dashed; background: color-mix(in srgb, var(--c) 10%, var(--panel)); border-radius: 4px; }
+.fzl span i { font-style: normal; color: var(--ink3); }
+.info { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; min-height: 34px; margin: 6px 0 0; padding: 6px 12px; border-radius: 8px; background: var(--panel); border: 1px solid var(--line); font-size: 12.5px; line-height: 1.45; color: var(--ink2); }
+.info.pin { border-color: var(--accent); box-shadow: inset 3px 0 0 var(--accent); }
+.info .k { font-size: 10.5px; font-weight: 800; color: var(--on-accent); background: var(--accent); padding: 0 6px; border-radius: 4px; }
+.info b { color: var(--ink); }
+.info .t { color: var(--ink); font-weight: 600; }
+.info .m { color: var(--ink3); font-size: 12px; }
+.info .x { font: inherit; font-size: 11.5px; margin-left: auto; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--line); background: var(--strip); color: var(--ink2); cursor: pointer; }
+.info .n.up { color: var(--r-up); } .info .n.dn { color: var(--r-dn); } .info .n.zero { color: var(--r-zero); }
+.ico-band { display: inline-block; width: 22px; height: 10px; border: 1.5px dashed var(--ink3); border-radius: 3px; background: color-mix(in srgb, var(--ink3) 15%, transparent); vertical-align: -1px; margin-right: 3px; }
+.ico-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--ink2); vertical-align: 0; margin-right: 3px; }
+.ico-rp { display: inline-block; width: 12px; height: 9px; border-radius: 2px; background: var(--rc); vertical-align: 0; margin-right: 2px; }
+.ico-rp.up { --rc: var(--r-up); } .ico-rp.dn { --rc: var(--r-dn); } .ico-rp.zero { --rc: var(--r-zero); }
+.rule { margin: 6px 0 0; font-size: 12px; color: var(--ink2); line-height: 1.5; }
+.rule b { color: var(--ink); }
+.hint { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 14px; font-size: 12px; color: var(--ink2); margin: 4px 0 10px; }
+.hint .lg { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+
+/* ── 2단계: 레인 표 ── */
+.sub { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin: 0 0 6px; }
+.sub .step { margin: 0; }
+.sub small { font-size: 11.5px; color: var(--ink3); }
+.lanes { display: grid; grid-template-columns: 138px minmax(0, 1fr) 34px minmax(0, 1fr); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.lanes > div { border-top: 1px solid var(--line); transition: opacity .2s; }
+.lanes > .lh { border-top: 0; font-size: 11.5px; font-weight: 700; color: var(--ink3); background: var(--strip); padding: 5px 10px; }
+.lanes > .lh.fzh { color: var(--fz); }
+.lanes > .nowh { border-top: 0; background: var(--strip); color: var(--today); font-size: 10.5px; font-weight: 800; text-align: center; padding: 6px 0; }
+.ln { padding: 6px 10px; border-left: 4px solid var(--c); display: flex; flex-direction: column; justify-content: center; gap: 1px; }
+.ln b { font-size: 13.5px; color: var(--c); line-height: 1.25; }
+.ln span { font-size: 11px; color: var(--ink3); }
+.nowc { background: linear-gradient(var(--today), var(--today)) center / 2px 100% no-repeat; opacity: .55; }
+.cell { padding: 5px 8px; display: flex; flex-direction: column; gap: 3px; justify-content: center; }
+.li { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 0 8px; padding: 3px 8px; border-radius: 7px; border-left: 3px solid var(--c); background: var(--panel); transition: background .2s, box-shadow .2s; }
+.li.fz { border-left: 3px dashed var(--fz); }
+.li .w { font-family: "JetBrains Mono", monospace; font-size: 11.5px; font-weight: 800; color: var(--ink2); line-height: 1.35; padding-top: 1px; }
+.li .w i { display: block; font-style: normal; font-weight: 600; color: var(--ink3); font-size: 10.5px; }
+.li.fz .w { font-family: Pretendard, system-ui, sans-serif; color: var(--fz); font-size: 12px; }
+.li .t { font-size: 13px; line-height: 1.35; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.li .m { font-size: 11px; color: var(--ink3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.li.hl { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--accent); }
+.cell .none { font-size: 12px; color: var(--ink3); padding: 0 8px; }
+.cell .gone { font-size: 11px; color: var(--ink3); padding: 0 8px; }
+.dim { opacity: .25; }
+
+/* ── 아래 영역 ── */
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 16px 0 12px; }
+.chip { font: inherit; cursor: pointer; font-size: 13px; padding: 5px 12px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line); color: var(--ink2); }
+.chip.on { background: var(--navy); border-color: var(--navy); color: var(--panel); font-weight: 700; }
+.below { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 16px; align-items: start; }
+.sh { margin: 0 0 8px; font-size: 14px; color: var(--navy); display: flex; justify-content: space-between; align-items: baseline; }
+.sh small { font-size: 12px; font-weight: 500; color: var(--ink3); }
+.news { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.item { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 13px 15px; border-top: 3px solid var(--c); }
+.item .top { display: flex; gap: 6px; align-items: center; font-size: 12px; color: var(--ink3); margin-bottom: 4px; flex-wrap: wrap; }
+.item .cat { font-weight: 700; color: var(--c); }
+.item h3 { margin: 0 0 6px; font-size: 15px; line-height: 1.4; }
+.item p { margin: 0; font-size: 13.5px; color: var(--ink2); line-height: 1.6; }
+.item .srcs { margin-top: 8px; font-size: 12px; color: var(--ink3); }
+.empty { font-size: 13px; color: var(--ink3); padding: 14px; border: 1px dashed var(--line); border-radius: 12px; text-align: center; grid-column: 1 / -1; }
+.side { display: flex; flex-direction: column; gap: 14px; }
+.row { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 13px; line-height: 1.45; }
+.row:last-of-type { border-bottom: 0; }
+.row .n { font-family: "JetBrains Mono", monospace; font-weight: 600; white-space: nowrap; }
+.row .n.dt { font-weight: 400; color: var(--ink3); }
+.row .off { flex: none; font-size: 11px; font-weight: 700; color: var(--panel); background: var(--navy); padding: 0 5px; border-radius: 4px; height: 17px; margin-top: 2px; }
+.row .ot { flex: 1; }
+.row.inwin { background: linear-gradient(90deg, var(--accent-soft), transparent 70%); }
+.n.up { color: var(--up); } .n.dn { color: var(--dn); }
+.status { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--ink2); }
+.status .w { color: var(--warn); font-weight: 600; }
+footer { margin: 24px 0 0; padding: 16px 0 40px; color: var(--ink3); font-size: 12px; line-height: 1.7; border-top: 1px solid var(--line); }
+
+@media (max-width: 1000px) { .below { grid-template-columns: 1fr; } }
+@media (max-width: 760px) {
+  .strip { grid-template-columns: 44px minmax(0, 1fr); }
+  .fzb { grid-column: 1 / -1; border-left: 0; border-top: 2px dashed var(--fz); border-radius: 0 0 10px 10px; }
+  .lanes { grid-template-columns: 1fr; }
+  .lanes > .lh, .lanes > .nowh, .nowc { display: none; }
+  .ln { flex-direction: row; justify-content: flex-start; align-items: baseline; gap: 8px; background: var(--strip); }
+  .li { grid-template-columns: 78px minmax(0, 1fr); }
+  .cell::before { content: attr(data-h); font-size: 11px; font-weight: 700; color: var(--ink3); padding: 0 2px; }
+  .cell.fzcell::before { color: var(--fz); }
+  .lanes > .cell { border-top: 0; }
+  .news { grid-template-columns: 1fr; }
+  header h1 { font-size: 20px; }
+  .info .x { margin-left: 0; }
+}
+
+/* ══ v5 모바일 (767px 이하에서만 적용, 데스크톱은 v4-2와 같음) ══ */
+.mo, .acc, .tabs, .moor { display: none; }
+/* 하단 시트 */
+.bs-bg { position: fixed; inset: 0; z-index: 79; background: rgba(4, 9, 20, .5); opacity: 0; transition: opacity .2s; }
+.bs-bg.open { opacity: 1; }
+.bs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 80; max-width: 640px; margin: 0 auto; max-height: 82vh; max-height: 82dvh; display: flex; flex-direction: column; background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-bottom: 0; border-radius: 16px 16px 0 0; box-shadow: 0 -10px 30px rgba(0, 0, 0, .28); transform: translateY(100%); transition: transform .22s ease; padding-bottom: env(safe-area-inset-bottom); }
+.bs.open { transform: translateY(0); }
+.bs.drag { transition: none; }
+.bs[hidden], .bs-bg[hidden] { display: none; }
+.bs-hd { position: relative; padding: 20px 64px 10px 16px; border-bottom: 1px solid var(--line); touch-action: none; }
+.bs-hd .grip { position: absolute; top: 7px; left: 50%; width: 40px; height: 4px; margin-left: -20px; border-radius: 99px; background: var(--line); }
+.bs-k { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; font-size: 13px; font-weight: 700; color: var(--ink2); }
+.bs-k .tagx { font-size: 12px; font-weight: 800; padding: 1px 7px; border-radius: 4px; background: var(--navy-soft); color: var(--navy); }
+.bs-k .tagx.fz { background: var(--fz-soft); color: var(--fz); border: 1px dashed var(--fz); }
+.bs-hd h2 { margin: 4px 0 0; font-size: 17px; line-height: 1.4; color: var(--ink); letter-spacing: -.01em; }
+.bs-x { position: absolute; top: 12px; right: 10px; min-width: 48px; height: 44px; padding: 0 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--strip); color: var(--ink); font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.05; }
+.bs-x b { font-size: 15px; }
+.bs-bd { overflow: auto; overscroll-behavior: contain; padding: 14px 16px 18px; }
+.kv { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 9px 12px; margin: 0 0 14px; font-size: 14px; line-height: 1.5; }
+.kv dt { color: var(--ink3); font-weight: 700; font-size: 13px; padding-top: 1px; }
+.kv dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+.kv .sm { display: block; color: var(--ink2); font-size: 13px; }
+.kv .n.up { color: var(--r-up); } .kv .n.dn { color: var(--r-dn); } .kv .n.zero { color: var(--r-zero); }
+.bs-go { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 48px; padding: 0 14px; border-radius: 10px; background: var(--navy); color: var(--panel); font-weight: 800; font-size: 15px; }
+.bs-go:hover { text-decoration: none; filter: brightness(1.08); }
+.bs-it + .bs-it { border-top: 1px solid var(--line); margin-top: 16px; padding-top: 16px; }
+.bs-it h3 { margin: 0 0 10px; font-size: 15.5px; line-height: 1.45; }
+.bs-nolink { font-size: 13px; color: var(--ink3); margin: 0; }
+
+@media (max-width: 767px) {
+  html.lock, html.lock body { overflow: hidden; }
+  body { padding-bottom: calc(60px + env(safe-area-inset-bottom)); }
+  .mo { display: block; }
+  .d-only { display: none !important; }
+  .wrap { padding: 0 12px; }
+  [id^="sec-"] { scroll-margin-top: 72px; }
+
+  /* 머리 */
+  #themeBtn { position: absolute; top: 8px; right: 10px; width: 44px; height: 44px; padding: 0; font-size: 18px; display: flex; align-items: center; justify-content: center; }
+  #themeBtn .tl { display: none; }
+  body.toggle header { padding-right: 52px; }
+  header { padding: 10px 0 6px; gap: 2px 10px; }
+  header .tag { font-size: 11.5px; }
+  header .d { font-size: 13px; }
+
+  /* 위에 붙는 보험 종류 필터 */
+  .mbar { position: sticky; top: 0; z-index: 40; margin: 0 -12px; padding: 6px 0; background: var(--bg); transition: box-shadow .15s; }
+  .mbar.stuck { box-shadow: 0 1px 0 var(--line), 0 6px 14px -10px rgba(0, 0, 0, .35); }
+  .mbar::after { content: ""; position: absolute; top: 0; bottom: 0; right: 0; width: 28px; background: linear-gradient(90deg, transparent, var(--bg)); pointer-events: none; }
+  .mbar .chips { flex-wrap: nowrap; overflow-x: auto; margin: 0; padding: 0 28px 0 12px; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .mbar .chips::-webkit-scrollbar { display: none; }
+  .mbar .chip { flex: none; min-height: 44px; padding: 0 15px; font-size: 14px; display: inline-flex; align-items: center; }
+
+  /* 바뀌는 것 카드 */
+  .card { padding: 12px; }
+  .chg { padding-top: 12px; margin-top: 4px; }
+  .chg > h2 { margin-bottom: 6px; font-size: 17px; }
+  .card > h2 small { font-size: 12.5px; }
+  .ctl { margin-bottom: 8px; }
+  .ctl .step, #info, .rule, .hint, .rlab, .fzb { display: none; }
+  .opts { gap: 8px; flex-wrap: nowrap; }
+  .seg button { min-height: 44px; min-width: 50px; font: 600 13.5px/1 Pretendard, system-ui, sans-serif; padding: 0 10px; white-space: nowrap; }
+  .seg button[aria-pressed="true"] { font-weight: 800; }
+  .tg { min-height: 44px; font-size: 13.5px; padding: 0 12px 0 9px; white-space: nowrap; }
+  .strip { grid-template-columns: minmax(0, 1fr); }
+  .axbox { overflow: hidden; }
+  .axis { margin: 0 12px; }
+  .axis .fut { right: -12px; }
+  .axis .cl { font-size: 11.5px; }
+  .axis .gm { font-size: 11.5px; }
+  .axis .now span { font-size: 11.5px; }
+  .nofut { font-size: 11.5px; }
+  .dot { width: 44px; height: 44px; margin: -22px 0 0 -22px; }
+  .dot::before { left: 15px; top: 15px; }
+  .r6 .dot::before { left: 16px; top: 16px; }
+  .dot .dl { bottom: 31px; font-size: 11.5px; }
+  .dot.lv1 .dl { bottom: 45px; }
+  .dot.grp::before { content: attr(data-n); left: 11px; top: 11px; width: 22px; height: 22px; background: var(--c, var(--navy)); color: var(--panel); font: 800 12px/22px "JetBrains Mono", monospace; text-align: center; }
+  .dot.grp .dl { color: var(--c, var(--navy)); }
+  .mband { position: absolute; height: 44px; padding: 0; border: 0; background: transparent; cursor: pointer; z-index: 2; font: inherit; }
+  .mband > span { position: absolute; top: 11px; height: 22px; padding: 0 6px; border: 1.5px dashed var(--c); border-radius: 5px; background: color-mix(in srgb, var(--c) 13%, transparent); color: var(--ink); font: 700 12px/19px Pretendard, system-ui, sans-serif; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mband.cut-r > span { border-right-style: none; border-radius: 5px 0 0 5px; -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 14px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 14px), transparent); }
+  .mband.cut-l > span { border-left-style: none; border-radius: 0 5px 5px 0; }
+  .mband:focus-visible { outline: none; }
+  .mband.on > span, .mband:focus-visible > span { border-width: 2px; box-shadow: 0 0 0 2px var(--accent); background: color-mix(in srgb, var(--c) 24%, transparent); }
+  .rp { height: 20px; font-size: 11.5px; line-height: 20px; min-width: 32px; }
+  .rp::before { content: ""; position: absolute; left: -6px; right: -6px; top: -12px; bottom: -12px; }
+  .moor { display: flex; justify-content: space-between; gap: 8px; margin-top: 2px; }
+  .moor:empty { display: none; }
+  .moor > * { min-height: 44px; display: inline-flex; align-items: center; padding: 0 4px; font: inherit; font-size: 14px; font-weight: 700; background: none; border: 0; color: var(--ink3); }
+  .moor button { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .moor .r { margin-left: auto; }
+  .moor button, .awide, .sub .step { color: color-mix(in srgb, var(--accent) 72%, var(--ink)); }
+  .sub .step { font-size: 12.5px; }
+  .mrule { margin: 0 0 2px; font-size: 12.5px; color: var(--ink2); line-height: 1.5; }
+  .mrule .ico-band { width: 18px; }
+
+  /* 띠 아래 요약 */
+  .mq { display: flex; flex-direction: column; gap: 6px; margin-top: 6px; }
+  .mh { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 2px 8px; margin: 4px 0 0; font-size: 12.5px; color: var(--ink3); }
+  .mh b { font-size: 14px; color: var(--navy); }
+  .mh.fz b { color: var(--fz); }
+  .mlist { display: flex; flex-direction: column; gap: 6px; }
+  .mrow { display: grid; grid-template-columns: 58px minmax(0, 1fr) 12px; align-items: center; gap: 8px; width: 100%; min-height: 48px; padding: 6px 10px; border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 10px; background: var(--panel); color: var(--ink); font: inherit; text-align: left; cursor: pointer; transition: opacity .2s; }
+  .mrow .w { font-family: "JetBrains Mono", monospace; font-size: 13.5px; font-weight: 800; color: var(--ink2); line-height: 1.2; }
+  .mrow .w i { display: block; font-style: normal; font-weight: 600; font-size: 12px; color: var(--ink3); }
+  .mrow .t { font-size: 14px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .cv { width: 8px; height: 8px; border-right: 2px solid var(--ink3); border-top: 2px solid var(--ink3); transform: rotate(45deg); }
+  .mnone { margin: 0; font-size: 14px; color: var(--ink3); padding: 6px 2px; }
+  .mfzs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .mfz { min-width: 0; min-height: 52px; display: flex; flex-direction: column; justify-content: center; gap: 1px; padding: 6px 10px; border: 1.5px dashed var(--fz); border-radius: 10px; background: var(--fz-soft); color: var(--ink); font: inherit; text-align: left; cursor: pointer; transition: opacity .2s; }
+  .mfz .w { font-size: 14px; font-weight: 800; color: var(--fz); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mfz .w i { font-style: normal; font-weight: 700; color: var(--ink2); font-size: 12.5px; }
+  .mfz .t { font-size: 14px; line-height: 1.35; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mrow.on, .mfz.on { box-shadow: 0 0 0 2px var(--accent); }
+
+  /* 레인 표 → 종류별 접고 펴는 묶음 */
+  .sub { margin-top: 14px; }
+  .sub small { font-size: 12.5px; }
+  #lanes { display: none; }
+  .acc { display: flex; flex-direction: column; gap: 8px; }
+  .ag { border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 10px; background: var(--panel); overflow: hidden; }
+  .ah { width: 100%; min-height: 50px; display: flex; align-items: center; gap: 8px; padding: 6px 14px 6px 12px; border: 0; background: var(--strip); color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+  .ah b { font-size: 15px; }
+  .ah .cnt { margin-left: auto; font-size: 13px; color: var(--ink2); text-align: right; }
+  .ah .chev { flex: none; width: 9px; height: 9px; margin: 0 2px 4px 4px; border-right: 2px solid var(--ink2); border-bottom: 2px solid var(--ink2); transform: rotate(45deg); transition: transform .15s; }
+  .ah[aria-expanded="true"] .chev { transform: rotate(-135deg); margin-bottom: -4px; }
+  .ab { display: flex; flex-direction: column; gap: 6px; padding: 8px 10px 10px; }
+  .ab[hidden] { display: none; }
+  .as { font-size: 12.5px; font-weight: 800; color: var(--ink2); margin: 2px 2px 0; }
+  .as.fz { color: var(--fz); }
+  .ai { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 0 10px; width: 100%; min-height: 48px; padding: 8px 10px; border: 1px solid var(--line); border-left: 3px solid var(--c); border-radius: 8px; background: var(--panel); color: var(--ink); font: inherit; text-align: left; cursor: pointer; transition: background .2s, box-shadow .2s; }
+  .ai.fz { border-left: 3px dashed var(--fz); }
+  .ai .w { font-family: "JetBrains Mono", monospace; font-size: 13px; font-weight: 800; color: var(--ink2); line-height: 1.3; }
+  .ai .w i { display: block; font-style: normal; font-weight: 600; font-size: 12px; color: var(--ink3); font-family: Pretendard, system-ui, sans-serif; }
+  .ai.fz .w { font-family: Pretendard, system-ui, sans-serif; color: var(--fz); font-size: 13.5px; }
+  .ai .tx { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .ai .t { font-size: 14px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .ai .m { font-size: 12.5px; color: var(--ink3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ai.hl { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--accent); }
+  .anone { font-size: 14px; color: var(--ink3); margin: 0 2px; }
+  .awide { align-self: flex-start; min-height: 44px; padding: 0 2px; border: 0; background: none; font: inherit; font-size: 14px; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+
+  /* 아래 영역: 한 열 */
+  .below { margin-top: 16px; gap: 14px; }
+  .side > #sec-off { order: 1; } .side > #sec-ind { order: 2; } .side > #sec-rate { order: 3; } .side > #sec-stat { order: 4; }
+  .sh { font-size: 16px; }
+  .item { padding: 13px 14px; }
+  .item .top { font-size: 13px; }
+  .item h3 { font-size: 16px; }
+  .item p { font-size: 14px; }
+  .item .srcs { display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; }
+  .item .srcs a { min-height: 44px; display: inline-flex; align-items: center; padding: 0 12px; font-size: 14px; border: 1px solid var(--line); border-radius: 99px; color: var(--ink2); }
+  .row { position: relative; min-height: 48px; align-items: center; padding: 9px 0; font-size: 14px; }
+  .row a::after { content: ""; position: absolute; inset: 0; }
+  .row small { font-size: 12.5px; }
+  .status { flex-direction: column; gap: 8px; font-size: 14px; }
+  footer { font-size: 14px; margin-top: 18px; padding-bottom: 24px; }
+
+  /* 하단 섹션 탭 */
+  .tabs { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; background: var(--panel); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
+  .tabs a { flex: 1 1 0; min-width: 0; min-height: 56px; position: relative; display: flex; align-items: center; justify-content: center; padding: 0 2px; font-size: 13px; font-weight: 700; color: var(--ink2); text-align: center; line-height: 1.2; }
+  .tabs a::before { content: ""; position: absolute; top: 0; left: 20%; right: 20%; height: 3px; border-radius: 0 0 3px 3px; background: transparent; }
+  .tabs a:hover { text-decoration: none; }
+  .tabs a[aria-current="true"] { color: var(--navy); font-weight: 800; }
+  .tabs a[aria-current="true"]::before { background: var(--accent); }
+}
+@media (max-width: 767px) and (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+@media (prefers-reduced-motion: reduce) { .bs, .bs-bg { transition: none; } }
+</style>
+</head>
+<body>
+<button id="themeBtn" type="button" class="hide">☾ 다크</button>
+<div class="wrap" id="app"></div>
+<nav class="tabs" id="tabs" aria-label="섹션 바로 가기">
+  <a href="#sec-chg" data-sec="sec-chg">바뀌는 것</a>
+  <a href="#sec-news" data-sec="sec-news">소식</a>
+  <a href="#sec-off" data-sec="sec-off">발표</a>
+  <a href="#sec-ind" data-sec="sec-ind">동향</a>
+  <a href="#sec-rate" data-sec="sec-rate">보험료</a>
+  <a href="#sec-stat" data-sec="sec-stat">상태·고지</a>
+</nav>
+<div class="bs-bg" id="bsBg" hidden></div>
+<div class="bs" id="bs" role="dialog" aria-modal="true" aria-labelledby="bsTitle" hidden>
+  <div class="bs-hd" id="bsHd">
+    <span class="grip" aria-hidden="true"></span>
+    <div class="bs-k" id="bsKick"></div>
+    <h2 id="bsTitle"></h2>
+    <button type="button" class="bs-x" id="bsX" aria-label="상세 닫기"><b aria-hidden="true">▾</b>닫기</button>
+  </div>
+  <div class="bs-bd" id="bsBody"></div>
+</div>
+
+<script>
+// ── 2026-10-23 실제 수집 데이터 (시안용, v1과 같음) ──
+const TODAY = '2026-10-23';
+const CATS = ['전체', '자동차', '실손', '생명·건강·상해', '제도·공통'];
+const CK = { '자동차': 'car', '실손': 'med', '생명·건강·상해': 'life', '제도·공통': 'ind' };
+
+const CHANGES = [
+  { exact: false, when: "'27.1분기 중", raw: "원문 \"'27.1분기 중 사업을 시행\"", pub: '2026-10-19', src: '금융위원회', cat: '생명·건강·상해',
+    title: '취약어르신 65만명에 낙상사고 치료비·치매배상책임보험 무료 제공', url: 'https://www.fsc.go.kr/no010101/87952' },
+  { exact: false, when: "'27.1월", raw: "원문 \"'27.1월 시행사항\"", pub: '2026-06-30', src: '금융위원회', cat: '제도·공통',
+    title: '보험 판매수수료 개편 다음 단계 시행', url: 'https://www.fsc.go.kr/no010101/87217' },
+  { exact: false, when: '연말까지', raw: '원문 "연말까지 실손24 연계율 80~90% 목표"', pub: '2026-09-30', src: '금융위원회', cat: '실손',
+    title: '병·의원 실손24 연계율 80~90%로 확대 목표', url: 'https://www.fsc.go.kr/no010101/87818' },
+  { exact: false, past: true, when: '오는 21일', raw: '원문 "오는 21일 … 출시" · 기사 10.20', pub: '2026-10-20', src: '보험신보', cat: '생명·건강·상해',
+    title: "삼성생명 '시니어대표건강보험' 개정 출시 (폐렴·로봇 인공관절수술 보장 강화)", url: 'https://www.insweek.co.kr/news/articleView.html?idxno=72754' },
+  { exact: true, date: '2026-10-12', raw: "원문 \"'26.10.12.(월)부터\"", src: '손해보험협회', cat: '자동차',
+    title: '자동차보험 경상환자 보상처리 피해 신고센터 운영 시작', url: 'https://www.knia.or.kr/data/news/content?index=88765' },
+  { exact: true, date: '2026-09-26', raw: '공시표 시행시기 20260926', src: '손보협회 공시실', cat: '자동차',
+    title: '메리츠화재 업무용·영업용 자동차보험료 -1%', note: '예정사업비 변경에 따른 보험료 조정', url: 'https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do' },
+  { exact: true, date: '2026-09-21', raw: '공시표 시행시기 20260921', src: '손보협회 공시실', cat: '자동차',
+    title: '현대해상 영업용 자동차보험료 조정 (전체 0%)', note: '손해율 실적 반영, 대물확장·자차보장확대 특약 포함', url: 'https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do' },
+  { exact: true, date: '2026-09-10', raw: "원문 \"'26.9.10. 이후 사고부터 시행\"", src: '금융감독원', cat: '자동차',
+    title: '자동차보험 치료비 보상 절차 개편', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=226318&menuNo=200218' },
+];
+
+const NEWS = [
+  { cat: '자동차', title: '9월 자동차보험 손해율 85.0%… 전년 동월보다 8.8%p 하락',
+    sum: ['대형 손보사 4곳의 9월 자동차보험 손해율이 평균 85.0%로, 지난해 같은 달 94.2%보다 낮아졌습니다.', '1~9월 누적 손해율은 84.7%입니다.'],
+    srcs: [['보험저널', 'https://www.insjournal.co.kr/news/articleView.html?idxno=33625'], ['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110306']] },
+  { cat: '자동차', title: '[국감] "보험사, 안전운전 할인 특약 내세워 운전정보만 수집"',
+    sum: ['안전운전(UBI) 할인 특약을 이유로 운전정보 제공 동의를 받았지만, 실제 가입은 4건 중 1건이었다는 지적입니다.', '금감원에 동의 실태 전수 점검과 점수 산정 기준 공개를 촉구했습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110296']] },
+  { cat: '실손', title: '[국감] "실손보험 청구 민간 배제, 불공정"',
+    sum: ['실손24 시행 뒤 민간 핀테크가 만든 간편 청구 서비스 이용이 제한되고 있다는 지적이 나왔습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110300']] },
+  { cat: '생명·건강·상해', title: '연금저축보험, 가입 때 안내받은 연금액이 보장되지 않을 수 있어',
+    sum: ['적용이율이 가입 뒤 내려가면 연금액이 줄 수 있습니다.', '중도 인출·해지 땐 세금 부담으로 납입금보다 적게 돌려받을 수 있다고 금감원이 안내했습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110290']] },
+  { cat: '생명·건강·상해', title: '교보생명, 보험금 신속지급 평균 0.24일… 생보업계 가장 짧아',
+    sum: ['올해 상반기 신속지급 평균기간이 0.24일로, 업계 평균 0.71일보다 짧았습니다.'],
+    srcs: [['한국보험신문', 'https://www.insnews.co.kr/news/articleView.html?idxno=93466'], ['보험신보', 'https://www.insweek.co.kr/news/articleView.html?idxno=72796'], ['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110307']] },
+];
+
+const OFFICIAL = [
+  { day: '2026-10-19', src: '금융위원회', cat: '생명·건강·상해', title: '보험업권·복지부 산하 노인지원기관, 취약어르신 65만명에 낙상사고 치료비·치매배상책임보험 무료 제공', url: 'https://www.fsc.go.kr/no010101/87952' },
+  { day: '2026-10-05', src: '금융감독원', cat: '제도·공통', title: '"전환하고 싶어요" 한 마디면 보험료가 할인됩니다', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=237413&menuNo=200218' },
+  { day: '2026-09-30', src: '금융위원회', cat: '실손', title: '의료계·플랫폼 협력으로 "실손24" 연계율 제고 나선다', url: 'https://www.fsc.go.kr/no010101/87818' },
+  { day: '2026-09-28', src: '금융감독원', cat: '제도·공통', title: '2026년 상반기 보험사기 적발현황 및 대응방안', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=231823&menuNo=200218' },
+  { day: '2026-09-15', src: '금융감독원', cat: '자동차', title: '2026년 상반기 자동차보험 사업실적(잠정)', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=228597&menuNo=200218' },
+];
+
+const INDUSTRY = [
+  { title: '내년 보험산업 성장률 3.5% 전망 (보험연구원 세미나)', srcs: 4, url: 'https://www.insweek.co.kr/news/articleView.html?idxno=72766' },
+  { title: 'ABL생명, 전속 설계사 3000명 돌파… 2027년 4000명 목표', srcs: 4, url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93450' },
+  { title: '신한라이프, 민원 예방 AI 에이전트 도입', srcs: 3, url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93446' },
+  { title: '한은, 기준금리 연 3.00% 동결', srcs: 2, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33607' },
+  { title: '2027년 판매수수료 개편 앞두고 "계약체결비용 최대 20% 감소" 고민', srcs: 1, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33615' },
+  { title: '보험사 해외 사모대출 22조원… 국감서 관리 주문', srcs: 1, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33622' },
+];
+
+const RATES = [
+  ['메리츠화재', '업무용', '-1', '2026-09-26'], ['메리츠화재', '영업용', '-1', '2026-09-26'], ['현대해상', '영업용', '0', '2026-09-21'],
+  ['현대해상', '업무용', '0', '2026-06-16'], ['하나손보', '개인용', '0', '2026-06-08'], ['흥국화재', '개인용', '+1.4', '2026-03-13'],
+  ['롯데손보', '개인용', '+1.4', '2026-03-01'], ['메리츠화재', '개인용', '+1.3', '2026-02-21'], ['한화손보', '개인용', '+1.2', '2026-02-21'],
+];
+
+const STATUS = [
+  ['금융위원회', 'warn', 'RSS 점검 중(503) → 목록 페이지로 수집'], ['금융감독원', 'ok', ''], ['손해보험협회', 'ok', ''], ['손보협회 공시실', 'ok', ''],
+  ['생명보험협회', 'ok', ''], ['보험연구원', 'ok', ''], ['보험사 4곳', 'ok', ''], ['보험 전문지 4곳', 'ok', '오늘 37건'],
+];
+
+// ── 테마 쿼리는 그리기 전에 적용 (다크로 열 때 밝은 색에서 바뀌는 깜박임 방지) ──
+const q = new URLSearchParams(location.search).get('theme');
+if (q === 'dark' || q === 'light') document.documentElement.dataset.theme = q;
+
+// ── 도우미 ──
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const md = (d) => { const [, m, dd] = d.split('-'); return `${+m}.${+dd}`; };
+const mdY = (d) => (d.slice(0, 4) === TODAY.slice(0, 4) ? md(d) : `'${d.slice(2, 4)}.${md(d)}`);
+const dayDiff = (d) => Math.round((new Date(TODAY) - new Date(d)) / 86400000);
+const dLabel = (c) => { const n = dayDiff(c.date); return n > 0 ? `D+${n}` : n === 0 ? 'D-DAY' : `D${n}`; };
+const cc = (cat) => 'c-' + CK[cat];
+const link = (o, tip) => `<a href="${esc(o.url)}" target="_blank" rel="noopener"${tip ? ` title="${esc(tip)}"` : ''}>${esc(o.title)}</a>`;
+const srcLinks = (srcs) => srcs.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(' · ');
+const sign = (v) => (v.startsWith('+') ? 'up' : v.startsWith('-') ? 'dn' : '');
+const DISCLAIMER = '이 사이트는 공개된 보도자료와 기사를 자동으로 모아 보여 주는 정보 제공용이며, 보험 가입이나 해지를 권유하지 않습니다. 요약은 AI가 만들었으므로 정확한 내용은 반드시 원문과 약관에서 확인하세요.';
+const $ = (s) => document.querySelector(s);
+const $$ = (s) => [...document.querySelectorAll(s)];
+
+// 날짜 계산은 모두 UTC 자정 기준
+const ut = (s) => { const [y, m, d] = s.split('-').map(Number); return Date.UTC(y, m - 1, d); };
+const iso = (t) => new Date(t).toISOString().slice(0, 10);
+const addMonths = (s, n) => {
+  const [y, m, d] = s.split('-').map(Number);
+  const last = new Date(Date.UTC(y, m - 1 + n + 1, 0)).getUTCDate();
+  return iso(Date.UTC(y, m - 1 + n, Math.min(d, last)));
+};
+const tw = (s) => [...String(s)].reduce((a, ch) => a + (/[가-힣]/.test(ch) ? 11 : 6.6), 0);
+// 겹치지 않게 줄(레벨) 나누기
+const levels = (xs, max) => {
+  const ends = Array(max).fill(-1e9);
+  return xs.map(({ x, w }) => {
+    let l = ends.findIndex((e) => x - w / 2 >= e + 3);
+    if (l < 0) l = ends.indexOf(Math.min(...ends));
+    ends[l] = x + w / 2;
+    return l;
+  });
+};
+
+const LANES = CATS.slice(1);
+const idx = (c) => CHANGES.indexOf(c);
+const fuzzy = CHANGES.filter((c) => !c.exact);
+
+// 원문 표현 → 기간. 원문이 기간을 분명히 말할 때만 돌려준다(날짜를 지어내지 않음).
+const periodOf = (c) => {
+  if (c.exact || c.past) return null;
+  let m = c.when.match(/^'(\d{2})\.(\d{1,2})월$/);
+  if (m) { const y = 2000 + +m[1], mo = +m[2]; return { s: iso(Date.UTC(y, mo - 1, 1)), e: iso(Date.UTC(y, mo, 0)), say: `${y}년 ${mo}월 한 달` }; }
+  m = c.when.match(/^'(\d{2})\.([1-4])분기/);
+  if (m) { const y = 2000 + +m[1], q = +m[2]; return { s: iso(Date.UTC(y, (q - 1) * 3, 1)), e: iso(Date.UTC(y, q * 3, 0)), say: `${y}년 ${(q - 1) * 3 + 1}~${q * 3}월` }; }
+  if (c.when === '연말까지') { const y = TODAY.slice(0, 4); return { s: TODAY, e: `${y}-12-31`, say: `오늘부터 ${y}년 12월 31일까지` }; }
+  return null;
+};
+const BANDED = fuzzy.filter((c) => periodOf(c));
+const LOOSE = fuzzy.filter((c) => !periodOf(c));
+const FUT_EXACT = CHANGES.filter((c) => c.exact && ut(c.date) > ut(TODAY));
+
+// 보험료 조정: 같은 시행일끼리 묶음
+const SG = { up: 'up', dn: 'dn', '': 'zero' };
+const RG = [...RATES.reduce((m, r) => m.set(r[3], [...(m.get(r[3]) || []), r]), new Map())].map(([date, rs]) => {
+  const ss = [...new Set(rs.map((r) => SG[sign(r[2])]))];
+  const vs = [...new Set(rs.map((r) => r[2]))];
+  return { date, rs, s: ss.length === 1 ? ss[0] : 'zero', label: vs.map((v) => v + '%').join('/') + (rs.length > 1 ? ` ×${rs.length}` : '') };
+});
+const SNAME = { up: '인상', dn: '인하', zero: '변동 없음' };
+// 여러 시행일의 보험료 묶음을 하나로 (표시용 계산만)
+const rateMerge = (gs) => {
+  const rs = gs.flatMap((g) => g.rs);
+  const ss = [...new Set(rs.map((r) => SG[sign(r[2])]))], vs = [...new Set(rs.map((r) => r[2]))];
+  return { date: gs[0].date, rs, s: ss.length === 1 ? ss[0] : 'zero', label: vs.map((v) => v + '%').join('/') + (rs.length > 1 ? ` ×${rs.length}` : '') };
+};
+// x 순으로 정렬된 표시를 gap(px)보다 가까우면 한 묶음으로
+const clusterBy = (arr, gap) => {
+  const out = [];
+  arr.forEach((o) => {
+    const g = out[out.length - 1];
+    if (g && o.x - g.last < gap) { g.items.push(o); g.last = o.x; } else out.push({ items: [o], first: o.x, last: o.x });
+  });
+  return out.map((g) => ({ items: g.items, x: (g.first + g.last) / 2 }));
+};
+
+// ── 상태 ──
+const RANGES = [1, 3, 6];
+const MINW = { 1: 520, 3: 640, 6: 760 };
+// 모바일(767px 이하): 띠를 화면 폭에 맞추고 기본 범위를 ±1개월로 둔다
+const MQ = matchMedia('(max-width: 767px)');
+const isM = () => MQ.matches;
+const defRange = () => (isM() ? 1 : 3);
+const st = { range: defRange(), rates: false, filter: '전체', pin: null, userRange: false, open: null };
+const winOf = (r) => ({ s: addMonths(TODAY, -r), e: addMonths(TODAY, r) });
+const win = () => winOf(st.range);
+const inWin = (d, w) => ut(d) >= ut(w.s) && ut(d) <= ut(w.e);
+const shown = (c) => !c.exact || inWin(c.date, win());
+
+// ── 1단계: 띠 ──
+let lastW = 0;
+const renderStrip = (recenter) => {
+  const w = win(), ax = $('#axbox'), M = isM();
+  // 모바일은 가로 스크롤 없이 화면 폭에 맞춘다
+  const W = M ? Math.max(ax.clientWidth - 24, 200) : Math.max(ax.clientWidth - 36, MINW[st.range]);
+  lastW = ax.clientWidth;
+  const t0 = ut(w.s), t1 = ut(w.e), dayPx = W / ((t1 - t0) / 86400000);
+  const X = (d) => ((ut(d) - t0) / (t1 - t0)) * W;
+  const xT = X(TODAY);
+  const nextR = RANGES.find((r) => r > st.range);
+
+  let y = 26; const R = {};
+  if (st.rates) { R.rate = y; y += M ? 44 : 38; }
+  R.dotTop = y; R.base = y + 38; y += M ? 58 : 52;
+
+  // 점선 막대(원문 기간)
+  const bs = BANDED.map((c) => ({ c, p: periodOf(c) }))
+    .filter((b) => ut(b.p.e) >= t0 && ut(b.p.s) <= t1)
+    .map((b) => ({ ...b, x1: Math.max(0, X(b.p.s)), x2: Math.min(W, X(b.p.e) + dayPx), cutL: ut(b.p.s) < t0, cutR: ut(b.p.e) > t1 }))
+    .sort((a, b) => a.x1 - b.x1 || ut(a.p.e) - ut(b.p.e));
+  const rowEnd = [];
+  bs.forEach((b) => {
+    let r = rowEnd.findIndex((e) => b.x1 >= e - 0.5);
+    if (r < 0) { r = rowEnd.length; rowEnd.push(0); }
+    b.row = r; b.prev = rowEnd[r]; rowEnd[r] = b.x2;
+  });
+  const nRows = Math.max(1, rowEnd.length);
+  const BROW = M ? 44 : 22; // 모바일은 막대 한 줄을 누르기 좋은 44px로
+  if (M) { R.band = y; y += nRows * BROW; } else { R.band = y + 2; y += 2 + nRows * 22; }
+  const H = y + (M ? 22 : 24);
+
+  // 범위 밖 개수
+  const outL = CHANGES.filter((c) => c.exact && ut(c.date) < t0);
+  const outRate = st.rates ? RATES.filter((r) => ut(r[3]) < t0) : [];
+  const outR = BANDED.filter((c) => ut(periodOf(c).s) > t1);
+  const nL = outL.length + outRate.length;
+  let noteL = '', noteR = '';
+  if (nL) {
+    const parts = [outL.length ? `시행일 ${outL.length}건(${outL.map((c) => md(c.date)).join(', ')})` : '', outRate.length ? `보험료 ${outRate.length}건(${[...new Set(outRate.map((r) => md(r[3])))].join(', ')})` : ''].filter(Boolean).join(' · ');
+    noteL = nextR
+      ? `<button type="button" class="oor" data-r="${nextR}" title="${esc('범위 밖: ' + parts + ' · 누르면 ±' + nextR + '개월로 넓힘')}">이전 ${nL}건 더 보기</button>`
+      : `<span class="oor" title="${esc('±6개월보다 앞: ' + parts + ' · 아래 표에 있음')}">· 범위 밖 ${esc(parts)}</span>`;
+  }
+  if (outR.length) {
+    noteR = nextR
+      ? `<button type="button" class="oor" data-r="${nextR}" title="${esc('범위 밖 기간: ' + outR.map((c) => c.when).join(', ') + ' · 누르면 ±' + nextR + '개월로 넓힘')}">이후 ${outR.length}건 더 보기</button>`
+      : `<span class="oor">범위 밖 ${outR.length}건 ·</span>`;
+  }
+  // 모바일: 범위 밖 안내는 띠 아래 한 줄(누르기 좋은 크기)로
+  let mOor = '';
+  if (M) {
+    const lp = [...outL.map((c) => md(c.date)), ...new Set(outRate.map((r) => md(r[3])))];
+    if (nL) mOor += nextR ? `<button type="button" class="mo-r" data-r="${nextR}" aria-label="${esc(`범위 밖 이전 ${nL}건 · ±${nextR}개월로 넓혀 보기`)}">◀ 이전 ${nL}건 (${esc(lp.join('·'))}) 더 보기</button>` : `<span>◀ 범위 밖 ${nL}건 · 아래 목록에 있음</span>`;
+    if (outR.length) mOor += nextR ? `<button type="button" class="mo-r r" data-r="${nextR}" aria-label="${esc(`범위 밖 이후 ${outR.length}건(${outR.map((c) => c.when).join(', ')}) · ±${nextR}개월로 넓혀 보기`)}">이후 ${outR.length}건 더 보기 ▶</button>` : `<span class="r">범위 밖 ${outR.length}건 ▶</span>`;
+  }
+  $('#mOor').innerHTML = mOor;
+
+  // 월 격자
+  let grid = '';
+  const [sy, sm] = w.s.split('-').map(Number);
+  for (let k = 1; k <= 13; k++) {
+    const d = iso(Date.UTC(sy, sm - 1 + k, 1));
+    if (ut(d) > t1) break;
+    const x = X(d), mo = +d.slice(5, 7);
+    grid += `<div class="gl" style="left:${x.toFixed(1)}px;top:${R.rate ?? R.dotTop}px"></div><span class="gm" style="left:${x.toFixed(1)}px">${mo}월${mo === 1 ? `<i>${d.slice(0, 4)}</i>` : ''}</span>`;
+  }
+
+  // 시행일 점
+  const dots = CHANGES.filter((c) => c.exact && inWin(c.date, w)).map((c) => ({ c, x: X(c.date) })).sort((a, b) => a.x - b.x);
+  let dotHtml;
+  if (M) {
+    // 모바일: 44px 안에 겹치는 점은 하나의 묶음 점(건수 표시)으로 합친다
+    const gs = clusterBy(dots, 44);
+    const lab = (g) => (g.items.length === 1 ? md(g.items[0].c.date) : `${md(g.items[0].c.date)}~${md(g.items[g.items.length - 1].c.date)}`);
+    const glv = levels(gs.map((g) => ({ x: g.x, w: tw(lab(g)) * 1.05 + 6 })), 2);
+    dotHtml = gs.map((g, i) => {
+      const cs = g.items.map((o) => o.c), cats = [...new Set(cs.map((c) => c.cat))];
+      const one = cs.length === 1;
+      const k = one ? `d:${idx(cs[0])}` : `m:${cs.map(idx).join(',')}`;
+      const al = one ? `${md(cs[0].date)} ${cs[0].title} · 눌러서 상세 보기` : `${lab(g)} 시행 ${cs.length}건 묶음 · 눌러서 상세 보기`;
+      return `<button type="button" class="dot${one ? '' : ' grp'} ${cats.length === 1 ? cc(cats[0]) : ''}${glv[i] ? ' lv1' : ''}" data-k="${k}" data-i="${cs.map(idx).join(',')}"${cats.length === 1 ? ` data-cat="${esc(cats[0])}"` : ''}${one ? '' : ` data-n="${cs.length}"`} style="left:${g.x.toFixed(1)}px;top:${R.base + 1}px" aria-label="${esc(al)}"><span class="dl">${lab(g)}</span></button>`;
+    }).join('');
+  } else {
+    const dlv = levels(dots.map((d) => ({ x: d.x, w: 32 })), 2);
+    dotHtml = dots.map(({ c, x }, i) => `<button type="button" class="dot ${cc(c.cat)}${dlv[i] ? ' lv1' : ''}" data-k="d:${idx(c)}" data-i="${idx(c)}" data-cat="${esc(c.cat)}" style="left:${x.toFixed(1)}px;top:${R.base + 1}px" aria-label="${esc(md(c.date) + ' ' + c.title)}"><span class="dl">${md(c.date)}</span></button>`).join('');
+  }
+  const noFut = FUT_EXACT.length ? '' : `<span class="nofut" style="left:${(xT + 10).toFixed(1)}px;top:${R.base}px">${M ? '확정된 예정 없음' : '날짜가 확정된 예정 항목 없음'}</span>`;
+
+  // 막대
+  const bandHtml = M ? bs.map((b) => {
+    // 모바일: 보이는 막대는 22px, 누르는 칸은 높이 44px·폭 최소 44px
+    const top = R.band + b.row * BROW, wpx = Math.max(6, b.x2 - b.x1 - 2), pad = Math.max(0, (44 - wpx) / 2);
+    const txt = b.c.when + (b.cutR ? ' ▸' : '');
+    const fits = tw(txt) * 1.05 + 14 <= wpx;
+    const title = `${b.c.when} = ${b.p.say} (원문 기간, 정확한 날짜 아님)`;
+    return `<button type="button" class="mband ${cc(b.c.cat)}${b.cutR ? ' cut-r' : ''}${b.cutL ? ' cut-l' : ''}" data-k="b:${idx(b.c)}" data-i="${idx(b.c)}" data-cat="${esc(b.c.cat)}" style="left:${(b.x1 - pad).toFixed(1)}px;width:${(wpx + pad * 2).toFixed(1)}px;top:${top}px" aria-label="${esc(title + ' · ' + b.c.title + ' · 눌러서 상세 보기')}"><span style="left:${pad.toFixed(1)}px;width:${wpx.toFixed(1)}px">${fits ? esc(txt) : ''}</span></button>`;
+  }).join('') : bs.map((b) => {
+    const top = R.band + b.row * 22, wpx = Math.max(6, b.x2 - b.x1 - 2);
+    const txt = b.c.when + (b.cutR ? ' ▸' : '');
+    const fits = tw(txt) + 14 <= wpx;
+    const outside = !fits && b.x1 - b.prev >= tw(b.c.when) + 8;
+    const common = `data-k="b:${idx(b.c)}" data-i="${idx(b.c)}" data-cat="${esc(b.c.cat)}"`;
+    const title = `${b.c.when} = ${b.p.say} (원문 기간, 정확한 날짜 아님)`;
+    return `<button type="button" class="band ${cc(b.c.cat)}${b.cutR ? ' cut-r' : ''}${b.cutL ? ' cut-l' : ''}" ${common} style="left:${b.x1.toFixed(1)}px;width:${wpx.toFixed(1)}px;top:${top}px" title="${esc(title)}" aria-label="${esc(title + ' · ' + b.c.title)}">${outside ? '' : esc(txt)}</button>`
+      + (outside ? `<span class="blab ${cc(b.c.cat)}" ${common} style="right:${(W - b.x1 + 4).toFixed(1)}px;top:${top}px">${esc(b.c.when)}</span>` : '');
+  }).join('');
+
+  // 보험료 줄
+  let rateHtml = '';
+  if (st.rates && M) {
+    // 모바일: 겹치는 보험료 표시는 하나로 묶고 한 줄로만 놓는다
+    const gs0 = RG.filter((g) => inWin(g.date, w)).map((g) => ({ g, x: X(g.date) })).sort((a, b) => a.x - b.x);
+    const cl = clusterBy(gs0, 64);
+    rateHtml = cl.map((q) => {
+      const g = q.items.length === 1 ? q.items[0].g : rateMerge(q.items.map((o) => o.g));
+      const k = q.items.length === 1 ? `r:${g.date}` : `q:${q.items.map((o) => o.g.date).join(',')}`;
+      const when = q.items.length === 1 ? md(g.date) : `${md(q.items[0].g.date)}~${md(q.items[q.items.length - 1].g.date)}`;
+      return `<button type="button" class="rp ${g.s}" data-k="${k}" data-cat="자동차" style="left:${q.x.toFixed(1)}px;top:${R.rate + 12}px" aria-label="${esc(when + ' 자동차보험료 ' + g.label + ' · 눌러서 상세 보기')}">${esc(g.label)}</button>`;
+    }).join('')
+      + (RG.some((g) => ut(g.date) > ut(TODAY)) ? '' : `<span class="nofut" style="left:${(xT + 10).toFixed(1)}px;top:${R.rate + 22}px">예정 조정 없음</span>`)
+      + `<div class="sep" style="top:${R.rate + 44}px"></div>`;
+  } else if (st.rates) {
+    const gs = RG.filter((g) => inWin(g.date, w)).map((g) => ({ g, x: X(g.date) })).sort((a, b) => a.x - b.x);
+    const rlv = levels(gs.map((o) => ({ x: o.x, w: o.g.label.length * 6.6 + 12 })), 2);
+    rateHtml = gs.map(({ g, x }, i) => `<button type="button" class="rp ${g.s}" data-k="r:${g.date}" data-cat="자동차" style="left:${x.toFixed(1)}px;top:${R.rate + 1 + rlv[i] * 18}px" aria-label="${esc(md(g.date) + ' 자동차보험료 ' + g.label)}">${esc(g.label)}</button>`).join('')
+      + (RG.some((g) => ut(g.date) > ut(TODAY)) ? '' : `<span class="nofut" style="left:${(xT + 10).toFixed(1)}px;top:${R.rate + 17}px">수집된 예정 조정 없음</span>`)
+      + `<div class="sep" style="top:${R.rate + 36}px"></div>`;
+  }
+
+  const axis = $('#axis');
+  axis.className = 'axis' + (st.range === 6 ? ' r6' : '');
+  axis.style.width = W + 'px'; axis.style.height = H + 'px';
+  axis.innerHTML = `<div class="fut" style="left:${xT.toFixed(1)}px"></div>${grid}
+    <div class="base" style="top:${R.base}px"></div>
+    ${M ? `<div class="cl l">◀ 지난 <span class="mono">${mdY(w.s)}~</span></div>
+    <div class="cl r"><span class="mono">~${mdY(w.e)}</span> 예정 ▶</div>` : `<div class="cl l">◀ 지난 시행 <span class="mono">${mdY(w.s)}~</span>${noteL}</div>
+    <div class="cl r">${noteR}<span class="mono">~${mdY(w.e)}</span> 예정 ▶</div>`}
+    ${bandHtml}
+    <div class="now" style="left:${xT.toFixed(1)}px"><span>오늘 ${md(TODAY)}</span></div>
+    ${rateHtml}${noFut}${dotHtml}`;
+
+  $('#rlab').innerHTML = (st.rates ? `<span style="top:${R.rate + 17}px">보험료</span>` : '')
+    + `<span style="top:${R.base}px">시행일</span><span style="top:${R.band + nRows * 11}px">기간<br><i>원문</i></span>`;
+
+  // 미확정 묶음
+  $('#fzb').innerHTML = `<span class="fzt">미확정 ${fuzzy.length}건<small>점으로 찍지 않음</small></span>
+    <span class="fzs">점선 막대로 표시 · 원문이 말한 기간</span>
+    <span class="fzl">${BANDED.map((c) => { const p = periodOf(c), out = ut(p.s) > t1; return `<span class="bd ${cc(c.cat)}" data-cat="${esc(c.cat)}"><span class="catdot"></span>${esc(c.when)}${out ? ' <i>(범위 밖)</i>' : ''}</span>`; }).join('')}</span>
+    <span class="fzs">기간을 말하지 않음 · 막대 없음</span>
+    <span class="fzl">${LOOSE.length ? LOOSE.map((c) => `<span class="${cc(c.cat)}" data-cat="${esc(c.cat)}"><span class="catdot"></span>${esc(c.when)}${c.past ? ' <i>(지난 일)</i>' : ''}</span>`).join('') : '<span>없음</span>'}</span>`;
+
+  $('#period').textContent = M ? `${mdY(w.s)} ~ ${mdY(w.e)} · 오늘 기준 ±${st.range}개월` : `${mdY(w.s)} ~ ${mdY(w.e)} · 오늘을 가운데 두고 앞뒤 ±${st.range}개월`;
+  $$('.seg button').forEach((b) => b.setAttribute('aria-pressed', String(+b.dataset.r === st.range)));
+  $('#rateTg').setAttribute('aria-pressed', String(st.rates));
+  $('#rateLg').classList.toggle('hide', !st.rates);
+  $$('.row[data-rd]').forEach((r) => r.classList.toggle('inwin', st.rates && inWin(r.dataset.rd, w)));
+
+  if (recenter && ax.scrollWidth > ax.clientWidth) ax.scrollLeft = 18 + xT - ax.clientWidth / 2;
+};
+
+// 고정 안내 줄 (말풍선 대신)
+const DEFAULT_INFO = '점·점선 막대·보험료 표시에 마우스를 올리면 여기에 내용이 나오고, 누르면 고정되며 아래 표에서도 강조됩니다.';
+const infoBody = (k) => {
+  if (!k) return null;
+  if (k === 'f') return `<b>미확정 ${fuzzy.length}건</b><span>원문에 정확한 날짜가 없어 점으로 찍지 않았습니다. 아래 표에서 점선 테두리로 강조했습니다.</span>`;
+  const [t, v] = [k.slice(0, 1), k.slice(2)];
+  if (t === 'd') {
+    const c = CHANGES[+v];
+    return `<span class="catdot ${cc(c.cat)}"></span><b class="mono">${md(c.date)} · ${dLabel(c)}</b><span>${esc(c.cat)}</span><span class="t">${link(c)}</span><span class="m">${esc(c.raw)} · ${esc(c.src)}${c.note ? ' · ' + esc(c.note) : ''}</span>`;
+  }
+  if (t === 'b') {
+    const c = CHANGES[+v], p = periodOf(c);
+    return `<span class="ico-band ${cc(c.cat)}" style="border-color:var(--c)"></span><b>${esc(c.when)}</b><span>= ${esc(p.say)}로 그림 · 정확한 날짜 아님</span><span class="t">${link(c)}</span><span class="m">${esc(c.raw)} · ${esc(c.src)} ${md(c.pub)} 발표</span>`;
+  }
+  if (t === 'r') {
+    const g = RG.find((o) => o.date === v);
+    if (!g) return null;
+    return `<span class="ico-rp ${g.s}"></span><b class="mono">${md(g.date)} · ${dLabel({ date: g.date })}</b><span>자동차보험료 ${SNAME[g.s]}</span><span class="t">${g.rs.map((r) => `${esc(r[0])} ${esc(r[1])} <span class="n mono ${SG[sign(r[2])]}">${esc(r[2])}%</span>`).join(', ')}</span><span class="m">손보협회 공시실 · 공시표 시행시기 기준</span>`;
+  }
+  return null;
+};
+const showInfo = (k, preview) => {
+  const el = $('#info'), body = infoBody(k);
+  const pinned = !preview && body;
+  el.classList.toggle('pin', !!pinned);
+  el.innerHTML = body ? (pinned ? '<span class="k">선택</span>' : '') + body + (pinned ? '<button type="button" class="x">선택 해제</button>' : '') : `<span>${DEFAULT_INFO}</span>`;
+};
+
+// ── 2단계: 레인 표 ──
+const liHtml = (c) => c.exact
+  ? `<div class="li ${cc(c.cat)}" data-i="${idx(c)}"><div class="w">${md(c.date)}<i>${dLabel(c)}</i></div><div><div class="t">${link(c, c.title)}</div><div class="m">${esc(c.raw)} · ${esc(c.src)}${c.note ? ' · ' + esc(c.note) : ''}</div></div></div>`
+  : `<div class="li fz ${cc(c.cat)}" data-i="${idx(c)}"><div class="w">${esc(c.when)}${c.past ? '<i>(지난 일) · 미확정</i>' : '<i>날짜 미확정</i>'}</div><div><div class="t">${link(c, c.title)}</div><div class="m">${esc(c.raw)} · ${esc(c.src)}${c.pub ? ' ' + md(c.pub) + ' 발표' : ''}</div></div></div>`;
+const renderLanes = () => {
+  const recent = CHANGES.filter((c) => (c.exact || c.past) && shown(c));
+  const upcoming = CHANGES.filter((c) => !c.exact && !c.past);
+  const hidden = CHANGES.filter((c) => !shown(c));
+  const row = (cat) => {
+    const past = recent.filter((c) => c.cat === cat), fut = upcoming.filter((c) => c.cat === cat), gone = hidden.filter((c) => c.cat === cat);
+    return `<div class="ln ${cc(cat)}" data-lane="${esc(cat)}"><b>${esc(cat)}</b><span>최근 시행 ${past.length} · 예정 ${fut.length}${gone.length ? ` · 기간 밖 ${gone.length}` : ''}</span></div>
+    <div class="cell" data-lane="${esc(cat)}" data-h="최근 시행">${past.length ? past.map(liHtml).join('') : `<span class="none">${gone.length ? `이 기간엔 없음 (기간 밖 ${gone.length}건)` : '없음'}</span>`}</div>
+    <div class="nowc" data-lane="${esc(cat)}"></div>
+    <div class="cell fzcell" data-lane="${esc(cat)}" data-h="예정">${fut.length ? fut.map(liHtml).join('') : '<span class="none">없음</span>'}</div>`;
+  };
+  $('#lanesNote').textContent = hidden.length ? `띠 기간(±${st.range}개월) 밖 ${hidden.length}건 숨김 · 미확정은 항상 보임` : `띠 기간(±${st.range}개월) 안 항목 · 미확정은 항상 보임`;
+  $('#lanes').innerHTML = `<div class="lanes">
+    <div class="lh"></div><div class="lh">최근 시행 · ${recent.length}건 (지난 미확정 포함)</div><div class="nowh">오늘</div><div class="lh fzh">예정 · ${upcoming.length}건 (모두 날짜 미확정)</div>
+    ${LANES.map(row).join('')}
+  </div>`;
+};
+
+// ── 모바일: 띠 아래 요약 · 종류별 묶음 · 하단 시트 ──
+const fmtD = (d) => `${d.slice(0, 4)}.${md(d)}`;
+const dTxt = (d) => { const n = dayDiff(d); return n > 0 ? `${n}일 지남` : n === 0 ? '오늘' : `${-n}일 남음`; };
+const pStart = (c) => { const p = periodOf(c); return p ? ut(p.s) : 9e15; };
+const FZ_ORDER = [...fuzzy].sort((a, b) => (!!a.past - !!b.past) || (pStart(a) - pStart(b)));
+
+const renderMQ = () => {
+  const w = win();
+  const ex = CHANGES.filter((c) => c.exact && inWin(c.date, w)).sort((a, b) => ut(b.date) - ut(a.date));
+  const fut = ex.filter((c) => ut(c.date) > ut(TODAY)).length;
+  $('#mRecent').innerHTML = `<div class="mh"><b>시행일 확정 ${ex.length}건</b><span>띠 기간 안 · 확정된 예정 ${fut}건</span></div>
+    <div class="mlist">${ex.length ? ex.map((c) => `<button type="button" class="mrow ${cc(c.cat)}" data-open="i:${idx(c)}" data-i="${idx(c)}" data-cat="${esc(c.cat)}"><span class="w">${md(c.date)}<i>${dLabel(c)}</i></span><span class="t">${esc(c.title)}</span><span class="cv" aria-hidden="true"></span></button>`).join('') : '<p class="mnone">이 기간에 시행일이 확정된 항목이 없습니다.</p>'}</div>`;
+  $('#mFz').innerHTML = `<div class="mh fz"><b>날짜 미확정 ${fuzzy.length}건</b><span>원문 표현 그대로 · 날짜로 바꾸지 않음</span></div>
+    <div class="mfzs">${FZ_ORDER.map((c) => `<button type="button" class="mfz ${cc(c.cat)}" data-open="i:${idx(c)}" data-i="${idx(c)}" data-cat="${esc(c.cat)}"><span class="w"><span class="catdot"></span>${esc(c.when)}${c.past ? ' <i>(지난 일)</i>' : ''}</span><span class="t">${esc(c.title)}</span></button>`).join('')}</div>`;
+};
+
+const aiHtml = (c) => c.exact
+  ? `<button type="button" class="ai ${cc(c.cat)}" data-open="i:${idx(c)}" data-i="${idx(c)}"><span class="w">${md(c.date)}<i>${dLabel(c)}</i></span><span class="tx"><span class="t">${esc(c.title)}</span><span class="m">${esc(c.src)}${c.note ? ' · ' + esc(c.note) : ''}</span></span></button>`
+  : `<button type="button" class="ai fz ${cc(c.cat)}" data-open="i:${idx(c)}" data-i="${idx(c)}"><span class="w">${esc(c.when)}<i>${c.past ? '(지난 일) · 미확정' : '날짜 미확정'}</i></span><span class="tx"><span class="t">${esc(c.title)}</span><span class="m">${esc(c.src)}${c.pub ? ' ' + md(c.pub) + ' 발표' : ''}</span></span></button>`;
+const renderAcc = () => {
+  const recent = CHANGES.filter((c) => (c.exact || c.past) && shown(c));
+  const upcoming = CHANGES.filter((c) => !c.exact && !c.past);
+  const hidden = CHANGES.filter((c) => !shown(c));
+  const nextR = RANGES.find((r) => r > st.range);
+  // 처음에는 항목이 있는 종류만 펼친다
+  if (!st.open) st.open = new Set(LANES.filter((cat) => recent.some((c) => c.cat === cat) || upcoming.some((c) => c.cat === cat)));
+  $('#acc').innerHTML = LANES.map((cat) => {
+    const p = recent.filter((c) => c.cat === cat), f = upcoming.filter((c) => c.cat === cat), g = hidden.filter((c) => c.cat === cat);
+    const open = st.open.has(cat), id = 'ab-' + CK[cat];
+    return `<div class="ag ${cc(cat)}" data-lane="${esc(cat)}">
+      <button type="button" class="ah" data-acc="${esc(cat)}" aria-expanded="${open}" aria-controls="${id}"><span class="catdot"></span><b>${esc(cat)}</b><span class="cnt">최근 ${p.length} · 예정 ${f.length}${g.length ? ` · 기간 밖 ${g.length}` : ''}</span><span class="chev" aria-hidden="true"></span></button>
+      <div class="ab" id="${id}"${open ? '' : ' hidden'}>
+        <div class="as">최근 시행 ${p.length}건</div>
+        ${p.length ? p.map(aiHtml).join('') : `<p class="anone">${g.length ? '이 기간엔 없음' : '없음'}</p>`}
+        ${g.length ? (nextR ? `<button type="button" class="awide mo-r" data-r="${nextR}">띠 기간 밖 ${g.length}건 · ±${nextR}개월로 넓혀 보기</button>` : `<p class="anone">띠 기간 밖 ${g.length}건</p>`) : ''}
+        <div class="as fz">예정 · 날짜 미확정 ${f.length}건</div>
+        ${f.length ? f.map(aiHtml).join('') : '<p class="anone">없음</p>'}
+      </div>
+    </div>`;
+  }).join('');
+};
+
+const kickOf = (c) => `<span class="tagx${c.exact ? '' : ' fz'}">${c.exact ? '시행일 확정' : '날짜 미확정'}</span><span><span class="catdot ${cc(c.cat)}"></span>${esc(c.cat)}</span>`;
+const kvItem = (c) => {
+  const p = periodOf(c);
+  const when = c.exact
+    ? `<b class="mono">${fmtD(c.date)}</b> · ${dLabel(c)} (${dTxt(c.date)})<span class="sm">원문에 날짜가 정확히 적힌 시행일</span>`
+    : `<b>${esc(c.when)}</b>${c.past ? ' (지난 일)' : ''}<span class="sm">${p ? `띠에는 ${esc(p.say)}로 그림 · 정확한 날짜 아님` : '정확한 날짜가 없어 띠에 그리지 않음'}</span>`;
+  return `<dl class="kv">
+    <dt>종류</dt><dd><span class="catdot ${cc(c.cat)}"></span>${esc(c.cat)}</dd>
+    <dt>${c.exact ? '시행일' : '원문 표현'}</dt><dd>${when}</dd>
+    <dt>원문 근거</dt><dd>${esc(c.raw)}</dd>
+    ${c.note ? `<dt>내용</dt><dd>${esc(c.note)}</dd>` : ''}
+    <dt>출처</dt><dd>${esc(c.src)}${c.pub ? ` · ${fmtD(c.pub)} 발표` : ''}</dd>
+  </dl>
+  <a class="bs-go" href="${esc(c.url)}" target="_blank" rel="noopener">원문 보기 · ${esc(c.src)} <span aria-hidden="true">↗</span></a>`;
+};
+const rateKv = (g) => `<dl class="kv">
+    <dt>종류</dt><dd><span class="catdot c-car"></span>자동차 · 보험료 ${SNAME[g.s]}</dd>
+    <dt>시행일</dt><dd><b class="mono">${fmtD(g.date)}</b> · ${dLabel({ date: g.date })} (${dTxt(g.date)})</dd>
+    <dt>조정</dt><dd>${g.rs.map((r) => `${esc(r[0])} ${esc(r[1])} <b class="n mono ${SG[sign(r[2])]}">${esc(r[2])}%</b>`).join('<br>')}</dd>
+    <dt>출처</dt><dd>손보협회 공시실 · 공시표 시행시기 기준</dd>
+  </dl>`;
+const sheetFor = (k) => {
+  const t = k.slice(0, 1), v = k.slice(2);
+  if (t === 'd' || t === 'b' || t === 'i') {
+    const c = CHANGES[+v];
+    return c ? { kick: kickOf(c), title: c.title, body: kvItem(c) } : null;
+  }
+  if (t === 'm') {
+    const cs = v.split(',').map((i) => CHANGES[+i]).filter(Boolean);
+    if (!cs.length) return null;
+    return {
+      kick: `<span class="tagx">시행일 확정</span><span>가까운 날짜 ${cs.length}건을 한 점으로 묶음</span>`,
+      title: `${md(cs[0].date)} ~ ${md(cs[cs.length - 1].date)} 시행 ${cs.length}건`,
+      body: cs.slice().reverse().map((c) => `<div class="bs-it"><div class="bs-k">${kickOf(c)}</div><h3>${esc(c.title)}</h3>${kvItem(c)}</div>`).join(''),
+    };
+  }
+  if (t === 'r' || t === 'q') {
+    const gs = v.split(',').map((d) => RG.find((g) => g.date === d)).filter(Boolean);
+    if (!gs.length) return null;
+    const g = gs.length === 1 ? gs[0] : rateMerge(gs);
+    return {
+      kick: `<span class="tagx">보험료 조정</span><span><span class="catdot c-car"></span>자동차</span>`,
+      title: gs.length === 1 ? `${md(g.date)} 자동차보험료 ${SNAME[g.s]} (${g.label})` : `${md(gs[0].date)} ~ ${md(gs[gs.length - 1].date)} 자동차보험료 조정 ${g.rs.length}건`,
+      body: gs.slice().reverse().map((x) => `<div class="bs-it">${rateKv(x)}</div>`).join('') + '<p class="bs-nolink">보험료 조정 공시에는 항목별 원문 링크가 수집되지 않았습니다. 전체 목록은 아래 "자동차보험료 조정"에 있습니다.</p>',
+    };
+  }
+  return null;
+};
+let bsFrom = null, bsTimer = 0;
+const INERT = ['#app', '#tabs', '#themeBtn'];
+const openSheet = (k, from) => {
+  const s = sheetFor(k);
+  if (!s) return;
+  clearTimeout(bsTimer);
+  const bs = $('#bs'), bg = $('#bsBg');
+  $('#bsKick').innerHTML = s.kick; $('#bsTitle').textContent = s.title; $('#bsBody').innerHTML = s.body; $('#bsBody').scrollTop = 0;
+  $$('.mrow.on, .mfz.on').forEach((el) => el.classList.remove('on'));
+  if (from && from.matches('.mrow, .mfz')) from.classList.add('on');
+  bsFrom = from || null;
+  bs.style.transform = ''; bs.hidden = false; bg.hidden = false;
+  void bs.offsetHeight; // 시작 위치를 잡은 뒤 올라오게
+  bs.classList.add('open'); bg.classList.add('open');
+  INERT.forEach((s2) => { $(s2).inert = true; });
+  document.documentElement.classList.add('lock');
+  $('#bsX').focus({ preventScroll: true });
+};
+const closeSheet = () => {
+  const bs = $('#bs'), bg = $('#bsBg');
+  if (bs.hidden) return;
+  bs.classList.remove('open', 'drag'); bg.classList.remove('open'); bs.style.transform = '';
+  INERT.forEach((s2) => { $(s2).inert = false; });
+  document.documentElement.classList.remove('lock');
+  bsTimer = setTimeout(() => { bs.hidden = true; bg.hidden = true; }, 230);
+  $$('.mrow.on, .mfz.on').forEach((el) => el.classList.remove('on'));
+  if (st.pin) { st.pin = null; applyPin(false); }
+  if (bsFrom && document.contains(bsFrom)) bsFrom.focus({ preventScroll: true });
+  bsFrom = null;
+};
+
+// ── 아래 영역 ──
+const chipsHtml = (cls = '') => `<div class="chips${cls ? ' ' + cls : ''}" role="group" aria-label="보험 종류 필터">${CATS.map((c, i) => `<button type="button" class="chip${i ? '' : ' on'} ${i ? cc(c) : ''}" data-f="${esc(c)}">${i ? '<span class="catdot"></span>' : ''}${esc(c)}</button>`).join('')}</div>`;
+const newsItem = (n) => `<div class="item ${cc(n.cat)}" data-cat="${esc(n.cat)}"><div class="top"><span class="cat"><span class="catdot"></span>${esc(n.cat)}</span>${n.srcs.length > 1 ? `· ${n.srcs.length}곳 보도` : ''}</div><h3>${esc(n.title)}</h3><p>${esc(n.sum.join(' '))}</p><div class="srcs">${srcLinks(n.srcs)}</div></div>`;
+const officialRows = () => OFFICIAL.map((o) => `<div class="row ${cc(o.cat)}" data-cat="${esc(o.cat)}"><span class="off">공식</span><span class="ot"><span class="catdot"></span>${link(o)}<br><small style="color:var(--ink3)">${esc(o.src)} · ${esc(o.cat)}</small></span><span class="n dt">${md(o.day)}</span></div>`).join('');
+const industryRows = () => INDUSTRY.map((i) => `<div class="row">${link(i)}<span class="n">${i.srcs}곳</span></div>`).join('');
+const rateRows = () => RATES.map((r) => `<div class="row" data-rd="${esc(r[3])}"><span>${esc(r[0])} · ${esc(r[1])}</span><span class="n ${sign(r[2])}">${md(r[3])} &nbsp; ${esc(r[2])}%</span></div>`).join('');
+const statusHtml = () => `<div class="status">${STATUS.map((s) => `<span class="${s[1] === 'ok' ? '' : 'w'}">${s[1] === 'ok' ? '✓' : '⚠'} ${esc(s[0])}${s[2] ? ' · ' + esc(s[2]) : ''}</span>`).join('')}</div>`;
+
+const ruleText = BANDED.map((c) => `${esc(c.when)} → ${esc(periodOf(c).say)}`).join(', ');
+
+document.getElementById('app').innerHTML = `
+  <header>
+    <div><span class="tag">시안 v5 · 모바일 반응형 (v4-2 기반)</span><h1>보험 <span>레이더</span></h1></div>
+    <div class="d">2026.10.23 (금) 09:00 갱신 · 새 소식 37 · 공식 발표 ${OFFICIAL.length}</div>
+  </header>
+  <div class="mbar mo" id="mbar">${chipsHtml()}</div>
+  <section class="card chg" id="sec-chg" aria-label="바뀌는 것">
+    <h2>바뀌는 것 <small id="period"></small></h2>
+    <div class="ctl">
+      <div class="step">① 한눈에 보기 · 왼쪽은 지난 시행, 오른쪽은 예정</div>
+      <div class="opts">
+        <span class="seg" role="group" aria-label="띠 기간">${RANGES.map((r) => `<button type="button" data-r="${r}" aria-pressed="false">±${r}개월</button>`).join('')}</span>
+        <button type="button" class="tg" id="rateTg" aria-pressed="false" aria-label="보험료 조정 겹쳐 보기"><span class="sw"></span><span class="d-only">보험료 조정 겹쳐 보기</span><span class="mo">보험료</span></button>
+      </div>
+    </div>
+    <div class="strip" id="strip">
+      <div class="rlab" id="rlab"></div>
+      <div class="axbox" id="axbox"><div class="axis" id="axis"></div></div>
+      <button type="button" class="fzb" id="fzb" aria-label="날짜 미확정 항목을 아래 표에서 강조"></button>
+    </div>
+    <div class="moor" id="mOor"></div>
+    <p class="mrule mo"><span class="ico-dot"></span>점 = 정확한 시행일 · <span class="ico-band"></span>점선 = 원문이 말한 기간 · 누르면 상세</p>
+    <div class="mq mo" id="mq"><div id="mRecent"></div><div id="mFz"></div></div>
+    <div class="info" id="info" aria-live="polite"></div>
+    <p class="rule"><span class="ico-dot"></span><b>점</b> = 원문에 날짜가 정확히 적힌 시행일 · <span class="ico-band"></span><b>점선 막대</b> = 원문이 말한 기간(${ruleText}). 정확한 날짜가 아님 · 기간을 말하지 않은 항목은 막대 없이 오른쪽 묶음에만</p>
+    <div class="hint"><span class="lg"><span><span class="catdot c-car"></span>자동차</span><span><span class="catdot c-med"></span>실손</span><span><span class="catdot c-life"></span>생명·건강·상해</span><span><span class="catdot c-ind"></span>제도·공통</span></span><span class="lg hide" id="rateLg">보험료 <span><span class="ico-rp up"></span>인상</span><span><span class="ico-rp dn"></span>인하</span><span><span class="ico-rp zero"></span>0%</span></span></div>
+    <div class="sub"><div class="step">② 보험 종류별로 보기</div><small id="lanesNote"></small></div>
+    <div id="lanes"></div>
+    <div class="acc" id="acc"></div>
+  </section>
+  ${chipsHtml('d-only')}
+  <div class="below">
+    <section id="sec-news"><h2 class="sh">오늘 소식 <small>${NEWS.length}개 주제</small></h2><div class="news" data-list>${NEWS.map(newsItem).join('')}<div class="empty hide">이 종류의 소식이 없습니다</div></div></section>
+    <aside class="side">
+      <div class="card" id="sec-off"><h2>공식 발표 <small>정부·감독기관</small></h2><div data-list>${officialRows()}<div class="empty hide">이 종류의 발표가 없습니다</div></div></div>
+      <div class="card" id="sec-rate"><h2>자동차보험료 조정 <small>손보협회 공시실 · 띠에 겹쳐 볼 수 있음</small></h2>${rateRows()}</div>
+      <div class="card" id="sec-ind"><h2>업계 동향</h2>${industryRows()}</div>
+      <div class="card" id="sec-stat"><h2>수집 상태</h2>${statusHtml()}</div>
+    </aside>
+  </div>
+  <footer id="sec-note">${DISCLAIMER}</footer>`;
+
+// ── 필터·강조 적용 ──
+const applyFilter = () => {
+  const f = st.filter, all = f === '전체';
+  $$('.chip').forEach((c) => c.classList.toggle('on', c.dataset.f === f));
+  $$('.below [data-cat]').forEach((el) => el.classList.toggle('hide', !all && el.dataset.cat !== f));
+  $$('.lanes [data-lane]').forEach((el) => el.classList.toggle('dim', !all && el.dataset.lane !== f));
+  $$('.strip [data-cat]').forEach((el) => el.classList.toggle('dim', !all && el.dataset.cat !== f));
+  $$('.below [data-list]').forEach((l) => {
+    const any = [...l.querySelectorAll('[data-cat]')].some((el) => !el.classList.contains('hide'));
+    l.querySelector('.empty').classList.toggle('hide', any);
+  });
+  // 모바일: 띠 아래 요약은 흐리게, 종류별 묶음은 고른 종류만 남기고 펼친다
+  $$('.mq [data-cat]').forEach((el) => el.classList.toggle('dim', !all && el.dataset.cat !== f));
+  $$('.acc .ag').forEach((el) => el.classList.toggle('hide', !all && el.dataset.lane !== f));
+  if (!all && st.open && !st.open.has(f)) {
+    st.open.add(f);
+    const ag = [...document.querySelectorAll('.acc .ag')].find((el) => el.dataset.lane === f);
+    if (ag) { ag.querySelector('.ah').setAttribute('aria-expanded', 'true'); ag.querySelector('.ab').hidden = false; }
+  }
+};
+const applyPin = (scroll) => {
+  $$('.li.hl, .ai.hl, .strip .on').forEach((el) => el.classList.remove('hl', 'on'));
+  const k = st.pin;
+  if (k && k !== 'f' && !document.querySelector(`.strip [data-k="${k}"]`)) st.pin = null; // 기간 밖으로 나간 선택은 해제
+  if (st.pin === 'f') {
+    $('#fzb').classList.add('on');
+    const els = $$('.li.fz'); els.forEach((li) => li.classList.add('hl'));
+    if (scroll && els[0]) els[0].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  } else if (st.pin) {
+    $$(`.strip [data-k="${st.pin}"]`).forEach((el) => el.classList.add('on'));
+    if (/^[dbm]:/.test(st.pin)) {
+      st.pin.slice(2).split(',').forEach((i, n) => {
+        const li = document.querySelector(`.li[data-i="${i}"]`);
+        if (li) { li.classList.add('hl'); if (scroll && !n) li.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+        $$(`.ai[data-i="${i}"]`).forEach((a) => a.classList.add('hl'));
+      });
+    }
+  }
+  showInfo(st.pin);
+};
+const renderAll = (recenter) => { renderStrip(recenter); renderLanes(); renderAcc(); renderMQ(); applyFilter(); applyPin(false); };
+renderAll(true);
+// 글꼴이 늦게 적용돼 폭이 바뀌면 한 번 더 그림
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { renderStrip(true); applyFilter(); applyPin(false); });
+
+// ── 동작 ──
+document.addEventListener('click', (e) => {
+  const rb = e.target.closest('.seg button, .oor[data-r], .mo-r[data-r]');
+  if (rb) { st.range = +rb.dataset.r; st.userRange = true; renderAll(true); return; }
+  if (e.target.closest('#rateTg')) { st.rates = !st.rates; renderStrip(false); applyFilter(); applyPin(false); return; }
+  if (e.target.closest('.info .x')) { st.pin = null; applyPin(false); return; }
+  const mk = e.target.closest('.strip [data-k]');
+  if (mk && isM()) { st.pin = mk.dataset.k; applyPin(false); openSheet(mk.dataset.k, mk); return; }
+  if (mk) { const k = mk.dataset.k; st.pin = st.pin === k ? null : k; applyPin(true); return; }
+  const op = e.target.closest('[data-open]');
+  if (op) { openSheet(op.dataset.open, op); return; }
+  const ah = e.target.closest('.ah');
+  if (ah) {
+    const cat = ah.dataset.acc, open = !st.open.has(cat);
+    if (open) st.open.add(cat); else st.open.delete(cat);
+    ah.setAttribute('aria-expanded', String(open));
+    document.getElementById(ah.getAttribute('aria-controls')).hidden = !open;
+    return;
+  }
+  const tab = e.target.closest('#tabs a');
+  if (tab) {
+    const el = document.getElementById(tab.dataset.sec);
+    if (el) { e.preventDefault(); el.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); }
+    return;
+  }
+  if (e.target.closest('#fzb')) { st.pin = st.pin === 'f' ? null : 'f'; applyPin(true); return; }
+  const chip = e.target.closest('.chip');
+  if (chip) { st.filter = chip.dataset.f; applyFilter(); }
+});
+const strip = $('#strip');
+strip.addEventListener('mouseover', (e) => {
+  const mk = e.target.closest('[data-k]');
+  if (mk) showInfo(mk.dataset.k, mk.dataset.k !== st.pin);
+  else if (e.target.closest('#fzb')) showInfo('f', st.pin !== 'f');
+});
+strip.addEventListener('mouseleave', () => showInfo(st.pin));
+strip.addEventListener('focusin', (e) => { const mk = e.target.closest('[data-k]'); if (mk) showInfo(mk.dataset.k, mk.dataset.k !== st.pin); });
+strip.addEventListener('focusout', () => showInfo(st.pin));
+document.addEventListener('mouseover', (e) => {
+  const li = e.target.closest('.li');
+  $$('.strip .peek').forEach((d) => d.classList.remove('peek'));
+  if (li) $$(`.strip [data-i="${li.dataset.i}"]`).forEach((d) => d.classList.add('peek'));
+});
+let rz;
+addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => { if ($('#axbox').clientWidth !== lastW) { renderStrip(true); applyFilter(); applyPin(false); } }, 120); });
+
+// ── 모바일 동작: 시트 닫기 · 화면 폭 전환 · 섹션 탭 ──
+$('#bsX').addEventListener('click', closeSheet);
+$('#bsBg').addEventListener('click', closeSheet);
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#bs').hidden) { e.preventDefault(); closeSheet(); } });
+let dragY = null;
+const hd = $('#bsHd');
+hd.addEventListener('touchstart', (e) => { if (e.target.closest('.bs-x')) return; dragY = e.touches[0].clientY; $('#bs').classList.add('drag'); }, { passive: true });
+hd.addEventListener('touchmove', (e) => { if (dragY === null) return; $('#bs').style.transform = `translateY(${Math.max(0, e.touches[0].clientY - dragY)}px)`; }, { passive: true });
+hd.addEventListener('touchend', (e) => {
+  if (dragY === null) return;
+  const dy = e.changedTouches[0].clientY - dragY; dragY = null;
+  $('#bs').classList.remove('drag');
+  if (dy > 80) closeSheet(); else $('#bs').style.transform = '';
+});
+const onMQ = () => { closeSheet(); if (!st.userRange) st.range = defRange(); renderAll(true); syncTabs(); };
+if (MQ.addEventListener) MQ.addEventListener('change', onMQ); else MQ.addListener(onMQ);
+const SECS = $$('#tabs a').map((a) => a.dataset.sec);
+let tabRaf = 0;
+function syncTabs() {
+  tabRaf = 0;
+  if (!isM()) return;
+  const mb = $('#mbar');
+  mb.classList.toggle('stuck', scrollY > 0 && mb.getBoundingClientRect().top <= 0.5);
+  let cur = SECS[0];
+  if (innerHeight + scrollY >= document.documentElement.scrollHeight - 4) cur = SECS[SECS.length - 1];
+  else SECS.forEach((id) => { const el = document.getElementById(id); if (el && el.getBoundingClientRect().top <= 140) cur = id; });
+  $$('#tabs a').forEach((a) => a.setAttribute('aria-current', String(a.dataset.sec === cur)));
+}
+addEventListener('scroll', () => { if (!tabRaf) tabRaf = requestAnimationFrame(syncTabs); }, { passive: true });
+syncTabs();
+
+// ── 테마 ──
+let syncTheme = () => {};
+addEventListener('message', (e) => { if (e.data && e.data.type === 'theme') { document.documentElement.dataset.theme = e.data.theme; syncTheme(); } });
+if (window.top === window) {
+  const btn = document.getElementById('themeBtn');
+  // 데스크톱은 v4-2와 같은 글자, 모바일은 아이콘만(44px 버튼)
+  syncTheme = () => {
+    const dark = document.documentElement.dataset.theme === 'dark';
+    btn.innerHTML = dark ? '☀<span class="tl"> 밝은 모드</span>' : '☾<span class="tl"> 다크</span>';
+    btn.setAttribute('aria-label', dark ? '밝은 모드로 바꾸기' : '다크 모드로 바꾸기');
+  };
+  btn.classList.remove('hide'); document.body.classList.add('toggle'); syncTheme();
+  btn.onclick = () => { document.documentElement.dataset.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; syncTheme(); };
+}
+</script>
+</body>
+</html>

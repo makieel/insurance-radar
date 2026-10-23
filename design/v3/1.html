@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>보험 레이더 시안 v3-1</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#f3f8f7; --panel:#ffffff; --ink:#0f1f1c; --ink2:#3d5752; --ink3:#5b736e; --line:#d6e4e1; --grid:#e9f1ef;
+  --accent:#0f766e; --accent-soft:#ccfbf1; --on-accent:#ffffff;
+  --today:#dc2626; --on-today:#ffffff;
+  --fz:#c2410c; --fz-soft:#fff3ea;
+  --car:#2563eb; --med:#e11d48; --life:#16a34a; --ind:#7c3aed;
+  --up:#e11d48; --dn:#2563eb; --warn:#c2410c;
+  --radius:14px;
+}
+[data-theme="dark"] {
+  --bg:#071412; --panel:#0d1f1c; --ink:#e3f1ee; --ink2:#a9c4be; --ink3:#86a59e; --line:#1f3d38; --grid:#132b27;
+  --accent:#2dd4bf; --accent-soft:#0c3a35; --on-accent:#03201c;
+  --today:#fb7185; --on-today:#2a070d;
+  --fz:#fb923c; --fz-soft:#2c1808;
+  --car:#60a5fa; --med:#fb7185; --life:#4ade80; --ind:#a78bfa;
+  --up:#fb7185; --dn:#60a5fa; --warn:#fb923c;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font-family: Pretendard, system-ui, sans-serif; background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.hide { display: none !important; }
+.mono { font-family: "JetBrains Mono", monospace; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+
+/* 테마 토글 (iframe 밖에서만) */
+#themeBtn { position: fixed; top: 10px; right: 12px; z-index: 60; font: inherit; font-size: 12.5px; padding: 5px 11px; border-radius: 99px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+
+/* 머리 */
+header { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 4px 14px; padding: 14px 0 10px; }
+body.toggle header { padding-right: 110px; }
+header .tag { display: inline-block; font-size: 11px; font-weight: 700; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 99px; margin-bottom: 4px; }
+header h1 { margin: 0; font-size: 22px; letter-spacing: -.02em; }
+header h1 span { color: var(--accent); }
+header .d { color: var(--ink2); font-size: 13px; }
+
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.card > h2 { margin: 0 0 10px; font-size: 16px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.card > h2 small { font-size: 12px; color: var(--ink3); font-weight: 500; }
+.c-car { --c: var(--car); } .c-med { --c: var(--med); } .c-life { --c: var(--life); } .c-ind { --c: var(--ind); }
+.catdot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 1px; background: var(--c, var(--ink3)); }
+
+/* ── 레인 타임라인 ── */
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--ink2); margin: -2px 0 10px; }
+.legend .lg-now { display: inline-block; width: 2px; height: 11px; background: var(--today); vertical-align: -1px; margin-right: 5px; }
+.legend .lg-fz { display: inline-block; width: 14px; height: 0; border-top: 2px dashed var(--fz); vertical-align: 3px; margin-right: 5px; }
+.lanewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+.lanes { display: grid; grid-template-columns: 150px minmax(0, 1fr) 290px; grid-template-rows: auto repeat(4, auto); position: relative; min-width: 940px; }
+.lanes > .hd { font-size: 11.5px; font-weight: 700; color: var(--ink3); padding: 7px 12px; background: var(--bg); }
+.lanes > .hd.fzhd { color: var(--fz); border-left: 2px dashed var(--fz); }
+.lanes > .nm, .lanes > .ax, .lanes > .fzc { border-top: 1px solid var(--line); transition: opacity .2s; }
+.nm { position: sticky; left: 0; z-index: 5; background: var(--panel); padding: 12px 10px 12px 12px; border-left: 4px solid var(--c); display: flex; flex-direction: column; justify-content: center; gap: 3px; }
+.nm b { font-size: 14.5px; color: var(--c); line-height: 1.25; }
+.nm span { font-size: 11.5px; color: var(--ink2); white-space: nowrap; }
+.nm span em { font-style: normal; font-weight: 800; color: var(--ink); }
+.hd.nmh { position: sticky; left: 0; z-index: 5; }
+.track { position: absolute; top: 0; bottom: 0; left: 22px; right: 22px; }
+.axhd { position: relative; min-height: 28px; }
+.axhd .tl { position: absolute; top: 7px; transform: translateX(-50%); font-family: "JetBrains Mono", monospace; font-weight: 600; font-size: 11px; color: var(--ink3); white-space: nowrap; }
+.ax { position: relative; min-height: 64px; }
+.ax .base { position: absolute; left: 0; right: 0; top: 50%; height: 2px; margin-top: -1px; background: var(--line); }
+.ax .gl { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--grid); }
+.ax .tk { position: absolute; top: 50%; width: 1px; height: 9px; margin-top: -4px; background: var(--ink3); opacity: .6; }
+.ax .noexact { position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 11.5px; color: var(--ink3); background: var(--panel); padding: 1px 8px 1px 0; }
+.ax.big { min-height: 124px; }
+.pin { position: absolute; top: 50%; width: 0; height: 0; z-index: 4; }
+.pin .dot { position: absolute; left: -7px; top: -7px; width: 14px; height: 14px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 3px var(--panel); }
+.pin .lab { position: absolute; left: -1px; width: 128px; padding-left: 8px; border-left: 2px solid var(--c); font-size: 12px; line-height: 1.3; background: linear-gradient(90deg, var(--panel) 85%, transparent); }
+.pin.up .lab { bottom: 9px; padding-bottom: 2px; }
+.pin.dn .lab { top: 9px; padding-top: 2px; }
+.pin .lab b { display: block; font-family: "JetBrains Mono", monospace; font-size: 11.5px; color: var(--c); }
+.pin .lab b i { font-style: normal; color: var(--ink3); font-weight: 600; }
+.pin .lab a { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: var(--ink); }
+.nowov { grid-column: 2 / 3; grid-row: 1 / -1; position: absolute; top: 0; bottom: 0; left: 0; right: 0; pointer-events: none; z-index: 3; }
+.nowline { position: absolute; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: var(--today); }
+.nowline::before { content: ""; position: absolute; top: 0; left: -4px; border: 5px solid transparent; border-top: 6px solid var(--today); }
+.nowline span { position: absolute; bottom: 6px; left: 5px; font-size: 11px; font-weight: 800; color: var(--on-today); background: var(--today); padding: 1px 7px; border-radius: 99px; white-space: nowrap; }
+.fzc { border-left: 2px dashed var(--fz) !important; padding: 8px 12px; background: var(--fz-soft); display: flex; flex-direction: column; justify-content: center; gap: 6px; }
+.fk { font-size: 12.5px; line-height: 1.35; }
+.fk + .fk { border-top: 1px dashed var(--line); padding-top: 6px; }
+.fk .w { font-weight: 800; color: var(--fz); font-size: 12px; margin-right: 4px; }
+.fk .ps { font-size: 10.5px; font-weight: 700; color: var(--ink2); border: 1px solid var(--line); background: var(--panel); border-radius: 99px; padding: 0 5px; margin-right: 4px; white-space: nowrap; }
+.fk a { color: var(--ink); }
+.fk .m { font-size: 11px; color: var(--ink3); margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fzc .none { font-size: 12px; color: var(--ink3); }
+.dim { opacity: .25; }
+
+/* ── 아래 영역 ── */
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 16px 0 12px; }
+.chip { font: inherit; cursor: pointer; font-size: 13px; padding: 5px 12px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line); color: var(--ink2); }
+.chip.on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 700; }
+.below { display: grid; grid-template-columns: 1fr 1fr 330px; gap: 14px; align-items: start; }
+.sh { margin: 0 0 8px; font-size: 14px; color: var(--ink2); display: flex; justify-content: space-between; align-items: baseline; }
+.sh small { font-size: 12px; font-weight: 500; color: var(--ink3); }
+.list { display: flex; flex-direction: column; gap: 10px; }
+.item { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 13px 15px; }
+.item .top { display: flex; gap: 6px; align-items: center; font-size: 12px; color: var(--ink3); margin-bottom: 4px; flex-wrap: wrap; }
+.item .cat { font-weight: 700; color: var(--c, var(--accent)); }
+.item .off { font-weight: 700; color: var(--panel); background: var(--ink); padding: 0 6px; border-radius: 4px; font-size: 11.5px; }
+.item h3 { margin: 0 0 6px; font-size: 15px; line-height: 1.4; }
+.item p { margin: 0; font-size: 13.5px; color: var(--ink2); line-height: 1.6; }
+.item .srcs { margin-top: 8px; font-size: 12px; color: var(--ink3); }
+.empty { font-size: 13px; color: var(--ink3); padding: 14px; border: 1px dashed var(--line); border-radius: 12px; text-align: center; }
+.side { display: flex; flex-direction: column; gap: 14px; }
+.row { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 13px; line-height: 1.45; }
+.row:last-child { border-bottom: 0; }
+.row .n { font-family: "JetBrains Mono", monospace; font-weight: 600; white-space: nowrap; }
+.n.up { color: var(--up); } .n.dn { color: var(--dn); }
+.status { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--ink2); }
+.status .w { color: var(--warn); font-weight: 600; }
+footer { margin: 24px 0 0; padding: 16px 0 40px; color: var(--ink3); font-size: 12px; line-height: 1.7; border-top: 1px solid var(--line); }
+
+@media (max-width: 1000px) { .below { grid-template-columns: 1fr 1fr; } .side { grid-column: 1 / -1; } }
+@media (max-width: 700px) {
+  .below { grid-template-columns: 1fr; }
+  .lanes { grid-template-columns: 96px minmax(0, 1fr); grid-template-rows: auto repeat(8, auto); min-width: 620px; }
+  .lanes > .hd.fzhd { display: none; }
+  .fzc { grid-column: 1 / -1; position: sticky; left: 0; z-index: 4; width: calc(100vw - 66px); border-left: 0 !important; border-top: 1px dashed var(--fz) !important; }
+  .fzc::before { content: "날짜 미확정 · 원문 표현 그대로"; font-size: 11px; font-weight: 700; color: var(--fz); }
+  .nm { padding: 10px 8px 10px 10px; }
+  .nm b { font-size: 13.5px; }
+  .nm span { white-space: normal; }
+  header h1 { font-size: 20px; }
+}
+</style>
+</head>
+<body>
+<button id="themeBtn" type="button" class="hide">☾ 다크</button>
+<div class="wrap" id="app"></div>
+
+<script>
+// ── 2026-10-23 실제 수집 데이터 (시안용, v1과 같음) ──
+const TODAY = '2026-10-23';
+const CATS = ['전체', '자동차', '실손', '생명·건강·상해', '제도·공통'];
+const CK = { '자동차': 'car', '실손': 'med', '생명·건강·상해': 'life', '제도·공통': 'ind' };
+
+const CHANGES = [
+  { exact: false, when: "'27.1분기 중", raw: "원문 \"'27.1분기 중 사업을 시행\"", pub: '2026-10-19', src: '금융위원회', cat: '생명·건강·상해',
+    title: '취약어르신 65만명에 낙상사고 치료비·치매배상책임보험 무료 제공', url: 'https://www.fsc.go.kr/no010101/87952' },
+  { exact: false, when: "'27.1월", raw: "원문 \"'27.1월 시행사항\"", pub: '2026-06-30', src: '금융위원회', cat: '제도·공통',
+    title: '보험 판매수수료 개편 다음 단계 시행', url: 'https://www.fsc.go.kr/no010101/87217' },
+  { exact: false, when: '연말까지', raw: '원문 "연말까지 실손24 연계율 80~90% 목표"', pub: '2026-09-30', src: '금융위원회', cat: '실손',
+    title: '병·의원 실손24 연계율 80~90%로 확대 목표', url: 'https://www.fsc.go.kr/no010101/87818' },
+  { exact: false, past: true, when: '오는 21일', raw: '원문 "오는 21일 … 출시" · 기사 10.20', pub: '2026-10-20', src: '보험신보', cat: '생명·건강·상해',
+    title: "삼성생명 '시니어대표건강보험' 개정 출시 (폐렴·로봇 인공관절수술 보장 강화)", url: 'https://www.insweek.co.kr/news/articleView.html?idxno=72754' },
+  { exact: true, date: '2026-10-12', raw: "원문 \"'26.10.12.(월)부터\"", src: '손해보험협회', cat: '자동차',
+    title: '자동차보험 경상환자 보상처리 피해 신고센터 운영 시작', url: 'https://www.knia.or.kr/data/news/content?index=88765' },
+  { exact: true, date: '2026-09-26', raw: '공시표 시행시기 20260926', src: '손보협회 공시실', cat: '자동차',
+    title: '메리츠화재 업무용·영업용 자동차보험료 -1%', note: '예정사업비 변경에 따른 보험료 조정', url: 'https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do' },
+  { exact: true, date: '2026-09-21', raw: '공시표 시행시기 20260921', src: '손보협회 공시실', cat: '자동차',
+    title: '현대해상 영업용 자동차보험료 조정 (전체 0%)', note: '손해율 실적 반영, 대물확장·자차보장확대 특약 포함', url: 'https://kpub.knia.or.kr/carInsuranceDisc/adjustment/carAdjustmentCompare.do' },
+  { exact: true, date: '2026-09-10', raw: "원문 \"'26.9.10. 이후 사고부터 시행\"", src: '금융감독원', cat: '자동차',
+    title: '자동차보험 치료비 보상 절차 개편', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=226318&menuNo=200218' },
+];
+
+const NEWS = [
+  { cat: '자동차', title: '9월 자동차보험 손해율 85.0%… 전년 동월보다 8.8%p 하락',
+    sum: ['대형 손보사 4곳의 9월 자동차보험 손해율이 평균 85.0%로, 지난해 같은 달 94.2%보다 낮아졌습니다.', '1~9월 누적 손해율은 84.7%입니다.'],
+    srcs: [['보험저널', 'https://www.insjournal.co.kr/news/articleView.html?idxno=33625'], ['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110306']] },
+  { cat: '자동차', title: '[국감] "보험사, 안전운전 할인 특약 내세워 운전정보만 수집"',
+    sum: ['안전운전(UBI) 할인 특약을 이유로 운전정보 제공 동의를 받았지만, 실제 가입은 4건 중 1건이었다는 지적입니다.', '금감원에 동의 실태 전수 점검과 점수 산정 기준 공개를 촉구했습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110296']] },
+  { cat: '실손', title: '[국감] "실손보험 청구 민간 배제, 불공정"',
+    sum: ['실손24 시행 뒤 민간 핀테크가 만든 간편 청구 서비스 이용이 제한되고 있다는 지적이 나왔습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110300']] },
+  { cat: '생명·건강·상해', title: '연금저축보험, 가입 때 안내받은 연금액이 보장되지 않을 수 있어',
+    sum: ['적용이율이 가입 뒤 내려가면 연금액이 줄 수 있습니다.', '중도 인출·해지 땐 세금 부담으로 납입금보다 적게 돌려받을 수 있다고 금감원이 안내했습니다.'],
+    srcs: [['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110290']] },
+  { cat: '생명·건강·상해', title: '교보생명, 보험금 신속지급 평균 0.24일… 생보업계 가장 짧아',
+    sum: ['올해 상반기 신속지급 평균기간이 0.24일로, 업계 평균 0.71일보다 짧았습니다.'],
+    srcs: [['한국보험신문', 'https://www.insnews.co.kr/news/articleView.html?idxno=93466'], ['보험신보', 'https://www.insweek.co.kr/news/articleView.html?idxno=72796'], ['보험매일', 'http://www.fins.co.kr/news/articleView.html?idxno=110307']] },
+];
+
+const OFFICIAL = [
+  { day: '2026-10-19', src: '금융위원회', cat: '생명·건강·상해', title: '보험업권·복지부 산하 노인지원기관, 취약어르신 65만명에 낙상사고 치료비·치매배상책임보험 무료 제공', url: 'https://www.fsc.go.kr/no010101/87952' },
+  { day: '2026-10-05', src: '금융감독원', cat: '제도·공통', title: '"전환하고 싶어요" 한 마디면 보험료가 할인됩니다', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=237413&menuNo=200218' },
+  { day: '2026-09-30', src: '금융위원회', cat: '실손', title: '의료계·플랫폼 협력으로 "실손24" 연계율 제고 나선다', url: 'https://www.fsc.go.kr/no010101/87818' },
+  { day: '2026-09-28', src: '금융감독원', cat: '제도·공통', title: '2026년 상반기 보험사기 적발현황 및 대응방안', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=231823&menuNo=200218' },
+  { day: '2026-09-15', src: '금융감독원', cat: '자동차', title: '2026년 상반기 자동차보험 사업실적(잠정)', url: 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=228597&menuNo=200218' },
+];
+
+const INDUSTRY = [
+  { title: '내년 보험산업 성장률 3.5% 전망 (보험연구원 세미나)', srcs: 4, url: 'https://www.insweek.co.kr/news/articleView.html?idxno=72766' },
+  { title: 'ABL생명, 전속 설계사 3000명 돌파… 2027년 4000명 목표', srcs: 4, url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93450' },
+  { title: '신한라이프, 민원 예방 AI 에이전트 도입', srcs: 3, url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93446' },
+  { title: '한은, 기준금리 연 3.00% 동결', srcs: 2, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33607' },
+  { title: '2027년 판매수수료 개편 앞두고 "계약체결비용 최대 20% 감소" 고민', srcs: 1, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33615' },
+  { title: '보험사 해외 사모대출 22조원… 국감서 관리 주문', srcs: 1, url: 'https://www.insjournal.co.kr/news/articleView.html?idxno=33622' },
+];
+
+const RATES = [
+  ['메리츠화재', '업무용', '-1', '2026-09-26'], ['메리츠화재', '영업용', '-1', '2026-09-26'], ['현대해상', '영업용', '0', '2026-09-21'],
+  ['현대해상', '업무용', '0', '2026-06-16'], ['하나손보', '개인용', '0', '2026-06-08'], ['흥국화재', '개인용', '+1.4', '2026-03-13'],
+  ['롯데손보', '개인용', '+1.4', '2026-03-01'], ['메리츠화재', '개인용', '+1.3', '2026-02-21'], ['한화손보', '개인용', '+1.2', '2026-02-21'],
+];
+
+const STATUS = [
+  ['금융위원회', 'warn', 'RSS 점검 중(503) → 목록 페이지로 수집'], ['금융감독원', 'ok', ''], ['손해보험협회', 'ok', ''], ['손보협회 공시실', 'ok', ''],
+  ['생명보험협회', 'ok', ''], ['보험연구원', 'ok', ''], ['보험사 4곳', 'ok', ''], ['보험 전문지 4곳', 'ok', '오늘 37건'],
+];
+
+// ── 도우미 ──
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const md = (d) => { const [, m, dd] = d.split('-'); return `${+m}.${+dd}`; };
+const dayDiff = (d) => Math.round((new Date(TODAY) - new Date(d)) / 86400000);
+const dLabel = (c) => { const n = dayDiff(c.date); return n > 0 ? `D+${n}` : n === 0 ? 'D-DAY' : `D${n}`; };
+const cc = (cat) => 'c-' + CK[cat];
+const link = (o, tip) => `<a href="${esc(o.url)}" target="_blank" rel="noopener"${tip ? ` title="${esc(tip)}"` : ''}>${esc(o.title)}</a>`;
+const srcLinks = (srcs) => srcs.map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>`).join(' · ');
+const sign = (v) => (v.startsWith('+') ? 'up' : v.startsWith('-') ? 'dn' : '');
+const DISCLAIMER = '이 사이트는 공개된 보도자료와 기사를 자동으로 모아 보여 주는 정보 제공용이며, 보험 가입이나 해지를 권유하지 않습니다. 요약은 AI가 만들었으므로 정확한 내용은 반드시 원문과 약관에서 확인하세요.';
+
+const LANES = CATS.slice(1);
+const upcoming = CHANGES.filter((c) => !c.exact && !c.past);
+const recent = CHANGES.filter((c) => c.exact || c.past);
+const START = new Date('2026-09-01'), END = new Date('2026-10-31');
+const pos = (d) => ((new Date(d) - START) / (END - START)) * 100;
+const TICKS = ['2026-09-01', '2026-09-15', '2026-10-01', '2026-10-15', '2026-10-31'];
+
+// ── 레인 타임라인 ──
+const laneRow = (cat) => {
+  const exact = CHANGES.filter((c) => c.cat === cat && c.exact).sort((a, b) => a.date.localeCompare(b.date));
+  const fuzzy = CHANGES.filter((c) => c.cat === cat && !c.exact);
+  const nRecent = recent.filter((c) => c.cat === cat).length, nUp = upcoming.filter((c) => c.cat === cat).length;
+  const grid = TICKS.map((d) => `<div class="gl" style="left:${pos(d)}%"></div><div class="tk" style="left:${pos(d)}%"></div>`).join('');
+  const pins = exact.map((c, i) => `<div class="pin ${i % 2 ? 'dn' : 'up'} ${cc(c.cat)}" data-cat="${esc(c.cat)}" style="left:${pos(c.date)}%"><i class="dot"></i><div class="lab"><b>${md(c.date)} <i>${dLabel(c)}</i></b>${link(c, `${c.title} · ${c.raw} · ${c.src}${c.note ? ' · ' + c.note : ''}`)}</div></div>`).join('');
+  const fz = fuzzy.length
+    ? fuzzy.map((c) => `<div class="fk"><span class="w">${esc(c.when)}</span>${c.past ? '<span class="ps">지난 일</span>' : ''}${link(c, `${c.title} · ${c.raw}`)}<div class="m">${esc(c.raw)} · ${esc(c.src)}${c.pub ? ' ' + md(c.pub) + ' 발표' : ''}</div></div>`).join('')
+    : '<span class="none">없음</span>';
+  return `<div class="nm ${cc(cat)}" data-lane="${esc(cat)}"><b>${esc(cat)}</b><span>최근 시행 <em>${nRecent}</em> · 예정 <em>${nUp}</em></span></div>
+    <div class="ax${exact.length ? ' big' : ''}" data-lane="${esc(cat)}"><div class="track"><div class="base"></div>${grid}${exact.length ? pins : '<span class="noexact">이 기간 시행일이 정확한 항목 없음</span>'}</div></div>
+    <div class="fzc" data-lane="${esc(cat)}">${fz}</div>`;
+};
+const lanesHtml = () => `<div class="lanewrap"><div class="lanes">
+    <div class="hd nmh">보험 종류</div>
+    <div class="hd axhd"><div class="track">${TICKS.map((d) => `<span class="tl" style="left:${pos(d)}%">${md(d)}</span>`).join('')}</div></div>
+    <div class="hd fzhd">날짜 미확정 · 원문 표현 그대로</div>
+    ${LANES.map(laneRow).join('')}
+    <div class="nowov"><div class="track"><div class="nowline" style="left:${pos(TODAY)}%"><span>오늘 ${md(TODAY)}</span></div></div></div>
+  </div></div>`;
+
+// ── 아래 영역 ──
+const chipsHtml = () => `<div class="chips" role="group" aria-label="보험 종류 필터">${CATS.map((c, i) => `<button type="button" class="chip${i ? '' : ' on'} ${i ? cc(c) : ''}" data-f="${esc(c)}">${i ? '<span class="catdot"></span>' : ''}${esc(c)}</button>`).join('')}</div>`;
+const newsItem = (n) => `<div class="item ${cc(n.cat)}" data-cat="${esc(n.cat)}"><div class="top"><span class="cat"><span class="catdot"></span>${esc(n.cat)}</span>${n.srcs.length > 1 ? `· ${n.srcs.length}곳 보도` : ''}</div><h3>${esc(n.title)}</h3><p>${esc(n.sum.join(' '))}</p><div class="srcs">${srcLinks(n.srcs)}</div></div>`;
+const offItem = (o) => `<div class="item ${cc(o.cat)}" data-cat="${esc(o.cat)}"><div class="top"><span class="off">공식</span><span class="cat"><span class="catdot"></span>${esc(o.cat)}</span>· ${esc(o.src)} ${md(o.day)}</div><h3>${link(o)}</h3></div>`;
+const industryRows = () => INDUSTRY.map((i) => `<div class="row">${link(i)}<span class="n">${i.srcs}곳</span></div>`).join('');
+const rateRows = () => RATES.map((r) => `<div class="row"><span>${esc(r[0])} · ${esc(r[1])}</span><span class="n ${sign(r[2])}">${md(r[3])} &nbsp; ${esc(r[2])}%</span></div>`).join('');
+const statusHtml = () => `<div class="status">${STATUS.map((s) => `<span class="${s[1] === 'ok' ? '' : 'w'}">${s[1] === 'ok' ? '✓' : '⚠'} ${esc(s[0])}${s[2] ? ' · ' + esc(s[2]) : ''}</span>`).join('')}</div>`;
+const nExact = CHANGES.filter((c) => c.exact).length, nFuzzy = CHANGES.length - nExact;
+
+document.getElementById('app').innerHTML = `
+  <header>
+    <div><span class="tag">시안 v3-1 · 레인 타임라인</span><h1>보험 <span>레이더</span></h1></div>
+    <div class="d">2026.10.23 (금) 09:00 갱신 · 새 소식 37 · 공식 발표 ${OFFICIAL.length}</div>
+  </header>
+  <section class="card" aria-label="바뀌는 것">
+    <h2>바뀌는 것 <small>보험 종류별 · 9.1 ~ 10.31 · 시행일 정확 ${nExact}건, 날짜 미확정 ${nFuzzy}건</small></h2>
+    <div class="legend"><span><span class="catdot c-car"></span>자동차</span><span><span class="catdot c-med"></span>실손</span><span><span class="catdot c-life"></span>생명·건강·상해</span><span><span class="catdot c-ind"></span>제도·공통</span><span><span class="lg-now"></span>오늘</span><span><span class="lg-fz"></span>시행일이 정확하지 않은 항목은 축에 찍지 않고 원문 표현 그대로</span></div>
+    ${lanesHtml()}
+  </section>
+  ${chipsHtml()}
+  <div class="below">
+    <section><h2 class="sh">오늘 소식 <small>${NEWS.length}개 주제</small></h2><div class="list">${NEWS.map(newsItem).join('')}<div class="empty hide">이 종류의 소식이 없습니다</div></div></section>
+    <section><h2 class="sh">공식 발표 <small>정부·감독기관</small></h2><div class="list">${OFFICIAL.map(offItem).join('')}<div class="empty hide">이 종류의 발표가 없습니다</div></div></section>
+    <aside class="side">
+      <div class="card"><h2>자동차보험료 조정 <small>손보협회 공시실</small></h2>${rateRows()}</div>
+      <div class="card"><h2>업계 동향</h2>${industryRows()}</div>
+      <div class="card"><h2>수집 상태</h2>${statusHtml()}</div>
+    </aside>
+  </div>
+  <footer>${DISCLAIMER}</footer>`;
+
+// ── 필터 ──
+document.addEventListener('click', (e) => {
+  const chip = e.target.closest('.chip');
+  if (!chip) return;
+  const f = chip.dataset.f, all = f === '전체';
+  document.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c === chip));
+  document.querySelectorAll('.below [data-cat]').forEach((el) => el.classList.toggle('hide', !all && el.dataset.cat !== f));
+  document.querySelectorAll('.lanes [data-lane]').forEach((el) => el.classList.toggle('dim', !all && el.dataset.lane !== f));
+  document.querySelectorAll('.below .list').forEach((l) => {
+    const any = [...l.querySelectorAll('[data-cat]')].some((el) => !el.classList.contains('hide'));
+    l.querySelector('.empty').classList.toggle('hide', any);
+  });
+});
+
+// ── 테마 ──
+const q = new URLSearchParams(location.search).get('theme');
+if (q === 'dark' || q === 'light') document.documentElement.dataset.theme = q;
+addEventListener('message', (e) => { if (e.data && e.data.type === 'theme') document.documentElement.dataset.theme = e.data.theme; });
+if (window.top === window) {
+  const btn = document.getElementById('themeBtn');
+  const sync = () => { btn.textContent = document.documentElement.dataset.theme === 'dark' ? '☀ 밝은 모드' : '☾ 다크'; };
+  btn.classList.remove('hide'); document.body.classList.add('toggle'); sync();
+  btn.onclick = () => { document.documentElement.dataset.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; sync(); };
+}
+</script>
+</body>
+</html>
