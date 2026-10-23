@@ -1,0 +1,29 @@
+{
+  "name": "insurance-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\" \"web/**/*.test.js\"",
+    "typecheck": "tsc --noEmit",
+    "collect": "node src/cli/collect.ts",
+    "analyze": "node src/cli/analyze.ts",
+    "summarize": "node src/cli/summarize.ts",
+    "build": "node src/cli/build.ts",
+    "serve": "node src/cli/serve.ts",
+    "fixtures": "node scripts/capture-fixtures.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2",
+    "node-html-parser": "^9.0.5",
+    "unpdf": "^1.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

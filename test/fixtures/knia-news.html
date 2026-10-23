@@ -1,0 +1,4741 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="ko"> <!-- 06.24 수정 -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="naver-site-verification" content="3d748a06896621edcba92e01b45afcfe1ef18f31">
+	<meta name="ROBOTS" content="NOINDEX,NOFOLLOW">
+	
+	<title>
+		
+			
+			
+			
+			
+			
+			보도자료
+			
+             
+            
+
+			
+			
+			
+
+			
+			
+			
+			
+
+			
+			
+			
+			
+
+			
+			
+
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+	</title>
+	<!-- <script src="/webfont.js"></script> -->
+	<link type="text/css" rel="stylesheet" href="/css/select2.css">
+	<link type="text/css" rel="stylesheet" href="/css/jquery-ui-1.9.2.css" />
+	<link type="text/css" rel="stylesheet" href="/css/jquery.bxslider.css" />
+	<link type="text/css" rel="stylesheet" href="/css/knia/contents.css?20250730">
+	<link type="text/css" rel="stylesheet" href="/css/knia/footer.css">
+	<!--[if lt IE 9]><script src="/html5shiv.js"></script><![endif]-->
+
+	<!-- S: 06.24 type 삭제 -->
+	<script src="/js/knia/accident/jquery-1.11.3.min.js"></script>
+	<script src="/js/knia/accident/jquery-ui.min.js" ></script>
+	<script src="/js/knia/accident/jquery.bxslider.js" ></script>
+	<script src="/js/knia/accident/jquery.easing.js" ></script>
+	<script src="/js/knia/common.js"></script>
+	<script src="/js/knia/allmenu.js"></script>
+	<!--//E: 06.24 type 삭제 -->
+</head>
+
+
+<body>
+
+<!-- 스킵네비게이션 06.19 -->
+<div class="skip_navi">
+	<a href="#contents" title="본문 바로가기" style="background-color:#287df3; margin:2px">본문 바로가기</a>
+</div>
+<!--//E: 스킵네비게이션 06.19 -->
+
+<!-- main script -->
+<script>
+    $(function(){
+
+        // search input placeholder :: typing effect :: function code
+        var 	ph = '검색어를 입력해주세요.',
+            searchBar = $('#visualSearch'),
+            phCount = 0;
+
+        function randDely(min, max){
+            return Math.floor(Math['random']() * (max-min+1)+min);
+        }
+        function printLetter(string, el){
+            var arr = string.split(''),
+                input = el,
+                origString = string,
+                curPlace = input.attr('placeholder'),
+                placeholder = curPlace + arr[phCount];
+
+            setTimeout(function(){
+                $(input).attr('placeholder', placeholder);
+                phCount++;
+                if(phCount < arr.length){
+                    printLetter(origString, input);
+                }
+            }, randDely(50, 90));
+        }
+        function placeholder(){
+            searchBar.attr('placeholder','');
+            printLetter(ph, searchBar);
+        }
+
+        // search input placeholder :: typing effect :: animate code
+        $('.main_search').animate({width:'490px',left:'10px'},1000,'swing');
+
+        setTimeout(function(){
+            placeholder();
+            $('.main_search').addClass('shadowing');
+        }, 1200);
+
+
+        // Main wide slider
+        slider = $('.main_img').bxSlider({
+            mode: 'fade',
+            pager:'true',
+            auto:'true',
+            autoStart:'true',
+            autoControls:'true',
+            autoControlsSelector:'.visual_switch',
+            onSliderLoad: function(){
+                $('.main_visual .bx-pager').appendTo('.main_visual .indicate');
+            }
+        });
+
+        // Main popup zone - slider
+        $('.popup_zone').bxSlider({
+            mode:'horizontal',
+            pager:'true',
+            auto:'true',
+            autoStart:'true',
+            autoControls:'true',
+            autoControlsSelector:'.zone_switch'
+        });
+    });
+</script>
+<!--//main script -->
+<div class="container">
+	
+
+
+
+<script src="/js/knia/search.js"></script><!-- 검색관련 js -->
+<script src="https://bizmessage.kakao.com/chat/includeScript"></script>
+<script>
+function doTopSearch() {
+	var searchForm = document.topSearch; 
+
+	if (searchForm.query.value == "") {
+		alert("검색어를 입력하세요.");
+		searchForm.query.focus();
+		event.preventDefault();
+		return false;
+	}
+	
+	searchForm.submit();
+}
+//엔터 체크	
+function topSearchPressCheck() {   
+	if (event.keyCode == 13) {
+		event.preventDefault();
+		return doTopSearch();
+	}else{
+		return false;
+	}
+}
+$(document).ready(function() {
+	//추천검색어
+	for(var i = 0; i < 9; i++){
+		getRecommend('recommend0'+i);
+	}
+
+    $(document).on('click', function(e){
+        if($(e.target).parents("#gnb").length === 0){
+            $('.gnb li').removeClass('on');
+            $(this).parents('.gnbmenu_area').slideUp();
+        }
+    });
+    
+    $("#kakao_counsel").on('click', function(){
+    	$("#kakaoFrm").submit();
+    });
+});
+
+</script>
+<!-- 탑메뉴 -->
+<div class="header">
+	<h1><a href="/" title="손해보험협회 메인페이지로 이동">손해보험협회</a></h1>
+	<div class="gnb_area">
+		<ul class="global">
+			<li>
+					<a href="https://consumer.knia.or.kr/consumer.do" target="_blank" title="새창열림">소비자포털</a>
+					<a href="/about/map/map01">오시는길</a>
+					<a href="/eng/" target="_blank" title="새창열림">ENG</a>
+			</li>
+			<li>
+			 <a href="https://kpub.knia.or.kr" target="_blank" style="position: relative;bottom: 7px;"title="새창열림" >
+				<img src="/img/comp_ir.jpg"  style="height:35px;" alt="새 창 열림 금융상품 비교공시 바로가기">
+			</a>
+			</li>
+			
+			<li>
+				<a href="javascript:void(0)" title="카톡상담 요청 바로가기" id="kakao_counsel" style="position: relative;bottom: 7px;left: 20px;">
+					<img src="/img/main_icon_kakaotalk.png" style="height:35px; padding-left:35px;" alt="카톡상담 요청 바로가기" >
+				</a>
+			</li>
+			<li class="btn_area">
+				<dl>
+					<dt class="read_opacity">전체 검색 &nbsp; 메뉴</dt> <!-- 06.24 추가 -->
+					<dd class="switch_search">
+						<button type="button" name="검색">검색 영역 열기</button>
+						<!-- 검색레이어 -->
+						<form name="topSearch" id="topSearch" method="get" action="/search">
+							<div class="search_area">
+								<div class="search_form_wrap">
+									<div class="search_form">
+										<div class="tagbox">
+											<dl>
+												<dt>추천검색어</dt>
+												<dd class="recommend-search"></dd>
+											</dl>
+										</div>
+										<div class="inputsearch label_mother">
+											<label for="search" class="labelhidden">검색하기</label>
+											<input type="text" name="query" id="search" placeholder="검색어를 입력해주세요" class="" onclick="this.value='';" onKeypress="javascript:topSearchPressCheck((event),this);"/>
+											<button type="button" class="btn_inputsearch" onclick="javascript:doTopSearch();">검색</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+						<!-- //검색레이어 -->
+					</dd>
+					<dd class="switch_all">
+						<button type="button" name="전체메뉴">전체메뉴</button>
+						<!-- 전체메뉴레이어 -->
+						<div class="allmenu_area">
+							<div class="allmenu_form_wrap">
+								<div class="allmenu_form">
+									<div class="menu_row n5">
+										<!-- 전체메뉴 출력 -->
+										
+											
+												<div class="menu " style="word-break: keep-all;">
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="손해보험 상담센터"><a href="javascript:;">손해보험 상담센터</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://consumer.knia.or.kr/consumer/center/counsel.do"  class="link_2d"  target="_blank" title="손해보험상담 새창 열림" }   title="손해보험상담"><span>손해보험상담</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://accident.knia.or.kr/qna"  class="link_2d"  target="_blank" title="자동차사고과실상담 새창 열림" }   title="자동차사고과실상담"><span>자동차사고과실상담</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="https://cont.knia.or.kr"  class="link_1d"  target="_blank" title="내보험 찾아줌 새창 열림"} title="내보험 찾아줌">
+																		내보험 찾아줌
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="https://cont.knia.or.kr/result/result02?way=2"  class="link_1d"  target="_blank" title="상속인 방문조회 결과 새창 열림"} title="상속인 방문조회 결과">
+																		상속인 방문조회 결과
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="https://contract.knia.or.kr/human"  class="link_1d"  target="_blank" title="휴면계좌 통합조회 새창 열림"} title="휴면계좌 통합조회">
+																		휴면계좌 통합조회
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="https://www.e-insmarket.or.kr/intro.knia"  class="link_1d"  target="_blank" title="보험다모아 새창 열림"} title="보험다모아">
+																		보험다모아
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="https://accident.knia.or.kr/"  class="link_1d"  target="_blank" title="자동차사고 과실비율 새창 열림"} title="자동차사고 과실비율">
+																		자동차사고 과실비율
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="소비자포털"><a href="javascript:;">소비자포털</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://consumer.knia.or.kr/consumer.do#a"  class="link_2d"  target="_blank" title="민원상담·보험정보 새창 열림" }   title="민원상담·보험정보"><span>민원상담·보험정보</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://consumer.knia.or.kr/disclosure.do"  class="link_2d"  target="_blank" title="소비자정보·통합공시 새창 열림" }   title="소비자정보·통합공시"><span>소비자정보·통합공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://edu.knia.or.kr/edu/main.do"  class="link_2d"  target="_blank" title="손해보험학습센터 윙크(WINK) 새창 열림" }   title="손해보험학습센터 윙크(WINK)"><span>손해보험학습센터 윙크(WINK)</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="소비자 신고센터"><a href="javascript:;">소비자 신고센터</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/report/report-mojip/report-mojip01"   title="모집질서문란 신고센터"><span>모집질서문란 신고센터</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/report/report-advertisement/report-advertisement01"   title="과장광고 신고센터"><span>과장광고 신고센터</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://www.knia.or.kr/family/crime/home"  class="link_2d"  target="_blank" title="보험사기신고센터 새창 열림" }   title="보험사기신고센터"><span>보험사기신고센터</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/report/report-discriminate"   title="장애인ㆍ장기기증자 보험가입 차별 신고센터 안내"><span>장애인ㆍ장기기증자 보험가입 차별 신고센터 안내</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="어려운보험약관 · 용어제안"><a href="javascript:;">어려운보험약관 · 용어제안</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/proposal/proposal02_2"   title="제안하기"><span>제안하기</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/proposal/proposal03_1"   title="답변확인"><span>답변확인</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="참고 사이트"><a href="javascript:;">참고 사이트</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://fine.fss.or.kr/main/index.jsp"  class="link_2d"  target="_blank" title="금융감독원 FINE 새창 열림" }   title="금융감독원 FINE"><span>금융감독원 FINE</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://www.car365.go.kr/"  class="link_2d"  target="_blank" title="자동차365 새창 열림" }   title="자동차365"><span>자동차365</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://www.acrc.go.kr/"  class="link_2d"  target="_blank" title="국민권익위원회 새창 열림" }   title="국민권익위원회"><span>국민권익위원회</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://www.fss.or.kr/s1332/"  class="link_2d"  target="_blank" title="서민금융1332 새창 열림" }   title="서민금융1332"><span>서민금융1332</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="/coins/coins01"  title="방위산업보험 및  <br>보세화물화재보험 공동인수">
+																		방위산업보험 및  <br>보세화물화재보험 공동인수
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="/pet_main"  title="반려동물 건강관리 가이드">
+																		반려동물 건강관리 가이드
+																</a>
+															
+
+															
+															
+
+														
+													
+												</div>
+											
+										
+											
+												<div class="menu " style="word-break: keep-all;">
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="보험설계사"><a href="javascript:;">보험설계사</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/planner/selectDesignerRecord.do"  class="link_2d"  target="_blank" title="설계사 이력조회 새창 열림" }   title="설계사 이력조회"><span>설계사 이력조회</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/planner/selectDesignerRecord.do"  class="link_2d"  target="_blank" title="설계사 등록증 발급 새창 열림" }   title="설계사 등록증 발급"><span>설계사 등록증 발급</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="인터넷 말소"><a href="javascript:;">인터넷 말소</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/cancellation/insCancelApply.do"  class="link_2d"  target="_blank" title="인터넷 말소 신청 새창 열림" }   title="인터넷 말소 신청"><span>인터넷 말소 신청</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/cancellation/selectCancelApplyResult.do"  class="link_2d"  target="_blank" title="인터넷 말소 신청결과 조회 새창 열림" }   title="인터넷 말소 신청결과 조회"><span>인터넷 말소 신청결과 조회</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/planner/selectDesignerRecord.do"  class="link_2d"  target="_blank" title="말소증명서 출력 새창 열림" }   title="말소증명서 출력"><span>말소증명서 출력</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/cancellation/cancelInfo.do"  class="link_2d"  target="_blank" title="말소신청 안내 새창 열림" }   title="말소신청 안내"><span>말소신청 안내</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="자격시험"><a href="javascript:;">자격시험</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/qualification/qualTestInfo.do"  class="link_2d"  target="_blank" title="자격시험 안내 새창 열림" }   title="자격시험 안내"><span>자격시험 안내</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/qualification/qualificationPass.do"  class="link_2d"  target="_blank" title="응시신청결과 및 합격조회 새창 열림" }   title="응시신청결과 및 합격조회"><span>응시신청결과 및 합격조회</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/qualification/selectQualificationList.do?cid=EX_PLAN"  class="link_2d"  target="_blank" title="시험일정 새창 열림" }   title="시험일정"><span>시험일정</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/qualification/selectQualiListNew.do"  class="link_2d"  target="_blank" title="시험시간표 및 장소 새창 열림" }   title="시험시간표 및 장소"><span>시험시간표 및 장소</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="보험대리점/모집인 조회"><a href="javascript:;">보험대리점/모집인 조회</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/insuarance/newRegistrationGuide.do"  class="link_2d"  target="_blank" title="신규대리점 등록절차 안내 새창 열림" }   title="신규대리점 등록절차 안내"><span>신규대리점 등록절차 안내</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/insuarance/selectInsuList.do"  class="link_2d"  target="_blank" title="보험대리점 찾기 새창 열림" }   title="보험대리점 찾기"><span>보험대리점 찾기</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/loan/selectRetirePerFind.do"  class="link_2d"  target="_blank" title="퇴직연금모집인 찾기 새창 열림" }   title="퇴직연금모집인 찾기"><span>퇴직연금모집인 찾기</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/loan/retirePerInfoFind.do"  class="link_2d"  target="_blank" title="퇴직연금모집인 이력조회 새창 열림" }   title="퇴직연금모집인 이력조회"><span>퇴직연금모집인 이력조회</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																			
+																			
+																				<li>
+																					<a href="https://www.loanconsultant.or.kr/"  class="link_2d"  target="_blank"  title="대출모집인찾기 및 이력조회 새창 열림" }  title="대출모집인찾기 및 이력조회">
+																						대출모집인찾기 및 이력조회
+																					</a>
+																					<ul>
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="https://www.loanconsultant.or.kr/"   class="link_2d"  target="_blank"  title="대출모집인 찾기 새창 열림" }  title="대출모집인 찾기"><span>대출모집인 찾기</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="https://isi.knia.or.kr/loan/loanPerHisList.do"   class="link_2d"  target="_blank"  title="대출모집인 이력조회 새창 열림" }  title="대출모집인 이력조회"><span>대출모집인 이력조회</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																					</ul>
+																				</li>
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="이용안내"><a href="javascript:;">이용안내</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/information/directions.do"  class="link_2d"  target="_blank" title="오시는길 새창 열림" }   title="오시는길"><span>오시는길</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/information/selectRelationList.do?cid=FAQ"  class="link_2d"  target="_blank" title="FAQ 새창 열림" }   title="FAQ"><span>FAQ</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/information/selectRelationList.do?cid=LAW"  class="link_2d"  target="_blank" title="관련규정  새창 열림" }   title="관련규정 "><span>관련규정 </span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://isi.knia.or.kr/information/selectRelationList.do?cid=FORM"  class="link_2d"  target="_blank" title="양식다운로드 새창 열림" }   title="양식다운로드"><span>양식다운로드</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="https://isi.knia.or.kr"  class="link_1d"  target="_blank" title="모집종사자 관리센터 새창 열림"} title="모집종사자 관리센터">
+																		모집종사자 관리센터
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="http://www.e-cleanins.or.kr"  class="link_1d"  target="_blank" title="e-클린 보험서비스 새창 열림"} title="e-클린 보험서비스">
+																		e-클린 보험서비스
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="https://best.knia.or.kr/index.knia"  class="link_1d"  target="_blank" title="블루리본/우수인증 새창 열림"} title="블루리본/우수인증">
+																		블루리본/우수인증
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="https://ifp.knia.or.kr/index.knia"  class="link_1d"  target="_blank" title="종합자산관리사 새창 열림"} title="종합자산관리사">
+																		종합자산관리사
+																</a>
+															
+
+															
+															
+
+														
+													
+												</div>
+											
+										
+											
+												<div class="menu " style="word-break: keep-all;">
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="알림·소식"><a href="javascript:;">알림·소식</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/news"   title="보도자료"><span>보도자료</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/notice"   title="공지사항"><span>공지사항</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/cardNews"   title="소비자 정보제공"><span>소비자 정보제공</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="손해보험협회 간행물"><a href="javascript:;">손해보험협회 간행물</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/publish/publish01"   title="월간손해보험"><span>월간손해보험</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://onlinebooks.co.kr/books/rsmx"  class="link_2d"  target="_blank" title="월간손해보험 웹진  새창 열림" }   title="월간손해보험 웹진 "><span>월간손해보험 웹진 </span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/publish/publish03"   title="영문 손해보험"><span>영문 손해보험</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="신상품심의위원회"><a href="javascript:;">신상품심의위원회</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/report/new-review/new-review01"   title="배타적사용권 부여상품"><span>배타적사용권 부여상품</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/report/new-review/new-review02"   title="배타적사용권 신청사항 및 심의결과"><span>배타적사용권 신청사항 및 심의결과</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/report/new-review/new-review04"   title="이의신청 사항"><span>이의신청 사항</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="사회공헌"><a href="javascript:;">사회공헌</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/contribute/contribute01"   title="손해보험 사회공헌협의회"><span>손해보험 사회공헌협의회</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/contribute/contribute04"   title="손해보험 공동 사회공헌사업"><span>손해보험 공동 사회공헌사업</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/contribute/contribute03"   title="사회공헌활동 통합조회"><span>사회공헌활동 통합조회</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/contribute/contribute05"   title="손해보험 사회공헌활동보고서"><span>손해보험 사회공헌활동보고서</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="기타 안내"><a href="javascript:;">기타 안내</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/consumer/anamnesis"   title="유병력자 실손의료보험"><span>유병력자 실손의료보험</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+												</div>
+											
+										
+											
+												<div class="menu " style="word-break: keep-all;">
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="공시실"><a href="javascript:;">공시실</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://kpub.knia.or.kr/managementDisc/guide/managementInf.do"  class="link_2d"  target="_blank" title="경영공시 새창 열림" }   title="경영공시"><span>경영공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://kpub.knia.or.kr/etcDisc/governance/governanceInf.do"  class="link_2d"  target="_blank" title="지배구조공시 새창 열림" }   title="지배구조공시"><span>지배구조공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://kpub.knia.or.kr/productDisc/guide/productInf.do"  class="link_2d"  target="_blank" title="상품비교공시 새창 열림" }   title="상품비교공시"><span>상품비교공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://kpub.knia.or.kr/carInsuranceDisc/product/carProductInf.do"  class="link_2d"  target="_blank" title="자동차보험공시 새창 열림" }   title="자동차보험공시"><span>자동차보험공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://kpub.knia.or.kr/etcDisc/banca/bancaInfo.do"  class="link_2d"  target="_blank" title="방카모집수수료율공시 새창 열림" }   title="방카모집수수료율공시"><span>방카모집수수료율공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://kpub.knia.or.kr/etcDisc/corporation/corporationInf.do"  class="link_2d"  target="_blank" title="법인대리점공시 새창 열림" }   title="법인대리점공시"><span>법인대리점공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://kpub.knia.or.kr/etcDisc/loan/nonPublicLoan.do"  class="link_2d"  target="_blank" title="대출금리비교공시 새창 열림" }   title="대출금리비교공시"><span>대출금리비교공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="https://kpub.knia.or.kr/etcDisc/disputesuit/disputesuitList.do"  class="link_2d"  target="_blank" title="기타공시 새창 열림" }   title="기타공시"><span>기타공시</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="손해보험협회 규정현황"><a href="javascript:;">손해보험협회 규정현황</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/regulation/regulation01"   title="규정목록"><span>규정목록</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/regulation/regulation04_write"   title="규정개선 제안 (본인인증)"><span>규정개선 제안 (본인인증)</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/regulation/regulation04_list"   title="규정제안 확인 (본인인증)"><span>규정제안 확인 (본인인증)</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/regulation/regulation06"   title="자율규제 변경공고"><span>자율규제 변경공고</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/regulation/regulation02"   title="규제심의위원회"><span>규제심의위원회</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="보험법규"><a href="javascript:;">보험법규</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/law/law01"   title="보험관련법규"><span>보험관련법규</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/law/law02"   title="금융업관련법규"><span>금융업관련법규</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/law/law03"   title="금융업외관련법규"><span>금융업외관련법규</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/law/law04"   title="위원회규정"><span>위원회규정</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/law/law05"   title="협정협약"><span>협정협약</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="/howtouse/dictionary"  title="보험용어 검색">
+																		보험용어 검색
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="통계·자료실"><a href="javascript:;">통계·자료실</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																			
+																			
+																				<li>
+																					<a href="/data/gistat/statistics-monthly02?rptdocGrpCd=02"  title="손해보험통계">
+																						손해보험통계
+																					</a>
+																					<ul>
+																						
+																							
+																								
+																								
+																									<li>
+																										<a href="/data/gistat/statistics-monthly02?rptdocGrpCd=02"  title="금융통계월보(손해보험편)">
+																											금융통계월보(손해보험편)
+																										</a>
+																										<ul>
+																											
+																												
+																													
+																														<li>
+																															
+																															<a href="/data/gistat/statistics-monthly02?rptdocGrpCd=02" style="padding:0 40px;"   title="바로보기"><span>바로보기</span></a>
+																														</li>
+																													
+																												
+																											
+																												
+																													
+																														<li>
+																															
+																															<a href="/data/statistics-finance" style="padding:0 40px;"   title="파일게시판"><span>파일게시판</span></a>
+																														</li>
+																													
+																												
+																											
+																										</ul>
+																									</li>
+																								
+																							
+																						
+																							
+																								
+																								
+																									<li>
+																										<a href="/data/gistat/statistics-monthly01?rptdocGrpCd=01"  title="분기별 손해보험통계">
+																											분기별 손해보험통계
+																										</a>
+																										<ul>
+																											
+																												
+																													
+																														<li>
+																															
+																															<a href="/data/gistat/statistics-monthly01?rptdocGrpCd=01" style="padding:0 40px;"   title="바로보기"><span>바로보기</span></a>
+																														</li>
+																													
+																												
+																											
+																										</ul>
+																									</li>
+																								
+																							
+																						
+																							
+																						
+																					</ul>
+																				</li>
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/data/ifrs17"   title="IFRS17 및 K-ICS 관련 자료실"><span>IFRS17 및 K-ICS 관련 자료실</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																			
+																			
+																				<li>
+																					<a href="/data/etc"  title="기타 자료실">
+																						기타 자료실
+																					</a>
+																					<ul>
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/data/etc"   title="기타 게시판"><span>기타 게시판</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/data/carpay"   title="자동차사고 피해지원기금"><span>자동차사고 피해지원기금</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																					</ul>
+																				</li>
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+												</div>
+											
+										
+											
+												<div class="menu " style="word-break: keep-all;">
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="협회 개요"><a href="javascript:;">협회 개요</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/chairman"   title="협회장 인사말"><span>협회장 인사말</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/knia/knia01"   title="설립목적 및 근거"><span>설립목적 및 근거</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/knia/knia02"   title="주요기능"><span>주요기능</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/knia/knia03"   title="연혁"><span>연혁</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/knia/knia04"   title="CI소개"><span>CI소개</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/knia/knia05"   title="일반현황"><span>일반현황</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+																
+																<a href="/about/group"  title="조직 및 주요업무">
+																		조직 및 주요업무
+																</a>
+															
+
+															
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="오시는길"><a href="javascript:;">오시는길</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/map/map01"   title="본사"><span>본사</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/map/map07"   title="통합민원지원센터"><span>통합민원지원센터</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/map/map02"   title="중부지역본부"><span>중부지역본부</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/map/map06"   title="서부지역본부"><span>서부지역본부</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/map/map03"   title="동부지역본부"><span>동부지역본부</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/map/map04"   title="대전지부"><span>대전지부</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/map/map08"   title="전주지부"><span>전주지부</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/map/map05"   title="대구지부"><span>대구지부</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="회원사 안내"><a href="javascript:;">회원사 안내</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/partner/partner01"   title="회원사"><span>회원사</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/partner/partner02"   title="유관기관(국내)"><span>유관기관(국내)</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																				
+																				<li><a href="/about/partner/partner03"   title="유관기관(해외)"><span>유관기관(해외)</span></a></li>
+																			
+																			
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+														
+															
+															
+															
+
+															
+															
+																<p class="link_1d has-sub" title="회원사 지원센터"><a href="javascript:;">회원사 지원센터</a></p>
+																<ul style="display: none;">
+																	
+																		
+																			
+																			
+																			
+																			
+																			
+																				<li>
+																					<a href="/data/ombudsman/ombudsman02_2"  title="옴부즈만">
+																						옴부즈만
+																					</a>
+																					<ul>
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/data/ombudsman/ombudsman02_2"   title="건의하기"><span>건의하기</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/data/ombudsman/ombudsman03_1"   title="회신확인"><span>회신확인</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/data/ombudsman/ombudsman01"   title="옴부즈만 안내"><span>옴부즈만 안내</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																					</ul>
+																				</li>
+																			
+																		
+																	
+																		
+																			
+																			
+																			
+																			
+																			
+																				<li>
+																					<a href="/report/opinion/opinion-data01"  title="비조치의견서 게시판">
+																						비조치의견서 게시판
+																					</a>
+																					<ul>
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/report/opinion/opinion-data01"   title="의견남기기"><span>의견남기기</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/report/opinion/opinion-data03"   title="회신현황"><span>회신현황</span></a>
+																									</li>
+																								
+																								
+																							
+																						
+																					</ul>
+																				</li>
+																			
+																		
+																	
+																</ul>
+															
+
+														
+													
+												</div>
+											
+										
+									</div>
+									<!-- //전체메뉴 출력 -->
+								</div>
+							</div>
+						</div>
+						<!-- //전체메뉴레이어 -->
+					</dd>
+				</dl>
+			</li>
+		</ul>
+		<ul class="gnb" id ="gnb">
+			
+				
+				<li>
+					
+					<a href="javascript:;">소비자정보</a>
+					<!-- Depth2 레이어 -->
+					<div class="gnbmenu_area">
+						<div class="gnbmenu_form_wrap">
+							<div class="gnbmenu_form">
+								<div class="menu_row">
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="손해보험 상담센터">손해보험 상담센터</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://consumer.knia.or.kr/consumer/center/counsel.do"  class="link_2d"  target="_blank"  title="손해보험상담 새창 열림" }   title="손해보험상담"><span>손해보험상담</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://accident.knia.or.kr/qna"  class="link_2d"  target="_blank"  title="자동차사고과실상담 새창 열림" }   title="자동차사고과실상담"><span>자동차사고과실상담</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="https://cont.knia.or.kr"  class="link_1d"  target="_blank" title="내보험 찾아줌 새창 열림" }   title="내보험 찾아줌">
+												내보험 찾아줌
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="https://cont.knia.or.kr/result/result02?way=2"  class="link_1d"  target="_blank" title="상속인 방문조회 결과 새창 열림" }   title="상속인 방문조회 결과">
+												상속인 방문조회 결과
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="https://contract.knia.or.kr/human"  class="link_1d"  target="_blank" title="휴면계좌 통합조회 새창 열림" }   title="휴면계좌 통합조회">
+												휴면계좌 통합조회
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="https://www.e-insmarket.or.kr/intro.knia"  class="link_1d"  target="_blank" title="보험다모아 새창 열림" }   title="보험다모아">
+												보험다모아
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+								</div>
+								
+								
+								<div class="menu_row ">
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="https://accident.knia.or.kr/"  class="link_1d"  target="_blank" title="자동차사고 과실비율 새창 열림" }   title="자동차사고 과실비율">
+												자동차사고 과실비율
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="소비자포털">소비자포털</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://consumer.knia.or.kr/consumer.do#a"  class="link_2d"  target="_blank"  title="민원상담·보험정보 새창 열림" }   title="민원상담·보험정보"><span>민원상담·보험정보</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://consumer.knia.or.kr/disclosure.do"  class="link_2d"  target="_blank"  title="소비자정보·통합공시 새창 열림" }   title="소비자정보·통합공시"><span>소비자정보·통합공시</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://edu.knia.or.kr/edu/main.do"  class="link_2d"  target="_blank"  title="손해보험학습센터 윙크(WINK) 새창 열림" }   title="손해보험학습센터 윙크(WINK)"><span>손해보험학습센터 윙크(WINK)</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="소비자 신고센터">소비자 신고센터</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/report/report-mojip/report-mojip01"   title="모집질서문란 신고센터"><span>모집질서문란 신고센터</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/report/report-advertisement/report-advertisement01"   title="과장광고 신고센터"><span>과장광고 신고센터</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://www.knia.or.kr/family/crime/home"  class="link_2d"  target="_blank"  title="보험사기신고센터 새창 열림" }   title="보험사기신고센터"><span>보험사기신고센터</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/report/report-discriminate"   title="장애인ㆍ장기기증자 보험가입 차별 신고센터 안내"><span>장애인ㆍ장기기증자 보험가입 차별 신고센터 안내</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="어려운보험약관 · 용어제안">어려운보험약관 · 용어제안</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/proposal/proposal02_2"   title="제안하기"><span>제안하기</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/proposal/proposal03_1"   title="답변확인"><span>답변확인</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="참고 사이트">참고 사이트</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://fine.fss.or.kr/main/index.jsp"  class="link_2d"  target="_blank"  title="금융감독원 FINE 새창 열림" }   title="금융감독원 FINE"><span>금융감독원 FINE</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://www.car365.go.kr/"  class="link_2d"  target="_blank"  title="자동차365 새창 열림" }   title="자동차365"><span>자동차365</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://www.acrc.go.kr/"  class="link_2d"  target="_blank"  title="국민권익위원회 새창 열림" }   title="국민권익위원회"><span>국민권익위원회</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://www.fss.or.kr/s1332/"  class="link_2d"  target="_blank"  title="서민금융1332 새창 열림" }   title="서민금융1332"><span>서민금융1332</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+								</div>
+								
+								
+								<div class="menu_row n2">
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="/coins/coins01"  title="방위산업보험 및  <br>보세화물화재보험 공동인수">
+												방위산업보험 및  <br>보세화물화재보험 공동인수
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="/pet_main"  title="반려동물 건강관리 가이드">
+												반려동물 건강관리 가이드
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+								</div>
+
+								<!-- //전체메뉴 출력 -->
+								<div class="gnb_close"><a class="read_opacity" href="javascript:;">협회 회원사 소개 메뉴 닫기</a></div>
+							</div>
+						</div>
+					</div>
+					<!-- //Depth2 레이어 -->
+				</li>
+				
+			
+				
+				<li>
+					
+					<a href="javascript:;">모집종사자 정보</a>
+					<!-- Depth2 레이어 -->
+					<div class="gnbmenu_area">
+						<div class="gnbmenu_form_wrap">
+							<div class="gnbmenu_form">
+								<div class="menu_row">
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="보험설계사">보험설계사</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/planner/selectDesignerRecord.do"  class="link_2d"  target="_blank"  title="설계사 이력조회 새창 열림" }   title="설계사 이력조회"><span>설계사 이력조회</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/planner/selectDesignerRecord.do"  class="link_2d"  target="_blank"  title="설계사 등록증 발급 새창 열림" }   title="설계사 등록증 발급"><span>설계사 등록증 발급</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="인터넷 말소">인터넷 말소</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/cancellation/insCancelApply.do"  class="link_2d"  target="_blank"  title="인터넷 말소 신청 새창 열림" }   title="인터넷 말소 신청"><span>인터넷 말소 신청</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/cancellation/selectCancelApplyResult.do"  class="link_2d"  target="_blank"  title="인터넷 말소 신청결과 조회 새창 열림" }   title="인터넷 말소 신청결과 조회"><span>인터넷 말소 신청결과 조회</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/planner/selectDesignerRecord.do"  class="link_2d"  target="_blank"  title="말소증명서 출력 새창 열림" }   title="말소증명서 출력"><span>말소증명서 출력</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/cancellation/cancelInfo.do"  class="link_2d"  target="_blank"  title="말소신청 안내 새창 열림" }   title="말소신청 안내"><span>말소신청 안내</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="자격시험">자격시험</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/qualification/qualTestInfo.do"  class="link_2d"  target="_blank"  title="자격시험 안내 새창 열림" }   title="자격시험 안내"><span>자격시험 안내</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/qualification/qualificationPass.do"  class="link_2d"  target="_blank"  title="응시신청결과 및 합격조회 새창 열림" }   title="응시신청결과 및 합격조회"><span>응시신청결과 및 합격조회</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/qualification/selectQualificationList.do?cid=EX_PLAN"  class="link_2d"  target="_blank"  title="시험일정 새창 열림" }   title="시험일정"><span>시험일정</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/qualification/selectQualiListNew.do"  class="link_2d"  target="_blank"  title="시험시간표 및 장소 새창 열림" }   title="시험시간표 및 장소"><span>시험시간표 및 장소</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="보험대리점/모집인 조회">보험대리점/모집인 조회</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/insuarance/newRegistrationGuide.do"  class="link_2d"  target="_blank"  title="신규대리점 등록절차 안내 새창 열림" }   title="신규대리점 등록절차 안내"><span>신규대리점 등록절차 안내</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/insuarance/selectInsuList.do"  class="link_2d"  target="_blank"  title="보험대리점 찾기 새창 열림" }   title="보험대리점 찾기"><span>보험대리점 찾기</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/loan/selectRetirePerFind.do"  class="link_2d"  target="_blank"  title="퇴직연금모집인 찾기 새창 열림" }   title="퇴직연금모집인 찾기"><span>퇴직연금모집인 찾기</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/loan/retirePerInfoFind.do"  class="link_2d"  target="_blank"  title="퇴직연금모집인 이력조회 새창 열림" }   title="퇴직연금모집인 이력조회"><span>퇴직연금모집인 이력조회</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+														
+														
+															<li>
+																<a href="https://www.loanconsultant.or.kr/"  class="link_2d"  target="_blank"  title=""대출모집인찾기 및 이력조회 새창 열림" }  title="대출모집인찾기 및 이력조회">
+																	대출모집인찾기 및 이력조회
+																</a>
+																<ul>
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="https://www.loanconsultant.or.kr/"   class="link_2d"  target="_blank"  title="대출모집인 찾기 새창 열림" }  title="대출모집인 찾기"><span>대출모집인 찾기</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="https://isi.knia.or.kr/loan/loanPerHisList.do"   class="link_2d"  target="_blank"  title="대출모집인 이력조회 새창 열림" }  title="대출모집인 이력조회"><span>대출모집인 이력조회</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																</ul>
+															</li>
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="이용안내">이용안내</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/information/directions.do"  class="link_2d"  target="_blank"  title="오시는길 새창 열림" }   title="오시는길"><span>오시는길</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/information/selectRelationList.do?cid=FAQ"  class="link_2d"  target="_blank"  title="FAQ 새창 열림" }   title="FAQ"><span>FAQ</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/information/selectRelationList.do?cid=LAW"  class="link_2d"  target="_blank"  title="관련규정  새창 열림" }   title="관련규정 "><span>관련규정 </span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://isi.knia.or.kr/information/selectRelationList.do?cid=FORM"  class="link_2d"  target="_blank"  title="양식다운로드 새창 열림" }   title="양식다운로드"><span>양식다운로드</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+								</div>
+								
+								
+								<div class="menu_row n4">
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="https://isi.knia.or.kr"  class="link_1d"  target="_blank" title="모집종사자 관리센터 새창 열림" }   title="모집종사자 관리센터">
+												모집종사자 관리센터
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="http://www.e-cleanins.or.kr"  class="link_1d"  target="_blank" title="e-클린 보험서비스 새창 열림" }   title="e-클린 보험서비스">
+												e-클린 보험서비스
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="https://best.knia.or.kr/index.knia"  class="link_1d"  target="_blank" title="블루리본/우수인증 새창 열림" }   title="블루리본/우수인증">
+												블루리본/우수인증
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="https://ifp.knia.or.kr/index.knia"  class="link_1d"  target="_blank" title="종합자산관리사 새창 열림" }   title="종합자산관리사">
+												종합자산관리사
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+								</div>
+
+								<!-- //전체메뉴 출력 -->
+								<div class="gnb_close"><a class="read_opacity" href="javascript:;">협회 회원사 소개 메뉴 닫기</a></div>
+							</div>
+						</div>
+					</div>
+					<!-- //Depth2 레이어 -->
+				</li>
+				
+			
+				
+				<li>
+					
+					<a href="javascript:;">알림·소식</a>
+					<!-- Depth2 레이어 -->
+					<div class="gnbmenu_area">
+						<div class="gnbmenu_form_wrap">
+							<div class="gnbmenu_form">
+								<div class="menu_row">
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="알림·소식">알림·소식</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/news"   title="보도자료"><span>보도자료</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/notice"   title="공지사항"><span>공지사항</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/cardNews"   title="소비자 정보제공"><span>소비자 정보제공</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="손해보험협회 간행물">손해보험협회 간행물</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/publish/publish01"   title="월간손해보험"><span>월간손해보험</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://onlinebooks.co.kr/books/rsmx"  class="link_2d"  target="_blank"  title="월간손해보험 웹진  새창 열림" }   title="월간손해보험 웹진 "><span>월간손해보험 웹진 </span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/publish/publish03"   title="영문 손해보험"><span>영문 손해보험</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="신상품심의위원회">신상품심의위원회</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/report/new-review/new-review01"   title="배타적사용권 부여상품"><span>배타적사용권 부여상품</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/report/new-review/new-review02"   title="배타적사용권 신청사항 및 심의결과"><span>배타적사용권 신청사항 및 심의결과</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/report/new-review/new-review04"   title="이의신청 사항"><span>이의신청 사항</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="사회공헌">사회공헌</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/contribute/contribute01"   title="손해보험 사회공헌협의회"><span>손해보험 사회공헌협의회</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/contribute/contribute04"   title="손해보험 공동 사회공헌사업"><span>손해보험 공동 사회공헌사업</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/contribute/contribute03"   title="사회공헌활동 통합조회"><span>사회공헌활동 통합조회</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/contribute/contribute05"   title="손해보험 사회공헌활동보고서"><span>손해보험 사회공헌활동보고서</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="기타 안내">기타 안내</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/consumer/anamnesis"   title="유병력자 실손의료보험"><span>유병력자 실손의료보험</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+								</div>
+
+								<!-- //전체메뉴 출력 -->
+								<div class="gnb_close"><a class="read_opacity" href="javascript:;">협회 회원사 소개 메뉴 닫기</a></div>
+							</div>
+						</div>
+					</div>
+					<!-- //Depth2 레이어 -->
+				</li>
+				
+			
+				
+				<li>
+					
+					<a href="javascript:;">공시·자료실</a>
+					<!-- Depth2 레이어 -->
+					<div class="gnbmenu_area">
+						<div class="gnbmenu_form_wrap">
+							<div class="gnbmenu_form">
+								<div class="menu_row">
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="공시실">공시실</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="https://kpub.knia.or.kr/managementDisc/guide/managementInf.do"  class="link_2d"  target="_blank"  title="경영공시 새창 열림" }   title="경영공시"><span>경영공시</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://kpub.knia.or.kr/etcDisc/governance/governanceInf.do"  class="link_2d"  target="_blank"  title="지배구조공시 새창 열림" }   title="지배구조공시"><span>지배구조공시</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://kpub.knia.or.kr/productDisc/guide/productInf.do"  class="link_2d"  target="_blank"  title="상품비교공시 새창 열림" }   title="상품비교공시"><span>상품비교공시</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://kpub.knia.or.kr/carInsuranceDisc/product/carProductInf.do"  class="link_2d"  target="_blank"  title="자동차보험공시 새창 열림" }   title="자동차보험공시"><span>자동차보험공시</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://kpub.knia.or.kr/etcDisc/banca/bancaInfo.do"  class="link_2d"  target="_blank"  title="방카모집수수료율공시 새창 열림" }   title="방카모집수수료율공시"><span>방카모집수수료율공시</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://kpub.knia.or.kr/etcDisc/corporation/corporationInf.do"  class="link_2d"  target="_blank"  title="법인대리점공시 새창 열림" }   title="법인대리점공시"><span>법인대리점공시</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://kpub.knia.or.kr/etcDisc/loan/nonPublicLoan.do"  class="link_2d"  target="_blank"  title="대출금리비교공시 새창 열림" }   title="대출금리비교공시"><span>대출금리비교공시</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="https://kpub.knia.or.kr/etcDisc/disputesuit/disputesuitList.do"  class="link_2d"  target="_blank"  title="기타공시 새창 열림" }   title="기타공시"><span>기타공시</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="손해보험협회 규정현황">손해보험협회 규정현황</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/regulation/regulation01"   title="규정목록"><span>규정목록</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/regulation/regulation04_write"   title="규정개선 제안 (본인인증)"><span>규정개선 제안 (본인인증)</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/regulation/regulation04_list"   title="규정제안 확인 (본인인증)"><span>규정제안 확인 (본인인증)</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/regulation/regulation06"   title="자율규제 변경공고"><span>자율규제 변경공고</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/regulation/regulation02"   title="규제심의위원회"><span>규제심의위원회</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="보험법규">보험법규</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/law/law01"   title="보험관련법규"><span>보험관련법규</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/law/law02"   title="금융업관련법규"><span>금융업관련법규</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/law/law03"   title="금융업외관련법규"><span>금융업외관련법규</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/law/law04"   title="위원회규정"><span>위원회규정</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/law/law05"   title="협정협약"><span>협정협약</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="/howtouse/dictionary"  title="보험용어 검색">
+												보험용어 검색
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="통계·자료실">통계·자료실</p>
+											<ul>
+												
+													
+														
+														
+														
+														
+														
+															<li>
+																<a href="/data/gistat/statistics-monthly02?rptdocGrpCd=02"  title="손해보험통계">
+																	손해보험통계
+																</a>
+																<ul>
+																	
+																		
+																			
+																			
+																				<li>
+																					<a href="/data/gistat/statistics-monthly02?rptdocGrpCd=02"  title="금융통계월보(손해보험편)">
+																						금융통계월보(손해보험편)
+																					</a>
+																					<ul>
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/data/gistat/statistics-monthly02?rptdocGrpCd=02" style="padding:0 40px;"   title="바로보기"><span> - 바로보기</span></a>
+																									</li>
+																								
+																							
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/data/statistics-finance" style="padding:0 40px;"   title="파일게시판"><span> - 파일게시판</span></a>
+																									</li>
+																								
+																							
+																						
+																					</ul>
+																				</li>
+																			
+																		
+																	
+																		
+																			
+																			
+																				<li>
+																					<a href="/data/gistat/statistics-monthly01?rptdocGrpCd=01"  title="분기별 손해보험통계">
+																						분기별 손해보험통계
+																					</a>
+																					<ul>
+																						
+																							
+																								
+																									<li>
+																										
+																										<a href="/data/gistat/statistics-monthly01?rptdocGrpCd=01" style="padding:0 40px;"   title="바로보기"><span> - 바로보기</span></a>
+																									</li>
+																								
+																							
+																						
+																					</ul>
+																				</li>
+																			
+																		
+																	
+																		
+																	
+																</ul>
+															</li>
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/data/ifrs17"   title="IFRS17 및 K-ICS 관련 자료실"><span>IFRS17 및 K-ICS 관련 자료실</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+														
+														
+															<li>
+																<a href="/data/etc"  title="기타 자료실">
+																	기타 자료실
+																</a>
+																<ul>
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="/data/etc"   title="기타 게시판"><span>기타 게시판</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="/data/carpay"   title="자동차사고 피해지원기금"><span>자동차사고 피해지원기금</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																</ul>
+															</li>
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+								</div>
+
+								<!-- //전체메뉴 출력 -->
+								<div class="gnb_close"><a class="read_opacity" href="javascript:;">협회 회원사 소개 메뉴 닫기</a></div>
+							</div>
+						</div>
+					</div>
+					<!-- //Depth2 레이어 -->
+				</li>
+				
+			
+				
+				<li>
+					
+					<a href="javascript:;">협회·회원사 소개</a>
+					<!-- Depth2 레이어 -->
+					<div class="gnbmenu_area">
+						<div class="gnbmenu_form_wrap">
+							<div class="gnbmenu_form">
+								<div class="menu_row">
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="협회 개요">협회 개요</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/chairman"   title="협회장 인사말"><span>협회장 인사말</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/knia/knia01"   title="설립목적 및 근거"><span>설립목적 및 근거</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/knia/knia02"   title="주요기능"><span>주요기능</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/knia/knia03"   title="연혁"><span>연혁</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/knia/knia04"   title="CI소개"><span>CI소개</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/knia/knia05"   title="일반현황"><span>일반현황</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+											
+											<a href="/about/group"  title="조직 및 주요업무">
+												조직 및 주요업무
+											</a>
+										
+
+										
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="오시는길">오시는길</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/map/map01"   title="본사"><span>본사</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/map/map07"   title="통합민원지원센터"><span>통합민원지원센터</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/map/map02"   title="중부지역본부"><span>중부지역본부</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/map/map06"   title="서부지역본부"><span>서부지역본부</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/map/map03"   title="동부지역본부"><span>동부지역본부</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/map/map04"   title="대전지부"><span>대전지부</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/map/map08"   title="전주지부"><span>전주지부</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/map/map05"   title="대구지부"><span>대구지부</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="회원사 안내">회원사 안내</p>
+											<ul>
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/partner/partner01"   title="회원사"><span>회원사</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/partner/partner02"   title="유관기관(국내)"><span>유관기관(국내)</span></a></li>
+														
+														
+														
+													
+												
+													
+														
+														
+														
+															
+															<li><a href="/about/partner/partner03"   title="유관기관(해외)"><span>유관기관(해외)</span></a></li>
+														
+														
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+									
+									<div class="menu"  style="word-break: keep-all;">
+										
+										
+										
+
+										
+										
+											<p  title="회원사 지원센터">회원사 지원센터</p>
+											<ul>
+												
+													
+														
+														
+														
+														
+														
+															<li>
+																<a href="/data/ombudsman/ombudsman02_2"  title="옴부즈만">
+																	옴부즈만
+																</a>
+																<ul>
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="/data/ombudsman/ombudsman02_2"   title="건의하기"><span>건의하기</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="/data/ombudsman/ombudsman03_1"   title="회신확인"><span>회신확인</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="/data/ombudsman/ombudsman01"   title="옴부즈만 안내"><span>옴부즈만 안내</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																</ul>
+															</li>
+														
+													
+												
+													
+														
+														
+														
+														
+														
+															<li>
+																<a href="/report/opinion/opinion-data01"  title="비조치의견서 게시판">
+																	비조치의견서 게시판
+																</a>
+																<ul>
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="/report/opinion/opinion-data01"   title="의견남기기"><span>의견남기기</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																		
+																			
+																				<li>
+																					
+																					<a href="/report/opinion/opinion-data03"   title="회신현황"><span>회신현황</span></a>
+																				</li>
+																			
+																			
+																		
+																	
+																</ul>
+															</li>
+														
+													
+												
+											</ul>
+										
+									</div>
+								
+								
+									
+								
+								</div>
+
+								<!-- //전체메뉴 출력 -->
+								<div class="gnb_close"><a class="read_opacity" href="javascript:;">협회 회원사 소개 메뉴 닫기</a></div>
+							</div>
+						</div>
+					</div>
+					<!-- //Depth2 레이어 -->
+				</li>
+				
+			
+		</ul>
+	</div>
+</div>
+<!-- //탑메뉴 -->
+<!-- 카카오톡 관련 form 작성 -->
+<form id="kakaoFrm" action="https://bizmessage.kakao.com/chat/open" method="post">
+	<input type="hidden" name="uuid" value="@kniacs" />
+	<input type="hidden" name="extra" value="3//" />
+</form>
+
+	
+
+
+
+
+
+<div class="contents notice" id="contents"> <!-- 06.19 -->
+	<div class="content-main">
+		<!-- S: 컨텐츠 -->
+		<div class="content-header">
+			<h2>보도자료</h2>
+			<ul class="location">
+				<ul class="path">
+					<li>HOME</li>
+					<li>알림·소식</li><li>보도자료</li>
+				</ul>
+			</ul>
+		</div>
+		<div class="content-body">
+			<div class="search_box">
+
+				<form class="bbs-search" method="post">
+					<select name="type" title="검색어 선택"> <!-- 06.20 수정 -->
+						<option value="1"  >제목</option>
+						<option value="2" >내용</option>
+						<option value="0" >제목+내용</option>
+					</select>
+					<div class="input_box">
+						
+						<input type="text" name="keyword" value="" placeholder="검색어 입력" title="검색어 입력"> <!-- 06.20 수정 -->
+						<button type="submit">검색</button>
+						
+						<input type="hidden" name="page" value="1">
+					</div>
+				</form>
+			</div>
+
+			
+
+			
+				<!-- 데이터가 있을 경우 -->
+				<div class="search_table">
+					<div class="total">
+						<h3>
+							
+							
+								&nbsp;
+							
+						</h3>
+							
+						<p class="num">총 <strong>489</strong> 건</p>
+					</div>
+					<table class="bbs-list">
+						<caption>번호, 제목, 등록일, 조회, 첨부파일을 확인 할 수 있는 보도자료</caption>
+						<colgroup>
+							<col style="width:6.7%">
+							<col style="width:*">
+							<col style="width:16.7%">
+							<col style="width:10%">
+							<col style="width:10%">
+						</colgroup>
+						<thead>
+						<tr>
+							<th scope="col">번호</th>
+							<th scope="col">제목</th>
+							<th scope="col">등록일</th>
+							<th scope="col">조회</th>
+							<th scope="col">첨부</th>
+						</tr>
+						</thead>
+						<tbody>
+						
+							<tr>
+								<td>489</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88765">손해보험협회, 「자동차보험 경상환자 보상처리 피해 신고센터」 운영</a></td>
+								<td>2026-10-08</td>
+								<td>707</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>488</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88762">손해보험 상위 1% 모집종사자 최고의 영예, 「2026 블루리본 컨설턴트」 1,602명 선정</a></td>
+								<td>2026-09-30</td>
+								<td>570</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>487</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88760">TS-손보, 안전한 고향길 오늘도 무사고 캠페인 전개</a></td>
+								<td>2026-09-22</td>
+								<td>390</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>486</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88759">「내보험 찾아줌」 이용 시 생명·손해보험협회 운영 여부를 확인하세요</a></td>
+								<td>2026-09-22</td>
+								<td>395</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>485</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88758">「도로교통안전특별회계 도입」위한 입법토론회 개최</a></td>
+								<td>2026-09-21</td>
+								<td>266</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>484</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88756">추석 귀성길, 올해는 9월23일 가장 조심하세요</a></td>
+								<td>2026-09-21</td>
+								<td>283</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>483</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88755">「국회 보험범죄 방지 연구 포럼」 발족식 및 세미나 개최</a></td>
+								<td>2026-09-17</td>
+								<td>296</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>482</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88754">손해보험협회, 전주지부 개소</a></td>
+								<td>2026-09-08</td>
+								<td>408</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>481</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88751">손해보험협회, 「통합민원지원센터」개소... 민원처리 전문성·효율성 높인다</a></td>
+								<td>2026-09-02</td>
+								<td>509</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+							<tr>
+								<td>480</td>
+								<td class="title ellipsis"><a href="/data/news/content?index=88748">생명·손해보험업계 공동, 거제·통영 집중호우 피해 복구 성금 1억원 기탁</a></td>
+								<td>2026-08-24</td>
+								<td>436</td>
+									
+									
+								<td><i class="bullet attach-file" title="첨부파일 포함"></i></td>
+									
+							</tr>
+						
+
+						</tbody>
+					</table>
+				</div>
+				<!-- //데이터가 있을 경우 -->
+				
+				<div class="paginate">
+					
+					
+					
+						
+							<strong>1</strong>
+						
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(2);">2</a>
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(3);">3</a>
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(4);">4</a>
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(5);">5</a>
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(6);">6</a>
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(7);">7</a>
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(8);">8</a>
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(9);">9</a>
+						
+					
+						
+						
+
+							<a href="javascript:fnSubmitForm(10);">10</a>
+						
+					
+					
+
+						<a href="javascript:fnSubmitForm(11);" class="next">다음페이지</a>
+					
+					
+						<a href="javascript:fnSubmitForm(49);" class="next last">끝페이지</a>
+					
+
+					<form id="form1" name="form1" method="post">
+							
+						<input type="hidden" name="keyword" value="">
+						<input type="hidden" name="page" value="1">
+					</form>
+					<script type="text/javascript">
+                        /*페이지 네이션 각 버튼 클릭시 동작하는 form 전송 함수*/
+                        function fnSubmitForm(page){
+                            document.form1.page.value=page;
+                            document.form1.submit();
+                        }
+					</script>
+				</div>
+				
+
+				
+			
+		</div>
+		<!--//E: 컨텐츠 -->
+	</div>
+</div>
+<script type="text/javascript">
+	
+	// 2021-07-27 요청사항 
+	/* $(".ellipsis").attr("tabindex", 1); */
+// 	$(".ellipsis > nobr > a").attr("tabindex", -1);
+
+    $("li[data-page]").click(function(e){
+        $(".bbs-search").find("[name=page]").val(this.getAttribute("data-page"))
+            .parent().submit();
+    });
+
+    // ellipsis
+    $(".ellipsis").each(function(i,el){
+        var title = $(el).text();
+
+        if (title.length > 40)
+            $(el).attr("title", title);
+    });
+
+</script>
+
+	
+
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+	<div class="blank_site">
+		<ul>
+			<li>
+				<select title="손해보험사 바로가기">
+					
+					<option class="title" value="/about/partner/partner01">손해보험사</option>
+					
+						<option value="https://www.meritzfire.com">메리츠화재해상보험주식회사</option>
+					
+						<option value="https://www.hwgeneralins.com">한화손해보험주식회사</option>
+					
+						<option value="https://www.lotteins.co.kr/">롯데손해보험주식회사</option>
+					
+						<option value="https://www.heungkukfire.co.kr">흥국화재해상보험주식회사</option>
+					
+						<option value="https://www.samsungfire.com">삼성화재해상보험주식회사</option>
+					
+						<option value="https://www.hi.co.kr">현대해상화재보험주식회사</option>
+					
+						<option value="https://www.kbinsure.co.kr">KB손해보험주식회사</option>
+					
+						<option value="https://www.idbins.com">DB손해보험주식회사</option>
+					
+						<option value="https://www.koreanre.co.kr">코리안리재보험주식회사</option>
+					
+						<option value="https://www.sgic.co.kr">서울보증보험주식회사</option>
+					
+						<option value="https://www.axa.co.kr">AXA손해보험주식회사</option>
+					
+						<option value="https://www.aig.co.kr">AIG손해보험주식회사</option>
+					
+						<option value="https://www.educar.co.kr">하나손해보험주식회사</option>
+					
+						<option value="https://www.nhfire.co.kr/">농협손해보험주식회사</option>
+					
+						<option value="https://kakaopayinscorp.co.kr">(주)카카오페이손해보험</option>
+					
+						<option value="https://www.shinhanez.co.kr/">신한EZ손해보험(주)</option>
+					
+				</select>
+				<a href="/about/partner/partner01" target="_blank" title="새창열림"><span class="read_opacity">이동</span></a>
+			</li>
+			<li>
+				<select title="유관기관 바로가기">
+					<option class="title" value="/about/partner/partner02">유관기관</option>
+					
+					<optgroup label="정부기관">
+						<option value="http://www.moef.go.kr/">기획재정부</option>
+						<option value="http://www.fsc.go.kr/">금융위원회</option>
+						<option value="https://www.fss.or.kr/fss/main/main.do?menuNo=200000">금융감독원</option>
+						<option value="http://www.koroad.or.kr/">도로교통공단</option>
+						<option value="http://www.kdic.or.kr/main.do">예금보험공사</option>
+						<option value="https://www.ccrs.or.kr/main.do">신용회복위원회</option>
+					</optgroup>
+					<optgroup label="보험유관기관">
+						<option value="https://www.kidi.or.kr/home/homeIndex.do">보험개발원</option>
+						<option value="https://www.in.or.kr/main/index.asp">보험연수원</option>
+						<option value="http://www.kiri.or.kr/html/main.asp">보험연구원</option>
+						<option value="http://www.kcredit.or.kr/index.jsp">한국신용정보원</option>
+						<option value="http://www.klia.or.kr/">생명보험협회</option>
+						<option value="https://www.kfpa.or.kr/">한국화재보험협회</option>
+						<option value="http://www.iaa.or.kr/">한국보험대리점협회</option>
+						<option value="http://www.ikiba.or.kr/main/main.html">한국보험중개사협회</option>
+					</optgroup>
+					<optgroup label="기타 유관기관"> <!-- 06.24 수정 -->
+						<option value="http://www.krms.org/">한국리스크관리학회</option>
+						<option value="http://www.actuary.or.kr/">한국보험계리사회</option>
+						<option value="http://www.kinsurance.or.kr/">한국보험학회</option>
+						<option value="http://www.kfb.or.kr/">전국은행연합회</option>
+						<option value="http://www.kofia.or.kr/">금융투자협회</option>
+						<option value="https://www.crefia.or.kr/">여신금융협회</option>
+						<option value="https://www.fsb.or.kr/">저축은행중앙회</option>
+					</optgroup>
+				</select>
+				<a href="/about/partner/partner02" target="_blank" title="새창열림"><span class="read_opacity">이동</span></a>
+			</li>
+			<li>
+				<select title="참고사이트 바로가기">
+					<option class="title" value="javascript:alert('사이트 목록에서 이동할 사이트를 선택해주세요.');">참고사이트</option>
+					<option value="https://fine.fss.or.kr/fine/main/main.do?menuNo=900000">금융감독원 FINE</option>
+					<option value="http://www.car365.go.kr/">자동차 365</option>
+					<option value="http://www.acrc.go.kr/">국민권익위원회</option>
+					<option value="https://www.fss.or.kr/fss/s1332/s1332Index/sub.do?menuNo=200037">서민금융1332</option>
+					<option value="http://consumer.fss.or.kr/fss/bbs/B0000175/list.do?menuNo=200204">금융감독원 소비자경보</option>
+				</select>
+				<a href="javascript:alert('사이트 목록에서 이동할 사이트를 선택해주세요.');" target="_blank" title="새창열림"><span class="read_opacity">이동</span></a>
+			</li>
+			<li class="a_link">
+				<div class="map">
+					<a href="/about/map/map01/">오시는길</a>
+				</div>
+				<div class="sns">
+					
+						<a href="https://www.instagram.com/sonbokorea_official" class="read_opacity sns01" target="_blank"><img src="/file/download/N-7lugpk3bbMbG50xEZt7Q==" alt="인스타그램 새 창 알림"></a>
+					
+						<a href="https://www.youtube.com/c/sonbokorea" class="read_opacity sns01" target="_blank"><img src="/file/download/b7FlGKFLqUrE6SVQEG5eew==" alt="유투브 새 창 열림"></a>
+					
+						<a href="https://www.facebook.com/sonbokorea" class="read_opacity sns01" target="_blank"><img src="/file/download/26iqDbwPhoK3Vby6HG_8Jg==" alt="페이스북 새 창 열림"></a>
+					
+					
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="privacy">
+		<ul>
+			
+				
+				
+					<li><a href="/howtouse/privacy-guide01" title="개인정보처리방침" style="font-weight: bold;">개인정보처리방침</a></li>
+				
+			
+
+
+			
+			<li><a href="javascript:;" class="focus01" onclick="fnDetailChar('focus01');">이메일무단수집거부</a></li>
+			
+				
+				
+					<li><a href="/howtouse/privacy-guide05">영상정보처리기기 운영 &middot; 지침</a></li>
+				
+			
+
+		</ul>
+	</div>
+	<div class="copyright" title="손해보험협회 로고">
+		<div style="display:flex; align-items:center; gap:10px;margin-top:20px;">
+			<p style="padding:5px; background-color:#287df3; width:120px; margin-left:10px;border-radius:20px; text-align:center;">
+				<span class="care_img1"></span>
+				<span style="color:#fff;margin-left:3px;">상담전화</span>
+			</p>
+			<span class="care_txt">통합민원서비스 대표전화: 02-3702-8500<br>(서울시 금천구 벚꽃로 104, 금천롯데타워 3층)</span>
+		</div>
+		
+		<p class="web_mark">
+			<a title=“WA 품질인증 마크, 웹와치(WebWatch) 2026.08.12 ~ 2027.08.11” href="../../img/2026_wa_pc.pdf" target="_blank">
+				<img class="wa" alt=“과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.08.12 ~ 2027.08.11 “ src="../../img/2026_wa.png" height="90"/>
+					<svg viewBox="0 0 200 40" style="width:140px; height:30px; display: block; margin: -18px auto 0 auto; overflow: visible;">
+						<defs>
+							<path id="wa-curve" d="M 10,5 A 100, 40 0 0,0 190,5" fill="none" />
+						</defs>
+						<text font-size="10" font-weight="bold" fill="#333333" >
+							<textPath href="#wa-curve" startOffset="50%" text-anchor="middle">
+								웹와치(WebWatch) 2026.08.12 ~ 2027.08.11
+							</textPath>
+						</text>
+					</svg>
+			</a>
+		</p>
+		<p class="info" style="margin-top:20px;margin-left:40px;">
+			<img src="/img/foot_logo.png" style="width:100px; height:25px;margin-bottom:-8px; margin-left:-30px;">
+			<span style="font-size:12px; margin-left:20px;">서울시 종로구 종로1길 50, 케이트윈타워 B동 15층,16층 대표전화 : 02-3702-8500 사업자번호 : 102-82-04254</span>
+		</p>
+		<p class="copy" style="font-size:12px;margin-left:135px;">COPYRIGHT (C) <font class="currentFullYear"></font> GENERAL INSURANCE ASSOCIATION OF KOREA. AII RIGHTS RESERVED.</p>
+	</div>
+	
+		
+	
+	
+	
+</footer>
+
+<div id="detailPop" class="common_pop email" title="이메일무단수집거부">
+	<div class="email_privacy">
+		<div class="txt_box">
+			본 웹사이트에 게시된 이메일 주소가<br>
+			전자우편 수집 프로그램이나 그 밖의 기술적 장치를 이용하여 무단으로 수집되는 것을 거부하며,<br>
+			<strong>이를 위반시 정보통신망법에 의해 형사처벌됨을 유념</strong>하시기 바랍니다.
+			<span class="date">2011.09.29 게시</span>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var date1 = new Date();
+var fullYear = date1.getFullYear();
+$('.currentFullYear').text(fullYear);
+</script>
+
+<!-- 상세보기 팝업 -->
+<script type="text/javascript">
+    //20190717
+    function fnDetailChar(el) {
+        // back focus를 위한 attribute 값 입력 필수
+        // <button ~ class="~ focus01" onclick="fnDetailChar('focus01');" ~> ~ </button>
+        var backClass = '.' + el;
+        //$("#detailPop").dialog("open").attr('name',backClass);
+        $("#detailPop").dialog("open").attr({
+				      tabindex:0,
+				      name:backClass
+				    }).focus();
+				    $("#detailPop").scrollTop(0);
+    }
+    //05.24 height 수정
+    $(function() {
+     $("#detailPop").dialog({autoOpen:false, modal:true, width:860, height : 660, position: "center",
+						buttons : {
+							"닫기" : function() {
+								$(this).dialog("close");
+							},
+						},
+						open: function(event, ui){
+							// real layer position center
+							$(event.target).dialog('widget')
+								.css({"position":"fixed", "background-color" : "white"})
+								.position({ my:'center', at:'center', of:window});
+							// block parent(body) scroll
+							$('body').addClass('pop_on');
+						},
+						beforeClose: function(){
+							// unblock parent(body) scroll
+							$('body').removeClass('pop_on');
+							var backFocus = $(this).attr('name');
+							$(backFocus).focus();
+						}
+		   });
+    });
+</script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140737707-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140737707-1');
+</script>
+
+<!-- //FOOTER -->
+
+</div>
+<script src="/js/select2.min.js"></script>
+<script src="/js/knia/core.js"></script>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53567584-1', 'auto');
+  ga('send', 'pageview');
+</script> -->
+<script src="/js/select2.js"></script>
+<script src="/js/knia/core.js"></script>
+<script>
+
+    // 팝업존 이미지 슬라이딩
+    var $list = $('ul.album');
+    var size = $list.children().outerWidth();
+    var len =  $list.children().length;
+    var speed = 5000;
+    var timer = null;
+    var auto = true;
+    var cnt = 1;
+
+    $list.css('width',len*size);
+
+    if(auto) timer = setInterval(autoSlide, speed);
+
+    $list.children().bind({
+        'mouseenter': function(){
+            if(!auto) return false;
+            clearInterval(timer);
+            auto = false;
+        },
+        'mouseleave': function(){
+            timer = setInterval(autoSlide, speed);
+            auto = true;
+        }
+    });
+
+    $('.bt-roll').children().bind({
+        'click': function(){
+            var idx = $('.bt-roll').children().index(this);
+            cnt = idx;
+            autoSlide();
+            return false;
+        },
+        'mouseenter': function(){
+            if(!auto) return false;
+            clearInterval(timer);
+            auto = false;
+        },
+        'mouseleave': function(){
+            timer = setInterval(autoSlide, speed);
+            auto = true;
+        }
+    });
+
+    function autoSlide(){
+        if(cnt>len-1){
+            cnt = 0;
+        }
+
+        $list.animate({'left': -(cnt*size)+'px' },'normal');
+
+        //$('.bt-roll').removeClass("stop").addClass("start");
+
+        /* var source2 = $('.bt-roll').children().find('img').attr('src').replace('_.png','.png');
+        $('.bt-roll').children().find('img').attr('src',source2);
+
+        var source = $('.bt-roll').children().find('img').attr('src').replace('.png','_.png');
+        $('.bt-roll').children().eq(cnt).find('img').attr('src',source); */
+
+        $('.bt-roll').find('i.active').removeClass('active');
+        $('.bt-roll').find('i').eq(cnt).addClass('active');
+
+        cnt++;
+    }
+
+    var carousal = function() {
+        var images = $(".image-carousal"),
+            control = $(".image-control"),
+            btn = { action: $(".action", control) },
+            size = images.size(),
+            index = size - 1,
+            isRotate = false,
+            view = function(_index) {
+                if(0 === size) return;
+                else if(index == _index) return;
+                else if(_index === undefined) _index = index - 1;
+                else if(0 > _index) _index = size - 1;
+                else if(size <= _index) _index = 0;
+
+                control.find(".point").removeClass("active").eq(_index).addClass("active");
+
+                images.eq(index).animate({opacity: "-=1"}, 2000);
+                images.eq(_index).animate({opacity: "+=1"}, 2000);
+
+                index = _index;
+            },
+            rotate = null;
+
+        for(var i = 0; i < parseInt(Math['random']() * images.size()); i++)
+            $(".image-carousal:eq(0)").before($(".image-carousal:last"));
+
+        images = $(".image-carousal");
+        images.not(":last").css({opacity:0});
+        for(var i = 0; i < size; i++)
+            control.append("<a class='point' data-index='" + i + "'></a>");
+
+        control.find(".point").click(function(e){
+            if(this.className.indexOf("active") > -1) return;
+            view(this.getAttribute("data-index"));
+        }).last().addClass("active");
+
+        btn.action.click(function(e){
+            if(isRotate) {
+                btn.action.removeClass("stop").addClass("start");
+                isRotate = false;
+                clearInterval(rotate);
+            }
+            else {
+                btn.action.removeClass("start").addClass("stop");
+                isRotate = true;
+                rotate = window.setInterval(function(){
+                    if(isRotate) view(index + 1);
+                }, 10000);
+            }
+
+            return false;
+        });
+
+        return view;
+    }();
+
+    // ellipsis
+    $(".ellipsis").each(function(i,el){
+        var title = $(el).text();
+
+        if (title.length > 51)
+            $(el).attr("title", title);
+    });
+
+    // 팝업
+    function openPopup(popupName, url, top, left, width, height) {
+
+        if (getCookie(popupName) != "checked") {
+            var title = popupName;
+            var p_width = width;
+            var p_height = height;
+            var p_top = top;
+            var p_left = left;
+
+            /*var brVer = navigator.userAgent; 		//브라우져 정보
+             var brVerId = brVer.indexOf('MSIE'); 	//브라우져 정보에서 'MSIE'라는 부분의 문자열
+
+             brNum = brVer.substr(brVerId, 8); 		//브라우져 버전('MSIE' 포함..)..
+             brNum2 = brNum.substr(5, 3);			//브라우져 버번. 숫자만..
+
+             if (brNum2 > 6.0) {
+                 p_height = p_height - 50;
+             }
+              */
+
+            try {
+                var popWindow = window.open(url, title, 'top=' + p_left + ', left=' + p_top + ', width=' + p_width + ', height=' + p_height + ',  location=no, border=0, menubar=no, scrollbars=yes');
+                if (undefined != popWindow) popWindow.focus();
+            }
+            catch (e) { console && console.warn && console.warn(e) }
+        }
+    }
+
+
+    function getCookie(name) {
+
+        var nameOfCookie = name + "=";
+        var x = 0;
+
+        while (x <= document.cookie.length) {
+            var y = (x + nameOfCookie.length);
+            if (document.cookie.substring(x, y) == nameOfCookie) {
+                if ((endOfCookie = document.cookie.indexOf(";", y)) == -1)
+                    endOfCookie = document.cookie.length;
+                return unescape(document.cookie.substring(y, endOfCookie));
+            }
+            x = document.cookie.indexOf("", x) + 1;
+            if (x == 0) break;
+        }
+        return "";
+    }
+</script>
+<script title="initializer">
+    $(document).ready(function(){
+        //carousel start!
+        $(".action", ".image-control").click();
+
+        $('.item-submenu>li[onclick]').click(function (e) {
+            e.preventDefault();
+            e.stopPropagation()
+        })
+    });
+</script>
+<!-- 팝업 -->
+
+<script type="text/javascript">
+    //popup function
+    /* 	function openInfo() {
+            var settings = "width=600, height=300, location=0, scrollbars=1, resizable=1, toolbar=0, fullscreen=no";
+            window.open("/infoPopup", "info", settings);
+
+        }
+        openInfo(); */
+</script>
+</body>
+</html>
+
+

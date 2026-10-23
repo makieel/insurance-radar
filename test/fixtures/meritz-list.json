@@ -1,0 +1,130 @@
+{
+  "msg" : {
+  },
+  "header" : {
+    "handcapLcatgBizafairCd" : "",
+    "empId" : "",
+    "teleMsgMacAdr" : "",
+    "envirInfoDivCd" : "P",
+    "transGrpCd" : "F",
+    "reqRespnsDivCd" : "S",
+    "prcesResultDivCd" : "0",
+    "teleMsgVerDivCd" : "",
+    "transsLcatgBizafairCd" : "CS",
+    "syncDivCd" : "S",
+    "screenId" : "/company/media/media-report.do",
+    "langDivCd" : "KR",
+    "resultRcvmsgSrvId" : "",
+    "dptId" : "",
+    "encryDivCd" : "0",
+    "firstTranssLcatgBizafairCd" : "HP",
+    "globId" : "20261023hpsWas1010001942234343850001",
+    "dptCd" : "",
+    "exsIntfId" : "",
+    "ipv6Addr1" : "58.226.172.131",
+    "hgrkDptCd" : "",
+    "lowrnkScreenId" : "/",
+    "ipv6Addr2" : "",
+    "empNo" : "",
+    "teleMsgReqDttm" : "20261023194223434",
+    "belongGrpCd" : "",
+    "rcvmsgSrvId" : "",
+    "teleMsgRespnsDttm" : "20261023194223440",
+    "esbIntfId" : "",
+    "nxupDptCd" : ""
+  },
+  "body" : {
+    "pageNo" : 1,
+    "pageSize" : 10,
+    "chnDivCd" : "W",
+    "bbsType" : "415",
+    "subCd" : "",
+    "srhKeyword" : "",
+    "cmSysDivCd" : "01",
+    "startIndex" : 1,
+    "endIndex" : 10,
+    "totalCount" : 135,
+    "list" : [ {
+      "regDt" : "20260812",
+      "tnm" : "메리츠금융지주, 상반기 당기순이익 1조 4,716억원...전년비 8.3% 증가",
+      "inqNum" : 0,
+      "rank" : 1,
+      "vdeoDscCon" : "메리츠금융지주는 2026년 상반기 연결 기준 당기순이익이 전년 동기 대비 8.3% 증가한 1조 4,716억원을 기록했다고 12일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23505
+    }, {
+      "regDt" : "20260413",
+      "tnm" : "메리츠화재, 연도대상 개최...대상에 청주본부 주미숙 지점장",
+      "inqNum" : 0,
+      "rank" : 2,
+      "vdeoDscCon" : "메리츠화재(대표이사 김중현)는 지난 9일 서울 광장동 비스타 워커힐 서울에서 ‘2025 연도대상 시상식’을 개최했다고 13일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23504
+    }, {
+      "regDt" : "20260312",
+      "tnm" : "메리츠화재, ‘BMW 매니아’ 자동차 커뮤니티에서 보증연장 보험 판매",
+      "inqNum" : 0,
+      "rank" : 3,
+      "vdeoDscCon" : "메리츠화재(대표이사 김중현)는 자동차 전문 마케팅 기업 시퀀스엔과 업무협약(MOU)을 체결하고, 업계 최초로 네이버 카페 ‘BMW 매니아’ 회원 전용 자동차 보증연장 보험을 판매한다고 12일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23506
+    }, {
+      "regDt" : "20260305",
+      "tnm" : "메리츠화재, 청소년 불법도박 근절 캠페인 동참",
+      "inqNum" : 0,
+      "rank" : 4,
+      "vdeoDscCon" : "메리츠화재(대표이사 김중현)는 서울 경찰청이 주관하는 ‘청소년 불법도박 근절 릴레이 캠페인’에 참여했다고 5일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23503
+    }, {
+      "regDt" : "20260211",
+      "tnm" : "메리츠금융지주, 2025년 당기순이익 2조 3,501억원...역대 최대 실적",
+      "inqNum" : 0,
+      "rank" : 5,
+      "vdeoDscCon" : "메리츠금융지주는 2025년 연결 기준 2조 3,501억원의 당기순이익을 달성했다고 11일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23502
+    }, {
+      "regDt" : "20251218",
+      "tnm" : "메리츠화재, 보험사기 근절 공로...금감원장상 등 ‘트리플 크라운’ 달성",
+      "inqNum" : 0,
+      "rank" : 6,
+      "vdeoDscCon" : "메리츠화재는 서울 중구 명동 은행회관에서 열린 ‘2025 보험범죄방지 유공자 시상식’에서 금감원장상과 경찰청장상, 손해보험협회장상을 각각 수상했다고 18일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23501
+    }, {
+      "regDt" : "20251217",
+      "tnm" : "메리츠화재, 업계 최초 ‘민사소송출석비용보장(상고심 제외)’ 특약 출시",
+      "inqNum" : 0,
+      "rank" : 7,
+      "vdeoDscCon" : "메리츠화재(대표이사 사장 김중현)는 민사소송 절차 중 발생한 출석비용을 보장하는 ‘민사소송출석비용보장(상고심 제외)’ 특약을 출시했다고 17일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23500
+    }, {
+      "regDt" : "20251114",
+      "tnm" : "메리츠금융지주, 3분기 누적 당기순익 2조원 돌파... 역대 최대",
+      "inqNum" : 0,
+      "rank" : 8,
+      "vdeoDscCon" : "메리츠금융지주는 올 3분기 누적 당기순이익이 2조 268억원(연결 기준)을 기록했다고 14일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23499
+    }, {
+      "regDt" : "20250926",
+      "tnm" : "메리츠화재, 임직원 대상 챗GPT 교육…AI 업무역량 강화",
+      "inqNum" : 0,
+      "rank" : 9,
+      "vdeoDscCon" : "메리츠화재는 인공지능(AI)을 활용한 업무 역량 강화를 위해 9월 한 달간 전 임직원을 대상으로 챗GPT를 활용한 생성형 AI 교육을 진행했다고 26일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23498
+    }, {
+      "regDt" : "20250821",
+      "tnm" : "‘친절로 고객 감동’…메리츠화재, 장기보험 서비스 확 바꾼다",
+      "inqNum" : 0,
+      "rank" : 10,
+      "vdeoDscCon" : "메리츠화재는 고객 중심의 차별화된 경험을 제공하기 위해 장기보험 보상 시스템을 전면 개편했다고 21일 밝혔다.",
+      "imgPthCon" : "",
+      "seq" : 23497
+    } ],
+    "topNews" : null
+  }
+}
