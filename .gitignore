@@ -3,3 +3,4 @@ node_modules/
 .claude/
 tmp/
 *.log
+web/data/

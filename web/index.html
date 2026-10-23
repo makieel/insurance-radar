@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>보험 레이더</title>
+<meta name="description" content="개인 보험 소식과 바뀌는 것(약관·보험료·제도 변경과 시행일)을 매일 자동으로 모아 보여 줍니다.">
+<script>
+  // 그리기 전에 저장된 모드를 적용해 번쩍임을 막는다(기본 light).
+  try {
+    var m = localStorage.getItem('ir-mode');
+    if (m === 'dark' || m === 'light') document.documentElement.dataset.mode = m;
+  } catch (e) {}
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./themes/band/theme.css">
+<script type="module" src="./core/app.js"></script>
+</head>
+<body>
+<div id="root"><p class="loadfail">불러오는 중…</p></div>
+</body>
+</html>
