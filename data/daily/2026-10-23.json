@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T11:47:40.293Z",
+  "generatedAt": "2026-10-23T11:52:56.773Z",
   "groups": [
     {
       "id": "g:kyobo:17361",
@@ -277,7 +277,7 @@
       "itemIds": [
         "insjournal:33625"
       ],
-      "summary": null
+      "summary": "삼성화재·현대해상·DB손해보험·KB손해보험 등 대형 손보사 4곳의 9월 자동차보험 손해율이 평균 85.0%로 집계되었어요. 이는 지난해 같은 달보다 8.8%포인트 낮아진 수치예요."
     },
     {
       "id": "g:insjournal:33620",
@@ -315,7 +315,7 @@
       "itemIds": [
         "insjournal:33622"
       ],
-      "summary": null
+      "summary": "국내 보험업권의 해외 사모대출 투자 규모가 올해 6월 말 기준 22조원으로, 금융권 전체 투자액의 약 67%를 차지하는 것으로 나타났어요. 금융당국은 국내 익스포저와 관리 실태를 점검하고 개별 회사별 상황도 확인하겠다고 밝혔어요."
     },
     {
       "id": "g:insjournal:33621",
@@ -410,7 +410,7 @@
       "itemIds": [
         "fins:110309"
       ],
-      "summary": null
+      "summary": "사망 보험금을 노리고 지인을 살해하려고 준비한 40대 남성 2명이 구속 상태로 재판에 넘겨졌어요. 이들은 인지 능력이 다소 부족한 피해자를 상대로 혼인신고가 이뤄지게 한 혐의도 받아요."
     },
     {
       "id": "g:fins:110306",
@@ -548,7 +548,7 @@
       "itemIds": [
         "insweek:72770"
       ],
-      "summary": null
+      "summary": "하나손해보험은 지난 21일 하나증권과 함께 서울 금천구 혜명양로원에서 어르신의 생활환경 개선을 위한 가을맞이 봉사활동을 진행했어요."
     },
     {
       "id": "g:insweek:72773",
@@ -567,7 +567,7 @@
       "itemIds": [
         "insweek:72773"
       ],
-      "summary": null
+      "summary": "ABL생명은 이달 초 기준 전속 보험설계사 재적인원이 3000명을 돌파했어요."
     },
     {
       "id": "g:insweek:72766",
@@ -605,7 +605,7 @@
       "itemIds": [
         "insweek:72772"
       ],
-      "summary": null
+      "summary": "NH농협생명은 지난 19일 인천 강화군에 위치한 고구마 농가를 찾아 농촌일손돕기 활동을 실시했어요."
     },
     {
       "id": "g:insjournal:33614",
@@ -14157,9 +14157,9 @@
     },
     {
       "source": "meritz",
-      "ok": true,
-      "count": 10,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
