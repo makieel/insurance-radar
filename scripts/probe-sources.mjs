@@ -1,6 +1,6 @@
 // 출처 접속 시험: 각 출처에 한 번씩 요청해 상태 코드, 크기, 차단 징후를 표로 출력한다.
 // GitHub Actions(해외 IP)에서 국내 출처가 열리는지 확인하는 용도다. 사용: node scripts/probe-sources.mjs
-const UA = 'Mozilla/5.0 (compatible; insurance-radar/1.0; +https://github.com/marsaeel/insurance-radar)';
+const UA = 'Mozilla/5.0 (compatible; insurance-radar/1.0; +https://github.com/makieel/insurance-radar)';
 const enc = encodeURIComponent;
 
 const samsungHeader = { tranId: 'VH.HDBS0101', pageId: 'VH.HPMK0602', panelId: '', longTran: '', deviceInfo: { modelNumber: 'PC', osName: '', osVersion: '', appName: '', appVersion: '', browserVersion: '', telecomAgency: '', networkType: 'LAN' } };

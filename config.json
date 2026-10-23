@@ -1,5 +1,5 @@
 {
-  "siteUrl": "https://marsaeel.github.io/insurance-radar/",
+  "siteUrl": "https://makieel.github.io/insurance-radar/",
   "sources": [
     { "id": "fsc-press", "name": "금융위원회", "kind": "gov", "enabled": true },
     { "id": "fsc-rule", "name": "금융위원회 입법·규정변경예고", "kind": "gov", "enabled": true },

@@ -2,7 +2,7 @@
 // 출처 형식이 바뀌었을 때 다시 돌려 fixture를 새로 받는다. 사용: node scripts/capture-fixtures.mjs
 import { writeFileSync, mkdirSync } from 'node:fs';
 
-const UA = 'Mozilla/5.0 (compatible; insurance-radar/1.0; +https://github.com/marsaeel/insurance-radar)';
+const UA = 'Mozilla/5.0 (compatible; insurance-radar/1.0; +https://github.com/makieel/insurance-radar)';
 const DIR = 'test/fixtures';
 mkdirSync(DIR, { recursive: true });
 const enc = encodeURIComponent;
