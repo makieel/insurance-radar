@@ -11,7 +11,7 @@ export interface FetchOpts {
   signal?: AbortSignal;
 }
 
-export const USER_AGENT = 'Mozilla/5.0 (compatible; insurance-radar/1.0; +https://github.com/makieel/insurance-radar)';
+export const USER_AGENT = 'Mozilla/5.0 (compatible; insurance-radar/1.0; +https://github.com/marsaeel/insurance-radar)';
 const DEFAULT_TIMEOUT_MS = 20_000;
 const TOKEN_HOSTS = new Set(['api.github.com']);
 

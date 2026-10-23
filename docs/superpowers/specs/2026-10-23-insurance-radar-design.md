@@ -46,7 +46,7 @@
 ## 3. 제약
 
 - 정적 사이트로 만든다. GitHub Actions가 매일 00:00 UTC(09:00 KST)에 수집·가공·요약·빌드하고 GitHub Pages로 배포한다. 수동 실행(`workflow_dispatch`)도 가능하게 한다.
-- 이 PC에는 `gh` CLI가 없다. 공개 저장소는 사용자가 GitHub 웹에서 만들고(계정 `makieel`), Pages Source를 "GitHub Actions"로 먼저 설정한 뒤 push한다. vibe-radar 때와 같다.
+- 이 PC에는 `gh` CLI가 없다. 공개 저장소는 사용자가 GitHub 웹에서 만들고(계정 `marsaeel`, 저장소 https://github.com/marsaeel/insurance-radar), Pages Source를 "GitHub Actions"로 먼저 설정한 뒤 push한다. vibe-radar 때와 같다.
 - 새 저장소의 첫 push는 경로 필터가 걸린 워크플로를 자동 실행하지 않았다. 첫 실행은 Actions에서 수동으로 한다.
 - git 작성자는 이 저장소에만 `leej` / 사용자 이메일로 설정한다.
 - **AI는 Google Gemini API 무료 등급(OpenAI 호환 엔드포인트)만 쓴다.** GitHub Models는 2026-07-30에 종료됐다. 키는 저장소 Secret `GEMINI_API_KEY`에 둔다. 무료 한도는 프로젝트 단위로 적용되고 공식 문서에 숫자가 없다(AI Studio에서만 보인다). vibe-radar와 같은 키를 쓰면 두 사이트가 한도를 나눠 쓰므로, 별도 프로젝트의 키를 권한다.
