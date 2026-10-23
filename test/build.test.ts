@@ -55,7 +55,7 @@ function group(source: SourceId, overrides: Partial<NewsGroup> = {}): NewsGroup 
     // 기간 판정은 게시일 기준이므로, 테스트 묶음의 게시일은 기본으로 오늘로 둔다(fixture의 실제 게시일은 published 덮어쓰기로 확인).
     url, published: overrides.published ?? (published >= today ? published : today), firstSeen: today,
     sources: [{ name: configured.name, url }],
-    itemIds: [id], summary: null, ...overrides,
+    itemIds: [id], summary: null, relevance: null, important: false, relevanceBy: null, ...overrides,
   };
 }
 

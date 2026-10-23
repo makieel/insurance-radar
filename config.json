@@ -98,6 +98,30 @@
       "enabled": true
     },
     {
+      "id": "joongang",
+      "name": "중앙일보",
+      "kind": "press",
+      "enabled": true
+    },
+    {
+      "id": "donga",
+      "name": "동아일보",
+      "kind": "press",
+      "enabled": true
+    },
+    {
+      "id": "chosun",
+      "name": "조선일보",
+      "kind": "press",
+      "enabled": true
+    },
+    {
+      "id": "yna",
+      "name": "연합뉴스",
+      "kind": "press",
+      "enabled": true
+    },
+    {
       "id": "naver",
       "name": "네이버 뉴스",
       "kind": "press",

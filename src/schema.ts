@@ -18,6 +18,7 @@ export const SOURCE_IDS = [
   'knia-press', 'knia-rates', 'klia-press', 'kiri',
   'hanwha', 'kyobo', 'samsungfire', 'meritz',
   'insnews', 'insweek', 'insjournal', 'fins',
+  'yna', 'chosun', 'donga', 'joongang',
   'naver',
 ] as const;
 export const SourceId = z.enum(SOURCE_IDS);
@@ -131,6 +132,15 @@ export const NewsGroup = z.object({
   itemIds: z.array(z.string()).min(1),
   /** AI 요약(해요체 1~3문장). 없거나 검증에서 버려지면 null */
   summary: z.string().nullable(),
+  /**
+   * 개인(가입자·가족)에게 얼마나 중요한가. high = 내 보험료·보험금·약관·청구·가입 판단에 직접 영향,
+   * medium = 알아 두면 좋은 소비자 정보, low = 업계 내부 이야기. 규칙으로 먼저 매기고 AI가 고친다. 아직 없으면 null.
+   */
+  relevance: z.enum(['high', 'medium', 'low']).nullable().default(null),
+  /** 업계 동향 중 개인에게도 알릴 만큼 중요한 것(보험사 통합·정리, 예보료, 대형 제재 등). AI가 정한다 */
+  important: z.boolean().default(false),
+  /** 관련도를 정한 쪽 */
+  relevanceBy: z.enum(['rule', 'ai']).nullable().default(null),
 });
 export type NewsGroup = z.infer<typeof NewsGroup>;
 

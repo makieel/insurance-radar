@@ -6,6 +6,9 @@ import type { NewsGroup } from '../src/schema.ts';
 
 // 제목·발췌는 test/fixtures/insjournal.xml(idxno=33625), fins.xml(idxno=110267)에서 옮겼다
 const lossRatio: NewsGroup = {
+  relevance: null,
+  important: false,
+  relevanceBy: null,
   id: 'g:insjournal:33625',
   topic: 'auto',
   kind: 'press',
@@ -23,6 +26,9 @@ const lossRatio: NewsGroup = {
 const lossRatioSource = '삼성화재·현대해상·DB손해보험·KB손해보험 등 대형 손보사 4곳의 9월 자동차보험 손해율이 평균 85.0%로 집계됐다. 지난해 같은 달 94.2%보다 8.8%포인트 낮아진 수치다. 1~9월 누적 손해율은 84.7%로, 전년 동기보다 0.8%포인트 하락했다. 누적 수치는 4개사 손해율의 단순 평균이다.';
 
 const seniors: NewsGroup = {
+  relevance: null,
+  important: false,
+  relevanceBy: null,
   id: 'g:fins:110267',
   topic: 'life',
   kind: 'press',
