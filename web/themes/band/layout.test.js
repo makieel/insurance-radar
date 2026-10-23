@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { RANGES, bandWindow, placeExact, placePeriods, outOfRange, clusterPoints, lanes } from './layout.js';
+import { RANGES, bandWindow, placeExact, placePeriods, outOfRange, clusterPoints, labelRows, lanes } from './layout.js';
 import { loadLatest } from '../../core/data.js';
 import { Latest } from '../../../src/schema.ts';
 
@@ -58,6 +58,27 @@ test('clusterPoints: 가까운 점은 하나로', () => {
   assert.equal(g.length, 2);
   assert.equal(g[0].items.length, 2);
   assert.ok(Math.abs(g[0].x - 0.105) < 1e-9);
+});
+
+test('labelRows: 가까운 점은 다음 줄로, 세 줄을 넘으면 글자 숨김(-1)', () => {
+  const pts = [{ x: 0.3 }, { x: 0.32 }, { x: 0.34 }, { x: 0.36 }, { x: 0.8 }];
+  const out = labelRows(pts, 0.03);
+  assert.deepEqual(out.map((p) => p.row), [0, 1, 2, -1, 0]);
+  // 점 자체는 그대로 남는다
+  assert.deepEqual(out.map((p) => p.x), pts.map((p) => p.x));
+});
+
+test('labelRows: 간격이 넉넉하면 모두 0줄', () => {
+  assert.deepEqual(labelRows([{ x: 0.1 }, { x: 0.3 }, { x: 0.5 }, { x: 0.9 }], 0.03).map((p) => p.row), [0, 0, 0, 0]);
+  assert.deepEqual(labelRows([], 0.03), []);
+});
+
+test('labelRows: ±3개월 최소 폭에서 9.21·9.26 글자는 다른 줄', () => {
+  const placed = placeExact(sample.changes, bandWindow(TODAY, 3));
+  const rows = labelRows(placed, 34 / 640);
+  const rowOf = (d) => rows.find((p) => p.change.date === d).row;
+  assert.equal(rowOf('2026-09-21'), 0);
+  assert.equal(rowOf('2026-09-26'), 1);
 });
 
 test('lanes: 지난 phrase는 최근, 미래 phrase·미래 exact는 예정', () => {

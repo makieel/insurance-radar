@@ -1,7 +1,7 @@
 // 띠 테마 그리기: 확정 시안 design/v5/mobile.html의 마크업과 동작을 latest.json 데이터로 옮겼다.
 // 데스크톱은 v4-2와 같고, 767px 이하에서만 모바일 구성(압축 띠·하단 시트·아코디언·하단 탭)이 된다.
 import { esc, safeUrl } from '../../core/format.js';
-import { RANGES, LANE_KEYS, bandWindow, placeExact, placePeriods, outOfRange, clusterPoints, lanes, ut, iso } from './layout.js';
+import { RANGES, LANE_KEYS, bandWindow, placeExact, placePeriods, outOfRange, clusterPoints, labelRows, lanes, ut, iso } from './layout.js';
 
 const LABEL = { auto: '자동차', medical: '실손', life: '생명·건강·상해', general: '제도·공통' };
 const CK = { auto: 'car', medical: 'med', life: 'life', general: 'ind' };
@@ -239,8 +239,9 @@ export function render(root, data, ctx) {
         return `<button type="button" class="dot${one ? '' : ' grp'} ${cats.length === 1 ? cc(cats[0]) : ''}${glv[i] ? ' lv1' : ''}" data-k="${k}" data-i="${cs.map(idx).join(',')}"${cats.length === 1 ? ` data-cat="${cats[0]}"` : ''}${one ? '' : ` data-n="${cs.length}"`} style="left:${g.x.toFixed(1)}px;top:${R.base + 1}px" aria-label="${esc(al)}"><span class="dl">${lab(g)}</span></button>`;
       }).join('');
     } else {
-      const dlv = levels(dots.map((d) => ({ x: d.x, w: 32 })), 2);
-      dotHtml = dots.map(({ c, x }, i) => `<button type="button" class="dot ${cc(c.category)}${dlv[i] ? ' lv1' : ''}" data-k="d:${idx(c)}" data-i="${idx(c)}" data-cat="${c.category}" style="left:${x.toFixed(1)}px;top:${R.base + 1}px" aria-label="${esc(md(c.date) + ' ' + c.title)}"><span class="dl">${md(c.date)}</span></button>`).join('');
+      // 날짜 글자 줄: 0 = 점 위, 1 = 그 위, 2 = 점 아래, -1 = 글자 숨김(안내 줄에서 확인)
+      const rows = labelRows(placeExact(CHANGES, w), 34 / W);
+      dotHtml = rows.map(({ change: c, x, row }) => `<button type="button" class="dot ${cc(c.category)}${row > 0 ? ` lv${row}` : ''}" data-k="d:${idx(c)}" data-i="${idx(c)}" data-cat="${c.category}" style="left:${(x * W).toFixed(1)}px;top:${R.base + 1}px" aria-label="${esc(md(c.date) + ' ' + c.title)}">${row < 0 ? '' : `<span class="dl">${md(c.date)}</span>`}</button>`).join('');
     }
     const noFut = dots.some((d) => d.c.date > TODAY) ? '' : `<span class="nofut" style="left:${(xT + 10).toFixed(1)}px;top:${R.base}px">${M ? '확정된 예정 없음' : '날짜가 확정된 예정 항목 없음'}</span>`;
 

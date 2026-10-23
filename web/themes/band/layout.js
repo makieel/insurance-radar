@@ -70,6 +70,23 @@ export function clusterPoints(points, minGap) {
   return out.map((g) => ({ x: (g.first + g.last) / 2, items: g.items }));
 }
 
+/**
+ * x 오름차순 점에 날짜 글자 줄(0~2)을 준다. 바로 앞에 보인 점과 minGap보다 가까우면 그 다음 줄로,
+ * 그 줄에서도 앞 글자와 minGap보다 가까우면 더 아래 줄로 내린다. 세 줄로도 모자라면 row -1(글자 숨김).
+ */
+export function labelRows(points, minGap) {
+  const last = [-Infinity, -Infinity, -Infinity];
+  let prev = null;
+  return points.map((p) => {
+    let row = prev && p.x - prev.x < minGap ? prev.row + 1 : 0;
+    while (row < last.length && p.x - last[row] < minGap) row++;
+    if (row >= last.length) return { ...p, row: -1 };
+    last[row] = p.x;
+    prev = { x: p.x, row };
+    return { ...p, row };
+  });
+}
+
 export function isRecent(c, today) {
   if (c.when === 'exact') return !!c.date && c.date <= today;
   return c.when === 'phrase' && c.past === true;
