@@ -1,5 +1,27 @@
 [
   {
+    "id": "c:fsc-press:87818:2026-09-30",
+    "category": "medical",
+    "title": "의료계·플랫폼 협력으로 “실손24” 연계율 제고 나선다.",
+    "when": "exact",
+    "date": "2026-09-30",
+    "period": null,
+    "phrase": "'26.9.30일",
+    "quote": "회의 개요 '26.9.30일(수), 권대영 금융위원회 부위원장 주재로 의료계와 보험업계가 공동으로 참여하는 법정회의체인 '실손전산시스템운영위원회(이하 “실손전산운영위”)' 겸 실손보험 청구전산화(실손24) 점검회의를 개최하였다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-09-30",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/87818"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-10-23"
+  },
+  {
     "id": "r:메리츠화재:업무용:2026-09-26",
     "category": "auto",
     "title": "메리츠화재 업무용 자동차보험료 -1%",
@@ -193,6 +215,28 @@
       "kind": "개인용",
       "total": 0
     },
+    "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:fsc-press:86831:2026-05-06",
+    "category": "medical",
+    "title": "5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.",
+    "when": "exact",
+    "date": "2026-05-06",
+    "period": null,
+    "phrase": "2026.5.6.",
+    "quote": "- 1 - 보도자료 보도시점 2026.5.6.(수) 조간 배포 2026.5.4.(월) 08:00 5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-05-06",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/86831"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
     "firstSeen": "2026-10-23"
   }
 ]
