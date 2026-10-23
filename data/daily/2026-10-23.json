@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T11:31:15.232Z",
+  "generatedAt": "2026-10-23T11:34:50.708Z",
   "groups": [
     {
       "id": "g:kyobo:17361",
@@ -14069,17 +14069,17 @@
   "status": [
     {
       "source": "fsc-press",
-      "ok": true,
-      "count": 61,
-      "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fsc-rule",
-      "ok": true,
-      "count": 10,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
