@@ -31,16 +31,13 @@ jobs:
           cache: npm
       - run: npm ci
       - name: 소식 수집
-        if: github.event_name != 'push'
         run: npm run collect
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
       - name: 소식 가공
-        if: github.event_name != 'push'
         run: npm run analyze
       - name: 근거가 있는 AI 요약
-        if: github.event_name != 'push'
         continue-on-error: true
         run: npm run summarize
         env:
@@ -48,7 +45,6 @@ jobs:
       - name: 화면 데이터 빌드
         run: npm run build
       - name: 수집 데이터 저장
-        if: github.event_name != 'push'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
