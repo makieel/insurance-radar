@@ -22,28 +22,6 @@
     "firstSeen": "2026-10-23"
   },
   {
-    "id": "c:insweek:72754:ai",
-    "category": "life",
-    "title": "삼성생명, '삼성 시니어대표건강보험' 보장 강화 개정",
-    "when": "phrase",
-    "date": null,
-    "period": null,
-    "phrase": "오는 21일",
-    "quote": "삼성생명은 오는 21일 폐렴과 로봇 인공관절수술 보장을 강화한 ‘삼성 시니어대표건강보험 종합보장형’과 장기요양(LTC) 판정 이후 치료",
-    "status": "confirmed",
-    "past": true,
-    "announced": "2026-10-20",
-    "sources": [
-      {
-        "name": "보험신보",
-        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72754"
-      }
-    ],
-    "origin": "ai",
-    "rate": null,
-    "firstSeen": "2026-10-23"
-  },
-  {
     "id": "c:insweek:72740:ai",
     "category": "general",
     "title": "판매수수료 4년 분급 방식 도입",
