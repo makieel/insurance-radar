@@ -9,9 +9,11 @@ if (import.meta.main) {
   const date = pipelineDate(now);
   const config = loadConfig();
   const seen = readJson<Record<string, string>>(SEEN_PATH, {});
+  const backfill = Object.keys(seen).length === 0;
+  // 첫 실행 채우기는 목록 여러 쪽과 상세를 받으므로 출처별 제한 시간을 넉넉히 준다.
   const result = await runCollectors(COLLECTORS, {
-    fetch, now, date, config, backfill: Object.keys(seen).length === 0, seen: new Set(Object.keys(seen)),
-  });
+    fetch, now, date, config, backfill, seen: new Set(Object.keys(seen)),
+  }, { timeoutMs: backfill ? 600_000 : 120_000 });
   const raw = RawSnapshot.parse({ date, generatedAt: now.toISOString(), items: result.items, rates: result.rates, status: result.status });
   const bodies = { ...readJson<Record<string, string>>(bodiesPath(date), {}), ...result.bodies };
   writeJson(rawPath(date), raw);
