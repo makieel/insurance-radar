@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T11:52:56.773Z",
+  "generatedAt": "2026-10-23T13:13:38.254Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -3124,6 +3124,96 @@
       "attachments": []
     },
     {
+      "id": "meritz:23505",
+      "source": "meritz",
+      "title": "메리츠금융지주, 상반기 당기순이익 1조 4,716억원...전년비 8.3% 증가",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23505",
+      "published": "2026-08-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23504",
+      "source": "meritz",
+      "title": "메리츠화재, 연도대상 개최...대상에 청주본부 주미숙 지점장",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23504",
+      "published": "2026-04-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23506",
+      "source": "meritz",
+      "title": "메리츠화재, ‘BMW 매니아’ 자동차 커뮤니티에서 보증연장 보험 판매",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23506",
+      "published": "2026-03-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23503",
+      "source": "meritz",
+      "title": "메리츠화재, 청소년 불법도박 근절 캠페인 동참",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23503",
+      "published": "2026-03-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23502",
+      "source": "meritz",
+      "title": "메리츠금융지주, 2025년 당기순이익 2조 3,501억원...역대 최대 실적",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23502",
+      "published": "2026-02-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23501",
+      "source": "meritz",
+      "title": "메리츠화재, 보험사기 근절 공로...금감원장상 등 ‘트리플 크라운’ 달성",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23501",
+      "published": "2025-12-18",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23500",
+      "source": "meritz",
+      "title": "메리츠화재, 업계 최초 ‘민사소송출석비용보장(상고심 제외)’ 특약 출시",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23500",
+      "published": "2025-12-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23499",
+      "source": "meritz",
+      "title": "메리츠금융지주, 3분기 누적 당기순익 2조원 돌파... 역대 최대",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23499",
+      "published": "2025-11-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23498",
+      "source": "meritz",
+      "title": "메리츠화재, 임직원 대상 챗GPT 교육…AI 업무역량 강화",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23498",
+      "published": "2025-09-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23497",
+      "source": "meritz",
+      "title": "‘친절로 고객 감동’…메리츠화재, 장기보험 서비스 확 바꾼다",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23497",
+      "published": "2025-08-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
       "id": "insnews:93479",
       "source": "insnews",
       "title": "화재보험협회, 제26회 불조심 어린이마당 행사 시상식 개최",
@@ -5513,9 +5603,9 @@
     },
     {
       "source": "meritz",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 10,
+      "error": null,
       "note": null,
       "disabled": false
     },
