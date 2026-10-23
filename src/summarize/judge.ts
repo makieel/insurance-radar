@@ -8,7 +8,7 @@ import { ungrounded } from './grounding.ts';
 export const JUDGE_PROMPT = [
   '너는 개인 보험의 "바뀌는 것"을 고르는 검토자다. 글마다 개인 보험(자동차·실손·생명·건강·상해 등)의 제도·약관·보험료 변경이고, 원문에 시행 시점이 있는지 판단한다.',
   '- 법령·감독규정·표준약관 개정, 제도 시행, 업계 전체나 특정 보험사의 보험료 조정은 변경이다.',
-  '- 상품 출시, 국정감사 지적, 검토·추진 단계는 변경이 아니다. 원문에 시행 시점이 없어도 변경이 아니다.',
+  '- 상품 출시와 상품 개정 출시(특정 보험사 한 곳의 새 상품·개정 상품), 국정감사 지적, 검토·추진 단계는 변경이 아니다. 원문에 시행 시점이 없어도 변경이 아니다.',
   '- quote는 원문에서 글자 그대로 복사한 한 문장이다. 시행 시점 표현이 들어 있어야 하고, 고치거나 줄이거나 이어 붙이지 않는다.',
   '- title은 무엇이 바뀌는지 40자 이내 한국어로 쓴다. 원문에 없는 숫자는 넣지 않는다.',
   '- category는 auto(자동차), medical(실손), life(생명·건강·상해), general(제도·공통) 중 하나다.',
@@ -35,6 +35,11 @@ function isCategory(v: unknown): v is Category {
 function toChange(input: JudgeInput, raw: Record<string, unknown>, today: string): Change | null {
   const { item, body, sourceName, topic } = input;
   if (raw.isChange !== true) return null;
+  // 보험사 한 곳의 상품 출시는 변경이 아니라 소식이다(사용자 결정). AI가 놓쳐도 코드로 한 번 더 거른다.
+  if (/출시/.test(item.title)) {
+    console.warn(`판정 버림 ${item.id}: 상품 출시 글`);
+    return null;
+  }
   const quote = cleanText(raw.quote, QUOTE_MAX);
   if (!quote || !body.includes(quote)) {
     console.warn(`판정 버림 ${item.id}: 근거 문장이 원문에 없음`);

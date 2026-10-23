@@ -80,7 +80,8 @@ function fakeChat(answers: Record<string, unknown>[]) {
 }
 
 test('판정 프롬프트: 상품 출시·국감·검토/추진 제외와 원문 그대로의 quote를 명시', () => {
-  assert.ok(JUDGE_PROMPT.includes('상품 출시, 국정감사 지적, 검토·추진 단계는 변경이 아니다'));
+  assert.ok(JUDGE_PROMPT.includes('상품 개정 출시'));
+  assert.ok(JUDGE_PROMPT.includes('국정감사 지적, 검토·추진 단계는 변경이 아니다'));
   assert.ok(JUDGE_PROMPT.includes('quote는 원문에서 글자 그대로 복사한 한 문장'));
 });
 
@@ -174,4 +175,11 @@ test('judgeChanges: 근거 문장의 날짜가 시행 시점이 아니면(게시
   assert.equal(c.when, 'phrase');
   assert.equal(c.date, null);
   assert.match(c.phrase, /다음 달부터/);
+});
+
+test('judgeChanges: AI가 변경이라고 해도 제목이 상품 출시면 버린다', async () => {
+  const body = "삼성생명은 오는 21일 폐렴과 로봇 인공관절수술 보장을 강화한 상품을 출시한다고 20일 밝혔다.";
+  const input = { ...knia, item: { ...knia.item, id: 'insweek:72754', title: "삼성생명, '삼성 시니어대표건강보험' 개정 출시" }, body };
+  const { chat } = fakeChat([{ id: input.item.id, isChange: true, title: '보장 강화 개정', quote: body, category: 'life' }]);
+  assert.deepEqual(await judgeChanges([input], chat, TODAY), []);
 });
