@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T13:24:34.885Z",
+  "generatedAt": "2026-10-23T13:28:26.819Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2979,12 +2979,12 @@
       "hints": [
         "보도자료",
         "회사소식",
-        "신속지급",
         "AI",
         "신창재",
         "보험금 지급",
         "교보생명",
-        "고객보장"
+        "고객보장",
+        "신속지급"
       ],
       "attachments": []
     },
@@ -5348,15 +5348,6 @@
       "published": "2026-10-23",
       "hints": [],
       "attachments": []
-    },
-    {
-      "id": "yna:AKR20261023069100002",
-      "source": "yna",
-      "title": "9월 차보험 손해율 85.0%로 9.2%p↓…올해 누적도 소폭 개선",
-      "url": "https://www.yna.co.kr/view/AKR20261023069100002",
-      "published": "2026-10-23",
-      "hints": [],
-      "attachments": []
     }
   ],
   "rates": [
@@ -5712,9 +5703,9 @@
     },
     {
       "source": "yna",
-      "ok": true,
-      "count": 1,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },

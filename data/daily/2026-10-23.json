@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T13:24:34.885Z",
+  "generatedAt": "2026-10-23T13:28:26.819Z",
   "groups": [
     {
       "id": "g:kyobo:17361",
@@ -16527,9 +16527,9 @@
     },
     {
       "source": "yna",
-      "ok": true,
-      "count": 1,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
