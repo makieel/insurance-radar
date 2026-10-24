@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T06:22:08.512Z",
+  "generatedAt": "2026-10-24T12:20:44.783Z",
   "groups": [
     {
       "id": "g:fins:110312",
@@ -40,6 +40,28 @@
       ],
       "itemIds": [
         "fins:110311"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:fins:110319",
+      "topic": "life",
+      "kind": "press",
+      "title": "남의 건강보험증 훔쳐 진료 18만건…23억 못 받아",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110319",
+      "published": "2026-10-24",
+      "firstSeen": "2026-10-24",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110319"
+        }
+      ],
+      "itemIds": [
+        "fins:110319"
       ],
       "summary": null,
       "relevance": "low",
@@ -186,9 +208,9 @@
     },
     {
       "source": "donga",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 2,
+      "error": null,
       "note": null,
       "disabled": false
     },
@@ -202,9 +224,9 @@
     },
     {
       "source": "yna",
-      "ok": true,
-      "count": 1,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },

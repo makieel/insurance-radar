@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T06:22:08.512Z",
+  "generatedAt": "2026-10-24T12:20:44.783Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -4864,6 +4864,15 @@
       "attachments": []
     },
     {
+      "id": "fins:110319",
+      "source": "fins",
+      "title": "남의 건강보험증 훔쳐 진료 18만건…23억 못 받아",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110319",
+      "published": "2026-10-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
       "id": "fins:110313",
       "source": "fins",
       "title": "하나금융, 3분기 누적 순이익 3조6천243억원 또 역대 최대",
@@ -5305,15 +5314,6 @@
       "attachments": []
     },
     {
-      "id": "fins:110256",
-      "source": "fins",
-      "title": "금리 상승에 보험 해지 늘면 자산매각 압박…국내 보험사 유동성 관리 시험대",
-      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110256",
-      "published": "2026-10-18",
-      "hints": [],
-      "attachments": []
-    },
-    {
       "id": "joongang:25471082",
       "source": "joongang",
       "title": "수리비 비싼 전기차 올해 75% 급증…보험업계 속탄다",
@@ -5332,11 +5332,20 @@
       "attachments": []
     },
     {
-      "id": "yna:AKR20261023069100002",
-      "source": "yna",
-      "title": "9월 차보험 손해율 85.0%로 9.2%p↓…올해 누적도 소폭 개선",
-      "url": "https://www.yna.co.kr/view/AKR20261023069100002",
-      "published": "2026-10-23",
+      "id": "donga:134901178",
+      "source": "donga",
+      "title": "유해란, BMW 챔피언십 3R 선두 수성…LPGA 시즌 3승 청신호",
+      "url": "https://www.donga.com/news/Sports/article/all/20261024/134901178/1",
+      "published": "2026-10-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134900290",
+      "source": "donga",
+      "title": "노승열, PGA 투어 버뮤다 챔피언십 2라운드서 공동 23위",
+      "url": "https://www.donga.com/news/Sports/article/all/20261024/134900290/1",
+      "published": "2026-10-24",
       "hints": [],
       "attachments": []
     }
@@ -5678,9 +5687,9 @@
     },
     {
       "source": "donga",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 2,
+      "error": null,
       "note": null,
       "disabled": false
     },
@@ -5694,9 +5703,9 @@
     },
     {
       "source": "yna",
-      "ok": true,
-      "count": 1,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
