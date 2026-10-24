@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T00:25:16.602Z",
+  "generatedAt": "2026-10-24T06:22:08.512Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -4864,6 +4864,33 @@
       "attachments": []
     },
     {
+      "id": "fins:110313",
+      "source": "fins",
+      "title": "하나금융, 3분기 누적 순이익 3조6천243억원 또 역대 최대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110313",
+      "published": "2026-10-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110312",
+      "source": "fins",
+      "title": "故이예람 중사 유족, 보험금 소송 2심도 승소…\"순직결정 늦어\"",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110312",
+      "published": "2026-10-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110311",
+      "source": "fins",
+      "title": "이집트 유물전 보험가액 1,500억원…운송부터 전시·반환까지 보장",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110311",
+      "published": "2026-10-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
       "id": "fins:110310",
       "source": "fins",
       "title": "우리금융 “동양·ABL생명 통합 후 추가 출자 없다”…내년 10월 출범 목표",
@@ -5287,33 +5314,6 @@
       "attachments": []
     },
     {
-      "id": "fins:110255",
-      "source": "fins",
-      "title": "금감원 금융사 검사 처리 237일…5년 새 124일 늘어",
-      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110255",
-      "published": "2026-10-18",
-      "hints": [],
-      "attachments": []
-    },
-    {
-      "id": "fins:110254",
-      "source": "fins",
-      "title": "\"도수치료 풍선효과 예측하고도 놓친 비급여 관리\"",
-      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110254",
-      "published": "2026-10-18",
-      "hints": [],
-      "attachments": []
-    },
-    {
-      "id": "fins:110253",
-      "source": "fins",
-      "title": "삼성화재, 다이렉트 주택화재보험 보장 넓힌다",
-      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110253",
-      "published": "2026-10-16",
-      "hints": [],
-      "attachments": []
-    },
-    {
       "id": "joongang:25471082",
       "source": "joongang",
       "title": "수리비 비싼 전기차 올해 75% 급증…보험업계 속탄다",
@@ -5328,24 +5328,6 @@
       "title": "테슬라 약진에 보험업계는 속앓이…전기차 손해율, 내연차보다 높아",
       "url": "https://www.joongang.co.kr/article/25470904",
       "published": "2026-10-19",
-      "hints": [],
-      "attachments": []
-    },
-    {
-      "id": "donga:134900290",
-      "source": "donga",
-      "title": "노승열, PGA 투어 버뮤다 챔피언십 2라운드서 공동 23위",
-      "url": "https://www.donga.com/news/Sports/article/all/20261024/134900290/1",
-      "published": "2026-10-24",
-      "hints": [],
-      "attachments": []
-    },
-    {
-      "id": "chosun:GNSTSOJQGA2TINJXMQZWCMRYMU",
-      "source": "chosun",
-      "title": "9월 자동차보험 손해율 85%… 1년 전보다 9.2%p 하락",
-      "url": "https://www.chosun.com/economy/stock-finance/2026/10/23/GNSTSOJQGA2TINJXMQZWCMRYMU/",
-      "published": "2026-10-23",
       "hints": [],
       "attachments": []
     },
@@ -5696,18 +5678,18 @@
     },
     {
       "source": "donga",
-      "ok": true,
-      "count": 1,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {

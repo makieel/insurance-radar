@@ -61,5 +61,19 @@
     "url": "https://www.joongang.co.kr/article/25471082",
     "date": "2026-10-23",
     "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110312",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110312",
+    "date": "2026-10-24",
+    "source": "fins"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110311",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110311",
+    "date": "2026-10-24",
+    "source": "fins"
   }
 ]

@@ -1,7 +1,52 @@
 {
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T00:25:16.602Z",
-  "groups": [],
+  "generatedAt": "2026-10-24T06:22:08.512Z",
+  "groups": [
+    {
+      "id": "g:fins:110312",
+      "topic": "general",
+      "kind": "press",
+      "title": "故이예람 중사 유족, 보험금 소송 2심도 승소…\"순직결정 늦어\"",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110312",
+      "published": "2026-10-24",
+      "firstSeen": "2026-10-24",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110312"
+        }
+      ],
+      "itemIds": [
+        "fins:110312"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:fins:110311",
+      "topic": "general",
+      "kind": "press",
+      "title": "이집트 유물전 보험가액 1,500억원…운송부터 전시·반환까지 보장",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110311",
+      "published": "2026-10-24",
+      "firstSeen": "2026-10-24",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110311"
+        }
+      ],
+      "itemIds": [
+        "fins:110311"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai"
+    }
+  ],
   "status": [
     {
       "source": "fsc-press",
@@ -141,18 +186,18 @@
     },
     {
       "source": "donga",
-      "ok": true,
-      "count": 1,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 0,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {
