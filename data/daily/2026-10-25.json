@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T12:20:52.443Z",
+  "generatedAt": "2026-10-25T12:58:14.796Z",
   "groups": [
     {
       "id": "g:fins:110320",
@@ -208,6 +208,867 @@
       "important": false,
       "relevanceBy": "ai",
       "importance": null
+    },
+    {
+      "id": "g:joongang:25472485",
+      "topic": "general",
+      "kind": "press",
+      "title": "네팔 히말라야 트레킹, 이상기후에 고립 위험…헬기·보험 확인해야",
+      "url": "https://www.joongang.co.kr/article/25472485",
+      "published": "2026-10-24",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25472485"
+        }
+      ],
+      "itemIds": [
+        "joongang:25472485"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25472155",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;단독&#93; 아동권리보장원 원장·부원장도, 전문가 대신 ‘경·성 라인’",
+      "url": "https://www.joongang.co.kr/article/25472155",
+      "published": "2026-10-23",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25472155"
+        }
+      ],
+      "itemIds": [
+        "joongang:25472155"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25471624",
+      "topic": "auto",
+      "kind": "press",
+      "title": "SK렌터카, 삼성화재와 데이터 결합 ‘차량관리·보험 서비스’ 개발",
+      "url": "https://www.joongang.co.kr/article/25471624",
+      "published": "2026-10-21",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25471624"
+        }
+      ],
+      "itemIds": [
+        "joongang:25471624"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25471299",
+      "topic": "general",
+      "kind": "press",
+      "title": "건보료 소득정산 전 국민 확대 추진…394만 세대 보험료 3.3조 더 낸다",
+      "url": "https://www.joongang.co.kr/article/25471299",
+      "published": "2026-10-20",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25471299"
+        }
+      ],
+      "itemIds": [
+        "joongang:25471299"
+      ],
+      "summary": "국민건강보험공단은 보험료 부담의 공정성을 높이기 위해 일부 지역가입자에게 적용해 온 소득정산제도를 전 국민으로 확대하는 방안을 추진해요. 제도가 도입되면 국세청의 전년도 확정 소득자료를 활용해 연 1회 보험료를 직권 정산하게 되며, 지역가입자 908만 세대와 월급 외 소득이 있는 직장가입자 110만명이 대상이 돼요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 5
+    },
+    {
+      "id": "g:joongang:25470814",
+      "topic": "general",
+      "kind": "press",
+      "title": "“입원한 적 없다” 속이고 보험 가입…10년간 1억4451만원 타낸 60대 실형",
+      "url": "https://www.joongang.co.kr/article/25470814",
+      "published": "2026-10-19",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25470814"
+        }
+      ],
+      "itemIds": [
+        "joongang:25470814"
+      ],
+      "summary": "과거 장기간 입원 치료를 받은 사실을 숨기고 보험에 가입해 10여 년에 걸쳐 1억4000만원이 넘는 보험금을 타낸 60대 여성이 실형을 선고받았어요. A씨는 2009년 보험 가입 당시 최근 3개월 또는 5년 이내 입원이나 치료를 받은 사실이 있는지를 묻는 질문에 모두 '아니오'라고 답한 것으로 조사됐어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25470088",
+      "topic": "life",
+      "kind": "press",
+      "title": "당뇨병학회 “비만약 오남용 막되 필요한 당뇨병 치료는 보장해야”",
+      "url": "https://www.joongang.co.kr/article/25470088",
+      "published": "2026-10-15",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25470088"
+        }
+      ],
+      "itemIds": [
+        "joongang:25470088"
+      ],
+      "summary": "대한당뇨병학회는 비만치료제 오남용을 막기 위한 규제가 당뇨병 환자의 치료까지 위축시켜서는 안 된다는 입장을 밝혔어요. 미용 목적의 체중감량과 당뇨병 치료를 구분해 관리하고, 합병증 위험이 큰 환자부터 건강보험 적용을 단계적으로 확대해야 한다고 지적했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25469977",
+      "topic": "industry",
+      "kind": "press",
+      "title": "‘MAGA 모자’ 팔았다고 계좌 해지?…美 흔든 ‘디뱅킹’ 논란",
+      "url": "https://www.joongang.co.kr/article/25469977",
+      "published": "2026-10-15",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469977"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25470143"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469977",
+        "joongang:25470143"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25469689",
+      "topic": "life",
+      "kind": "press",
+      "title": "“살아서 미리 쓰세요”…사망보장 넘어 변신하는 종신보험",
+      "url": "https://www.joongang.co.kr/article/25469689",
+      "published": "2026-10-14",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469689"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469689"
+      ],
+      "summary": "생명보험사들이 사망 시에만 보험금이 지급되던 종신보험의 구조를 바꿔, 살아있을 때 노후자금이나 치료비 등으로 납입보험료를 받거나 보장을 다시 채워주는 상품들을 선보이고 있어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25469470",
+      "topic": "industry",
+      "kind": "press",
+      "title": "영토 넓히는 신한…인니 금융지주사 출범, 롯데손보도 인수",
+      "url": "https://www.joongang.co.kr/article/25469470",
+      "published": "2026-10-14",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469470"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469470"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25469211",
+      "topic": "general",
+      "kind": "press",
+      "title": "건보 2030년 부채비율 107%, 보험료 동결에 인상 압박 커진다",
+      "url": "https://www.joongang.co.kr/article/25469211",
+      "published": "2026-10-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469211"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469211"
+      ],
+      "summary": "국민건강보험공단은 앞으로 5년간 매년 수조원대 영업적자가 이어지고 2030년에는 건강보험 사업 부채비율이 관리 기준인 100%를 넘어 107.4%까지 치솟을 것으로 전망했어요. 올해 당기수지도 2조8000억원에 가까운 적자가 예상되는 가운데 내년 건강보험료율까지 동결되면서 향후 보험료 인상 압박이 더 커질 수 있다는 우려가 나오고 있어요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25469056",
+      "topic": "general",
+      "kind": "press",
+      "title": "인권위, ‘윤석열 방어권 보장 권고’ 사과하기로…위원장 “별도 의견 없음”",
+      "url": "https://www.joongang.co.kr/article/25469056",
+      "published": "2026-10-12",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469056"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469056"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25469035",
+      "topic": "medical",
+      "kind": "press",
+      "title": "&#91;기고&#93; 하지정맥류, 실손보험 심사 강화…치료는 ‘환자 상태’ 우선",
+      "url": "https://www.joongang.co.kr/article/25469035",
+      "published": "2026-10-12",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469035"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469035"
+      ],
+      "summary": "하지정맥류 치료는 최근 실손보험의 수술 후 입원 적정성 심사가 강화되었으나, 보험 보장 여부보다 환자의 혈관 상태와 질환 진행 정도를 우선 고려하여 의학적 필요성에 따라 치료를 선택해야 해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25469022",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;속보&#93; 인권위, ‘尹방어권 보장 권고’ 관련 대국민 사과 의결",
+      "url": "https://www.joongang.co.kr/article/25469022",
+      "published": "2026-10-12",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469022"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469022"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25469005",
+      "topic": "life",
+      "kind": "press",
+      "title": "위고비, 건강보험 적용 추진… 비만약 국내 시장 경쟁 가열",
+      "url": "https://www.joongang.co.kr/article/25469005",
+      "published": "2026-10-12",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25469005"
+        }
+      ],
+      "itemIds": [
+        "joongang:25469005"
+      ],
+      "summary": "한국 노보 노디스크가 건강보험심사평가원에 비만치료제 ‘위고비’의 건강보험 요양급여 결정신청서를 제출했어요. 보험 적용이 인정되면 국내 환자들이 부담하는 약값이 낮아질 수 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25468455",
+      "topic": "general",
+      "kind": "press",
+      "title": "“정치적 중립 지키면서도 정치기본권 보장 가능”…또 거리 나선 교사들",
+      "url": "https://www.joongang.co.kr/article/25468455",
+      "published": "2026-10-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25468455"
+        }
+      ],
+      "itemIds": [
+        "joongang:25468455"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25468439",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;단독&#93; 밤샘조사·진술권 미보장…경찰 인권침해 반복에도 점검 인력 단 2명",
+      "url": "https://www.joongang.co.kr/article/25468439",
+      "published": "2026-10-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25468439"
+        }
+      ],
+      "itemIds": [
+        "joongang:25468439"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25468284",
+      "topic": "life",
+      "kind": "press",
+      "title": "엄마 구하다 숨졌는데 어리다고 보험 지급 제외…정부 나섰다",
+      "url": "https://www.joongang.co.kr/article/25468284",
+      "published": "2026-10-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25468284"
+        }
+      ],
+      "itemIds": [
+        "joongang:25468284"
+      ],
+      "summary": "정부는 현행 상법상 원칙적으로 보험 보상 범위에서 제외되는 15세 미만 미성년자 사망사고의 예외를 허용하는 방안을 논의했어요. 보험업계는 재난 피해 시 도덕적 위험 발생 가능성을 제한하는 선에서 예외를 허용하는 개정 방향에 동의했어요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25468260",
+      "topic": "medical",
+      "kind": "press",
+      "title": "코로나 전후 어린이 언어발달지연 진료 3.6배로…실손보험 영향도",
+      "url": "https://www.joongang.co.kr/article/25468260",
+      "published": "2026-10-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25468260"
+        }
+      ],
+      "itemIds": [
+        "joongang:25468260"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25468066",
+      "topic": "auto",
+      "kind": "press",
+      "title": "&#91;단독&#93; 무보험 車사고 내고 튄 외국인…국민이 48억 메웠다",
+      "url": "https://www.joongang.co.kr/article/25468066",
+      "published": "2026-10-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25468066"
+        }
+      ],
+      "itemIds": [
+        "joongang:25468066"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25467729",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;2026 소비자의 선택&#93; 여성암 진단비 최대 14회 보장",
+      "url": "https://www.joongang.co.kr/article/25467729",
+      "published": "2026-10-07",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25467729"
+        }
+      ],
+      "itemIds": [
+        "joongang:25467729"
+      ],
+      "summary": "하나손해보험의 무배당 하나더스마트 여성건강보험이 '2026 소비자의 선택' 건강보험 부문 대상을 수상했어요. 이 상품은 여성에게 발생 빈도가 높은 암을 중심으로 보장을 구성하고, '통합암 진단비'는 최대 14회까지 받을 수 있도록 설계했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25467275",
+      "topic": "general",
+      "kind": "press",
+      "title": "‘안 아픈 건보 가입자’ 보험사가 할인 나서",
+      "url": "https://www.joongang.co.kr/article/25467275",
+      "published": "2026-10-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25467275"
+        }
+      ],
+      "itemIds": [
+        "joongang:25467275"
+      ],
+      "summary": "건강보험 가입 후 입원이나 수술, 중증질환 진단이 없으면 보험료를 깎아주는 '무사고 계약전환 제도'가 개선돼요. 앞으로는 설계사 대면이나 지점 방문 없이 모바일 등 비대면으로 손쉽게 신청할 수 있게 돼요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25466830",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험금도 이젠 ‘리필 시대’",
+      "url": "https://www.joongang.co.kr/article/25466830",
+      "published": "2026-10-03",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25466830"
+        }
+      ],
+      "itemIds": [
+        "joongang:25466830"
+      ],
+      "summary": "질환에 따라 수술 이후 약물치료와 방사선치료 등을 장기간 병행하는 치료 환경 속에서, 비급여 진료비 부담을 고려해 보험금으로 사용한 보장 한도를 다시 채워주는 건강보험 상품들이 등장하고 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1
+    },
+    {
+      "id": "g:joongang:25466093",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;기고&#93; 전립선비대증 홀렙수술, 재수술률 낮고 건강보험도 적용",
+      "url": "https://www.joongang.co.kr/article/25466093",
+      "published": "2026-09-30",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25466093"
+        }
+      ],
+      "itemIds": [
+        "joongang:25466093"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25465501",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;함께하는 금융&#93; 경상북도 소상공인 대상 상생보험 운영",
+      "url": "https://www.joongang.co.kr/article/25465501",
+      "published": "2026-09-29",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25465501"
+        }
+      ],
+      "itemIds": [
+        "joongang:25465501"
+      ],
+      "summary": "KB손해보험은 경상북도 내 사업자등록 후 1년 이상 영업 중인 소상공인 약 20만 개소를 대상으로 ‘소상공인 상생보험’을 운영해요. 가입 요건을 충족하는 소상공인은 별도의 신청이나 가입 절차 없이 자동으로 보험에 가입되며, 보험기간은 올해 9월 2일부터 2029년 9월 1일까지 3년이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25465476",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;국민을 향하는 보건복지&#93; 18세 청년 생애 첫 연금보험료, 국가가 내준다",
+      "url": "https://www.joongang.co.kr/article/25465476",
+      "published": "2026-09-29",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25465476"
+        }
+      ],
+      "itemIds": [
+        "joongang:25465476"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25465288",
+      "topic": "general",
+      "kind": "press",
+      "title": "김포시, 2027~2030년 지역사회보장계획 확정",
+      "url": "https://www.joongang.co.kr/article/25465288",
+      "published": "2026-09-28",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25465288"
+        }
+      ],
+      "itemIds": [
+        "joongang:25465288"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25464711",
+      "topic": "industry",
+      "kind": "press",
+      "title": "李 “한·멕시코 투자보장협정 개정 타결…원유·광물 채널 출범”",
+      "url": "https://www.joongang.co.kr/article/25464711",
+      "published": "2026-09-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25464711"
+        }
+      ],
+      "itemIds": [
+        "joongang:25464711"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25463912",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 20년마다 치료비 한도 다시 채워 … 암·뇌·심장·치매 반복 보장",
+      "url": "https://www.joongang.co.kr/article/25463912",
+      "published": "2026-09-22",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25463912"
+        }
+      ],
+      "itemIds": [
+        "joongang:25463912"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25463598",
+      "topic": "general",
+      "kind": "press",
+      "title": "단속에도 ‘휴대폰 깡’ 활개… 분실보험까지 악용해 472대 챙겼다",
+      "url": "https://www.joongang.co.kr/article/25463598",
+      "published": "2026-09-21",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25463598"
+        }
+      ],
+      "itemIds": [
+        "joongang:25463598"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25463514",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;단독&#93; 병원비 급한데 “건보 환급 기다려라”…묶인 실손보험금 2800억",
+      "url": "https://www.joongang.co.kr/article/25463514",
+      "published": "2026-09-21",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25463514"
+        }
+      ],
+      "itemIds": [
+        "joongang:25463514"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25463393",
+      "topic": "medical",
+      "kind": "press",
+      "title": "도수치료 막자 ‘이 치료’ 몰렸다…실손 청구액 218% 급증",
+      "url": "https://www.joongang.co.kr/article/25463393",
+      "published": "2026-09-20",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25463393"
+        }
+      ],
+      "itemIds": [
+        "joongang:25463393"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25463309",
+      "topic": "life",
+      "kind": "press",
+      "title": "돌봄 인력난에 ‘보험사 요양원’ 꿈틀…토지소유 규제 논란도",
+      "url": "https://www.joongang.co.kr/article/25463309",
+      "published": "2026-09-20",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25463309"
+        }
+      ],
+      "itemIds": [
+        "joongang:25463309"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25463233",
+      "topic": "general",
+      "kind": "press",
+      "title": "“차 보험료도 깎아줬는데”…‘치사율 67%’ 낳은 첨단안전장치",
+      "url": "https://www.joongang.co.kr/article/25463233",
+      "published": "2026-09-19",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25463233"
+        }
+      ],
+      "itemIds": [
+        "joongang:25463233"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25462998",
+      "topic": "general",
+      "kind": "press",
+      "title": "표준협회·무역보험공사, 수출기업 해외 바이어 신용조회 지원",
+      "url": "https://www.joongang.co.kr/article/25462998",
+      "published": "2026-09-18",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25462998"
+        }
+      ],
+      "itemIds": [
+        "joongang:25462998"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25462007",
+      "topic": "auto",
+      "kind": "press",
+      "title": "사고 8만건 줄었는데 보험금은 더 나갔다…자동차 보험손익 6년 만에 적자",
+      "url": "https://www.joongang.co.kr/article/25462007",
+      "published": "2026-09-15",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25462007"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25462159"
+        }
+      ],
+      "itemIds": [
+        "joongang:25462007",
+        "joongang:25462159"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25461955",
+      "topic": "general",
+      "kind": "press",
+      "title": "졸업만 하면 하이닉스…역대 최다 8994명 몰린 ‘취업 보장’ 학과",
+      "url": "https://www.joongang.co.kr/article/25461955",
+      "published": "2026-09-15",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25461955"
+        }
+      ],
+      "itemIds": [
+        "joongang:25461955"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1
+    },
+    {
+      "id": "g:donga:134613321",
+      "topic": "general",
+      "kind": "press",
+      "title": "급전 필요한 5060…보험계약대출-카드론 늘었다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260906/134613321/1",
+      "published": "2026-09-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260906/134613321/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134613321"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
     }
   ],
   "status": [
@@ -216,7 +1077,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -342,17 +1203,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 2,
+      "count": 57,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우는 중: 중앙 2026-09-14부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 600번째부터 재개",
       "disabled": false
     },
     {

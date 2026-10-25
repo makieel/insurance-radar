@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "type": "summary",
+    "id": "g:joongang:25462007",
+    "url": "https://www.joongang.co.kr/article/25462007",
+    "date": "2026-10-25",
+    "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:joongang:25463514",
+    "url": "https://www.joongang.co.kr/article/25463514",
+    "date": "2026-10-25",
+    "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:joongang:25463393",
+    "url": "https://www.joongang.co.kr/article/25463393",
+    "date": "2026-10-25",
+    "source": "joongang"
+  }
+]

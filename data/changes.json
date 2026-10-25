@@ -1,5 +1,27 @@
 [
   {
+    "id": "c:joongang:25465476:ai",
+    "category": "life",
+    "title": "18세 청년 생애 첫 연금보험료 국가 지원",
+    "when": "exact",
+    "date": "2027-01-01",
+    "period": null,
+    "phrase": "2027년 1월 1일",
+    "quote": "국민연금공단이 청년들의 국민연금 조기 가입을 유도하고 안정적인 노후 준비의 기틀을 마련하기 위해 2027년 1월 1일부터 ‘청년 생애 첫 연금보험료 지원’ 제도를 시행한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-09-29",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25465476"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
     "id": "c:fins:110266:ai",
     "category": "medical",
     "title": "실손의료보험 계약재매입 제도 내달 시행",
@@ -142,6 +164,28 @@
       "total": 0
     },
     "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:joongang:25462007:ai",
+    "category": "auto",
+    "title": "자동차보험 경상환자 8주 초과 치료 시 심사 의무화",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "10일부터",
+    "quote": "지난 10일부터 경상환자가 사고 후 8주를 넘겨 치료받으려면 장기 치료 필요성을 심사받도록 하는 ‘8주룰’을 시행했다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-09-15",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25462007"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
   },
   {
     "id": "c:fsc-rule:4171:notice",

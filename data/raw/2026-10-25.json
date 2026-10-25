@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T12:20:52.443Z",
+  "generatedAt": "2026-10-25T12:58:14.796Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2977,14 +2977,14 @@
       "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%b3%b4%ed%97%98%ea%b8%88-%ec%a7%80%ea%b8%89%ec%86%8d%eb%8f%84-1%ec%9c%84/",
       "published": "2026-10-23",
       "hints": [
-        "보도자료",
         "회사소식",
-        "AI",
-        "신창재",
+        "보도자료",
         "보험금 지급",
         "교보생명",
         "고객보장",
-        "신속지급"
+        "신속지급",
+        "AI",
+        "신창재"
       ],
       "attachments": []
     },
@@ -5402,6 +5402,519 @@
       "published": "2026-10-23",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "joongang:25472485",
+      "source": "joongang",
+      "title": "네팔 히말라야 트레킹, 이상기후에 고립 위험…헬기·보험 확인해야",
+      "url": "https://www.joongang.co.kr/article/25472485",
+      "published": "2026-10-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25472155",
+      "source": "joongang",
+      "title": "&#91;단독&#93; 아동권리보장원 원장·부원장도, 전문가 대신 ‘경·성 라인’",
+      "url": "https://www.joongang.co.kr/article/25472155",
+      "published": "2026-10-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25471624",
+      "source": "joongang",
+      "title": "SK렌터카, 삼성화재와 데이터 결합 ‘차량관리·보험 서비스’ 개발",
+      "url": "https://www.joongang.co.kr/article/25471624",
+      "published": "2026-10-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25471299",
+      "source": "joongang",
+      "title": "건보료 소득정산 전 국민 확대 추진…394만 세대 보험료 3.3조 더 낸다",
+      "url": "https://www.joongang.co.kr/article/25471299",
+      "published": "2026-10-20",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25470814",
+      "source": "joongang",
+      "title": "“입원한 적 없다” 속이고 보험 가입…10년간 1억4451만원 타낸 60대 실형",
+      "url": "https://www.joongang.co.kr/article/25470814",
+      "published": "2026-10-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25470722",
+      "source": "joongang",
+      "title": "또또또…LPGA 우승 놓친 최혜진",
+      "url": "https://www.joongang.co.kr/article/25470722",
+      "published": "2026-10-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25470390",
+      "source": "joongang",
+      "title": "최혜진, LPGA 뷰익 상하이 2R 단독 선두… 양희영 2타 차 2위",
+      "url": "https://www.joongang.co.kr/article/25470390",
+      "published": "2026-10-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25470389",
+      "source": "joongang",
+      "title": "정찬민, KPGA 더채리티 클래식 이틀 연속 선두… 3년 만의 통산 3승 도전",
+      "url": "https://www.joongang.co.kr/article/25470389",
+      "published": "2026-10-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25470143",
+      "source": "joongang",
+      "title": "‘MAGA 상품’ 팔았다고 계좌 해지? 미국 다시 흔든 ‘디뱅킹’ 논란",
+      "url": "https://www.joongang.co.kr/article/25470143",
+      "published": "2026-10-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25470088",
+      "source": "joongang",
+      "title": "당뇨병학회 “비만약 오남용 막되 필요한 당뇨병 치료는 보장해야”",
+      "url": "https://www.joongang.co.kr/article/25470088",
+      "published": "2026-10-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469977",
+      "source": "joongang",
+      "title": "‘MAGA 모자’ 팔았다고 계좌 해지?…美 흔든 ‘디뱅킹’ 논란",
+      "url": "https://www.joongang.co.kr/article/25469977",
+      "published": "2026-10-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469804",
+      "source": "joongang",
+      "title": "‘가장의 보험’ 가장 덕보게…살아서 쓰는 새 종신보험 등장",
+      "url": "https://www.joongang.co.kr/article/25469804",
+      "published": "2026-10-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469689",
+      "source": "joongang",
+      "title": "“살아서 미리 쓰세요”…사망보장 넘어 변신하는 종신보험",
+      "url": "https://www.joongang.co.kr/article/25469689",
+      "published": "2026-10-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469470",
+      "source": "joongang",
+      "title": "영토 넓히는 신한…인니 금융지주사 출범, 롯데손보도 인수",
+      "url": "https://www.joongang.co.kr/article/25469470",
+      "published": "2026-10-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469254",
+      "source": "joongang",
+      "title": "한·미 MASGA도 쉽지않다...WSJ, 한화 필리조선소 콕 짚어 “어렵다”",
+      "url": "https://www.joongang.co.kr/article/25469254",
+      "published": "2026-10-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469211",
+      "source": "joongang",
+      "title": "건보 2030년 부채비율 107%, 보험료 동결에 인상 압박 커진다",
+      "url": "https://www.joongang.co.kr/article/25469211",
+      "published": "2026-10-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469056",
+      "source": "joongang",
+      "title": "인권위, ‘윤석열 방어권 보장 권고’ 사과하기로…위원장 “별도 의견 없음”",
+      "url": "https://www.joongang.co.kr/article/25469056",
+      "published": "2026-10-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469035",
+      "source": "joongang",
+      "title": "&#91;기고&#93; 하지정맥류, 실손보험 심사 강화…치료는 ‘환자 상태’ 우선",
+      "url": "https://www.joongang.co.kr/article/25469035",
+      "published": "2026-10-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469022",
+      "source": "joongang",
+      "title": "&#91;속보&#93; 인권위, ‘尹방어권 보장 권고’ 관련 대국민 사과 의결",
+      "url": "https://www.joongang.co.kr/article/25469022",
+      "published": "2026-10-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25469005",
+      "source": "joongang",
+      "title": "위고비, 건강보험 적용 추진… 비만약 국내 시장 경쟁 가열",
+      "url": "https://www.joongang.co.kr/article/25469005",
+      "published": "2026-10-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468561",
+      "source": "joongang",
+      "title": "“MAGA 일부, 한국=친중 인식”…심상찮은 위험신호",
+      "url": "https://www.joongang.co.kr/article/25468561",
+      "published": "2026-10-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468532",
+      "source": "joongang",
+      "title": "해킹 피해 느는데…국내 기업 84% “사이버보험이 뭐예요?”",
+      "url": "https://www.joongang.co.kr/article/25468532",
+      "published": "2026-10-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468473",
+      "source": "joongang",
+      "title": "임성재, PGA 베이커런트 클래식 2R 공동 13위…선두와 5타 차",
+      "url": "https://www.joongang.co.kr/article/25468473",
+      "published": "2026-10-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468457",
+      "source": "joongang",
+      "title": "“사이버보험이 뭐야”…해킹 폭증 수습할 시장 고작 日 65분의 1",
+      "url": "https://www.joongang.co.kr/article/25468457",
+      "published": "2026-10-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468455",
+      "source": "joongang",
+      "title": "“정치적 중립 지키면서도 정치기본권 보장 가능”…또 거리 나선 교사들",
+      "url": "https://www.joongang.co.kr/article/25468455",
+      "published": "2026-10-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468439",
+      "source": "joongang",
+      "title": "&#91;단독&#93; 밤샘조사·진술권 미보장…경찰 인권침해 반복에도 점검 인력 단 2명",
+      "url": "https://www.joongang.co.kr/article/25468439",
+      "published": "2026-10-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468339",
+      "source": "joongang",
+      "title": "그리스 신전 배경으로…루비오 ‘MAGA 계승’ 연설",
+      "url": "https://www.joongang.co.kr/article/25468339",
+      "published": "2026-10-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468284",
+      "source": "joongang",
+      "title": "엄마 구하다 숨졌는데 어리다고 보험 지급 제외…정부 나섰다",
+      "url": "https://www.joongang.co.kr/article/25468284",
+      "published": "2026-10-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468260",
+      "source": "joongang",
+      "title": "코로나 전후 어린이 언어발달지연 진료 3.6배로…실손보험 영향도",
+      "url": "https://www.joongang.co.kr/article/25468260",
+      "published": "2026-10-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468255",
+      "source": "joongang",
+      "title": "파르테논 앞에서 ‘서구 각성’ 외친 루비오…‘MAGA 계승자’ 연상 연설",
+      "url": "https://www.joongang.co.kr/article/25468255",
+      "published": "2026-10-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468097",
+      "source": "joongang",
+      "title": "국정원, ‘美, 국정원장 NGA 방문 거부’ 보도에 “사실 아냐”",
+      "url": "https://www.joongang.co.kr/article/25468097",
+      "published": "2026-10-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25468066",
+      "source": "joongang",
+      "title": "&#91;단독&#93; 무보험 車사고 내고 튄 외국인…국민이 48억 메웠다",
+      "url": "https://www.joongang.co.kr/article/25468066",
+      "published": "2026-10-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25467729",
+      "source": "joongang",
+      "title": "&#91;2026 소비자의 선택&#93; 여성암 진단비 최대 14회 보장",
+      "url": "https://www.joongang.co.kr/article/25467729",
+      "published": "2026-10-07",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25467275",
+      "source": "joongang",
+      "title": "‘안 아픈 건보 가입자’ 보험사가 할인 나서",
+      "url": "https://www.joongang.co.kr/article/25467275",
+      "published": "2026-10-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25467040",
+      "source": "joongang",
+      "title": "‘골프 유목민’ 왕정훈, KPGA 투어에서 웃었다…현대해상 최경주 인비테이셔널 우승",
+      "url": "https://www.joongang.co.kr/article/25467040",
+      "published": "2026-10-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25466830",
+      "source": "joongang",
+      "title": "보험금도 이젠 ‘리필 시대’",
+      "url": "https://www.joongang.co.kr/article/25466830",
+      "published": "2026-10-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25466093",
+      "source": "joongang",
+      "title": "&#91;기고&#93; 전립선비대증 홀렙수술, 재수술률 낮고 건강보험도 적용",
+      "url": "https://www.joongang.co.kr/article/25466093",
+      "published": "2026-09-30",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25465501",
+      "source": "joongang",
+      "title": "&#91;함께하는 금융&#93; 경상북도 소상공인 대상 상생보험 운영",
+      "url": "https://www.joongang.co.kr/article/25465501",
+      "published": "2026-09-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25465476",
+      "source": "joongang",
+      "title": "&#91;국민을 향하는 보건복지&#93; 18세 청년 생애 첫 연금보험료, 국가가 내준다",
+      "url": "https://www.joongang.co.kr/article/25465476",
+      "published": "2026-09-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25465288",
+      "source": "joongang",
+      "title": "김포시, 2027~2030년 지역사회보장계획 확정",
+      "url": "https://www.joongang.co.kr/article/25465288",
+      "published": "2026-09-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25464711",
+      "source": "joongang",
+      "title": "李 “한·멕시코 투자보장협정 개정 타결…원유·광물 채널 출범”",
+      "url": "https://www.joongang.co.kr/article/25464711",
+      "published": "2026-09-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25463912",
+      "source": "joongang",
+      "title": "&#91;라이프 트렌드&&#93; 20년마다 치료비 한도 다시 채워 … 암·뇌·심장·치매 반복 보장",
+      "url": "https://www.joongang.co.kr/article/25463912",
+      "published": "2026-09-22",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25463598",
+      "source": "joongang",
+      "title": "단속에도 ‘휴대폰 깡’ 활개… 분실보험까지 악용해 472대 챙겼다",
+      "url": "https://www.joongang.co.kr/article/25463598",
+      "published": "2026-09-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25463514",
+      "source": "joongang",
+      "title": "&#91;단독&#93; 병원비 급한데 “건보 환급 기다려라”…묶인 실손보험금 2800억",
+      "url": "https://www.joongang.co.kr/article/25463514",
+      "published": "2026-09-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25463488",
+      "source": "joongang",
+      "title": "&#91;특파원 칼럼&#93; MAGA 지지자들이 찼던 기저귀",
+      "url": "https://www.joongang.co.kr/article/25463488",
+      "published": "2026-09-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25463441",
+      "source": "joongang",
+      "title": "신상훈, 통산 3승 달성…‘PGA 진출의 꿈’ 한발 더",
+      "url": "https://www.joongang.co.kr/article/25463441",
+      "published": "2026-09-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25463393",
+      "source": "joongang",
+      "title": "도수치료 막자 ‘이 치료’ 몰렸다…실손 청구액 218% 급증",
+      "url": "https://www.joongang.co.kr/article/25463393",
+      "published": "2026-09-20",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25463309",
+      "source": "joongang",
+      "title": "돌봄 인력난에 ‘보험사 요양원’ 꿈틀…토지소유 규제 논란도",
+      "url": "https://www.joongang.co.kr/article/25463309",
+      "published": "2026-09-20",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25463233",
+      "source": "joongang",
+      "title": "“차 보험료도 깎아줬는데”…‘치사율 67%’ 낳은 첨단안전장치",
+      "url": "https://www.joongang.co.kr/article/25463233",
+      "published": "2026-09-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25462998",
+      "source": "joongang",
+      "title": "표준협회·무역보험공사, 수출기업 해외 바이어 신용조회 지원",
+      "url": "https://www.joongang.co.kr/article/25462998",
+      "published": "2026-09-18",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25462159",
+      "source": "joongang",
+      "title": "사고 8만건 줄었는데 보험금은 더 나갔다",
+      "url": "https://www.joongang.co.kr/article/25462159",
+      "published": "2026-09-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25462061",
+      "source": "joongang",
+      "title": "법무법인 광장, ‘The Asia Legal Awards 2026’ 2개 부문 수상",
+      "url": "https://www.joongang.co.kr/article/25462061",
+      "published": "2026-09-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25462014",
+      "source": "joongang",
+      "title": "&#91;골프소식&#93; 오크밸리, 윈터 하프 마라톤 개최…KPGA 투어 어메이징크리 오픈 창설",
+      "url": "https://www.joongang.co.kr/article/25462014",
+      "published": "2026-09-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25462007",
+      "source": "joongang",
+      "title": "사고 8만건 줄었는데 보험금은 더 나갔다…자동차 보험손익 6년 만에 적자",
+      "url": "https://www.joongang.co.kr/article/25462007",
+      "published": "2026-09-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25461955",
+      "source": "joongang",
+      "title": "졸업만 하면 하이닉스…역대 최다 8994명 몰린 ‘취업 보장’ 학과",
+      "url": "https://www.joongang.co.kr/article/25461955",
+      "published": "2026-09-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134613321",
+      "source": "donga",
+      "title": "급전 필요한 5060…보험계약대출-카드론 늘었다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260906/134613321/1",
+      "published": "2026-09-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134619118",
+      "source": "donga",
+      "title": "5대 은행 가계대출 1년 반 새 41조↑…보험권 대출도 증가세",
+      "url": "https://www.donga.com/news/Economy/article/all/20260907/134619118/1",
+      "published": "2026-09-07",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -5608,7 +6121,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -5734,17 +6247,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 2,
+      "count": 57,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우는 중: 중앙 2026-09-14부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 600번째부터 재개",
       "disabled": false
     },
     {
