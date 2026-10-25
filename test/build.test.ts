@@ -61,7 +61,7 @@ function group(source: SourceId, overrides: Partial<NewsGroup> = {}): NewsGroup 
     url, published: overrides.published ?? (published >= today ? published : today), firstSeen: today,
     sources: [{ name: configured.name, url }],
     // 기존 분류 테스트는 화면에 보이는 관련도(medium)를 기본으로 둔다. 관련도 판단은 아래 테스트에서 따로 확인한다.
-    itemIds: [id], summary: null, relevance: 'medium', important: false, relevanceBy: 'rule', importance: null, ...overrides,
+    itemIds: [id], summary: null, relevance: 'medium', important: false, relevanceBy: 'rule', importance: null, importanceVersion: null, ...overrides,
   };
 }
 

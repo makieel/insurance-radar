@@ -51,9 +51,9 @@ export function needsSummary(group: NewsGroup): boolean {
 }
 
 /** 중요도를 매길 묶음인가. 업계 동향·관련도 low·이미 매긴 묶음은 뺀다. */
-function needsImportance(group: NewsGroup): boolean {
-  return group.importance === null && group.topic !== 'industry'
-    && (group.relevance === 'high' || group.relevance === 'medium');
+function needsImportance(group: NewsGroup, rubricVersion = 0): boolean {
+  const stale = group.importance === null || (group.importanceVersion ?? 0) < rubricVersion;
+  return stale && group.topic !== 'industry' && (group.relevance === 'high' || group.relevance === 'medium');
 }
 
 /**
@@ -109,7 +109,7 @@ export async function runAiJobs(input: {
     try {
       const group = groupOf(job);
       // AI가 관련도를 low로 바꾼 묶음은 여기서 빠진다
-      if (!group || !needsImportance(group)) return null;
+      if (!group || !needsImportance(group, config.ai.rubricVersion)) return null;
       return { job, group, source: store.body(representativeId(group), job.date) };
     } catch (e) {
       console.warn(`중요도 대상 준비 실패 ${job.id}: ${message(e)}`);
@@ -210,6 +210,7 @@ export async function runAiJobs(input: {
       const importance = result.get(group.id);
       if (importance === undefined) continue;
       group.importance = importance;
+      group.importanceVersion = config.ai.rubricVersion;
       dirty.add(job.date);
       scored++;
       // 주요 소식 칸에 오를 만한 묶음은 요약이 있어야 한다
@@ -280,12 +281,12 @@ export async function runAiJobs(input: {
  * 중요도가 아직 없는 기존 묶음(이 기능 전에 쌓였거나 과거 기사 채우기로 들어온 것)에 중요도 작업을 붙인다.
  * 공식 발표와 여러 매체가 다룬 묶음부터. 이미 대기 중인 것은 다시 넣지 않는다. 예산이 모자라면 다음 실행으로 넘어간다.
  */
-export function backfillImportanceJobs(pending: PendingAi[], dailies: DailyReport[], since: string): PendingAi[] {
+export function backfillImportanceJobs(pending: PendingAi[], dailies: DailyReport[], since: string, rubricVersion = 0): PendingAi[] {
   const queued = new Set(pending.filter((job) => job.type === 'importance').map((job) => job.id));
   const extra: { job: PendingAi; rank: number }[] = [];
   for (const report of dailies) {
     for (const group of report.groups) {
-      if (queued.has(group.id) || !needsImportance(group) || group.published < since) continue;
+      if (queued.has(group.id) || !needsImportance(group, rubricVersion) || group.published < since) continue;
       queued.add(group.id);
       const source = group.itemIds[0]?.split(':')[0] as PendingAi['source'];
       const rank = (group.kind === 'gov' || group.kind === 'assoc' ? 2 : 0) + (group.sources.length >= 2 ? 1 : 0) + (group.relevance === 'high' ? 1 : 0);
@@ -335,7 +336,7 @@ export async function summarizePending(input: { config: Config; chat: ChatFn; to
   const since = addDays(today, 1 - config.limits.highlightsDays);
   const dailyDates = existsSync(DAILY_DIR) ? readdirSync(DAILY_DIR).map((f) => f.replace(/.json$/, '')).filter((d) => d >= since).sort().reverse() : [];
   const reports = dailyDates.map((d) => daily(d)).filter((r): r is DailyReport => r !== null);
-  const pending = backfillImportanceJobs(readJson<PendingAi[]>(PENDING_PATH, []), reports, since);
+  const pending = backfillImportanceJobs(readJson<PendingAi[]>(PENDING_PATH, []), reports, since, config.ai.rubricVersion);
 
   const result = await runAiJobs({ config, chat, today, pending, usage, store: { daily, rawItems, body, excerpt } });
 

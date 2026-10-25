@@ -59,6 +59,8 @@ export const ConfigSchema = z.object({
     keyEnv: z.string(),
     models: z.array(z.string()).min(1),
     timeoutMs: z.number().int(),
+    /** 관련도·중요도 판정 기준 버전. 프롬프트나 범위를 바꾸면 올린다. 저장된 AI 점수 중 낮은 버전은 자동으로 다시 매긴다 */
+    rubricVersion: z.number().int(),
   }),
 });
 export type Config = z.infer<typeof ConfigSchema>;

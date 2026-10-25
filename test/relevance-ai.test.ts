@@ -26,7 +26,7 @@ function pension(): NewsGroup {
     summary: null,
     relevance: 'high',
     important: false,
-    relevanceBy: 'rule', importance: null,
+    relevanceBy: 'rule', importance: null, importanceVersion: null,
   };
 }
 
@@ -44,7 +44,7 @@ function growth(): NewsGroup {
     summary: null,
     relevance: 'medium',
     important: false,
-    relevanceBy: 'rule', importance: null,
+    relevanceBy: 'rule', importance: null, importanceVersion: null,
   };
 }
 
@@ -62,7 +62,7 @@ function seniors(): NewsGroup {
     summary: null,
     relevance: 'low',
     important: false,
-    relevanceBy: 'rule', importance: null,
+    relevanceBy: 'rule', importance: null, importanceVersion: null,
   };
 }
 

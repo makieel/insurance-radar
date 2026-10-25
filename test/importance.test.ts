@@ -28,7 +28,7 @@ function pension(): NewsGroup {
     relevance: 'high',
     important: false,
     relevanceBy: 'rule',
-    importance: null,
+    importance: null, importanceVersion: null,
   };
 }
 
@@ -47,7 +47,7 @@ function growth(): NewsGroup {
     relevance: 'low',
     important: false,
     relevanceBy: 'rule',
-    importance: null,
+    importance: null, importanceVersion: null,
   };
 }
 
@@ -66,7 +66,7 @@ function seniors(): NewsGroup {
     relevance: 'high',
     important: false,
     relevanceBy: 'rule',
-    importance: null,
+    importance: null, importanceVersion: null,
   };
 }
 
@@ -278,7 +278,7 @@ test('runAiJobs: 오늘 쓴 호출이 상한에 닿으면 중요도 대기는 �
 
 test('backfillImportanceJobs: 중요도가 없는 기존 묶음을 공식 발표부터 대기열에 붙이고 중복·기간 밖은 뺀다', async () => {
   const { backfillImportanceJobs } = await import('../src/cli/summarize.ts');
-  const base = { topic: 'medical' as const, title: '5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.', url: 'https://www.fsc.go.kr/no010101/86831', firstSeen: '2026-10-23', summary: null, important: false, relevanceBy: 'rule' as const, importance: null };
+  const base = { topic: 'medical' as const, title: '5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.', url: 'https://www.fsc.go.kr/no010101/86831', firstSeen: '2026-10-23', summary: null, important: false, relevanceBy: 'rule' as const, importance: null, importanceVersion: null };
   const gov = { ...base, id: 'g:fsc-press:86831', kind: 'gov' as const, published: '2026-05-06', relevance: 'high' as const, sources: [{ name: '금융위원회', url: base.url }], itemIds: ['fsc-press:86831'] };
   const press = { ...base, id: 'g:insnews:1', kind: 'press' as const, published: '2026-10-20', relevance: 'medium' as const, sources: [{ name: '한국보험신문', url: base.url }], itemIds: ['insnews:1'] };
   const old = { ...gov, id: 'g:fsc-press:1', published: '2025-12-01', itemIds: ['fsc-press:1'] };
@@ -287,4 +287,19 @@ test('backfillImportanceJobs: 중요도가 없는 기존 묶음을 공식 발표
   const jobs = backfillImportanceJobs([], [report], '2026-01-25');
   assert.deepEqual(jobs.map((j) => j.id), ['g:fsc-press:86831', 'g:insnews:1']);
   assert.equal(backfillImportanceJobs(jobs, [report], '2026-01-25').length, 2);
+});
+
+test('backfillImportanceJobs: 판정 기준 버전이 올라가면 예전 AI 점수도 다시 매긴다', async () => {
+  const { backfillImportanceJobs } = await import('../src/cli/summarize.ts');
+  // 2026-10-13 중앙일보 실제 제목. 범위 기준(버전 2) 이전에 4점을 받았다.
+  const group = {
+    id: 'g:joongang:25469000', topic: 'general' as const, kind: 'press' as const,
+    title: '건보 2030년 부채비율 107%, 보험료 동결에 인상 압박 커진다', url: 'https://www.joongang.co.kr/article/25469000',
+    published: '2026-10-13', firstSeen: '2026-10-25', sources: [{ name: '중앙일보', url: 'https://www.joongang.co.kr/article/25469000' }],
+    itemIds: ['joongang:25469000'], summary: null, relevance: 'high' as const, important: false, relevanceBy: 'ai' as const,
+    importance: 4, importanceVersion: null,
+  };
+  const report = { date: '2026-10-25', generatedAt: '2026-10-25T00:00:00Z', groups: [group], status: [] };
+  assert.equal(backfillImportanceJobs([], [report], '2026-01-25', 2).length, 1);
+  assert.equal(backfillImportanceJobs([], [{ ...report, groups: [{ ...group, importanceVersion: 2 }] }], '2026-01-25', 2).length, 0);
 });

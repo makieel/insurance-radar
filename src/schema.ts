@@ -146,6 +146,8 @@ export const NewsGroup = z.object({
    * 5 = 제도·보험료가 바뀌어 거의 모든 가입자에게 영향(예: 5세대 실손 출시, 자동차보험료 일제 인상), 1 = 거의 없음. AI가 매긴다. 아직 없으면 null.
    */
   importance: z.number().int().min(1).max(5).nullable().default(null),
+  /** importance를 매긴 판정 기준 버전(config.ai.rubricVersion). 기준이 바뀌면 다시 매긴다. 규칙 점수면 null */
+  importanceVersion: z.number().int().nullable().default(null),
 });
 export type NewsGroup = z.infer<typeof NewsGroup>;
 

@@ -372,6 +372,7 @@
       "gemini-3.8-flash",
       "gemini-2.5-flash"
     ],
-    "timeoutMs": 150000
+    "timeoutMs": 150000,
+    "rubricVersion": 2
   }
 }
