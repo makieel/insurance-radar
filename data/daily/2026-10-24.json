@@ -23,7 +23,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:fins:110311",
@@ -46,7 +47,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:fins:110319",
@@ -69,7 +71,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [

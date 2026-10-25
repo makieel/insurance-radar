@@ -1,8 +1,8 @@
 {
-  "joongangOldest": "2026-06-26",
+  "joongangOldest": "2026-05-17",
   "dongaCursor": {
     "file": "https://image.donga.com/sitemap/donga/donga-sitemap-202609-202610.xml.gz",
-    "index": 1800
+    "index": 2400
   },
   "dongaDone": false,
   "officialDone": false

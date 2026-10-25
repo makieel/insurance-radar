@@ -68,5 +68,68 @@
     "url": "https://www.donga.com/news/Economy/article/all/20260928/134741266/1",
     "date": "2026-10-25",
     "source": "donga"
+  },
+  {
+    "type": "summary",
+    "id": "g:fss-press:216777",
+    "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216777&menuNo=200218",
+    "date": "2026-10-25",
+    "source": "fss-press"
+  },
+  {
+    "type": "summary",
+    "id": "g:fss-press:216341",
+    "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216341&menuNo=200218",
+    "date": "2026-10-25",
+    "source": "fss-press"
+  },
+  {
+    "type": "summary",
+    "id": "g:fss-press:213147",
+    "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213147&menuNo=200218",
+    "date": "2026-10-25",
+    "source": "fss-press"
+  },
+  {
+    "type": "summary",
+    "id": "g:fss-press:210071",
+    "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210071&menuNo=200218",
+    "date": "2026-10-25",
+    "source": "fss-press"
+  },
+  {
+    "type": "summary",
+    "id": "g:fss-press:209614",
+    "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209614&menuNo=200218",
+    "date": "2026-10-25",
+    "source": "fss-press"
+  },
+  {
+    "type": "summary",
+    "id": "g:fss-press:209494",
+    "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209494&menuNo=200218",
+    "date": "2026-10-25",
+    "source": "fss-press"
+  },
+  {
+    "type": "summary",
+    "id": "g:joongang:25437006",
+    "url": "https://www.joongang.co.kr/article/25437006",
+    "date": "2026-10-25",
+    "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:joongang:25434481",
+    "url": "https://www.joongang.co.kr/article/25434481",
+    "date": "2026-10-25",
+    "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:joongang:25429792",
+    "url": "https://www.joongang.co.kr/article/25429792",
+    "date": "2026-10-25",
+    "source": "joongang"
   }
 ]

@@ -372,6 +372,72 @@
     "firstSeen": "2026-10-23"
   },
   {
+    "id": "c:joongang:25433005:ai",
+    "category": "general",
+    "title": "국가기관 항공보험 기체보상 600억원으로 확대",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "2026년",
+    "quote": "소방청은 산림청·경찰청·해양경찰청과 함께 ‘2026년 국가기관 항공보험 종합계약’을 A보험사와 체결했다고 1일 밝혔다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-06-01",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25433005"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:joongang:25431291:ai",
+    "category": "life",
+    "title": "고위험 임산부·신생아 및 응급 의료체계 개선방안",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 6월부터",
+    "quote": "오는 6월부터는 신생아 뇌성마비·사망, 산모 사망 시에만 지급되는 보상을 산모 중증 장애가 발생한 경우 최대 1억5000만원까지 지원받을 수 있도록 확대할 계획이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-05-26",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25431291"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:joongang:25429792:ai",
+    "category": "medical",
+    "title": "체외충격파 치료 연 12회 한도 실손보험금 제한",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 7월부터",
+    "quote": "오는 7월부터 대표적인 과잉 비급여 항목으로 꼽혀온 체외충격파 치료에 대해 실손보험금이 연간 12회까지만 적용될 전망이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-05-20",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25429792"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
     "id": "c:fsc-press:86831:2026-05-06",
     "category": "medical",
     "title": "5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.",

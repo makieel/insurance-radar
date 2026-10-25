@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T13:21:50.608Z",
+  "generatedAt": "2026-10-25T13:33:13.920Z",
   "groups": [
     {
       "id": "g:fins:110320",
@@ -23,7 +23,8 @@
       "relevance": "low",
       "important": true,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:yna:AKR20261023153000017",
@@ -46,7 +47,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:insnews:93471",
@@ -69,7 +71,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:fins:110315",
@@ -92,7 +95,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:fins:110314",
@@ -115,7 +119,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:chosun:COIFRPUVG5DVLIMOFHASVLGEV4",
@@ -138,7 +143,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:chosun:MS4W63N2HJGBREGAEPACAP2FRY",
@@ -161,7 +167,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:chosun:GZQWMNTGGU3DEMBXGU4TGMTFMI",
@@ -184,7 +191,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:chosun:GAZDAZJUGMYGIODFGQ3GGNZTMY",
@@ -207,7 +215,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25472485",
@@ -230,7 +239,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 2
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25472155",
@@ -253,7 +263,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25471624",
@@ -276,7 +287,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25471299",
@@ -299,7 +311,8 @@
       "relevance": "high",
       "important": true,
       "relevanceBy": "ai",
-      "importance": 5
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25470814",
@@ -322,7 +335,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 2
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25470088",
@@ -345,7 +359,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25469977",
@@ -373,7 +388,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25469689",
@@ -396,7 +412,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25469470",
@@ -419,7 +436,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25469211",
@@ -442,7 +460,8 @@
       "relevance": "high",
       "important": true,
       "relevanceBy": "ai",
-      "importance": 4
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25469056",
@@ -465,7 +484,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25469035",
@@ -488,7 +508,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 4,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25469022",
@@ -511,7 +532,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25469005",
@@ -534,7 +556,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 4
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25468455",
@@ -557,7 +580,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25468439",
@@ -580,7 +604,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25468284",
@@ -603,7 +628,8 @@
       "relevance": "high",
       "important": true,
       "relevanceBy": "ai",
-      "importance": 4
+      "importance": 4,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25468260",
@@ -626,7 +652,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25468066",
@@ -649,7 +676,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 2
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25467729",
@@ -672,7 +700,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 2
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25467275",
@@ -695,7 +724,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 4
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25466830",
@@ -718,7 +748,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 1
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25466093",
@@ -741,7 +772,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 2
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25465501",
@@ -764,7 +796,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25465476",
@@ -787,7 +820,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 4
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25465288",
@@ -810,7 +844,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25464711",
@@ -833,7 +868,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25463912",
@@ -856,7 +892,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25463598",
@@ -879,7 +916,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25463514",
@@ -902,7 +940,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 4
+      "importance": 4,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25463393",
@@ -925,7 +964,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 4
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25463309",
@@ -948,7 +988,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25463233",
@@ -971,7 +1012,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25462998",
@@ -994,7 +1036,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25462007",
@@ -1022,7 +1065,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 4
+      "importance": 4,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25461955",
@@ -1045,7 +1089,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 1
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:donga:134613321",
@@ -1068,7 +1113,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25461071",
@@ -1091,7 +1137,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25460732",
@@ -1114,7 +1161,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25460124",
@@ -1137,7 +1185,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25459962",
@@ -1160,7 +1209,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25459899",
@@ -1183,7 +1233,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25459672",
@@ -1206,7 +1257,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 1
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25459266",
@@ -1229,7 +1281,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25458946",
@@ -1252,7 +1305,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25458854",
@@ -1275,7 +1329,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 1
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25458705",
@@ -1298,7 +1353,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 5
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25458616",
@@ -1321,7 +1377,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25458444",
@@ -1344,7 +1401,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 1
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25458230",
@@ -1367,7 +1425,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25457937",
@@ -1390,7 +1449,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 1
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25457872",
@@ -1413,7 +1473,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 2
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25457528",
@@ -1436,7 +1497,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25456816",
@@ -1459,7 +1521,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 2
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25456675",
@@ -1482,7 +1545,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 4
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25455945",
@@ -1505,7 +1569,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25455888",
@@ -1528,7 +1593,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25455850",
@@ -1551,7 +1617,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25455417",
@@ -1574,7 +1641,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25454493",
@@ -1597,7 +1665,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25454401",
@@ -1620,7 +1689,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25454275",
@@ -1643,7 +1713,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25453619",
@@ -1666,7 +1737,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25453179",
@@ -1689,7 +1761,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25452892",
@@ -1712,7 +1785,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25452338",
@@ -1735,7 +1809,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25452276",
@@ -1758,7 +1833,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 4
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25452017",
@@ -1781,7 +1857,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25451793",
@@ -1804,7 +1881,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:donga:134758257",
@@ -1827,7 +1905,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 4
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:donga:134760957",
@@ -1850,7 +1929,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 5
+      "importance": 5,
+      "importanceVersion": 2
     },
     {
       "id": "g:donga:134743383",
@@ -1873,7 +1953,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:donga:134741266",
@@ -1896,7 +1977,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25449700",
@@ -1924,7 +2006,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25449418",
@@ -1947,7 +2030,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25448236",
@@ -1970,7 +2054,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25446659",
@@ -1993,7 +2078,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25444212",
@@ -2016,7 +2102,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25444112",
@@ -2039,7 +2126,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25443851",
@@ -2062,7 +2150,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25443675",
@@ -2085,7 +2174,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25443612",
@@ -2108,7 +2198,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25443342",
@@ -2131,7 +2222,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 1
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25442984",
@@ -2154,7 +2246,8 @@
       "relevance": "high",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25442707",
@@ -2177,7 +2270,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 3,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25442343",
@@ -2200,7 +2294,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25441771",
@@ -2228,7 +2323,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 2
+      "importance": 1,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25441154",
@@ -2251,7 +2347,8 @@
       "relevance": "low",
       "important": false,
       "relevanceBy": "rule",
-      "importance": null
+      "importance": null,
+      "importanceVersion": null
     },
     {
       "id": "g:joongang:25440675",
@@ -2274,7 +2371,8 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 2
+      "importance": 2,
+      "importanceVersion": 2
     },
     {
       "id": "g:joongang:25440650",
@@ -2297,7 +2395,997 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
-      "importance": 3
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134832750",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한금융, 롯데손보 지분 77.04% 6933억에 인수…비은행 강화",
+      "url": "https://www.donga.com/news/Economy/article/all/20261013/134832750/1",
+      "published": "2026-10-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261013/134832750/1"
+        },
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261013/134833409/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134832750",
+        "donga:134833409"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:134800238",
+      "topic": "general",
+      "kind": "press",
+      "title": "[단독]고용보험 적용된 예술인·특고, 실업급여 3년새 7배로",
+      "url": "https://www.donga.com/news/Economy/article/all/20261007/134800238/1",
+      "published": "2026-10-07",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261007/134800238/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134800238"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25439798",
+      "topic": "general",
+      "kind": "press",
+      "title": "사이버한국외국어대학교-보험연수원, AI 기반 교육 협력 협약 체결",
+      "url": "https://www.joongang.co.kr/article/25439798",
+      "published": "2026-06-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25439798"
+        }
+      ],
+      "itemIds": [
+        "joongang:25439798"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25439107",
+      "topic": "general",
+      "kind": "press",
+      "title": "분만·소아·응급 의료사고, 국가가 최대 18억 배상보험 지원",
+      "url": "https://www.joongang.co.kr/article/25439107",
+      "published": "2026-06-23",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25439107"
+        }
+      ],
+      "itemIds": [
+        "joongang:25439107"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25438974",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 고혈압 있어도 암 특약 일반 보험료로…업계 첫 ‘복합심사’",
+      "url": "https://www.joongang.co.kr/article/25438974",
+      "published": "2026-06-23",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25438974"
+        }
+      ],
+      "itemIds": [
+        "joongang:25438974"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25438097",
+      "topic": "general",
+      "kind": "press",
+      "title": "사망보험금 5억 받았는데…13년째 살아있는 ‘6개월 시한부’",
+      "url": "https://www.joongang.co.kr/article/25438097",
+      "published": "2026-06-19",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25438097"
+        }
+      ],
+      "itemIds": [
+        "joongang:25438097"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25437709",
+      "topic": "auto",
+      "kind": "press",
+      "title": "“블박 영상 5초면 과실 판정”…AI 활용, 경쟁 붙은 보험사",
+      "url": "https://www.joongang.co.kr/article/25437709",
+      "published": "2026-06-18",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25437709"
+        }
+      ],
+      "itemIds": [
+        "joongang:25437709"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25437618",
+      "topic": "auto",
+      "kind": "press",
+      "title": "“블박 영상 올리면 AI가 과실 판정\" 보험사 AI 활용 어디까지",
+      "url": "https://www.joongang.co.kr/article/25437618",
+      "published": "2026-06-17",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25437618"
+        }
+      ],
+      "itemIds": [
+        "joongang:25437618"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25437006",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;사설&#93; 입원하면 돈 준다는 요양병원, 보험 빼먹기 엄단해야",
+      "url": "https://www.joongang.co.kr/article/25437006",
+      "published": "2026-06-16",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25437006"
+        }
+      ],
+      "itemIds": [
+        "joongang:25437006"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25436634",
+      "topic": "general",
+      "kind": "press",
+      "title": "실업급여 17조 역대 최대에…고용보험 곳간 ‘빨간불’",
+      "url": "https://www.joongang.co.kr/article/25436634",
+      "published": "2026-06-14",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25436634"
+        }
+      ],
+      "itemIds": [
+        "joongang:25436634"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25435058",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 암보험도 이젠 ‘올인원’ 시대전이암·2차암도 든든하게 보장",
+      "url": "https://www.joongang.co.kr/article/25435058",
+      "published": "2026-06-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25435058"
+        }
+      ],
+      "itemIds": [
+        "joongang:25435058"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25435050",
+      "topic": "general",
+      "kind": "press",
+      "title": "변시 낭인 막으려 만든 오탈제…제안한 교수마저 “손보자”",
+      "url": "https://www.joongang.co.kr/article/25435050",
+      "published": "2026-06-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25435050"
+        }
+      ],
+      "itemIds": [
+        "joongang:25435050"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25434807",
+      "topic": "general",
+      "kind": "press",
+      "title": "사망보험금 5억 받았는데…13년째 살아있는 ‘6개월 시한부’",
+      "url": "https://www.joongang.co.kr/article/25434807",
+      "published": "2026-06-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25434807"
+        }
+      ],
+      "itemIds": [
+        "joongang:25434807"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25434481",
+      "topic": "general",
+      "kind": "press",
+      "title": "티눈 수술로 3500만원 받고도 또…대법 “보험금 지급 의무 없다”",
+      "url": "https://www.joongang.co.kr/article/25434481",
+      "published": "2026-06-07",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25434481"
+        }
+      ],
+      "itemIds": [
+        "joongang:25434481"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25434359",
+      "topic": "general",
+      "kind": "press",
+      "title": "같은 유병자라도 보험료 다른 ‘간편보험’",
+      "url": "https://www.joongang.co.kr/article/25434359",
+      "published": "2026-06-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25434359"
+        }
+      ],
+      "itemIds": [
+        "joongang:25434359"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25433005",
+      "topic": "general",
+      "kind": "press",
+      "title": "기체보상 350억→600억으로, 국가기관 항공보험 보장확대",
+      "url": "https://www.joongang.co.kr/article/25433005",
+      "published": "2026-06-01",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25433005"
+        }
+      ],
+      "itemIds": [
+        "joongang:25433005"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25432257",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;함께하는 금융&#93; 이젠 보험도 가족결합의 시대",
+      "url": "https://www.joongang.co.kr/article/25432257",
+      "published": "2026-05-29",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25432257"
+        }
+      ],
+      "itemIds": [
+        "joongang:25432257"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25431896",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;비즈스토리&#93; 자동차 금융·보험·정비까지 한번에 해결한다",
+      "url": "https://www.joongang.co.kr/article/25431896",
+      "published": "2026-05-28",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25431896"
+        }
+      ],
+      "itemIds": [
+        "joongang:25431896"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25431291",
+      "topic": "general",
+      "kind": "press",
+      "title": "고위험 임산부 생기면 신속히 이송 병원 결정, 소아응급-신생아 전문의에 배상 보험 지원한다",
+      "url": "https://www.joongang.co.kr/article/25431291",
+      "published": "2026-05-26",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25431291"
+        }
+      ],
+      "itemIds": [
+        "joongang:25431291"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25430904",
+      "topic": "general",
+      "kind": "press",
+      "title": "거세지는 정부의 스벅 압박...공정위, 환불 약관 개정 검토",
+      "url": "https://www.joongang.co.kr/article/25430904",
+      "published": "2026-05-24",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25430904"
+        }
+      ],
+      "itemIds": [
+        "joongang:25430904"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25429827",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;2026 고객사랑브랜드대상&#93; 전화 한통으로 간편하게 가입하는 암보험",
+      "url": "https://www.joongang.co.kr/article/25429827",
+      "published": "2026-05-20",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25429827"
+        }
+      ],
+      "itemIds": [
+        "joongang:25429827"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25429792",
+      "topic": "medical",
+      "kind": "press",
+      "title": "&#91;단독&#93; ‘한 번에 50만원’ 체외충격파, 1년 12번까지만 실손보험금",
+      "url": "https://www.joongang.co.kr/article/25429792",
+      "published": "2026-05-20",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25429792"
+        }
+      ],
+      "itemIds": [
+        "joongang:25429792"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25429548",
+      "topic": "medical",
+      "kind": "press",
+      "title": "“퇴직 후 한 달이 골든타임”…중지한 개인실손, 기한 넘기면 재개 불가",
+      "url": "https://www.joongang.co.kr/article/25429548",
+      "published": "2026-05-19",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25429548"
+        }
+      ],
+      "itemIds": [
+        "joongang:25429548"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25429058",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;Biz & Now&#93; 한화생명금융 연도대상…김승연 “글로벌 보험사 도약해야”",
+      "url": "https://www.joongang.co.kr/article/25429058",
+      "published": "2026-05-18",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25429058"
+        }
+      ],
+      "itemIds": [
+        "joongang:25429058"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:216777",
+      "topic": "general",
+      "kind": "gov",
+      "title": "보험업권이 출산,육아에 따른 보험료 부담을 덜어드립니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216777&menuNo=200218",
+      "published": "2026-03-31",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216777&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:216777"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:216706",
+      "topic": "industry",
+      "kind": "gov",
+      "title": "2025년 보험회사 경영실적(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216706&menuNo=200218",
+      "published": "2026-03-30",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216706&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:216706"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:216341",
+      "topic": "auto",
+      "kind": "gov",
+      "title": "2025년 자동차보험 사업실적(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216341&menuNo=200218",
+      "published": "2026-03-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216341&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:216341"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:216136",
+      "topic": "general",
+      "kind": "gov",
+      "title": "보험사기 특별신고,포상기간 확대 운영",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216136&menuNo=200218",
+      "published": "2026-03-24",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216136&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:216136"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:215153",
+      "topic": "general",
+      "kind": "gov",
+      "title": "2026년도 금융감독원 검사업무 운영계획",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=215153&menuNo=200218",
+      "published": "2026-03-18",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=215153&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:215153"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:214172",
+      "topic": "general",
+      "kind": "gov",
+      "title": "2026년 보험 부문 금융감독 업무설명회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=214172&menuNo=200218",
+      "published": "2026-03-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=214172&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:214172"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:213422",
+      "topic": "general",
+      "kind": "gov",
+      "title": "고용노동부,금감원,한국장애인고용공단,금융협회, 금융권 장애인 고용확대에 힘 모아",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213422&menuNo=200218",
+      "published": "2026-03-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213422&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:213422"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:213304",
+      "topic": "general",
+      "kind": "gov",
+      "title": "2026년 민생금융 부문 금융감독 업무설명회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213304&menuNo=200218",
+      "published": "2026-03-05",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213304&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:213304"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:213147",
+      "topic": "general",
+      "kind": "gov",
+      "title": "롯데손해보험에 대한 경영개선요구 의결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213147&menuNo=200218",
+      "published": "2026-03-04",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213147&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:213147"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:212249",
+      "topic": "general",
+      "kind": "gov",
+      "title": "금융감독원, 「2026년 부문별 금융감독 업무설명회」 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=212249&menuNo=200218",
+      "published": "2026-02-24",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=212249&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:212249"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:210782",
+      "topic": "auto",
+      "kind": "gov",
+      "title": "안전하고 즐거운 설 연휴 귀성길을 위하여 소비자에게 유용한 자동차보험 정보를 안내합니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210782&menuNo=200218",
+      "published": "2026-02-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210782&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:210782"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:210197",
+      "topic": "industry",
+      "kind": "gov",
+      "title": "보험금 관련 제3의료자문의 신뢰성 제고를 위한 금융감독원-대한의사협회 간 업무협약 체결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210197&menuNo=200218",
+      "published": "2026-02-04",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210197&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:210197"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:210071",
+      "topic": "auto",
+      "kind": "gov",
+      "title": "자동차사고 후 렌터카 이용, 보상여부를 잘못 알면 피해자가 비용을 부담할 수도 있습니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210071&menuNo=200218",
+      "published": "2026-02-03",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210071&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:210071"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:209614",
+      "topic": "general",
+      "kind": "gov",
+      "title": "보험료 부담 등으로 보험 가입이 힘들었던 저소득층, 저신용자도 꼭 필요한 보험 가입을 확대하는 방안을 추진합니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209614&menuNo=200218",
+      "published": "2026-01-29",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209614&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:209614"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:209593",
+      "topic": "general",
+      "kind": "gov",
+      "title": "이제 금융감독원 홈페이지에서 보험분쟁조정 사례를 좀 더 쉽게 찾아볼 수 있어요",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209593&menuNo=200218",
+      "published": "2026-01-29",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209593&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:209593"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:209498",
+      "topic": "industry",
+      "kind": "gov",
+      "title": "''저축은행, 상호금융이 투자자로 참여하는 온라인투자연계금융업 연계투자 서비스'' 등 혁신금융서비스 34건 신규 지정 의결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209498&menuNo=200218",
+      "published": "2026-01-28",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209498&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:209498"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:209494",
+      "topic": "general",
+      "kind": "gov",
+      "title": "경영개선권고에 따른 롯데손해보험의 경영개선계획 불승인 결정",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209494&menuNo=200218",
+      "published": "2026-01-28",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209494&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:209494"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -2306,7 +3394,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -2314,15 +3402,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 10,
+      "count": 82,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -2330,7 +3418,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -2338,7 +3426,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -2432,17 +3520,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 133,
+      "count": 176,
       "error": null,
-      "note": "과거 기사 채우는 중: 중앙 2026-06-26부터 재개",
+      "note": "과거 기사 채우는 중: 중앙 2026-05-17부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 11,
+      "count": 14,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 1800번째부터 재개",
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 2400번째부터 재개",
       "disabled": false
     },
     {
