@@ -1,4 +1,5 @@
 // AI 단계: 대기 목록의 관련도·중요도·판정·요약을 하루 상한 안에서 처리한다. 어떤 실패도 파이프라인을 멈추지 않는다(종료 코드 0).
+import { existsSync, readdirSync } from 'node:fs';
 import { loadConfig } from '../config.ts';
 import type { Config } from '../config.ts';
 import { classify } from '../analyze/classify.ts';
@@ -7,7 +8,7 @@ import { addDays } from '../lib/dates.ts';
 import { DailyReport, RawSnapshot } from '../schema.ts';
 import type { Change, NewsGroup, RawItem } from '../schema.ts';
 import {
-  CHANGES_PATH, PENDING_PATH,
+  CHANGES_PATH, DAILY_DIR, PENDING_PATH,
   bodiesPath, dailyPath, rawPath, pipelineDate, readAiUsage, readJson, writeAiUsage, writeJson,
 } from '../store.ts';
 import type { AiUsage, PendingAi } from '../store.ts';
@@ -275,11 +276,30 @@ export async function runAiJobs(input: {
   return { remaining, dirty, judged, rated, scored, summarized, dropped };
 }
 
+/**
+ * 중요도가 아직 없는 기존 묶음(이 기능 전에 쌓였거나 과거 기사 채우기로 들어온 것)에 중요도 작업을 붙인다.
+ * 공식 발표와 여러 매체가 다룬 묶음부터. 이미 대기 중인 것은 다시 넣지 않는다. 예산이 모자라면 다음 실행으로 넘어간다.
+ */
+export function backfillImportanceJobs(pending: PendingAi[], dailies: DailyReport[], since: string): PendingAi[] {
+  const queued = new Set(pending.filter((job) => job.type === 'importance').map((job) => job.id));
+  const extra: { job: PendingAi; rank: number }[] = [];
+  for (const report of dailies) {
+    for (const group of report.groups) {
+      if (queued.has(group.id) || !needsImportance(group) || group.published < since) continue;
+      queued.add(group.id);
+      const source = group.itemIds[0]?.split(':')[0] as PendingAi['source'];
+      const rank = (group.kind === 'gov' || group.kind === 'assoc' ? 2 : 0) + (group.sources.length >= 2 ? 1 : 0) + (group.relevance === 'high' ? 1 : 0);
+      extra.push({ job: { type: 'importance', id: group.id, url: group.url, date: report.date, source }, rank });
+    }
+  }
+  extra.sort((a, b) => b.rank - a.rank);
+  return [...pending, ...extra.map((e) => e.job)];
+}
+
 export async function summarizePending(input: { config: Config; chat: ChatFn; today: string }): Promise<{
   rated: number; scored: number; summarized: number; judged: number; dropped: number; remaining: number;
 }> {
   const { config, chat, today } = input;
-  const pending = readJson<PendingAi[]>(PENDING_PATH, []);
   const usage = readAiUsage(today);
 
   const dailies = new Map<string, DailyReport | null>();
@@ -311,6 +331,11 @@ export async function summarizePending(input: { config: Config; chat: ChatFn; to
     return bodies[itemId] ?? '';
   };
   const excerpt = async (url: string): Promise<string> => (await fetchExcerpt(url)) ?? '';
+
+  const since = addDays(today, 1 - config.limits.highlightsDays);
+  const dailyDates = existsSync(DAILY_DIR) ? readdirSync(DAILY_DIR).map((f) => f.replace(/.json$/, '')).filter((d) => d >= since).sort().reverse() : [];
+  const reports = dailyDates.map((d) => daily(d)).filter((r): r is DailyReport => r !== null);
+  const pending = backfillImportanceJobs(readJson<PendingAi[]>(PENDING_PATH, []), reports, since);
 
   const result = await runAiJobs({ config, chat, today, pending, usage, store: { daily, rawItems, body, excerpt } });
 

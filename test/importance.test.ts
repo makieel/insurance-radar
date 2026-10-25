@@ -275,3 +275,16 @@ test('runAiJobs: 오늘 쓴 호출이 상한에 닿으면 중요도 대기는 �
   assert.deepEqual(out.remaining, pending);
   assert.equal(usage.calls, 10);
 });
+
+test('backfillImportanceJobs: 중요도가 없는 기존 묶음을 공식 발표부터 대기열에 붙이고 중복·기간 밖은 뺀다', async () => {
+  const { backfillImportanceJobs } = await import('../src/cli/summarize.ts');
+  const base = { topic: 'medical' as const, title: '5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.', url: 'https://www.fsc.go.kr/no010101/86831', firstSeen: '2026-10-23', summary: null, important: false, relevanceBy: 'rule' as const, importance: null };
+  const gov = { ...base, id: 'g:fsc-press:86831', kind: 'gov' as const, published: '2026-05-06', relevance: 'high' as const, sources: [{ name: '금융위원회', url: base.url }], itemIds: ['fsc-press:86831'] };
+  const press = { ...base, id: 'g:insnews:1', kind: 'press' as const, published: '2026-10-20', relevance: 'medium' as const, sources: [{ name: '한국보험신문', url: base.url }], itemIds: ['insnews:1'] };
+  const old = { ...gov, id: 'g:fsc-press:1', published: '2025-12-01', itemIds: ['fsc-press:1'] };
+  const scored = { ...gov, id: 'g:fsc-press:2', importance: 5, itemIds: ['fsc-press:2'] };
+  const report = { date: '2026-10-23', generatedAt: '2026-10-23T00:00:00Z', groups: [press, gov, old, scored], status: [] };
+  const jobs = backfillImportanceJobs([], [report], '2026-01-25');
+  assert.deepEqual(jobs.map((j) => j.id), ['g:fsc-press:86831', 'g:insnews:1']);
+  assert.equal(backfillImportanceJobs(jobs, [report], '2026-01-25').length, 2);
+});

@@ -3,6 +3,7 @@ import type { Config } from '../config.ts';
 import { ruleRelevance } from '../analyze/relevance.ts';
 import { similar } from '../analyze/group.ts';
 import { addDays } from '../lib/dates.ts';
+import { decodeEntities } from '../lib/text.ts';
 import { DailyReport, Latest } from '../schema.ts';
 import type { Change, NewsGroup, RateRow, SourceId, SourceKind, SourceStatus } from '../schema.ts';
 import {
@@ -98,8 +99,10 @@ export function buildLatest(input: {
     .filter(group => (group.topic === 'industry' || group.relevance === 'low') && (group.important || group.sources.length >= 3))
     .sort((a, b) => Number(b.important) - Number(a.important) || b.sources.length - a.sources.length)
     .slice(0, industryLimit);
+  // 저장된 제목에 남은 HTML 엔티티를 화면에 내기 전에 글자로 바꾼다.
+  const clean = (list: NewsGroup[]): NewsGroup[] => list.map(g => ({ ...g, title: decodeEntities(g.title), summary: g.summary === null ? null : decodeEntities(g.summary) }));
   return Latest.parse({
-    date: today, generatedAt, changes, news, official, industry, highlights,
+    date: today, generatedAt, changes, news: clean(news), official: clean(official), industry: clean(industry), highlights: clean(highlights),
     rates: [...input.rates].sort((a, b) => b.effective.localeCompare(a.effective)).slice(0, 30),
     status: input.status,
     counts: {

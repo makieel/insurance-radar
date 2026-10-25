@@ -36,3 +36,15 @@ export function stripMarkdown(s: string): string {
     .replace(/\s+/g, ' ')
     .trim();
 }
+
+/** HTML 엔티티(&#91; &amp; 등)를 글자로 바꾼다. 일부 언론 사이트맵 제목에 엔티티가 그대로 들어 있다. */
+export function decodeEntities(s: string): string {
+  const named: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', middot: '·', hellip: '…', lsquo: '‘', rsquo: '’', ldquo: '“', rdquo: '”' };
+  return s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e: string) => {
+    if (e[0] === '#') {
+      const code = e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : Number(e.slice(1));
+      return Number.isFinite(code) && code > 0 ? String.fromCodePoint(code) : m;
+    }
+    return named[e.toLowerCase()] ?? m;
+  });
+}
