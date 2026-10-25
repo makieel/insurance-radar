@@ -1,5 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { isNoise } from '../src/analyze/relevance.ts';
 import { readFileSync } from 'node:fs';
 import { buildLatest, ruleImportance } from '../src/cli/build.ts';
 import { loadConfig } from '../src/config.ts';
@@ -43,7 +44,11 @@ function group(source: SourceId, overrides: Partial<NewsGroup> = {}): NewsGroup 
     published = block.match(/class="day">(\d{4}-\d{2}-\d{2})/)![1]!;
   } else if (source !== 'knia-press') {
     const xml = readFileSync(new URL(`fixtures/${source}.xml`, import.meta.url), 'utf8');
-    const block = xml.match(/<item>([\s\S]*?)<\/item>/)![1]!;
+    // 빌드가 잡음·제외 규칙을 다시 적용하므로, 그 규칙에 걸리지 않는 첫 기사를 쓴다.
+    const block = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => m[1]!).find(b => {
+      const t = b.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/)![1]!;
+      return !isNoise(t, config.keywords) && !config.keywords.exclude.some(w => t.includes(w));
+    })!;
     title = block.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/)![1]!;
     url = block.match(/<link>(.*?)<\/link>/)![1]!;
     id = `${source}:${new URL(url).searchParams.get('idxno')}`;
@@ -270,4 +275,13 @@ test('하루 여러 번 실행으로 따로 생긴 같은 소식 묶음은 화�
   const result = buildLatest({ ...input(), dailies: [daily(today, [a]), daily(today, [b])] });
   assert.equal(result.news.length, 1);
   assert.equal(result.news[0]?.sources.length, 2);
+});
+
+test('저장된 묶음에도 지금의 제외·잡음 규칙을 다시 적용한다', () => {
+  // 2026-09 중앙일보 실제 제목(공적 연금 기사)과 업계 행사 기사
+  const pension = group('insnews', { title: '한 달 보험료 내고 노령연금 수급권…국민연금 ‘추납 꼼수’ 막는다', relevance: 'high' });
+  const meeting = group('insweek', { title: '손해사정사회, 임시총회·회원 단합대회 개최', relevance: 'medium' });
+  const result = buildLatest({ ...input(), dailies: [daily(today, [pension, meeting])] });
+  assert.equal(result.news.length, 0);
+  assert.equal(result.highlights.length, 0);
 });

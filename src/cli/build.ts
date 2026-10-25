@@ -1,6 +1,6 @@
 import { loadConfig } from '../config.ts';
 import type { Config } from '../config.ts';
-import { ruleRelevance } from '../analyze/relevance.ts';
+import { isNoise, ruleRelevance } from '../analyze/relevance.ts';
 import { similar } from '../analyze/group.ts';
 import { addDays } from '../lib/dates.ts';
 import { decodeEntities } from '../lib/text.ts';
@@ -63,6 +63,9 @@ export function buildLatest(input: {
       for (const group of daily.groups) {
         // 게시일 기준으로 자른다. 첫 실행 채우기로 처음 본 옛 글이 "최근 소식"이 되지 않게 한다.
         if (group.published < since || group.published > today || groups.has(group.id)) continue;
+        // 저장된 묶음에도 지금 규칙을 다시 적용한다. 규칙을 고치면 옛 데이터도 손대지 않고 바로 반영된다.
+        if (isNoise(group.title, keywords)) continue;
+        if (keywords.exclude.some(word => group.title.includes(word))) continue;
         const source = group.id.slice(2).split(':')[0] as SourceId;
         const kind = sourceKinds[source] ?? group.kind;
         // 관련도가 없는 옛 데이터는 규칙으로 채운다(대표 글 본문은 보관하지 않는다).
@@ -100,7 +103,7 @@ export function buildLatest(input: {
     .sort((a, b) => Number(b.important) - Number(a.important) || b.sources.length - a.sources.length)
     .slice(0, industryLimit);
   // 저장된 제목에 남은 HTML 엔티티를 화면에 내기 전에 글자로 바꾼다.
-  const clean = (list: NewsGroup[]): NewsGroup[] => list.map(g => ({ ...g, title: decodeEntities(g.title), summary: g.summary === null ? null : decodeEntities(g.summary) }));
+  const clean = (list: NewsGroup[]): NewsGroup[] => list.map(g => ({ ...g, title: decodeEntities(g.title).replace(/�+/g, ' '), summary: g.summary === null ? null : decodeEntities(g.summary) }));
   return Latest.parse({
     date: today, generatedAt, changes, news: clean(news), official: clean(official), industry: clean(industry), highlights: clean(highlights),
     rates: [...input.rates].sort((a, b) => b.effective.localeCompare(a.effective)).slice(0, 30),
