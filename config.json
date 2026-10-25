@@ -348,7 +348,7 @@
   },
   "limits": {
     "aiCallsPerDay": 120,
-    "summariesPerDay": 30,
+    "summariesPerDay": 80,
     "backfillDays": 183,
     "backfillPages": 6,
     "pdfPerDay": 15,
