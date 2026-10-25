@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T00:17:37.259Z",
+  "generatedAt": "2026-10-25T06:22:58.337Z",
   "groups": [
     {
       "id": "g:fins:110320",
@@ -40,6 +40,160 @@
       ],
       "itemIds": [
         "yna:AKR20261023153000017"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:insnews:93471",
+      "topic": "general",
+      "kind": "press",
+      "title": "AI 에이전트가 보험 가입·청구 대행… 업계 ‘대응 과제’ 부상",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93471",
+      "published": "2026-10-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93471"
+        }
+      ],
+      "itemIds": [
+        "insnews:93471"
+      ],
+      "summary": "인공지능(AI) 에이전트가 소비자를 대신해 보험상품 비교부터 가입과 해지, 보험금 청구까지 수행하면서 보험산업의 판매채널과 계약 관리 방식에 변화가 예상돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:fins:110315",
+      "topic": "general",
+      "kind": "press",
+      "title": "자차 자기부담금 높이려면…“보험료 할인·수리비 절감 함께 가야”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110315",
+      "published": "2026-10-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110315"
+        }
+      ],
+      "itemIds": [
+        "fins:110315"
+      ],
+      "summary": "자동차보험 계약자가 높은 자기부담금을 선택하도록 유도하려면 보험료 인하 폭이 사고 발생 시 예상되는 자기차량손해 보험금 감소 폭보다 커야 한다는 분석이 나왔어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:fins:110314",
+      "topic": "general",
+      "kind": "press",
+      "title": "소비자 대신 보험 갈아타는 AI…“보험사, 유지 전략 등 재점검해야”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110314",
+      "published": "2026-10-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110314"
+        }
+      ],
+      "itemIds": [
+        "fins:110314"
+      ],
+      "summary": "소비자를 대신해 보험을 비교하고 가입과 해지, 보험금 청구까지 수행하는 인공지능(AI) 에이전트가 확산하고 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:chosun:COIFRPUVG5DVLIMOFHASVLGEV4",
+      "topic": "general",
+      "kind": "press",
+      "title": "민간 우주로켓 책임보험 상한 첫 책정…최대 238억원",
+      "url": "https://www.chosun.com/economy/science/2026/10/25/COIFRPUVG5DVLIMOFHASVLGEV4/",
+      "published": "2026-10-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/science/2026/10/25/COIFRPUVG5DVLIMOFHASVLGEV4/"
+        }
+      ],
+      "itemIds": [
+        "chosun:COIFRPUVG5DVLIMOFHASVLGEV4"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:chosun:MS4W63N2HJGBREGAEPACAP2FRY",
+      "topic": "general",
+      "kind": "press",
+      "title": "공정위, 지주회사의 금융·보험사 주식 소유 금지 위반한 KPIC코포레이션에 과징금 3100만원 부과",
+      "url": "https://www.chosun.com/economy/economy_general/2026/10/25/MS4W63N2HJGBREGAEPACAP2FRY/",
+      "published": "2026-10-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/economy_general/2026/10/25/MS4W63N2HJGBREGAEPACAP2FRY/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MS4W63N2HJGBREGAEPACAP2FRY"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:chosun:GZQWMNTGGU3DEMBXGU4TGMTFMI",
+      "topic": "general",
+      "kind": "press",
+      "title": "민간 로켓 ‘한빛-나노’에 책임보험 첫 고시… 최대 1800만달러",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/25/GZQWMNTGGU3DEMBXGU4TGMTFMI/",
+      "published": "2026-10-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/10/25/GZQWMNTGGU3DEMBXGU4TGMTFMI/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GZQWMNTGGU3DEMBXGU4TGMTFMI"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:chosun:GAZDAZJUGMYGIODFGQ3GGNZTMY",
+      "topic": "life",
+      "kind": "press",
+      "title": "작년 외국인 건강보험 흑자인데, 중국인 가입자는 409억원 적자",
+      "url": "https://www.chosun.com/economy/science/2026/10/25/GAZDAZJUGMYGIODFGQ3GGNZTMY/",
+      "published": "2026-10-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/science/2026/10/25/GAZDAZJUGMYGIODFGQ3GGNZTMY/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GAZDAZJUGMYGIODFGQ3GGNZTMY"
       ],
       "summary": null,
       "relevance": "low",
@@ -195,9 +349,9 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 4,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {

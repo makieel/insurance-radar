@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T00:17:37.259Z",
+  "generatedAt": "2026-10-25T06:22:58.337Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2977,14 +2977,14 @@
       "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%b3%b4%ed%97%98%ea%b8%88-%ec%a7%80%ea%b8%89%ec%86%8d%eb%8f%84-1%ec%9c%84/",
       "published": "2026-10-23",
       "hints": [
-        "보도자료",
         "회사소식",
-        "신창재",
+        "보도자료",
         "보험금 지급",
         "교보생명",
         "고객보장",
         "신속지급",
-        "AI"
+        "AI",
+        "신창재"
       ],
       "attachments": []
     },
@@ -3211,6 +3211,17 @@
       "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23497",
       "published": "2025-08-21",
       "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93471",
+      "source": "insnews",
+      "title": "AI 에이전트가 보험 가입·청구 대행… 업계 ‘대응 과제’ 부상",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93471",
+      "published": "2026-10-25",
+      "hints": [
+        "보험"
+      ],
       "attachments": []
     },
     {
@@ -3749,17 +3760,6 @@
       "published": "2026-10-19",
       "hints": [
         "은행"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "insnews:93387",
-      "source": "insnews",
-      "title": "보험업권, 취약어르신 65만명에 낙상 치료비·치매배상책임보험 무료 지원",
-      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93387",
-      "published": "2026-10-19",
-      "hints": [
-        "금융"
       ],
       "attachments": []
     },
@@ -4314,6 +4314,28 @@
       "attachments": []
     },
     {
+      "id": "insjournal:33630",
+      "source": "insjournal",
+      "title": "싸이·박진영·ITZY 무대에 '7000명' 한자리… AIA생명, K팝으로 '아시아 4개국' 잇다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33630",
+      "published": "2026-10-25",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33629",
+      "source": "insjournal",
+      "title": "한화금융 PLUS, 5000명 달린 '서울 플러스 10K' 공식 후원… 육상 유망주 왕서윤 지원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33629",
+      "published": "2026-10-25",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
       "id": "insjournal:33628",
       "source": "insjournal",
       "title": "토스는 '위촉' 유턴, 시그널은 '정규' 직진… 엇갈린 설계사 실험, 승부처는 '상담 구조'",
@@ -4842,25 +4864,21 @@
       "attachments": []
     },
     {
-      "id": "insjournal:33584",
-      "source": "insjournal",
-      "title": "'라이프케어 플랫폼' 도약 박차, 삼성생명 웅진프리드라이프 업무협약 체결",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33584",
-      "published": "2026-10-21",
-      "hints": [
-        "종합뉴스"
-      ],
+      "id": "fins:110315",
+      "source": "fins",
+      "title": "자차 자기부담금 높이려면…“보험료 할인·수리비 절감 함께 가야”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110315",
+      "published": "2026-10-25",
+      "hints": [],
       "attachments": []
     },
     {
-      "id": "insjournal:33583",
-      "source": "insjournal",
-      "title": "정문철 KB라이프 사장, 불법사금융 막는 '사람 살리는 금융' 캠페인 동참",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33583",
-      "published": "2026-10-21",
-      "hints": [
-        "종합뉴스"
-      ],
+      "id": "fins:110314",
+      "source": "fins",
+      "title": "소비자 대신 보험 갈아타는 AI…“보험사, 유지 전략 등 재점검해야”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110314",
+      "published": "2026-10-25",
+      "hints": [],
       "attachments": []
     },
     {
@@ -5296,24 +5314,6 @@
       "attachments": []
     },
     {
-      "id": "fins:110258",
-      "source": "fins",
-      "title": "설계사·GA 등 고객정보 맡긴 보험사…위탁 관리·감독이 책임 가른다",
-      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110258",
-      "published": "2026-10-19",
-      "hints": [],
-      "attachments": []
-    },
-    {
-      "id": "fins:110244",
-      "source": "fins",
-      "title": "사모대출 위험 경고에…보험사 투자자산 관리 '시험대'",
-      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110244",
-      "published": "2026-10-19",
-      "hints": [],
-      "attachments": []
-    },
-    {
       "id": "joongang:25471082",
       "source": "joongang",
       "title": "수리비 비싼 전기차 올해 75% 급증…보험업계 속탄다",
@@ -5346,6 +5346,42 @@
       "title": "노승열, PGA 투어 버뮤다 챔피언십 2라운드서 공동 23위",
       "url": "https://www.donga.com/news/Sports/article/all/20261024/134900290/1",
       "published": "2026-10-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:COIFRPUVG5DVLIMOFHASVLGEV4",
+      "source": "chosun",
+      "title": "민간 우주로켓 책임보험 상한 첫 책정…최대 238억원",
+      "url": "https://www.chosun.com/economy/science/2026/10/25/COIFRPUVG5DVLIMOFHASVLGEV4/",
+      "published": "2026-10-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MS4W63N2HJGBREGAEPACAP2FRY",
+      "source": "chosun",
+      "title": "공정위, 지주회사의 금융·보험사 주식 소유 금지 위반한 KPIC코포레이션에 과징금 3100만원 부과",
+      "url": "https://www.chosun.com/economy/economy_general/2026/10/25/MS4W63N2HJGBREGAEPACAP2FRY/",
+      "published": "2026-10-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GZQWMNTGGU3DEMBXGU4TGMTFMI",
+      "source": "chosun",
+      "title": "민간 로켓 ‘한빛-나노’에 책임보험 첫 고시… 최대 1800만달러",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/25/GZQWMNTGGU3DEMBXGU4TGMTFMI/",
+      "published": "2026-10-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GAZDAZJUGMYGIODFGQ3GGNZTMY",
+      "source": "chosun",
+      "title": "작년 외국인 건강보험 흑자인데, 중국인 가입자는 409억원 적자",
+      "url": "https://www.chosun.com/economy/science/2026/10/25/GAZDAZJUGMYGIODFGQ3GGNZTMY/",
+      "published": "2026-10-25",
       "hints": [],
       "attachments": []
     },
@@ -5705,9 +5741,9 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 4,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
