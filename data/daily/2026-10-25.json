@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T00:17:37.259Z",
+  "groups": [
+    {
+      "id": "g:fins:110320",
+      "topic": "life",
+      "kind": "press",
+      "title": "예보료율 인상안 보험업계 반발에…30일 재논의",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110320",
+      "published": "2026-10-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110320"
+        }
+      ],
+      "itemIds": [
+        "fins:110320"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai"
+    },
+    {
+      "id": "g:yna:AKR20261023153000017",
+      "topic": "general",
+      "kind": "press",
+      "title": "민간 우주로켓 보험금 첫 고시 추진…한빛-나노 최대 238억원",
+      "url": "https://www.yna.co.kr/view/AKR20261023153000017",
+      "published": "2026-10-23",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261023153000017"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261023153000017"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai"
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 61,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
