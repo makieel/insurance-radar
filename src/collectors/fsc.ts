@@ -109,7 +109,11 @@ async function collectDetails(items: RawItem[], ctx: CollectCtx): Promise<RawIte
   for (const item of unique) {
     if (ctx.seen.has(item.id)) continue;
     const detail = parseFscDetail(await fetchText(item.url, { fetch: ctx.fetch }));
-    if (!detail.text && detail.attachments.length === 0) throw new Error('금융위 상세 본문을 찾지 못했습니다');
+    // 구조가 다른 상세 페이지 하나 때문에 출처 전체가 멈추지 않도록 그 글만 본문 없이 둔다.
+    if (!detail.text && detail.attachments.length === 0) {
+      console.warn(`금융위 상세 본문을 찾지 못해 건너뜀: ${item.url}`);
+      continue;
+    }
     item.attachments = [...new Map([...item.attachments, ...detail.attachments].map(file => [file.url, file])).values()];
     const pdf = item.attachments.find(file => file.type === 'pdf');
     const pdfText = pdf ? await fetchPdfText(pdf.url, ctx.pdfBudget, { fetch: ctx.fetch }) : null;

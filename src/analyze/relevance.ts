@@ -18,8 +18,9 @@ export function ruleRelevance(
   kw: Config['keywords'],
 ): Relevance {
   if (input.topic === 'industry') return 'low';
-  if (input.kind === 'gov') return 'high';
   const inTitle = countIn(input.title, kw.personal);
+  // 정부 발표라도 개인과 무관한 것(가계대출 동향, 자격시험 합격자 등)이 섞이므로, 제목에 개인 관련 단어가 있을 때만 높음으로 본다.
+  if (input.kind === 'gov') return inTitle >= 1 ? 'high' : countIn(input.title, kw.insurance) >= 1 ? 'medium' : 'low';
   if (inTitle >= 2) return 'high';
   if (inTitle === 1) return 'medium';
   return countIn((input.body ?? '').slice(0, 300), kw.personal) >= 2 ? 'medium' : 'low';

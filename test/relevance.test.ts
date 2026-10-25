@@ -36,3 +36,11 @@ test('제목에 개인 단어가 없으면 본문 앞 300자에 2개 이상일 �
   assert.equal(ruleRelevance({ title: noPersonal, hints: [], body: null, kind: 'press', topic: 'general' }, kw), 'low');
   assert.equal(ruleRelevance({ title: noPersonal, hints: [], body, kind: 'press', topic: 'general' }, kw), 'medium');
 });
+
+test('정부 발표라도 개인과 무관한 제목은 높음이 아니다', () => {
+  const kw = loadConfig().keywords;
+  // 2026-08~09 금융감독원 실제 보도자료 제목
+  assert.equal(ruleRelevance({ title: '2026년 제49회 보험계리사 및 손해사정사 최종 합격자 발표', hints: [], body: null, kind: 'gov', topic: 'general' }, kw), 'medium');
+  assert.equal(ruleRelevance({ title: '2026년 8월 가계대출 동향(잠정) 및 가계부채 점검회의 개최', hints: [], body: null, kind: 'gov', topic: 'general' }, kw), 'low');
+  assert.equal(ruleRelevance({ title: '여행자보험 가입 시 알아야 할 유익정보 및 주요 분쟁조정사례를 알려드립니다', hints: [], body: null, kind: 'gov', topic: 'general' }, kw), 'high');
+});
