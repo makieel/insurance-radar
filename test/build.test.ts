@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { buildLatest } from '../src/cli/build.ts';
+import { buildLatest, ruleImportance } from '../src/cli/build.ts';
 import { loadConfig } from '../src/config.ts';
 import { addDays } from '../src/lib/dates.ts';
 import { Latest } from '../src/schema.ts';
@@ -76,7 +76,7 @@ function daily(date: string, groups: NewsGroup[]): DailyReport {
 }
 
 function input(): Parameters<typeof buildLatest>[0] {
-  return { today, generatedAt, changes: [], dailies: [], rates: [], status: [], sourceKinds, keywords: config.keywords };
+  return { today, generatedAt, changes: [], dailies: [], rates: [], status: [], sourceKinds, keywords: config.keywords, limits: config.limits };
 }
 
 test('오래된 정확한 날짜를 제외하고 겹치는 기간과 원문 표현을 보존한다', () => {
@@ -173,7 +173,10 @@ test('소식은 관련도 high를 먼저, 그다음 게시일 최신순으로 �
 });
 
 test('업계 동향은 중요한 것을 먼저 두고 (소식+공식 발표)/9개로 자른다', () => {
-  const news = Array.from({ length: 18 }, (_, n) => numbered('insnews', n));
+  const news = [
+    ...Array.from({ length: 15 }, (_, n) => numbered('insnews', n)),
+    ...Array.from({ length: 3 }, (_, n) => numbered('knia-press', n)),
+  ];
   const importantMany = numbered('insweek', 1, { topic: 'industry', important: true });
   importantMany.sources = threeSources(importantMany);
   const importantOne = numbered('insweek', 2, { topic: 'industry', important: true });
@@ -185,18 +188,78 @@ test('업계 동향은 중요한 것을 먼저 두고 (소식+공식 발표)/9�
   const industry = [plain, lowMany, many, importantOne, importantMany];
 
   const result = buildLatest({ ...input(), dailies: [daily(today, [...news, ...industry])] });
-  assert.equal(result.news.length, 18);
-  assert.equal(result.official.length, 0);
+  assert.equal(result.news.length, 15);
+  assert.equal(result.official.length, 3);
   assert.deepEqual(result.industry.map(entry => entry.id), [importantMany.id, importantOne.id]);
 
   const alone = buildLatest({ ...input(), dailies: [daily(today, industry)] });
   assert.deepEqual(alone.industry.map(entry => entry.id), [importantMany.id]);
 });
 
+test('칸별 상한: 소식 15개, 공식 발표 8개', () => {
+  const news = Array.from({ length: 20 }, (_, n) => numbered('insnews', n));
+  const official = Array.from({ length: 10 }, (_, n) => numbered('knia-press', n));
+  const result = buildLatest({ ...input(), dailies: [daily(today, [...news, ...official])] });
+  assert.equal(result.news.length, 15);
+  assert.equal(result.official.length, 8);
+});
+
+test('ruleImportance: gov·high 3, 출처 3곳 이상·high 3, high 2, medium 1', () => {
+  assert.equal(ruleImportance(group('fsc-press', { relevance: 'high' })), 3);
+  const many = group('insnews', { relevance: 'high' });
+  many.sources = threeSources(many);
+  assert.equal(ruleImportance(many), 3);
+  assert.equal(ruleImportance(group('insnews', { relevance: 'high' })), 2);
+  assert.equal(ruleImportance(group('insnews', { relevance: 'medium' })), 1);
+});
+
+test('주요 소식은 점수 내림차순 → 게시일 최신순이고 소식·공식 발표와 겹치지 않는다', () => {
+  const govOld5 = numbered('fsc-press', 1, { relevance: 'high', importance: 5, published: addDays(today, -100) });
+  const govRule = numbered('fsc-press', 2, { relevance: 'high', published: addDays(today, -40) });
+  const pressRule = numbered('insnews', 3, { relevance: 'high', published: addDays(today, -50) });
+  const pressNew5 = numbered('insnews', 4, { relevance: 'high', importance: 5, published: addDays(today, -10) });
+  const medium4 = numbered('insnews', 5, { relevance: 'medium', importance: 4, published: addDays(today, -60) });
+  const inNews = group('hanwha', { relevance: 'high', importance: 5 });
+  const inOfficial = numbered('fsc-press', 9, { relevance: 'high', importance: 5, published: addDays(today, -5) });
+  const all = [govOld5, govRule, pressRule, pressNew5, medium4, inNews, inOfficial];
+  const result = buildLatest({ ...input(), dailies: [daily(today, all)] });
+  assert.deepEqual(result.news.map(entry => entry.id), [inNews.id]);
+  assert.deepEqual(result.official.map(entry => entry.id), [inOfficial.id]);
+  assert.deepEqual(result.highlights.map(entry => entry.id), [pressNew5.id, govOld5.id, medium4.id, govRule.id, pressRule.id]);
+  // 화면 별점용으로 규칙 점수가 채워진다
+  assert.deepEqual(result.highlights.map(entry => entry.importance), [5, 5, 4, 3, 2]);
+  assert.ok(Latest.safeParse(result).success);
+});
+
+test('기간 밖·업계 동향·관련도 low·중요도 4 미만 medium은 주요 소식에서 뺀다', () => {
+  const edge = numbered('fsc-press', 1, { relevance: 'high', published: addDays(today, 1 - config.limits.highlightsDays) });
+  const outside = numbered('fsc-press', 2, { relevance: 'high', importance: 5, published: addDays(today, -config.limits.highlightsDays) });
+  const industry = numbered('insweek', 3, { topic: 'industry', relevance: 'high', importance: 5, published: addDays(today, -40) });
+  const low = numbered('insnews', 4, { relevance: 'low', importance: 5, published: addDays(today, -40) });
+  const medium3 = numbered('insnews', 5, { relevance: 'medium', importance: 3, published: addDays(today, -45) });
+  const mediumNone = numbered('insnews', 6, { relevance: 'medium', published: addDays(today, -50) });
+  const result = buildLatest({ ...input(), dailies: [daily(today, [edge, outside, industry, low, medium3, mediumNone])] });
+  assert.deepEqual(result.highlights.map(entry => entry.id), [edge.id]);
+});
+
+test('업계 동향 상한 = min(industryMax, max(1, floor((소식 + 공식 발표 + 주요 소식) / 9)))', () => {
+  const news = Array.from({ length: 9 }, (_, n) => numbered('insnews', n));
+  const highlights = Array.from({ length: 9 }, (_, n) => numbered('fins', n, { relevance: 'high', published: addDays(today, -40) }));
+  const industry = Array.from({ length: 3 }, (_, n) => numbered('insweek', n, { topic: 'industry', important: true }));
+  const dailies = [daily(today, [...news, ...highlights, ...industry])];
+  const result = buildLatest({ ...input(), dailies });
+  assert.equal(result.news.length, 9);
+  assert.equal(result.highlights.length, 9);
+  assert.equal(result.industry.length, 2);
+  const capped = buildLatest({ ...input(), dailies, limits: { ...config.limits, industryMax: 1 } });
+  assert.equal(capped.industry.length, 1);
+});
+
 test('데이터가 없어도 스키마에 맞는 빈 화면 데이터를 만든다', () => {
   const result = buildLatest(input());
   assert.deepEqual(result.counts, { newToday: 0, upcoming: 0, recent: 0 });
   assert.deepEqual(result.news, []);
+  assert.deepEqual(result.highlights, []);
   assert.deepEqual(result.status, []);
   assert.ok(Latest.safeParse(result).success);
 });

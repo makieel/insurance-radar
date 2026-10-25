@@ -70,6 +70,7 @@ export function render(root, data, ctx) {
   const NEWS = arr(d0.news).filter(validGroup);
   const OFFICIAL = arr(d0.official).filter(validGroup);
   const INDUSTRY = arr(d0.industry).filter(validGroup);
+  const HIGHLIGHTS = arr(d0.highlights).filter((g) => validGroup(g) && isIso(g.published));
   const RATES = arr(d0.rates).filter((r) => r && isIso(r.effective) && Number.isFinite(r.total));
   const STATUS = arr(d0.status).filter((s) => s && typeof s.source === 'string');
   const counts = d0.counts && typeof d0.counts === 'object' ? d0.counts : {};
@@ -535,6 +536,17 @@ export function render(root, data, ctx) {
     const k = topicOf(n), srcs = arr(n.sources);
     return `<div class="item ${cc(k)}" data-cat="${k}"><div class="top"><span class="cat"><span class="catdot"></span>${esc(LABEL[k])}</span>${n.kind === 'insurer' ? '<span>· 보험사 발표</span>' : ''}${srcs.length > 1 ? `<span>· ${srcs.length}곳 보도</span>` : ''}${isIso(n.published) ? `<span>· ${mdY(n.published)}</span>` : ''}</div><h3>${esc(n.title)}</h3>${n.summary ? `<p>${esc(n.summary)}</p>` : ''}<div class="srcs">${srcs.length ? srcLinks(srcs) : link('원문', n.url)}</div></div>`;
   };
+  // 지난 9개월 주요 소식: 월별로 묶고(최근 달 먼저), 달 안에서는 빌드가 정한 중요도 순서를 따른다
+  const hlItem = (g) => {
+    const k = topicOf(g), srcs = arr(g.sources), n = g.importance;
+    const stars = Number.isInteger(n) && n >= 1 && n <= 5 ? `<span class="stars" role="img" aria-label="중요도 5점 중 ${n}점" title="중요도 ${n}/5">${'★'.repeat(n)}</span>` : '';
+    return `<div class="item ${cc(k)}" data-cat="${k}"><div class="top">${stars}<span class="cat"><span class="catdot"></span>${esc(LABEL[k])}</span>${g.kind === 'gov' || g.kind === 'assoc' ? '<span>· 공식 발표</span>' : g.kind === 'insurer' ? '<span>· 보험사 발표</span>' : ''}${srcs.length > 1 ? `<span>· ${srcs.length}곳 보도</span>` : ''}<span>· ${mdY(g.published)}</span></div><h3>${esc(g.title)}</h3>${g.summary ? `<p>${esc(g.summary)}</p>` : ''}<div class="srcs">${srcs.length ? srcLinks(srcs) : link('원문', g.url)}</div></div>`;
+  };
+  const hlMonths = () => {
+    const by = new Map();
+    HIGHLIGHTS.forEach((g) => { const m = g.published.slice(0, 7); by.set(m, [...(by.get(m) || []), g]); });
+    return [...by.keys()].sort().reverse().map((m) => `<div class="hlm"><h3 class="hlh">${+m.slice(0, 4)}년 ${+m.slice(5, 7)}월</h3><div class="hlg">${by.get(m).map(hlItem).join('')}</div></div>`).join('');
+  };
   const officialRows = () => OFFICIAL.map((o) => {
     const k = topicOf(o), src = arr(o.sources)[0]?.name ?? '';
     return `<div class="row ${cc(k)}" data-cat="${k}"><span class="off">공식</span><span class="ot"><span class="catdot"></span>${link(o.title, o.url)}<br><small style="color:var(--ink3)">${esc(src)} · ${esc(LABEL[k])}</small></span><span class="n dt">${isIso(o.published) ? mdY(o.published) : ''}</span></div>`;
@@ -591,7 +603,10 @@ export function render(root, data, ctx) {
     </section>
     ${chipsHtml('d-only')}
     <div class="below">
-      <section id="sec-news"><h2 class="sh">오늘 소식 <small>최근 3일 · ${NEWS.length}개 주제</small></h2><div class="news" data-list>${NEWS.map(newsItem).join('')}<div class="empty hide">${NEWS.length ? '이 종류의 소식이 없습니다' : '오늘 새 소식 없음'}</div></div></section>
+      <div class="mainc">
+        <section id="sec-news"><h2 class="sh">오늘 소식 <small>최근 3일 · ${NEWS.length}개 주제</small></h2><div class="news" data-list>${NEWS.map(newsItem).join('')}<div class="empty hide">${NEWS.length ? '이 종류의 소식이 없습니다' : '오늘 새 소식 없음'}</div></div></section>
+        <section id="sec-hl"><h2 class="sh">지난 9개월 주요 소식 <small>월별 · 중요도 순 · ${HIGHLIGHTS.length}건</small></h2><div class="hls" data-list>${hlMonths()}<div class="empty hide">${HIGHLIGHTS.length ? '이 종류의 주요 소식이 없습니다' : '지난 주요 소식을 모으는 중입니다'}</div></div></section>
+      </div>
       <aside class="side">
         <div class="card" id="sec-off"><h2>공식 발표 <small>정부·감독기관·협회</small></h2><div data-list>${officialRows()}<div class="empty hide">${OFFICIAL.length ? '이 종류의 발표가 없습니다' : NONE}</div></div></div>
         <div class="card" id="sec-rate"><h2>자동차보험료 조정 <small>손보협회 공시실 · 띠에 겹쳐 볼 수 있음</small></h2>${RATES.length ? rateRows() : empty(NONE)}</div>
@@ -604,6 +619,7 @@ export function render(root, data, ctx) {
   <nav class="tabs" id="tabs" aria-label="섹션 바로 가기">
     <a href="#sec-chg" data-sec="sec-chg">바뀌는 것</a>
     <a href="#sec-news" data-sec="sec-news">소식</a>
+    <a href="#sec-hl" data-sec="sec-hl">주요</a>
     <a href="#sec-off" data-sec="sec-off">발표</a>
     <a href="#sec-ind" data-sec="sec-ind">동향</a>
     <a href="#sec-rate" data-sec="sec-rate">보험료</a>
@@ -625,6 +641,7 @@ export function render(root, data, ctx) {
     const f = st.filter, all = f === 'all';
     $$('.chip').forEach((c) => { const sel = c.dataset.f === f; c.classList.toggle('on', sel); c.setAttribute('aria-pressed', String(sel)); });
     $$('.below [data-cat]').forEach((el) => el.classList.toggle('hide', !all && el.dataset.cat !== f));
+    $$('.below .hlm').forEach((m) => m.classList.toggle('hide', ![...m.querySelectorAll('[data-cat]')].some((el) => !el.classList.contains('hide'))));
     $$('.lanes [data-lane]').forEach((el) => el.classList.toggle('dim', !all && el.dataset.lane !== f));
     $$('.strip [data-cat]').forEach((el) => el.classList.toggle('dim', !all && el.dataset.cat !== f));
     $$('.below [data-list]').forEach((l) => {

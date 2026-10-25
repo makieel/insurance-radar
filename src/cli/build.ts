@@ -30,16 +30,23 @@ export function mergeSimilar(groups: NewsGroup[]): NewsGroup[] {
     for (const id of g.itemIds) if (!near.itemIds.includes(id)) near.itemIds.push(id);
     near.summary ??= g.summary;
     near.important ||= g.important;
+    if (g.importance !== null && (near.importance === null || g.importance > near.importance)) near.importance = g.importance;
   }
   return out;
+}
+
+/** AI 중요도가 아직 없을 때 쓰는 규칙 점수(1~3) */
+export function ruleImportance(g: NewsGroup): number {
+  if (g.relevance === 'high') return g.kind === 'gov' || g.sources.length >= 3 ? 3 : 2;
+  return 1;
 }
 
 export function buildLatest(input: {
   today: string; generatedAt: string; changes: Change[]; dailies: DailyReport[];
   rates: RateRow[]; status: SourceStatus[]; sourceKinds: Record<SourceId, SourceKind>;
-  keywords: Config['keywords'];
+  keywords: Config['keywords']; limits: Config['limits'];
 }): Latest {
-  const { today, generatedAt, sourceKinds, keywords } = input;
+  const { today, generatedAt, sourceKinds, keywords, limits } = input;
   const start = addDays(today, -183);
   const end = addDays(today, 183);
   const changes = input.changes.filter(change => {
@@ -47,7 +54,7 @@ export function buildLatest(input: {
     if (change.when === 'period') return change.period !== null && change.period.start <= end && change.period.end >= start;
     return true;
   });
-  const groupsWithin = (days: number): NewsGroup[] => {
+  const groupsWithin = (days: number, keep: (group: NewsGroup) => boolean = () => true): NewsGroup[] => {
     const since = addDays(today, 1 - days);
     const groups = new Map<string, NewsGroup>();
     for (const daily of [...input.dailies].sort((a, b) => b.date.localeCompare(a.date))) {
@@ -60,7 +67,8 @@ export function buildLatest(input: {
         // 관련도가 없는 옛 데이터는 규칙으로 채운다(대표 글 본문은 보관하지 않는다).
         const relevance = group.relevance ?? ruleRelevance({ title: group.title, hints: [], body: null, kind, topic: group.topic }, keywords);
         const relevanceBy = group.relevance === null ? 'rule' : group.relevanceBy;
-        groups.set(group.id, { ...group, kind, relevance, relevanceBy });
+        const filled = { ...group, kind, relevance, relevanceBy };
+        if (keep(filled)) groups.set(group.id, filled);
       }
     }
     return mergeSimilar([...groups.values()]).sort((a, b) => b.published.localeCompare(a.published) || b.firstSeen.localeCompare(a.firstSeen));
@@ -69,17 +77,29 @@ export function buildLatest(input: {
     .filter(group => group.topic !== 'industry' && (group.kind === 'insurer' || group.kind === 'press')
       && (group.relevance === 'high' || group.relevance === 'medium'))
     // 정렬이 안정적이므로 같은 관련도 안에서는 게시일 최신순이 유지된다.
-    .sort((a, b) => Number(b.relevance === 'high') - Number(a.relevance === 'high'));
+    .sort((a, b) => Number(b.relevance === 'high') - Number(a.relevance === 'high'))
+    .slice(0, limits.newsMax);
   const official = groupsWithin(30)
-    .filter(group => group.topic !== 'industry' && (group.kind === 'gov' || group.kind === 'assoc') && group.relevance !== 'low');
+    .filter(group => group.topic !== 'industry' && (group.kind === 'gov' || group.kind === 'assoc') && group.relevance !== 'low')
+    .slice(0, limits.officialMax);
+  // 지난 주요 소식: 위 두 칸에 이미 보이는 글(합쳐진 글 포함)은 뺀다.
+  const shown = new Set([...news, ...official].flatMap(group => [group.id, ...group.itemIds]));
+  const highlights = groupsWithin(limits.highlightsDays, group => group.topic !== 'industry'
+    && (group.relevance === 'high' || (group.relevance === 'medium' && (group.importance ?? 0) >= 4)))
+    .filter(group => !shown.has(group.id) && !group.itemIds.some(id => shown.has(id)))
+    // 화면이 별점을 그릴 수 있게 순위에 쓴 점수를 importance에 담는다.
+    .map(group => ({ ...group, importance: group.importance ?? ruleImportance(group) }))
+    // 정렬이 안정적이므로 같은 점수 안에서는 게시일 최신순이 유지된다.
+    .sort((a, b) => b.importance - a.importance)
+    .slice(0, limits.highlightsMax);
   // 업계 소식은 화면 전체의 10% 이내로, 개인에게도 중요한 것과 여러 곳이 다룬 것만 보여 준다.
-  const industryLimit = Math.min(5, Math.max(1, Math.floor((news.length + official.length) / 9)));
+  const industryLimit = Math.min(limits.industryMax, Math.max(1, Math.floor((news.length + official.length + highlights.length) / 9)));
   const industry = groupsWithin(14)
     .filter(group => (group.topic === 'industry' || group.relevance === 'low') && (group.important || group.sources.length >= 3))
     .sort((a, b) => Number(b.important) - Number(a.important) || b.sources.length - a.sources.length)
     .slice(0, industryLimit);
   return Latest.parse({
-    date: today, generatedAt, changes, news, official, industry,
+    date: today, generatedAt, changes, news, official, industry, highlights,
     rates: [...input.rates].sort((a, b) => b.effective.localeCompare(a.effective)).slice(0, 30),
     status: input.status,
     counts: {
@@ -100,18 +120,18 @@ if (import.meta.main) {
   const today = pipelineDate();
   const config = loadConfig();
   const dailies: DailyReport[] = [];
-  for (let offset = 0; offset < 30; offset++) {
+  for (let offset = 0; offset < config.limits.highlightsDays; offset++) {
     const daily = readJson<unknown>(dailyPath(addDays(today, -offset)), null);
     if (daily !== null) dailies.push(DailyReport.parse(daily));
   }
   const snapshot = readJson<unknown>(rawPath(today), null);
   const status = snapshot === null ? (dailies[0]?.status ?? []) : RawSnapshot.parse(snapshot).status;
   const latest = buildLatest({
-    today, generatedAt: new Date().toISOString(), dailies, status, keywords: config.keywords,
+    today, generatedAt: new Date().toISOString(), dailies, status, keywords: config.keywords, limits: config.limits,
     changes: readJson<Change[]>(CHANGES_PATH, []),
     rates: readJson<RateRow[]>(RATES_PATH, []),
     sourceKinds: Object.fromEntries(config.sources.map(source => [source.id, source.kind])) as Record<SourceId, SourceKind>,
   });
   writeJson(LATEST_PATH, latest);
-  console.log(`빌드 완료: 변경 ${latest.changes.length}개, 새 소식 ${latest.news.length}개`);
+  console.log(`빌드 완료: 변경 ${latest.changes.length}개, 새 소식 ${latest.news.length}개, 공식 발표 ${latest.official.length}개, 주요 소식 ${latest.highlights.length}개, 업계 ${latest.industry.length}개`);
 }

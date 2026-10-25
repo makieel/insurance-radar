@@ -20,6 +20,7 @@ export const RATES_PATH = join(DATA_DIR, 'rates.json');
 export const SEEN_PATH = join(DATA_DIR, 'seen.json');
 export const PENDING_PATH = join(DATA_DIR, 'pending-ai.json');
 export const AI_USAGE_PATH = join(DATA_DIR, 'ai-usage.json');
+export const ARCHIVE_STATE_PATH = join(DATA_DIR, 'archive-state.json');
 export const BODIES_DIR = fileURLToPath(new URL('../tmp/bodies/', import.meta.url));
 export const LATEST_PATH = fileURLToPath(new URL('../web/data/latest.json', import.meta.url));
 
@@ -51,6 +52,24 @@ export function writeJson(path: string, value: unknown): void {
   const text = `${JSON.stringify(value, null, 2)}\n`;
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, text, 'utf8');
+}
+
+export interface ArchiveState {
+  /** 다음에 읽을 중앙일보 날짜. */
+  joongangOldest: string | null;
+  dongaCursor: { file: string; index: number } | null;
+  dongaDone: boolean;
+  officialDone: boolean;
+}
+
+export function readArchiveState(): ArchiveState {
+  return readJson<ArchiveState>(ARCHIVE_STATE_PATH, {
+    joongangOldest: null, dongaCursor: null, dongaDone: false, officialDone: false,
+  });
+}
+
+export function writeArchiveState(state: ArchiveState): void {
+  writeJson(ARCHIVE_STATE_PATH, state);
 }
 
 /** 그날 쓴 AI 호출 수와 요약 수. 하루 여러 번 실행해도 상한을 함께 센다. */
