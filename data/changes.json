@@ -66,6 +66,28 @@
     "firstSeen": "2026-10-23"
   },
   {
+    "id": "c:donga:134760957:ai",
+    "category": "medical",
+    "title": "네이버·토스 앱에서 실손보험 청구 가능",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "10월 7일부터",
+    "quote": "금융위원회는 실손보험 온라인 청구 활성화를 위해 10월 7일부터 이 같은 방안을 실시한다고 밝혔다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-09-30",
+    "sources": [
+      {
+        "name": "동아일보",
+        "url": "https://www.donga.com/news/Economy/article/all/20260930/134760957/1"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
     "id": "c:fsc-press:87818:2026-09-30",
     "category": "medical",
     "title": "의료계·플랫폼 협력으로 “실손24” 연계율 제고 나선다.",

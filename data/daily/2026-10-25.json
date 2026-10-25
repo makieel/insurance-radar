@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T13:09:34.167Z",
+  "generatedAt": "2026-10-25T13:21:50.608Z",
   "groups": [
     {
       "id": "g:fins:110320",
@@ -1805,6 +1805,499 @@
       "important": false,
       "relevanceBy": "rule",
       "importance": 3
+    },
+    {
+      "id": "g:donga:134758257",
+      "topic": "auto",
+      "kind": "press",
+      "title": "같은 범퍼인데 ‘고무줄’ 수리비…과잉수리가 車보험료 올린다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260930/134758257/1",
+      "published": "2026-09-30",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260930/134758257/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134758257"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4
+    },
+    {
+      "id": "g:donga:134760957",
+      "topic": "medical",
+      "kind": "press",
+      "title": "내달 7일부터 네이버·토스에서도 실손보험 청구 가능해진다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260930/134760957/1",
+      "published": "2026-09-30",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260930/134760957/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134760957"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5
+    },
+    {
+      "id": "g:donga:134743383",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험금 안 주거나 덜 줘…5년간 961건, 5억 넘었다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260928/134743383/1",
+      "published": "2026-09-28",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260928/134743383/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134743383"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3
+    },
+    {
+      "id": "g:donga:134741266",
+      "topic": "auto",
+      "kind": "press",
+      "title": "롯데손보, 車보험료 최대 9% 할인 특약",
+      "url": "https://www.donga.com/news/Economy/article/all/20260928/134741266/1",
+      "published": "2026-09-28",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260928/134741266/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134741266"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25449700",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;함께하는 금융&#93; 핵심 보장은 그대로 보험료 부담은 낮춰",
+      "url": "https://www.joongang.co.kr/article/25449700",
+      "published": "2026-07-31",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25449700"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25449699"
+        }
+      ],
+      "itemIds": [
+        "joongang:25449700",
+        "joongang:25449699"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25449418",
+      "topic": "medical",
+      "kind": "press",
+      "title": "도수치료 묶자 신장분사치료 급증…실손보험 ‘풍선효과’",
+      "url": "https://www.joongang.co.kr/article/25449418",
+      "published": "2026-07-30",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25449418"
+        }
+      ],
+      "itemIds": [
+        "joongang:25449418"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25448236",
+      "topic": "general",
+      "kind": "press",
+      "title": "초고가 1주택 겨눈 세제 개편…장특공제 손보고 종부세는 핀셋 과세",
+      "url": "https://www.joongang.co.kr/article/25448236",
+      "published": "2026-07-26",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25448236"
+        }
+      ],
+      "itemIds": [
+        "joongang:25448236"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25446659",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 고혈압 있어도 암 특약 할증 없앤 ‘교보K-맞춤건강보험’ 인기",
+      "url": "https://www.joongang.co.kr/article/25446659",
+      "published": "2026-07-21",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25446659"
+        }
+      ],
+      "itemIds": [
+        "joongang:25446659"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25444212",
+      "topic": "general",
+      "kind": "press",
+      "title": "은행 이어 보험까지 빗장…하반기 ‘대출 빙하기’ 시작",
+      "url": "https://www.joongang.co.kr/article/25444212",
+      "published": "2026-07-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25444212"
+        }
+      ],
+      "itemIds": [
+        "joongang:25444212"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25444112",
+      "topic": "general",
+      "kind": "press",
+      "title": "예별손보 새주인에 OK금융그룹…매각 우협대상자로 선정",
+      "url": "https://www.joongang.co.kr/article/25444112",
+      "published": "2026-07-10",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25444112"
+        }
+      ],
+      "itemIds": [
+        "joongang:25444112"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25443851",
+      "topic": "general",
+      "kind": "press",
+      "title": "6억 받으려 했는데 멘붕…은행도 보험사도 주담대 조인다",
+      "url": "https://www.joongang.co.kr/article/25443851",
+      "published": "2026-07-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25443851"
+        }
+      ],
+      "itemIds": [
+        "joongang:25443851"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25443675",
+      "topic": "general",
+      "kind": "press",
+      "title": "자생한방병원, 수백억대 보험사기 의혹 터졌다…경찰 압색",
+      "url": "https://www.joongang.co.kr/article/25443675",
+      "published": "2026-07-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25443675"
+        }
+      ],
+      "itemIds": [
+        "joongang:25443675"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25443612",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;단독&#93; 학생보다 교직원이 많은 학교…넘치는 교부금 이젠 바꾸자",
+      "url": "https://www.joongang.co.kr/article/25443612",
+      "published": "2026-07-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25443612"
+        }
+      ],
+      "itemIds": [
+        "joongang:25443612"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25443342",
+      "topic": "general",
+      "kind": "press",
+      "title": "승인 없이 대마 넘기고, 모자란 프로포폴은 1494개…엉터리 마약관리 15명 검찰 송치",
+      "url": "https://www.joongang.co.kr/article/25443342",
+      "published": "2026-07-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25443342"
+        }
+      ],
+      "itemIds": [
+        "joongang:25443342"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1
+    },
+    {
+      "id": "g:joongang:25442984",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 납입 보험료로 생활자금 활용, 사망보장은 그대로 유지",
+      "url": "https://www.joongang.co.kr/article/25442984",
+      "published": "2026-07-07",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25442984"
+        }
+      ],
+      "itemIds": [
+        "joongang:25442984"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25442707",
+      "topic": "general",
+      "kind": "press",
+      "title": "법원 “돌연사로 보험금 타내려면 유족이 부검으로 입증해야”",
+      "url": "https://www.joongang.co.kr/article/25442707",
+      "published": "2026-07-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25442707"
+        }
+      ],
+      "itemIds": [
+        "joongang:25442707"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25442343",
+      "topic": "life",
+      "kind": "press",
+      "title": "똑같은 부정맥 보험? 가입 시기별 범위 완전 달라",
+      "url": "https://www.joongang.co.kr/article/25442343",
+      "published": "2026-07-04",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25442343"
+        }
+      ],
+      "itemIds": [
+        "joongang:25442343"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25441771",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;2026 한국서비스품질지수&#93; 보험 상품 개발서 사후관리까지 품질 개선",
+      "url": "https://www.joongang.co.kr/article/25441771",
+      "published": "2026-07-02",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25441771"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25441764"
+        }
+      ],
+      "itemIds": [
+        "joongang:25441771",
+        "joongang:25441764"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25441154",
+      "topic": "auto",
+      "kind": "press",
+      "title": "&#91;단독&#93; 지방세 납부 시스템 한때 마비…“새차 샀는데 못 타고, 자동차보험 하루치 날려”",
+      "url": "https://www.joongang.co.kr/article/25441154",
+      "published": "2026-06-30",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25441154"
+        }
+      ],
+      "itemIds": [
+        "joongang:25441154"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25440675",
+      "topic": "life",
+      "kind": "press",
+      "title": "주식시장 훈풍에 변액보험 관심… 미래에셋생명 비과세 전략 제시",
+      "url": "https://www.joongang.co.kr/article/25440675",
+      "published": "2026-06-29",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25440675"
+        }
+      ],
+      "itemIds": [
+        "joongang:25440675"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25440650",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;issue&&#93; 사망보험금 신탁, 미래 위한 안전장치",
+      "url": "https://www.joongang.co.kr/article/25440650",
+      "published": "2026-06-29",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25440650"
+        }
+      ],
+      "itemIds": [
+        "joongang:25440650"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
     }
   ],
   "status": [
@@ -1939,17 +2432,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 105,
+      "count": 133,
       "error": null,
-      "note": "과거 기사 채우는 중: 중앙 2026-08-05부터 재개",
+      "note": "과거 기사 채우는 중: 중앙 2026-06-26부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 7,
+      "count": 11,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 1200번째부터 재개",
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 1800번째부터 재개",
       "disabled": false
     },
     {

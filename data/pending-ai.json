@@ -40,5 +40,33 @@
     "url": "https://www.joongang.co.kr/article/25452276",
     "date": "2026-10-25",
     "source": "joongang"
+  },
+  {
+    "type": "summary",
+    "id": "g:donga:134758257",
+    "url": "https://www.donga.com/news/Economy/article/all/20260930/134758257/1",
+    "date": "2026-10-25",
+    "source": "donga"
+  },
+  {
+    "type": "summary",
+    "id": "g:donga:134760957",
+    "url": "https://www.donga.com/news/Economy/article/all/20260930/134760957/1",
+    "date": "2026-10-25",
+    "source": "donga"
+  },
+  {
+    "type": "summary",
+    "id": "g:donga:134743383",
+    "url": "https://www.donga.com/news/Economy/article/all/20260928/134743383/1",
+    "date": "2026-10-25",
+    "source": "donga"
+  },
+  {
+    "type": "summary",
+    "id": "g:donga:134741266",
+    "url": "https://www.donga.com/news/Economy/article/all/20260928/134741266/1",
+    "date": "2026-10-25",
+    "source": "donga"
   }
 ]

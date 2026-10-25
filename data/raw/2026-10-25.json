@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T13:09:34.167Z",
+  "generatedAt": "2026-10-25T13:21:50.608Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2977,14 +2977,14 @@
       "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%b3%b4%ed%97%98%ea%b8%88-%ec%a7%80%ea%b8%89%ec%86%8d%eb%8f%84-1%ec%9c%84/",
       "published": "2026-10-23",
       "hints": [
-        "보도자료",
         "회사소식",
-        "AI",
-        "신창재",
+        "보도자료",
         "보험금 지급",
         "교보생명",
         "고객보장",
-        "신속지급"
+        "신속지급",
+        "AI",
+        "신창재"
       ],
       "attachments": []
     },
@@ -6365,6 +6365,294 @@
       "published": "2026-09-22",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "joongang:25449700",
+      "source": "joongang",
+      "title": "&#91;함께하는 금융&#93; 핵심 보장은 그대로 보험료 부담은 낮춰",
+      "url": "https://www.joongang.co.kr/article/25449700",
+      "published": "2026-07-31",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25449699",
+      "source": "joongang",
+      "title": "&#91;함께하는 금융&#93; 사망보험금, 목돈 대신 매달 생활비로",
+      "url": "https://www.joongang.co.kr/article/25449699",
+      "published": "2026-07-31",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25449418",
+      "source": "joongang",
+      "title": "도수치료 묶자 신장분사치료 급증…실손보험 ‘풍선효과’",
+      "url": "https://www.joongang.co.kr/article/25449418",
+      "published": "2026-07-30",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25449262",
+      "source": "joongang",
+      "title": "슬슬 LPGA 트로피도 들어볼까요",
+      "url": "https://www.joongang.co.kr/article/25449262",
+      "published": "2026-07-30",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25449139",
+      "source": "joongang",
+      "title": "KLPGA 투어 평정하는 김민솔…“미국 진출 언제 하냐고요?”",
+      "url": "https://www.joongang.co.kr/article/25449139",
+      "published": "2026-07-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25448236",
+      "source": "joongang",
+      "title": "초고가 1주택 겨눈 세제 개편…장특공제 손보고 종부세는 핀셋 과세",
+      "url": "https://www.joongang.co.kr/article/25448236",
+      "published": "2026-07-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25447816",
+      "source": "joongang",
+      "title": "신지은, 10년 만의 우승 찬스…LPGA 스코틀랜드 오픈 1R 공동 선두",
+      "url": "https://www.joongang.co.kr/article/25447816",
+      "published": "2026-07-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25447115",
+      "source": "joongang",
+      "title": "PGA 투어, LIV 골프 마지막 구명정까지 빼앗아",
+      "url": "https://www.joongang.co.kr/article/25447115",
+      "published": "2026-07-22",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25447056",
+      "source": "joongang",
+      "title": "LPGA 투어 국내 대회, KLPGA 투어 선수도 나온다…양측 갈등 봉합",
+      "url": "https://www.joongang.co.kr/article/25447056",
+      "published": "2026-07-22",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25446659",
+      "source": "joongang",
+      "title": "&#91;라이프 트렌드&&#93; 고혈압 있어도 암 특약 할증 없앤 ‘교보K-맞춤건강보험’ 인기",
+      "url": "https://www.joongang.co.kr/article/25446659",
+      "published": "2026-07-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25446267",
+      "source": "joongang",
+      "title": "&#91;사랑방&#93; 국민건강보험공단 이사장 강청희",
+      "url": "https://www.joongang.co.kr/article/25446267",
+      "published": "2026-07-20",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25445728",
+      "source": "joongang",
+      "title": "허인회, ‘오심 논란’ KGA 상대로 순위 확인 민사소송",
+      "url": "https://www.joongang.co.kr/article/25445728",
+      "published": "2026-07-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25444212",
+      "source": "joongang",
+      "title": "은행 이어 보험까지 빗장…하반기 ‘대출 빙하기’ 시작",
+      "url": "https://www.joongang.co.kr/article/25444212",
+      "published": "2026-07-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25444112",
+      "source": "joongang",
+      "title": "예별손보 새주인에 OK금융그룹…매각 우협대상자로 선정",
+      "url": "https://www.joongang.co.kr/article/25444112",
+      "published": "2026-07-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25443851",
+      "source": "joongang",
+      "title": "6억 받으려 했는데 멘붕…은행도 보험사도 주담대 조인다",
+      "url": "https://www.joongang.co.kr/article/25443851",
+      "published": "2026-07-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25443675",
+      "source": "joongang",
+      "title": "자생한방병원, 수백억대 보험사기 의혹 터졌다…경찰 압색",
+      "url": "https://www.joongang.co.kr/article/25443675",
+      "published": "2026-07-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25443612",
+      "source": "joongang",
+      "title": "&#91;단독&#93; 학생보다 교직원이 많은 학교…넘치는 교부금 이젠 바꾸자",
+      "url": "https://www.joongang.co.kr/article/25443612",
+      "published": "2026-07-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25443342",
+      "source": "joongang",
+      "title": "승인 없이 대마 넘기고, 모자란 프로포폴은 1494개…엉터리 마약관리 15명 검찰 송치",
+      "url": "https://www.joongang.co.kr/article/25443342",
+      "published": "2026-07-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25442984",
+      "source": "joongang",
+      "title": "&#91;라이프 트렌드&&#93; 납입 보험료로 생활자금 활용, 사망보장은 그대로 유지",
+      "url": "https://www.joongang.co.kr/article/25442984",
+      "published": "2026-07-07",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25442707",
+      "source": "joongang",
+      "title": "법원 “돌연사로 보험금 타내려면 유족이 부검으로 입증해야”",
+      "url": "https://www.joongang.co.kr/article/25442707",
+      "published": "2026-07-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25442343",
+      "source": "joongang",
+      "title": "똑같은 부정맥 보험? 가입 시기별 범위 완전 달라",
+      "url": "https://www.joongang.co.kr/article/25442343",
+      "published": "2026-07-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25441805",
+      "source": "joongang",
+      "title": "KLPGA-LPGA, 10월 BMW 레이디스 챔피언십 출전권 합의 불발",
+      "url": "https://www.joongang.co.kr/article/25441805",
+      "published": "2026-07-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25441771",
+      "source": "joongang",
+      "title": "&#91;2026 한국서비스품질지수&#93; 보험 상품 개발서 사후관리까지 품질 개선",
+      "url": "https://www.joongang.co.kr/article/25441771",
+      "published": "2026-07-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25441764",
+      "source": "joongang",
+      "title": "&#91;2026 한국서비스품질지수&#93; 고객 니즈 반영한 펫보험으로 시장 선도",
+      "url": "https://www.joongang.co.kr/article/25441764",
+      "published": "2026-07-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25441154",
+      "source": "joongang",
+      "title": "&#91;단독&#93; 지방세 납부 시스템 한때 마비…“새차 샀는데 못 타고, 자동차보험 하루치 날려”",
+      "url": "https://www.joongang.co.kr/article/25441154",
+      "published": "2026-06-30",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25440675",
+      "source": "joongang",
+      "title": "주식시장 훈풍에 변액보험 관심… 미래에셋생명 비과세 전략 제시",
+      "url": "https://www.joongang.co.kr/article/25440675",
+      "published": "2026-06-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25440650",
+      "source": "joongang",
+      "title": "&#91;issue&&#93; 사망보험금 신탁, 미래 위한 안전장치",
+      "url": "https://www.joongang.co.kr/article/25440650",
+      "published": "2026-06-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25440423",
+      "source": "joongang",
+      "title": "유해란 여자 PGA 챔피언십 단독 선두, 윤이나 2타 차 3위",
+      "url": "https://www.joongang.co.kr/article/25440423",
+      "published": "2026-06-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134743383",
+      "source": "donga",
+      "title": "보험금 안 주거나 덜 줘…5년간 961건, 5억 넘었다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260928/134743383/1",
+      "published": "2026-09-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134741266",
+      "source": "donga",
+      "title": "롯데손보, 車보험료 최대 9% 할인 특약",
+      "url": "https://www.donga.com/news/Economy/article/all/20260928/134741266/1",
+      "published": "2026-09-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134758257",
+      "source": "donga",
+      "title": "같은 범퍼인데 ‘고무줄’ 수리비…과잉수리가 車보험료 올린다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260930/134758257/1",
+      "published": "2026-09-30",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134760957",
+      "source": "donga",
+      "title": "내달 7일부터 네이버·토스에서도 실손보험 청구 가능해진다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260930/134760957/1",
+      "published": "2026-09-30",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -6697,17 +6985,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 105,
+      "count": 133,
       "error": null,
-      "note": "과거 기사 채우는 중: 중앙 2026-08-05부터 재개",
+      "note": "과거 기사 채우는 중: 중앙 2026-06-26부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 7,
+      "count": 11,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 1200번째부터 재개",
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 1800번째부터 재개",
       "disabled": false
     },
     {
