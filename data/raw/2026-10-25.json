@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T12:58:14.796Z",
+  "generatedAt": "2026-10-25T13:09:34.167Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2977,14 +2977,14 @@
       "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%b3%b4%ed%97%98%ea%b8%88-%ec%a7%80%ea%b8%89%ec%86%8d%eb%8f%84-1%ec%9c%84/",
       "published": "2026-10-23",
       "hints": [
-        "회사소식",
         "보도자료",
+        "회사소식",
+        "AI",
+        "신창재",
         "보험금 지급",
         "교보생명",
         "고객보장",
-        "신속지급",
-        "AI",
-        "신창재"
+        "신속지급"
       ],
       "attachments": []
     },
@@ -5915,6 +5915,456 @@
       "published": "2026-09-07",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "joongang:25461624",
+      "source": "joongang",
+      "title": "하이퍼매니지먼트, ‘설계사 매니지먼트형 GA’ 모델 도입",
+      "url": "https://www.joongang.co.kr/article/25461624",
+      "published": "2026-09-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25461071",
+      "source": "joongang",
+      "title": "일본 전지훈련 KB손보 하현용 대행 “다음 시즌 높은 곳 바라봐”",
+      "url": "https://www.joongang.co.kr/article/25461071",
+      "published": "2026-09-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25460732",
+      "source": "joongang",
+      "title": "&#91;Biz-inside,China&#93; ‘펫코노미’ 훈풍 탄 펫보험...반려 가구 필수 소비로 뜬다",
+      "url": "https://www.joongang.co.kr/article/25460732",
+      "published": "2026-09-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25460124",
+      "source": "joongang",
+      "title": "&#91;2026 하반기 혁신 IT 대상&#93; 아이에프에이, 보험 데이터·AI 서비스 통합 플랫폼 구축",
+      "url": "https://www.joongang.co.kr/article/25460124",
+      "published": "2026-09-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25459962",
+      "source": "joongang",
+      "title": "&#91;라이프 트렌드&&#93; 100세 시대, 합리적 가격에 원하는 보장 자유롭게 선택",
+      "url": "https://www.joongang.co.kr/article/25459962",
+      "published": "2026-09-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25459899",
+      "source": "joongang",
+      "title": "&#91;김정탁의 인문지리기행&#93; 환자 차별 없앤 제중원, 90년 뒤 의료보험으로 맥 이어져",
+      "url": "https://www.joongang.co.kr/article/25459899",
+      "published": "2026-09-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25459672",
+      "source": "joongang",
+      "title": "NBA 도전은 계속...이현중, 포틀랜드와 1년 비보장 계약",
+      "url": "https://www.joongang.co.kr/article/25459672",
+      "published": "2026-09-07",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25459266",
+      "source": "joongang",
+      "title": "간병인보험 ‘금액’ 대신 ‘리스크’ 살피세요",
+      "url": "https://www.joongang.co.kr/article/25459266",
+      "published": "2026-09-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25459157",
+      "source": "joongang",
+      "title": "가천대, ‘AX-GACHON’ 교육체계 공개…전 학과 AI 전환 추진",
+      "url": "https://www.joongang.co.kr/article/25459157",
+      "published": "2026-09-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25458946",
+      "source": "joongang",
+      "title": "&#91;Biz & Now&#93; 생명보험협회, 골든펠로우 1000명 선정",
+      "url": "https://www.joongang.co.kr/article/25458946",
+      "published": "2026-09-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25458854",
+      "source": "joongang",
+      "title": "李 “뼈깎는 각오로 경찰개혁…불공정 사회보장제 전면 재검토”",
+      "url": "https://www.joongang.co.kr/article/25458854",
+      "published": "2026-09-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25458705",
+      "source": "joongang",
+      "title": "한 달 보험료 내고 노령연금 수급권…국민연금 ‘추납 꼼수’ 막는다",
+      "url": "https://www.joongang.co.kr/article/25458705",
+      "published": "2026-09-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25458616",
+      "source": "joongang",
+      "title": "&#91;Biz & Now&#93; DB생보 신임 대표이사에 박제광 사장 내정",
+      "url": "https://www.joongang.co.kr/article/25458616",
+      "published": "2026-09-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25458444",
+      "source": "joongang",
+      "title": "유니세프 한국위원회 “모든 아동에 보편적 출생등록 보장해야”",
+      "url": "https://www.joongang.co.kr/article/25458444",
+      "published": "2026-09-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25458230",
+      "source": "joongang",
+      "title": "1억대 임금 떼먹고 ‘4대 보험 완납’ 포토샵…57세 사장 결국 실형",
+      "url": "https://www.joongang.co.kr/article/25458230",
+      "published": "2026-09-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25457937",
+      "source": "joongang",
+      "title": "&#91;단독&#93; 쌍방울, 상폐 무효소송 1심 패소…法 “방어권 보장받아”",
+      "url": "https://www.joongang.co.kr/article/25457937",
+      "published": "2026-09-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25457872",
+      "source": "joongang",
+      "title": "&#91;프리즘&#93; 원유 다변화 지원, 국가 안보 위한 ‘보험료’",
+      "url": "https://www.joongang.co.kr/article/25457872",
+      "published": "2026-09-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25457528",
+      "source": "joongang",
+      "title": "&#91;2026 하반기 혁신 IT 대상&#93; 보험 지식·법령 연결한 AI 플랫폼",
+      "url": "https://www.joongang.co.kr/article/25457528",
+      "published": "2026-08-31",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25456999",
+      "source": "joongang",
+      "title": "이글 앞세워 8언더파 질주…김세영, LPGA 투어 FM 챔피언십 1R 선두",
+      "url": "https://www.joongang.co.kr/article/25456999",
+      "published": "2026-08-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25456816",
+      "source": "joongang",
+      "title": "헌재 “병역기피자 해고 병역법은 헌법불합치…절차 보장 필요”",
+      "url": "https://www.joongang.co.kr/article/25456816",
+      "published": "2026-08-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25456675",
+      "source": "joongang",
+      "title": "입양 기록에 실종아 입소카드까지 잊어버린 아동권리보장원",
+      "url": "https://www.joongang.co.kr/article/25456675",
+      "published": "2026-08-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25456237",
+      "source": "joongang",
+      "title": "PGA 투어 최종전, 2028년부터 축구 월드컵 형식 매치플레이로",
+      "url": "https://www.joongang.co.kr/article/25456237",
+      "published": "2026-08-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455978",
+      "source": "joongang",
+      "title": "핀첨 전 PGA 투어 커미셔너, 180억원 기부…비영리 사회공헌 조직 확대",
+      "url": "https://www.joongang.co.kr/article/25455978",
+      "published": "2026-08-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455956",
+      "source": "joongang",
+      "title": "PGA-LIV 전쟁, 매킬로이가 없었다면 &#91;성호준의 골프인사이드&#93;",
+      "url": "https://www.joongang.co.kr/article/25455956",
+      "published": "2026-08-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455945",
+      "source": "joongang",
+      "title": "남자배구 KB손해보험, 임시 연고지 평택으로 간다",
+      "url": "https://www.joongang.co.kr/article/25455945",
+      "published": "2026-08-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455888",
+      "source": "joongang",
+      "title": "&#91;라이프 트렌드&&#93; 납입 보험료 100% 환급받고 사망보장 유지하는 신개념 종신보험",
+      "url": "https://www.joongang.co.kr/article/25455888",
+      "published": "2026-08-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455850",
+      "source": "joongang",
+      "title": "30억 투자했는데…치과의사가 소개한 ‘보험 상품’ 알고보니",
+      "url": "https://www.joongang.co.kr/article/25455850",
+      "published": "2026-08-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455587",
+      "source": "joongang",
+      "title": "‘클래식 골프화 프로’가 된 KLPGA 프로 박주희",
+      "url": "https://www.joongang.co.kr/article/25455587",
+      "published": "2026-08-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455433",
+      "source": "joongang",
+      "title": "‘솔림대전’이냐 ‘림솔대전’이냐…서교림, 김민솔 꺾고 KLPGA 챔피언십 제패",
+      "url": "https://www.joongang.co.kr/article/25455433",
+      "published": "2026-08-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455417",
+      "source": "joongang",
+      "title": "&#91;단독&#93; 지방흡입→요추염좌 바뀐 진단서…‘보험사기’ 360명 경찰조사",
+      "url": "https://www.joongang.co.kr/article/25455417",
+      "published": "2026-08-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455050",
+      "source": "joongang",
+      "title": "임성재, PGA 투어 PO 2차전 공동 12위로 출발…1위와 3타 차",
+      "url": "https://www.joongang.co.kr/article/25455050",
+      "published": "2026-08-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25455025",
+      "source": "joongang",
+      "title": "김민솔-서교림, KLPGA 챔피언십 장군멍군…1R 단독선두는 송은아",
+      "url": "https://www.joongang.co.kr/article/25455025",
+      "published": "2026-08-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25454570",
+      "source": "joongang",
+      "title": "벌써 3개째 증발…바람 빠지는 KPGA 투어",
+      "url": "https://www.joongang.co.kr/article/25454570",
+      "published": "2026-08-20",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25454493",
+      "source": "joongang",
+      "title": "역주행·급차로변경 차량 골라 ‘쾅’…보험금 3억 챙긴 24명 송치",
+      "url": "https://www.joongang.co.kr/article/25454493",
+      "published": "2026-08-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25454401",
+      "source": "joongang",
+      "title": "차선 바꿀 때 ‘쾅’…2억4000만원 보험금 챙긴 수법 ‘블박’에 고스란히",
+      "url": "https://www.joongang.co.kr/article/25454401",
+      "published": "2026-08-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25454275",
+      "source": "joongang",
+      "title": "우리, 동양·ABL통합 추진…내년 55조원 생보사 출범",
+      "url": "https://www.joongang.co.kr/article/25454275",
+      "published": "2026-08-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25454270",
+      "source": "joongang",
+      "title": "골프 오디세이…PGA 마스터프로 23년 여정 끝낸 강방수 박사",
+      "url": "https://www.joongang.co.kr/article/25454270",
+      "published": "2026-08-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25453828",
+      "source": "joongang",
+      "title": "우승은 셰플러, 최고 승자는 임성재...PGA 투어 PO 1차전",
+      "url": "https://www.joongang.co.kr/article/25453828",
+      "published": "2026-08-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25453619",
+      "source": "joongang",
+      "title": "차선 바꾸면 냅다 ‘쾅’…보험금 챙긴 포르쉐∙BMW 운전자, 결국",
+      "url": "https://www.joongang.co.kr/article/25453619",
+      "published": "2026-08-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25453580",
+      "source": "joongang",
+      "title": "임성재 “최종전 간다” PGA 투어 PO 1차전 셰플러에 이어 2위",
+      "url": "https://www.joongang.co.kr/article/25453580",
+      "published": "2026-08-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25453381",
+      "source": "joongang",
+      "title": "Gallery Lull, 광복 81주년 기념 그룹전 ‘다시, 빛’ 개최",
+      "url": "https://www.joongang.co.kr/article/25453381",
+      "published": "2026-08-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25453366",
+      "source": "joongang",
+      "title": "최혜진, 포틀랜드 클래식 첫날 공동 2위…LPGA 첫 우승 도전",
+      "url": "https://www.joongang.co.kr/article/25453366",
+      "published": "2026-08-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25453179",
+      "source": "joongang",
+      "title": "한투, KDB생명 매각 우선협상대상자로…보험사업 숙원 푼다",
+      "url": "https://www.joongang.co.kr/article/25453179",
+      "published": "2026-08-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25452892",
+      "source": "joongang",
+      "title": "&#91;사랑방&#93; 건강보험심사평가원 外",
+      "url": "https://www.joongang.co.kr/article/25452892",
+      "published": "2026-08-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25452338",
+      "source": "joongang",
+      "title": "&#91;라이프 트렌드&&#93; 유병자보험 거품 뺀 교보K-맞춤건강보험, 6개월 배타적사용권 획득",
+      "url": "https://www.joongang.co.kr/article/25452338",
+      "published": "2026-08-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25452276",
+      "source": "joongang",
+      "title": "&#91;Biz & Now&#93; 신창재 교보생명 의장 “보험, 머니게임 돼”",
+      "url": "https://www.joongang.co.kr/article/25452276",
+      "published": "2026-08-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25452017",
+      "source": "joongang",
+      "title": "&#91;단독&#93; “수리비 5000만원” 포르쉐 물 먹인 주유소, 영업배상보험 없었다",
+      "url": "https://www.joongang.co.kr/article/25452017",
+      "published": "2026-08-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25451793",
+      "source": "joongang",
+      "title": "李대통령도 주목한 ‘폭염 일당보험’…40도 폭염에 기후보험 뜬다",
+      "url": "https://www.joongang.co.kr/article/25451793",
+      "published": "2026-08-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134690130",
+      "source": "donga",
+      "title": "한국표준협회-한국무역보험공사, ‘수출 중소기업 해외진출 지원’ MOU 체결",
+      "url": "https://www.donga.com/news/Economy/article/all/20260917/134690130/1",
+      "published": "2026-09-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134719600",
+      "source": "donga",
+      "title": "“100세에도 매일 출근해 새 계약 따내”…최고령 보험설계사",
+      "url": "https://www.donga.com/news/Economy/article/all/20260922/134719600/1",
+      "published": "2026-09-22",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -6247,17 +6697,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 57,
+      "count": 105,
       "error": null,
-      "note": "과거 기사 채우는 중: 중앙 2026-09-14부터 재개",
+      "note": "과거 기사 채우는 중: 중앙 2026-08-05부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 5,
+      "count": 7,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 600번째부터 재개",
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 1200번째부터 재개",
       "disabled": false
     },
     {

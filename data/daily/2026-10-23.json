@@ -37,7 +37,8 @@
       "summary": "올해 상반기 교보생명의 보험금 신속지급 평균기간은 0.24일로 생명보험업계에서 가장 빨랐습니다. 이는 업계 평균인 0.71일보다 약 3배 빠른 수준입니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93476",
@@ -59,7 +60,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93478",
@@ -81,7 +83,8 @@
       "summary": "올해 9월까지 주요 손해보험사의 자동차보험 누적 손해율이 지난해보다 소폭 낮아졌어요. 강수량과 고속도로 통행량 감소 등이 영향을 미친 것으로 나타났어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93475",
@@ -103,7 +106,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93469",
@@ -140,7 +144,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72812",
@@ -162,7 +167,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72799",
@@ -184,7 +190,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72798",
@@ -206,7 +213,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72788",
@@ -228,7 +236,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33628",
@@ -250,7 +259,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33627",
@@ -272,7 +282,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33626",
@@ -294,7 +305,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33625",
@@ -316,7 +328,8 @@
       "summary": "삼성화재·현대해상·DB손해보험·KB손해보험 등 대형 손보사 4곳의 9월 자동차보험 손해율이 평균 85.0%로 집계되었어요. 이는 지난해 같은 달보다 8.8%포인트 낮아진 수치예요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33620",
@@ -338,7 +351,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33622",
@@ -360,7 +374,8 @@
       "summary": "국내 보험업권의 해외 사모대출 투자 규모가 올해 6월 말 기준 22조원으로, 금융권 전체 투자액의 약 67%를 차지하는 것으로 나타났어요. 금융당국은 국내 익스포저와 관리 실태를 점검하고 개별 회사별 상황도 확인하겠다고 밝혔어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33621",
@@ -382,7 +397,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33558",
@@ -404,7 +420,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33615",
@@ -426,7 +443,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110310",
@@ -448,7 +466,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110309",
@@ -470,7 +489,8 @@
       "summary": "사망 보험금을 노리고 지인을 살해하려고 준비한 40대 남성 2명이 구속 상태로 재판에 넘겨졌어요. 이들은 인지 능력이 다소 부족한 피해자를 상대로 혼인신고가 이뤄지게 한 혐의도 받아요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110306",
@@ -492,7 +512,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110303",
@@ -514,7 +535,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:224294",
@@ -536,7 +558,8 @@
       "summary": "보험연구원이 2027년 보험산업 전망과 과제 세미나를 개최합니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93453",
@@ -558,7 +581,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93450",
@@ -585,7 +609,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93449",
@@ -607,7 +632,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72770",
@@ -629,7 +655,8 @@
       "summary": "하나손해보험은 지난 21일 하나증권과 함께 서울 금천구 혜명양로원에서 어르신의 생활환경 개선을 위한 가을맞이 봉사활동을 진행했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72773",
@@ -651,7 +678,8 @@
       "summary": "ABL생명은 이달 초 기준 전속 보험설계사 재적인원이 3000명을 돌파했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72766",
@@ -673,7 +701,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72772",
@@ -695,7 +724,8 @@
       "summary": "NH농협생명은 지난 19일 인천 강화군에 위치한 고구마 농가를 찾아 농촌일손돕기 활동을 실시했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33614",
@@ -717,7 +747,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33613",
@@ -739,7 +770,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33611",
@@ -761,7 +793,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33610",
@@ -783,7 +816,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33609",
@@ -805,7 +839,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33603",
@@ -827,7 +862,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33608",
@@ -849,7 +885,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33606",
@@ -871,7 +908,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33605",
@@ -893,7 +931,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33602",
@@ -915,7 +954,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33600",
@@ -937,7 +977,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33557",
@@ -959,7 +1000,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33539",
@@ -981,7 +1023,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33532",
@@ -1003,7 +1046,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33531",
@@ -1025,7 +1069,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33530",
@@ -1047,7 +1092,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33529",
@@ -1069,7 +1115,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33528",
@@ -1091,7 +1138,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33526",
@@ -1113,7 +1161,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33524",
@@ -1135,7 +1184,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110302",
@@ -1157,7 +1207,8 @@
       "summary": "22일 국회 정무위원회 이강일 더불어민주당 의원은 금융위원회·금융감독원 종합감사에서 자동차보험료 산정 시 보험사별 비용 배분 기준이 달라 가입자 간 보험료 부담에 차이가 발생할 수 있다고 지적했어요. 이어 자동차보험료율 변경 시 비용을 어느 보장항목에 반영할지에 대한 합리적인 기준과 검증 절차가 필요하다고 강조했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110299",
@@ -1179,7 +1230,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110300",
@@ -1201,7 +1253,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110296",
@@ -1223,7 +1276,8 @@
       "summary": "보험사들이 안전운전 할인 특약으로 운전정보를 수집하지만 실제 가입 건수는 4건 중 1건에 불과하다는 지적이 나왔어요. UBI 특약은 앱이나 커넥티드카에서 측정한 점수에 따라 자동차보험료를 3~24% 할인해 줘요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110294",
@@ -1245,7 +1299,8 @@
       "summary": "내년 보험산업 성장률이 3.5%에 그쳐 2025년 이후 2년 연속 하락세를 보일 전망이에요. 생명보험은 보장성보험, 손해보험은 장기인보험이 성장을 주도하는 반면 다른 부문은 부진하거나 증가세가 둔화할 것으로 예상돼요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110293",
@@ -1267,7 +1322,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110291",
@@ -1289,7 +1345,8 @@
       "summary": "신한라이프가 내년 상반기 부산 해운대에 124명 수용 규모의 신규 요양시설을 개소할 계획이에요. 하나생명도 신규 요양시설 개소를 앞두고 있으며 삼성생명과 우리금융그룹도 요양사업 확대를 모색하고 있어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93425",
@@ -1321,7 +1378,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93424",
@@ -1343,7 +1401,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93421",
@@ -1370,7 +1429,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72765",
@@ -1392,7 +1452,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72762",
@@ -1414,7 +1475,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72764",
@@ -1436,7 +1498,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72763",
@@ -1458,7 +1521,8 @@
       "summary": "KB라이프는 정문철 사장이 불법사금융 피해 예방과 포용금융의 사회적 가치 확산을 위해 서민금융진흥원이 주관하는 '사람 살리는 금융' 릴레이에 동참했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33597",
@@ -1480,7 +1544,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33595",
@@ -1502,7 +1567,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33594",
@@ -1524,7 +1590,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33592",
@@ -1546,7 +1613,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33593",
@@ -1568,7 +1636,8 @@
       "summary": "국방부와 금융위원회는 10월 21일부터 22일까지 이틀간 하나 글로벌 캠퍼스에서 장병 금융역량 제고를 위한 '장병금융워크숍'을 개최해요. 이번 워크숍은 군내 재정담당자 등을 전문적인 금융교육 강사로 양성해 일선 부대에서의 활동을 직접 지원하기 위해 마련됐어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33591",
@@ -1590,7 +1659,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33590",
@@ -1612,7 +1682,8 @@
       "summary": "금융위원회는 10월 21일 보험업권 옴부즈만으로 정지연 한국소비자연맹 사무총장을 위촉했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33589",
@@ -1634,7 +1705,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33520",
@@ -1656,7 +1728,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33587",
@@ -1678,7 +1751,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33586",
@@ -1700,7 +1774,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insjournal:33585",
@@ -1722,7 +1797,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110292",
@@ -1744,7 +1820,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110290",
@@ -1766,7 +1843,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110289",
@@ -1788,7 +1866,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110283",
@@ -1810,7 +1889,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110281",
@@ -1832,7 +1912,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110275",
@@ -1854,7 +1935,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110273",
@@ -1876,7 +1958,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110272",
@@ -1898,7 +1981,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3567",
@@ -1920,7 +2004,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93419",
@@ -1942,7 +2027,8 @@
       "summary": "4대 은행이 SK하이닉스, 한국무역보험공사와 함께 반도체 협력기업에 총 2조원 규모의 금융지원에 나서요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93410",
@@ -1964,7 +2050,8 @@
       "summary": "대형 법인보험대리점 인카금융서비스가 국정감사 지적에 따라 지급한 수수료의 120%까지 돌려받던 징벌적 환수기준을 폐지해요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93409",
@@ -1986,7 +2073,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93402",
@@ -2013,7 +2101,8 @@
       "summary": "메트라이프생명이 사망보장과 변액펀드 운용을 통한 자산관리를 결합한 ‘(무)메트라이프 변액리치정기보험’을 출시했어요. 이 상품은 생애주기별 전환 기능을 함께 제공해요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93400",
@@ -2035,7 +2124,8 @@
       "summary": "큐핏이 자사 PV가격산출솔루션의 핵심 기술인 보험요율 자동 산출 장치, 방법 및 컴퓨터 프로그램에 대한 특허 등록을 완료했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93398",
@@ -2062,7 +2152,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93396",
@@ -2089,7 +2180,8 @@
       "summary": "삼성생명은 오는 21일 폐렴과 로봇 인공관절수술 보장을 강화한 삼성 시니어대표건강보험 종합보장형 등을 개정 출시했어요. 장기요양 판정 이후 치료 과정을 통합 보장하는 내용도 포함되었어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93395",
@@ -2111,7 +2203,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72758",
@@ -2133,7 +2226,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72757",
@@ -2155,7 +2249,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110271",
@@ -2177,7 +2272,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110270",
@@ -2199,7 +2295,8 @@
       "summary": "메트라이프생명이 20일 사망보장 중심의 정기보험에 변액펀드 운용과 생애주기별 전환 기능을 결합한 무배당 메트라이프 변액리치정기보험을 출시했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110269",
@@ -2221,7 +2318,8 @@
       "summary": "오는 21일 삼성생명이 폐렴 및 로봇 인공관절수술 보장을 강화한 종합보장형과 장기요양 판정 이후 치료 과정을 통합 보장하는 LTC통합치료형 상품을 출시해요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110268",
@@ -2243,7 +2341,8 @@
       "summary": "내년 3월 1일 지역 농·축협에 적용되는 방카슈랑스 규제 특례가 만료될 예정이에요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110266",
@@ -2265,7 +2364,8 @@
       "summary": "다음 달 실손의료보험 계약재매입 제도 시행을 앞두고 주요 손해보험사들이 관련 상품 개발과 전산 구축을 준비하고 있어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1417",
@@ -2292,7 +2392,8 @@
       "summary": "삼성화재가 고객에게 더 잘 맞는 건강보험 THE FIT을 출시했습니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93387",
@@ -2314,7 +2415,8 @@
       "summary": "보험업권이 취약 어르신 65만명을 대상으로 낙상사고 치료비와 치매배상책임보험, 헬스케어 등을 무료로 제공해요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insnews:93389",
@@ -2336,7 +2438,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72752",
@@ -2358,7 +2461,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72753",
@@ -2380,7 +2484,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72751",
@@ -2402,7 +2507,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72749",
@@ -2424,7 +2530,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72748",
@@ -2446,7 +2553,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72747",
@@ -2468,7 +2576,8 @@
       "summary": "NH농협손해보험은 19일 마늘과 양파 상품의 농업수입안정보험 판매를 개시했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72750",
@@ -2490,7 +2599,8 @@
       "summary": "KB라이프는 지난 16일 평창카운티 입주민 20명을 대상으로 금융사기 예방 교육을 실시했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72745",
@@ -2512,7 +2622,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72744",
@@ -2534,7 +2645,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72743",
@@ -2561,7 +2673,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72741",
@@ -2583,7 +2696,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72740",
@@ -2605,7 +2719,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72739",
@@ -2627,7 +2742,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72738",
@@ -2649,7 +2765,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72732",
@@ -2671,7 +2788,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72731",
@@ -2693,7 +2811,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72730",
@@ -2715,7 +2834,8 @@
       "summary": "온라인전업 보험사들이 잇따라 기존 보험사에 흡수합병 되면서 시장에서 사라지고 있어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72729",
@@ -2737,7 +2857,8 @@
       "summary": "자회사 GA가 이달에도 보험설계사의 영업역량 제고에 힘을 쏟고 있어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72728",
@@ -2759,7 +2880,8 @@
       "summary": "보맵은 최근 앱에 가족 구성원별 보험 가입내역과 보장내용을 한 화면에서 확인할 수 있는 ‘가족보험 관리’ 기능을 추가했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72727",
@@ -2781,7 +2903,8 @@
       "summary": "메타리치는 오는 11월3일부터 20일까지 ‘MZ 부트캠프 11기’ 교육을 실시해요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72726",
@@ -2803,7 +2926,8 @@
       "summary": "사랑모아금융서비스는 오는 12월13일까지 소속 보험설계사와 고객을 대상으로 ‘2026년 사랑모아금융서비스배 스크린골프대회 4분기 예선’을 진행해요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72725",
@@ -2825,7 +2949,8 @@
       "summary": "큐핏은 최근 보험상품 경험위험률 산출 및 조정을 위한 핵심 기술 3종에 대한 특허 등록을 최종 완료했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72724",
@@ -2847,7 +2972,8 @@
       "summary": "ABL생명이 판매중인 ‘우리WON더채움종신보험’은 종신보험의 활용 범위를 생존 시까지 넓힌 상품이에요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72722",
@@ -2869,7 +2995,8 @@
       "summary": "금융감독원이 계피상이 보험계약에 대한 자필서명 절차와 관련 개선 필요성이 있는지에 대해 들여다보고 있어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:insweek:72721",
@@ -2891,7 +3018,8 @@
       "summary": "중소형 생명보험사들이 치매·간병보험의 상품구조를 잇달아 손보고 있어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110267",
@@ -2913,7 +3041,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110264",
@@ -2935,7 +3064,8 @@
       "summary": "과거 입원 사실을 숨기고 보험에 가입해 10여 년간 1억4천만여 원의 보험금을 타낸 60대가 징역 8개월을 선고받았어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110263",
@@ -2957,7 +3087,8 @@
       "summary": "한화손보는 산모의 임신·출산 질환과 육아 과정의 스트레스 등을 보장하는 디지털 전용 '한화 다이렉트 임산부보험 무배당'을 출시했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110262",
@@ -2979,7 +3110,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110261",
@@ -3001,7 +3133,8 @@
       "summary": "삼성화재는 건강 상태와 생애주기에 맞춰 통합치료비와 4가지 모듈을 제공하는 건강보험 'THE FIT'을 출시했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110260",
@@ -3023,7 +3156,8 @@
       "summary": "보험업권은 총 105억원의 상생기금을 활용해 취약계층 치매환자 8만명에게 치매배상책임보험을 무료로 제공하고 취약노인 57만명에게 낙상사고 치료비 등을 지원해요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110259",
@@ -3045,7 +3179,8 @@
       "summary": "금융감독원은 19일 대형 법인보험대리점 본사와 지사를 상대로 고강도 현장검사에 착수했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110257",
@@ -3067,7 +3202,8 @@
       "summary": "지에이코리아와 인카금융서비스의 3분기 매출이 월납보험료 기준 200억원대를 기록했어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110258",
@@ -3089,7 +3225,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110244",
@@ -3111,7 +3248,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110243",
@@ -3133,7 +3271,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110256",
@@ -3155,7 +3294,8 @@
       "summary": "금리 상승으로 기존 저축성보험의 상대적 수익 매력이 낮아져 계약 해지가 늘어날 수 있으며, 보험사들이 해약환급금 지급을 위해 보유자산을 매각할 경우 금융시장 전반으로 충격이 번질 수 있다는 분석이 나왔어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fins:110254",
@@ -3177,7 +3317,8 @@
       "summary": "정부가 도수치료를 건강보험 관리급여로 지정해 가격과 횟수를 통제하자, 의료기관들이 신장분사치료 등 유사 비급여 진료를 대신 처방하면서 진료비가 다른 곳으로 튀는 풍선효과가 나타난 것으로 확인됐어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3566",
@@ -3199,7 +3340,8 @@
       "summary": "한화생명에서 사망보험금이 최대 210% 체증되는 「한화생명 필요할때 쓰는 종신보험」을 출시했어요. 보험료 완납 후에는 고객이 원하는 시점에 활용할 수 있어요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:222794",
@@ -3221,7 +3363,8 @@
       "summary": "보험연구원이 기후위기 시대, 자연재해 위험관리와 기후보험 세미나를 개최합니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:239722",
@@ -3243,7 +3386,8 @@
       "summary": "금융권의 소멸시효 연장 관행을 개선하기 위해 조건부 대손인정제도가 시행됩니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3565",
@@ -3265,7 +3409,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88765",
@@ -3287,7 +3432,8 @@
       "summary": "손해보험협회가 자동차보험 경상환자 보상처리 피해 신고센터를 운영합니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:237413",
@@ -3309,7 +3455,8 @@
       "summary": "전환하고 싶어요 한 마디면 보험료가 할인됩니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:232597",
@@ -3331,7 +3478,8 @@
       "summary": "의료계와 플랫폼 협력으로 실손24 연계율 제고에 나섭니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88762",
@@ -3353,7 +3501,8 @@
       "summary": "손해보험 상위 1% 모집종사자 최고의 영예인 2026 블루리본 컨설턴트로 1,602명이 선정되었습니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3564",
@@ -3375,7 +3524,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1416",
@@ -3397,7 +3547,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:231823",
@@ -3419,7 +3570,8 @@
       "summary": "2026년 상반기 보험사기 적발현황 및 대응방안이 발표되었습니다.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88760",
@@ -3441,7 +3593,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88759",
@@ -3463,7 +3616,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88758",
@@ -3485,7 +3639,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88756",
@@ -3507,7 +3662,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3562",
@@ -3529,7 +3685,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1415",
@@ -3551,7 +3708,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:229239",
@@ -3573,7 +3731,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3561",
@@ -3595,7 +3754,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88755",
@@ -3617,7 +3777,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3560",
@@ -3639,7 +3800,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:228837",
@@ -3661,7 +3823,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:228833",
@@ -3683,7 +3846,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123789",
@@ -3705,7 +3869,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3559",
@@ -3727,7 +3892,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:228597",
@@ -3749,7 +3915,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:228414",
@@ -3771,7 +3938,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4171",
@@ -3793,7 +3961,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:227769",
@@ -3815,7 +3984,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:221294",
@@ -3837,7 +4007,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3557",
@@ -3859,7 +4030,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1414",
@@ -3881,7 +4053,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:227573",
@@ -3903,7 +4076,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:227555",
@@ -3925,7 +4099,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88754",
@@ -3947,7 +4122,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3556",
@@ -3969,7 +4145,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123774",
@@ -3991,7 +4168,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:226952",
@@ -4013,7 +4191,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123773",
@@ -4035,7 +4214,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3555",
@@ -4057,7 +4237,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:226318",
@@ -4079,7 +4260,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88751",
@@ -4101,7 +4283,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1413",
@@ -4123,7 +4306,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:225383",
@@ -4145,7 +4329,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:225268",
@@ -4167,7 +4352,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1412",
@@ -4189,7 +4375,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3554",
@@ -4211,7 +4398,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88748",
@@ -4233,7 +4421,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1411",
@@ -4255,7 +4444,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3552",
@@ -4277,7 +4467,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3553",
@@ -4299,7 +4490,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:223857",
@@ -4321,7 +4513,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3551",
@@ -4343,7 +4536,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:222754",
@@ -4365,7 +4559,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88745",
@@ -4392,7 +4587,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88744",
@@ -4414,7 +4610,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3550",
@@ -4436,7 +4633,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23505",
@@ -4458,7 +4656,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:222219",
@@ -4480,7 +4679,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1410",
@@ -4502,7 +4702,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1409",
@@ -4524,7 +4725,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3548",
@@ -4546,7 +4748,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88739",
@@ -4568,7 +4771,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:219361",
@@ -4590,7 +4794,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1408",
@@ -4612,7 +4817,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3547",
@@ -4634,7 +4840,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:219294",
@@ -4656,7 +4863,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88736",
@@ -4678,7 +4886,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3546",
@@ -4700,7 +4909,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1407",
@@ -4722,7 +4932,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1406",
@@ -4744,7 +4955,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:219178",
@@ -4766,7 +4978,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:219148",
@@ -4788,7 +5001,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:211794",
@@ -4810,7 +5024,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1405",
@@ -4832,7 +5047,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:219100",
@@ -4854,7 +5070,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88729",
@@ -4876,7 +5093,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3545",
@@ -4898,7 +5116,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1404",
@@ -4920,7 +5139,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1403",
@@ -4942,7 +5162,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:219062",
@@ -4969,7 +5190,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88727",
@@ -4991,7 +5213,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3544",
@@ -5013,7 +5236,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:219004",
@@ -5035,7 +5259,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218989",
@@ -5062,7 +5287,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3542",
@@ -5084,7 +5310,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218980",
@@ -5106,7 +5333,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218959",
@@ -5128,7 +5356,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218951",
@@ -5150,7 +5379,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218925",
@@ -5172,7 +5402,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:209794",
@@ -5194,7 +5425,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:209294",
@@ -5216,7 +5448,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1402",
@@ -5238,7 +5471,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218809",
@@ -5260,7 +5494,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218757",
@@ -5282,7 +5517,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218752",
@@ -5309,7 +5545,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218711",
@@ -5331,7 +5568,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218660",
@@ -5353,7 +5591,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:208794",
@@ -5375,7 +5614,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1401",
@@ -5397,7 +5637,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1400",
@@ -5419,7 +5660,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218308",
@@ -5441,7 +5683,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88718",
@@ -5463,7 +5706,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1399",
@@ -5485,7 +5729,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218291",
@@ -5507,7 +5752,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218287",
@@ -5529,7 +5775,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218180",
@@ -5551,7 +5798,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1398",
@@ -5573,7 +5821,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218168",
@@ -5595,7 +5844,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88717",
@@ -5622,7 +5872,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3535",
@@ -5644,7 +5895,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1397",
@@ -5666,7 +5918,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3534",
@@ -5688,7 +5941,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1396",
@@ -5710,7 +5964,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218060",
@@ -5732,7 +5987,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218048",
@@ -5754,7 +6010,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:218038",
@@ -5776,7 +6033,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1395",
@@ -5798,7 +6056,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:200794",
@@ -5820,7 +6079,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3532",
@@ -5842,7 +6102,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1394",
@@ -5864,7 +6125,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88712",
@@ -5886,7 +6148,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1393",
@@ -5908,7 +6171,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217863",
@@ -5930,7 +6194,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1392",
@@ -5952,7 +6217,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217793",
@@ -5974,7 +6240,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217762",
@@ -5996,7 +6263,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1391",
@@ -6018,7 +6286,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217705",
@@ -6045,7 +6314,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123716",
@@ -6067,7 +6337,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217686",
@@ -6089,7 +6360,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3530",
@@ -6111,7 +6383,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1390",
@@ -6133,7 +6406,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88710",
@@ -6155,7 +6429,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123712",
@@ -6177,7 +6452,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217618",
@@ -6199,7 +6475,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217593",
@@ -6221,7 +6498,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217561",
@@ -6243,7 +6521,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3529",
@@ -6265,7 +6544,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1389",
@@ -6287,7 +6567,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217483",
@@ -6309,7 +6590,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217477",
@@ -6331,7 +6613,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123689",
@@ -6358,7 +6641,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88707",
@@ -6380,7 +6664,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3528",
@@ -6402,7 +6687,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1388",
@@ -6424,7 +6710,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217427",
@@ -6451,7 +6738,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217414",
@@ -6473,7 +6761,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3527",
@@ -6495,7 +6784,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88703",
@@ -6517,7 +6807,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1387",
@@ -6539,7 +6830,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1386",
@@ -6561,7 +6853,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217333",
@@ -6583,7 +6876,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3525",
@@ -6605,7 +6899,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217290",
@@ -6627,7 +6922,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3524",
@@ -6649,7 +6945,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1384",
@@ -6671,7 +6968,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217247",
@@ -6693,7 +6991,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3521",
@@ -6715,7 +7014,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1385",
@@ -6737,7 +7037,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3523",
@@ -6759,7 +7060,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23504",
@@ -6781,7 +7083,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1383",
@@ -6803,7 +7106,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:217047",
@@ -6825,7 +7129,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88701",
@@ -6847,7 +7152,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3519",
@@ -6869,7 +7175,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1382",
@@ -6891,7 +7198,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88699",
@@ -6913,7 +7221,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3517",
@@ -6935,7 +7244,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-press:216775",
@@ -6957,7 +7267,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3516",
@@ -6979,7 +7290,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3514",
@@ -7001,7 +7313,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3513",
@@ -7023,7 +7336,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3512",
@@ -7045,7 +7359,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:196794",
@@ -7067,7 +7382,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3510",
@@ -7089,7 +7405,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88693",
@@ -7111,7 +7428,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1381",
@@ -7133,7 +7451,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:196294",
@@ -7155,7 +7474,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3508",
@@ -7177,7 +7497,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1380",
@@ -7199,7 +7520,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123660",
@@ -7221,7 +7543,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1379",
@@ -7243,7 +7566,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:195294",
@@ -7265,7 +7589,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123657",
@@ -7287,7 +7612,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23506",
@@ -7309,7 +7635,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3507",
@@ -7331,7 +7658,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3506",
@@ -7353,7 +7681,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1378",
@@ -7375,7 +7704,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3505",
@@ -7397,7 +7727,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3503",
@@ -7419,7 +7750,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23503",
@@ -7441,7 +7773,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:195794",
@@ -7463,7 +7796,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1377",
@@ -7485,7 +7819,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88685",
@@ -7507,7 +7842,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3502",
@@ -7529,7 +7865,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:189294",
@@ -7551,7 +7888,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88679",
@@ -7573,7 +7911,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1376",
@@ -7595,7 +7934,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3501",
@@ -7617,7 +7957,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88678",
@@ -7639,7 +7980,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1375",
@@ -7661,7 +8003,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23502",
@@ -7683,7 +8026,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:188794",
@@ -7705,7 +8049,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1374",
@@ -7727,7 +8072,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3500",
@@ -7749,7 +8095,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3499",
@@ -7771,7 +8118,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3498",
@@ -7793,7 +8141,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1373",
@@ -7815,7 +8164,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123633",
@@ -7837,7 +8187,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3497",
@@ -7859,7 +8210,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3496",
@@ -7881,7 +8233,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:188294",
@@ -7903,7 +8256,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3495",
@@ -7925,7 +8279,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4117",
@@ -7947,7 +8302,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:208938",
@@ -7969,7 +8325,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:hanwha:3493",
@@ -7991,7 +8348,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88673",
@@ -8013,7 +8371,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1372",
@@ -8035,7 +8394,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88669",
@@ -8057,7 +8417,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1371",
@@ -8079,7 +8440,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88667",
@@ -8106,7 +8468,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88665",
@@ -8128,7 +8491,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88664",
@@ -8150,7 +8514,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23501",
@@ -8172,7 +8537,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88659",
@@ -8199,7 +8565,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23500",
@@ -8221,7 +8588,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1370",
@@ -8243,7 +8611,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88656",
@@ -8265,7 +8634,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:184794",
@@ -8287,7 +8657,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:184294",
@@ -8309,7 +8680,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:183794",
@@ -8331,7 +8703,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:183294",
@@ -8353,7 +8726,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1369",
@@ -8375,7 +8749,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88653",
@@ -8402,7 +8777,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:182294",
@@ -8424,7 +8800,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1366",
@@ -8446,7 +8823,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88649",
@@ -8468,7 +8846,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1365",
@@ -8490,7 +8869,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123590",
@@ -8512,7 +8892,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:182794",
@@ -8534,7 +8915,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23499",
@@ -8556,7 +8938,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88648",
@@ -8578,7 +8961,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1348",
@@ -8600,7 +8984,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123586",
@@ -8622,7 +9007,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:178794",
@@ -8644,7 +9030,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:177294",
@@ -8666,7 +9053,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1345",
@@ -8688,7 +9076,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123563",
@@ -8710,7 +9099,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:175794",
@@ -8732,7 +9122,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:204284",
@@ -8754,7 +9145,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88644",
@@ -8776,7 +9168,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1347",
@@ -8798,7 +9191,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23498",
@@ -8820,7 +9214,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:172294",
@@ -8842,7 +9237,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1346",
@@ -8864,7 +9260,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1338",
@@ -8886,7 +9283,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88641",
@@ -8908,7 +9306,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88639",
@@ -8930,7 +9329,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1339",
@@ -8952,7 +9352,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88637",
@@ -8974,7 +9375,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1340",
@@ -8996,7 +9398,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88636",
@@ -9018,7 +9421,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:170294",
@@ -9040,7 +9444,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1341",
@@ -9062,7 +9467,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88634",
@@ -9084,7 +9490,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:169794",
@@ -9106,7 +9513,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88633",
@@ -9128,7 +9536,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1342",
@@ -9150,7 +9559,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123505",
@@ -9172,7 +9582,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1343",
@@ -9194,7 +9605,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123504",
@@ -9216,7 +9628,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1344",
@@ -9238,7 +9651,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1330",
@@ -9260,7 +9674,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:174794",
@@ -9282,7 +9697,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:168794",
@@ -9304,7 +9720,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1329",
@@ -9326,7 +9743,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23497",
@@ -9348,7 +9766,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1328",
@@ -9370,7 +9789,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23496",
@@ -9392,7 +9812,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23495",
@@ -9414,7 +9835,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1327",
@@ -9436,7 +9858,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123497",
@@ -9458,7 +9881,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88626",
@@ -9480,7 +9904,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88624",
@@ -9502,7 +9927,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1319",
@@ -9524,7 +9950,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1326",
@@ -9546,7 +9973,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23494",
@@ -9568,7 +9996,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1325",
@@ -9590,7 +10019,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123478",
@@ -9612,7 +10042,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88620",
@@ -9634,7 +10065,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88618",
@@ -9656,7 +10088,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:166794",
@@ -9678,7 +10111,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88615",
@@ -9700,7 +10134,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88612",
@@ -9722,7 +10157,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1324",
@@ -9744,7 +10180,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88605",
@@ -9766,7 +10203,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:165794",
@@ -9788,7 +10226,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1298",
@@ -9810,7 +10249,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4076",
@@ -9832,7 +10272,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1299",
@@ -9854,7 +10295,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88602",
@@ -9881,7 +10323,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:164794",
@@ -9903,7 +10346,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1300",
@@ -9925,7 +10369,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1297",
@@ -9947,7 +10392,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1301",
@@ -9969,7 +10415,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123441",
@@ -9991,7 +10438,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88600",
@@ -10013,7 +10461,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123439",
@@ -10035,7 +10484,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1302",
@@ -10057,7 +10507,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1306",
@@ -10079,7 +10530,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1305",
@@ -10101,7 +10553,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23493",
@@ -10123,7 +10576,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123435",
@@ -10145,7 +10599,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:160794",
@@ -10167,7 +10622,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1304",
@@ -10189,7 +10645,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23492",
@@ -10211,7 +10668,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1303",
@@ -10233,7 +10691,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:173794",
@@ -10255,7 +10714,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:155294",
@@ -10277,7 +10737,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1315",
@@ -10299,7 +10760,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4062",
@@ -10321,7 +10783,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4061",
@@ -10343,7 +10806,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:193563",
@@ -10365,7 +10829,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88592",
@@ -10387,7 +10852,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:knia-press:88590",
@@ -10409,7 +10875,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1313",
@@ -10431,7 +10898,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1312",
@@ -10453,7 +10921,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1311",
@@ -10475,7 +10944,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1310",
@@ -10497,7 +10967,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1296",
@@ -10519,7 +10990,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123396",
@@ -10541,7 +11013,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1295",
@@ -10563,7 +11036,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123392",
@@ -10585,7 +11059,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123391",
@@ -10607,7 +11082,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1289",
@@ -10629,7 +11105,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:samsungfire:1288",
@@ -10651,7 +11128,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:191499",
@@ -10673,7 +11151,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:145294",
@@ -10695,7 +11174,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123373",
@@ -10717,7 +11197,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123356",
@@ -10739,7 +11220,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23491",
@@ -10761,7 +11243,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23490",
@@ -10783,7 +11266,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23489",
@@ -10805,7 +11289,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23488",
@@ -10827,7 +11312,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123354",
@@ -10849,7 +11335,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:144294",
@@ -10871,7 +11358,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:143794",
@@ -10893,7 +11381,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123353",
@@ -10915,7 +11404,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123330",
@@ -10937,7 +11427,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123329",
@@ -10959,7 +11450,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123327",
@@ -10981,7 +11473,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:143294",
@@ -11003,7 +11496,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123326",
@@ -11025,7 +11519,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123325",
@@ -11047,7 +11542,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:142294",
@@ -11069,7 +11565,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123310",
@@ -11091,7 +11588,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:141794",
@@ -11113,7 +11611,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4034",
@@ -11135,7 +11634,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123307",
@@ -11157,7 +11657,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23487",
@@ -11179,7 +11680,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4033",
@@ -11201,7 +11703,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123300",
@@ -11223,7 +11726,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23486",
@@ -11245,7 +11749,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:137294",
@@ -11267,7 +11772,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123279",
@@ -11289,7 +11795,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4023",
@@ -11311,7 +11818,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:136294",
@@ -11333,7 +11841,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23485",
@@ -11355,7 +11864,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:135794",
@@ -11377,7 +11887,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4022",
@@ -11399,7 +11910,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4021",
@@ -11421,7 +11933,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:135294",
@@ -11443,7 +11956,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:134294",
@@ -11465,7 +11979,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:133294",
@@ -11487,7 +12002,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:132794",
@@ -11509,7 +12025,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:132294",
@@ -11531,7 +12048,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123229",
@@ -11553,7 +12071,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123228",
@@ -11575,7 +12094,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23484",
@@ -11597,7 +12117,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123227",
@@ -11619,7 +12140,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:131294",
@@ -11641,7 +12163,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123226",
@@ -11663,7 +12186,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23483",
@@ -11685,7 +12209,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123209",
@@ -11707,7 +12232,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23482",
@@ -11729,7 +12255,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:125294",
@@ -11751,7 +12278,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23481",
@@ -11773,7 +12301,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:4004",
@@ -11795,7 +12324,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123190",
@@ -11817,7 +12347,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123188",
@@ -11839,7 +12370,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23479",
@@ -11861,7 +12393,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23480",
@@ -11883,7 +12416,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3994",
@@ -11905,7 +12439,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23478",
@@ -11927,7 +12462,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123165",
@@ -11949,7 +12485,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:121794",
@@ -11971,7 +12508,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23477",
@@ -11993,7 +12531,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:121294",
@@ -12015,7 +12554,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23476",
@@ -12037,7 +12577,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:135464",
@@ -12059,7 +12600,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23475",
@@ -12081,7 +12623,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23474",
@@ -12103,7 +12646,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3978",
@@ -12125,7 +12669,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23473",
@@ -12147,7 +12692,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:118294",
@@ -12169,7 +12715,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23472",
@@ -12191,7 +12738,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:117794",
@@ -12213,7 +12761,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23471",
@@ -12235,7 +12784,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3974",
@@ -12257,7 +12807,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3970",
@@ -12279,7 +12830,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23470",
@@ -12301,7 +12853,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:134825",
@@ -12323,7 +12876,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123120",
@@ -12345,7 +12899,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123106",
@@ -12367,7 +12922,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:116294",
@@ -12389,7 +12945,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3966",
@@ -12411,7 +12968,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23469",
@@ -12433,7 +12991,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:114794",
@@ -12455,7 +13014,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123081",
@@ -12477,7 +13037,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123080",
@@ -12499,7 +13060,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123079",
@@ -12521,7 +13083,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123053",
@@ -12543,7 +13106,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123051",
@@ -12565,7 +13129,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3949",
@@ -12587,7 +13152,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123050",
@@ -12609,7 +13175,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123049",
@@ -12631,7 +13198,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23468",
@@ -12653,7 +13221,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123023",
@@ -12675,7 +13244,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:111794",
@@ -12697,7 +13267,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123019",
@@ -12719,7 +13290,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:klia-press:123017",
@@ -12741,7 +13313,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23467",
@@ -12763,7 +13336,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:106794",
@@ -12785,7 +13359,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:106294",
@@ -12807,7 +13382,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:105794",
@@ -12829,7 +13405,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:104794",
@@ -12851,7 +13428,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3929",
@@ -12873,7 +13451,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:130899",
@@ -12895,7 +13474,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:101294",
@@ -12917,7 +13497,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:100794",
@@ -12939,7 +13520,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:100294",
@@ -12961,7 +13543,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:99294",
@@ -12983,7 +13566,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23465",
@@ -13005,7 +13589,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23464",
@@ -13027,7 +13612,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:130063",
@@ -13049,7 +13635,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23466",
@@ -13071,7 +13658,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:96294",
@@ -13093,7 +13681,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:94794",
@@ -13115,7 +13704,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23463",
@@ -13137,7 +13727,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:94294",
@@ -13159,7 +13750,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23462",
@@ -13181,7 +13773,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:92794",
@@ -13203,7 +13796,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:89294",
@@ -13225,7 +13819,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:87294",
@@ -13247,7 +13842,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:86294",
@@ -13269,7 +13865,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:128171",
@@ -13291,7 +13888,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:85294",
@@ -13313,7 +13911,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3891",
@@ -13335,7 +13934,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:84794",
@@ -13357,7 +13957,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23461",
@@ -13379,7 +13980,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:81294",
@@ -13401,7 +14003,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23460",
@@ -13423,7 +14026,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23459",
@@ -13445,7 +14049,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3879",
@@ -13472,7 +14077,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:78294",
@@ -13494,7 +14100,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:77794",
@@ -13516,7 +14123,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:75794",
@@ -13538,7 +14146,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23458",
@@ -13560,7 +14169,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23457",
@@ -13582,7 +14192,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:74794",
@@ -13604,7 +14215,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3864",
@@ -13626,7 +14238,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3863",
@@ -13648,7 +14261,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:73794",
@@ -13670,7 +14284,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23456",
@@ -13692,7 +14307,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:72794",
@@ -13714,7 +14330,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23455",
@@ -13736,7 +14353,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:71294",
@@ -13758,7 +14376,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3852",
@@ -13780,7 +14399,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3849",
@@ -13802,7 +14422,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:70794",
@@ -13824,7 +14445,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23454",
@@ -13846,7 +14468,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:69294",
@@ -13868,7 +14491,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:68794",
@@ -13890,7 +14514,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:kiri:67794",
@@ -13912,7 +14537,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3842",
@@ -13934,7 +14560,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23453",
@@ -13956,7 +14583,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23452",
@@ -13978,7 +14606,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23451",
@@ -14000,7 +14629,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23450",
@@ -14022,7 +14652,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23449",
@@ -14044,7 +14675,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3832",
@@ -14066,7 +14698,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:56606",
@@ -14088,7 +14721,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23448",
@@ -14110,7 +14744,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:meritz:23447",
@@ -14132,7 +14767,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3798",
@@ -14154,7 +14790,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3779",
@@ -14176,7 +14813,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:54778",
@@ -14198,7 +14836,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3767",
@@ -14220,7 +14859,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3754",
@@ -14242,7 +14882,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3753",
@@ -14264,7 +14905,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3725",
@@ -14291,7 +14933,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3701",
@@ -14313,7 +14956,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3700",
@@ -14335,7 +14979,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3685",
@@ -14357,7 +15002,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3672",
@@ -14379,7 +15025,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3671",
@@ -14401,7 +15048,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3670",
@@ -14423,7 +15071,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3668",
@@ -14445,7 +15094,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:34897",
@@ -14467,7 +15117,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3641",
@@ -14489,7 +15140,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3640",
@@ -14511,7 +15163,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3638",
@@ -14533,7 +15186,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:34890",
@@ -14555,7 +15209,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3612",
@@ -14582,7 +15237,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:34889",
@@ -14604,7 +15260,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3601",
@@ -14626,7 +15283,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3585",
@@ -14648,7 +15306,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3579",
@@ -14670,7 +15329,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3574",
@@ -14692,7 +15352,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3562",
@@ -14719,7 +15380,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3552",
@@ -14741,7 +15403,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3548",
@@ -14763,7 +15426,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3547",
@@ -14785,7 +15449,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fss-alert:34878",
@@ -14807,7 +15472,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3536",
@@ -14829,7 +15495,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3525",
@@ -14851,7 +15518,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3521",
@@ -14873,7 +15541,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3518",
@@ -14895,7 +15564,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-rule:3508",
@@ -14917,7 +15587,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87952",
@@ -14939,7 +15610,8 @@
       "summary": "보험업권과 복지부 산하 노인지원기관이 손잡고 65만 명의 취약어르신에게 낙상사고 치료비와 치매배상책임보험을 무료로 제공해요.",
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87818",
@@ -14961,7 +15633,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87711",
@@ -14983,7 +15656,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87701",
@@ -15005,7 +15679,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87625",
@@ -15027,7 +15702,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87572",
@@ -15049,7 +15725,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87270",
@@ -15071,7 +15748,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87236",
@@ -15093,7 +15771,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87217",
@@ -15115,7 +15794,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87205",
@@ -15137,7 +15817,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:87030",
@@ -15159,7 +15840,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86990",
@@ -15181,7 +15863,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86984",
@@ -15203,7 +15886,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86943",
@@ -15225,7 +15909,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86854",
@@ -15247,7 +15932,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86831",
@@ -15269,7 +15955,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86780",
@@ -15291,7 +15978,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86732",
@@ -15313,7 +16001,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86709",
@@ -15335,7 +16024,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86701",
@@ -15357,7 +16047,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86598",
@@ -15379,7 +16070,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86494",
@@ -15401,7 +16093,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86464",
@@ -15423,7 +16116,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86426",
@@ -15445,7 +16139,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86406",
@@ -15467,7 +16162,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86377",
@@ -15489,7 +16185,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86263",
@@ -15511,7 +16208,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86167",
@@ -15533,7 +16231,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86151",
@@ -15555,7 +16254,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86099",
@@ -15577,7 +16277,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86077",
@@ -15599,7 +16300,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86059",
@@ -15621,7 +16323,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86050",
@@ -15643,7 +16346,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86032",
@@ -15665,7 +16369,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:86018",
@@ -15687,7 +16392,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85975",
@@ -15709,7 +16415,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85929",
@@ -15731,7 +16438,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85746",
@@ -15753,7 +16461,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85738",
@@ -15775,7 +16484,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85624",
@@ -15797,7 +16507,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85608",
@@ -15819,7 +16530,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85558",
@@ -15841,7 +16553,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85524",
@@ -15863,7 +16576,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85514",
@@ -15885,7 +16599,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85456",
@@ -15907,7 +16622,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85451",
@@ -15929,7 +16645,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85447",
@@ -15951,7 +16668,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85446",
@@ -15973,7 +16691,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85442",
@@ -15995,7 +16714,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85250",
@@ -16017,7 +16737,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85232",
@@ -16039,7 +16760,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85201",
@@ -16061,7 +16783,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85170",
@@ -16083,7 +16806,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85117",
@@ -16105,7 +16829,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85059",
@@ -16127,7 +16852,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:85055",
@@ -16149,7 +16875,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:84901",
@@ -16171,7 +16898,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:84852",
@@ -16193,7 +16921,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:84835",
@@ -16215,7 +16944,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:84742",
@@ -16237,7 +16967,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:fsc-press:84721",
@@ -16259,7 +16990,8 @@
       "summary": null,
       "relevance": null,
       "important": false,
-      "relevanceBy": null
+      "relevanceBy": null,
+      "importance": null
     },
     {
       "id": "g:chosun:GNSTSOJQGA2TINJXMQZWCMRYMU",
@@ -16281,7 +17013,8 @@
       "summary": "주요 손해보험사들의 9월 자동차보험 평균 손해율이 전년 대비 9.2%포인트 하락한 85%를 기록했어요.",
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": 4
     },
     {
       "id": "g:yna:AKR20261023069100002",
@@ -16303,7 +17036,8 @@
       "summary": "9월 자동차보험 손해율이 작년보다 하락하면서 지난달까지의 누적 손해율도 소폭 개선되었어요.",
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": 4
     },
     {
       "id": "g:joongang:25471082",
@@ -16325,7 +17059,8 @@
       "summary": "전기차 보급이 급속도로 확산하면서 비전기차보다 사고 비용 부담이 커 자동차보험 손해율이 급증하고 있어요.",
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": 3
     },
     {
       "id": "g:joongang:25470904",
@@ -16347,7 +17082,8 @@
       "summary": null,
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": 3
     },
     {
       "id": "g:joongang:25469804",
@@ -16369,7 +17105,8 @@
       "summary": "한화생명은 가입자가 살아 있을 때 노후자금이나 자녀 결혼자금 등 생애 자금이 필요할 때 납입보험료 전액을 받을 수 있는 '한화생명 필요할 때 쓰는 종신보험'을 출시했어요.",
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": 3
     }
   ],
   "status": [

@@ -232,6 +232,50 @@
     "firstSeen": "2026-10-23"
   },
   {
+    "id": "c:joongang:25458705:ai",
+    "category": "life",
+    "title": "외국인 국민연금 추납 요건 강화",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "31일부터",
+    "quote": "지난달 31일부터 외국인은 출입국에 관한 사실 증명을 제출해야 하며, 입국일부터 출국일까지 한 달에 국내 실거주 일수가 15일 이상인 경우에만 해당 월의 추납이 인정된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-09-03",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25458705"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:joongang:25452276:ai",
+    "category": "life",
+    "title": "GA 설계사 판매수수료 1200%룰 및 분급제 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년부터",
+    "quote": "지난 7월 시행된 법인보험대리점(GA) 설계사 판매수수료 1200%룰과 내년부터 확대되는 수수료 분급제가 폐해를 바로잡는 계기가 될 것”이라고 했다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-08-11",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25452276"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
     "id": "c:fss-press:218711:2026-06-22",
     "category": "general",
     "title": "보험금 심사기준 변경 사실을 사전에 안내하여 소비자 피해와 분쟁을 예방하겠습니다",

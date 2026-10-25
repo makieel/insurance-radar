@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T12:58:14.796Z",
+  "generatedAt": "2026-10-25T13:09:34.167Z",
   "groups": [
     {
       "id": "g:fins:110320",
@@ -69,7 +69,7 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": 3
     },
     {
       "id": "g:fins:110315",
@@ -92,7 +92,7 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": 3
     },
     {
       "id": "g:fins:110314",
@@ -115,7 +115,7 @@
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
-      "importance": null
+      "importance": 3
     },
     {
       "id": "g:chosun:COIFRPUVG5DVLIMOFHASVLGEV4",
@@ -1069,6 +1069,742 @@
       "important": false,
       "relevanceBy": "rule",
       "importance": null
+    },
+    {
+      "id": "g:joongang:25461071",
+      "topic": "general",
+      "kind": "press",
+      "title": "일본 전지훈련 KB손보 하현용 대행 “다음 시즌 높은 곳 바라봐”",
+      "url": "https://www.joongang.co.kr/article/25461071",
+      "published": "2026-09-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25461071"
+        }
+      ],
+      "itemIds": [
+        "joongang:25461071"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25460732",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;Biz-inside,China&#93; ‘펫코노미’ 훈풍 탄 펫보험...반려 가구 필수 소비로 뜬다",
+      "url": "https://www.joongang.co.kr/article/25460732",
+      "published": "2026-09-10",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25460732"
+        }
+      ],
+      "itemIds": [
+        "joongang:25460732"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25460124",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;2026 하반기 혁신 IT 대상&#93; 아이에프에이, 보험 데이터·AI 서비스 통합 플랫폼 구축",
+      "url": "https://www.joongang.co.kr/article/25460124",
+      "published": "2026-09-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25460124"
+        }
+      ],
+      "itemIds": [
+        "joongang:25460124"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25459962",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 100세 시대, 합리적 가격에 원하는 보장 자유롭게 선택",
+      "url": "https://www.joongang.co.kr/article/25459962",
+      "published": "2026-09-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25459962"
+        }
+      ],
+      "itemIds": [
+        "joongang:25459962"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25459899",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;김정탁의 인문지리기행&#93; 환자 차별 없앤 제중원, 90년 뒤 의료보험으로 맥 이어져",
+      "url": "https://www.joongang.co.kr/article/25459899",
+      "published": "2026-09-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25459899"
+        }
+      ],
+      "itemIds": [
+        "joongang:25459899"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25459672",
+      "topic": "general",
+      "kind": "press",
+      "title": "NBA 도전은 계속...이현중, 포틀랜드와 1년 비보장 계약",
+      "url": "https://www.joongang.co.kr/article/25459672",
+      "published": "2026-09-07",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25459672"
+        }
+      ],
+      "itemIds": [
+        "joongang:25459672"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1
+    },
+    {
+      "id": "g:joongang:25459266",
+      "topic": "life",
+      "kind": "press",
+      "title": "간병인보험 ‘금액’ 대신 ‘리스크’ 살피세요",
+      "url": "https://www.joongang.co.kr/article/25459266",
+      "published": "2026-09-05",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25459266"
+        }
+      ],
+      "itemIds": [
+        "joongang:25459266"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25458946",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;Biz & Now&#93; 생명보험협회, 골든펠로우 1000명 선정",
+      "url": "https://www.joongang.co.kr/article/25458946",
+      "published": "2026-09-04",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25458946"
+        }
+      ],
+      "itemIds": [
+        "joongang:25458946"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25458854",
+      "topic": "general",
+      "kind": "press",
+      "title": "李 “뼈깎는 각오로 경찰개혁…불공정 사회보장제 전면 재검토”",
+      "url": "https://www.joongang.co.kr/article/25458854",
+      "published": "2026-09-03",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25458854"
+        }
+      ],
+      "itemIds": [
+        "joongang:25458854"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1
+    },
+    {
+      "id": "g:joongang:25458705",
+      "topic": "general",
+      "kind": "press",
+      "title": "한 달 보험료 내고 노령연금 수급권…국민연금 ‘추납 꼼수’ 막는다",
+      "url": "https://www.joongang.co.kr/article/25458705",
+      "published": "2026-09-03",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25458705"
+        }
+      ],
+      "itemIds": [
+        "joongang:25458705"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5
+    },
+    {
+      "id": "g:joongang:25458616",
+      "topic": "industry",
+      "kind": "press",
+      "title": "&#91;Biz & Now&#93; DB생보 신임 대표이사에 박제광 사장 내정",
+      "url": "https://www.joongang.co.kr/article/25458616",
+      "published": "2026-09-03",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25458616"
+        }
+      ],
+      "itemIds": [
+        "joongang:25458616"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25458444",
+      "topic": "general",
+      "kind": "press",
+      "title": "유니세프 한국위원회 “모든 아동에 보편적 출생등록 보장해야”",
+      "url": "https://www.joongang.co.kr/article/25458444",
+      "published": "2026-09-02",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25458444"
+        }
+      ],
+      "itemIds": [
+        "joongang:25458444"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1
+    },
+    {
+      "id": "g:joongang:25458230",
+      "topic": "general",
+      "kind": "press",
+      "title": "1억대 임금 떼먹고 ‘4대 보험 완납’ 포토샵…57세 사장 결국 실형",
+      "url": "https://www.joongang.co.kr/article/25458230",
+      "published": "2026-09-02",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25458230"
+        }
+      ],
+      "itemIds": [
+        "joongang:25458230"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25457937",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;단독&#93; 쌍방울, 상폐 무효소송 1심 패소…法 “방어권 보장받아”",
+      "url": "https://www.joongang.co.kr/article/25457937",
+      "published": "2026-09-01",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25457937"
+        }
+      ],
+      "itemIds": [
+        "joongang:25457937"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1
+    },
+    {
+      "id": "g:joongang:25457872",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;프리즘&#93; 원유 다변화 지원, 국가 안보 위한 ‘보험료’",
+      "url": "https://www.joongang.co.kr/article/25457872",
+      "published": "2026-09-01",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25457872"
+        }
+      ],
+      "itemIds": [
+        "joongang:25457872"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25457528",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;2026 하반기 혁신 IT 대상&#93; 보험 지식·법령 연결한 AI 플랫폼",
+      "url": "https://www.joongang.co.kr/article/25457528",
+      "published": "2026-08-31",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25457528"
+        }
+      ],
+      "itemIds": [
+        "joongang:25457528"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25456816",
+      "topic": "general",
+      "kind": "press",
+      "title": "헌재 “병역기피자 해고 병역법은 헌법불합치…절차 보장 필요”",
+      "url": "https://www.joongang.co.kr/article/25456816",
+      "published": "2026-08-27",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25456816"
+        }
+      ],
+      "itemIds": [
+        "joongang:25456816"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2
+    },
+    {
+      "id": "g:joongang:25456675",
+      "topic": "general",
+      "kind": "press",
+      "title": "입양 기록에 실종아 입소카드까지 잊어버린 아동권리보장원",
+      "url": "https://www.joongang.co.kr/article/25456675",
+      "published": "2026-08-27",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25456675"
+        }
+      ],
+      "itemIds": [
+        "joongang:25456675"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25455945",
+      "topic": "general",
+      "kind": "press",
+      "title": "남자배구 KB손해보험, 임시 연고지 평택으로 간다",
+      "url": "https://www.joongang.co.kr/article/25455945",
+      "published": "2026-08-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25455945"
+        }
+      ],
+      "itemIds": [
+        "joongang:25455945"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25455888",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 납입 보험료 100% 환급받고 사망보장 유지하는 신개념 종신보험",
+      "url": "https://www.joongang.co.kr/article/25455888",
+      "published": "2026-08-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25455888"
+        }
+      ],
+      "itemIds": [
+        "joongang:25455888"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25455850",
+      "topic": "industry",
+      "kind": "press",
+      "title": "30억 투자했는데…치과의사가 소개한 ‘보험 상품’ 알고보니",
+      "url": "https://www.joongang.co.kr/article/25455850",
+      "published": "2026-08-25",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25455850"
+        }
+      ],
+      "itemIds": [
+        "joongang:25455850"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25455417",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;단독&#93; 지방흡입→요추염좌 바뀐 진단서…‘보험사기’ 360명 경찰조사",
+      "url": "https://www.joongang.co.kr/article/25455417",
+      "published": "2026-08-23",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25455417"
+        }
+      ],
+      "itemIds": [
+        "joongang:25455417"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25454493",
+      "topic": "general",
+      "kind": "press",
+      "title": "역주행·급차로변경 차량 골라 ‘쾅’…보험금 3억 챙긴 24명 송치",
+      "url": "https://www.joongang.co.kr/article/25454493",
+      "published": "2026-08-19",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25454493"
+        }
+      ],
+      "itemIds": [
+        "joongang:25454493"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25454401",
+      "topic": "general",
+      "kind": "press",
+      "title": "차선 바꿀 때 ‘쾅’…2억4000만원 보험금 챙긴 수법 ‘블박’에 고스란히",
+      "url": "https://www.joongang.co.kr/article/25454401",
+      "published": "2026-08-19",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25454401"
+        }
+      ],
+      "itemIds": [
+        "joongang:25454401"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25454275",
+      "topic": "industry",
+      "kind": "press",
+      "title": "우리, 동양·ABL통합 추진…내년 55조원 생보사 출범",
+      "url": "https://www.joongang.co.kr/article/25454275",
+      "published": "2026-08-19",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25454275"
+        }
+      ],
+      "itemIds": [
+        "joongang:25454275"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25453619",
+      "topic": "general",
+      "kind": "press",
+      "title": "차선 바꾸면 냅다 ‘쾅’…보험금 챙긴 포르쉐∙BMW 운전자, 결국",
+      "url": "https://www.joongang.co.kr/article/25453619",
+      "published": "2026-08-15",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25453619"
+        }
+      ],
+      "itemIds": [
+        "joongang:25453619"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25453179",
+      "topic": "life",
+      "kind": "press",
+      "title": "한투, KDB생명 매각 우선협상대상자로…보험사업 숙원 푼다",
+      "url": "https://www.joongang.co.kr/article/25453179",
+      "published": "2026-08-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25453179"
+        }
+      ],
+      "itemIds": [
+        "joongang:25453179"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25452892",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;사랑방&#93; 건강보험심사평가원 外",
+      "url": "https://www.joongang.co.kr/article/25452892",
+      "published": "2026-08-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25452892"
+        }
+      ],
+      "itemIds": [
+        "joongang:25452892"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25452338",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 유병자보험 거품 뺀 교보K-맞춤건강보험, 6개월 배타적사용권 획득",
+      "url": "https://www.joongang.co.kr/article/25452338",
+      "published": "2026-08-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25452338"
+        }
+      ],
+      "itemIds": [
+        "joongang:25452338"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
+    },
+    {
+      "id": "g:joongang:25452276",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;Biz & Now&#93; 신창재 교보생명 의장 “보험, 머니게임 돼”",
+      "url": "https://www.joongang.co.kr/article/25452276",
+      "published": "2026-08-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25452276"
+        }
+      ],
+      "itemIds": [
+        "joongang:25452276"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4
+    },
+    {
+      "id": "g:joongang:25452017",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;단독&#93; “수리비 5000만원” 포르쉐 물 먹인 주유소, 영업배상보험 없었다",
+      "url": "https://www.joongang.co.kr/article/25452017",
+      "published": "2026-08-10",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25452017"
+        }
+      ],
+      "itemIds": [
+        "joongang:25452017"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null
+    },
+    {
+      "id": "g:joongang:25451793",
+      "topic": "general",
+      "kind": "press",
+      "title": "李대통령도 주목한 ‘폭염 일당보험’…40도 폭염에 기후보험 뜬다",
+      "url": "https://www.joongang.co.kr/article/25451793",
+      "published": "2026-08-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25451793"
+        }
+      ],
+      "itemIds": [
+        "joongang:25451793"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3
     }
   ],
   "status": [
@@ -1203,17 +1939,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 57,
+      "count": 105,
       "error": null,
-      "note": "과거 기사 채우는 중: 중앙 2026-09-14부터 재개",
+      "note": "과거 기사 채우는 중: 중앙 2026-08-05부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 5,
+      "count": 7,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 600번째부터 재개",
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 1200번째부터 재개",
       "disabled": false
     },
     {
