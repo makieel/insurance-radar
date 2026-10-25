@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T13:33:13.920Z",
+  "generatedAt": "2026-10-25T13:43:08.043Z",
   "groups": [
     {
       "id": "g:fins:110320",
@@ -960,7 +960,7 @@
       "itemIds": [
         "joongang:25463393"
       ],
-      "summary": null,
+      "summary": "지난 8월 도수치료 청구 건수는 지난해 같은 달보다 92% 급감했고, 청구 금액은 96% 줄었어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
@@ -1061,7 +1061,7 @@
         "joongang:25462007",
         "joongang:25462159"
       ],
-      "summary": null,
+      "summary": "올해 상반기 자동차 보험손익이 6년 만에 적자로 돌아섰어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
@@ -1541,7 +1541,7 @@
       "itemIds": [
         "joongang:25456675"
       ],
-      "summary": null,
+      "summary": "개인정보보호위원회는 개인정보보호법을 위반한 국가아동권리보장원에 과징금 8억6300만원과 과태료 2220만원을 부과했어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
@@ -2612,7 +2612,7 @@
       "itemIds": [
         "joongang:25437006"
       ],
-      "summary": null,
+      "summary": "일부 요양·한방병원이 암환자를 상대로 입원하면 돈을 돌려주는 불법 현찰 보상 관행을 하고 있어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
@@ -2732,7 +2732,7 @@
       "itemIds": [
         "joongang:25434481"
       ],
-      "summary": null,
+      "summary": "면책조항이 있다면 400여 회에 달하는 티눈과 굳은살 냉동응고술을 받고 보험금을 청구한 환자에게 보험금을 지급할 의무가 없다는 대법원 판단이 나왔어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
@@ -2996,7 +2996,7 @@
       "itemIds": [
         "fss-press:216777"
       ],
-      "summary": null,
+      "summary": "보험업권이 출산과 육아에 따른 보험료 부담을 덜어드려요.",
       "relevance": "high",
       "important": false,
       "relevanceBy": "rule",
@@ -3044,7 +3044,7 @@
       "itemIds": [
         "fss-press:216341"
       ],
-      "summary": null,
+      "summary": "2025년 자동차보험 사업실적(잠정)이에요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
@@ -3188,7 +3188,7 @@
       "itemIds": [
         "fss-press:213147"
       ],
-      "summary": null,
+      "summary": "롯데손해보험에 대한 경영개선요구를 의결했어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
@@ -3284,7 +3284,7 @@
       "itemIds": [
         "fss-press:210071"
       ],
-      "summary": null,
+      "summary": "자동차사고 후 렌터카 이용 보상 여부를 잘못 알면 피해자가 비용을 부담할 수도 있어요.",
       "relevance": "high",
       "important": false,
       "relevanceBy": "rule",
@@ -3308,7 +3308,7 @@
       "itemIds": [
         "fss-press:209614"
       ],
-      "summary": null,
+      "summary": "보험료 부담 등으로 보험 가입이 힘들었던 저소득층과 저신용자의 꼭 필요한 보험 가입을 확대하는 방안을 추진해요.",
       "relevance": "high",
       "important": false,
       "relevanceBy": "rule",
@@ -3380,11 +3380,1087 @@
       "itemIds": [
         "fss-press:209494"
       ],
-      "summary": null,
+      "summary": "경영개선권고에 따른 롯데손해보험의 경영개선계획 불승인을 결정했어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "rule",
       "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134199983",
+      "topic": "medical",
+      "kind": "press",
+      "title": "[동행&] “암 보험 다 들어놨는데 병원비가 수백만 원?”… 환자 두 번 울리는 뜻밖의 복병, ‘선별급여’",
+      "url": "https://www.donga.com/news/Economy/article/all/20260706/134199983/1",
+      "published": "2026-07-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260706/134199983/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134199983"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25428871",
+      "topic": "auto",
+      "kind": "press",
+      "title": "교통사고 현장서 300만원짜리 고객 금팔찌 ‘슬쩍’…보험사 직원 벌금형",
+      "url": "https://www.joongang.co.kr/article/25428871",
+      "published": "2026-05-16",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25428871"
+        }
+      ],
+      "itemIds": [
+        "joongang:25428871"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25427807",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;Biz & Now&#93; 생명보험협회 “소비자들 이해 어려운 상품 안 팔겠다”",
+      "url": "https://www.joongang.co.kr/article/25427807",
+      "published": "2026-05-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25427807"
+        }
+      ],
+      "itemIds": [
+        "joongang:25427807"
+      ],
+      "summary": "22개 생명보험사 최고경영자들은 소비자가 이해하지 못하거나 불이익 우려가 있는 상품은 판매하지 않겠다고 선언했어요. 생명보험협회는 별도 태스크포스를 구성해 약속 이행 상황을 점검할 계획이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25427779",
+      "topic": "general",
+      "kind": "press",
+      "title": "“학생·학부모가 무섭다”…교권침해보험 든 선생님 1만명",
+      "url": "https://www.joongang.co.kr/article/25427779",
+      "published": "2026-05-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25427779"
+        }
+      ],
+      "itemIds": [
+        "joongang:25427779"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25427730",
+      "topic": "general",
+      "kind": "press",
+      "title": "“소비자가 이해 못할 보험 안 팔겠다” 생명보험 CEO 공동선언",
+      "url": "https://www.joongang.co.kr/article/25427730",
+      "published": "2026-05-12",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25427730"
+        }
+      ],
+      "itemIds": [
+        "joongang:25427730"
+      ],
+      "summary": "생명보험사 최고경영자들은 소비자가 이해하지 못하거나 불이익 우려가 있는 상품은 판매하지 않겠다고 공동 선언했어요. 생명보험협회는 별도 태스크포스를 구성해 약속 이행 상황을 점검할 계획이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25427686",
+      "topic": "general",
+      "kind": "press",
+      "title": "“여교사 신체 그려놓고 조롱”...교권침해보험 가입 1만명 육박",
+      "url": "https://www.joongang.co.kr/article/25427686",
+      "published": "2026-05-12",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25427686"
+        }
+      ],
+      "itemIds": [
+        "joongang:25427686"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25427376",
+      "topic": "medical",
+      "kind": "press",
+      "title": "\"실손24 무용지물\" 지적에...정부, 참여 거부 EMR 업체 담합 조사 착수",
+      "url": "https://www.joongang.co.kr/article/25427376",
+      "published": "2026-05-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25427376"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25427461"
+        }
+      ],
+      "itemIds": [
+        "joongang:25427376",
+        "joongang:25427461"
+      ],
+      "summary": "금융위원회가 11일 서울 종로구 손해보험협회에서 관계부처와 실손보험 청구 전산화 점검회의를 열고 연계율 제고 방안을 논의했어요. 1200억원을 들여 구축한 실손보험 청구 전산화 시스템인 실손24는 병·의원과 전자의무기록 업체들의 참여가 저조해 활용률이 29%에 그치고 있어요. 정부는 일부 업체가 집단적으로 참여를 거부한 것과 관련해 공정위와 불공정 관행 여부를 면밀히 점검할 예정이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25427276",
+      "topic": "general",
+      "kind": "press",
+      "title": "필수의료 의사에 배상보험료 175만원 지원…응급 전담 전문의 등 대상도 확대",
+      "url": "https://www.joongang.co.kr/article/25427276",
+      "published": "2026-05-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25427276"
+        }
+      ],
+      "itemIds": [
+        "joongang:25427276"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25427159",
+      "topic": "general",
+      "kind": "press",
+      "title": "故이예람 중사 유족, 보험금 소송 승소…“청구권 소멸 안 돼”",
+      "url": "https://www.joongang.co.kr/article/25427159",
+      "published": "2026-05-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25427159"
+        }
+      ],
+      "itemIds": [
+        "joongang:25427159"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25426932",
+      "topic": "medical",
+      "kind": "press",
+      "title": "보험료 싸지는 대신 도수치료 0원? 5세대 실손 갈아타기 전 ‘필독’",
+      "url": "https://www.joongang.co.kr/article/25426932",
+      "published": "2026-05-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25426932"
+        }
+      ],
+      "itemIds": [
+        "joongang:25426932"
+      ],
+      "summary": "5세대 실손의료보험이 지난 6일 출시된 가운데, 암·뇌·심장질환 등 중증 비급여 보장이 강화되고 임신·출산 관련 급여 의료비가 새롭게 보장 범위에 포함되었어요. 반면 비중증 비급여 자기부담률이 50%로 올라가고 도수치료 등이 제외되면서 가입 세대와 병원 이용 패턴에 따라 유불리가 갈려요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25426888",
+      "topic": "auto",
+      "kind": "press",
+      "title": "자동차보험이 ‘범퍼’라면 운전자보험은 ‘에어백’",
+      "url": "https://www.joongang.co.kr/article/25426888",
+      "published": "2026-05-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25426888"
+        }
+      ],
+      "itemIds": [
+        "joongang:25426888"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25426078",
+      "topic": "general",
+      "kind": "press",
+      "title": "“소 귀표 바꿔 4억 챙겼다”…긴급도축 조작해 245번 보험금 청구",
+      "url": "https://www.joongang.co.kr/article/25426078",
+      "published": "2026-05-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25426078"
+        }
+      ],
+      "itemIds": [
+        "joongang:25426078"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25426070",
+      "topic": "general",
+      "kind": "press",
+      "title": "혜택 받았으면 연회비 환불불가…공연 유료회원 약관 “불공정”",
+      "url": "https://www.joongang.co.kr/article/25426070",
+      "published": "2026-05-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25426070"
+        }
+      ],
+      "itemIds": [
+        "joongang:25426070"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25425912",
+      "topic": "medical",
+      "kind": "press",
+      "title": "5세대 실손, 도수치료·주사제 제외…보험료 최소 50% 인하",
+      "url": "https://www.joongang.co.kr/article/25425912",
+      "published": "2026-05-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25425912"
+        }
+      ],
+      "itemIds": [
+        "joongang:25425912"
+      ],
+      "summary": "지난 6일 출시된 5세대 실손보험은 비중증 비급여 보장을 축소하고 도수치료 등을 보장에서 제외하는 대신 보험료를 현행 4세대보다 약 30% 낮췄어요. 임신·출산 관련 치료비가 보장 대상에 추가되었으며, 1·11월에는 옛 실손 가입자의 5세대 전환을 유도하기 위한 계약재매입을 선보일 예정이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25425899",
+      "topic": "medical",
+      "kind": "press",
+      "title": "보험은 5세대, 청구는 1세대…자동시스템 ‘실손24’ 활용률 4.6%뿐",
+      "url": "https://www.joongang.co.kr/article/25425899",
+      "published": "2026-05-06",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25425899"
+        }
+      ],
+      "itemIds": [
+        "joongang:25425899"
+      ],
+      "summary": "5세대 실손보험이 지난 6일 출시되었으나 실손24 청구 건수는 전체 계약의 4.6%에 그치고 있어요. 동네 의원과 약국의 낮은 참여율과 EMR 업체의 시스템 연동 미비가 주요 원인으로 지적되고 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25425881",
+      "topic": "medical",
+      "kind": "press",
+      "title": "실손보험은 5세대, 청구는 1세대…1200억 시스템 ‘무용지물’",
+      "url": "https://www.joongang.co.kr/article/25425881",
+      "published": "2026-05-05",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25425881"
+        }
+      ],
+      "itemIds": [
+        "joongang:25425881"
+      ],
+      "summary": "5세대 실손보험이 지난 6일 공식 출시되었으나 실손24 시스템 활용률은 전체 계약의 4.6%에 머물러 있어요. 병의원의 낮은 참여율과 EMR 업체의 미참여가 주요 원인으로 꼽혀요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25425812",
+      "topic": "medical",
+      "kind": "press",
+      "title": "내일부터 ‘실손 5세대’…비중증·비급여 보장 축소, 보험료는 30%↓",
+      "url": "https://www.joongang.co.kr/article/25425812",
+      "published": "2026-05-05",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25425812"
+        }
+      ],
+      "itemIds": [
+        "joongang:25425812"
+      ],
+      "summary": "비중증 비급여 보장을 축소하고 보험료를 낮춘 5세대 실손의료보험이 6일 출시되었어요. 임신·출산 및 발달장애 급여 치료비가 새롭게 보장 범위에 포함되었어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25423873",
+      "topic": "general",
+      "kind": "press",
+      "title": "멀쩡한 애를 아픈 애로 34번 속였다…AI 날개 단 보험사기",
+      "url": "https://www.joongang.co.kr/article/25423873",
+      "published": "2026-04-28",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25423873"
+        }
+      ],
+      "itemIds": [
+        "joongang:25423873"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25423829",
+      "topic": "general",
+      "kind": "press",
+      "title": "“정보 유출돼도 책임 없어요”…이런 플랫폼 약관 시정조치",
+      "url": "https://www.joongang.co.kr/article/25423829",
+      "published": "2026-04-28",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25423829"
+        }
+      ],
+      "itemIds": [
+        "joongang:25423829"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25423781",
+      "topic": "industry",
+      "kind": "press",
+      "title": "사내 성추행 사건 피해자에 인사상 불이익…전 KPGA 대표 재판행",
+      "url": "https://www.joongang.co.kr/article/25423781",
+      "published": "2026-04-27",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25423781"
+        }
+      ],
+      "itemIds": [
+        "joongang:25423781"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25423604",
+      "topic": "general",
+      "kind": "press",
+      "title": "“개인정보 유출돼도 책임 없다” 약관에 못 쓴다…공정위, 쿠팡 등 약관 시정",
+      "url": "https://www.joongang.co.kr/article/25423604",
+      "published": "2026-04-27",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25423604"
+        }
+      ],
+      "itemIds": [
+        "joongang:25423604"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25423554",
+      "topic": "auto",
+      "kind": "press",
+      "title": "차량 2·5부제 지키면 자동차보험료 연 2% 할인…\"1700만명 혜택\"",
+      "url": "https://www.joongang.co.kr/article/25423554",
+      "published": "2026-04-27",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25423554"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25423823"
+        }
+      ],
+      "itemIds": [
+        "joongang:25423554",
+        "joongang:25423823"
+      ],
+      "summary": "차량 2·5부제를 지키는 개인용 자동차보험 가입자는 연 2%의 보험료를 할인받아요. 해당 특약은 이달 1일부터 소급해 적용하며, 보험사들은 이르면 다음 달 11일 상품을 출시할 예정이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25423474",
+      "topic": "medical",
+      "kind": "press",
+      "title": "&#91;Biz & Now&#93; 비급여 보장 줄인 ‘5세대 실손보험’ 내달초 출시",
+      "url": "https://www.joongang.co.kr/article/25423474",
+      "published": "2026-04-27",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25423474"
+        }
+      ],
+      "itemIds": [
+        "joongang:25423474"
+      ],
+      "summary": "비급여 보장을 축소하고 필수·중증 질환 중심으로 재편한 5세대 실손보험이 다음 달 초 출시될 예정이에요. 도수치료 등 비중증 비급여 보장이 제외되고 본인부담률이 최대 50%로 상향돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25423327",
+      "topic": "general",
+      "kind": "press",
+      "title": "법원 “신탁사가 ‘책임한정특약’ 설명의무 위반하면 약관 무효”",
+      "url": "https://www.joongang.co.kr/article/25423327",
+      "published": "2026-04-26",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25423327"
+        }
+      ],
+      "itemIds": [
+        "joongang:25423327"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25422902",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;반퇴시대 재산리모델링&#93; ‘월 보험료 1300만원’ 50대, 30개 보험부터 리모델링 해야",
+      "url": "https://www.joongang.co.kr/article/25422902",
+      "published": "2026-04-24",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25422902"
+        }
+      ],
+      "itemIds": [
+        "joongang:25422902"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25422549",
+      "topic": "life",
+      "kind": "press",
+      "title": "“주식 올인했는데 암이라니”…‘보험 해약 5조’ 위험한 신호",
+      "url": "https://www.joongang.co.kr/article/25422549",
+      "published": "2026-04-23",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25422549"
+        }
+      ],
+      "itemIds": [
+        "joongang:25422549"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25422545",
+      "topic": "general",
+      "kind": "press",
+      "title": "“목돈 급한데 보험료 커서 고민”…‘해지’ 대신 ‘감액’ 하세요",
+      "url": "https://www.joongang.co.kr/article/25422545",
+      "published": "2026-04-23",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25422545"
+        }
+      ],
+      "itemIds": [
+        "joongang:25422545"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25422437",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;속보&#93; 당정청 “5부제 참여 차량에 보험료 할인 상품 5월 출시”",
+      "url": "https://www.joongang.co.kr/article/25422437",
+      "published": "2026-04-22",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25422437"
+        }
+      ],
+      "itemIds": [
+        "joongang:25422437"
+      ],
+      "summary": "중동 사태로 인한 에너지 절감을 위해 차량 5부제에 참여하는 차량에 보험료를 할인해주는 특약 상품이 다음 달 출시될 예정이에요. 정부는 추경 예산 집행과 핵심 원자재 수급 안정을 위한 점검을 강화할 방침이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25422011",
+      "topic": "general",
+      "kind": "press",
+      "title": "배우자 30만원, 자녀 20만원…보험료 안 내도 연금 받는 법",
+      "url": "https://www.joongang.co.kr/article/25422011",
+      "published": "2026-04-21",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25422011"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25422538"
+        }
+      ],
+      "itemIds": [
+        "joongang:25422011",
+        "joongang:25422538"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25421947",
+      "topic": "general",
+      "kind": "press",
+      "title": "전산사고에 증권사 금융민원 급증...보험금 지급 민원도 ↑",
+      "url": "https://www.joongang.co.kr/article/25421947",
+      "published": "2026-04-21",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25421947"
+        }
+      ],
+      "itemIds": [
+        "joongang:25421947"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25420862",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;Biz & Now&#93; 현대해상 연도대상서 보험 명장 5인 선정",
+      "url": "https://www.joongang.co.kr/article/25420862",
+      "published": "2026-04-17",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25420862"
+        }
+      ],
+      "itemIds": [
+        "joongang:25420862"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25420439",
+      "topic": "life",
+      "kind": "press",
+      "title": "생보재단, 강동구에 시니어·청년 함께 일하는 베이커리 카페 오픈",
+      "url": "https://www.joongang.co.kr/article/25420439",
+      "published": "2026-04-15",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25420439"
+        }
+      ],
+      "itemIds": [
+        "joongang:25420439"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25419774",
+      "topic": "general",
+      "kind": "press",
+      "title": "&#91;단독&#93; “째려봤다”고 2500만원 소송…학폭도 보험 드는 시대",
+      "url": "https://www.joongang.co.kr/article/25419774",
+      "published": "2026-04-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25419774"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25419881"
+        }
+      ],
+      "itemIds": [
+        "joongang:25419774",
+        "joongang:25419881"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25419730",
+      "topic": "general",
+      "kind": "press",
+      "title": "손가락 4개 일부러 절단…보험금 2억5000만원 탄 50대 구속",
+      "url": "https://www.joongang.co.kr/article/25419730",
+      "published": "2026-04-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25419730"
+        }
+      ],
+      "itemIds": [
+        "joongang:25419730"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25419631",
+      "topic": "auto",
+      "kind": "press",
+      "title": "&#91;속보&#93; 당정 “車보험료 요율 인하 협의…2부제로 운행거리 감소”",
+      "url": "https://www.joongang.co.kr/article/25419631",
+      "published": "2026-04-13",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25419631"
+        }
+      ],
+      "itemIds": [
+        "joongang:25419631"
+      ],
+      "summary": "당정과 정부는 차량 5·2부제 시행에 따라 줄어든 운행 거리를 반영하여 자동차 보험료율 인하 방안을 늦어도 내주 중 발표할 예정이다.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25419322",
+      "topic": "general",
+      "kind": "press",
+      "title": "“보험료 카드로 낼 거면 해지하라고?”…천차만별 방침에 혼란",
+      "url": "https://www.joongang.co.kr/article/25419322",
+      "published": "2026-04-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25419322"
+        }
+      ],
+      "itemIds": [
+        "joongang:25419322"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25419292",
+      "topic": "medical",
+      "kind": "press",
+      "title": "내 실손보험, 몇 세대인지 아시나요",
+      "url": "https://www.joongang.co.kr/article/25419292",
+      "published": "2026-04-11",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25419292"
+        }
+      ],
+      "itemIds": [
+        "joongang:25419292"
+      ],
+      "summary": "5세대 실손보험 도입 방향에서는 일상적인 비중증 비급여 치료의 보장 한도가 연간 1000만원으로 줄고 외래진료 시 최저 자기부담금이 5만원으로 오르며 비급여 도수치료와 주사치료 등은 보장하지 않는 방안이 검토되고 있다.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25419160",
+      "topic": "general",
+      "kind": "press",
+      "title": "동서발전, 중동상황 대응 자재수급·계약관리 비상대응체계 가동",
+      "url": "https://www.joongang.co.kr/article/25419160",
+      "published": "2026-04-10",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25419160"
+        }
+      ],
+      "itemIds": [
+        "joongang:25419160"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25419049",
+      "topic": "industry",
+      "kind": "press",
+      "title": "\"재주는 우리가 넘는데...\" PGA투어, 마스터스에 청구서",
+      "url": "https://www.joongang.co.kr/article/25419049",
+      "published": "2026-04-10",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25419049"
+        }
+      ],
+      "itemIds": [
+        "joongang:25419049"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25418991",
+      "topic": "medical",
+      "kind": "press",
+      "title": "‘단체→개인’ 실손 전환, 된다고요? 체크해보고 말씀하세요",
+      "url": "https://www.joongang.co.kr/article/25418991",
+      "published": "2026-04-10",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25418991"
+        }
+      ],
+      "itemIds": [
+        "joongang:25418991"
+      ],
+      "summary": "직장 단체실손보험을 퇴직 후 개인실손보험으로 무심사 전환하려면 5년 이상 단체보험 유지, 직전 5년간 보험금 수령액 200만원 이하, 10대 주요 질병 진단 이력 없음, 단체보험 종료 후 1개월 이내 신청 등의 조건을 모두 충족해야 한다.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25418678",
+      "topic": "medical",
+      "kind": "press",
+      "title": "&#91;반퇴시대 재산리모델링&#93; 퇴직 전 ‘실손보험 연계’ 활용, 안 팔리는 집은 ‘월세’ 검토",
+      "url": "https://www.joongang.co.kr/article/25418678",
+      "published": "2026-04-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25418678"
+        }
+      ],
+      "itemIds": [
+        "joongang:25418678"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25418669",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;사랑방&#93; 건강보험심사평가원장에 홍승권",
+      "url": "https://www.joongang.co.kr/article/25418669",
+      "published": "2026-04-09",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25418669"
+        }
+      ],
+      "itemIds": [
+        "joongang:25418669"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25418591",
+      "topic": "life",
+      "kind": "press",
+      "title": "새 건강보험심사평가원장에 ‘李 보건의료 책사’ 홍승권 교수 임명",
+      "url": "https://www.joongang.co.kr/article/25418591",
+      "published": "2026-04-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25418591"
+        }
+      ],
+      "itemIds": [
+        "joongang:25418591"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25418318",
+      "topic": "general",
+      "kind": "press",
+      "title": "공황장애·번아웃도 OK…보험, 정신건강도 케어",
+      "url": "https://www.joongang.co.kr/article/25418318",
+      "published": "2026-04-08",
+      "firstSeen": "2026-10-25",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25418318"
+        }
+      ],
+      "itemIds": [
+        "joongang:25418318"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
       "importanceVersion": 2
     }
   ],
@@ -3394,7 +4470,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -3402,7 +4478,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -3410,7 +4486,7 @@
       "ok": true,
       "count": 82,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -3418,7 +4494,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -3426,7 +4502,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": null,
       "disabled": false
     },
     {
@@ -3520,17 +4596,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 176,
+      "count": 239,
       "error": null,
-      "note": "과거 기사 채우는 중: 중앙 2026-05-17부터 재개",
+      "note": "과거 기사 채우는 중: 중앙 2026-04-07부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 14,
+      "count": 17,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 2400번째부터 재개",
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 350번째부터 재개",
       "disabled": false
     },
     {

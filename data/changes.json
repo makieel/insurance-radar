@@ -438,6 +438,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:joongang:25427276:ai",
+    "category": "general",
+    "title": "필수의료 의료진 배상보험료 정부 지원 확대",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "올해",
+    "quote": "정부가 올해 산부인과 등 필수의료 전문의 1인당 배상보험료로 연간 175만원을 지원한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-05-11",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25427276"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
     "id": "c:fsc-press:86831:2026-05-06",
     "category": "medical",
     "title": "5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.",
@@ -458,5 +480,75 @@
     "origin": "rule",
     "rate": null,
     "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:joongang:25425812:ai",
+    "category": "medical",
+    "title": "5세대 실손의료보험 및 선택형 할인 특약 도입",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 11월부터",
+    "quote": "오는 11월부터 계약 전환 할인 제도를 시행하는데, 구체적인 할인율과 기간은 업계에서 추후 발표할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-05-05",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25425812"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:joongang:25423823:ai",
+    "category": "auto",
+    "title": "차량 2·5부제 참여 시 자동차보험료 연 2% 할인",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "1일부터",
+    "quote": "보험료 할인은 이달 1일부터 소급해 적용한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-04-28",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25423823"
+      },
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25423554"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:joongang:25423604:ai",
+    "category": "general",
+    "title": "플랫폼 사업자 개인정보 유출 책임 면제 약관 시정",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "5월",
+    "quote": "개정 약관은 5월 초까지 반영될 예정",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-04-27",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25423604"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-25"
   }
 ]

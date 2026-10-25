@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T13:33:13.920Z",
+  "generatedAt": "2026-10-25T13:43:08.043Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2977,14 +2977,14 @@
       "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%b3%b4%ed%97%98%ea%b8%88-%ec%a7%80%ea%b8%89%ec%86%8d%eb%8f%84-1%ec%9c%84/",
       "published": "2026-10-23",
       "hints": [
-        "회사소식",
         "보도자료",
+        "회사소식",
+        "AI",
+        "신창재",
         "보험금 지급",
         "교보생명",
         "고객보장",
-        "신속지급",
-        "AI",
-        "신창재"
+        "신속지급"
       ],
       "attachments": []
     },
@@ -8731,6 +8731,600 @@
           "type": "pdf"
         }
       ]
+    },
+    {
+      "id": "joongang:25428953",
+      "source": "joongang",
+      "title": "“국민연금 첫 보험료·면접 수당 지원”…與 ‘청년 공약’ 보니",
+      "url": "https://www.joongang.co.kr/article/25428953",
+      "published": "2026-05-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25428890",
+      "source": "joongang",
+      "title": "“커피 마시고 병원가라”…부정맥 진단 사기 보험설계사 결국",
+      "url": "https://www.joongang.co.kr/article/25428890",
+      "published": "2026-05-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25428871",
+      "source": "joongang",
+      "title": "교통사고 현장서 300만원짜리 고객 금팔찌 ‘슬쩍’…보험사 직원 벌금형",
+      "url": "https://www.joongang.co.kr/article/25428871",
+      "published": "2026-05-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25428452",
+      "source": "joongang",
+      "title": "&#91;속보&#93;시진핑 “중국의 부흥과 마가(MAGA) 함께 갈 수 있어”",
+      "url": "https://www.joongang.co.kr/article/25428452",
+      "published": "2026-05-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427807",
+      "source": "joongang",
+      "title": "&#91;Biz & Now&#93; 생명보험협회 “소비자들 이해 어려운 상품 안 팔겠다”",
+      "url": "https://www.joongang.co.kr/article/25427807",
+      "published": "2026-05-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427779",
+      "source": "joongang",
+      "title": "“학생·학부모가 무섭다”…교권침해보험 든 선생님 1만명",
+      "url": "https://www.joongang.co.kr/article/25427779",
+      "published": "2026-05-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427730",
+      "source": "joongang",
+      "title": "“소비자가 이해 못할 보험 안 팔겠다” 생명보험 CEO 공동선언",
+      "url": "https://www.joongang.co.kr/article/25427730",
+      "published": "2026-05-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427686",
+      "source": "joongang",
+      "title": "“여교사 신체 그려놓고 조롱”...교권침해보험 가입 1만명 육박",
+      "url": "https://www.joongang.co.kr/article/25427686",
+      "published": "2026-05-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427461",
+      "source": "joongang",
+      "title": "참여 낮은 실손24…정부, 담합조사 칼 뺐다",
+      "url": "https://www.joongang.co.kr/article/25427461",
+      "published": "2026-05-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427376",
+      "source": "joongang",
+      "title": "\"실손24 무용지물\" 지적에...정부, 참여 거부 EMR 업체 담합 조사 착수",
+      "url": "https://www.joongang.co.kr/article/25427376",
+      "published": "2026-05-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427307",
+      "source": "joongang",
+      "title": "2012년생 김서아, KLPGA 역대 최연소 홀인원 “운이 좋았다”",
+      "url": "https://www.joongang.co.kr/article/25427307",
+      "published": "2026-05-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427276",
+      "source": "joongang",
+      "title": "필수의료 의사에 배상보험료 175만원 지원…응급 전담 전문의 등 대상도 확대",
+      "url": "https://www.joongang.co.kr/article/25427276",
+      "published": "2026-05-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427159",
+      "source": "joongang",
+      "title": "故이예람 중사 유족, 보험금 소송 승소…“청구권 소멸 안 돼”",
+      "url": "https://www.joongang.co.kr/article/25427159",
+      "published": "2026-05-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25427121",
+      "source": "joongang",
+      "title": "김효주, 4년 7개월 만에 KLPGA 투어 우승",
+      "url": "https://www.joongang.co.kr/article/25427121",
+      "published": "2026-05-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25426932",
+      "source": "joongang",
+      "title": "보험료 싸지는 대신 도수치료 0원? 5세대 실손 갈아타기 전 ‘필독’",
+      "url": "https://www.joongang.co.kr/article/25426932",
+      "published": "2026-05-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25426888",
+      "source": "joongang",
+      "title": "자동차보험이 ‘범퍼’라면 운전자보험은 ‘에어백’",
+      "url": "https://www.joongang.co.kr/article/25426888",
+      "published": "2026-05-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25426428",
+      "source": "joongang",
+      "title": "생명보험사회공헌위, 중·고교생 대상 금융보험 뮤지컬 ‘라인’ 무료 공연",
+      "url": "https://www.joongang.co.kr/article/25426428",
+      "published": "2026-05-07",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25426078",
+      "source": "joongang",
+      "title": "“소 귀표 바꿔 4억 챙겼다”…긴급도축 조작해 245번 보험금 청구",
+      "url": "https://www.joongang.co.kr/article/25426078",
+      "published": "2026-05-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25426070",
+      "source": "joongang",
+      "title": "혜택 받았으면 연회비 환불불가…공연 유료회원 약관 “불공정”",
+      "url": "https://www.joongang.co.kr/article/25426070",
+      "published": "2026-05-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25425912",
+      "source": "joongang",
+      "title": "5세대 실손, 도수치료·주사제 제외…보험료 최소 50% 인하",
+      "url": "https://www.joongang.co.kr/article/25425912",
+      "published": "2026-05-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25425899",
+      "source": "joongang",
+      "title": "보험은 5세대, 청구는 1세대…자동시스템 ‘실손24’ 활용률 4.6%뿐",
+      "url": "https://www.joongang.co.kr/article/25425899",
+      "published": "2026-05-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25425881",
+      "source": "joongang",
+      "title": "실손보험은 5세대, 청구는 1세대…1200억 시스템 ‘무용지물’",
+      "url": "https://www.joongang.co.kr/article/25425881",
+      "published": "2026-05-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25425812",
+      "source": "joongang",
+      "title": "내일부터 ‘실손 5세대’…비중증·비급여 보장 축소, 보험료는 30%↓",
+      "url": "https://www.joongang.co.kr/article/25425812",
+      "published": "2026-05-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25425069",
+      "source": "joongang",
+      "title": "사우디 ‘돈줄’ 끊긴 LIV…‘골프광’ 트럼프 “PGA로 돌아오라”",
+      "url": "https://www.joongang.co.kr/article/25425069",
+      "published": "2026-05-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423958",
+      "source": "joongang",
+      "title": "“불법체류 추방!” 외치던 MAGA 여신…정체 드러나자 美 발칵",
+      "url": "https://www.joongang.co.kr/article/25423958",
+      "published": "2026-04-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423873",
+      "source": "joongang",
+      "title": "멀쩡한 애를 아픈 애로 34번 속였다…AI 날개 단 보험사기",
+      "url": "https://www.joongang.co.kr/article/25423873",
+      "published": "2026-04-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423829",
+      "source": "joongang",
+      "title": "“정보 유출돼도 책임 없어요”…이런 플랫폼 약관 시정조치",
+      "url": "https://www.joongang.co.kr/article/25423829",
+      "published": "2026-04-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423823",
+      "source": "joongang",
+      "title": "차량 2·5부제 지키면 자동차 보험료 2% 할인",
+      "url": "https://www.joongang.co.kr/article/25423823",
+      "published": "2026-04-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423781",
+      "source": "joongang",
+      "title": "사내 성추행 사건 피해자에 인사상 불이익…전 KPGA 대표 재판행",
+      "url": "https://www.joongang.co.kr/article/25423781",
+      "published": "2026-04-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423604",
+      "source": "joongang",
+      "title": "“개인정보 유출돼도 책임 없다” 약관에 못 쓴다…공정위, 쿠팡 등 약관 시정",
+      "url": "https://www.joongang.co.kr/article/25423604",
+      "published": "2026-04-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423559",
+      "source": "joongang",
+      "title": "‘용감한 형제’ 피츠패트릭 브라더, PGA 투어 우승 합작",
+      "url": "https://www.joongang.co.kr/article/25423559",
+      "published": "2026-04-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423554",
+      "source": "joongang",
+      "title": "차량 2·5부제 지키면 자동차보험료 연 2% 할인…\"1700만명 혜택\"",
+      "url": "https://www.joongang.co.kr/article/25423554",
+      "published": "2026-04-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423474",
+      "source": "joongang",
+      "title": "&#91;Biz & Now&#93; 비급여 보장 줄인 ‘5세대 실손보험’ 내달초 출시",
+      "url": "https://www.joongang.co.kr/article/25423474",
+      "published": "2026-04-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423390",
+      "source": "joongang",
+      "title": "10년지기도 “트럼프와 연 끊었다”…전쟁이 부른 MAGA 분열",
+      "url": "https://www.joongang.co.kr/article/25423390",
+      "published": "2026-04-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423327",
+      "source": "joongang",
+      "title": "법원 “신탁사가 ‘책임한정특약’ 설명의무 위반하면 약관 무효”",
+      "url": "https://www.joongang.co.kr/article/25423327",
+      "published": "2026-04-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25423020",
+      "source": "joongang",
+      "title": "이소미, LPGA 시즌 첫 메이저 셰브론 챔피언십 1R 공동 2위",
+      "url": "https://www.joongang.co.kr/article/25423020",
+      "published": "2026-04-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25422902",
+      "source": "joongang",
+      "title": "&#91;반퇴시대 재산리모델링&#93; ‘월 보험료 1300만원’ 50대, 30개 보험부터 리모델링 해야",
+      "url": "https://www.joongang.co.kr/article/25422902",
+      "published": "2026-04-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25422571",
+      "source": "joongang",
+      "title": "&#91;THE CREATIVE 2026&#93; 차세대 GaN 반도체로 의료·전기차 혁신 선도",
+      "url": "https://www.joongang.co.kr/article/25422571",
+      "published": "2026-04-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25422549",
+      "source": "joongang",
+      "title": "“주식 올인했는데 암이라니”…‘보험 해약 5조’ 위험한 신호",
+      "url": "https://www.joongang.co.kr/article/25422549",
+      "published": "2026-04-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25422545",
+      "source": "joongang",
+      "title": "“목돈 급한데 보험료 커서 고민”…‘해지’ 대신 ‘감액’ 하세요",
+      "url": "https://www.joongang.co.kr/article/25422545",
+      "published": "2026-04-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25422538",
+      "source": "joongang",
+      "title": "배우자 30만원, 자녀 20만원…보험료 안 내도 연금 받는 법",
+      "url": "https://www.joongang.co.kr/article/25422538",
+      "published": "2026-04-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25422437",
+      "source": "joongang",
+      "title": "&#91;속보&#93; 당정청 “5부제 참여 차량에 보험료 할인 상품 5월 출시”",
+      "url": "https://www.joongang.co.kr/article/25422437",
+      "published": "2026-04-22",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25422011",
+      "source": "joongang",
+      "title": "배우자 30만원, 자녀 20만원…보험료 안 내도 연금 받는 법",
+      "url": "https://www.joongang.co.kr/article/25422011",
+      "published": "2026-04-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25421947",
+      "source": "joongang",
+      "title": "전산사고에 증권사 금융민원 급증...보험금 지급 민원도 ↑",
+      "url": "https://www.joongang.co.kr/article/25421947",
+      "published": "2026-04-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25421012",
+      "source": "joongang",
+      "title": "김세영, LPGA 투어 LA챔피언십 1R 공동 2위",
+      "url": "https://www.joongang.co.kr/article/25421012",
+      "published": "2026-04-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25420862",
+      "source": "joongang",
+      "title": "&#91;Biz & Now&#93; 현대해상 연도대상서 보험 명장 5인 선정",
+      "url": "https://www.joongang.co.kr/article/25420862",
+      "published": "2026-04-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25420496",
+      "source": "joongang",
+      "title": "&#91;사랑방&#93; 국민건강보험공단 外",
+      "url": "https://www.joongang.co.kr/article/25420496",
+      "published": "2026-04-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25420439",
+      "source": "joongang",
+      "title": "생보재단, 강동구에 시니어·청년 함께 일하는 베이커리 카페 오픈",
+      "url": "https://www.joongang.co.kr/article/25420439",
+      "published": "2026-04-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25419881",
+      "source": "joongang",
+      "title": "“왜 째려봐” 초5 싸움, 2500만원 소송으로…학폭도 보험시대",
+      "url": "https://www.joongang.co.kr/article/25419881",
+      "published": "2026-04-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25419774",
+      "source": "joongang",
+      "title": "&#91;단독&#93; “째려봤다”고 2500만원 소송…학폭도 보험 드는 시대",
+      "url": "https://www.joongang.co.kr/article/25419774",
+      "published": "2026-04-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25419730",
+      "source": "joongang",
+      "title": "손가락 4개 일부러 절단…보험금 2억5000만원 탄 50대 구속",
+      "url": "https://www.joongang.co.kr/article/25419730",
+      "published": "2026-04-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25419631",
+      "source": "joongang",
+      "title": "&#91;속보&#93; 당정 “車보험료 요율 인하 협의…2부제로 운행거리 감소”",
+      "url": "https://www.joongang.co.kr/article/25419631",
+      "published": "2026-04-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25419322",
+      "source": "joongang",
+      "title": "“보험료 카드로 낼 거면 해지하라고?”…천차만별 방침에 혼란",
+      "url": "https://www.joongang.co.kr/article/25419322",
+      "published": "2026-04-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25419292",
+      "source": "joongang",
+      "title": "내 실손보험, 몇 세대인지 아시나요",
+      "url": "https://www.joongang.co.kr/article/25419292",
+      "published": "2026-04-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25419160",
+      "source": "joongang",
+      "title": "동서발전, 중동상황 대응 자재수급·계약관리 비상대응체계 가동",
+      "url": "https://www.joongang.co.kr/article/25419160",
+      "published": "2026-04-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25419049",
+      "source": "joongang",
+      "title": "\"재주는 우리가 넘는데...\" PGA투어, 마스터스에 청구서",
+      "url": "https://www.joongang.co.kr/article/25419049",
+      "published": "2026-04-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25418991",
+      "source": "joongang",
+      "title": "‘단체→개인’ 실손 전환, 된다고요? 체크해보고 말씀하세요",
+      "url": "https://www.joongang.co.kr/article/25418991",
+      "published": "2026-04-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25418924",
+      "source": "joongang",
+      "title": "퇴직 앞둔 직장인, 단체보험→개인실손 전환 가능하다는데...“전환은 하늘에 별 따기”",
+      "url": "https://www.joongang.co.kr/article/25418924",
+      "published": "2026-04-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25418678",
+      "source": "joongang",
+      "title": "&#91;반퇴시대 재산리모델링&#93; 퇴직 전 ‘실손보험 연계’ 활용, 안 팔리는 집은 ‘월세’ 검토",
+      "url": "https://www.joongang.co.kr/article/25418678",
+      "published": "2026-04-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25418669",
+      "source": "joongang",
+      "title": "&#91;사랑방&#93; 건강보험심사평가원장에 홍승권",
+      "url": "https://www.joongang.co.kr/article/25418669",
+      "published": "2026-04-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25418591",
+      "source": "joongang",
+      "title": "새 건강보험심사평가원장에 ‘李 보건의료 책사’ 홍승권 교수 임명",
+      "url": "https://www.joongang.co.kr/article/25418591",
+      "published": "2026-04-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25418403",
+      "source": "joongang",
+      "title": "국민연금 적립금 1540조원 돌파…수익금이 보험료 앞질렀다",
+      "url": "https://www.joongang.co.kr/article/25418403",
+      "published": "2026-04-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25418318",
+      "source": "joongang",
+      "title": "공황장애·번아웃도 OK…보험, 정신건강도 케어",
+      "url": "https://www.joongang.co.kr/article/25418318",
+      "published": "2026-04-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134214717",
+      "source": "donga",
+      "title": "KLPGA 무대로 향하는 관문… 제주삼다수, 지역 골프 유망주 육성 나서",
+      "url": "https://www.donga.com/news/Economy/article/all/20260701/134214717/1",
+      "published": "2026-07-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134216989",
+      "source": "donga",
+      "title": "그린팜스글로벌, ‘1군 온실 건설사’ 승급 및 공식 설계사 등록",
+      "url": "https://www.donga.com/news/Economy/article/all/20260701/134216989/1",
+      "published": "2026-07-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134199983",
+      "source": "donga",
+      "title": "[동행&] “암 보험 다 들어놨는데 병원비가 수백만 원?”… 환자 두 번 울리는 뜻밖의 복병, ‘선별급여’",
+      "url": "https://www.donga.com/news/Economy/article/all/20260706/134199983/1",
+      "published": "2026-07-06",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -8937,7 +9531,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -8945,7 +9539,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -8953,7 +9547,7 @@
       "ok": true,
       "count": 82,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -8961,7 +9555,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -8969,7 +9563,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": null,
       "disabled": false
     },
     {
@@ -9063,17 +9657,17 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 176,
+      "count": 239,
       "error": null,
-      "note": "과거 기사 채우는 중: 중앙 2026-05-17부터 재개",
+      "note": "과거 기사 채우는 중: 중앙 2026-04-07부터 재개",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 14,
+      "count": 17,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202609-202610.xml.gz 2400번째부터 재개",
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 350번째부터 재개",
       "disabled": false
     },
     {
