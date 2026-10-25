@@ -1,8 +1,9 @@
-// AI 단계: 대기 목록의 관련도·판정·요약을 하루 상한 안에서 처리한다. 어떤 실패도 파이프라인을 멈추지 않는다(종료 코드 0).
+// AI 단계: 대기 목록의 관련도·중요도·판정·요약을 하루 상한 안에서 처리한다. 어떤 실패도 파이프라인을 멈추지 않는다(종료 코드 0).
 import { loadConfig } from '../config.ts';
 import type { Config } from '../config.ts';
 import { classify } from '../analyze/classify.ts';
 import { mergeChanges } from '../analyze/changes.ts';
+import { addDays } from '../lib/dates.ts';
 import { DailyReport, RawSnapshot } from '../schema.ts';
 import type { Change, NewsGroup, RawItem } from '../schema.ts';
 import {
@@ -13,12 +14,13 @@ import type { AiUsage, PendingAi } from '../store.ts';
 import { EXCERPT_MAX, fetchExcerpt } from '../summarize/excerpt.ts';
 import { judgeChanges } from '../summarize/judge.ts';
 import type { JudgeInput } from '../summarize/judge.ts';
+import { IMPORTANCE_BATCH, rateImportance } from '../summarize/importance.ts';
 import { makeChatFn } from '../summarize/models.ts';
 import type { ChatFn } from '../summarize/models.ts';
 import { RELEVANCE_BATCH, rateRelevance } from '../summarize/relevance.ts';
 import { summarizeGroups } from '../summarize/summarize.ts';
 
-/** 요약은 묶음 10개를 한 호출(+검증 한 호출), 판정은 글 5개를 한 호출, 관련도는 묶음 25개를 한 호출 */
+/** 요약은 묶음 10개를 한 호출(+검증 한 호출), 판정은 글 5개를 한 호출, 관련도는 묶음 25개, 중요도는 30개를 한 호출 */
 const SUMMARY_BATCH = 10;
 const JUDGE_BATCH = 5;
 
@@ -47,22 +49,31 @@ export function needsSummary(group: NewsGroup): boolean {
   return group.relevance !== 'low' || group.kind === 'gov' || group.kind === 'assoc';
 }
 
+/** 중요도를 매길 묶음인가. 업계 동향·관련도 low·이미 매긴 묶음은 뺀다. */
+function needsImportance(group: NewsGroup): boolean {
+  return group.importance === null && group.topic !== 'industry'
+    && (group.relevance === 'high' || group.relevance === 'medium');
+}
+
 /**
- * ① 관련도 ② 판정 ③ 요약 순서로 대기 작업을 처리한다. usage는 호출할 때마다 늘린다.
+ * ① 관련도 ② 중요도 ③ 판정 ④ 요약 순서로 대기 작업을 처리한다. usage는 호출할 때마다 늘린다.
  * 예산을 다 쓰거나 호출이 실패하면 남은 작업은 remaining으로 다음 실행에 넘긴다.
  */
 export async function runAiJobs(input: {
   config: Config; chat: ChatFn; today: string; pending: PendingAi[]; usage: AiUsage; store: AiStore;
 }): Promise<{
-  remaining: PendingAi[]; dirty: Set<string>; judged: Change[]; rated: number; summarized: number; dropped: number;
+  remaining: PendingAi[]; dirty: Set<string>; judged: Change[]; rated: number; scored: number; summarized: number; dropped: number;
 }> {
   const { config, chat, today, usage, store } = input;
   const queue = [...input.pending];
   const done = new Set<string>();
   const dirty = new Set<string>();
   const judged: Change[] = [];
+  // build.ts의 지난 주요 소식 기간과 같은 경계
+  const highlightSince = addDays(today, 1 - config.limits.highlightsDays);
   let stopped = false;
   let rated = 0;
+  let scored = 0;
   let summarized = 0;
   let dropped = 0;
 
@@ -89,6 +100,18 @@ export async function runAiJobs(input: {
       return { job, group, source: store.body(representativeId(group), job.date) };
     } catch (e) {
       console.warn(`관련도 대상 준비 실패 ${job.id}: ${message(e)}`);
+      return null;
+    }
+  };
+
+  const prepareImportance = (job: PendingAi): { job: PendingAi; group: NewsGroup; source: string } | null => {
+    try {
+      const group = groupOf(job);
+      // AI가 관련도를 low로 바꾼 묶음은 여기서 빠진다
+      if (!group || !needsImportance(group)) return null;
+      return { job, group, source: store.body(representativeId(group), job.date) };
+    } catch (e) {
+      console.warn(`중요도 대상 준비 실패 ${job.id}: ${message(e)}`);
       return null;
     }
   };
@@ -145,6 +168,7 @@ export async function runAiJobs(input: {
       done.add(jobKey(job));
       const rating = result.get(group.id);
       if (!rating) continue;
+      const before = group.relevance;
       group.relevance = rating.relevance;
       group.important = rating.important;
       group.relevanceBy = 'ai';
@@ -154,10 +178,47 @@ export async function runAiJobs(input: {
       if (needsSummary(group) && !queue.some((q) => q.type === 'summary' && q.id === group.id)) {
         queue.push({ type: 'summary', id: group.id, url: group.url, date: job.date, source: job.source });
       }
+      // 중요도 대기도 마찬가지다(가공 단계는 high·medium에만 넣는다)
+      if (before === 'low' && needsImportance(group) && group.published >= highlightSince
+        && !queue.some((q) => q.type === 'importance' && q.id === group.id)) {
+        queue.push({ type: 'importance', id: group.id, url: group.url, date: job.date, source: job.source });
+      }
     }
   }
 
-  // ② 판정
+  // ② 중요도: 관련도처럼 결과가 없으면 남은 중요도만 다음 실행으로 미룬다
+  const importanceJobs = queue.filter((job) => job.type === 'importance');
+  let m = 0;
+  while (m < importanceJobs.length && callsLeft() >= 1) {
+    const batch: { job: PendingAi; group: NewsGroup; source: string }[] = [];
+    while (m < importanceJobs.length && batch.length < IMPORTANCE_BATCH) {
+      const job = importanceJobs[m++];
+      const prepared = prepareImportance(job);
+      if (prepared) batch.push(prepared);
+      else drop(job);
+    }
+    if (!batch.length) break;
+    usage.calls += 1;
+    const result = await rateImportance(batch.map(({ group, source }) => ({ group, source })), chat);
+    if (!result.size) {
+      console.warn('중요도 결과 없음, 남은 중요도 대기는 다음 실행으로');
+      break;
+    }
+    for (const { job, group } of batch) {
+      done.add(jobKey(job));
+      const importance = result.get(group.id);
+      if (importance === undefined) continue;
+      group.importance = importance;
+      dirty.add(job.date);
+      scored++;
+      // 주요 소식 칸에 오를 만한 묶음은 요약이 있어야 한다
+      if (importance >= 4 && !group.summary && !queue.some((q) => q.type === 'summary' && q.id === group.id)) {
+        queue.push({ type: 'summary', id: group.id, url: group.url, date: job.date, source: job.source });
+      }
+    }
+  }
+
+  // ③ 판정
   const judgeJobs = queue.filter((job) => job.type === 'judge');
   let j = 0;
   while (!stopped && j < judgeJobs.length && callsLeft() >= 1) {
@@ -179,7 +240,7 @@ export async function runAiJobs(input: {
     }
   }
 
-  // ③ 요약
+  // ④ 요약
   const summaryJobs = queue.filter((job) => job.type === 'summary');
   let i = 0;
   while (!stopped && i < summaryJobs.length && summariesLeft() > 0 && callsLeft() >= 2) {
@@ -211,11 +272,11 @@ export async function runAiJobs(input: {
   }
 
   const remaining = queue.filter((job) => !done.has(jobKey(job)));
-  return { remaining, dirty, judged, rated, summarized, dropped };
+  return { remaining, dirty, judged, rated, scored, summarized, dropped };
 }
 
 export async function summarizePending(input: { config: Config; chat: ChatFn; today: string }): Promise<{
-  rated: number; summarized: number; judged: number; dropped: number; remaining: number;
+  rated: number; scored: number; summarized: number; judged: number; dropped: number; remaining: number;
 }> {
   const { config, chat, today } = input;
   const pending = readJson<PendingAi[]>(PENDING_PATH, []);
@@ -264,6 +325,7 @@ export async function summarizePending(input: { config: Config; chat: ChatFn; to
   writeJson(PENDING_PATH, result.remaining);
   return {
     rated: result.rated,
+    scored: result.scored,
     summarized: result.summarized,
     judged: result.judged.length,
     dropped: result.dropped,
@@ -281,7 +343,7 @@ async function main(): Promise<void> {
   const ai = makeChatFn({ apiKey, baseUrl: config.ai.baseUrl, models: config.ai.models, timeoutMs: config.ai.timeoutMs });
   const stats = await summarizePending({ config, chat: ai.chat, today: pipelineDate() });
   console.log(
-    `요약 완료(${ai.model() ?? '모델 미사용'}): 관련도 ${stats.rated}개, 요약 ${stats.summarized}개, ` +
+    `요약 완료(${ai.model() ?? '모델 미사용'}): 관련도 ${stats.rated}개, 중요도 ${stats.scored}개, 요약 ${stats.summarized}개, ` +
     `판정 변경 ${stats.judged}개, 건너뜀 ${stats.dropped}개, 남은 대기 ${stats.remaining}개`,
   );
 }

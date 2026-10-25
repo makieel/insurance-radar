@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadConfig } from '../src/config.ts';
 import { analyze } from '../src/cli/analyze.ts';
+import { addDays } from '../src/lib/dates.ts';
 import type { RateRow, RawItem, RawSnapshot } from '../src/schema.ts';
 
 const today = '2026-10-23';
@@ -67,12 +68,13 @@ test('보험에 무관한 전문지 글은 버리고 본 기록만 남긴다', (
   assert.equal(result.seen[excluded.id], today);
 });
 
-test('처음 보는 묶음은 대표 출처의 관련도·요약 대기에 들어간다', () => {
+test('처음 보는 묶음은 대표 출처의 관련도·중요도·요약 대기에 들어간다', () => {
   const result = analyze(input());
   const group = result.daily.groups[0];
   assert.ok(group);
   assert.deepEqual(result.pending, [
     { type: 'relevance', id: group.id, url: item.url, source: item.source, date: today },
+    { type: 'importance', id: group.id, url: item.url, source: item.source, date: today },
     { type: 'summary', id: group.id, url: item.url, source: item.source, date: today },
   ]);
 });
@@ -88,7 +90,7 @@ test('단합대회 같은 잡음 글은 소식이 되지 않고 본 기록만 �
   assert.equal(result.seen[noise.id], today);
 });
 
-test('묶음마다 규칙 관련도를 채우고 관련도 대기를 요약 대기보다 앞에 둔다', () => {
+test('묶음마다 규칙 관련도를 채우고 관련도 → 중요도 → 요약 순으로 대기에 둔다', () => {
   const pension: RawItem = {
     id: 'fins:110290', source: 'fins', title: '연금저축보험, 가입 때 안내받은 연금액 보장 안돼…중도해지 땐 세금 부담',
     url: 'http://www.fins.co.kr/news/articleView.html?idxno=110290', published: today, hints: [], attachments: [],
@@ -99,7 +101,50 @@ test('묶음마다 규칙 관련도를 채우고 관련도 대기를 요약 대�
   assert.equal(byId.get(`g:${pension.id}`)?.relevance, 'high');
   assert.ok(result.daily.groups.every(group => group.relevanceBy === 'rule'));
   const types = result.pending.map(job => job.type);
-  assert.deepEqual(types, ['relevance', 'relevance', 'summary', 'summary']);
+  assert.deepEqual(types, ['relevance', 'relevance', 'importance', 'importance', 'summary', 'summary']);
+});
+
+test('판정 대기는 중요도 대기 뒤, 요약 대기 앞에 둔다', () => {
+  const result = analyze({ ...input(), bodies: { [item.id]: '제도개선 사항이 7.1일부터 시행됩니다' } });
+  assert.deepEqual(result.pending.map(job => job.type), ['relevance', 'importance', 'judge', 'summary']);
+});
+
+// test/fixtures/fins.xml(idxno=110291): 보험 글이지만 개인 단어가 없어 규칙 관련도 low, 분류는 생명·건강·상해
+const careBusiness: RawItem = {
+  id: 'fins:110291', source: 'fins', title: '생보사 요양사업, 내년 확장 분수령',
+  url: 'http://www.fins.co.kr/news/articleView.html?idxno=110291', published: '2026-10-22', hints: [], attachments: [],
+};
+// test/fixtures/insnews.xml: 사옥 체험 기사는 업계 동향
+const companyLounge: RawItem = {
+  id: 'insnews:93476', source: 'insnews', title: '‘크루즈’로 변한 한화손보 한남사옥, 도심에서 체험하는 ‘웰니스 여정’',
+  url: 'https://www.insnews.co.kr/news/articleView.html?idxno=93476', published: today, hints: [], attachments: [],
+};
+
+test('지난 9개월 안의 high·medium 묶음만 중요도 대기에 넣고 업계 동향·low는 넣지 않는다', () => {
+  const pension: RawItem = {
+    id: 'fins:110290', source: 'fins', title: '연금저축보험, 가입 때 안내받은 연금액 보장 안돼…중도해지 땐 세금 부담',
+    url: 'http://www.fins.co.kr/news/articleView.html?idxno=110290', published: '2026-10-22', hints: [], attachments: [],
+  };
+  const result = analyze(input([item, pension, careBusiness, companyLounge]));
+  const byId = new Map(result.daily.groups.map(group => [group.id, group]));
+  assert.equal(byId.get(`g:${careBusiness.id}`)?.relevance, 'low');
+  assert.equal(byId.get(`g:${careBusiness.id}`)?.topic, 'life');
+  assert.equal(byId.get(`g:${companyLounge.id}`)?.topic, 'industry');
+  const importances = result.pending.filter(job => job.type === 'importance');
+  // 공식 출처(협회)가 먼저
+  assert.deepEqual(importances.map(job => job.id), [`g:${item.id}`, `g:${pension.id}`]);
+  assert.deepEqual(importances[0], { type: 'importance', id: `g:${item.id}`, url: item.url, source: item.source, date: today });
+});
+
+test('게시일이 지난 9개월 기간보다 앞선 묶음은 중요도 대기에 넣지 않는다', () => {
+  const days = config.limits.highlightsDays;
+  const run = (day: string) => analyze({ ...input(), today: day, raw: { ...input().raw, date: day } });
+  // 기간 마지막 날(build.ts와 같은 경계: today − (highlightsDays − 1))까지는 넣는다
+  const inside = run(addDays(item.published, days - 1));
+  assert.deepEqual(inside.pending.filter(job => job.type === 'importance').map(job => job.id), [`g:${item.id}`]);
+  const outside = run(addDays(item.published, days));
+  assert.equal(outside.daily.groups.length, 1);
+  assert.deepEqual(outside.pending.filter(job => job.type === 'importance'), []);
 });
 
 test('공식 발표의 정확한 시행일은 규칙으로 추출하고 판정 대기에서 뺀다', () => {

@@ -62,20 +62,27 @@ export function analyze(input: {
     const relevance = ruleRelevance({ title: item.title, hints: item.hints, body: bodies[item.id] || null, kind, topic }, config.keywords);
     return { ...group, relevance, relevanceBy: 'rule' };
   });
+  const byPriority = (a: NewsGroup, b: NewsGroup): number =>
+    SOURCE_KINDS.indexOf(a.kind) - SOURCE_KINDS.indexOf(b.kind) || b.sources.length - a.sources.length || b.published.localeCompare(a.published);
   // AI 작업은 화면에 보이는 기간(최근 30일) 안의 묶음만 맡긴다. 첫 실행 채우기의 옛 글로 AI 한도를 쓰지 않기 위해서다.
-  const recent = [...groups]
-    .filter(group => group.published >= addDays(today, -29))
-    .sort((a, b) => SOURCE_KINDS.indexOf(a.kind) - SOURCE_KINDS.indexOf(b.kind) || b.sources.length - a.sources.length || b.published.localeCompare(a.published));
+  const recent = groups.filter(group => group.published >= addDays(today, -29)).sort(byPriority);
   const jobOf = (type: PendingAi['type'], group: NewsGroup): PendingAi =>
     ({ type, id: group.id, url: group.url, date: today, source: representativeOf(group).item.source });
   const relevances = recent.map(group => jobOf('relevance', group));
+  // 중요도는 지난 주요 소식 기간(build.ts와 같은 경계) 안에서 개인 관련 묶음만 매긴다.
+  const highlightSince = addDays(today, 1 - config.limits.highlightsDays);
+  const importances = groups
+    .filter(group => group.published >= highlightSince && group.topic !== 'industry'
+      && (group.relevance === 'high' || group.relevance === 'medium'))
+    .sort(byPriority)
+    .map(group => jobOf('importance', group));
   // 업계 내부 이야기는 요약하지 않는다. 공식 발표는 관련도와 무관하게 요약한다.
   const summaries = recent
     .filter(group => group.relevance !== 'low' || group.kind === 'gov' || group.kind === 'assoc')
     .map(group => jobOf('summary', group));
   const jobs = new Map<string, PendingAi>();
   const newestJudges = judges.sort((a, b) => b.published.localeCompare(a.published)).map(({ published: _p, ...job }) => job);
-  for (const job of [...input.pending, ...relevances, ...summaries, ...newestJudges]) {
+  for (const job of [...input.pending, ...relevances, ...importances, ...newestJudges, ...summaries]) {
     const key = `${job.type}:${job.id}`;
     if (!jobs.has(key)) jobs.set(key, job);
   }
