@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T06:22:58.337Z",
+  "generatedAt": "2026-10-25T12:19:22.005Z",
   "groups": [
     {
       "id": "g:fins:110320",
@@ -22,7 +22,8 @@
       "summary": null,
       "relevance": "low",
       "important": true,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     },
     {
       "id": "g:yna:AKR20261023153000017",
@@ -44,7 +45,8 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     },
     {
       "id": "g:insnews:93471",
@@ -66,7 +68,8 @@
       "summary": "인공지능(AI) 에이전트가 소비자를 대신해 보험상품 비교부터 가입과 해지, 보험금 청구까지 수행하면서 보험산업의 판매채널과 계약 관리 방식에 변화가 예상돼요.",
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     },
     {
       "id": "g:fins:110315",
@@ -88,7 +91,8 @@
       "summary": "자동차보험 계약자가 높은 자기부담금을 선택하도록 유도하려면 보험료 인하 폭이 사고 발생 시 예상되는 자기차량손해 보험금 감소 폭보다 커야 한다는 분석이 나왔어요.",
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     },
     {
       "id": "g:fins:110314",
@@ -110,7 +114,8 @@
       "summary": "소비자를 대신해 보험을 비교하고 가입과 해지, 보험금 청구까지 수행하는 인공지능(AI) 에이전트가 확산하고 있어요.",
       "relevance": "medium",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     },
     {
       "id": "g:chosun:COIFRPUVG5DVLIMOFHASVLGEV4",
@@ -132,7 +137,8 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     },
     {
       "id": "g:chosun:MS4W63N2HJGBREGAEPACAP2FRY",
@@ -154,7 +160,8 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     },
     {
       "id": "g:chosun:GZQWMNTGGU3DEMBXGU4TGMTFMI",
@@ -176,7 +183,8 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     },
     {
       "id": "g:chosun:GAZDAZJUGMYGIODFGQ3GGNZTMY",
@@ -198,7 +206,8 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "ai"
+      "relevanceBy": "ai",
+      "importance": null
     }
   ],
   "status": [
@@ -236,17 +245,17 @@
     },
     {
       "source": "knia-press",
-      "ok": true,
-      "count": 10,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
     {
       "source": "knia-rates",
-      "ok": true,
-      "count": 28,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
@@ -300,17 +309,17 @@
     },
     {
       "source": "insnews",
-      "ok": true,
-      "count": 50,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
     {
       "source": "insweek",
-      "ok": true,
-      "count": 50,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
@@ -341,7 +350,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
