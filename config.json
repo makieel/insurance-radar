@@ -334,7 +334,15 @@
     "backfillDays": 183,
     "backfillPages": 6,
     "pdfPerDay": 15,
-    "pdfMaxBytes": 5000000
+    "pdfMaxBytes": 5000000,
+    "newsMax": 15,
+    "officialMax": 8,
+    "industryMax": 5,
+    "highlightsMax": 30,
+    "highlightsDays": 274,
+    "archiveJoongangDaysPerRun": 40,
+    "archiveDongaArticlesPerRun": 600,
+    "archiveOfficialPages": 14
   },
   "ai": {
     "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",

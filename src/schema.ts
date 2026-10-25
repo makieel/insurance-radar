@@ -141,6 +141,11 @@ export const NewsGroup = z.object({
   important: z.boolean().default(false),
   /** 관련도를 정한 쪽 */
   relevanceBy: z.enum(['rule', 'ai']).nullable().default(null),
+  /**
+   * 지난 9개월 주요 소식 순위용 점수(1~5). "9개월 뒤에도 개인 가입자가 알아 둘 가치가 있는가".
+   * 5 = 제도·보험료가 바뀌어 거의 모든 가입자에게 영향(예: 5세대 실손 출시, 자동차보험료 일제 인상), 1 = 거의 없음. AI가 매긴다. 아직 없으면 null.
+   */
+  importance: z.number().int().min(1).max(5).nullable().default(null),
 });
 export type NewsGroup = z.infer<typeof NewsGroup>;
 
@@ -165,6 +170,8 @@ export const Latest = z.object({
   official: z.array(NewsGroup),
   /** 최근 14일 업계 동향 */
   industry: z.array(NewsGroup),
+  /** 지난 9개월 주요 소식(importance 높은 순, 최대 limits.highlightsMax). news·official에 이미 보이는 묶음은 뺀다 */
+  highlights: z.array(NewsGroup).default([]),
   /** 공시표 최근 행(시행일 내림차순, 최대 30행) */
   rates: z.array(RateRow),
   status: z.array(SourceStatus),

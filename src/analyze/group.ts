@@ -106,6 +106,7 @@ export function groupItems(inputs: GroupInput[], today: string): NewsGroup[] {
       relevance: null,
       important: false,
       relevanceBy: null,
+      importance: null,
     };
   });
   // 최근 글이 앞에 오도록

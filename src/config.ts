@@ -41,6 +41,18 @@ export const ConfigSchema = z.object({
     /** 하루 받는 PDF 첨부 수와 크기 상한 */
     pdfPerDay: z.number().int(),
     pdfMaxBytes: z.number().int(),
+    /** 화면 칸별 최대 개수 */
+    newsMax: z.number().int(),
+    officialMax: z.number().int(),
+    industryMax: z.number().int(),
+    highlightsMax: z.number().int(),
+    /** 지난 주요 소식 기간(일) */
+    highlightsDays: z.number().int(),
+    /** 과거 기사 채우기: 한 번 실행에 읽을 중앙일보 날짜 수, 동아일보 기사 수 */
+    archiveJoongangDaysPerRun: z.number().int(),
+    archiveDongaArticlesPerRun: z.number().int(),
+    /** 정부·협회 출처를 9개월치로 한 번 더 채울 때 읽을 목록 쪽수 */
+    archiveOfficialPages: z.number().int(),
   }),
   ai: z.object({
     baseUrl: z.string(),

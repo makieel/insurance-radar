@@ -5,7 +5,7 @@ import { isIsoDate, kstDate } from './lib/dates.ts';
 import type { SourceId } from './schema.ts';
 
 export interface PendingAi {
-  type: 'summary' | 'judge' | 'relevance';
+  type: 'summary' | 'judge' | 'relevance' | 'importance';
   id: string;
   url: string;
   date: string;
