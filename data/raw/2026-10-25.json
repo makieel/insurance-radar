@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T12:19:22.005Z",
+  "generatedAt": "2026-10-25T12:20:52.443Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2575,6 +2575,96 @@
       ]
     },
     {
+      "id": "knia-press:88765",
+      "source": "knia-press",
+      "title": "손해보험협회, 「자동차보험 경상환자 보상처리 피해 신고센터」 운영",
+      "url": "https://www.knia.or.kr/data/news/content?index=88765",
+      "published": "2026-10-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88762",
+      "source": "knia-press",
+      "title": "손해보험 상위 1% 모집종사자 최고의 영예, 「2026 블루리본 컨설턴트」 1,602명 선정",
+      "url": "https://www.knia.or.kr/data/news/content?index=88762",
+      "published": "2026-09-30",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88760",
+      "source": "knia-press",
+      "title": "TS-손보, 안전한 고향길 오늘도 무사고 캠페인 전개",
+      "url": "https://www.knia.or.kr/data/news/content?index=88760",
+      "published": "2026-09-22",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88759",
+      "source": "knia-press",
+      "title": "「내보험 찾아줌」 이용 시 생명·손해보험협회 운영 여부를 확인하세요",
+      "url": "https://www.knia.or.kr/data/news/content?index=88759",
+      "published": "2026-09-22",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88758",
+      "source": "knia-press",
+      "title": "「도로교통안전특별회계 도입」위한 입법토론회 개최",
+      "url": "https://www.knia.or.kr/data/news/content?index=88758",
+      "published": "2026-09-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88756",
+      "source": "knia-press",
+      "title": "추석 귀성길, 올해는 9월23일 가장 조심하세요",
+      "url": "https://www.knia.or.kr/data/news/content?index=88756",
+      "published": "2026-09-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88755",
+      "source": "knia-press",
+      "title": "「국회 보험범죄 방지 연구 포럼」 발족식 및 세미나 개최",
+      "url": "https://www.knia.or.kr/data/news/content?index=88755",
+      "published": "2026-09-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88754",
+      "source": "knia-press",
+      "title": "손해보험협회, 전주지부 개소",
+      "url": "https://www.knia.or.kr/data/news/content?index=88754",
+      "published": "2026-09-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88751",
+      "source": "knia-press",
+      "title": "손해보험협회, 「통합민원지원센터」개소... 민원처리 전문성·효율성 높인다",
+      "url": "https://www.knia.or.kr/data/news/content?index=88751",
+      "published": "2026-09-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88748",
+      "source": "knia-press",
+      "title": "생명·손해보험업계 공동, 거제·통영 집중호우 피해 복구 성금 1억원 기탁",
+      "url": "https://www.knia.or.kr/data/news/content?index=88748",
+      "published": "2026-08-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
       "id": "klia-press:123789",
       "source": "klia-press",
       "title": "생보협회 한국형사법무정책연구원 업무협약(MOU) 체결",
@@ -2887,14 +2977,14 @@
       "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%b3%b4%ed%97%98%ea%b8%88-%ec%a7%80%ea%b8%89%ec%86%8d%eb%8f%84-1%ec%9c%84/",
       "published": "2026-10-23",
       "hints": [
-        "회사소식",
         "보도자료",
+        "회사소식",
+        "AI",
+        "신창재",
         "보험금 지급",
         "교보생명",
         "고객보장",
-        "신속지급",
-        "AI",
-        "신창재"
+        "신속지급"
       ],
       "attachments": []
     },
@@ -3121,6 +3211,1117 @@
       "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23497",
       "published": "2025-08-21",
       "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93471",
+      "source": "insnews",
+      "title": "AI 에이전트가 보험 가입·청구 대행… 업계 ‘대응 과제’ 부상",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93471",
+      "published": "2026-10-25",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93480",
+      "source": "insnews",
+      "title": "한국손해사정사회, 7년 만에 전국 회원 단합대회 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93480",
+      "published": "2026-10-24",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93479",
+      "source": "insnews",
+      "title": "화재보험협회, 제26회 불조심 어린이마당 행사 시상식 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93479",
+      "published": "2026-10-23",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93476",
+      "source": "insnews",
+      "title": "‘크루즈’로 변한 한화손보 한남사옥, 도심에서 체험하는 ‘웰니스 여정’",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93476",
+      "published": "2026-10-23",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93478",
+      "source": "insnews",
+      "title": "9월까지 車보험 손해율 84.3%… 개선에도 수익성 부담 지속",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93478",
+      "published": "2026-10-23",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93477",
+      "source": "insnews",
+      "title": "하나금융, 3분기 누적 순익 3조6243억원… 전년比 5.6% 증가",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93477",
+      "published": "2026-10-23",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93475",
+      "source": "insnews",
+      "title": "우리금융, 3분기 순익 1조492억원… 두 분기 연속 1조원 달성",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93475",
+      "published": "2026-10-23",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93473",
+      "source": "insnews",
+      "title": "처브라이프, 환경과 문화유산 지키는 사회공헌 실천",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93473",
+      "published": "2026-10-23",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93472",
+      "source": "insnews",
+      "title": "신협, 자산관리회사 설립 본격 착수",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93472",
+      "published": "2026-10-23",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93470",
+      "source": "insnews",
+      "title": "우리은행, 사회적경제기업 10곳에 1억3000만원 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93470",
+      "published": "2026-10-23",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93469",
+      "source": "insnews",
+      "title": "NH농협생명, 이상거래탐지시스템 도입… 금융사기 대응 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93469",
+      "published": "2026-10-23",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93468",
+      "source": "insnews",
+      "title": "신한라이프, ‘2026 통영 월드 트라이애슬론 컵’ 메인 스폰서 참여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93468",
+      "published": "2026-10-23",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93462",
+      "source": "insnews",
+      "title": "KB국민은행, 중국에서도 ‘KB스타뱅킹’으로 간편하게 결제",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93462",
+      "published": "2026-10-23",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93466",
+      "source": "insnews",
+      "title": "교보생명, 보험금 지급까지 2시간… 생명보험업계 최단기간",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93466",
+      "published": "2026-10-23",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93464",
+      "source": "insnews",
+      "title": "삼성생명, 통합 연금 라운지로 ‘SSUM 라운지’ 새 단장",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93464",
+      "published": "2026-10-23",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93463",
+      "source": "insnews",
+      "title": "카카오페이, 줄 안서고 김밥 주문 한다… 김천김밥축제에 QR오더 도입",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93463",
+      "published": "2026-10-23",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93461",
+      "source": "insnews",
+      "title": "SGI서울보증, 소아암 환아에 5000만원 기부",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93461",
+      "published": "2026-10-23",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93453",
+      "source": "insnews",
+      "title": "한화손보, 여성 삶의 12가지 지형도 공개… 행복과 연결된 ‘삶의 통제감’ 주목",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93453",
+      "published": "2026-10-22",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93454",
+      "source": "insnews",
+      "title": "한은, 기준금리 3% 동결… “물가·금융안정 주시”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93454",
+      "published": "2026-10-22",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93451",
+      "source": "insnews",
+      "title": "NH농협생명 전략영업부문, 인천 강화 농가 찾아 ‘농촌일손돕기’ 펼쳐",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93451",
+      "published": "2026-10-22",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93450",
+      "source": "insnews",
+      "title": "ABL생명, 전속 설계사 3000명 돌파… 2027년 4000명 목표",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93450",
+      "published": "2026-10-22",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93449",
+      "source": "insnews",
+      "title": "성장 둔화 이어지는 2027 보험산업… 위험관리·포트폴리오 전환 과제로",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93449",
+      "published": "2026-10-22",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93446",
+      "source": "insnews",
+      "title": "신한라이프, ‘민원 예방 AI 에이전트’ 도입",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93446",
+      "published": "2026-10-21",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93445",
+      "source": "insnews",
+      "title": "우리금융, 생산적·포용금융 1년간 34.7조원 공급",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93445",
+      "published": "2026-10-21",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93444",
+      "source": "insnews",
+      "title": "대산농촌재단, 농업 미래 이끌 ‘2027 대산장학생’ 모집",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93444",
+      "published": "2026-10-21",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93443",
+      "source": "insnews",
+      "title": "DB손해보험, 중소기업 사이버위험 대응 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93443",
+      "published": "2026-10-21",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93442",
+      "source": "insnews",
+      "title": "정문철 KB라이프 사장, ‘사람 살리는 금융’ 캠페인 동참",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93442",
+      "published": "2026-10-21",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93427",
+      "source": "insnews",
+      "title": "FM, 대체위험전가 솔루션 확대… 기업 위험관리 유연성 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93427",
+      "published": "2026-10-21",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93425",
+      "source": "insnews",
+      "title": "토스인슈어런스, 대면 영업 4년 만에 우수인증설계사 127명 배출",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93425",
+      "published": "2026-10-21",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93424",
+      "source": "insnews",
+      "title": "악사손보, 경도인지장애 어르신의 건강한 일상을 위한 노르딕 워킹 활동",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93424",
+      "published": "2026-10-21",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93423",
+      "source": "insnews",
+      "title": "삼성생명, 웅진프리드라이프와 ‘고객 건강관리 지원’ 나선다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93423",
+      "published": "2026-10-21",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93401",
+      "source": "insnews",
+      "title": "카카오페이, ‘션과 함께’와 소상공인 위한 기부 마라톤 ‘2026 LONG RUN’ 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93401",
+      "published": "2026-10-21",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93421",
+      "source": "insnews",
+      "title": "삼성화재·SK렌터카, 미래 모빌리티 사업모델 공동 발굴",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93421",
+      "published": "2026-10-21",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93420",
+      "source": "insnews",
+      "title": "에이플러스에셋, 2030년까지 ROE 15%·총주주환원율 40% 목표",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93420",
+      "published": "2026-10-20",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93418",
+      "source": "insnews",
+      "title": "우리은행, 3·6·9개월 골라 가입하는 ‘우리 369 정기예금’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93418",
+      "published": "2026-10-20",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93419",
+      "source": "insnews",
+      "title": "4대 은행, SK하이닉스·무보와 반도체 협력기업에 2조원 금융지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93419",
+      "published": "2026-10-20",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93414",
+      "source": "insnews",
+      "title": "잠자는 금융계좌 3억4000만개… 장기미거래 자산 14조원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93414",
+      "published": "2026-10-20",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93410",
+      "source": "insnews",
+      "title": "인카금융서비스, 국감 지적에 ‘120% 수수료 환수’ 폐지… 내부통제 손본다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93410",
+      "published": "2026-10-20",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93409",
+      "source": "insnews",
+      "title": "신한은행 고객 정보유출 후폭풍… 정상혁 행장 내부통제 책임 질타",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93409",
+      "published": "2026-10-20",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93408",
+      "source": "insnews",
+      "title": "신한라이프, ‘장애예술인 특별전’ 후원 나서",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93408",
+      "published": "2026-10-20",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93407",
+      "source": "insnews",
+      "title": "부커상 작가 데이먼 갤것, 광화문서 한국 독자 만난다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93407",
+      "published": "2026-10-20",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93406",
+      "source": "insnews",
+      "title": "KB라이프, 시니어 금융사기 예방교육… 실생활 사례 중심 대응력 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93406",
+      "published": "2026-10-20",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93405",
+      "source": "insnews",
+      "title": "교보생명, 들리는 세상 너머 꿈까지… 청각장애 아동 성장 동행",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93405",
+      "published": "2026-10-20",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93402",
+      "source": "insnews",
+      "title": "메트라이프생명, ‘(무)메트라이프 변액리치정기보험’ 출시… 사망보장·자산관리 결합",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93402",
+      "published": "2026-10-20",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93400",
+      "source": "insnews",
+      "title": "큐핏, ‘보험요율 자동 산출 기술’ 특허 등록",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93400",
+      "published": "2026-10-20",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93398",
+      "source": "insnews",
+      "title": "송춘수 농협손보 대표, ‘사람 살리는 금융’ 릴레이 캠페인 동참",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93398",
+      "published": "2026-10-20",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93397",
+      "source": "insnews",
+      "title": "한화생명, 인도네시아 청소년 ‘금융교육’ 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93397",
+      "published": "2026-10-20",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93396",
+      "source": "insnews",
+      "title": "삼성생명, ‘삼성 시니어대표건강보험’ 개정 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93396",
+      "published": "2026-10-20",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93395",
+      "source": "insnews",
+      "title": "보험계약부터 판매·보상까지… 국정감사 금융감독원에 제도 개선 주문",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93395",
+      "published": "2026-10-20",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93393",
+      "source": "insnews",
+      "title": "해킹 대응·대출금리 산정에 질타… 고개 숙인 5대 시중은행장",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93393",
+      "published": "2026-10-19",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72812",
+      "source": "insweek",
+      "title": "처브라이프, 환경보호 및 문화유산 지키는 사회공헌활동 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72812",
+      "published": "2026-10-23",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72810",
+      "source": "insweek",
+      "title": "화재보험협회, '제26회 불조심 어린이마당' 시상식 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72810",
+      "published": "2026-10-23",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72800",
+      "source": "insweek",
+      "title": "NH농협생명, 이상거래탐지시스템 도입···금융피해 예방",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72800",
+      "published": "2026-10-23",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72799",
+      "source": "insweek",
+      "title": "손해사정사회, 임시총회·회원 단합대회 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72799",
+      "published": "2026-10-23",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72798",
+      "source": "insweek",
+      "title": "신한라이프, ‘통영 월드 트라이애슬론 컵’ 2년 연속 메인 스폰서 참여",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72798",
+      "published": "2026-10-23",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72796",
+      "source": "insweek",
+      "title": "교보생명, 보험금 지급 평균 2시간···생보업계 1위",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72796",
+      "published": "2026-10-23",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72788",
+      "source": "insweek",
+      "title": "삼성생명, 퇴직연금 부가서비스 앱 ‘SSUM 라운지’ 개편",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72788",
+      "published": "2026-10-23",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72770",
+      "source": "insweek",
+      "title": "하나손해보험·하나증권, 혜명양로원서 가을맞이 봉사활동 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72770",
+      "published": "2026-10-22",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72773",
+      "source": "insweek",
+      "title": "ABL생명, 전속 보험설계사 재적인원 3000명 돌파",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72773",
+      "published": "2026-10-22",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72766",
+      "source": "insweek",
+      "title": "보험연구원, “내년 보험산업 성장률 3.5%···수익기반 강화 필요\"",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72766",
+      "published": "2026-10-22",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72772",
+      "source": "insweek",
+      "title": "NH농협생명, 인천 강화 농가 찾아 농촌일손돕기 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72772",
+      "published": "2026-10-22",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72765",
+      "source": "insweek",
+      "title": "한화손해보험, “국내 여성, 경제적 안정 중시하지만 만족도는 가장 낮아”",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72765",
+      "published": "2026-10-21",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72762",
+      "source": "insweek",
+      "title": "삼성생명, 웅진프리드라이프와 업무협약 체결",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72762",
+      "published": "2026-10-21",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72764",
+      "source": "insweek",
+      "title": "신한라이프, ‘민원 예방 AI Agent’ 시스템 오픈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72764",
+      "published": "2026-10-21",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72761",
+      "source": "insweek",
+      "title": "DB손해보험, 중소기업 사이버위험 대응 강화",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72761",
+      "published": "2026-10-21",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72760",
+      "source": "insweek",
+      "title": "FM, 대체위험전가 솔루션 확대",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72760",
+      "published": "2026-10-21",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72759",
+      "source": "insweek",
+      "title": "삼성화재·SK렌터카, 미래 모빌리티 사업 협력",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72759",
+      "published": "2026-10-21",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72763",
+      "source": "insweek",
+      "title": "정문철 KB라이프 사장, '사람 살리는 금융' 캠페인 동참",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72763",
+      "published": "2026-10-21",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72755",
+      "source": "insweek",
+      "title": "송춘수 NH농협손해보험 대표, ‘사람 살리는 금융 릴레이 캠페인’ 동참",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72755",
+      "published": "2026-10-20",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72758",
+      "source": "insweek",
+      "title": "교보생명, 청각장애 청소년 멘토링 결산 ‘꿈톡쇼’ 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72758",
+      "published": "2026-10-20",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72757",
+      "source": "insweek",
+      "title": "한화생명, 인도네시아 청소년 금융교육 확대",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72757",
+      "published": "2026-10-20",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72756",
+      "source": "insweek",
+      "title": "메트라이프생명, ‘메트라이프 변액리치정기보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72756",
+      "published": "2026-10-20",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72754",
+      "source": "insweek",
+      "title": "삼성생명, ‘삼성 시니어대표건강보험’ 개정 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72754",
+      "published": "2026-10-20",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72752",
+      "source": "insweek",
+      "title": "생명·손해보험협회, 시니어 취약계층 통합지원 위한 업무협약 체결",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72752",
+      "published": "2026-10-19",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72753",
+      "source": "insweek",
+      "title": "토스인슈어런스, 지역 상생·포용금융 위한 임직원 플로깅 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72753",
+      "published": "2026-10-19",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72751",
+      "source": "insweek",
+      "title": "신한라이프, ‘2026 프레스티지 콘서트’ 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72751",
+      "published": "2026-10-19",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72749",
+      "source": "insweek",
+      "title": "현대해상, 어린이 동반 가족 1500명과 함께한 '렛츠무브' 운동회 성료",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72749",
+      "published": "2026-10-19",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72748",
+      "source": "insweek",
+      "title": "롯데손해보험, 반려견 돌발행동·견주 상해 보장 ‘댕댕이랑 여행갈땐보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72748",
+      "published": "2026-10-19",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72747",
+      "source": "insweek",
+      "title": "NH농협손해보험, 농업수입안정보험 양파·마늘 판매 개시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72747",
+      "published": "2026-10-19",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72750",
+      "source": "insweek",
+      "title": "KB라이프, 시니어 고객 대상 금융사기 예방 교육 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72750",
+      "published": "2026-10-19",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72746",
+      "source": "insweek",
+      "title": "삼성화재, 고객에 더 잘 맞는 건강보험 'THE FIT' 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72746",
+      "published": "2026-10-19",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72745",
+      "source": "insweek",
+      "title": "한화손해보험, ‘한화 다이렉트 임산부보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72745",
+      "published": "2026-10-19",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72744",
+      "source": "insweek",
+      "title": "특집-손해보험협회 선정 ‘2026 블루리본 컨설턴트’ 인터뷰[1]최고령 인증-박춘자 현대해상 동진주지점 하이플래너",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72744",
+      "published": "2026-10-19",
+      "hints": [
+        "영업/광장"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72743",
+      "source": "insweek",
+      "title": "특집-손해보험협회 선정 ‘2026 블루리본 컨설턴트’ 인터뷰[2]남성 부문 최연소-최우영 삼성화재 울산포항사업단 삼산지점 RC",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72743",
+      "published": "2026-10-19",
+      "hints": [
+        "영업/광장"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72742",
+      "source": "insweek",
+      "title": "특집-손해보험협회 선정 ‘2026 블루리본 컨설턴트’ 인터뷰[3]여성 부문 최연소-전진경 삼성화재 강남지역단 강남미래지점 RC",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72742",
+      "published": "2026-10-19",
+      "hints": [
+        "영업/광장"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72741",
+      "source": "insweek",
+      "title": "성과를 결정짓는 결정적 변수[7]-고객이 듣고 싶은 말에서 시작하는 보험세일즈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72741",
+      "published": "2026-10-19",
+      "hints": [
+        "영업/광장"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72740",
+      "source": "insweek",
+      "title": "현장컨설팅-수수료가 바뀌는 시대, 결국 남는 것은 고객이다",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72740",
+      "published": "2026-10-19",
+      "hints": [
+        "영업/광장"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72739",
+      "source": "insweek",
+      "title": "영업 25시-펫보험 달라진 보장 구조와 가입 시 점검 사항",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72739",
+      "published": "2026-10-19",
+      "hints": [
+        "영업/광장"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72738",
+      "source": "insweek",
+      "title": "▨보험GA 준법·내부통제 체크리스트 북▨-보험대리점 지점(지사) 등록 및 관리",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72738",
+      "published": "2026-10-19",
+      "hints": [
+        "영업/광장"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72732",
+      "source": "insweek",
+      "title": "정부, ‘신재생에너지 보급확대정책’ 가속도 보험상품 개발은 저속",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72732",
+      "published": "2026-10-19",
+      "hints": [
+        "종합/분석"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72731",
+      "source": "insweek",
+      "title": "금융위원회·보험개발원, ‘실손24’ 서비스 활성화 지속노력",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72731",
+      "published": "2026-10-19",
+      "hints": [
+        "종합/분석"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72730",
+      "source": "insweek",
+      "title": "시장에서 모습 감추는 온라인 전업사",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72730",
+      "published": "2026-10-19",
+      "hints": [
+        "종합/분석"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72729",
+      "source": "insweek",
+      "title": "자회사GA, 설계사 영업력 강화 전력",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72729",
+      "published": "2026-10-19",
+      "hints": [
+        "채널"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72728",
+      "source": "insweek",
+      "title": "보맵, ‘가족보험 관리’ 기능 앱에 추가",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72728",
+      "published": "2026-10-19",
+      "hints": [
+        "채널"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72727",
+      "source": "insweek",
+      "title": "메타리치, 보험전문가 양성 캠프 11기 교육",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72727",
+      "published": "2026-10-19",
+      "hints": [
+        "채널"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72726",
+      "source": "insweek",
+      "title": "사랑모아금융서비스, 설계사등 스크린골프대회 분기예선",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72726",
+      "published": "2026-10-19",
+      "hints": [
+        "채널"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72725",
+      "source": "insweek",
+      "title": "큐핏, 경험위험률 산출기술 특허 등록",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72725",
+      "published": "2026-10-19",
+      "hints": [
+        "채널"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72724",
+      "source": "insweek",
+      "title": "ABL생명, ‘우리WON더채움종신보험’ 생존과 사망 동시보장 설계",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72724",
+      "published": "2026-10-19",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72722",
+      "source": "insweek",
+      "title": "계피상이 자필서명 절차 개선 기존 제도 무의미 우려",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72722",
+      "published": "2026-10-19",
+      "hints": [
+        "생명/손해"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72721",
+      "source": "insweek",
+      "title": "치매·간병보험 담보별 수익성 관리",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72721",
+      "published": "2026-10-19",
+      "hints": [
+        "생명/손해"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33633",
+      "source": "insjournal",
+      "title": "[국정감사 오해풀기⑤] “수수료 5% 공제, 떼먹는 돈일까?”… GA 위험준비금의 진짜 역할",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33633",
+      "published": "2026-10-25",
+      "hints": [
+        "기획특집&단독"
+      ],
       "attachments": []
     },
     {
@@ -3656,17 +4857,6 @@
       "source": "insjournal",
       "title": "중소기업 랜섬웨어 걱정 끝, DB손보·SK쉴더스 '사이버위험' 원스톱 방어",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33586",
-      "published": "2026-10-21",
-      "hints": [
-        "종합뉴스"
-      ],
-      "attachments": []
-    },
-    {
-      "id": "insjournal:33585",
-      "source": "insjournal",
-      "title": "치매 어르신 걷기 돕는다… 악사손보, '노르딕 워킹' 임직원 봉사활동 전개",
-      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33585",
       "published": "2026-10-21",
       "hints": [
         "종합뉴스"
@@ -4214,7 +5404,204 @@
       "attachments": []
     }
   ],
-  "rates": [],
+  "rates": [
+    {
+      "company": "메리츠화재",
+      "kind": "개인용",
+      "total": 1.3,
+      "effective": "2026-02-21",
+      "reason": "손해율실적 반영에 따른 조정 (대물가입금액확대 특약 포함)"
+    },
+    {
+      "company": "메리츠화재",
+      "kind": "업무용",
+      "total": -1,
+      "effective": "2026-09-26",
+      "reason": "예정사업비 변경에 따른 보험료 조정"
+    },
+    {
+      "company": "메리츠화재",
+      "kind": "업무용",
+      "total": 1,
+      "effective": "2026-02-21",
+      "reason": "손해율실적 반영에 따른 조정 (대물가입금액확대 및 자동차상해 특약 포함)"
+    },
+    {
+      "company": "메리츠화재",
+      "kind": "영업용",
+      "total": -1,
+      "effective": "2026-09-26",
+      "reason": "예정사업비 변경에 따른 보험료 조정"
+    },
+    {
+      "company": "한화손보",
+      "kind": "개인용",
+      "total": 1.2,
+      "effective": "2026-02-21",
+      "reason": "손해율실적 반영에 따른 조정 (대물확장특약, 차량단독특약, 자동차상해특약 포함)"
+    },
+    {
+      "company": "한화손보",
+      "kind": "개인용",
+      "total": 0,
+      "effective": "2025-12-31",
+      "reason": "손해율실적 반영에 따른 조정 (대물확장특약, 차량단독특약, 자동차상해특약 포함)"
+    },
+    {
+      "company": "한화손보",
+      "kind": "업무용",
+      "total": 1.2,
+      "effective": "2026-02-21",
+      "reason": "손해율실적 반영에 따른 조정 (대물확장특약, 차량단독특약, 자동차상해특약 포함)"
+    },
+    {
+      "company": "한화손보",
+      "kind": "업무용",
+      "total": 0,
+      "effective": "2025-12-31",
+      "reason": "손해율실적 반영에 따른 조정 (대물확장특약, 차량단독특약, 자동차상해특약 포함)"
+    },
+    {
+      "company": "롯데손보",
+      "kind": "개인용",
+      "total": 1.4,
+      "effective": "2026-03-01",
+      "reason": "담보별 보험료 조정"
+    },
+    {
+      "company": "흥국화재",
+      "kind": "개인용",
+      "total": 1.4,
+      "effective": "2026-03-13",
+      "reason": "손해율 실적 반영에 따른 보험료 조정(대물확대 특약 포함)"
+    },
+    {
+      "company": "흥국화재",
+      "kind": "업무용",
+      "total": 1.4,
+      "effective": "2026-03-13",
+      "reason": "손해율 실적 반영에 따른 보험료 조정(대물확대 특약 포함)"
+    },
+    {
+      "company": "삼성화재",
+      "kind": "개인용",
+      "total": 1.4,
+      "effective": "2026-02-11",
+      "reason": "손해율 실적 반영한 보험료 조정 (차량단독특약 등 포함)"
+    },
+    {
+      "company": "삼성화재",
+      "kind": "업무용",
+      "total": 1.4,
+      "effective": "2026-02-11",
+      "reason": "손해율 실적 반영한 보험료 조정 (차량단독특약 등 포함)"
+    },
+    {
+      "company": "현대해상",
+      "kind": "개인용",
+      "total": 1.4,
+      "effective": "2026-02-16",
+      "reason": "손해율 및 실제사업비율 반영에 따른 보험료 조정(대물확장, 자차보장확대특약 포함)"
+    },
+    {
+      "company": "현대해상",
+      "kind": "업무용",
+      "total": 0,
+      "effective": "2026-06-16",
+      "reason": "손해율 실적 반영한 보험료 조정 (대물확장, 자차보장확대특약 포함)"
+    },
+    {
+      "company": "현대해상",
+      "kind": "업무용",
+      "total": 1.3,
+      "effective": "2026-02-16",
+      "reason": "손해율 및 실제사업비율 반영에 따른 보험료 조정(대물확장, 자차보장확대특약 포함)"
+    },
+    {
+      "company": "현대해상",
+      "kind": "영업용",
+      "total": 0,
+      "effective": "2026-09-21",
+      "reason": "손해율 실적 반영한 보험료 조정(대물확장, 자차보장확대 특약 포함)"
+    },
+    {
+      "company": "KB손보",
+      "kind": "개인용",
+      "total": 1.3,
+      "effective": "2026-02-18",
+      "reason": "손해율 실적을 반영한 보험료 조정 (대물확장, 자차포괄특약 포함)"
+    },
+    {
+      "company": "KB손보",
+      "kind": "업무용",
+      "total": 1.4,
+      "effective": "2026-02-18",
+      "reason": "손해율 실적을 반영한 보험료 조정 (대물확장, 자차포괄특약 포함)"
+    },
+    {
+      "company": "KB손보",
+      "kind": "업무용",
+      "total": 0,
+      "effective": "2025-12-13",
+      "reason": "손해율 실적을 반영한 보험료 조정 (대물확장, 자차포괄특약 포함)"
+    },
+    {
+      "company": "DB손보",
+      "kind": "개인용",
+      "total": 1.3,
+      "effective": "2026-02-16",
+      "reason": "실적손해율 반영 (대물확장 특약 등 포함)"
+    },
+    {
+      "company": "DB손보",
+      "kind": "업무용",
+      "total": 1.4,
+      "effective": "2026-02-16",
+      "reason": "실적손해율 반영 (대물확장 특약 등 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "개인용",
+      "total": 0,
+      "effective": "2026-06-08",
+      "reason": "손해실적에 따른 담보별 보험료 조정(자동차상해특약, 차량단독사고 특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "개인용",
+      "total": 1.3,
+      "effective": "2026-03-01",
+      "reason": "손해실적에 따른 담보별 보험료 조정(대물확장특약 포함, 자동차상해특약 포함, 차단독사고특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "개인용",
+      "total": 0,
+      "effective": "2026-01-01",
+      "reason": "손해실적에 따른 담보별 보험료 조정(차단독사고특약 포함, 자동차상해 특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "업무용",
+      "total": 0,
+      "effective": "2026-03-31",
+      "reason": "손해실적에 따른 담보별 보험료 조정(자동차상해특약, 차량단독사고특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "업무용",
+      "total": 1.3,
+      "effective": "2026-03-20",
+      "reason": "손해실적에 따른 담보별 보험료 조정(대물확장특약, 자동차상해특약, 차량단독사고특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "영업용",
+      "total": 0,
+      "effective": "2026-01-01",
+      "reason": "손해실적에 따른 담보별 보험료 조정"
+    }
+  ],
   "status": [
     {
       "source": "fsc-press",
@@ -4250,17 +5637,17 @@
     },
     {
       "source": "knia-press",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 10,
+      "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "knia-rates",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 28,
+      "error": null,
       "note": null,
       "disabled": false
     },
@@ -4314,17 +5701,17 @@
     },
     {
       "source": "insnews",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 50,
+      "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "insweek",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 50,
+      "error": null,
       "note": null,
       "disabled": false
     },

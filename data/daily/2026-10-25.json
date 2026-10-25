@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T12:19:22.005Z",
+  "generatedAt": "2026-10-25T12:20:52.443Z",
   "groups": [
     {
       "id": "g:fins:110320",
@@ -245,17 +245,17 @@
     },
     {
       "source": "knia-press",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 10,
+      "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "knia-rates",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 28,
+      "error": null,
       "note": null,
       "disabled": false
     },
@@ -309,17 +309,17 @@
     },
     {
       "source": "insnews",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 50,
+      "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "insweek",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 50,
+      "error": null,
       "note": null,
       "disabled": false
     },
