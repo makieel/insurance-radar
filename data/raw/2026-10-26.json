@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T06:29:58.322Z",
+  "generatedAt": "2026-10-26T14:31:21.350Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2979,12 +2979,12 @@
       "hints": [
         "보도자료",
         "회사소식",
-        "보험금 지급",
-        "교보생명",
-        "고객보장",
         "신속지급",
         "AI",
-        "신창재"
+        "신창재",
+        "보험금 지급",
+        "교보생명",
+        "고객보장"
       ],
       "attachments": []
     },
@@ -6043,7 +6043,7 @@
     {
       "id": "insjournal:33649",
       "source": "insjournal",
-      "title": "금감원, 한국재무설계 현장검사…검사3국 투입",
+      "title": "금감원, 중소형 GA '한국재무설계' 현장검사…검사3국 투입",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33649",
       "published": "2026-10-26",
       "hints": [
@@ -6164,7 +6164,7 @@
     {
       "id": "fins:110322",
       "source": "fins",
-      "title": "금감원, 한국재무설계 현장검사 착수…50억원 환수 사태 연관성 주목",
+      "title": "한국재무설계, 26일 금감원 ‘현장검사’ 받다… 50억원 환수 의혹",
       "url": "http://www.fins.co.kr/news/articleView.html?idxno=110322",
       "published": "2026-10-26",
       "hints": [],
@@ -8238,6 +8238,97 @@
       "published": "2026-02-11",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93499",
+      "source": "insnews",
+      "title": "KB국민은행, 정보유출 2091명 추가 확인",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93499",
+      "published": "2026-10-26",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93498",
+      "source": "insnews",
+      "title": "‘서울 핀테크 위크 2026’ 개막, AI가 바꿀 맞춤형 금융을 한 곳에서",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93498",
+      "published": "2026-10-26",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93497",
+      "source": "insnews",
+      "title": "미래에셋생명 해킹으로 고객정보 유출… 보험권 첫 침해사례 발생",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93497",
+      "published": "2026-10-26",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93495",
+      "source": "insnews",
+      "title": "은행권, 4분기 대출 심사 강화 전망… 주택대출 수요는 유지",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93495",
+      "published": "2026-10-26",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33650",
+      "source": "insjournal",
+      "title": "[26일 마감시황] 코스피 1.46%·코스닥 3.26% 동반 하락…미래에셋생명 2.40%↑·롯데손보 3.99%↓",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33650",
+      "published": "2026-10-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "chosun:HE2TCZDGGRRTSMDEGVTGMOJXMI",
+      "source": "chosun",
+      "title": "병원서 뗀 서류 없어도 청구… 건설공제조합, 실손24 연계 서비스 도입",
+      "url": "https://www.chosun.com/economy/real_estate/2026/10/26/HE2TCZDGGRRTSMDEGVTGMOJXMI/",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GIZDIMTBMNQTQN3EGQ2GENDEMI",
+      "source": "chosun",
+      "title": "미래에셋생명도 해킹으로 고객정보 유출… 보험권 첫 사례",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/26/GIZDIMTBMNQTQN3EGQ2GENDEMI/",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261026127651002",
+      "source": "yna",
+      "title": "미래에셋생명서 보험사 첫 해킹 유출…금감원, 긴급 현장점검(종합)",
+      "url": "https://www.yna.co.kr/view/AKR20261026127651002",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261026127600002",
+      "source": "yna",
+      "title": "미래에셋생명서도 해킹 유출 확인돼…보험사 중 첫 침해사고",
+      "url": "https://www.yna.co.kr/view/AKR20261026127600002",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -8444,7 +8535,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -8452,7 +8543,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -8460,7 +8551,7 @@
       "ok": true,
       "count": 83,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -8468,7 +8559,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -8476,7 +8567,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -8492,7 +8583,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": null,
       "disabled": false
     },
     {
@@ -8538,7 +8629,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 59,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -8554,7 +8645,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 61,
+      "count": 62,
       "error": null,
       "note": null,
       "disabled": false
@@ -8577,16 +8668,16 @@
     },
     {
       "source": "donga",
-      "ok": true,
+      "ok": false,
       "count": 5,
-      "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 1550번째부터 재개",
+      "error": "fetch failed",
+      "note": "과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null,
       "note": null,
       "disabled": false
@@ -8594,7 +8685,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 4,
+      "count": 6,
       "error": null,
       "note": null,
       "disabled": false

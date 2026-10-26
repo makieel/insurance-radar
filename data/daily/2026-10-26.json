@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T06:29:58.322Z",
+  "generatedAt": "2026-10-26T14:31:21.350Z",
   "groups": [
     {
       "id": "g:insnews:93474",
@@ -2873,6 +2873,107 @@
       "relevanceBy": "rule",
       "importance": 1,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93497",
+      "topic": "general",
+      "kind": "press",
+      "title": "미래에셋생명 해킹으로 고객정보 유출… 보험권 첫 침해사례 발생",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93497",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93497"
+        },
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/10/26/GIZDIMTBMNQTQN3EGQ2GENDEMI/"
+        }
+      ],
+      "itemIds": [
+        "insnews:93497",
+        "chosun:GIZDIMTBMNQTQN3EGQ2GENDEMI"
+      ],
+      "summary": "미래에셋생명에서 사이버 침해사고로 고객 개인 및 신용정보가 유출되는 사고가 발생했어요. 회사는 지난 25일 이상 증상을 확인한 뒤 26일 새벽 개인정보 유출 사실을 확인했으며 현재 정확한 유출 대상과 정보 항목을 파악 중이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:HE2TCZDGGRRTSMDEGVTGMOJXMI",
+      "topic": "medical",
+      "kind": "press",
+      "title": "병원서 뗀 서류 없어도 청구… 건설공제조합, 실손24 연계 서비스 도입",
+      "url": "https://www.chosun.com/economy/real_estate/2026/10/26/HE2TCZDGGRRTSMDEGVTGMOJXMI/",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/real_estate/2026/10/26/HE2TCZDGGRRTSMDEGVTGMOJXMI/"
+        }
+      ],
+      "itemIds": [
+        "chosun:HE2TCZDGGRRTSMDEGVTGMOJXMI"
+      ],
+      "summary": "건설공제조합이 오는 26일부터 실손보험 간편 청구 플랫폼인 실손24와 연계한 실손의료비 공제금 청구 서비스를 본격 운영한다고 밝혔어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261026127651002",
+      "topic": "general",
+      "kind": "press",
+      "title": "미래에셋생명서 보험사 첫 해킹 유출…금감원, 긴급 현장점검(종합)",
+      "url": "https://www.yna.co.kr/view/AKR20261026127651002",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261026127651002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261026127651002"
+      ],
+      "summary": "미래에셋생명에서 26일 시스템 침해 사고로 고객 개인 신용 정보가 유출되어 금융감독원이 긴급 현장점검에 착수했어요. 보험업권에서 해킹으로 인한 정보 유출이 확인돼 당국에 신고된 건 이번이 처음이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261026127600002",
+      "topic": "general",
+      "kind": "press",
+      "title": "미래에셋생명서도 해킹 유출 확인돼…보험사 중 첫 침해사고",
+      "url": "https://www.yna.co.kr/view/AKR20261026127600002",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261026127600002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261026127600002"
+      ],
+      "summary": "미래에셋생명이 26일 일부 시스템 침해 사고로 고객 개인 신용 정보가 유출되었다고 밝혔어요. 보험권에서 해킹으로 인한 정보 유출이 확인돼 신고된 건 이번이 처음이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -2881,7 +2982,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -2889,7 +2990,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -2897,7 +2998,7 @@
       "ok": true,
       "count": 83,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -2905,7 +3006,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -2913,7 +3014,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -2929,7 +3030,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": null,
       "disabled": false
     },
     {
@@ -2975,7 +3076,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 59,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -2991,7 +3092,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 61,
+      "count": 62,
       "error": null,
       "note": null,
       "disabled": false
@@ -3014,16 +3115,16 @@
     },
     {
       "source": "donga",
-      "ok": true,
+      "ok": false,
       "count": 5,
-      "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 1550번째부터 재개",
+      "error": "fetch failed",
+      "note": "과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null,
       "note": null,
       "disabled": false
@@ -3031,7 +3132,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 4,
+      "count": 6,
       "error": null,
       "note": null,
       "disabled": false

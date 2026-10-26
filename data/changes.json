@@ -22,6 +22,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:chosun:HE2TCZDGGRRTSMDEGVTGMOJXMI:ai",
+    "category": "medical",
+    "title": "실손24 연계 실손의료비 공제금 청구 서비스 도입",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "26일부터",
+    "quote": "건설공제조합이 26일부터 실손보험 간편 청구 플랫폼인 ‘실손24’와 연계한 실손의료비 공제금 청구 서비스를 본격 운영한다고 밝혔다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-26",
+    "sources": [
+      {
+        "name": "조선일보",
+        "url": "https://www.chosun.com/economy/real_estate/2026/10/26/HE2TCZDGGRRTSMDEGVTGMOJXMI/"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-26"
+  },
+  {
     "id": "c:fss-press:243965:ai",
     "category": "general",
     "title": "간호조무사 대상 보험사기 예방교육 실시",
