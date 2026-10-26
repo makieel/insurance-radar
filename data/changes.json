@@ -22,6 +22,94 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:insnews:93411:ai",
+    "category": "medical",
+    "title": "말레이시아 중산층 저가형 의료보험 내년 1월 도입",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년 1월",
+    "quote": "의료비 상승에 따른 가계 부담을 줄이고 공공의료기관에 집중되는 의료 수요를 분산하기 위해 내년 1월 새로운 의료보험 상품을 출시할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-26",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93411"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-26"
+  },
+  {
+    "id": "c:insnews:93455:ai",
+    "category": "medical",
+    "title": "초기 실손보험 선택형 할인특약 및 계약전환 할인 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 11월부터",
+    "quote": "금융당국은 오는 11월부터 ‘선택형 할인특약’과 ‘계약전환 할인’을 시행한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-26",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93455"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-26"
+  },
+  {
+    "id": "c:insweek:72777:ai",
+    "category": "life",
+    "title": "해외통화 보험부채 할인율 산출방식 원화와 동일 개편",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년부터",
+    "quote": "금융감독원이 내년부터 해외통화 보험부채의 할인율 산출방식을 원화와 동일한 기준으로 적용하기로 했다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-26",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72777"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-26"
+  },
+  {
+    "id": "c:insweek:72778:ai",
+    "category": "life",
+    "title": "보장금액한도 산정 가이드라인 개정안 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "2027년",
+    "quote": "이 가이드라인은 오는 2027년 신계약부터 적용한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-26",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72778"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-26"
+  },
+  {
     "id": "c:fins:110266:ai",
     "category": "medical",
     "title": "실손의료보험 계약재매입 제도 내달 시행",
@@ -230,6 +318,28 @@
     "origin": "rule",
     "rate": null,
     "firstSeen": "2026-10-23"
+  },
+  {
+    "id": "c:insweek:72801:ai",
+    "category": "auto",
+    "title": "자동차보험 경상환자 8주 초과 치료 절차 변경",
+    "when": "exact",
+    "date": "2026-09-10",
+    "period": null,
+    "phrase": "2026년 9월10일",
+    "quote": "2026년 9월10일 이후 발생한 자동차사고부터 상해등급 12~14급 일부 경상환자의 장기치료 절차가 달라졌다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-26",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72801"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-26"
   },
   {
     "id": "c:fss-press:226952:2026-09-07",

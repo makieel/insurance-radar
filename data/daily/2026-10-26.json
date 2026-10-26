@@ -1,0 +1,2269 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T00:25:08.442Z",
+  "groups": [
+    {
+      "id": "g:insnews:93474",
+      "topic": "general",
+      "kind": "press",
+      "title": "[1154호 장영우의 만평]",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93474",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93474"
+        }
+      ],
+      "itemIds": [
+        "insnews:93474"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93459",
+      "topic": "general",
+      "kind": "press",
+      "title": "3분기 퇴직연금 적립금 542조… 증시 조정 속 보험·은행 동반 감소",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93459",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93459"
+        }
+      ],
+      "itemIds": [
+        "insnews:93459"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93457",
+      "topic": "life",
+      "kind": "press",
+      "title": "고령화 시대 보험시장, 상품 경쟁 넘어 상담 역량이 핵심",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93457",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93457"
+        }
+      ],
+      "itemIds": [
+        "insnews:93457"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93456",
+      "topic": "general",
+      "kind": "press",
+      "title": "민간 우주기업 공제 가입 허용… 우주보험 선택지 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93456",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93456"
+        }
+      ],
+      "itemIds": [
+        "insnews:93456"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93455",
+      "topic": "medical",
+      "kind": "press",
+      "title": "내달부터 초기 실손보험 할인… 유지·전환 득실 따져야",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93455",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93455"
+        }
+      ],
+      "itemIds": [
+        "insnews:93455"
+      ],
+      "summary": "오는 11월부터 2013년 3월 이전 가입한 1·2세대 실손보험 가입자 1700만명을 대상으로 선택형 할인특약과 계약전환 할인이 시행돼요. 선택형 할인특약은 기존 계약을 유지하면서 도수치료, 주사제, MRI 등의 보장을 제외하고 보험료를 낮출 수 있어요. 계약전환 할인은 5세대 실손보험으로 전환하면 3년간 보험료를 50% 할인해주는 제도예요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93452",
+      "topic": "general",
+      "kind": "press",
+      "title": "[RMI보험경영연구소의 보험이슈 톡톡] 퇴직연금의 미래, 장기성과와 보험사의 역할",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93452",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93452"
+        }
+      ],
+      "itemIds": [
+        "insnews:93452"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93441",
+      "topic": "general",
+      "kind": "press",
+      "title": "2027년 보험산업 외형 성장 한계… 위험관리 역량 부각",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93441",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93441"
+        }
+      ],
+      "itemIds": [
+        "insnews:93441"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93438",
+      "topic": "auto",
+      "kind": "press",
+      "title": "보험개발원, 달라지는 위험에 ‘대응 기반’ 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93438",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93438"
+        }
+      ],
+      "itemIds": [
+        "insnews:93438"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93435",
+      "topic": "life",
+      "kind": "press",
+      "title": "보험 해지 급증, 증시 이어 금리도 변수… 자산시장 파장 경계",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93435",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93435"
+        }
+      ],
+      "itemIds": [
+        "insnews:93435"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93430",
+      "topic": "industry",
+      "kind": "press",
+      "title": "[기획] 금융권, 해외사업 새판 짜기… 인니 지주사·영미권 투자 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93430",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93430"
+        }
+      ],
+      "itemIds": [
+        "insnews:93430"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93429",
+      "topic": "general",
+      "kind": "press",
+      "title": "메인라인, 기업용 생성형 AI 통합플랫폼 ‘AIFuze’에 문서 생성 기능 탑재",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93429",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93429"
+        }
+      ],
+      "itemIds": [
+        "insnews:93429"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93426",
+      "topic": "general",
+      "kind": "press",
+      "title": "[이은옥의 보험 읽어주는 사람] 보험을 잘 파는 것보다 중요한 일",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93426",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93426"
+        }
+      ],
+      "itemIds": [
+        "insnews:93426"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93417",
+      "topic": "life",
+      "kind": "press",
+      "title": "[비즈파트너즈의 실전 법인영업] 회사는 아들에게 넘겼는데, 월급은 남겨둔 이유",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93417",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93417"
+        }
+      ],
+      "itemIds": [
+        "insnews:93417"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93416",
+      "topic": "life",
+      "kind": "press",
+      "title": "중국 은행권, 실물경제에 신규 자금 20조 위안 공급",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93416",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93416"
+        }
+      ],
+      "itemIds": [
+        "insnews:93416"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93415",
+      "topic": "life",
+      "kind": "press",
+      "title": "중국 생명보험시장, 사망보장서 노후소득·자산관리로 전환",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93415",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93415"
+        }
+      ],
+      "itemIds": [
+        "insnews:93415"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93411",
+      "topic": "general",
+      "kind": "press",
+      "title": "말레이시아, 중산층 겨냥 저가형 의료보험 도입",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93411",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93411"
+        }
+      ],
+      "itemIds": [
+        "insnews:93411"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93383",
+      "topic": "life",
+      "kind": "press",
+      "title": "일본 생명보험사, 1분기 경상수익 17% 증가… 운용수익 급증",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93383",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93383"
+        }
+      ],
+      "itemIds": [
+        "insnews:93383"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93381",
+      "topic": "general",
+      "kind": "press",
+      "title": "도쿄해상일동, 생성형 AI 조작 이미지 탐지로 보험사기 대응 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93381",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93381"
+        }
+      ],
+      "itemIds": [
+        "insnews:93381"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72825",
+      "topic": "general",
+      "kind": "press",
+      "title": "정부-손보업계 제도개선·지원방안 공유 우주보험 새 성장동력으로 기대",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72825",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72825"
+        }
+      ],
+      "itemIds": [
+        "insweek:72825"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72824",
+      "topic": "general",
+      "kind": "press",
+      "title": "금융·보험업자 교육세율 거론 제외 보험업계 ‘국감 아쉬움’",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72824",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72824"
+        }
+      ],
+      "itemIds": [
+        "insweek:72824"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72823",
+      "topic": "general",
+      "kind": "press",
+      "title": "예보공사 보험사 정리제도 개선 추진 주시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72823",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72823"
+        }
+      ],
+      "itemIds": [
+        "insweek:72823"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72822",
+      "topic": "general",
+      "kind": "press",
+      "title": "수요 줄고 대체창구 활성화 여파 사라지는 보험카드 서비스",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72822",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72822"
+        }
+      ],
+      "itemIds": [
+        "insweek:72822"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72820",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험금청구권신탁 활성화 다각 시도",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72820",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72820"
+        }
+      ],
+      "itemIds": [
+        "insweek:72820"
+      ],
+      "summary": "한화생명은 보험금청구권신탁 계약을 체결한 설계사에게 최초 1회 10만원의 지원금과 추가 계약 건당 3만원 상당의 상품권을 지급해요. 신한라이프는 '든든한VIP상속종신보험'의 보험수익자를 신탁으로 변경하면 주계약 보험료를 보험기간 동안 1% 할인해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72819",
+      "topic": "life",
+      "kind": "press",
+      "title": "흥국생명, 상품 경쟁력 ‘눈에 띄네’",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72819",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72819"
+        }
+      ],
+      "itemIds": [
+        "insweek:72819"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72818",
+      "topic": "general",
+      "kind": "press",
+      "title": "성대규 동양생명 대표, ‘소통 행보’ 주목",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72818",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72818"
+        }
+      ],
+      "itemIds": [
+        "insweek:72818"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72816",
+      "topic": "general",
+      "kind": "press",
+      "title": "손보업계, 가을철 풍성한 이벤트로 고객 끌기",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72816",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72816"
+        }
+      ],
+      "itemIds": [
+        "insweek:72816"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72815",
+      "topic": "life",
+      "kind": "press",
+      "title": "보험연구원, ‘새 성장영역으로의 자원 재분배 중요’",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72815",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72815"
+        }
+      ],
+      "itemIds": [
+        "insweek:72815"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72814",
+      "topic": "auto",
+      "kind": "press",
+      "title": "현대해상, 자보 할인특약 선택권 확대",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72814",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72814"
+        }
+      ],
+      "itemIds": [
+        "insweek:72814"
+      ],
+      "summary": "현대해상은 개인용 자동차보험에 '카카오 안전운전 할인특약'을 신설해 직전 6개월간 500km 이상 주행하고 안전운전점수가 70점 이상이면 보험료를 할인해줘요. 또한 '하이워크 할인특약'의 인증 방법에 '티맵 만보기'를 추가했어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72813",
+      "topic": "industry",
+      "kind": "press",
+      "title": "하이퍼스케일러 투자현황 모니터링",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72813",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72813"
+        }
+      ],
+      "itemIds": [
+        "insweek:72813"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72809",
+      "topic": "general",
+      "kind": "press",
+      "title": "그래도 여전히 나는 보험을 잘 판매하고 싶다-영업현장 불완전판매 지양하고 완전판매 실천",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72809",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72809"
+        }
+      ],
+      "itemIds": [
+        "insweek:72809"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72808",
+      "topic": "medical",
+      "kind": "press",
+      "title": "영업 25시-실손보상 과연 누가 정답일까?",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72808",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72808"
+        }
+      ],
+      "itemIds": [
+        "insweek:72808"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72803",
+      "topic": "general",
+      "kind": "press",
+      "title": "오피니언-부동산 자산가가 보험을 떠올리는 두 개의 문턱, 30억과 100억",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72803",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72803"
+        }
+      ],
+      "itemIds": [
+        "insweek:72803"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72801",
+      "topic": "auto",
+      "kind": "press",
+      "title": "▨손해사정사 양유진의 보험과 보상 담론-자동차보험 ‘8주룰’, 경상환자 치료는 무엇이 달라질까",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72801",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72801"
+        }
+      ],
+      "itemIds": [
+        "insweek:72801"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72795",
+      "topic": "general",
+      "kind": "press",
+      "title": "이슈-AI 활용 신약개발·정밀의료 급발전하는데",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72795",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72795"
+        }
+      ],
+      "itemIds": [
+        "insweek:72795"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72794",
+      "topic": "life",
+      "kind": "press",
+      "title": "이슈-보험업계 ‘시니어 서비스사업’의 현주소",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72794",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72794"
+        }
+      ],
+      "itemIds": [
+        "insweek:72794"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72793",
+      "topic": "general",
+      "kind": "press",
+      "title": "인슈어테크업계, 서비스 고도화 가속",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72793",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72793"
+        }
+      ],
+      "itemIds": [
+        "insweek:72793"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72792",
+      "topic": "general",
+      "kind": "press",
+      "title": "인카금융서비스, ‘무경력 신인 스타트업 과정’ 운영",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72792",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72792"
+        }
+      ],
+      "itemIds": [
+        "insweek:72792"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72791",
+      "topic": "industry",
+      "kind": "press",
+      "title": "에이플러스에셋, 수익성·자본 효율성 핵심 실천",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72791",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72791"
+        }
+      ],
+      "itemIds": [
+        "insweek:72791"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72790",
+      "topic": "general",
+      "kind": "press",
+      "title": "토스인슈어런스, 환경개선 임직원 플로깅 활동",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72790",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72790"
+        }
+      ],
+      "itemIds": [
+        "insweek:72790"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72789",
+      "topic": "industry",
+      "kind": "press",
+      "title": "다스카손해사정, ‘청년 일경험 사업’ 청년인턴 채용",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72789",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72789"
+        }
+      ],
+      "itemIds": [
+        "insweek:72789"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72787",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손해보험. 웰니스 케어 확대한 ‘한화 다이렉트 임산부보험’",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72787",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72787"
+        }
+      ],
+      "itemIds": [
+        "insweek:72787"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72786",
+      "topic": "general",
+      "kind": "press",
+      "title": "[사설] 간병인보험 불완전판매는 도덕적 해이 부른다",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72786",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72786"
+        }
+      ],
+      "itemIds": [
+        "insweek:72786"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72785",
+      "topic": "auto",
+      "kind": "press",
+      "title": "[사설] 캐피탈 보험시장 진출 일방적이어서는 안된다",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72785",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72785"
+        }
+      ],
+      "itemIds": [
+        "insweek:72785"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72783",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험계리사회, ‘계리가정 선진화에 따른 결산 대응과 리스크관리’ 세미나",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72783",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72783"
+        }
+      ],
+      "itemIds": [
+        "insweek:72783"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72782",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보교육재단, ‘제2회 청소년 캠프 AI윤리 ON’",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72782",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72782"
+        }
+      ],
+      "itemIds": [
+        "insweek:72782"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72780",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험연구원, ‘IFRS 공시 신뢰성과 계리적 가정의 질적 특성 제고’ 산학세미나",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72780",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72780"
+        }
+      ],
+      "itemIds": [
+        "insweek:72780"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72779",
+      "topic": "general",
+      "kind": "press",
+      "title": "금융지주 손보사 잇단 인수 계기 캐피탈업체 보험대리점 허용 시각차",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72779",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72779"
+        }
+      ],
+      "itemIds": [
+        "insweek:72779"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72778",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원 ‘보험상품 보장금액한도 산정 가이드라인 개정안’ 명·암",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72778",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72778"
+        }
+      ],
+      "itemIds": [
+        "insweek:72778"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72777",
+      "topic": "general",
+      "kind": "press",
+      "title": "해외통화 보험부채 할인율 산출방식 원화와 동일하게 개편",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72777",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72777"
+        }
+      ],
+      "itemIds": [
+        "insweek:72777"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72776",
+      "topic": "general",
+      "kind": "press",
+      "title": "피플-곽희필 ABL생명 대표",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72776",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72776"
+        }
+      ],
+      "itemIds": [
+        "insweek:72776"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33635",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손보, 'AI·데이터 인재' 품는다… 2026년 '하반기 신입 공채' 실시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33635",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33635"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33635"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110316",
+      "topic": "life",
+      "kind": "press",
+      "title": "항생제 내성, 보험위험도 키운다…“상품별 영향 분석·예방 지원 필요”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110316",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110316"
+        }
+      ],
+      "itemIds": [
+        "fins:110316"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110298",
+      "topic": "life",
+      "kind": "press",
+      "title": "조직 키운 동양·ABL생명, 안정에 힘 실릴까",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110298",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110298"
+        }
+      ],
+      "itemIds": [
+        "fins:110298"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110297",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 건전성 관리 전환점 맞은 2026년…업계 양극화 우려",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110297",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110297"
+        }
+      ],
+      "itemIds": [
+        "fins:110297"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:HEYDEZRSHAZDGOJSHBRWEZBXMM",
+      "topic": "life",
+      "kind": "press",
+      "title": "채권 발행이냐 현금 상환이냐… 보험사, 내년 6조원대 증권 조기 상환 고심",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/26/HEYDEZRSHAZDGOJSHBRWEZBXMM/",
+      "published": "2026-10-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/10/26/HEYDEZRSHAZDGOJSHBRWEZBXMM/"
+        }
+      ],
+      "itemIds": [
+        "chosun:HEYDEZRSHAZDGOJSHBRWEZBXMM"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:134298704",
+      "topic": "general",
+      "kind": "press",
+      "title": "우리-SC제일銀도 모기지보험 중단…대출절벽 현실화",
+      "url": "https://www.donga.com/news/Economy/article/all/20260714/134298704/1",
+      "published": "2026-07-14",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260714/134298704/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134298704"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25418206",
+      "topic": "general",
+      "kind": "press",
+      "title": "공황장애·번아웃 보험 등장…“‘마음 건강’에 보험사 역할 키워야”",
+      "url": "https://www.joongang.co.kr/article/25418206",
+      "published": "2026-04-07",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25418206"
+        }
+      ],
+      "itemIds": [
+        "joongang:25418206"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25418079",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&&#93; 질병·노후 동시에 보장 … 30~40대 맞춤형 보험",
+      "url": "https://www.joongang.co.kr/article/25418079",
+      "published": "2026-04-07",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25418079"
+        }
+      ],
+      "itemIds": [
+        "joongang:25418079"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25416513",
+      "topic": "general",
+      "kind": "press",
+      "title": "병원+보험업자 ‘보험사기단’…“모발이식·필러, 실손 됩니다”",
+      "url": "https://www.joongang.co.kr/article/25416513",
+      "published": "2026-04-01",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25416513"
+        }
+      ],
+      "itemIds": [
+        "joongang:25416513"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25416399",
+      "topic": "medical",
+      "kind": "press",
+      "title": "모발이식·필러 해놓고 실손 처리?…병원·보험업자 연루 사기 기승",
+      "url": "https://www.joongang.co.kr/article/25416399",
+      "published": "2026-03-31",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25416399"
+        }
+      ],
+      "itemIds": [
+        "joongang:25416399"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25416369",
+      "topic": "auto",
+      "kind": "press",
+      "title": "보험사기 1.2조 ‘역대 최대’…병원 연루 車보험 583% 급증",
+      "url": "https://www.joongang.co.kr/article/25416369",
+      "published": "2026-03-31",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25416369"
+        }
+      ],
+      "itemIds": [
+        "joongang:25416369"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25416171",
+      "topic": "industry",
+      "kind": "press",
+      "title": "&#91;함께하는 금융&#93; 신인 설계사 금융소비자보호 교육",
+      "url": "https://www.joongang.co.kr/article/25416171",
+      "published": "2026-03-31",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25416171"
+        }
+      ],
+      "itemIds": [
+        "joongang:25416171"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25415113",
+      "topic": "general",
+      "kind": "press",
+      "title": "중동 장기화 '최악 시나리오'…PF 흔들·보험 28% 손실, 한은 경고",
+      "url": "https://www.joongang.co.kr/article/25415113",
+      "published": "2026-03-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25415113"
+        }
+      ],
+      "itemIds": [
+        "joongang:25415113"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25414851",
+      "topic": "auto",
+      "kind": "press",
+      "title": "자동차보험 지난해 7080억 적자",
+      "url": "https://www.joongang.co.kr/article/25414851",
+      "published": "2026-03-26",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414851"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414851"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25414799",
+      "topic": "general",
+      "kind": "press",
+      "title": "서브범실 두려워하지 않은 우리카드가 PO 간다… KB손해보험에 3-0 승리",
+      "url": "https://www.joongang.co.kr/article/25414799",
+      "published": "2026-03-25",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414799"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414799"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25414764",
+      "topic": "auto",
+      "kind": "press",
+      "title": "자동차보험 손해율 90% 임박, 보험료 또 오르나…과잉 치료에 손해액↑",
+      "url": "https://www.joongang.co.kr/article/25414764",
+      "published": "2026-03-25",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414764"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414764"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25414616",
+      "topic": "general",
+      "kind": "press",
+      "title": "티눈 수술 2500번에 보험금 7억 수령…대법 “보험사 또 졌다, 줄 돈 줘야”",
+      "url": "https://www.joongang.co.kr/article/25414616",
+      "published": "2026-03-25",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414616"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414616"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25414506",
+      "topic": "medical",
+      "kind": "press",
+      "title": "‘덜 내고 덜 받는’ 5세대 실손 임박…“병원 잘 안가면 유리”",
+      "url": "https://www.joongang.co.kr/article/25414506",
+      "published": "2026-03-25",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414506"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414506"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25414422",
+      "topic": "general",
+      "kind": "press",
+      "title": "'5세대 실손' 온다…'적게 내고 적게 받기' 두고 소비자 고심",
+      "url": "https://www.joongang.co.kr/article/25414422",
+      "published": "2026-03-24",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414422"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414422"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25414306",
+      "topic": "auto",
+      "kind": "press",
+      "title": "자동차보험 사기 신고한 병원 관계자엔 포상금 5000만원 준다",
+      "url": "https://www.joongang.co.kr/article/25414306",
+      "published": "2026-03-24",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414306"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414306"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25414233",
+      "topic": "life",
+      "kind": "press",
+      "title": "&#91;라이프 트렌드&#93; 필요한 보장만 골라 가입하는 신개념 건강보험",
+      "url": "https://www.joongang.co.kr/article/25414233",
+      "published": "2026-03-24",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414233"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414233"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25414016",
+      "topic": "life",
+      "kind": "press",
+      "title": "건강보험 약품비 27조 넘었다…지출 1위는 항암제",
+      "url": "https://www.joongang.co.kr/article/25414016",
+      "published": "2026-03-23",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25414016"
+        }
+      ],
+      "itemIds": [
+        "joongang:25414016"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25413904",
+      "topic": "general",
+      "kind": "press",
+      "title": "대법 \"보험사가 낸 치료비, 지급기간 달랐다면 구상금서 빼야\"",
+      "url": "https://www.joongang.co.kr/article/25413904",
+      "published": "2026-03-23",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25413904"
+        }
+      ],
+      "itemIds": [
+        "joongang:25413904"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25412913",
+      "topic": "general",
+      "kind": "press",
+      "title": "무릎 통증 잊고 날아오른 KB손해보험 나경복",
+      "url": "https://www.joongang.co.kr/article/25412913",
+      "published": "2026-03-19",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25412913"
+        }
+      ],
+      "itemIds": [
+        "joongang:25412913"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25412830",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손해보험, 한국전력 꺾고 2년 연속 포스트시즌 진출",
+      "url": "https://www.joongang.co.kr/article/25412830",
+      "published": "2026-03-18",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25412830"
+        }
+      ],
+      "itemIds": [
+        "joongang:25412830"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25412020",
+      "topic": "general",
+      "kind": "press",
+      "title": "“환테크 오해 걷혔다”…달러보험 판매 10% 줄며 과열 진정",
+      "url": "https://www.joongang.co.kr/article/25412020",
+      "published": "2026-03-16",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25412020"
+        }
+      ],
+      "itemIds": [
+        "joongang:25412020"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25411359",
+      "topic": "general",
+      "kind": "press",
+      "title": "대한항공, KB손해보험 격파… 정규리그 우승까지 3점 남았다",
+      "url": "https://www.joongang.co.kr/article/25411359",
+      "published": "2026-03-12",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25411359"
+        }
+      ],
+      "itemIds": [
+        "joongang:25411359"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25411247",
+      "topic": "general",
+      "kind": "press",
+      "title": "“보험사는 사악해…총을 써라” 폭력 부추긴 AI 챗봇",
+      "url": "https://www.joongang.co.kr/article/25411247",
+      "published": "2026-03-12",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25411247"
+        }
+      ],
+      "itemIds": [
+        "joongang:25411247"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25410021",
+      "topic": "general",
+      "kind": "press",
+      "title": "프로배구 KB손해보험, OK저축은행 물리치고 3위 등극",
+      "url": "https://www.joongang.co.kr/article/25410021",
+      "published": "2026-03-08",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25410021"
+        }
+      ],
+      "itemIds": [
+        "joongang:25410021"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25409996",
+      "topic": "auto",
+      "kind": "press",
+      "title": "“자동차보험 진료비 심평원 심사했더니, 보험료 1인당 2만6000원 아껴\"",
+      "url": "https://www.joongang.co.kr/article/25409996",
+      "published": "2026-03-08",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25409996"
+        }
+      ],
+      "itemIds": [
+        "joongang:25409996"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25409881",
+      "topic": "general",
+      "kind": "press",
+      "title": "호르무즈 '전쟁 프리미엄'…선박 보험료 최대 3% 치솟았다",
+      "url": "https://www.joongang.co.kr/article/25409881",
+      "published": "2026-03-07",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25409881"
+        }
+      ],
+      "itemIds": [
+        "joongang:25409881"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25409788",
+      "topic": "life",
+      "kind": "press",
+      "title": "치매보험 ‘진단비’만 따지실 건가요",
+      "url": "https://www.joongang.co.kr/article/25409788",
+      "published": "2026-03-07",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25409788"
+        }
+      ],
+      "itemIds": [
+        "joongang:25409788"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25409479",
+      "topic": "medical",
+      "kind": "press",
+      "title": "'과잉 비급여' 체외충격파, 7월부터 의협 가이드라인 적용…실손 청구 제한할 듯",
+      "url": "https://www.joongang.co.kr/article/25409479",
+      "published": "2026-03-05",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25409479"
+        }
+      ],
+      "itemIds": [
+        "joongang:25409479"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25409239",
+      "topic": "life",
+      "kind": "press",
+      "title": "임신 축하금·조리원비 보장…‘맘’도 챙기는 여성 보험",
+      "url": "https://www.joongang.co.kr/article/25409239",
+      "published": "2026-03-05",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25409239"
+        }
+      ],
+      "itemIds": [
+        "joongang:25409239"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25409138",
+      "topic": "life",
+      "kind": "press",
+      "title": "조리원비에 임신축하금까지…임신·출산 보장 나선 보험업계",
+      "url": "https://www.joongang.co.kr/article/25409138",
+      "published": "2026-03-04",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25409138"
+        }
+      ],
+      "itemIds": [
+        "joongang:25409138"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25408818",
+      "topic": "auto",
+      "kind": "press",
+      "title": "\"다자녀 할인도 끝?\"...車보험 적자에 다자녀·걸음수 특약할인 축소",
+      "url": "https://www.joongang.co.kr/article/25408818",
+      "published": "2026-03-03",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25408818"
+        },
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25408927"
+        }
+      ],
+      "itemIds": [
+        "joongang:25408818",
+        "joongang:25408927"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:joongang:25407731",
+      "topic": "general",
+      "kind": "press",
+      "title": "속앓는 보험주",
+      "url": "https://www.joongang.co.kr/article/25407731",
+      "published": "2026-02-27",
+      "firstSeen": "2026-10-26",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25407731"
+        }
+      ],
+      "itemIds": [
+        "joongang:25407731"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 61,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 51,
+      "error": null,
+      "note": "과거 기사 채우는 중: 중앙 2026-02-26부터 재개",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 3,
+      "error": null,
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 950번째부터 재개",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
