@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T00:25:08.442Z",
+  "generatedAt": "2026-10-26T06:29:58.322Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2979,12 +2979,12 @@
       "hints": [
         "보도자료",
         "회사소식",
-        "AI",
-        "신창재",
         "보험금 지급",
         "교보생명",
         "고객보장",
-        "신속지급"
+        "신속지급",
+        "AI",
+        "신창재"
       ],
       "attachments": []
     },
@@ -4314,9 +4314,9 @@
     {
       "id": "insjournal:33626",
       "source": "insjournal",
-      "title": "[GA 품질경영 시대] \"고액은 변호사 공증, 소액은 100% 해피콜\"… 무지개컨설팅이 지키는 '정도 영업'",
+      "title": "[GA 품질경영 시대] \"고액은 변호사 공증, 소액은 100% 해피콜\"… 무지개컨설팅이 지키는 '정도 영업' (영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33626",
-      "published": "2026-10-23",
+      "published": "2026-10-26",
       "hints": [
         "기획특집&단독"
       ],
@@ -4479,9 +4479,9 @@
     {
       "id": "insjournal:33609",
       "source": "insjournal",
-      "title": "\"심의 지연도 답답한데 돈까지 내라고?\"… 보험 광고심의 유료화, 영업현장 90.9% '반대'",
+      "title": "\"심의 지연도 답답한데 돈까지 내라고?\"… 보험 광고심의 유료화, 영업현장 90.9% '반대' (영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33609",
-      "published": "2026-10-22",
+      "published": "2026-10-26",
       "hints": [
         "기획특집&단독"
       ],
@@ -4523,9 +4523,9 @@
     {
       "id": "insjournal:33606",
       "source": "insjournal",
-      "title": "\"영업할 맛 난다\" 수수료 개편·밀착 교육 통했다… ABL생명, 전속 설계사 3000명 돌파 '폭풍 성장'",
+      "title": "\"영업할 맛 난다\" 수수료 개편·밀착 교육 통했다… ABL생명, 전속 설계사 3000명 돌파 '폭풍 성장'(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33606",
-      "published": "2026-10-22",
+      "published": "2026-10-26",
       "hints": [
         "종합뉴스"
       ],
@@ -5726,6 +5726,2518 @@
       "published": "2026-07-14",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "fss-press:243965",
+      "source": "fss-press",
+      "title": "간호조무사 대상 보험사기 예방교육 실시",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=243965&menuNo=200218",
+      "published": "2026-10-26",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "261026_(보도자료) 간호조무사 대상 보험사기 예방교육 실시.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=76db047a34154910bd7a4e4e67fd61db&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261026_(보도자료) 간호조무사 대상 보험사기 예방교육 실시.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=76db047a34154910bd7a4e4e67fd61db&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "knia-press:88755",
+      "source": "knia-press",
+      "title": "「국회 보험범죄 방지 연구 포럼」 발족식 및 세미나 개최",
+      "url": "https://www.knia.or.kr/data/news/content?index=88755",
+      "published": "2026-09-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "hanwha:3569",
+      "source": "hanwha",
+      "title": "한화금융 유튜브 ‘LIFEPLUS TV’, 100만 구독자 돌파",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3569",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "hanwha:3568",
+      "source": "hanwha",
+      "title": "한화금융 PLUS, 왕서윤 등차세대 스타 육성 나서",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3568",
+      "published": "2026-10-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "samsungfire:1418",
+      "source": "samsungfire",
+      "title": "삼성화재, AI 영업지원 시스템 'AI Advisor' 오픈",
+      "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1418",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23505",
+      "source": "meritz",
+      "title": "메리츠금융지주, 상반기 당기순이익 1조 4,716억원...전년비 8.3% 증가",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23505",
+      "published": "2026-08-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23504",
+      "source": "meritz",
+      "title": "메리츠화재, 연도대상 개최...대상에 청주본부 주미숙 지점장",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23504",
+      "published": "2026-04-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23506",
+      "source": "meritz",
+      "title": "메리츠화재, ‘BMW 매니아’ 자동차 커뮤니티에서 보증연장 보험 판매",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23506",
+      "published": "2026-03-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23503",
+      "source": "meritz",
+      "title": "메리츠화재, 청소년 불법도박 근절 캠페인 동참",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23503",
+      "published": "2026-03-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23502",
+      "source": "meritz",
+      "title": "메리츠금융지주, 2025년 당기순이익 2조 3,501억원...역대 최대 실적",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23502",
+      "published": "2026-02-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23501",
+      "source": "meritz",
+      "title": "메리츠화재, 보험사기 근절 공로...금감원장상 등 ‘트리플 크라운’ 달성",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23501",
+      "published": "2025-12-18",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23500",
+      "source": "meritz",
+      "title": "메리츠화재, 업계 최초 ‘민사소송출석비용보장(상고심 제외)’ 특약 출시",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23500",
+      "published": "2025-12-17",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23499",
+      "source": "meritz",
+      "title": "메리츠금융지주, 3분기 누적 당기순익 2조원 돌파... 역대 최대",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23499",
+      "published": "2025-11-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23498",
+      "source": "meritz",
+      "title": "메리츠화재, 임직원 대상 챗GPT 교육…AI 업무역량 강화",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23498",
+      "published": "2025-09-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "meritz:23497",
+      "source": "meritz",
+      "title": "‘친절로 고객 감동’…메리츠화재, 장기보험 서비스 확 바꾼다",
+      "url": "https://www.meritzfire.com/company/media/media-report.do?seq=23497",
+      "published": "2025-08-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93493",
+      "source": "insnews",
+      "title": "“허위 기록 요청에 보험사기 연루될라” 금감원, 간호조무사 예방교육",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93493",
+      "published": "2026-10-26",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93491",
+      "source": "insnews",
+      "title": "조윈-롯데손보, 건강관리 구독서비스에 보험 결합",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93491",
+      "published": "2026-10-26",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93489",
+      "source": "insnews",
+      "title": "무보, 5개 공공기관과 해외조직 청렴·윤리경영 협력",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93489",
+      "published": "2026-10-26",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93487",
+      "source": "insnews",
+      "title": "하나은행, 맞춤형 연금자산 관리 강화…“내 손 안의 퇴직연금 전담 매니저”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93487",
+      "published": "2026-10-26",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93486",
+      "source": "insnews",
+      "title": "AIA생명, K-컬처로 아시아 AIA 연결… K-팝 즐기고 지역사회 나눔 실천",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93486",
+      "published": "2026-10-26",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93485",
+      "source": "insnews",
+      "title": "교보교육재단, ‘2026 교육 심포지엄’ 성료… AI 시대 미래세대 생존법 모색",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93485",
+      "published": "2026-10-26",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93484",
+      "source": "insnews",
+      "title": "KB손해보험, 2026년 하반기 신입사원 공개채용 실시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93484",
+      "published": "2026-10-26",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93483",
+      "source": "insnews",
+      "title": "삼성화재, 설계사 영업지원 ‘AI Advisor’ 가동… AI로 고객관리 정교화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93483",
+      "published": "2026-10-26",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93481",
+      "source": "insnews",
+      "title": "[부고] 이재진 인터넷신문윤리위원회 위원장 부친상",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93481",
+      "published": "2026-10-26",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72832",
+      "source": "insweek",
+      "title": "금감원, 간호조무사 대상 ‘보험사기 예방교육’ 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72832",
+      "published": "2026-10-26",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72831",
+      "source": "insweek",
+      "title": "KB손해보험, 2026년 하반기 신입사원 공개채용 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72831",
+      "published": "2026-10-26",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72830",
+      "source": "insweek",
+      "title": "한화금융, 유튜브 ‘라이프플러스 TV’ 구독자 100만 돌파",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72830",
+      "published": "2026-10-26",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72829",
+      "source": "insweek",
+      "title": "교보교육재단, 2026 교육 심포지엄 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72829",
+      "published": "2026-10-26",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72827",
+      "source": "insweek",
+      "title": "삼성화재, AI 영업지원 시스템 'AI 어드바이저' 오픈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72827",
+      "published": "2026-10-26",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72828",
+      "source": "insweek",
+      "title": "한화금융 PLUS, ‘서울 플러스 10K’ 후원",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72828",
+      "published": "2026-10-25",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33649",
+      "source": "insjournal",
+      "title": "금감원, 한국재무설계 현장검사…검사3국 투입",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33649",
+      "published": "2026-10-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33641",
+      "source": "insjournal",
+      "title": "[프라임에셋 IPO 대해부] ②외부 투자·M&A 없는 '순수 자기자본' GA… 기존과 다른 '밸류에이션' 예고",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33641",
+      "published": "2026-10-26",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33648",
+      "source": "insjournal",
+      "title": "\"클릭 몇 번에 금감원 보고 끝\"… 알터릭스, 보험사 초청 'VIP 세미나'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33648",
+      "published": "2026-10-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33647",
+      "source": "insjournal",
+      "title": "\"무심코 쓴 기록에 전과자 될라\"… 금감원, 22만 간호조무사 '보험사기 덫' 끊어낸다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33647",
+      "published": "2026-10-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33646",
+      "source": "insjournal",
+      "title": "\"만두회사라길래\", 짐작 가입 불똥… 직무 확인 소홀한 설계사·GA '1억 공동 배상'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33646",
+      "published": "2026-10-26",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33642",
+      "source": "insjournal",
+      "title": "[칼럼] 받은 수수료보다 더 돌려달라? ‘120% 환수’ 조항의 효력",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33642",
+      "published": "2026-10-26",
+      "hints": [
+        "오피니언"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33645",
+      "source": "insjournal",
+      "title": "\"보험·금융권 대변인 자처\"… 하태경 보험연수원장, '정책 제언' 칼럼 직접 펜 든다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33645",
+      "published": "2026-10-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33643",
+      "source": "insjournal",
+      "title": "금융 색 빼고 콘텐츠 승부 통했다… 한화금융 '라이프플러스 TV' 100만 구독자 돌파",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33643",
+      "published": "2026-10-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33640",
+      "source": "insjournal",
+      "title": "\"자차보험료 억제하려면 자기부담금 높여야\"… 과잉수리·도덕적 해이 감소 효과 뚜렷",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33640",
+      "published": "2026-10-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33639",
+      "source": "insjournal",
+      "title": "“다음은 어느 GA?”… 금감원 기습 '특명검사'에 업계 긴장, 부당승환·정착지원금 정조준하나",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33639",
+      "published": "2026-10-26",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33637",
+      "source": "insjournal",
+      "title": "\"알아서 비교하고 척척 해지까지\"… 소비자 대리 'AI 에이전트' 확산에 보험업계 긴장",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33637",
+      "published": "2026-10-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110322",
+      "source": "fins",
+      "title": "금감원, 한국재무설계 현장검사 착수…50억원 환수 사태 연관성 주목",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110322",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MS4W63N2HJGBREGAEPACAP2FRY",
+      "source": "chosun",
+      "title": "공정위, 지주회사의 금융·보험사 주식 소유 금지 위반한 KPIC코포레이션에 과징금 3100만원 부과",
+      "url": "https://www.chosun.com/economy/economy_general/2026/10/25/MS4W63N2HJGBREGAEPACAP2FRY/",
+      "published": "2026-10-25",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MQ4TAN3DHEZDSNZXGUZWEY3GMU",
+      "source": "chosun",
+      "title": "예보료 3.3배 인상안에 보험업계 반발… 요율 확정 해 넘기나",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/26/MQ4TAN3DHEZDSNZXGUZWEY3GMU/",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261026049800002",
+      "source": "yna",
+      "title": "금감원, 간호조무사 대상 온라인 보험사기 예방 교육",
+      "url": "https://www.yna.co.kr/view/AKR20261026049800002",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261026063500003",
+      "source": "yna",
+      "title": "[게시판] 건설공제조합, 실손24 연계 서비스 개시…서류 없이 공제금 청구",
+      "url": "https://www.yna.co.kr/view/AKR20261026063500003",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261026044200002",
+      "source": "yna",
+      "title": "[게시판] KB손보, 하반기 신입사원 공개 채용",
+      "url": "https://www.yna.co.kr/view/AKR20261026044200002",
+      "published": "2026-10-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25407649",
+      "source": "joongang",
+      "title": "보험주 '신고가 랠리' 속 실적 둔화 역설...속앓이 깊어지는 보험사",
+      "url": "https://www.joongang.co.kr/article/25407649",
+      "published": "2026-02-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25407520",
+      "source": "joongang",
+      "title": "&#91;단독&#93; PGA 3승 김주형, '내려놓음' 이용규 선교사 딸과 결혼",
+      "url": "https://www.joongang.co.kr/article/25407520",
+      "published": "2026-02-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25407460",
+      "source": "joongang",
+      "title": "&#91;단독&#93;수영 강습해놓고 \"수중 언어치료\"…아동 악용 '실손 사기극'",
+      "url": "https://www.joongang.co.kr/article/25407460",
+      "published": "2026-02-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25405487",
+      "source": "joongang",
+      "title": "정의선-타이거우즈 손잡은 美 PGA투어, 제네시스 타이틀 2030년까지",
+      "url": "https://www.joongang.co.kr/article/25405487",
+      "published": "2026-02-18",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25405206",
+      "source": "joongang",
+      "title": "&#91;르포&#93;공화당 정견발표장 가보니…후보를 '투사'로 만드는 MAGA",
+      "url": "https://www.joongang.co.kr/article/25405206",
+      "published": "2026-02-14",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25404983",
+      "source": "joongang",
+      "title": "숨은 보험금 해법 제시…서울디지털대 최미수 교수, SBS 모닝와이드 방송 출연",
+      "url": "https://www.joongang.co.kr/article/25404983",
+      "published": "2026-02-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25404484",
+      "source": "joongang",
+      "title": "호랑이를 키웠나…‘AI의 역설’에 보험·운용사도 떤다",
+      "url": "https://www.joongang.co.kr/article/25404484",
+      "published": "2026-02-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25402788",
+      "source": "joongang",
+      "title": "전화 끊어지자 보험 상담사 폭언...\"녹음되는지 몰랐다\"",
+      "url": "https://www.joongang.co.kr/article/25402788",
+      "published": "2026-02-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25402309",
+      "source": "joongang",
+      "title": "사고 나서 렌터카 빌렸는데…\"보험처리 안돼요\" 날벼락, 무슨 일",
+      "url": "https://www.joongang.co.kr/article/25402309",
+      "published": "2026-02-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25401904",
+      "source": "joongang",
+      "title": "자율주행 보험료 깎는 미국…“고가 옵션” 할증하는 한국",
+      "url": "https://www.joongang.co.kr/article/25401904",
+      "published": "2026-02-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25401772",
+      "source": "joongang",
+      "title": "미국 할인할 때 한국 되레 할증…자율주행 보험료 온도차, 왜",
+      "url": "https://www.joongang.co.kr/article/25401772",
+      "published": "2026-02-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25401524",
+      "source": "joongang",
+      "title": "양희영, LPGA 개막전 1라운드 공동 6위로 출발…1위와 2타 차",
+      "url": "https://www.joongang.co.kr/article/25401524",
+      "published": "2026-01-30",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25401112",
+      "source": "joongang",
+      "title": "&#91;issue&&#93; 비대면 기반 설계사 조직 ‘N잡크루’ 론칭",
+      "url": "https://www.joongang.co.kr/article/25401112",
+      "published": "2026-01-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25401029",
+      "source": "joongang",
+      "title": "장영진 무역보험공사 사장 “올해 역대 최대 275조 지원”",
+      "url": "https://www.joongang.co.kr/article/25401029",
+      "published": "2026-01-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25400950",
+      "source": "joongang",
+      "title": "'지난해 4996억원' 건강보험, 5년 연속 흑자에도 웃지 못하는 이유",
+      "url": "https://www.joongang.co.kr/article/25400950",
+      "published": "2026-01-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25400905",
+      "source": "joongang",
+      "title": "스웨덴, 영국·프랑스와 '핵우산' 협의…'美 빠진 나토' 보험 드나",
+      "url": "https://www.joongang.co.kr/article/25400905",
+      "published": "2026-01-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25400370",
+      "source": "joongang",
+      "title": "탈북민 남동생 살해 혐의 50대 친누나 기소…“보험금 노렸다”",
+      "url": "https://www.joongang.co.kr/article/25400370",
+      "published": "2026-01-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134369482",
+      "source": "donga",
+      "title": "홀로서기 나선 청년들에 ‘금융 자립’ 날개 달아준 ABL생명보험",
+      "url": "https://www.donga.com/news/Economy/article/all/20260727/134369482/1",
+      "published": "2026-07-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134371071",
+      "source": "donga",
+      "title": "스마트폰 300만 원 시대…통신·제조사까지 “폰 보험 팝니다”",
+      "url": "https://www.donga.com/news/Economy/article/all/20260727/134371071/1",
+      "published": "2026-07-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fss-press:227573",
+      "source": "fss-press",
+      "title": "금감원, 보험회사 성과평가 관행 개선 워크숍 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=227573&menuNo=200218",
+      "published": "2026-09-09",
+      "hints": [
+        "보험검사1국/보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260909_(보도자료) 금감원, 보험회사 성과평가 관행 개선 워크숍 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=41e9c63ed7f3465ba7a6a997f189aae3&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260909_(보도자료) 금감원, 보험회사 성과평가 관행 개선 워크숍 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=41e9c63ed7f3465ba7a6a997f189aae3&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260909_(별첨) 박지선 부원장 말씀자료.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=41e9c63ed7f3465ba7a6a997f189aae3&fileSn=3&bbsId=",
+          "type": "hwp"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:227555",
+      "source": "fss-press",
+      "title": "2026년 8월 가계대출 동향(잠정) 및 가계부채 점검회의 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=227555&menuNo=200218",
+      "published": "2026-09-09",
+      "hints": [
+        "은행리스크감독국/보험감독국/중소금융감독국/여신금융감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260909_(보도자료) 2026년 8월 가계대출 동향(잠정) 및 가계부채 점검회의 개최.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=2150790ff21f4ffbad9504da889d625c&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260909_(보도자료) 2026년 8월 가계대출 동향(잠정) 및 가계부채 점검회의 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=2150790ff21f4ffbad9504da889d625c&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:226952",
+      "source": "fss-press",
+      "title": "금융 인허가, 등록 사전협의 절차가 더욱 편리해집니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=226952&menuNo=200218",
+      "published": "2026-09-06",
+      "hints": [
+        "감독혁신국/디지털금융총괄국/정보화전략국/자본시장감독국/자산운용감독국/보험감독국/여신금융감독국/전자금융감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260904_(보도자료) 금융 인허가등록 신청 절차가 더욱 편리해집니다.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=8638f65bb00b48048530c79dbe6835a4&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260904_(보도자료) 금융 인허가등록 신청 절차가 더욱 편리해집니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=8638f65bb00b48048530c79dbe6835a4&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:226318",
+      "source": "fss-press",
+      "title": "26.9.10.부터 자동차보험 치료비 보상 절차가 개편됩니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=226318&menuNo=200218",
+      "published": "2026-09-02",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260902_(보도자료) 26.9.10.부터 자동차보험 치료비 보상 절차가 개편됩니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=11f04278d6df4526a8bfa9993bd48d06&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260902_(보도자료) 26.9.10.부터 자동차보험 치료비 보상 절차가 개편됩니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=11f04278d6df4526a8bfa9993bd48d06&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:225383",
+      "source": "fss-press",
+      "title": "26.6월말 보험회사 대출채권 현황",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=225383&menuNo=200218",
+      "published": "2026-08-28",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260827_(보도자료) 26.6월말 보험회사 대출채권 현황.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=5ac714a51408472e927f808351e4fb11&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260827_(보도자료) 26.6월말 보험회사 대출채권 현황.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=5ac714a51408472e927f808351e4fb11&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:225268",
+      "source": "fss-press",
+      "title": "2026년 상반기 보험회사 경영실적(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=225268&menuNo=200218",
+      "published": "2026-08-27",
+      "hints": [
+        "보험검사1국/보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260826_(보도자료) 2026년 상반기 보험회사 경영실적(잠정).hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cacda8cee9aa48deb9737875d9581eaa&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260826_(보도자료) 2026년 상반기 보험회사 경영실적(잠정).pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cacda8cee9aa48deb9737875d9581eaa&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:223857",
+      "source": "fss-press",
+      "title": "수해 피해 가계, 중소기업을 위한 금융지원방안",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=223857&menuNo=200218",
+      "published": "2026-08-20",
+      "hints": [
+        "감독혁신국/은행감독국/보험감독국/여신금융감독국/중소금융감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260820_(보도참고) 수해 피해 가계, 중소기업을 위한 금융지원방안.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=b22c1e10cfb440b98570669f4c869530&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260820_(보도참고) 수해 피해 가계, 중소기업을 위한 금융지원방안.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=b22c1e10cfb440b98570669f4c869530&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:222754",
+      "source": "fss-press",
+      "title": "2026년 7월 가계대출 동향(잠정) 및 「확대 가계부채 점검회의」 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=222754&menuNo=200218",
+      "published": "2026-08-14",
+      "hints": [
+        "감독혁신국/은행리스크감독국/보험감독국/중소금융감독국/여신금융감독국/중소금융검사1국/신용감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260814_(보도자료) 2026년 7월 가계대출 동향(잠정) 및 「확대 가계부채 점검회의」 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=c61d704e9cbb4c01b39009430e5aa9dc&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260814_(보도자료) 2026년 7월 가계대출 동향(잠정) 및 「확대 가계부채 점검회의」 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=c61d704e9cbb4c01b39009430e5aa9dc&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260814_(별첨) 확대 가계부채 점검회의 금융위원장 모두발언.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=c61d704e9cbb4c01b39009430e5aa9dc&fileSn=3&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260814_(별첨) 확대 가계부채 점검회의 금융위원장 모두발언.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=c61d704e9cbb4c01b39009430e5aa9dc&fileSn=4&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:222219",
+      "source": "fss-press",
+      "title": "'보험사기 잡아낸 노하우, 적극 공유합니다' 보험사기 조사를 통한 적발예방 우수사례 공모전 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=222219&menuNo=200218",
+      "published": "2026-08-11",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "260811_(보도자료) '보험사기 잡아낸 노하우, 적극 공유합니다' 보험사기 조사를 통한 적발예방 우수사례 공모전 개최.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=ccb77e905a2f41cea36f2cd46b45e7b2&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260811_(보도자료) '보험사기 잡아낸 노하우, 적극 공유합니다' 보험사기 조사를 통한 적발예방 우수사례 공모전 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=ccb77e905a2f41cea36f2cd46b45e7b2&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:219361",
+      "source": "fss-press",
+      "title": "금융분쟁조정위원회, 금융소비자 권익보호를 위해 간편심사보험의 계약전 알릴의무 범위를 명확화",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=219361&menuNo=200218",
+      "published": "2026-07-27",
+      "hints": [
+        "소비자권익보호국/보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "260727_(보도자료) 금융분쟁조정위원회, 금융소비자 권익보호를 위해 간편심사보험의 계약전 알릴의무 범위를 명확화.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e325d19fe80e46f6bb8dc451cc7c448a&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260727_(보도자료) 금융분쟁조정위원회, 금융소비자 권익보호를 위해 간편심사보험의 계약전 알릴의무 범위를 명확화.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e325d19fe80e46f6bb8dc451cc7c448a&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:219178",
+      "source": "fss-press",
+      "title": "여행자보험 가입 시 알아야 할 유익정보 및 주요 분쟁조정사례를 알려드립니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=219178&menuNo=200218",
+      "published": "2026-07-12",
+      "hints": [
+        "보험상품분쟁1국"
+      ],
+      "attachments": [
+        {
+          "name": "260710_(보도자료) 여행자보험 가입시 알아야 할 유익정보 및 주요 분쟁조정사례를 알려드립니다.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=5df1e72aed924172b5802dc742838736&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260710_(보도자료) 여행자보험 가입시 알아야 할 유익정보 및 주요 분쟁조정사례를 알려드립니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=5df1e72aed924172b5802dc742838736&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:219148",
+      "source": "fss-press",
+      "title": "2026년 6월 가계대출 동향(잠정) 및 가계부채 점검회의 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=219148&menuNo=200218",
+      "published": "2026-07-09",
+      "hints": [
+        "은행리스크감독국/보험감독국/중소금융감독국/여신금융감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260709_(보도자료) 2026년 6월 가계대출 동향(잠정) 및 가계부채 점검회의 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f927a1c11bdf46a5b4a0460b64863c63&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260709_(보도자료) 2026년 6월 가계대출 동향(잠정) 및 가계부채 점검회의 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f927a1c11bdf46a5b4a0460b64863c63&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:219100",
+      "source": "fss-press",
+      "title": "고속도로 주행 중, 장마기간, 평상시보다 사고에 유의하여야 합니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=219100&menuNo=200218",
+      "published": "2026-07-08",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260707_(보도자료) 고속도로 주행 중, 장마기간, 평상시보다 사고에 유의하여야 합니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=ca28d5e6938845eaaae142b325575ab0&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260707_(보도자료) 고속도로 주행 중, 장마기간, 평상시보다 사고에 유의하여야 합니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=ca28d5e6938845eaaae142b325575ab0&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:219062",
+      "source": "fss-press",
+      "title": "7월부터 자동차사고 과실비율 등 관련 민원을 보험협회에서 신속하게 처리할 예정입니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=219062&menuNo=200218",
+      "published": "2026-07-05",
+      "hints": [
+        "소비자소통국/보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260703_(보도자료) 7월부터 자동차사고 과실비율 등 관련 민원을 보험협회에서 신속하게 처리할 예정입니다.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=991ba25217374caf92fdb849f6089699&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260703_(보도자료) 7월부터 자동차사고 과실비율 등 관련 민원을 보험협회에서 신속하게 처리할 예정입니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=991ba25217374caf92fdb849f6089699&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:219004",
+      "source": "fss-press",
+      "title": "금융기관보험대리점 판매비중 규제개선 등 혁신금융서비스 31건 신규 지정 의결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=219004&menuNo=200218",
+      "published": "2026-07-01",
+      "hints": [
+        "디지털금융총괄국/전자금융감독국/은행감독국/보험감독국/외환감독국/소비자보호감독총괄국"
+      ],
+      "attachments": [
+        {
+          "name": "260701_(보도자료) 금융기관보험대리점 판매비중 규제개선 등 혁신금융서비스 31건 신규 지정 의결.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=77fed989cee1444db6ea1fc589a3447c&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260701_(보도자료) 금융기관보험대리점 판매비중 규제개선 등 혁신금융서비스 31건 신규 지정 의결.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=77fed989cee1444db6ea1fc589a3447c&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218989",
+      "source": "fss-press",
+      "title": "「보험점검센터」는 공공기관이 아닙니다 개인정보 제공 동의 요청에 유의하세요.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218989&menuNo=200218",
+      "published": "2026-07-01",
+      "hints": [
+        "보험검사3국"
+      ],
+      "attachments": [
+        {
+          "name": "260701_(보도자료) 보험점검센터는 공공기관이 아닙니다 개인정보 제공 동의 요청에 유의하세요.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=536f020f62ee433f8171737e123332ba&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260701_(보도자료) 보험점검센터는 공공기관이 아닙니다 개인정보 제공 동의 요청에 유의하세요.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=536f020f62ee433f8171737e123332ba&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218980",
+      "source": "fss-press",
+      "title": "규제지역 추가 지정 관련 「긴급 가계부채 점검회의」 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218980&menuNo=200218",
+      "published": "2026-06-30",
+      "hints": [
+        "은행리스크감독국/보험감독국/중소금융감독국/여신금융감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260630_(보도참고) 규제지역 추가 지정 관련 「긴급 가계부채 점검회의」 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=764d604e10304264817fc282b7a640dc&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260630_(보도참고) 규제지역 추가 지정 관련 「긴급 가계부채 점검회의」 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=764d604e10304264817fc282b7a640dc&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260630_(별첨) 규제지역 추가 지정 관련 FAQ.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=764d604e10304264817fc282b7a640dc&fileSn=3&bbsId=",
+          "type": "hwp"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218959",
+      "source": "fss-press",
+      "title": "보험업권의 과도한 판매수수료 경쟁을 방지하고, 수수료에 대한 소비자의 알권리를 제고하기 위한 보험 판매수수료 제도개선 사항이 7.1일부터 시행됩니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218959&menuNo=200218",
+      "published": "2026-06-30",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260630_(보도자료) 보험업권의 과도한 판매수수료 경쟁을 방지하고, 수수료에 대한 소비자의 알권리를 제고하기 위한 보험 판매수수료 제도개선 사항이 7.1일부터 시행됩니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=acf015d417194014bd78f5b8d477a572&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260630_(보도자료) 보험업권의 과도한 판매수수료 경쟁을 방지하고, 수수료에 대한 소비자의 알권리를 제고하기 위한 보험 판매수수료 제도개선 사항이 7.1일부터 시행됩니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=acf015d417194014bd78f5b8d477a572&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218951",
+      "source": "fss-press",
+      "title": "국민건강보험공단-금융감독원, 비급여 적정 관리 등을 위한 업무협약(MOU) 체결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218951&menuNo=200218",
+      "published": "2026-06-30",
+      "hints": [
+        "보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "260630_(보도참고) 국민건강보험공단-금융감독원, 비급여 적정 관리 등을 위한 업무협약(MOU) 체결.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=79b1558d8ba043529d6a2d220bebb125&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260630_(보도참고) 국민건강보험공단-금융감독원, 비급여 적정 관리 등을 위한 업무협약(MOU) 체결.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=79b1558d8ba043529d6a2d220bebb125&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218925",
+      "source": "fss-press",
+      "title": "보험상품 대리청구인 지정 제도를 개선하여 소비자의 보험금 청구권을 지켜드리겠습니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218925&menuNo=200218",
+      "published": "2026-06-29",
+      "hints": [
+        "보험상품분쟁1국"
+      ],
+      "attachments": [
+        {
+          "name": "260629_(보도자료) 보험상품 대리청구인 지정 제도를 개선하여 소비자의 보험금 청구권을 지켜드리겠습니다.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d0b9f472c1454e55aacbc7838f995382&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260629_(보도자료) 보험상품 대리청구인 지정 제도를 개선하여 소비자의 보험금 청구권을 지켜드리겠습니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d0b9f472c1454e55aacbc7838f995382&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218809",
+      "source": "fss-press",
+      "title": "금융소비자 보호 및 실손보험금 누수 방지를 위해 체외충격파 치료 분쟁조정기준을 마련하였습니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218809&menuNo=200218",
+      "published": "2026-06-24",
+      "hints": [
+        "보험상품분쟁2국/소비자권익보호국"
+      ],
+      "attachments": [
+        {
+          "name": "260624_(보도자료) 금융소비자 보호 및 실손보험금 누수 방지를 위해 체외충격파 치료 분쟁조정기준을 마련하였습니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=678c3658fe56431f800034b35c47a604&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260624_(보도자료) 금융소비자 보호 및 실손보험금 누수 방지를 위해 체외충격파 치료 분쟁조정기준을 마련하였습니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=678c3658fe56431f800034b35c47a604&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218757",
+      "source": "fss-press",
+      "title": "26년 상반기 보험회사 내부통제 워크숍 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218757&menuNo=200218",
+      "published": "2026-06-23",
+      "hints": [
+        "보험검사1국/보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260623_(보도자료) 26년 상반기 보험회사 내부통제 워크숍 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6c4b2685abee461c8e57305af5343b6e&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260623_(보도자료) 26년 상반기 보험회사 내부통제 워크숍 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6c4b2685abee461c8e57305af5343b6e&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218752",
+      "source": "fss-press",
+      "title": "고의 교통사고 보험사기 근절을 위한 대국민 교육 및 집중 홍보를 실시합니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218752&menuNo=200218",
+      "published": "2026-06-23",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "260623_(보도자료) 고의 교통사고 보험사기 근절을 위한 대국민 교육 및 집중 홍보를 실시합니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=51347c90dec14c019dcb70c585391a9d&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260623_(보도자료) 고의 교통사고 보험사기 근절을 위한 대국민 교육 및 집중 홍보를 실시합니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=51347c90dec14c019dcb70c585391a9d&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218711",
+      "source": "fss-press",
+      "title": "보험금 심사기준 변경 사실을 사전에 안내하여 소비자 피해와 분쟁을 예방하겠습니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218711&menuNo=200218",
+      "published": "2026-06-21",
+      "hints": [
+        "보험감독국/보험상품분쟁1국/보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "260619_(보도자료) 보험금 심사기준 변경 사실을 사전에 안내하여 소비자 피해와 분쟁을 예방하겠습니다.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=b63ec8e5a23a41ea93a501dc0fa82c1b&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260619_(보도자료) 보험금 심사기준 변경 사실을 사전에 안내하여 소비자 피해와 분쟁을 예방하겠습니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=b63ec8e5a23a41ea93a501dc0fa82c1b&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218660",
+      "source": "fss-press",
+      "title": "체외충격파 의료기관 자율 가이드라인 7월부터 시행",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218660&menuNo=200218",
+      "published": "2026-06-17",
+      "hints": [
+        "보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "260617_(보도참고) 체외충격파 의료기관 자율 가이드라인 7월부터 시행.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=1abf7473af3542118eaa8d4efb3472aa&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260617_(보도참고) 체외충격파 의료기관 자율 가이드라인 7월부터 시행.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=1abf7473af3542118eaa8d4efb3472aa&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218308",
+      "source": "fss-press",
+      "title": "2026년 5월 가계대출 동향(잠정) 및 가계부채 점검회의 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218308&menuNo=200218",
+      "published": "2026-06-11",
+      "hints": [
+        "은행리스크감독국/보험감독국/중소금융감독국/여신금융감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260611_(보도자료) 2026년 5월 가계대출 동향(잠정) 및 가계부채 점검회의 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=dd97b32cce2649bea095205f4f3d9d3c&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260611_(보도자료) 2026년 5월 가계대출 동향(잠정) 및 가계부채 점검회의 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=dd97b32cce2649bea095205f4f3d9d3c&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218291",
+      "source": "fss-press",
+      "title": "외환시장 관련 보험권 간담회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218291&menuNo=200218",
+      "published": "2026-06-10",
+      "hints": [
+        "보험감독국/계리리스크감독국/보험검사1국/보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260610_(보도참고) 외환시장 관련 보험권 간담회 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=0ee5b767fcc74ac7bcf464dbd5710214&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260610_(보도참고) 외환시장 관련 보험권 간담회 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=0ee5b767fcc74ac7bcf464dbd5710214&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218287",
+      "source": "fss-press",
+      "title": "세제혜택은 받고 빚 독촉은 계속하는 금융권의 기존 관행을 바로 잡겠습니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218287&menuNo=200218",
+      "published": "2026-06-10",
+      "hints": [
+        "은행감독국/소비자보호감독총괄국/중소금융감독국/여신금융감독국/자본시장감독국/자산운용감독국/보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260610_(보도자료) 세제혜택은 받고 빚 독촉은 계속하는 금융권의 기존 관행을 바로 잡겠습니다.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6f9d5415f758452690541f0b960e5fae&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260610_(보도자료) 세제혜택은 받고 빚 독촉은 계속하는 금융권의 기존 관행을 바로 잡겠습니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6f9d5415f758452690541f0b960e5fae&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260610_(별첨1) 금융기관채권대손인정업무세칙 개정안.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6f9d5415f758452690541f0b960e5fae&fileSn=3&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260610_(별첨2) 연체 채무자 보호 정책 추진현황 및 향후 추진계획.png",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6f9d5415f758452690541f0b960e5fae&fileSn=4&bbsId=",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218180",
+      "source": "fss-press",
+      "title": "AI 시대 진화하는 보험사기, 범정부 공조로 국민들의 보험금 누수 막아낸다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218180&menuNo=200218",
+      "published": "2026-06-04",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "260604_(보도자료) AI 시대 진화하는 보험사기, 범정부 공조로 국민들의 보험금 누수 막아낸다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f760c2b4216642c7b620fe2e82cabe30&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260604_(보도자료) AI 시대 진화하는 보험사기, 범정부 공조로 국민들의 보험금 누수 막아낸다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f760c2b4216642c7b620fe2e82cabe30&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218168",
+      "source": "fss-press",
+      "title": "2025년 실손의료보험 사업실적(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218168&menuNo=200218",
+      "published": "2026-06-03",
+      "hints": [
+        "보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "260602_(보도자료) 2025년 실손의료보험 사업실적(잠정).hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cbd3c2989cfa4a71a8b2eeba98817866&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260602_(보도자료) 2025년 실손의료보험 사업실적(잠정).pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cbd3c2989cfa4a71a8b2eeba98817866&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218060",
+      "source": "fss-press",
+      "title": "경영개선요구에 따른 롯데손해보험의 경영개선계획에 대해 조건부 승인 결정",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218060&menuNo=200218",
+      "published": "2026-05-27",
+      "hints": [
+        "보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260527_(보도참고) 경영개선요구에 따른 롯데손해보험의 경영개선계획에 대해 조건부 승인 결정.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=9d310aa1b47c4bbf8077e1c1dca9bcaa&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260527_(보도참고) 경영개선요구에 따른 롯데손해보험의 경영개선계획에 대해 조건부 승인 결정.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=9d310aa1b47c4bbf8077e1c1dca9bcaa&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218048",
+      "source": "fss-press",
+      "title": "2026년 1분기 보험회사 경영실적(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218048&menuNo=200218",
+      "published": "2026-05-27",
+      "hints": [
+        "보험검사1국/보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260527_(보도자료) 2026년 1분기 보험회사 경영실적(잠정).hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=5ba30ebac9e945faa3cf95e389ddeb88&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260527_(보도자료) 2026년 1분기 보험회사 경영실적(잠정).pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=5ba30ebac9e945faa3cf95e389ddeb88&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:218038",
+      "source": "fss-press",
+      "title": "26.3월말 보험회사 대출채권 현황",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218038&menuNo=200218",
+      "published": "2026-05-27",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260526_(보도자료) 26.3월말 보험회사 대출채권 현황.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=b8897c12b85e44e897269a24a95abfda&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260526_(보도자료) 26.3월말 보험회사 대출채권 현황.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=b8897c12b85e44e897269a24a95abfda&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217863",
+      "source": "fss-press",
+      "title": "2026년 4월 가계대출 동향(잠정) 및 「가계부채 점검회의」 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217863&menuNo=200218",
+      "published": "2026-05-17",
+      "hints": [
+        "은행리스크감독국/보험감독국/중소금융감독국/여신금융감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260515_(보도자료) 2026년 4월 가계대출 동향(잠정) 및 「가계부채 점검회의」 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=0b0c2c683f9b4af69342d2cb8e16bfbd&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260515_(보도자료) 2026년 4월 가계대출 동향(잠정) 및 「가계부채 점검회의」 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=0b0c2c683f9b4af69342d2cb8e16bfbd&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217793",
+      "source": "fss-press",
+      "title": "금융분쟁조정위원회, 일반교통사고로 자동차손해배상보장법에서정한 상해(1~3등급)를 입힌 경우 형사합의금 지급 결정",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217793&menuNo=200218",
+      "published": "2026-05-14",
+      "hints": [
+        "소비자권익보호국/보험상품분쟁1국"
+      ],
+      "attachments": [
+        {
+          "name": "260514_(보도자료) 일반교통사고로 자동차손해배상보장법에서 정한 상해(1~3등급)를 입힌 경우 형사합의금 지급 결정.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=92d481e7662045818fa3b7f3852e69f3&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260514_(보도자료) 일반교통사고로 자동차손해배상보장법에서 정한 상해(1~3등급)를 입힌 경우 형사합의금 지급 결정.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=92d481e7662045818fa3b7f3852e69f3&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217762",
+      "source": "fss-press",
+      "title": "보험권 장애인 고용 활성화를 위한 간담회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217762&menuNo=200218",
+      "published": "2026-05-14",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260514_(보도자료) 보험권 장애인 고용 활성화를 위한 간담회 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=704abb71f3ec4080abfc652e87dfab06&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260514_(보도자료) 보험권 장애인 고용 활성화를 위한 간담회 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=704abb71f3ec4080abfc652e87dfab06&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217705",
+      "source": "fss-press",
+      "title": "정착지원금 과다 지급 경쟁 등으로 인한 보험계약 부당승환 우려",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217705&menuNo=200218",
+      "published": "2026-05-12",
+      "hints": [
+        "보험감독국/보험검사1국/보험검사2국/보험검사3국"
+      ],
+      "attachments": [
+        {
+          "name": "260512_(보도자료) 정착지원금 과다 지급 경쟁 등으로 인한 보험계약 부당승환 우려.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=94d861638f714f21859fe40851ad51f1&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260512_(보도자료) 정착지원금 과다 지급 경쟁 등으로 인한 보험계약 부당승환 우려.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=94d861638f714f21859fe40851ad51f1&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217686",
+      "source": "fss-press",
+      "title": "치료 후 실손보험금 청구는 일일이 서류 챙겨 보낼 필요 없이 앱(실손 24) 하나면 끝",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217686&menuNo=200218",
+      "published": "2026-05-11",
+      "hints": [
+        "보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "260511_(보도자료) 치료 후 실손보험금 청구는 일일이 서류 챙겨 보낼 필요 없이 앱(실손 24) 하나면 끝.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=575f406882884549bf449a7f7a3f200b&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260511_(보도자료) 치료 후 실손보험금 청구는 일일이 서류 챙겨 보낼 필요 없이 앱(실손 24) 하나면 끝.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=575f406882884549bf449a7f7a3f200b&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260511_(별첨) 금융위원회 부위원장 모두발언.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=575f406882884549bf449a7f7a3f200b&fileSn=3&bbsId=",
+          "type": "hwp"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217618",
+      "source": "fss-press",
+      "title": "불법사금융으로 고통받는 취약계층 위해, 복지부, 금감원 함께 나선다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217618&menuNo=200218",
+      "published": "2026-05-07",
+      "hints": [
+        "민생침해대응총괄국/보험사기대응단/금융교육국/보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260507_(보도자료) 불법사금융으로 고통받는 취약계층 위해, 복지부, 금감원 함께 나선다..hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=a760d5872a8c4b9087ad1ab122394bcd&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260507_(보도자료) 불법사금융으로 고통받는 취약계층 위해, 복지부, 금감원 함께 나선다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=a760d5872a8c4b9087ad1ab122394bcd&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217593",
+      "source": "fss-press",
+      "title": "2025년 보험회사 해외점포 영업실적[잠정]",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217593&menuNo=200218",
+      "published": "2026-05-07",
+      "hints": [
+        "보험검사1국/보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260506_(보도자료) 2025년 보험회사 해외점포 영업실적[잠정].hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=5c4da7fc33cc48c3ac541dd230356630&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260506_(보도자료) 2025년 보험회사 해외점포 영업실적[잠정].pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=5c4da7fc33cc48c3ac541dd230356630&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217561",
+      "source": "fss-press",
+      "title": "5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시, 판매됩니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217561&menuNo=200218",
+      "published": "2026-05-06",
+      "hints": [
+        "보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "260504_(보도자료) 5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시, 판매됩니다.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=fa16ababffbc45d1be8ed764aa9cec3b&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260504_(보도자료) 5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시, 판매됩니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=fa16ababffbc45d1be8ed764aa9cec3b&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260504_(별첨1) 5세대 실손보험 출시 관련 Q&A.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=fa16ababffbc45d1be8ed764aa9cec3b&fileSn=3&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260504_(별첨2) 5세대 실손 인포그래픽.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=fa16ababffbc45d1be8ed764aa9cec3b&fileSn=4&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217483",
+      "source": "fss-press",
+      "title": "''MMW-CMA 간편 가입서비스'' 등 혁신금융서비스 13건 신규 지정 의결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217483&menuNo=200218",
+      "published": "2026-04-29",
+      "hints": [
+        "디지털금융총괄국/자산운용감독국/여신금융감독국/은행감독국/소비자보호감독총괄국/보험감독국/은행리스크감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260429_(보도자료) MMW-CMA 간편 가입서비스 등 혁신금융서비스 13건 신규 지정 의결.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=bc67d126000644f3a7c2f0ea65b276d8&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260429_(보도자료) MMW-CMA 간편 가입서비스 등 혁신금융서비스 13건 신규 지정 의결.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=bc67d126000644f3a7c2f0ea65b276d8&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217477",
+      "source": "fss-press",
+      "title": "2025년 보험회사 판매채널 영업효율 및 감독방향",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217477&menuNo=200218",
+      "published": "2026-04-29",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260429_(보도자료) 2025년 보험회사 판매채널 영업효율 및 감독방향.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e575aa71ddc34c5793904f0931d35a78&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260429_(보도자료) 2025년 보험회사 판매채널 영업효율 및 감독방향.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e575aa71ddc34c5793904f0931d35a78&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217427",
+      "source": "fss-press",
+      "title": "자동차 고의사고 보험사기 다발지역 음성안내 서비스, 4월 전국 100개 지역, 3개 내비게이션 앱으로 확대합니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217427&menuNo=200218",
+      "published": "2026-04-27",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "260427_(보도자료) 자동차 고의사고 보험사기 다발지역 음성안내 서비스, 4월 전국 100개 지역, 3개 내비게이션 앱으로 확대합니다.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=8ea65aefb8b248c6b492da38a3a33afe&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260427_(보도자료) 자동차 고의사고 보험사기 다발지역 음성안내 서비스, 4월 전국 100개 지역, 3개 내비게이션 앱으로 확대합니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=8ea65aefb8b248c6b492da38a3a33afe&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217414",
+      "source": "fss-press",
+      "title": "에너지 절약에 동참하는 국민들께 혜택을 제공할 수 있도록 「차량 5부제 할인 특약」을 신설하여 자동차보험료 부담을 조금이나마 덜어드리겠습니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217414&menuNo=200218",
+      "published": "2026-04-27",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260427_(보도자료) 에너지 절약에 동참하는 국민들께 혜택을 제공할 수 있도록 「차량 5부제 할인 특약」을 신설하여 자동차 보험료 부담을조금이나마 덜어드리겠습니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7e135eea0002471f9e0e1a0c755b074f&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260427_(보도자료) 에너지 절약에 동참하는 국민들께 혜택을 제공할 수 있도록 「차량 5부제 할인 특약」을 신설하여 자동차 보험료 부담을조금이나마 덜어드리겠습니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7e135eea0002471f9e0e1a0c755b074f&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217333",
+      "source": "fss-press",
+      "title": "2025년 자동차 보험사기 할증보험료 환급실적 및 서민금융진흥원 출연 계획",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217333&menuNo=200218",
+      "published": "2026-04-20",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "260420_(보도자료) 2025년 자동차 보험사기 할증보험료 환급실적 및 서민금융진흥원 출연 계획.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f8a25d5ff56546ab8e62364893d68073&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260420_(보도자료) 2025년 자동차 보험사기 할증보험료 환급실적 및 서민금융진흥원 출연 계획.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f8a25d5ff56546ab8e62364893d68073&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217290",
+      "source": "fss-press",
+      "title": "정부, 전국 요양시설 종신보험 가입실태 전수조사 실시 및 관리 강화",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217290&menuNo=200218",
+      "published": "2026-04-16",
+      "hints": [
+        "보험검사3국"
+      ],
+      "attachments": [
+        {
+          "name": "260416_(보도참고) 정부, 전국 요양시설 종신보험 가입실태 전수조사 실시 및 관리 강화.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=4bbaf4c7e3554e83ab1d1f4080a26a0f&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260416_(보도참고) 정부, 전국 요양시설 종신보험 가입실태 전수조사 실시 및 관리 강화.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=4bbaf4c7e3554e83ab1d1f4080a26a0f&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217247",
+      "source": "fss-press",
+      "title": "아직 미흡한 동네 병, 의원에서의 스마트폰 실손보험금 청구(실손24)도 빨리 확대되도록, 다양한 개선책을 적극 추진하겠습니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217247&menuNo=200218",
+      "published": "2026-04-15",
+      "hints": [
+        "보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "260415_(보도자료) 아직 미흡한 동네 병, 의원에서의 스마트폰 실손보험금 청구(실손24)도 빨리 확대되도록, 다양한 개선책을 적극 추진하겠습니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=68c5773385ea4b92aa6a958cbc1c94ac&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260415_(보도자료) 아직 미흡한 동네 병, 의원에서의 스마트폰 실손보험금 청구(실손24)도 빨리 확대되도록, 다양한 개선책을 적극 추진하겠습니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=68c5773385ea4b92aa6a958cbc1c94ac&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:217047",
+      "source": "fss-press",
+      "title": "중동 상황 관련 금융산업반 점검회의 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217047&menuNo=200218",
+      "published": "2026-04-08",
+      "hints": [
+        "보험감독국/중소금융감독국/여신금융감독국/은행리스크감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260408_(보도참고) 중동 상황 관련 금융산업반 점검회의 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7bddf8a248a940538bf0025e3c2ab748&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260408_(보도참고) 중동 상황 관련 금융산업반 점검회의 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7bddf8a248a940538bf0025e3c2ab748&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:216775",
+      "source": "fss-press",
+      "title": "2025년 보험사기 적발현황 및 향후 대응방안",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216775&menuNo=200218",
+      "published": "2026-03-31",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "260331_(보도자료) 2025년 보험사기 적발현황 및 향후 대응방안.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=69812c0908344c469ba52b803480a6c5&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260331_(보도자료) 2025년 보험사기 적발현황 및 향후 대응방안.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=69812c0908344c469ba52b803480a6c5&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260331_(별첨) 2025년 보험사기 적발통계.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=69812c0908344c469ba52b803480a6c5&fileSn=3&bbsId=",
+          "type": "hwp"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:216777",
+      "source": "fss-press",
+      "title": "보험업권이 출산,육아에 따른 보험료 부담을 덜어드립니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216777&menuNo=200218",
+      "published": "2026-03-31",
+      "hints": [
+        "보험상품분쟁1국"
+      ],
+      "attachments": [
+        {
+          "name": "260331_(보도자료) 보험업권이 출산 육아에 따른 보험료 부담을 덜어드립니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6e2a8793026a4fbc85e267f6f55fe2d9&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260331_(보도자료) 보험업권이 출산 육아에 따른 보험료 부담을 덜어드립니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6e2a8793026a4fbc85e267f6f55fe2d9&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:216706",
+      "source": "fss-press",
+      "title": "2025년 보험회사 경영실적(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216706&menuNo=200218",
+      "published": "2026-03-30",
+      "hints": [
+        "보험검사1국/보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260327_(보도자료) 2025년 보험회사 경영실적(잠정).hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=fc6782487855478b8ab9dc1f11f805fc&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260327_(보도자료) 2025년 보험회사 경영실적(잠정).pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=fc6782487855478b8ab9dc1f11f805fc&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:216580",
+      "source": "fss-press",
+      "title": "25.12월말 보험회사 대출채권 현황",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216580&menuNo=200218",
+      "published": "2026-03-27",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260326_(보도자료) 25.12월말 보험회사 대출채권 현황.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f12c64b820244cc58ff6ecdc47a6ce83&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260326_(보도자료) 25.12월말 보험회사 대출채권 현황.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f12c64b820244cc58ff6ecdc47a6ce83&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:216341",
+      "source": "fss-press",
+      "title": "2025년 자동차보험 사업실적(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216341&menuNo=200218",
+      "published": "2026-03-25",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260325_(보도자료) 2025년 자동차보험 사업실적(잠정).hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=04d0038ea66841e59fe61af1a9051568&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260325_(보도자료) 2025년 자동차보험 사업실적(잠정).pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=04d0038ea66841e59fe61af1a9051568&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:216136",
+      "source": "fss-press",
+      "title": "보험사기 특별신고,포상기간 확대 운영",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216136&menuNo=200218",
+      "published": "2026-03-24",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "260324_(보도자료) 보험사기 특별신고, 포상기간 확대 운영.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=284bfd4ba25945688f9a6f6498f8bf8e&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260324_(보도자료) 보험사기 특별신고, 포상기간 확대 운영.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=284bfd4ba25945688f9a6f6498f8bf8e&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:215153",
+      "source": "fss-press",
+      "title": "2026년도 금융감독원 검사업무 운영계획",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=215153&menuNo=200218",
+      "published": "2026-03-18",
+      "hints": [
+        "소비자보호감독총괄국/은행검사1국/보험검사1국/금융투자검사1국/중소금융검사1국/디지털금융총괄국"
+      ],
+      "attachments": [
+        {
+          "name": "260318_(보도자료) 2026년도 금융감독원 검사업무 운영계획.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=dc22ba14d49744f4a6bd4265fc942d98&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260318_(보도자료) 2026년도 금융감독원 검사업무 운영계획.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=dc22ba14d49744f4a6bd4265fc942d98&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:214344",
+      "source": "fss-press",
+      "title": "금융감독원, 최근 중동상황 관련 보험회사 간담회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=214344&menuNo=200218",
+      "published": "2026-03-12",
+      "hints": [
+        "보험감독국/계리리스크감독국/보험검사1국/보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260312_(보도참고) 금융감독원, 최근 중동상황 관련 보험회사 간담회 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cfca86c4720940a29d59aa2486baa419&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260312_(보도참고) 금융감독원, 최근 중동상황 관련 보험회사 간담회 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cfca86c4720940a29d59aa2486baa419&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:214172",
+      "source": "fss-press",
+      "title": "2026년 보험 부문 금융감독 업무설명회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=214172&menuNo=200218",
+      "published": "2026-03-11",
+      "hints": [
+        "보험감독국/보험상품분쟁1국/보험상품분쟁2국/계리리스크감독국/보험검사1국/보험검사2국/보험검사3국"
+      ],
+      "attachments": [
+        {
+          "name": "260311_(보도자료) 2026년 보험 부문 금융감독 업무설명회 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e43777a1a7bb4a089fb6ca8444626cca&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260311_(보도자료) 2026년 보험 부문 금융감독 업무설명회 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e43777a1a7bb4a089fb6ca8444626cca&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260311_(별첨1) 26년 보험 감독 부문 업무설명회 자료.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e43777a1a7bb4a089fb6ca8444626cca&fileSn=3&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260311_(별첨2) 26년 보험 검사 부문 업무설명회 자료.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e43777a1a7bb4a089fb6ca8444626cca&fileSn=4&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:213422",
+      "source": "fss-press",
+      "title": "고용노동부,금감원,한국장애인고용공단,금융협회, 금융권 장애인 고용확대에 힘 모아",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213422&menuNo=200218",
+      "published": "2026-03-06",
+      "hints": [
+        "은행감독국/자본시장감독국/은행감독국/보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260305_(보도자료) 고용노동부, 금감원, 한국장애인고용공단, 금융협회, 금융권 장애인 고용확대에 힘 모아.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=0de3921c9b194ee9ac7f25bf5a1d7445&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260305_(보도자료) 고용노동부, 금감원, 한국장애인고용공단, 금융협회, 금융권 장애인 고용확대에 힘 모아.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=0de3921c9b194ee9ac7f25bf5a1d7445&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:213304",
+      "source": "fss-press",
+      "title": "2026년 민생금융 부문 금융감독 업무설명회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213304&menuNo=200218",
+      "published": "2026-03-05",
+      "hints": [
+        "민생침해대응총괄국/금융사기대응단/보험사기대응단/서민금융보호국/자금세탁방지실/금융교육국"
+      ],
+      "attachments": [
+        {
+          "name": "260305_(보도자료) 2026년 민생금융 부문 금융감독 업무설명회 개최.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=9c94c33c92094d739e9a5cee916a890a&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260305_(보도자료) 2026년 민생금융 부문 금융감독 업무설명회 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=9c94c33c92094d739e9a5cee916a890a&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260305_(별첨) 26년 민생금융 부문 업무설명회 자료.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=9c94c33c92094d739e9a5cee916a890a&fileSn=3&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:213147",
+      "source": "fss-press",
+      "title": "롯데손해보험에 대한 경영개선요구 의결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=213147&menuNo=200218",
+      "published": "2026-03-04",
+      "hints": [
+        "보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260304_(보도참고) 롯데손해보험에 대한 경영개선요구 의결.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=c15dad8cea2b40b09e054668d84490e6&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260304_(보도참고) 롯데손해보험에 대한 경영개선요구 의결.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=c15dad8cea2b40b09e054668d84490e6&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:212467",
+      "source": "fss-press",
+      "title": "이찬진 금융감독원장, 보험회사 CEO 간담회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=212467&menuNo=200218",
+      "published": "2026-02-26",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260226_(보도자료) 이찬진 금융감독원장, 보험회사 CEO 간담회 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cd1cf809d4ac42cbb567ff6b7c67d1af&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260226_(보도자료) 이찬진 금융감독원장, 보험회사 CEO 간담회 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cd1cf809d4ac42cbb567ff6b7c67d1af&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260226_(별첨) 이찬진 금융감독원장 모두발언.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cd1cf809d4ac42cbb567ff6b7c67d1af&fileSn=3&bbsId=",
+          "type": "hwp"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:212249",
+      "source": "fss-press",
+      "title": "금융감독원, 「2026년 부문별 금융감독 업무설명회」 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=212249&menuNo=200218",
+      "published": "2026-02-24",
+      "hints": [
+        "기획조정국/소비자보호감독총괄국/디지털금융총괄국/은행감독국/중소금융감독국/자본시장감독국/민생침해대응총괄국/보험감독국/연금감독실"
+      ],
+      "attachments": [
+        {
+          "name": "260224_(보도자료)_금융감독원, 2026년 부문별 금융감독 업무설명회 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=2592d499217a405c96d0291ac7a7e5f9&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260224_(보도자료)_금융감독원, 2026년 부문별 금융감독 업무설명회 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=2592d499217a405c96d0291ac7a7e5f9&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:210992",
+      "source": "fss-press",
+      "title": "금융감독원, 민생침해 금융범죄 척결을 위한 금융권 간담회 개최",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210992&menuNo=200218",
+      "published": "2026-02-11",
+      "hints": [
+        "민생침해대응총괄국/금융사기대응단/보험사기대응단/서민금융보호국/자금세탁방지실/금융교육국"
+      ],
+      "attachments": [
+        {
+          "name": "260210_(보도자료) 금융감독원, 민생침해 금융범죄 척결을 위한 금융권 간담회 개최.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7386b34b992f454dbc6aa949f5ad68c0&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260210_(보도자료) 금융감독원, 민생침해 금융범죄 척결을 위한 금융권 간담회 개최.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7386b34b992f454dbc6aa949f5ad68c0&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "260210_(별첨) 박지선 금융소비자보호처장 모두발언.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7386b34b992f454dbc6aa949f5ad68c0&fileSn=3&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260210_(별첨) 박지선 금융소비자보호처장 모두발언.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7386b34b992f454dbc6aa949f5ad68c0&fileSn=4&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:210782",
+      "source": "fss-press",
+      "title": "안전하고 즐거운 설 연휴 귀성길을 위하여 소비자에게 유용한 자동차보험 정보를 안내합니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210782&menuNo=200218",
+      "published": "2026-02-09",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260206_(보도자료) 안전하고 즐거운 설 연휴 귀성길을 위하여 소비자에게 유용한 자동차보험 정보를 안내합니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=dae82a5b485e4786a32db968f4ce3972&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260206_(보도자료) 안전하고 즐거운 설 연휴 귀성길을 위하여 소비자에게 유용한 자동차보험 정보를 안내합니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=dae82a5b485e4786a32db968f4ce3972&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:210449",
+      "source": "fss-press",
+      "title": "보험사기 근절을 위한 26년 보험업계 임원 간담회 개최 계획",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210449&menuNo=200218",
+      "published": "2026-02-06",
+      "hints": [
+        "보험사기대응단"
+      ],
+      "attachments": [
+        {
+          "name": "260205_(보도자료) 보험사기 근절을 위한 26년 보험업계 임원 간담회 개최 계획.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f3fbfa93a8fa4e1cae7d183a875e9b76&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260205_(보도자료) 보험사기 근절을 위한 26년 보험업계 임원 간담회 개최 계획.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=f3fbfa93a8fa4e1cae7d183a875e9b76&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:210197",
+      "source": "fss-press",
+      "title": "보험금 관련 제3의료자문의 신뢰성 제고를 위한 금융감독원-대한의사협회 간 업무협약 체결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210197&menuNo=200218",
+      "published": "2026-02-04",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260203_(보도자료) 보험금 관련 제3의료자문의 신뢰성 제고를 위한 금융감독원-대한의사협회 간 업무협약 체결.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e3d97c71ba2a47be9d46d0bc6b0a75f8&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260203_(보도자료) 보험금 관련 제3의료자문의 신뢰성 제고를 위한 금융감독원-대한의사협회 간 업무협약 체결.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e3d97c71ba2a47be9d46d0bc6b0a75f8&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:210071",
+      "source": "fss-press",
+      "title": "자동차사고 후 렌터카 이용, 보상여부를 잘못 알면 피해자가 비용을 부담할 수도 있습니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210071&menuNo=200218",
+      "published": "2026-02-03",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260201_(보도자료) 자동차사고 후 렌터카 이용, 보상여부를 잘못 알면 피해자가 비용을 부담할 수도 있습니다. (자동차보험 대물배상 관련 소비자 유의사항 안내).hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e89ca8144c474b7c9b585d0f9a8f2989&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260201_(보도자료) 자동차사고 후 렌터카 이용, 보상여부를 잘못 알면 피해자가 비용을 부담할 수도 있습니다. (자동차보험 대물배상 관련 소비자 유의사항 안내).pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e89ca8144c474b7c9b585d0f9a8f2989&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:209614",
+      "source": "fss-press",
+      "title": "보험료 부담 등으로 보험 가입이 힘들었던 저소득층, 저신용자도 꼭 필요한 보험 가입을 확대하는 방안을 추진합니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209614&menuNo=200218",
+      "published": "2026-01-29",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260129_(보도자료) 보험료 부담 등으로 보험 가입이 힘들었던 저소득층, 저신용자도 꼭 필요한 보험 가입을 확대하는 방안을 추진합니다..hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=255c89589d7241c9b0d2cd5bd429785f&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260129_(보도자료) 보험료 부담 등으로 보험 가입이 힘들었던 저소득층, 저신용자도 꼭 필요한 보험 가입을 확대하는 방안을 추진합니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=255c89589d7241c9b0d2cd5bd429785f&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:209593",
+      "source": "fss-press",
+      "title": "이제 금융감독원 홈페이지에서 보험분쟁조정 사례를 좀 더 쉽게 찾아볼 수 있어요",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209593&menuNo=200218",
+      "published": "2026-01-29",
+      "hints": [
+        "보험상품분쟁1국"
+      ],
+      "attachments": [
+        {
+          "name": "260128_(보도자료) 이제 금융감독원 홈페이지에서 보험분쟁조정 사례를 좀 더 쉽게 찾아볼 수 있어요.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6b3a21405c7944fb8ee63d09493148da&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260128_(보도자료) 이제 금융감독원 홈페이지에서 보험분쟁조정 사례를 좀 더 쉽게 찾아볼 수 있어요.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=6b3a21405c7944fb8ee63d09493148da&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:209498",
+      "source": "fss-press",
+      "title": "''저축은행, 상호금융이 투자자로 참여하는 온라인투자연계금융업 연계투자 서비스'' 등 혁신금융서비스 34건 신규 지정 의결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209498&menuNo=200218",
+      "published": "2026-01-28",
+      "hints": [
+        "디지털금융총괄국/소비자보호감독총괄국/중소금융감독국/여신금융감독국/전자금융감독국/은행감독국/보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "260128_(보도참고) 저축은행, 상호금융이 투자자로 참여하는 온라인투자연계금융업 연계투자 서비스 등 혁신금융서비스 34건 신규 지정 의결.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7ca7f0b3ba52446997acfd5d58c983f6&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260128_(보도참고) 저축은행, 상호금융이 투자자로 참여하는 온라인투자연계금융업 연계투자 서비스 등 혁신금융서비스 34건 신규 지정 의결.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=7ca7f0b3ba52446997acfd5d58c983f6&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:209494",
+      "source": "fss-press",
+      "title": "경영개선권고에 따른 롯데손해보험의 경영개선계획 불승인 결정",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209494&menuNo=200218",
+      "published": "2026-01-28",
+      "hints": [
+        "보험검사2국"
+      ],
+      "attachments": [
+        {
+          "name": "260128_(보도참고) 경영개선권고에 따른 롯데손해보험의 경영개선계획 불승인 결정.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=28c230c45e0843a1861d2bb96e9229b8&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "260128_(보도참고) 경영개선권고에 따른 롯데손해보험의 경영개선계획 불승인 결정.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=28c230c45e0843a1861d2bb96e9229b8&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "knia-press:88744",
+      "source": "knia-press",
+      "title": "「자동차사고 과실비율정보포털」 전면 개편",
+      "url": "https://www.knia.or.kr/data/news/content?index=88744",
+      "published": "2026-08-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88739",
+      "source": "knia-press",
+      "title": "「창립 80주년 기념 손해보험 수기·논문 공모전」 시상식 개최",
+      "url": "https://www.knia.or.kr/data/news/content?index=88739",
+      "published": "2026-07-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88736",
+      "source": "knia-press",
+      "title": "보험회사 디지털 전환, 공공 마이데이터로 가속화",
+      "url": "https://www.knia.or.kr/data/news/content?index=88736",
+      "published": "2026-07-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88729",
+      "source": "knia-press",
+      "title": "손해보험협회 - 한국기상산업기술원, 기상기후데이터 활용 「기후보험 종합 포털」 구축 업무협약 체결",
+      "url": "https://www.knia.or.kr/data/news/content?index=88729",
+      "published": "2026-07-07",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88728",
+      "source": "knia-press",
+      "title": "7월부터 자동차사고 과실비율 등 관련 민원을 보험협회에서 신속하게 처리할 예정입니다",
+      "url": "https://www.knia.or.kr/data/news/content?index=88728",
+      "published": "2026-07-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88727",
+      "source": "knia-press",
+      "title": "여름철 침수피해 대비, 손해보험으로 미리 준비하세요",
+      "url": "https://www.knia.or.kr/data/news/content?index=88727",
+      "published": "2026-07-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88724",
+      "source": "knia-press",
+      "title": "고의 교통사고 보험사기 근절을 위한 대국민 교육 및 집중 홍보를 실시합니다",
+      "url": "https://www.knia.or.kr/data/news/content?index=88724",
+      "published": "2026-06-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88718",
+      "source": "knia-press",
+      "title": "손해보험협회 「소비자 상담사례집」 전자책(E-Book) 발간",
+      "url": "https://www.knia.or.kr/data/news/content?index=88718",
+      "published": "2026-06-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88717",
+      "source": "knia-press",
+      "title": "“고객의 신뢰를 설계하는 보험인” 2026년도 우수인증설계사 22,305명 선정",
+      "url": "https://www.knia.or.kr/data/news/content?index=88717",
+      "published": "2026-06-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88712",
+      "source": "knia-press",
+      "title": "고령운전자 안전운전을 위한 페달 오조작 방지장치 보급 2차 사업 시행",
+      "url": "https://www.knia.or.kr/data/news/content?index=88712",
+      "published": "2026-05-20",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88710",
+      "source": "knia-press",
+      "title": "「차량 5부제 특별약관」 관련 안내",
+      "url": "https://www.knia.or.kr/data/news/content?index=88710",
+      "published": "2026-05-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88708",
+      "source": "knia-press",
+      "title": "생명·손해보험업계 공동, 쪽방촌 주민에게 에너지 비용 1억원 지원",
+      "url": "https://www.knia.or.kr/data/news/content?index=88708",
+      "published": "2026-04-30",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88707",
+      "source": "knia-press",
+      "title": "「손해보험 소비자보호 협의체」 출범식 및 제1차 회의 개최",
+      "url": "https://www.knia.or.kr/data/news/content?index=88707",
+      "published": "2026-04-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88705",
+      "source": "knia-press",
+      "title": "자동차 고의사고 보험사기 다발지역 음성안내 서비스, 4월 전국 100개 지역·3개 내비게이션 앱으로 확대합니다",
+      "url": "https://www.knia.or.kr/data/news/content?index=88705",
+      "published": "2026-04-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88703",
+      "source": "knia-press",
+      "title": "보험업계, 에너지 절약 실천에 적극 동참",
+      "url": "https://www.knia.or.kr/data/news/content?index=88703",
+      "published": "2026-04-23",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88701",
+      "source": "knia-press",
+      "title": "손해보험협회·한국지방재정공제회, 디지털 미디어 벨트 교통안전 캠페인 MOU 체결",
+      "url": "https://www.knia.or.kr/data/news/content?index=88701",
+      "published": "2026-04-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88699",
+      "source": "knia-press",
+      "title": "손해보험협회, 창립 80주년 기념 「손해보험 수기, 논문 공모전」 개최",
+      "url": "https://www.knia.or.kr/data/news/content?index=88699",
+      "published": "2026-04-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88693",
+      "source": "knia-press",
+      "title": "보험사기 「특별 신고·포상 기간」 확대 운영",
+      "url": "https://www.knia.or.kr/data/news/content?index=88693",
+      "published": "2026-03-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88685",
+      "source": "knia-press",
+      "title": "국회 교통안전포럼·마산합포구청·손해보험협회, 「경남지역 어린이 교통안전 강화 위한 업무협약」 체결",
+      "url": "https://www.knia.or.kr/data/news/content?index=88685",
+      "published": "2026-02-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88679",
+      "source": "knia-press",
+      "title": "화물차 안전운전 실천 이벤트에 참여하세요",
+      "url": "https://www.knia.or.kr/data/news/content?index=88679",
+      "published": "2026-02-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "knia-press:88678",
+      "source": "knia-press",
+      "title": "TS-손보, 설 연휴 교통사고 예방 총력…교통거점 안전캠페인 전개",
+      "url": "https://www.knia.or.kr/data/news/content?index=88678",
+      "published": "2026-02-11",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -5932,7 +8444,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -5940,15 +8452,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 10,
+      "count": 83,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -5956,15 +8468,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "knia-press",
       "ok": true,
-      "count": 10,
+      "count": 32,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -5980,7 +8492,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -5994,7 +8506,7 @@
     {
       "source": "hanwha",
       "ok": true,
-      "count": 9,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -6010,23 +8522,23 @@
     {
       "source": "samsungfire",
       "ok": true,
-      "count": 15,
+      "count": 16,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "meritz",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 10,
+      "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -6034,7 +8546,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -6042,7 +8554,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -6050,7 +8562,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -6058,23 +8570,23 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 51,
+      "count": 68,
       "error": null,
-      "note": "과거 기사 채우는 중: 중앙 2026-02-26부터 재개",
+      "note": "과거 기사 채우기 완료: 중앙일보",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 950번째부터 재개",
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 1550번째부터 재개",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
@@ -6082,7 +8594,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 4,
       "error": null,
       "note": null,
       "disabled": false
