@@ -66,6 +66,28 @@
     "firstSeen": "2026-10-27"
   },
   {
+    "id": "c:insnews:93523:ai",
+    "category": "auto",
+    "title": "한화손보, 12월 해양 사이버보험 시범사업 실시",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 12월",
+    "quote": "본격적인 사업 추진을 위해 한화손보는 오는 12월 국내 선사와 선주를 대상으로 시범사업과 공동 마케팅을 시작할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-27",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93523"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-27"
+  },
+  {
     "id": "c:chosun:HE2TCZDGGRRTSMDEGVTGMOJXMI:ai",
     "category": "medical",
     "title": "실손24 연계 실손의료비 공제금 청구 서비스 도입",

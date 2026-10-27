@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T06:29:17.244Z",
+  "generatedAt": "2026-10-27T12:30:53.884Z",
   "groups": [
     {
       "id": "g:kyobo:17485",
@@ -837,6 +837,246 @@
       "relevanceBy": "rule",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93524",
+      "topic": "general",
+      "kind": "press",
+      "title": "교통사고 보험사기 911명 검거… 10건 중 7건 고의사고",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93524",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93524"
+        }
+      ],
+      "itemIds": [
+        "insnews:93524"
+      ],
+      "summary": "경찰청 국가수사본부는 지난 6월 15일부터 9월 30일까지 교통사고 보험사기를 집중수사해 총 2045건을 적발하고 911명을 검거했어요. 확인된 피해액은 75억2462만원이며, 이 가운데 고의사고가 1559건으로 전체의 76.2%를 차지했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93523",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손보, 싸이터와 선박 사이버 위험 보장 공백 해소 나서",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93523",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93523"
+        }
+      ],
+      "itemIds": [
+        "insnews:93523"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93521",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한라이프, 3분기 CSM 8조원 돌파… 전년比 5.7% 증가",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93521",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93521"
+        }
+      ],
+      "itemIds": [
+        "insnews:93521"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33671",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원, 엠금융서비스 '현장검사' 착수…15명 투입해 '모집질서' 점검",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33671",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33671"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33671"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33667",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"오늘 연락할 고객, AI가 짚는다\"…보험 세일즈 플랫폼 ‘ROOT’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33667",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33667"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33667"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110340",
+      "topic": "industry",
+      "kind": "press",
+      "title": "iM라이프, 3분기 누적 순익 112억원…보험손익 15.4% 증가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110340",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110340"
+        }
+      ],
+      "itemIds": [
+        "fins:110340"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:134561264",
+      "topic": "general",
+      "kind": "press",
+      "title": "2분기 보험사 대출 1.9조 증가…연체율·부실채권비율 다 올랐다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260828/134561264/1",
+      "published": "2026-08-28",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260828/134561264/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134561264"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:133879959",
+      "topic": "general",
+      "kind": "press",
+      "title": "손해보험사 렌터카 대차료 5년 새 30% 급증, 보험료 인상 우려",
+      "url": "https://www.donga.com/news/Economy/article/all/20260507/133879959/1",
+      "published": "2026-05-07",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260507/133879959/1"
+        }
+      ],
+      "itemIds": [
+        "donga:133879959"
+      ],
+      "summary": "4대 손해보험사가 렌터카 업체 등에 지급한 대차료는 7217억 원으로 집계되었어요. 이는 2020년과 비교해 5년 사이 30.6% 늘어난 수치예요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:133870695",
+      "topic": "general",
+      "kind": "press",
+      "title": "앤스로픽 “은행·보험 업무 자동화” 금융 AI 에이전트로 시장 공략",
+      "url": "https://www.donga.com/news/Economy/article/all/20260506/133870695/1",
+      "published": "2026-05-06",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260506/133870695/1"
+        }
+      ],
+      "itemIds": [
+        "donga:133870695"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:133864157",
+      "topic": "medical",
+      "kind": "press",
+      "title": "도수치료 빼고 필수보장 강화한 ‘반값 실손보험’ 나온다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260505/133864157/1",
+      "published": "2026-05-05",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260505/133864157/1"
+        }
+      ],
+      "itemIds": [
+        "donga:133864157"
+      ],
+      "summary": "금융위원회는 기존 1·2세대 실손보험보다 보험료를 절반 이상 낮춘 5세대 실손보험을 6일에 출시했어요. 5세대 실손보험은 도수치료 등 일부 비중증 비급여 치료가 보장에서 제외되는 대신 임신·출산과 발달장애 관련 급여 의료비가 새롭게 보장돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -845,7 +1085,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -853,7 +1093,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -861,7 +1101,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -939,7 +1179,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 61,
+      "count": 67,
       "error": null,
       "note": null,
       "disabled": false
@@ -947,7 +1187,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 55,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -955,7 +1195,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 66,
+      "count": 69,
       "error": null,
       "note": null,
       "disabled": false
@@ -963,7 +1203,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 56,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -979,9 +1219,9 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 11,
+      "count": 18,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 2750번째부터 재개",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -989,7 +1229,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {
@@ -997,7 +1237,7 @@
       "ok": true,
       "count": 3,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
       "disabled": false
     },
     {

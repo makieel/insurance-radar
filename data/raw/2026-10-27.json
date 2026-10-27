@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T06:29:17.244Z",
+  "generatedAt": "2026-10-27T12:30:53.884Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -5878,6 +5878,188 @@
       "published": "2026-08-25",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93529",
+      "source": "insnews",
+      "title": "‘자동차사고 경상환자’ 8주 초과 치료, 10월 28일부터 필요성 검토",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93529",
+      "published": "2026-10-27",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93526",
+      "source": "insnews",
+      "title": "보험개발원, 대전장애인종합복지관에 장애인 이동용 차량 기부",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93526",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93524",
+      "source": "insnews",
+      "title": "교통사고 보험사기 911명 검거… 10건 중 7건 고의사고",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93524",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93523",
+      "source": "insnews",
+      "title": "한화손보, 싸이터와 선박 사이버 위험 보장 공백 해소 나서",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93523",
+      "published": "2026-10-27",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93521",
+      "source": "insnews",
+      "title": "신한라이프, 3분기 CSM 8조원 돌파… 전년比 5.7% 증가",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93521",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93518",
+      "source": "insnews",
+      "title": "제11회 금융의 날 기념식, 금융발전 유공자 194점 포상",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93518",
+      "published": "2026-10-27",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72840",
+      "source": "insweek",
+      "title": "보험개발원, 대전장애인종합복지관에 장애인 이동용 차량 기부",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72840",
+      "published": "2026-10-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33671",
+      "source": "insjournal",
+      "title": "금감원, 엠금융서비스 '현장검사' 착수…15명 투입해 '모집질서' 점검",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33671",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33670",
+      "source": "insjournal",
+      "title": "[27일 보험주 마감시황] 삼성생명 3.45% 상승…상장 GA 동반 하락, 에이플러스에셋 2.80%↓",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33670",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33667",
+      "source": "insjournal",
+      "title": "\"오늘 연락할 고객, AI가 짚는다\"…보험 세일즈 플랫폼 ‘ROOT’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33667",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110340",
+      "source": "fins",
+      "title": "iM라이프, 3분기 누적 순익 112억원…보험손익 15.4% 증가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110340",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134919507",
+      "source": "donga",
+      "title": "BS그룹, LPGA 대회 2년 연속 개최",
+      "url": "https://www.donga.com/news/Economy/article/all/20261027/134919507/2",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134561264",
+      "source": "donga",
+      "title": "2분기 보험사 대출 1.9조 증가…연체율·부실채권비율 다 올랐다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260828/134561264/1",
+      "published": "2026-08-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134562133",
+      "source": "donga",
+      "title": "현대모비스, 하나은행·기보와 협력사 금융 부담 해소 ‘맞손’…5000억 상생보증 업무협약",
+      "url": "https://www.donga.com/news/Economy/article/all/20260828/134562133/1",
+      "published": "2026-08-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134576476",
+      "source": "donga",
+      "title": "‘GAP 인증’ 활용 우수사례, 농가-유통업체-지자체 등 8곳 선정",
+      "url": "https://www.donga.com/news/Economy/article/all/20260831/134576476/1",
+      "published": "2026-08-31",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:133864157",
+      "source": "donga",
+      "title": "도수치료 빼고 필수보장 강화한 ‘반값 실손보험’ 나온다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260505/133864157/1",
+      "published": "2026-05-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:133870695",
+      "source": "donga",
+      "title": "앤스로픽 “은행·보험 업무 자동화” 금융 AI 에이전트로 시장 공략",
+      "url": "https://www.donga.com/news/Economy/article/all/20260506/133870695/1",
+      "published": "2026-05-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:133879959",
+      "source": "donga",
+      "title": "손해보험사 렌터카 대차료 5년 새 30% 급증, 보험료 인상 우려",
+      "url": "https://www.donga.com/news/Economy/article/all/20260507/133879959/1",
+      "published": "2026-05-07",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -6084,7 +6266,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -6092,7 +6274,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -6100,7 +6282,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -6178,7 +6360,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 61,
+      "count": 67,
       "error": null,
       "note": null,
       "disabled": false
@@ -6186,7 +6368,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 55,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -6194,7 +6376,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 66,
+      "count": 69,
       "error": null,
       "note": null,
       "disabled": false
@@ -6202,7 +6384,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 56,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -6218,9 +6400,9 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 11,
+      "count": 18,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 2750번째부터 재개",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -6228,7 +6410,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {
@@ -6236,7 +6418,7 @@
       "ok": true,
       "count": 3,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
       "disabled": false
     },
     {
