@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T00:24:27.468Z",
+  "generatedAt": "2026-10-27T06:29:17.244Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -4178,7 +4178,7 @@
     {
       "id": "insweek:72787",
       "source": "insweek",
-      "title": "한화손해보험. 웰니스 케어 확대한 ‘한화 다이렉트 임산부보험’",
+      "title": "한화손해보험, 웰니스 케어 확대한 ‘한화 다이렉트 임산부보험’",
       "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72787",
       "published": "2026-10-26",
       "hints": [
@@ -5391,6 +5391,493 @@
       "published": "2026-08-11",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93517",
+      "source": "insnews",
+      "title": "신한금융, 3분기 누적 순익 5조274억원… 역대 최대 실적",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93517",
+      "published": "2026-10-27",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93510",
+      "source": "insnews",
+      "title": "동양생명, ‘사람 살리는 금융’ 캠페인 동참… 금융소비자보호 중요성 강조",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93510",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93516",
+      "source": "insnews",
+      "title": "보험연수원, 보험대리점 시험서 ‘AI 안경’ 사용 부정행위 적발",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93516",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93515",
+      "source": "insnews",
+      "title": "교보생명, 아기 턱받이에 응급처치법 담아… 영아 안전 지킴이로 일상 안전망 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93515",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93513",
+      "source": "insnews",
+      "title": "태아·어린이보험 세액공제 신설 추진… 다자녀 가구 최대 60만원 공제",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93513",
+      "published": "2026-10-27",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93507",
+      "source": "insnews",
+      "title": "주인 못 찾은 보험금 10조3000억원… 대국민 ‘숨은보험금’ 찾기 캠페인 실시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93507",
+      "published": "2026-10-27",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93508",
+      "source": "insnews",
+      "title": "우리금융, 아시안게임 메달리스트 5명 초청해 격려",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93508",
+      "published": "2026-10-27",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93505",
+      "source": "insnews",
+      "title": "FM, 고객사 위험 요인 개선에 8억5500만 달러 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93505",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93504",
+      "source": "insnews",
+      "title": "현대해상, ‘AX Festival 2026’ 개최… 업무 혁신 박차",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93504",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93502",
+      "source": "insnews",
+      "title": "NH농협생명, 서울시와 농촌일손돕기 진행",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93502",
+      "published": "2026-10-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93501",
+      "source": "insnews",
+      "title": "청년고용 질적 악화… 산업구조 변화 속 일자리 진입장벽 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93501",
+      "published": "2026-10-27",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72839",
+      "source": "insweek",
+      "title": "교보생명, 영등포 보건소에 스마일 턱받이 전달",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72839",
+      "published": "2026-10-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72836",
+      "source": "insweek",
+      "title": "한화손해보험, 해양 사이버보험 분야 업무협약 체결",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72836",
+      "published": "2026-10-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72838",
+      "source": "insweek",
+      "title": "성대규 동양생명 사장, ‘사람 살리는 금융’ 릴레이 캠페인 참여",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72838",
+      "published": "2026-10-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72837",
+      "source": "insweek",
+      "title": "생명보험협회, 숨은보험금 찾아주기 대국민 캠페인 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72837",
+      "published": "2026-10-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72835",
+      "source": "insweek",
+      "title": "NH농협생명, 서울시와 함께 농촌일손돕기 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72835",
+      "published": "2026-10-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33669",
+      "source": "insjournal",
+      "title": "\"카히스토리가 희망을 싣고 달립니다\"…보험개발원, 장애인 이동권 증진 위해 '승합차' 기부",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33669",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33668",
+      "source": "insjournal",
+      "title": "태아·어린이보험 '세액공제' 추진…자녀 셋이면 최대 '60만원'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33668",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33666",
+      "source": "insjournal",
+      "title": "'교통사고 보험사기' 4개월간 911명 검거…피해액 '75억원'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33666",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33665",
+      "source": "insjournal",
+      "title": "커지는 생명·건강 '보장격차'…글로벌 보험업계, 상품 혁신과 자본관리로 '돌파구' 찾는다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33665",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33664",
+      "source": "insjournal",
+      "title": "첩보전 방불케 한 '보험대리점 자격시험'… 감독관 '매의 눈'에 걸린 'AI 안경' 커닝",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33664",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33662",
+      "source": "insjournal",
+      "title": "[보험, AI 에이전트 시대] ①보험사·GA·고객 AI '3파전'…누가 보험 선택을 주도할까",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33662",
+      "published": "2026-10-27",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33663",
+      "source": "insjournal",
+      "title": "“간병인 가입 문턱 높이고, 암치료비 줄이고”… 메리츠화재, 11월 보험료 최대 27% 인상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33663",
+      "published": "2026-10-27",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33661",
+      "source": "insjournal",
+      "title": "삼성생명, 보험업계 최대 2조원 해외 신종자본증권 발행…금리 6.875%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33661",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33660",
+      "source": "insjournal",
+      "title": "\"불법사금융 덫 끊는다\"… 동양생명, '사람 살리는 금융' 릴레이 동참",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33660",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33659",
+      "source": "insjournal",
+      "title": "\"내 돈인데 왜 안 찾으세요?\"… 10조 원 잠든 '숨은보험금' 대국민 찾기 캠페인 돌입",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33659",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33658",
+      "source": "insjournal",
+      "title": "한화손보, 선박 해킹 선제 대응 나선다… 싸이터와 해양 사이버보험 업무협약",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33658",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33656",
+      "source": "insjournal",
+      "title": "금융권 잇단 해킹에 '보험사'도 뚫렸다…미래에셋생명 '고객정보' 유출",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33656",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33655",
+      "source": "insjournal",
+      "title": "“10월 일몰 이슈에 쏠린 눈”… DB손보, 11월부터 보험료 인상·보험금 감액·보장한도 축소",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33655",
+      "published": "2026-10-27",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33654",
+      "source": "insjournal",
+      "title": "현대해상, 전사 AI 축제 ‘AX 페스티벌 2026’ 개최…“개인의 시도, 조직의 혁신으로”",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33654",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33652",
+      "source": "insjournal",
+      "title": "[GA 2027년 대비⑥내년부턴 수수료율보다 금액이다”… GA 수익성 판단 기준 바꿔야",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33652",
+      "published": "2026-10-27",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33653",
+      "source": "insjournal",
+      "title": "NH농협생명, 서울시와 함께 '수확철 일손 부족 농가' 지원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33653",
+      "published": "2026-10-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110336",
+      "source": "fins",
+      "title": "신한라이프, 3분기 누적 순익 18.5%↓…CSM 8조원 돌파",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110336",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110335",
+      "source": "fins",
+      "title": "고의사고 등 보험사기 집중수사…넉달간 2천45건·911명 검거",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110335",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110334",
+      "source": "fins",
+      "title": "퇴직연금 ETF 100조원 시대…‘투자한도 100%’에 가려진 원금손실 위험",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110334",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110332",
+      "source": "fins",
+      "title": "현대해상, ‘AX Festival 2026’ 개최…AI 업무 활용 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110332",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110331",
+      "source": "fins",
+      "title": "한화손보, 해양 사이버보험 개발 추진…전문 기업과 맞손",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110331",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110330",
+      "source": "fins",
+      "title": "삼성생명, 해외 신종자본증권 발행 완료...15억달러 규모",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110330",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25471082",
+      "source": "joongang",
+      "title": "수리비 비싼 전기차 올해 75% 급증…보험업계 속탄다",
+      "url": "https://www.joongang.co.kr/article/25471082",
+      "published": "2026-10-20",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MIZWKNZWGM3TKNBRGQ2TSNDEG4",
+      "source": "chosun",
+      "title": "삼성생명, 해외 신종자본증권 15억달러 발행… 보험업계 최대 규모",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/27/MIZWKNZWGM3TKNBRGQ2TSNDEG4/",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261027067500002",
+      "source": "yna",
+      "title": "휴면보험금 찾아가세요…서금원·생명보험협회·보험사 캠페인",
+      "url": "https://www.yna.co.kr/view/AKR20261027067500002",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134474852",
+      "source": "donga",
+      "title": "한투금융, KDB생명보험 매각 우선협상자로 선정",
+      "url": "https://www.donga.com/news/Economy/article/all/20260813/134474852/1",
+      "published": "2026-08-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134496068",
+      "source": "donga",
+      "title": "카카오페이손해보험, 보험금 지급 소요시간 알려주는 ‘바로지급’ 서비스 시작",
+      "url": "https://www.donga.com/news/Economy/article/all/20260818/134496068/1",
+      "published": "2026-08-18",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134517550",
+      "source": "donga",
+      "title": "건강보험심사평가원, 강릉 경포호수광장에서 대국민 건강서비스 체험 행사 개최",
+      "url": "https://www.donga.com/news/Economy/article/all/20260821/134517550/1",
+      "published": "2026-08-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134531526",
+      "source": "donga",
+      "title": "해안건축, 올림픽훼밀리타운 재건축 설계사 선정…6700가구 탈바꿈",
+      "url": "https://www.donga.com/news/Economy/article/all/20260824/134531526/1",
+      "published": "2026-08-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134531637",
+      "source": "donga",
+      "title": "카카오페이손해보험 ‘해외장기체류보험’ 가입자 108%↑…가입층 확대",
+      "url": "https://www.donga.com/news/Economy/article/all/20260824/134531637/1",
+      "published": "2026-08-24",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134540445",
+      "source": "donga",
+      "title": "생보사, 시니어 시설 시장 잇단 진출…고령화에 경쟁 가속",
+      "url": "https://www.donga.com/news/Economy/article/all/20260825/134540445/1",
+      "published": "2026-08-25",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -5691,7 +6178,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -5699,7 +6186,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -5707,7 +6194,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 66,
       "error": null,
       "note": null,
       "disabled": false
@@ -5715,39 +6202,39 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "joongang",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 1,
+      "error": null,
       "note": "과거 기사 채우기 완료: 중앙일보",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 5,
+      "count": 11,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 2150번째부터 재개",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 2750번째부터 재개",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false

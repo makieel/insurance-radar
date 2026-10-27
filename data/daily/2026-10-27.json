@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T00:24:27.468Z",
+  "generatedAt": "2026-10-27T06:29:17.244Z",
   "groups": [
     {
       "id": "g:kyobo:17485",
@@ -289,6 +289,554 @@
       "relevanceBy": "rule",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93516",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험연수원, 보험대리점 시험서 ‘AI 안경’ 사용 부정행위 적발",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93516",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93516"
+        }
+      ],
+      "itemIds": [
+        "insnews:93516"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93513",
+      "topic": "life",
+      "kind": "press",
+      "title": "태아·어린이보험 세액공제 신설 추진… 다자녀 가구 최대 60만원 공제",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93513",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93513"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33668"
+        }
+      ],
+      "itemIds": [
+        "insnews:93513",
+        "insjournal:33668"
+      ],
+      "summary": "태아와 18세 이하 자녀의 보장성보험료를 일반 보장성보험료와 분리해 별도로 세액공제하는 법안이 추진돼요. 자녀가 3명 이상인 가구는 최대 60만원까지 세액공제를 받을 수 있어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93507",
+      "topic": "industry",
+      "kind": "press",
+      "title": "주인 못 찾은 보험금 10조3000억원… 대국민 ‘숨은보험금’ 찾기 캠페인 실시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93507",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93507"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33659"
+        }
+      ],
+      "itemIds": [
+        "insnews:93507",
+        "insjournal:33659"
+      ],
+      "summary": "생명보험협회는 서민금융진흥원과 함께 오는 11월 30일까지 숨은보험금 찾아주기 대국민 공동캠페인을 실시해요. 올해는 인터넷과 모바일 금융서비스에 익숙하지 않은 고령층을 중심으로 조리와 청구 안내를 강화해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93505",
+      "topic": "general",
+      "kind": "press",
+      "title": "FM, 고객사 위험 요인 개선에 8억5500만 달러 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93505",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93505"
+        }
+      ],
+      "itemIds": [
+        "insnews:93505"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72839",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보생명, 영등포 보건소에 스마일 턱받이 전달",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72839",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72839"
+        }
+      ],
+      "itemIds": [
+        "insweek:72839"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72838",
+      "topic": "industry",
+      "kind": "press",
+      "title": "성대규 동양생명 사장, ‘사람 살리는 금융’ 릴레이 캠페인 참여",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72838",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72838"
+        }
+      ],
+      "itemIds": [
+        "insweek:72838"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72837",
+      "topic": "general",
+      "kind": "press",
+      "title": "생명보험협회, 숨은보험금 찾아주기 대국민 캠페인 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72837",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72837"
+        }
+      ],
+      "itemIds": [
+        "insweek:72837"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33666",
+      "topic": "general",
+      "kind": "press",
+      "title": "'교통사고 보험사기' 4개월간 911명 검거…피해액 '75억원'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33666",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33666"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110335"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33666",
+        "fins:110335"
+      ],
+      "summary": "경찰청 국가수사본부는 지난 6월 15일부터 9월 30일까지 교통사고 보험사기 집중수사를 벌여 911명을 검거하고 피해액 75억2462만원을 확인했어요. 앞으로도 연중 상시 단속을 이어가며 피해 운전자의 행정처분 취소와 할증 보험료 환급 등을 추진해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33665",
+      "topic": "industry",
+      "kind": "press",
+      "title": "커지는 생명·건강 '보장격차'…글로벌 보험업계, 상품 혁신과 자본관리로 '돌파구' 찾는다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33665",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33665"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33665"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33664",
+      "topic": "general",
+      "kind": "press",
+      "title": "첩보전 방불케 한 '보험대리점 자격시험'… 감독관 '매의 눈'에 걸린 'AI 안경' 커닝",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33664",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33664"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33664"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33663",
+      "topic": "general",
+      "kind": "press",
+      "title": "“간병인 가입 문턱 높이고, 암치료비 줄이고”… 메리츠화재, 11월 보험료 최대 27% 인상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33663",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33663"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33663"
+      ],
+      "summary": "메리츠화재는 오는 11월 주요 보험상품의 보험료를 최대 27% 인상할 예정이에요. 이에 앞서 지난 10월 26일부터 간병인사용일당 최저보험료를 8만원으로 상향하고 암치료비 보장한도도 축소했어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33661",
+      "topic": "industry",
+      "kind": "press",
+      "title": "삼성생명, 보험업계 최대 2조원 해외 신종자본증권 발행…금리 6.875%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33661",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33661"
+        },
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/10/27/MIZWKNZWGM3TKNBRGQ2TSNDEG4/"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33661",
+        "chosun:MIZWKNZWGM3TKNBRGQ2TSNDEG4"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33656",
+      "topic": "general",
+      "kind": "press",
+      "title": "금융권 잇단 해킹에 '보험사'도 뚫렸다…미래에셋생명 '고객정보' 유출",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33656",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33656"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33656"
+      ],
+      "summary": "미래에셋생명에서 사이버 침해로 고객 개인정보가 유출된 사실이 확인되면서 금융감독원이 긴급 현장점검에 착수했어요. 미래에셋생명은 홈페이지 접속을 제한하고 비대면 서비스를 일시 중단했어요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33655",
+      "topic": "general",
+      "kind": "press",
+      "title": "“10월 일몰 이슈에 쏠린 눈”… DB손보, 11월부터 보험료 인상·보험금 감액·보장한도 축소",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33655",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33655"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33655"
+      ],
+      "summary": "DB손해보험은 오는 11월부터 일부 간편보험의 보험료를 인상하고 주요 담보의 보장조건을 조정해요. 간편보험 암주요치료비에 1년 이내 50% 감액기간이 신설되고 대상포진 진단비 가입한도가 축소돼요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110336",
+      "topic": "industry",
+      "kind": "press",
+      "title": "신한라이프, 3분기 누적 순익 18.5%↓…CSM 8조원 돌파",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110336",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110336"
+        }
+      ],
+      "itemIds": [
+        "fins:110336"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110330",
+      "topic": "industry",
+      "kind": "press",
+      "title": "삼성생명, 해외 신종자본증권 발행 완료...15억달러 규모",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110330",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110330"
+        }
+      ],
+      "itemIds": [
+        "fins:110330"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:yna:AKR20261027067500002",
+      "topic": "life",
+      "kind": "press",
+      "title": "휴면보험금 찾아가세요…서금원·생명보험협회·보험사 캠페인",
+      "url": "https://www.yna.co.kr/view/AKR20261027067500002",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261027067500002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261027067500002"
+      ],
+      "summary": "서민금융진흥원은 생명보험협회 및 보험사와 함께 오는 11월 30일까지 휴면보험금 찾기 공동캠페인을 진행해요. 고령층을 대상으로 휴면보험금 조회와 환급 방법을 집중 안내해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134540445",
+      "topic": "life",
+      "kind": "press",
+      "title": "생보사, 시니어 시설 시장 잇단 진출…고령화에 경쟁 가속",
+      "url": "https://www.donga.com/news/Economy/article/all/20260825/134540445/1",
+      "published": "2026-08-25",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260825/134540445/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134540445"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:134531637",
+      "topic": "general",
+      "kind": "press",
+      "title": "카카오페이손해보험 ‘해외장기체류보험’ 가입자 108%↑…가입층 확대",
+      "url": "https://www.donga.com/news/Economy/article/all/20260824/134531637/1",
+      "published": "2026-08-24",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260824/134531637/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134531637"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134517550",
+      "topic": "life",
+      "kind": "press",
+      "title": "건강보험심사평가원, 강릉 경포호수광장에서 대국민 건강서비스 체험 행사 개최",
+      "url": "https://www.donga.com/news/Economy/article/all/20260821/134517550/1",
+      "published": "2026-08-21",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260821/134517550/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134517550"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:134496068",
+      "topic": "general",
+      "kind": "press",
+      "title": "카카오페이손해보험, 보험금 지급 소요시간 알려주는 ‘바로지급’ 서비스 시작",
+      "url": "https://www.donga.com/news/Economy/article/all/20260818/134496068/1",
+      "published": "2026-08-18",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260818/134496068/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134496068"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134474852",
+      "topic": "life",
+      "kind": "press",
+      "title": "한투금융, KDB생명보험 매각 우선협상자로 선정",
+      "url": "https://www.donga.com/news/Economy/article/all/20260813/134474852/1",
+      "published": "2026-08-13",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260813/134474852/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134474852"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -391,7 +939,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -399,7 +947,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -407,7 +955,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 66,
       "error": null,
       "note": null,
       "disabled": false
@@ -415,39 +963,39 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "joongang",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 1,
+      "error": null,
       "note": "과거 기사 채우기 완료: 중앙일보",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 5,
+      "count": 11,
       "error": null,
-      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 2150번째부터 재개",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 2750번째부터 재개",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
