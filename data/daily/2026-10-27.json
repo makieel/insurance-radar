@@ -1,0 +1,464 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T00:24:27.468Z",
+  "groups": [
+    {
+      "id": "g:kyobo:17485",
+      "topic": "life",
+      "kind": "insurer",
+      "title": "교보생명, 턱받이에 기도폐쇄 응급처치법 담아…영아 생명 지킨다",
+      "url": "https://news.kyobo.com/%ec%8a%a4%eb%a7%88%ec%9d%bc-%ed%84%b1%eb%b0%9b%ec%9d%b4-%ea%b8%b0%eb%8f%84%ed%8f%90%ec%87%84-%ec%9d%91%ea%b8%89%ec%b2%98%ec%b9%98%eb%b2%95-%eb%8b%b4%ec%95%84-%ec%83%9d%eb%aa%85-%ec%a7%80%ec%bc%9c/",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "교보생명",
+          "url": "https://news.kyobo.com/%ec%8a%a4%eb%a7%88%ec%9d%bc-%ed%84%b1%eb%b0%9b%ec%9d%b4-%ea%b8%b0%eb%8f%84%ed%8f%90%ec%87%84-%ec%9d%91%ea%b8%89%ec%b2%98%ec%b9%98%eb%b2%95-%eb%8b%b4%ec%95%84-%ec%83%9d%eb%aa%85-%ec%a7%80%ec%bc%9c/"
+        }
+      ],
+      "itemIds": [
+        "kyobo:17485"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72834",
+      "topic": "industry",
+      "kind": "press",
+      "title": "FM, 리스크 저감 투자 지원 ‘회복탄력성 크레딧’ 제공",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72834",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72834"
+        }
+      ],
+      "itemIds": [
+        "insweek:72834"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72833",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, AI전환 위한 ‘AX Festival 2026’ 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72833",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72833"
+        }
+      ],
+      "itemIds": [
+        "insweek:72833"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110329",
+      "topic": "industry",
+      "kind": "press",
+      "title": "생보협회, 숨은보험금 찾아주기 캠페인…고령층 집중 홍보",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110329",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110329"
+        }
+      ],
+      "itemIds": [
+        "fins:110329"
+      ],
+      "summary": "생명보험협회와 서민금융진흥원이 숨은보험금 찾아주기 대국민 공동 캠페인을 실시해요. 지난해 말 기준 숨은보험금 규모는 약 10조3,000억원이며, 올해는 비대면 금융거래에 익숙하지 않은 고령층을 대상으로 홍보를 강화해요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110328",
+      "topic": "general",
+      "kind": "press",
+      "title": "옛 실손 가입자 ‘선택의 시간’...보험료 낮추고 보장 덜어낸다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110328",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110328"
+        }
+      ],
+      "itemIds": [
+        "fins:110328"
+      ],
+      "summary": "오는 11월부터 2013년 3월 이전 계약한 초기 실손 가입자는 기존 계약을 유지하며 선택형 할인 특약에 가입하거나 계약전환 할인을 통해 5세대로 옮길 수 있어요. 선택형 특약은 도수치료 등 비급여 물리치료·주사제·MRI·MRA 보장을 제외하고 자기부담률 20%를 적용하는 옵션을 선택해 보험료를 할인받는 방식이에요. 계약전환 할인은 기존 1·2세대 실손을 5세대로 전환하는 가입자에게 3년간 보험료를 50% 추가 할인하는 방식이에요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110327",
+      "topic": "general",
+      "kind": "press",
+      "title": "미래에셋생명서도 해킹 유출 확인돼…보험사 중 첫 침해사고",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110327",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110327"
+        }
+      ],
+      "itemIds": [
+        "fins:110327"
+      ],
+      "summary": "미래에셋생명이 일부 시스템 침해 사고로 고객 개인 신용 정보가 유출됐다고 밝혔어요. 고객 청약시스템과 홈페이지 일부에서 침해 사고가 발생했으며 보험권에서 해킹으로 인한 정보 유출이 확인돼 신고된 건 이번이 처음이에요.",
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110325",
+      "topic": "life",
+      "kind": "press",
+      "title": "생보협회, 내년 상반기 본사 이전한다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110325",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110325"
+        }
+      ],
+      "itemIds": [
+        "fins:110325"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110323",
+      "topic": "auto",
+      "kind": "press",
+      "title": "자율주행 상용화 앞두고…정부, 보험체계 재정비",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110323",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110323"
+        }
+      ],
+      "itemIds": [
+        "fins:110323"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134914283",
+      "topic": "medical",
+      "kind": "press",
+      "title": "“오래된 실손 무조건 유지?”…실손보험 반값 할인 앞두고 복잡한 셈법",
+      "url": "https://www.donga.com/news/Economy/article/all/20261027/134914283/1",
+      "published": "2026-10-27",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261027/134914283/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134914283"
+      ],
+      "summary": "다음 달부터 2013년 3월 이전 실손보험에 가입한 소비자를 대상으로 계약전환 할인제도와 선택형 할인 특약이 시행돼요. 계약전환 할인제도는 기존 1·2세대 실손보험을 5세대로 전환하는 가입자에게 3년간 보험료를 50% 추가 할인해 주는 방식이에요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134457712",
+      "topic": "life",
+      "kind": "press",
+      "title": "IBK연금보험 ‘디지털 5년든든연금’, 보험다모아 환급률 상위권 올라",
+      "url": "https://www.donga.com/news/Economy/article/all/20260811/134457712/1",
+      "published": "2026-08-11",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260811/134457712/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134457712"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134449262",
+      "topic": "general",
+      "kind": "press",
+      "title": "폭염에 가축재해보험 접수 급증…7·8월에만 2115건",
+      "url": "https://www.donga.com/news/Economy/article/all/20260810/134449262/1",
+      "published": "2026-08-10",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260810/134449262/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134449262"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:134393401",
+      "topic": "medical",
+      "kind": "press",
+      "title": "실손 풍선효과…도수치료 묶었더니 ‘냉각 스프레이 치료’ 급증",
+      "url": "https://www.donga.com/news/Economy/article/all/20260730/134393401/1",
+      "published": "2026-07-30",
+      "firstSeen": "2026-10-27",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20260730/134393401/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134393401"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 61,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": "과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 5,
+      "error": null,
+      "note": "과거 기사 채우는 중: 동아 donga-sitemap-202607-202608.xml.gz 2150번째부터 재개",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}

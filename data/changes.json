@@ -22,6 +22,50 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:donga:134914283:ai",
+    "category": "medical",
+    "title": "5세대 실손보험 전환 할인제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "다음 달부터",
+    "quote": "금융당국은 다음 달부터 2013년 3월 이전 실손보험에 가입한 소비자를 대상으로 ‘계약전환 할인제도’와 ‘선택형 할인 특약’을 시행한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-27",
+    "sources": [
+      {
+        "name": "동아일보",
+        "url": "https://www.donga.com/news/Economy/article/all/20261027/134914283/1"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-27"
+  },
+  {
+    "id": "c:fins:110328:ai",
+    "category": "medical",
+    "title": "오래된 실손보험 보험료 낮추는 할인제도 11월 도입",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 11월",
+    "quote": "오래된 실손의료보험 가입자의 보험료 부담을 낮추기 위한 할인제도가 오는 11월 도입된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-27",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110328"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-27"
+  },
+  {
     "id": "c:chosun:HE2TCZDGGRRTSMDEGVTGMOJXMI:ai",
     "category": "medical",
     "title": "실손24 연계 실손의료비 공제금 청구 서비스 도입",
