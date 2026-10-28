@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T00:32:05.697Z",
+  "generatedAt": "2026-10-28T06:33:36.828Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -7239,6 +7239,213 @@
       "published": "2026-02-03",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "klia-press:123828",
+      "source": "klia-press",
+      "title": "생명보험협회, 숨은보험금 찾아주기 대국민캠페인 실시",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123828&boardMngNo=2&seq=1",
+      "published": "2026-10-27",
+      "hints": [],
+      "attachments": [
+        {
+          "name": "261027_2026년_숨은보험금_찾아주기_대국민캠페인_실시_FN.pdf",
+          "url": "https://www.klia.or.kr/FileDown.do?fileNo=21660&seq=1",
+          "type": "pdf"
+        },
+        {
+          "name": "261027_2026년_숨은보험금_찾아주기_대국민캠페인_실시_FN.hwp",
+          "url": "https://www.klia.or.kr/FileDown.do?fileNo=21660&seq=2",
+          "type": "hwp"
+        }
+      ]
+    },
+    {
+      "id": "kyobo:17545",
+      "source": "kyobo",
+      "title": "교보생명, 금융의 날 금융위원장상…청년·취약계층 일자리 지원 성과",
+      "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%ea%b8%88%ec%9c%b5%ec%9d%98-%eb%82%a0-%ea%b8%88%ec%9c%b5%ec%9c%84%ec%9b%90%ec%9e%a5%ec%83%81-%ec%88%98%ec%83%81/",
+      "published": "2026-10-28",
+      "hints": [
+        "보도자료",
+        "회사소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93544",
+      "source": "insnews",
+      "title": "고영철 신협중앙회장, ‘사람 살리는 금융’ 캠페인 동참… 포용금융 가치 확산에 뜻 모아",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93544",
+      "published": "2026-10-28",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93543",
+      "source": "insnews",
+      "title": "신한라이프, 보장 시점 직접 고르는 ‘라이프스위칭 저축보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93543",
+      "published": "2026-10-28",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93541",
+      "source": "insnews",
+      "title": "이찬진 금감원장, 은행지주 이사회에 IT 보안·내부통제 강화 주문",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93541",
+      "published": "2026-10-28",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93540",
+      "source": "insnews",
+      "title": "이형일 “올해 국민소득 4만 달러 진입 전망… 성과를 국민 삶으로”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93540",
+      "published": "2026-10-28",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72842",
+      "source": "insweek",
+      "title": "NH농협손해보험, 소상공인 맞춤 ‘NH제조소상공인화재보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72842",
+      "published": "2026-10-28",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72841",
+      "source": "insweek",
+      "title": "한화손해보험, 북악산서 ‘ESG 친환경 활동' 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72841",
+      "published": "2026-10-28",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33688",
+      "source": "insjournal",
+      "title": "NH농협생명, 경기 안성 농가에서 '농경지 정리 작업' 지원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33688",
+      "published": "2026-10-28",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33686",
+      "source": "insjournal",
+      "title": "모집질서 확립과 함께 ‘설계사 권익 보호’...국감 이후 'GA 감독' 주요 쟁점 부상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33686",
+      "published": "2026-10-28",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33681",
+      "source": "insjournal",
+      "title": "[GA 품질경영 시대] 계약 2~4회차부터 '집중관리'… (주)사랑모아금융서비스, 유지율 따라 '보수·시상' 차등",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33681",
+      "published": "2026-10-28",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33679",
+      "source": "insjournal",
+      "title": "[보험, AI 에이전트 시대] ② AI가 보험 추천하면 '모집'일까… '보험업법·금소법'이 긋는 경계선",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33679",
+      "published": "2026-10-28",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33683",
+      "source": "insjournal",
+      "title": "“수수료냐 신계약CSM이냐”… 계약체결비용 한도 설정 놓고 보험사 내부 '막바지 줄다리기'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33683",
+      "published": "2026-10-28",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110344",
+      "source": "fins",
+      "title": "신한라이프, 저축보험 적립금 활용해 건강보장 선택 기능 도입",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110344",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110343",
+      "source": "fins",
+      "title": "교보라플, 미니보험 가입 절차 간소화…3분 내 가입",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110343",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134924451",
+      "source": "donga",
+      "title": "‘AG 금’ 김주형, 두 달 만에 PGA 투어 복귀…멕시코 오픈 출격",
+      "url": "https://www.donga.com/news/Sports/article/all/20261028/134924451/1",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GJSDKZRVMQ3DGMJXMFTGCYJYGQ",
+      "source": "chosun",
+      "title": "[컨콜] 삼성전기 “4분기 MLCC·FCBGA 수급 더 빠듯…판가 상승 지속”",
+      "url": "https://www.chosun.com/economy/tech_it/2026/10/28/GJSDKZRVMQ3DGMJXMFTGCYJYGQ/",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MQ4GIMDDGI2DANRQGE3TCNDGGM",
+      "source": "chosun",
+      "title": "[컨콜] 삼성전기 “AI 서버용 FCBGA 공급 부족 심화…고객사와 가격 인상 협의”",
+      "url": "https://www.chosun.com/economy/tech_it/2026/10/28/MQ4GIMDDGI2DANRQGE3TCNDGGM/",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261028135200009",
+      "source": "yna",
+      "title": "日서 '피지컬 AI' 로봇 전용 보험 등장…11월 판매",
+      "url": "https://www.yna.co.kr/view/AKR20261028135200009",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7445,7 +7652,7 @@
       "ok": true,
       "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7453,7 +7660,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7461,7 +7668,7 @@
       "ok": true,
       "count": 83,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7469,7 +7676,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7477,7 +7684,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7491,9 +7698,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 11,
+      "count": 12,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7515,7 +7722,7 @@
     {
       "source": "kyobo",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
@@ -7539,7 +7746,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -7547,7 +7754,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -7555,7 +7762,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -7563,7 +7770,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -7579,7 +7786,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
@@ -7587,15 +7794,15 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false

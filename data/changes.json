@@ -88,6 +88,28 @@
     "firstSeen": "2026-10-27"
   },
   {
+    "id": "c:klia-press:123828:2026-10-27",
+    "category": "general",
+    "title": "생명보험협회, 숨은보험금 찾아주기 대국민캠페인 실시",
+    "when": "exact",
+    "date": "2026-10-27",
+    "period": null,
+    "phrase": "2026년 10월 27일",
+    "quote": "- 1 - 보도자료 10월 28일(수) 조간부터 보도가능 (인터넷, 배포 시 보도 가능) 작성부서 생명보험협회 소비자보호부 책 임 자 김치국 부장(02-2262-6631) 담 당 자 이범철 팀장(02-2262-6597) 배 포 일 2026년 10월 27일(화) 배포부서 홍보부(02-2262-6605) 총 5매 생명보험협회(회장 김철주)는 서민금융진흥원(원장",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-27",
+    "sources": [
+      {
+        "name": "생명보험협회",
+        "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123828&boardMngNo=2&seq=1"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-10-28"
+  },
+  {
     "id": "c:chosun:HE2TCZDGGRRTSMDEGVTGMOJXMI:ai",
     "category": "medical",
     "title": "실손24 연계 실손의료비 공제금 청구 서비스 도입",
