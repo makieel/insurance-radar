@@ -774,27 +774,5 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
-  },
-  {
-    "id": "c:joongang:25423604:ai",
-    "category": "general",
-    "title": "플랫폼 사업자 개인정보 유출 책임 면제 약관 시정",
-    "when": "phrase",
-    "date": null,
-    "period": null,
-    "phrase": "5월",
-    "quote": "개정 약관은 5월 초까지 반영될 예정",
-    "status": "confirmed",
-    "past": false,
-    "announced": "2026-04-27",
-    "sources": [
-      {
-        "name": "중앙일보",
-        "url": "https://www.joongang.co.kr/article/25423604"
-      }
-    ],
-    "origin": "ai",
-    "rate": null,
-    "firstSeen": "2026-10-25"
   }
 ]

@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T00:32:05.697Z",
+  "groups": [
+    {
+      "id": "g:insjournal:33677",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손보, 도심 생태계 지킨다… ‘생물 다양성 보전’활동 펼쳐",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33677",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33677"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33677"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110339",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한이 그린 롯데손보 청사진…실현 가능성은",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110339",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110339"
+        }
+      ],
+      "itemIds": [
+        "fins:110339"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110338",
+      "topic": "industry",
+      "kind": "press",
+      "title": "외국계 생보 실적 순위 변동 조짐…라이나 선두 지킬까",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110338",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110338"
+        }
+      ],
+      "itemIds": [
+        "fins:110338"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110337",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사도 뚫은 해킹, 다방면 화두로",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110337",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110337"
+        }
+      ],
+      "itemIds": [
+        "fins:110337"
+      ],
+      "summary": "미래에셋생명에서 해킹에 따른 정보 유출이 확인되면서 사이버보안 문제가 보험업계의 주요 화두로 떠오르고 있어요. 보험사들은 정보보호 인력과 시스템을 확충하고 외부 인증을 취득하는 등 보안 역량 강화에 나서고 있어요.",
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110317",
+      "topic": "life",
+      "kind": "press",
+      "title": "커지는 생명·건강보험 보장 공백…글로벌 보험사, 상품·자본 함께 바꾼다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110317",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110317"
+        }
+      ],
+      "itemIds": [
+        "fins:110317"
+      ],
+      "summary": "글로벌 보험사들이 상품 혁신과 자본관리를 통해 생명·건강보험의 보장 공백에 대응하고 있어요. 미국에서는 디지털·AI 기술을 활용해 가입 문턱을 낮추고 있으며, 중남미에서는 고령층 의료비 보장과 건강관리를 결합하는 사례가 나타나고 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134912158",
+      "topic": "auto",
+      "kind": "press",
+      "title": "車보험 29년-장기보험 16년 연속 1위… 고객만족의 새 기록",
+      "url": "https://www.donga.com/news/Economy/article/all/20261027/134912158/2",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261027/134912158/2"
+        }
+      ],
+      "itemIds": [
+        "donga:134912158"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 61,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 83,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 32,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 11,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
