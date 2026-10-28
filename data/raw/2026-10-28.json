@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T06:33:36.828Z",
+  "generatedAt": "2026-10-28T12:34:48.258Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -7247,18 +7247,7 @@
       "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123828&boardMngNo=2&seq=1",
       "published": "2026-10-27",
       "hints": [],
-      "attachments": [
-        {
-          "name": "261027_2026년_숨은보험금_찾아주기_대국민캠페인_실시_FN.pdf",
-          "url": "https://www.klia.or.kr/FileDown.do?fileNo=21660&seq=1",
-          "type": "pdf"
-        },
-        {
-          "name": "261027_2026년_숨은보험금_찾아주기_대국민캠페인_실시_FN.hwp",
-          "url": "https://www.klia.or.kr/FileDown.do?fileNo=21660&seq=2",
-          "type": "hwp"
-        }
-      ]
+      "attachments": []
     },
     {
       "id": "kyobo:17545",
@@ -7443,6 +7432,218 @@
       "source": "yna",
       "title": "日서 '피지컬 AI' 로봇 전용 보험 등장…11월 판매",
       "url": "https://www.yna.co.kr/view/AKR20261028135200009",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93571",
+      "source": "insnews",
+      "title": "한화손보, 북악산서 생물다양성 보전… 도심 생태계 보호 나서",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93571",
+      "published": "2026-10-28",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93570",
+      "source": "insnews",
+      "title": "교보생명, ‘금융의 날’ 금융위원장표창… 청년·취약계층 일자리 지원 성과",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93570",
+      "published": "2026-10-28",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93569",
+      "source": "insnews",
+      "title": "서민금융진흥원, ‘햇살론 구상채무자’ 재기 지원 특별 캠페인 시행",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93569",
+      "published": "2026-10-28",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93568",
+      "source": "insnews",
+      "title": "KB라이프, ‘에이지테크’로 시니어 돌봄 혁신… AI·로봇 현장 적용 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93568",
+      "published": "2026-10-28",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93566",
+      "source": "insnews",
+      "title": "NH농협손해보험, 소공인 전용 ‘NH제조소상공인화재보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93566",
+      "published": "2026-10-28",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93560",
+      "source": "insnews",
+      "title": "NH농협금융 3분기 누적 순익 2조5278억원… 출범 후 최대 실적",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93560",
+      "published": "2026-10-28",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93558",
+      "source": "insnews",
+      "title": "청년 첫 연금보험료 지원 사전신청 1만 명 돌파",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93558",
+      "published": "2026-10-28",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93557",
+      "source": "insnews",
+      "title": "교보라플, 미니보험 가입 ‘3분’으로 간소화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93557",
+      "published": "2026-10-28",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93554",
+      "source": "insnews",
+      "title": "카카오페이손보, 출범 4년 만에 누적 가입자 1000만명 돌파",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93554",
+      "published": "2026-10-28",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93552",
+      "source": "insnews",
+      "title": "신한금융, 신한·제주은행장 1차 후보군 압축… 임추위 역할 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93552",
+      "published": "2026-10-28",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93550",
+      "source": "insnews",
+      "title": "“해외 결제시장 판도 바꾸겠다”… 우리은행, 삼성과 결제 혁신",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93550",
+      "published": "2026-10-28",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93545",
+      "source": "insnews",
+      "title": "금융회사 민원·분쟁 모범관행 마련… 자체 해결 역량 높인다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93545",
+      "published": "2026-10-28",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93548",
+      "source": "insnews",
+      "title": "금융위, 포용금융 평가체계 도입… 은행별 인센티브 차등",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93548",
+      "published": "2026-10-28",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33691",
+      "source": "insjournal",
+      "title": "[28일 보험주 마감시황] 미래에셋생명 11.72% 급등·삼성생명 8.82%↑…상장 GA도 반등",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33691",
+      "published": "2026-10-28",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33690",
+      "source": "insjournal",
+      "title": "금감원, '금융사 민원업무 모범관행' 발표… 보험업계 손사·변호사 확충 및 CCO 독립성 '특명'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33690",
+      "published": "2026-10-28",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33685",
+      "source": "insjournal",
+      "title": "질병수술 연 2회면 '높은 종' 한 번 더…흥국화재, '입원치료'까지 신담보 확대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33685",
+      "published": "2026-10-28",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110351",
+      "source": "fins",
+      "title": "KB라이프, 요양·시니어 주거에 피지컬 AI 적용 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110351",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110349",
+      "source": "fins",
+      "title": "'피지컬 AI' 로봇 전용 보험 등장…도쿄해상일동화재, 내달 출시",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110349",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110346",
+      "source": "fins",
+      "title": "'나이롱환자' 허위서류 발급 한방병원 적발",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110346",
+      "published": "2026-10-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110345",
+      "source": "fins",
+      "title": "농협금융 최대 실적에도 보험 계열사, 순이익 기여도 3%대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110345",
       "published": "2026-10-28",
       "hints": [],
       "attachments": []
@@ -7746,7 +7947,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 54,
+      "count": 67,
       "error": null,
       "note": null,
       "disabled": false
@@ -7762,7 +7963,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 55,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -7770,7 +7971,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 52,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -7788,7 +7989,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -7796,7 +7997,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {

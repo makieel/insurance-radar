@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T06:33:36.828Z",
+  "generatedAt": "2026-10-28T12:34:48.258Z",
   "groups": [
     {
       "id": "g:insjournal:33677",
@@ -385,6 +385,270 @@
       "relevanceBy": "ai",
       "importance": 3,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93571",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손보, 북악산서 생물다양성 보전… 도심 생태계 보호 나서",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93571",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93571"
+        }
+      ],
+      "itemIds": [
+        "insnews:93571"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93568",
+      "topic": "life",
+      "kind": "press",
+      "title": "KB라이프, ‘에이지테크’로 시니어 돌봄 혁신… AI·로봇 현장 적용 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93568",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93568"
+        }
+      ],
+      "itemIds": [
+        "insnews:93568"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93560",
+      "topic": "industry",
+      "kind": "press",
+      "title": "NH농협금융 3분기 누적 순익 2조5278억원… 출범 후 최대 실적",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93560",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93560"
+        }
+      ],
+      "itemIds": [
+        "insnews:93560"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93557",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보라플, 미니보험 가입 ‘3분’으로 간소화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93557",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93557"
+        }
+      ],
+      "itemIds": [
+        "insnews:93557"
+      ],
+      "summary": "교보라이프플래닛생명이 모바일 앱에서 3분 이내로 독감과 바이러스 질환, 대상포진 등 질병 보장 6종에 가입할 수 있는 미니보험 패스트트랙 서비스를 선보였다. 천원대 보험료를 한 차례 납부하면 1년간 보장받는 방식이다.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93554",
+      "topic": "industry",
+      "kind": "press",
+      "title": "카카오페이손보, 출범 4년 만에 누적 가입자 1000만명 돌파",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93554",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93554"
+        }
+      ],
+      "itemIds": [
+        "insnews:93554"
+      ],
+      "summary": "카카오페이손해보험이 출범 4년 만에 누적 가입자 1000만명을 돌파했다. 전체 사용자의 절반 이상이 두 차례 이상 가입했으며, 해외여행보험의 재가입률은 70%에 달했다.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93545",
+      "topic": "general",
+      "kind": "press",
+      "title": "금융회사 민원·분쟁 모범관행 마련… 자체 해결 역량 높인다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93545",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93545"
+        }
+      ],
+      "itemIds": [
+        "insnews:93545"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33690",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원, '금융사 민원업무 모범관행' 발표… 보험업계 손사·변호사 확충 및 CCO 독립성 '특명'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33690",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33690"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33690"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33685",
+      "topic": "general",
+      "kind": "press",
+      "title": "질병수술 연 2회면 '높은 종' 한 번 더…흥국화재, '입원치료'까지 신담보 확대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33685",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33685"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33685"
+      ],
+      "summary": "흥국화재가 연간 두 차례 질병수술 시 높은 종의 수술비를 한 번 더 지급하는 질병1~5종수술비 플러스와 상해·질병 입원치료비 등 신규담보 2종을 추가했다. 미사용 치료횟수를 최대 5회까지 이월할 수 있는 순환계질환 한도이연형 주요치료비의 지급방식도 변경했다.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110349",
+      "topic": "general",
+      "kind": "press",
+      "title": "'피지컬 AI' 로봇 전용 보험 등장…도쿄해상일동화재, 내달 출시",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110349",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110349"
+        }
+      ],
+      "itemIds": [
+        "fins:110349"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110346",
+      "topic": "life",
+      "kind": "press",
+      "title": "'나이롱환자' 허위서류 발급 한방병원 적발",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110346",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110346"
+        }
+      ],
+      "itemIds": [
+        "fins:110346"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110345",
+      "topic": "industry",
+      "kind": "press",
+      "title": "농협금융 최대 실적에도 보험 계열사, 순이익 기여도 3%대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110345",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-28",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110345"
+        }
+      ],
+      "itemIds": [
+        "fins:110345"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -487,7 +751,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 54,
+      "count": 67,
       "error": null,
       "note": null,
       "disabled": false
@@ -503,7 +767,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 55,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -511,7 +775,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 52,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -529,7 +793,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -537,7 +801,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {
