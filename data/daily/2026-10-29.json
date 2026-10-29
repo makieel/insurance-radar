@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T06:36:14.342Z",
+  "generatedAt": "2026-10-29T12:35:07.478Z",
   "groups": [
     {
       "id": "g:insjournal:33696",
@@ -510,6 +510,222 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93597",
+      "topic": "industry",
+      "kind": "press",
+      "title": "KB금융 3분기 누적 순익 5조7921억원… 전년比 13.1% 증가",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93597",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93597"
+        }
+      ],
+      "itemIds": [
+        "insnews:93597"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93592",
+      "topic": "general",
+      "kind": "press",
+      "title": "금융위, 보험사기 연루 보험업종사자 29명 제재… 19명 등록취소",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93592",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93592"
+        }
+      ],
+      "itemIds": [
+        "insnews:93592"
+      ],
+      "summary": "금융위원회가 보험사기에 연루된 보험설계사와 손해사정사 등 보험업종사자 29명에 대해 등록취소와 업무정지 제재를 내렸어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93587",
+      "topic": "life",
+      "kind": "press",
+      "title": "금감원, 보험사 계리가정 관리 강화… 연말 ‘집중 점검’ 예고",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93587",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93587"
+        }
+      ],
+      "itemIds": [
+        "insnews:93587"
+      ],
+      "summary": "금융감독원이 전체 보험사를 대상으로 자체점검을 거쳐 11월 말까지 개선계획을 제출하도록 했어요. 오는 12월 말부터는 계리가정보고서가 공식 시행될 예정이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33717",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사도 금융시장 위기 땐 '3~4일 신속정리'…금융위, 150일 절차 단축 추진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33717",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33717"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33717"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33716",
+      "topic": "life",
+      "kind": "press",
+      "title": "보험사 손해율·사업비 가정 산출 '허점'…금감원, 전 보험사에 11월 말 개선계획 요청",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33716",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33716"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33716"
+      ],
+      "summary": "금융감독원이 전체 보험사에 손해율과 사업비 등 주요 계리가정 산출 과정에 대한 자체점검과 11월 말까지의 개선계획 제출을 요청했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110356",
+      "topic": "life",
+      "kind": "press",
+      "title": "KB라이프, 3분기 CSM 3.7조…전년말比 15.8%↑",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110356",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110356"
+        }
+      ],
+      "itemIds": [
+        "fins:110356"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:GZQTQMZSGIYGMMLEMRSWMYZWMY",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성전자, 삼성바이오로직스 신주 6662억원 취득… 삼성생명 저축성 보험 5조원 가입",
+      "url": "https://www.chosun.com/economy/tech_it/2026/10/29/GZQTQMZSGIYGMMLEMRSWMYZWMY/",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/tech_it/2026/10/29/GZQTQMZSGIYGMMLEMRSWMYZWMY/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GZQTQMZSGIYGMMLEMRSWMYZWMY"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:MZSGGNRYGUYGMOLGMM2GMZDDGA",
+      "topic": "life",
+      "kind": "press",
+      "title": "금감원, 보험사 계리가정 상시 관리… 부실 산출 시 집중검사",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/29/MZSGGNRYGUYGMOLGMM2GMZDDGA/",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/10/29/MZSGGNRYGUYGMOLGMM2GMZDDGA/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MZSGGNRYGUYGMOLGMM2GMZDDGA"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261029155400002",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원, 보험부채 부적정 산출 등에 엄정 제재키로",
+      "url": "https://www.yna.co.kr/view/AKR20261029155400002",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261029155400002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261029155400002"
+      ],
+      "summary": "오는 12월 말부터 계리가정보고서가 공식 시행되며, 회사별 계리가정 관리 수준을 측정하는 상시감사지표가 내년부터 운영돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -612,23 +828,23 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 57,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "insweek",
-      "ok": true,
+      "ok": false,
       "count": 50,
-      "error": null,
+      "error": "The operation was aborted due to timeout",
       "note": null,
       "disabled": false
     },
     {
       "source": "insjournal",
       "ok": true,
-      "count": 61,
+      "count": 65,
       "error": null,
       "note": null,
       "disabled": false
@@ -636,7 +852,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 52,
+      "count": 53,
       "error": null,
       "note": null,
       "disabled": false
@@ -654,21 +870,21 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false

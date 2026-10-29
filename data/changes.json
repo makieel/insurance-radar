@@ -69,6 +69,72 @@
     "firstSeen": "2026-10-29"
   },
   {
+    "id": "c:insjournal:33717:ai",
+    "category": "general",
+    "title": "금융회사 신속정리제도 도입 법률 개정 추진",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 11월 2일부터",
+    "quote": "금융당국은 제도 도입을 위해 금산법과 예금자보호법 개정안을 오는 11월 2일부터 12월 14일까지 입법예고할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-29",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33717"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-29"
+  },
+  {
+    "id": "c:insnews:93587:ai",
+    "category": "life",
+    "title": "보험사 계리가정보고서 12월 말 공식 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "12월",
+    "quote": "관련 규정 개정을 거쳐 12월 말부터 공식 시행될 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-29",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93587"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-29"
+  },
+  {
+    "id": "c:yna:AKR20261029155400002:ai",
+    "category": "general",
+    "title": "보험부채 산출 계리가정보고서 12월말 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 12월",
+    "quote": "오는 12월 말부터는 계리가정보고서가 공식 시행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-29",
+    "sources": [
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261029155400002"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-29"
+  },
+  {
     "id": "c:donga:134914283:ai",
     "category": "medical",
     "title": "5세대 실손보험 전환 할인제도 시행",

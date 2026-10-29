@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T06:36:14.342Z",
+  "generatedAt": "2026-10-29T12:35:07.478Z",
   "items": [
     {
       "id": "fsc-press:87952",
@@ -2977,8 +2977,8 @@
       "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%ea%b8%88%ec%9c%b5%ec%9d%98-%eb%82%a0-%ea%b8%88%ec%9c%b5%ec%9c%84%ec%9b%90%ec%9e%a5%ec%83%81-%ec%88%98%ec%83%81/",
       "published": "2026-10-28",
       "hints": [
-        "보도자료",
-        "회사소식"
+        "회사소식",
+        "보도자료"
       ],
       "attachments": []
     },
@@ -2989,12 +2989,12 @@
       "url": "https://news.kyobo.com/%ec%8a%a4%eb%a7%88%ec%9d%bc-%ed%84%b1%eb%b0%9b%ec%9d%b4-%ea%b8%b0%eb%8f%84%ed%8f%90%ec%87%84-%ec%9d%91%ea%b8%89%ec%b2%98%ec%b9%98%eb%b2%95-%eb%8b%b4%ec%95%84-%ec%83%9d%eb%aa%85-%ec%a7%80%ec%bc%9c/",
       "published": "2026-10-27",
       "hints": [
-        "보도자료",
         "회사소식",
-        "사회공헌활동",
-        "스마일 턱받이",
+        "보도자료",
         "사회공헌",
-        "생명존중"
+        "생명존중",
+        "사회공헌활동",
+        "스마일 턱받이"
       ],
       "attachments": []
     },
@@ -3005,14 +3005,14 @@
       "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%b3%b4%ed%97%98%ea%b8%88-%ec%a7%80%ea%b8%89%ec%86%8d%eb%8f%84-1%ec%9c%84/",
       "published": "2026-10-23",
       "hints": [
-        "보도자료",
         "회사소식",
-        "신속지급",
-        "AI",
-        "신창재",
+        "보도자료",
         "보험금 지급",
         "교보생명",
-        "고객보장"
+        "고객보장",
+        "신속지급",
+        "AI",
+        "신창재"
       ],
       "attachments": []
     },
@@ -5410,18 +5410,7 @@
       "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123832&boardMngNo=2&seq=1",
       "published": "2026-10-29",
       "hints": [],
-      "attachments": [
-        {
-          "name": "(보도자료)_생보업계 금융 대전환 실천 간담회 개최.hwp",
-          "url": "https://www.klia.or.kr/FileDown.do?fileNo=21666&seq=1",
-          "type": "hwp"
-        },
-        {
-          "name": "(보도자료)_생보업계 금융 대전환 실천 간담회 개최.pdf",
-          "url": "https://www.klia.or.kr/FileDown.do?fileNo=21666&seq=2",
-          "type": "pdf"
-        }
-      ]
+      "attachments": []
     },
     {
       "id": "insnews:93588",
@@ -5653,6 +5642,130 @@
       "source": "yna",
       "title": "고의 사고·허위 입원 보험사기…보험업종사자 29명 제재",
       "url": "https://www.yna.co.kr/view/AKR20261029084400002",
+      "published": "2026-10-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93597",
+      "source": "insnews",
+      "title": "KB금융 3분기 누적 순익 5조7921억원… 전년比 13.1% 증가",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93597",
+      "published": "2026-10-29",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93592",
+      "source": "insnews",
+      "title": "금융위, 보험사기 연루 보험업종사자 29명 제재… 19명 등록취소",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93592",
+      "published": "2026-10-29",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93591",
+      "source": "insnews",
+      "title": "빚 문제 어디에 물어볼까… 채무상담 대표번호 ‘1375’ 개통",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93591",
+      "published": "2026-10-29",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93587",
+      "source": "insnews",
+      "title": "금감원, 보험사 계리가정 관리 강화… 연말 ‘집중 점검’ 예고",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93587",
+      "published": "2026-10-29",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33717",
+      "source": "insjournal",
+      "title": "보험사도 금융시장 위기 땐 '3~4일 신속정리'…금융위, 150일 절차 단축 추진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33717",
+      "published": "2026-10-29",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33716",
+      "source": "insjournal",
+      "title": "보험사 손해율·사업비 가정 산출 '허점'…금감원, 전 보험사에 11월 말 개선계획 요청",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33716",
+      "published": "2026-10-29",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33715",
+      "source": "insjournal",
+      "title": "KB손보 GA영업 이끈 '오영택', 라이나생명 부사장으로…11월 2일 부임",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33715",
+      "published": "2026-10-29",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33714",
+      "source": "insjournal",
+      "title": "[29일 보험주 마감시황] 메리츠금융지주 6.74% 급등…상장 GA 이틀째 상승",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33714",
+      "published": "2026-10-29",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110356",
+      "source": "fins",
+      "title": "KB라이프, 3분기 CSM 3.7조…전년말比 15.8%↑",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110356",
+      "published": "2026-10-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GZQTQMZSGIYGMMLEMRSWMYZWMY",
+      "source": "chosun",
+      "title": "삼성전자, 삼성바이오로직스 신주 6662억원 취득… 삼성생명 저축성 보험 5조원 가입",
+      "url": "https://www.chosun.com/economy/tech_it/2026/10/29/GZQTQMZSGIYGMMLEMRSWMYZWMY/",
+      "published": "2026-10-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MZSGGNRYGUYGMOLGMM2GMZDDGA",
+      "source": "chosun",
+      "title": "금감원, 보험사 계리가정 상시 관리… 부실 산출 시 집중검사",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/29/MZSGGNRYGUYGMOLGMM2GMZDDGA/",
+      "published": "2026-10-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261029155400002",
+      "source": "yna",
+      "title": "금감원, 보험부채 부적정 산출 등에 엄정 제재키로",
+      "url": "https://www.yna.co.kr/view/AKR20261029155400002",
       "published": "2026-10-29",
       "hints": [],
       "attachments": []
@@ -5956,23 +6069,23 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 57,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "insweek",
-      "ok": true,
+      "ok": false,
       "count": 50,
-      "error": null,
+      "error": "The operation was aborted due to timeout",
       "note": null,
       "disabled": false
     },
     {
       "source": "insjournal",
       "ok": true,
-      "count": 61,
+      "count": 65,
       "error": null,
       "note": null,
       "disabled": false
@@ -5980,7 +6093,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 52,
+      "count": 53,
       "error": null,
       "note": null,
       "disabled": false
@@ -5998,21 +6111,21 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
