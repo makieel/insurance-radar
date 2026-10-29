@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T00:31:25.815Z",
+  "generatedAt": "2026-10-29T06:36:14.342Z",
   "groups": [
     {
       "id": "g:insjournal:33696",
@@ -217,13 +217,306 @@
       "relevanceBy": "ai",
       "importance": 3,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:fsc-press:88021",
+      "topic": "general",
+      "kind": "gov",
+      "title": "보험사기 연루 보험업종사자에 대한 등록취소·업무정지 등 제재",
+      "url": "https://www.fsc.go.kr/no010101/88021",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "금융위원회",
+          "url": "https://www.fsc.go.kr/no010101/88021"
+        },
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=247619&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fsc-press:88021",
+        "fss-press:247619"
+      ],
+      "summary": "금융위원회와 금융감독원은 보험사기에 연루된 보험업종사자 29명에 대하여 등록취소 및 업무정지 조치를 결정했어요.",
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93581",
+      "topic": "life",
+      "kind": "press",
+      "title": "생명보험재단, 직장인 고민 나누는 ‘SOS고민말하자’ 공개",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93581",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93581"
+        }
+      ],
+      "itemIds": [
+        "insnews:93581"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93578",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손보, 나눔 바자회 ‘웰투게더 마켓’ 전국 릴레이 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93578",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93578"
+        }
+      ],
+      "itemIds": [
+        "insnews:93578"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33712",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"고객 발굴부터 보상·계약 실무까지\"…인카다이렉트 슈페리어총괄사업단, '밀착 지원체계' 눈길",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33712",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33712"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33712"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33708",
+      "topic": "general",
+      "kind": "press",
+      "title": "암·순환계·비급여수술 ‘한 담보'로 20년간 '10억’… 현대해상, '퍼펙트플러스' 전면 배치",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33708",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33708"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33708"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33709",
+      "topic": "general",
+      "kind": "press",
+      "title": "[단독] “700종신 후속상품도 완전 차단되나”… iM라이프, 표준형 700종신 출시 보름 만에 판매중지",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33709",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33709"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33709"
+      ],
+      "summary": "iM라이프는 표준형 700종신보험을 출시 보름 만에 일시 판매중지하기로 했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33703",
+      "topic": "general",
+      "kind": "press",
+      "title": "[부고] 이창수, 前 DB손보 부사장 빙모상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33703",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33703"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33703"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33697",
+      "topic": "industry",
+      "kind": "press",
+      "title": "[보험, AI 에이전트 시대] ③美·EU 'AI 감독' 구체화…韓 보험영업, '코파일럿'이 현실적 대안",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33697",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33697"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33697"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33701",
+      "topic": "general",
+      "kind": "press",
+      "title": "'종신보장' 유지하고 노후엔 '생활자금' 인출… ABL생명 ‘WON스테이블종신’ 11월 출격",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33701",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33701"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33701"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33698",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"입원도 안 했는데 6억 꿀꺽\"… 한방병원 의사·나이롱환자 114명 무더기 적발",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33698",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33698"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33698"
+      ],
+      "summary": "실제 입원하지 않고 허위 입·퇴원 확인서를 발급해 약 6억 원의 보험금을 편취한 한방병원 관계자 및 환자 등 총 114명이 경찰에 검거되었어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110355",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성생명·화재, 전자 통 큰 배당에 3조원대 수혜 전망",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110355",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110355"
+        }
+      ],
+      "itemIds": [
+        "fins:110355"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:yna:AKR20261029084400002",
+      "topic": "general",
+      "kind": "press",
+      "title": "고의 사고·허위 입원 보험사기…보험업종사자 29명 제재",
+      "url": "https://www.yna.co.kr/view/AKR20261029084400002",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261029084400002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261029084400002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
     {
       "source": "fsc-press",
       "ok": true,
-      "count": 61,
+      "count": 62,
       "error": null,
       "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
@@ -239,7 +532,7 @@
     {
       "source": "fss-press",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -271,7 +564,7 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -319,7 +612,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -335,7 +628,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -343,7 +636,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -359,7 +652,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
@@ -375,7 +668,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false

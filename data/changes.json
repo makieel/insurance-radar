@@ -47,6 +47,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:insjournal:33701:ai",
+    "category": "life",
+    "title": "ABL생명, '우리WON스테이블종신보험' 11월 출시",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "11월",
+    "quote": "‘우리WON스테이블종신보험’은 11월 출시 예정인 해약환급금 일부지급형 종신보험이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-29",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33701"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-29"
+  },
+  {
     "id": "c:donga:134914283:ai",
     "category": "medical",
     "title": "5세대 실손보험 전환 할인제도 시행",
