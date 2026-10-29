@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T00:31:25.815Z",
+  "groups": [
+    {
+      "id": "g:insjournal:33696",
+      "topic": "auto",
+      "kind": "press",
+      "title": "악사손보 다이렉트자동차보험, 11년 연속 '소비자 추천 1위' 대기록 달성",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33696",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33696"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33696"
+      ],
+      "summary": "악사손보는 다이렉트자동차보험 부문에서 11년 연속 소비자가 가장 추천하는 브랜드 1위에 올랐어요. 주행거리 마일리지 선할인, 안전운전 점수 할인, 전기차 전용 라인업 등의 맞춤형 특약을 제공해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33694",
+      "topic": "life",
+      "kind": "press",
+      "title": "\"혼자 앓지 말고 말하자\"…생명보험재단, 직장인 고민 타파 'SOS고민말하자' 공개",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33694",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33694"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33694"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33693",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손보, 가족돌봄여성 일상 회복 돕는다…'웰투게더 마켓' 전국 릴레이 개최",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33693",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33693"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33693"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33692",
+      "topic": "general",
+      "kind": "press",
+      "title": "“믿고 싶은 대로 해석하면 낭패”… 4년 분급제 둘러싼 2가지 착각",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33692",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33692"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33692"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110353",
+      "topic": "general",
+      "kind": "press",
+      "title": "해킹 뉴스에 떠오른 '코로나 기시감 ‘... 은행 다음은 보험·증권...",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110353",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110353"
+        }
+      ],
+      "itemIds": [
+        "fins:110353"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110350",
+      "topic": "life",
+      "kind": "press",
+      "title": "농협생명, 종신보험 판매 부흥 일으키나",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110350",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110350"
+        }
+      ],
+      "itemIds": [
+        "fins:110350"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110348",
+      "topic": "industry",
+      "kind": "press",
+      "title": "삼성생명도 6%대 자본조달…중소사 부담 커질까",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110348",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110348"
+        }
+      ],
+      "itemIds": [
+        "fins:110348"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110347",
+      "topic": "general",
+      "kind": "press",
+      "title": "더블유에셋, 전산료 논란 확산…집단 법적 대응 가능성",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110347",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110347"
+        }
+      ],
+      "itemIds": [
+        "fins:110347"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:134919910",
+      "topic": "life",
+      "kind": "press",
+      "title": "폐렴-로봇수술 강화… 시니어 보험 개정",
+      "url": "https://www.donga.com/news/Economy/article/all/20261028/134919910/2",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-29",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261028/134919910/2"
+        }
+      ],
+      "itemIds": [
+        "donga:134919910"
+      ],
+      "summary": "삼성생명은 폐렴과 로봇 인공관절 수술 보장을 강화한 '삼성 시니어 대표건강보험 종합보장형'과 장기 요양 판정 이후 치료를 통합 보장하는 'LTC 통합 치료형'을 선보였어요. 종합보장형에는 폐렴 진단, 입원, 중환자실 치료 보장이 새롭게 추가되었어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 61,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": true,
+      "count": 3,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}

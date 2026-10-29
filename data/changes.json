@@ -1,5 +1,30 @@
 [
   {
+    "id": "c:insjournal:33692:ai",
+    "category": "general",
+    "title": "2027년 1월 보험 판매수수료 4년 분급제 시행",
+    "when": "period",
+    "date": null,
+    "period": {
+      "start": "2027-01-01",
+      "end": "2027-01-31"
+    },
+    "phrase": "2027년 1월",
+    "quote": "2027년 1월 보험 판매수수료 4년 분급제 시행이 두 달 앞으로 다가오면서 보험사와 GA(법인보험대리점) 현장에서 수수료 지급방식을 둘러싼 다양한 해석이 제기되고 있다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-29",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33692"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-29"
+  },
+  {
     "id": "c:joongang:25465476:ai",
     "category": "life",
     "title": "18세 청년 생애 첫 연금보험료 국가 지원",
@@ -765,32 +790,6 @@
       {
         "name": "중앙일보",
         "url": "https://www.joongang.co.kr/article/25425812"
-      }
-    ],
-    "origin": "ai",
-    "rate": null,
-    "firstSeen": "2026-10-25"
-  },
-  {
-    "id": "c:joongang:25423823:ai",
-    "category": "auto",
-    "title": "차량 2·5부제 참여 시 자동차보험료 연 2% 할인",
-    "when": "phrase",
-    "date": null,
-    "period": null,
-    "phrase": "1일부터",
-    "quote": "보험료 할인은 이달 1일부터 소급해 적용한다.",
-    "status": "confirmed",
-    "past": false,
-    "announced": "2026-04-28",
-    "sources": [
-      {
-        "name": "중앙일보",
-        "url": "https://www.joongang.co.kr/article/25423823"
-      },
-      {
-        "name": "중앙일보",
-        "url": "https://www.joongang.co.kr/article/25423554"
       }
     ],
     "origin": "ai",
