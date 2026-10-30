@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T06:36:44.653Z",
+  "generatedAt": "2026-10-30T12:35:25.627Z",
   "groups": [
     {
       "id": "g:kyobo:17647",
@@ -486,6 +486,102 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93606",
+      "topic": "life",
+      "kind": "press",
+      "title": "생보업계, 생산적 금융 6.2조 공급… 9월 목표 37% 웃돌아",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93606",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93606"
+        }
+      ],
+      "itemIds": [
+        "insnews:93606"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72877",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, AI 보험설계 지원 시스템 'Hi-헬퍼' 오픈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72877",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72877"
+        }
+      ],
+      "itemIds": [
+        "insweek:72877"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72878",
+      "topic": "general",
+      "kind": "press",
+      "title": "롯데손해보험, 외식 프렌차이즈 기업과 ‘원더’ 공동 마케팅 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72878",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72878"
+        }
+      ],
+      "itemIds": [
+        "insweek:72878"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33729",
+      "topic": "life",
+      "kind": "press",
+      "title": "종신은 ‘투스텝’ 부활, 간병은 한도 조정… NH농협생명 '라인업' 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33729",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33729"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33729"
+      ],
+      "summary": "NH농협생명이 보험료 납입 후반부의 부담을 낮춘 ‘투스텝NH종신보험’을 다시 선보여요. 오는 16일부터 ‘NH올원더풀간병안심요양보험’의 간병인사용입원 가입한도가 연령과 입원기간에 따라 낮아져요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -588,7 +684,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 54,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -596,7 +692,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 51,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -604,7 +700,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 56,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -638,7 +734,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": "오늘 보험 기사 없음(읽은 글 99건)",
       "disabled": false
     },
     {

@@ -47,6 +47,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:insjournal:33729:ai",
+    "category": "life",
+    "title": "NH농협생명, 간병인사용입원 가입한도 조정",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 16일부터",
+    "quote": "‘NH올원더풀간병안심요양보험’의 간병인사용입원 가입한도가 오는 16일부터 연령과 입원기간에 따라 낮아진다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-10-30",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33729"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-10-30"
+  },
+  {
     "id": "c:insjournal:33701:ai",
     "category": "life",
     "title": "ABL생명, '우리WON스테이블종신보험' 11월 출시",

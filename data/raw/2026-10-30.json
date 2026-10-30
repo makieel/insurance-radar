@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T06:36:44.653Z",
+  "generatedAt": "2026-10-30T12:35:25.627Z",
   "items": [
     {
       "id": "fsc-press:88021",
@@ -2842,10 +2842,10 @@
       "hints": [
         "보도자료",
         "상품/서비스",
-        "모닝브리핑",
-        "금융시황",
         "변액보험",
-        "로보어드바이저"
+        "로보어드바이저",
+        "모닝브리핑",
+        "금융시황"
       ],
       "attachments": []
     },
@@ -5448,6 +5448,127 @@
       "published": "2026-10-30",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93609",
+      "source": "insnews",
+      "title": "우리銀, 리센느와 ‘우리는 해’... 꿈을 향한 도전 응원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93609",
+      "published": "2026-10-30",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93608",
+      "source": "insnews",
+      "title": "KB라이프, 2026 나눔아카데미 기부금 전달",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93608",
+      "published": "2026-10-30",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93607",
+      "source": "insnews",
+      "title": "삼성화재 모빌리티뮤지엄, ‘모뮤 오픈 페스타’ 개최… 클래식카 20여 대 한자리에",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93607",
+      "published": "2026-10-30",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93606",
+      "source": "insnews",
+      "title": "생보업계, 생산적 금융 6.2조 공급… 9월 목표 37% 웃돌아",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93606",
+      "published": "2026-10-30",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93605",
+      "source": "insnews",
+      "title": "롯데손보 ‘원더’, 외식 매장서 ‘N잡 설계사’ 찾는다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93605",
+      "published": "2026-10-30",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72882",
+      "source": "insweek",
+      "title": "KB라이프, 2026 나눔아카데미 기부금 전달",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72882",
+      "published": "2026-10-30",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72877",
+      "source": "insweek",
+      "title": "현대해상, AI 보험설계 지원 시스템 'Hi-헬퍼' 오픈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72877",
+      "published": "2026-10-30",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72878",
+      "source": "insweek",
+      "title": "롯데손해보험, 외식 프렌차이즈 기업과 ‘원더’ 공동 마케팅 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72878",
+      "published": "2026-10-30",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33731",
+      "source": "insjournal",
+      "title": "[부고] 최덕상 보험저널 발행인 부친상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33731",
+      "published": "2026-10-30",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33730",
+      "source": "insjournal",
+      "title": "[30일 보험주 마감시황] 대형 손보 3사 동반 상승…삼성생명 2.70%↓·상장 GA 엇갈림",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33730",
+      "published": "2026-10-30",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33729",
+      "source": "insjournal",
+      "title": "종신은 ‘투스텝’ 부활, 간병은 한도 조정… NH농협생명 '라인업' 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33729",
+      "published": "2026-10-30",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
     }
   ],
   "rates": [
@@ -5748,7 +5869,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 54,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -5756,7 +5877,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 51,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -5764,7 +5885,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 56,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -5798,7 +5919,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": "오늘 보험 기사 없음(읽은 글 99건)",
       "disabled": false
     },
     {
