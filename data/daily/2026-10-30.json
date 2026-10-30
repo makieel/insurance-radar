@@ -1,0 +1,440 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T00:32:58.365Z",
+  "groups": [
+    {
+      "id": "g:kyobo:17647",
+      "topic": "life",
+      "kind": "insurer",
+      "title": "교보생명, 로보어드바이저로 변액보험 고객 펀드 관리 돕는다",
+      "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%a1%9c%eb%b3%b4%ec%96%b4%eb%93%9c%eb%b0%94%ec%9d%b4%ec%a0%80-%eb%b3%80%ec%95%a1%eb%b3%b4%ed%97%98-%ed%8e%80%eb%93%9c%ea%b4%80%eb%a6%ac-%eb%8f%84%ec%99%80/",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "교보생명",
+          "url": "https://news.kyobo.com/%ea%b5%90%eb%b3%b4%ec%83%9d%eb%aa%85-%eb%a1%9c%eb%b3%b4%ec%96%b4%eb%93%9c%eb%b0%94%ec%9d%b4%ec%a0%80-%eb%b3%80%ec%95%a1%eb%b3%b4%ed%97%98-%ed%8e%80%eb%93%9c%ea%b4%80%eb%a6%ac-%eb%8f%84%ec%99%80/"
+        }
+      ],
+      "itemIds": [
+        "kyobo:17647"
+      ],
+      "summary": "교보생명은 변액보험 고객의 체계적인 펀드 관리를 지원하기 위해 매일 금융시황 정보를 제공하는 로보어드바이저 내 '모닝브리핑' 서비스를 개시했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33722",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, AI가 1분 만에 맞춤형 플랜 '뚝딱'…설계 지원 시스템 'Hi-헬퍼' 출격",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33722",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33722"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33722"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33721",
+      "topic": "life",
+      "kind": "press",
+      "title": "\"건강·노후 든든하게 챙기고 혜택까지\"…삼성생명 다이렉트, 11월 가입 이벤트",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33721",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33721"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33721"
+      ],
+      "summary": "삼성생명 다이렉트는 오는 11월 1일부터 30일까지 신규 가입 고객을 대상으로 보험 가입 이벤트를 진행해요. 가입 후 3회차 보험료 납입 및 정상 유지 조건을 충족하면 내년 2월 말 이내에 상품별로 경품을 제공해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110364",
+      "topic": "industry",
+      "kind": "press",
+      "title": "금융지주 순익 ‘역대 최대’에도…보험 자회사는 뒷걸음",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110364",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110364"
+        }
+      ],
+      "itemIds": [
+        "fins:110364"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110363",
+      "topic": "life",
+      "kind": "press",
+      "title": "금감원, 보험부채 산출 오류 정조준…연말 결산 집중감리 예고",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110363",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110363"
+        }
+      ],
+      "itemIds": [
+        "fins:110363"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:MQ3WEZRUGFSWCYTGMNQTMYZQG4",
+      "topic": "life",
+      "kind": "press",
+      "title": "외면받던 저축·종신보험, 암 보장·목돈 기능 더해 돌파구 모색",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/10/30/MQ3WEZRUGFSWCYTGMNQTMYZQG4/",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/10/30/MQ3WEZRUGFSWCYTGMNQTMYZQG4/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MQ3WEZRUGFSWCYTGMNQTMYZQG4"
+      ],
+      "summary": "올해 상반기 생명보험사의 월납 저축성 보험 초회 보험료는 400억원으로 지난해 같은 기간보다 44.6% 줄었어요. 종신보험의 상반기 초회 보험료도 3417억원으로 지난해보다 5.7% 감소했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72845",
+      "topic": "general",
+      "kind": "press",
+      "title": "NH농협생명, 경기 하남 농가 찾아 농촌일손돕기 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72845",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72845"
+        }
+      ],
+      "itemIds": [
+        "insweek:72845"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72843",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손해보험, 나눔 바자회 ‘웰투게더 마켓’ 전국 릴레이 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72843",
+      "published": "2026-10-29",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72843"
+        }
+      ],
+      "itemIds": [
+        "insweek:72843"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72850",
+      "topic": "life",
+      "kind": "press",
+      "title": "신한라이프, ‘신한슈퍼SOL라이프스위칭저축보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72850",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72850"
+        }
+      ],
+      "itemIds": [
+        "insweek:72850"
+      ],
+      "summary": "신한라이프는 오는 11월 2일 '신한슈퍼SOL라이프스위칭저축보험'을 출시해요. 이 상품은 저축보험으로 가입해 자금을 모으다가 생애주기 변화로 보장이 필요할 때 보장의 종류와 금액, 시작 시점을 직접 선택할 수 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72849",
+      "topic": "industry",
+      "kind": "press",
+      "title": "교보생명, ‘금융의 날’ 맞아 금융위원장표창 수상",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72849",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72849"
+        }
+      ],
+      "itemIds": [
+        "insweek:72849"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72847",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보라이프플래닛생명, ‘미니보험 패스트트랙’ 시스템 오픈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72847",
+      "published": "2026-10-28",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72847"
+        }
+      ],
+      "itemIds": [
+        "insweek:72847"
+      ],
+      "summary": "교보라이프플래닛생명은 질병 보장을 쉽고 빠르게 가입할 수 있는 '미니보험 패스트트랙' 시스템을 오픈했어요. 모바일 앱을 통해 365일 언제 어디서나 3분 내로 미니보험 상품에 가입할 수 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": true,
+      "count": 3,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
