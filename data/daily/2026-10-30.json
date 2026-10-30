@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T00:32:58.365Z",
+  "generatedAt": "2026-10-30T06:36:44.653Z",
   "groups": [
     {
       "id": "g:kyobo:17647",
@@ -265,6 +265,227 @@
       "relevanceBy": "ai",
       "importance": 2,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93604",
+      "topic": "life",
+      "kind": "press",
+      "title": "교보생명, ‘모닝브리핑’ 도입… 변액보험 펀드 관리 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93604",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93604"
+        }
+      ],
+      "itemIds": [
+        "insnews:93604"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93603",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, AI로 가입 가능 상품 추리고 맞춤 설계안 제안",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93603",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93603"
+        }
+      ],
+      "itemIds": [
+        "insnews:93603"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93602",
+      "topic": "life",
+      "kind": "press",
+      "title": "삼성생명, 11월 다이렉트 보험 이벤트 실시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93602",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93602"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72863"
+        }
+      ],
+      "itemIds": [
+        "insnews:93602",
+        "insweek:72863"
+      ],
+      "summary": "삼성생명은 오는 11월 1일부터 30일까지 다이렉트 보험 신규 가입 및 연금저축·연금보험 최초 가입 고객을 대상으로 네이버페이 포인트와 모니머니를 지급하는 이벤트를 진행해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93601",
+      "topic": "general",
+      "kind": "press",
+      "title": "카카오페이손보, ‘댕댕런2026’서 반려인 4000명에 펫보험 알린다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93601",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93601"
+        }
+      ],
+      "itemIds": [
+        "insnews:93601"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33728",
+      "topic": "life",
+      "kind": "press",
+      "title": "신경계·치매부터 신생물·암치료까지… 라이나생명, ‘통합보장’ 전면 배치",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33728",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33728"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33728"
+      ],
+      "summary": "라이나생명은 신경계질환부터 치매까지 단계별 진단비와 생활자금을 보장하고 최근 2년 및 5년 이내 고지 항목을 완화한 3·2·5 간편심사 건강보험을 새로 선보여요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33726",
+      "topic": "general",
+      "kind": "press",
+      "title": "총납입보험료 100%까지 인출해도 '가입금액 100%' 사망보장… DB생명 ‘리턴종신’ 출격",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33726",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33726"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33726"
+      ],
+      "summary": "DB생명이 총납입보험료 수준의 자금을 단계적으로 중도인출하면서도 주계약 보험가입금액의 100% 사망보장을 유지하거나 미인출 시 사망보장이 추가되는 리턴종신보험을 선보여요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33725",
+      "topic": "general",
+      "kind": "press",
+      "title": "자동차사고, ‘변호사’ 직접 찾지 않아도 알아서 지원… KB손보, 경찰조사부터 3심까지 ‘현물지원’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33725",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33725"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33725"
+      ],
+      "summary": "KB손해보험은 11월 자동차사고 발생 시 고객이 직접 변호사를 찾지 않고 제휴 법무법인을 통해 경찰조사부터 3심까지 변호사를 지원받는 현물급부 선택형 담보를 새로 선보여요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110366",
+      "topic": "industry",
+      "kind": "press",
+      "title": "생보업계 생산적 금융 6.2조 공급…장기투자 확대에 규제 합리화 추진",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110366",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110366"
+        }
+      ],
+      "itemIds": [
+        "fins:110366"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110365",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, AI 보험설계 지원 시스템 ‘Hi-헬퍼’ 도입",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110365",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-30",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110365"
+        }
+      ],
+      "itemIds": [
+        "fins:110365"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -302,17 +523,17 @@
     },
     {
       "source": "knia-press",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 10,
+      "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "knia-rates",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 28,
+      "error": null,
       "note": null,
       "disabled": false
     },
@@ -367,7 +588,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -375,7 +596,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -383,7 +604,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -391,7 +612,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -417,7 +638,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {
@@ -425,7 +646,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
       "disabled": false
     },
     {
