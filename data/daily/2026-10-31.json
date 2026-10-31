@@ -1,0 +1,224 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T00:37:35.118Z",
+  "groups": [
+    {
+      "id": "g:fins:110368",
+      "topic": "industry",
+      "kind": "press",
+      "title": "금융공학회, 보험 IFRS17 주요 쟁점 논의",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110368",
+      "published": "2026-10-31",
+      "firstSeen": "2026-10-31",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110368"
+        }
+      ],
+      "itemIds": [
+        "fins:110368"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93598",
+      "topic": "general",
+      "kind": "press",
+      "title": "금융사 부실 정리 기간 단축… ‘신속정리제도’ 도입 추진",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93598",
+      "published": "2026-10-30",
+      "firstSeen": "2026-10-31",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93598"
+        }
+      ],
+      "itemIds": [
+        "insnews:93598"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": true,
+      "count": 3,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
