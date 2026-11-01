@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T00:37:10.061Z",
+  "generatedAt": "2026-11-01T06:40:53.829Z",
   "groups": [
     {
       "id": "g:fins:110370",
@@ -25,15 +25,87 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:249656",
+      "topic": "general",
+      "kind": "gov",
+      "title": "자동 가입되는 시민안전보험, 보험금 청구까지 꼭 챙기세요",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249656&menuNo=200218",
+      "published": "2026-11-01",
+      "firstSeen": "2026-11-01",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249656&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:249656"
+      ],
+      "summary": "지방자치단체가 자율적으로 가입하는 시민안전보험은 해당 지자체에 주민등록이 되어 있는 모든 시민이 자동 가입됩니다. 보험금은 지자체가 아닌 보험회사에 직접 청구해야 하며, 과거 사고에 대해서도 3년 이내라면 청구할 수 있습니다. 지자체와 연도별로 보장항목 및 세부내용이 상이하므로 등록주소지의 안전보험 가입정보를 확인하시기 바랍니다.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110372",
+      "topic": "general",
+      "kind": "press",
+      "title": "자동가입 시민안전보험, 보험금은 '신청해야' 받는다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110372",
+      "published": "2026-11-01",
+      "firstSeen": "2026-11-01",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110372"
+        }
+      ],
+      "itemIds": [
+        "fins:110372"
+      ],
+      "summary": "지방자치단체가 주민을 대상으로 가입하는 시민안전보험은 별도의 가입절차 없이 자동 적용되지만 사고 발생 시 보험회사나 공제회에 직접 청구해야 합니다. 광역 및 기초 지자체가 각각 보험에 가입한 경우 동일한 사고에 대해 보험금을 중복으로 받을 수 있습니다. 거주지가 아닌 다른 지역에서 사고를 당했더라도 당시 주소지의 보험계약에서 보장하는 사고라면 보험금을 받을 수 있습니다.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261031040400002",
+      "topic": "general",
+      "kind": "press",
+      "title": "자동가입 지자체 시민안전보험…보험금 받을 땐 직접 청구해야",
+      "url": "https://www.yna.co.kr/view/AKR20261031040400002",
+      "published": "2026-10-31",
+      "firstSeen": "2026-11-01",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261031040400002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261031040400002"
+      ],
+      "summary": "지방자치단체가 자율적으로 가입하는 시민안전보험은 주민등록상 지역 주민이면 자동 가입되지만 사고 발생 시 직접 보험금을 청구해야 혜택을 받을 수 있습니다. 보험금은 사고발생일 등 소멸시효 기산점부터 3년 이내 청구할 수 있으며, 보험기간이 종료된 뒤에도 청구 기간이 남아있으면 청구할 수 있습니다. 각 지자체의 연도별 보험 가입정보는 재난보험24의 '시민안전보험조회'를 통해 확인할 수 있습니다.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
     }
   ],
   "status": [
     {
       "source": "fsc-press",
-      "ok": false,
-      "count": 0,
-      "error": "The operation was aborted due to timeout",
-      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -41,15 +113,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 80,
+      "count": 81,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -57,7 +129,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -65,7 +137,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -81,7 +153,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -151,7 +223,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -183,9 +255,9 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "note": null,
       "disabled": false
     },
     {
