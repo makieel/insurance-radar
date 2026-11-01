@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T06:40:53.829Z",
+  "generatedAt": "2026-11-01T12:33:15.171Z",
   "groups": [
     {
       "id": "g:fins:110370",
@@ -97,6 +97,54 @@
       "relevanceBy": "ai",
       "importance": 4,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93612",
+      "topic": "general",
+      "kind": "press",
+      "title": "자동 가입되는 시민안전보험… 보험금은 직접 청구",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93612",
+      "published": "2026-11-01",
+      "firstSeen": "2026-11-01",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93612"
+        }
+      ],
+      "itemIds": [
+        "insnews:93612"
+      ],
+      "summary": "지자체가 운영하는 시민안전보험은 자동 가입되지만, 보험금을 받으려면 가입자가 지자체와 계약한 보험사나 공제회에 직접 청구해야 해요. 보험금은 사고발생일 등 소멸시효 기산점부터 3년 이내에 청구할 수 있어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72880",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성화재 모빌리티뮤지엄, 클래식카 문화축제 '모뮤 오픈 페스타' 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72880",
+      "published": "2026-10-30",
+      "firstSeen": "2026-11-01",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72880"
+        }
+      ],
+      "itemIds": [
+        "insweek:72880"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -199,7 +247,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 53,
       "error": null,
       "note": null,
       "disabled": false
@@ -207,7 +255,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -215,7 +263,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T06:40:53.829Z",
+  "generatedAt": "2026-11-01T12:33:15.171Z",
   "items": [
     {
       "id": "fsc-rule:4171",
@@ -7132,6 +7132,61 @@
       "published": "2026-10-31",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93612",
+      "source": "insnews",
+      "title": "자동 가입되는 시민안전보험… 보험금은 직접 청구",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93612",
+      "published": "2026-11-01",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93613",
+      "source": "insnews",
+      "title": "KB국민은행, 국내 첫 GPU 파이낸싱 주선… AI 인프라 투자 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93613",
+      "published": "2026-11-01",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93611",
+      "source": "insnews",
+      "title": "한화생명, 암경험청년 응원 운동회 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93611",
+      "published": "2026-11-01",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72880",
+      "source": "insweek",
+      "title": "삼성화재 모빌리티뮤지엄, 클래식카 문화축제 '모뮤 오픈 페스타' 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72880",
+      "published": "2026-10-30",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33733",
+      "source": "insjournal",
+      "title": "“IFRS17에 IFRS18까지”… 보험사 셈법 달라지나, 전속·GA 수익성 재평가 촉각",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33733",
+      "published": "2026-11-01",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7432,7 +7487,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 53,
       "error": null,
       "note": null,
       "disabled": false
@@ -7440,7 +7495,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -7448,7 +7503,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
