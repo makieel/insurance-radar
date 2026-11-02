@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T07:00:20.339Z",
+  "generatedAt": "2026-11-02T12:49:14.436Z",
   "items": [
     {
       "id": "fsc-press:88021",
@@ -5790,6 +5790,75 @@
       "published": "2026-11-02",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "hanwha:3571",
+      "source": "hanwha",
+      "title": "한화금융 4개사, 퇴직연금시장 선도 나선다",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3571",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "hanwha:3570",
+      "source": "hanwha",
+      "title": "한화생명, 암경험청년 응원 운동회 개최",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3570",
+      "published": "2026-11-01",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93626",
+      "source": "insnews",
+      "title": "“보험은 누가 가르치나요”… 학교 보험교육 ‘현장과 괴리’",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93626",
+      "published": "2026-11-02",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72914",
+      "source": "insweek",
+      "title": "라이나생명 임원 인사",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72914",
+      "published": "2026-11-02",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33754",
+      "source": "insjournal",
+      "title": "[2일 보험주 마감시황] 대형 손보 3사 동반 하락…흥국화재 3.61%↑·상장 GA 약세",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33754",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "donga:134951451",
+      "source": "donga",
+      "title": "하나손보, 치매 진단부터 재활·요양까지 보장하는 ‘하나더넥스트 치매플러스보험’ 출시",
+      "url": "https://www.donga.com/news/Economy/article/all/20261102/134951451/1",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MMYDQZTGGQZGEMZQGRQWCMZXHA",
+      "source": "chosun",
+      "title": "부실 보험사 정리할 때 고금리·고보장 계약도 바꾼다…예보, 법 개정 검토",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/02/MMYDQZTGGQZGEMZQGRQWCMZXHA/",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -6058,7 +6127,7 @@
     {
       "source": "hanwha",
       "ok": true,
-      "count": 9,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -6090,7 +6159,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 63,
+      "count": 64,
       "error": null,
       "note": null,
       "disabled": false
@@ -6098,7 +6167,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 58,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -6106,7 +6175,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 69,
+      "count": 70,
       "error": null,
       "note": null,
       "disabled": false
@@ -6130,15 +6199,15 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null,
       "note": null,
       "disabled": false

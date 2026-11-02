@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T07:00:20.339Z",
+  "generatedAt": "2026-11-02T12:49:14.436Z",
   "groups": [
     {
       "id": "g:insnews:93616",
@@ -1893,6 +1893,126 @@
       "relevanceBy": "ai",
       "importance": 5,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:hanwha:3571",
+      "topic": "general",
+      "kind": "insurer",
+      "title": "한화금융 4개사, 퇴직연금시장 선도 나선다",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3571",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한화생명",
+          "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3571"
+        }
+      ],
+      "itemIds": [
+        "hanwha:3571"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93626",
+      "topic": "general",
+      "kind": "press",
+      "title": "“보험은 누가 가르치나요”… 학교 보험교육 ‘현장과 괴리’",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93626",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93626"
+        }
+      ],
+      "itemIds": [
+        "insnews:93626"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:134951451",
+      "topic": "life",
+      "kind": "press",
+      "title": "하나손보, 치매 진단부터 재활·요양까지 보장하는 ‘하나더넥스트 치매플러스보험’ 출시",
+      "url": "https://www.donga.com/news/Economy/article/all/20261102/134951451/1",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261102/134951451/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134951451"
+      ],
+      "summary": "하나손해보험은 치매 진단부터 치료와 재활, 장기요양까지 보장하는 ‘무배당 하나더넥스트 치매플러스보험’을 선보였어요. 재활치료 시 1회당 최대 5만 원을 연간 최대 10회까지 보장하고, 시설 이용 시 월 최대 100만 원, 자택 돌봄 시 월 최대 50만 원을 보장해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:MMYDQZTGGQZGEMZQGRQWCMZXHA",
+      "topic": "general",
+      "kind": "press",
+      "title": "부실 보험사 정리할 때 고금리·고보장 계약도 바꾼다…예보, 법 개정 검토",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/02/MMYDQZTGGQZGEMZQGRQWCMZXHA/",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/02/MMYDQZTGGQZGEMZQGRQWCMZXHA/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MMYDQZTGGQZGEMZQGRQWCMZXHA"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:hanwha:3570",
+      "topic": "general",
+      "kind": "insurer",
+      "title": "한화생명, 암경험청년 응원 운동회 개최",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3570",
+      "published": "2026-11-01",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한화생명",
+          "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3570"
+        }
+      ],
+      "itemIds": [
+        "hanwha:3570"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -1963,7 +2083,7 @@
     {
       "source": "hanwha",
       "ok": true,
-      "count": 9,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -1995,7 +2115,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 63,
+      "count": 64,
       "error": null,
       "note": null,
       "disabled": false
@@ -2003,7 +2123,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 58,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -2011,7 +2131,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 69,
+      "count": 70,
       "error": null,
       "note": null,
       "disabled": false
@@ -2035,15 +2155,15 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null,
       "note": null,
       "disabled": false
