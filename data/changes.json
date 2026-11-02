@@ -47,6 +47,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:insweek:72855:ai",
+    "category": "life",
+    "title": "의료자문제도 개선 방안 연내 확정 및 내년 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "연내",
+    "quote": "연내 개선안을 확정하고 내년에는 시행되도록 할 것",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-02",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72855"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-02"
+  },
+  {
     "id": "c:insjournal:33729:ai",
     "category": "life",
     "title": "NH농협생명, 간병인사용입원 가입한도 조정",
