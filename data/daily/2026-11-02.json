@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T00:38:50.941Z",
+  "generatedAt": "2026-11-02T07:00:20.339Z",
   "groups": [
     {
       "id": "g:insnews:93616",
@@ -1225,6 +1225,674 @@
       "relevanceBy": "ai",
       "importance": 3,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:fss-press:249670",
+      "topic": "auto",
+      "kind": "gov",
+      "title": "사회초년생 청년 운전자가 자동차보험 할인혜택을 쉽게 받을 수 있도록 가입 절차를 개선합니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249670&menuNo=200218",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249670&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:249670"
+      ],
+      "summary": "청년 운전자가 군 운전병 복무 경력, 종피보험자 운전 및 무사고 경력(최대 3년) 등을 보험가입경력으로 인정받을 수 있습니다. 온라인 가입채널에서는 경력인정제도와 할인특약을 안내하는 팝업창이 표시되며 특약 선택화면이 추가됩니다.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93628",
+      "topic": "life",
+      "kind": "press",
+      "title": "ABL생명, 자금 인출·사망보장 선택하는 ‘우리WON스테이블종신보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93628",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93628"
+        }
+      ],
+      "itemIds": [
+        "insnews:93628"
+      ],
+      "summary": "ABL생명이 ‘(무)우리WON스테이블종신보험(해약환급금 일부지급형)’을 출시했어요. 밸런스플랜으로 전환하면 보험료 납입 완료 후 정해진 전환 시점에 도달해 매년 총 납입보험료의 10%씩 10년에 걸쳐 인출한도가 증가합니다. 전환하지 않고 계약을 유지하면 체증개시일부터 10년간 매년 총 납입보험료의 10%에 해당하는 금액이 가입금액에 더해져 사망보험금이 늘어납니다.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93627",
+      "topic": "life",
+      "kind": "press",
+      "title": "생명보험재단, 제4회 ‘비:리브유 60초 영상제’ 수상작 발표",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93627",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93627"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33738"
+        }
+      ],
+      "itemIds": [
+        "insnews:93627",
+        "insjournal:33738"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93625",
+      "topic": "auto",
+      "kind": "press",
+      "title": "금감원, 청년 운전자 자동차보험 할인 안내 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93625",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93625"
+        }
+      ],
+      "itemIds": [
+        "insnews:93625"
+      ],
+      "summary": "이달부터 청년층이 온라인 채널을 통해 자동차보험에 가입하면 운전경력 인정 제도와 할인특약을 안내하는 팝업창이 제공됩니다. 특약 선택 화면에는 청년층이 활용할 수 있는 할인특약을 별도로 확인할 수 있는 항목이 추가됩니다.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93620",
+      "topic": "life",
+      "kind": "press",
+      "title": "하나손해보험, 검사부터 재활·장기요양까지 ‘치매 전 과정’ 보장 상품 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93620",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93620"
+        }
+      ],
+      "itemIds": [
+        "insnews:93620"
+      ],
+      "summary": "하나손해보험은 ‘무배당 하나더넥스트 치매플러스보험’을 출시했어요. 치매 진단을 받은 고객이 재활치료를 받을 경우 입원과 통원을 합해 연간 최대 10회까지 1회당 최대 5만원을 지급합니다. 시설급여 이용 시 월 최대 100만원, 재가급여 이용 시 월 최대 50만원을 보장기간 동안 받을 수 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93621",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 경영진 보수, 장기성과·소비자 보호 반영해야",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93621",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93621"
+        }
+      ],
+      "itemIds": [
+        "insnews:93621"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93619",
+      "topic": "general",
+      "kind": "press",
+      "title": "기금형 퇴직연금 시대 대비하는 한화금융… 4개사 공동전략 가동",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93619",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93619"
+        }
+      ],
+      "itemIds": [
+        "insnews:93619"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93618",
+      "topic": "life",
+      "kind": "press",
+      "title": "KDB생명, ‘더!행복플러스UP연금보험’ 개정… 돌봄 비용 대비 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93618",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93618"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72910"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33736"
+        }
+      ],
+      "itemIds": [
+        "insnews:93618",
+        "insweek:72910",
+        "insjournal:33736"
+      ],
+      "summary": "KDB생명은 ‘더!행복플러스UP연금보험(보증형)(무)’을 개정 출시했어요. ‘케어형’ 가입자가 중증치매 진단 또는 장기요양 1~2등급 판정을 받으면 기존 금액보증연금에 50% 수준의 ‘케어증액연금’을 추가로 지급합니다. 선지급행복자금의 선택 가능 비율은 기존 최대 30%에서 40%로 높였어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93617",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, 1년 내내 여행 횟수 무제한 보장 ‘해외여행보험’ 선봬",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93617",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93617"
+        }
+      ],
+      "itemIds": [
+        "insnews:93617"
+      ],
+      "summary": "현대해상은 1년 동안 횟수 제한 없이 해외여행 보장을 받을 수 있는 ‘트래블패스365 해외여행보험’을 출시했어요. 한 번 가입하면 1년 보험기간 동안 여행 횟수 제한 없이 자동으로 보장받으며 해외여행 1회당 보장 기간은 최대 31일입니다.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72907",
+      "topic": "life",
+      "kind": "press",
+      "title": "하나손해보험, ‘하나더넥스트 치매플러스보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72907",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72907"
+        }
+      ],
+      "itemIds": [
+        "insweek:72907"
+      ],
+      "summary": "하나손해보험은 2일 치매의 모든 과정을 보장하는 ‘하나더넥스트 치매플러스보험’을 출시했어요. 재활치료 시 입원과 통원을 합해 연간 10회까지 1회당 5만원을 보장하고, 시설급여 이용 시 월 최대 100만원, 재가급여 이용 시 월 최대 50만원을 지원해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72909",
+      "topic": "life",
+      "kind": "press",
+      "title": "ABL생명, ‘우리WON스테이블종신보험(해약환급금 일부지급형)’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72909",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72909"
+        }
+      ],
+      "itemIds": [
+        "insweek:72909"
+      ],
+      "summary": "ABL생명은 ‘우리WON스테이블종신보험(해약환급금 일부지급형)’을 출시했어요. 밸런스플랜 전환을 선택하면 7년납은 계약일부터 10년, 10년납은 12년, 15년납은 15년, 20년납은 20년 경과시점의 연계약해당일부터 전환할 수 있습니다.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72905",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, '트래블패스365 해외여행보험' 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72905",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72905"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33739"
+        }
+      ],
+      "itemIds": [
+        "insweek:72905",
+        "insjournal:33739"
+      ],
+      "summary": "현대해상은 1회 가입으로 1년 동안 횟수 제한 없이 해외여행을 보장하는 디지털 전용 '트래블패스365 해외여행보험'을 출시했어요. 해외여행 1회당 보장기간은 31일까지 적용돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72903",
+      "topic": "life",
+      "kind": "press",
+      "title": "한화손해보험, 교직원 특화 상품 '교직원 전용 플랜' 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72903",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72903"
+        }
+      ],
+      "itemIds": [
+        "insweek:72903"
+      ],
+      "summary": "한화손해보험은 ‘교직원 전용 플랜’을 출시했어요. 교육권보호위원회에서 교육활동 침해를 인정하는 의결이 이뤄지면 최대 390만원을 지급합니다. 우울증, 공황장애, 외상후스트레스장애 등을 진단받으면 최대 300만원을 지급해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72879",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험연구원, '보험 모집질서 건전화와 소비자 보호를 위한 정책토론회' 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72879",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72879"
+        }
+      ],
+      "itemIds": [
+        "insweek:72879"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33752",
+      "topic": "general",
+      "kind": "press",
+      "title": "‘몰라서 놓친’ 첫차 보험료 할인… 금감원, 청년 가입화면부터 바꾼다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33752",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33752"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33752"
+      ],
+      "summary": "금융감독원은 손해보험협회, 보험개발원과 함께 만 19~34세 청년 운전자의 자동차보험료 부담을 줄이기 위해 운전경력 인정제도와 할인특약 안내 절차를 개편할 예정입니다. 부모가 자동차보험에 가입하면서 자녀를 종피보험자로 등록하면 자녀가 나중에 본인 명의로 자동차보험에 가입할 때 최대 3년의 보험가입경력을 인정받을 수 있습니다.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33751",
+      "topic": "general",
+      "kind": "press",
+      "title": "'순환계' 매년 최대 1억3000만원·'반복수술' 최대 2배… 메리츠화재, '치료·수술' 보장 확대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33751",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33751"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33751"
+      ],
+      "summary": "메리츠화재가 순환계 치료와 반복수술을 중심으로 보장을 재정비했어요. ‘순환계통합치료비Ⅱ’는 5.10.5 세만기 기준 순환계 치료비 연 최대 1억원과 생활비 연 최대 3000만원을 합쳐 매년 최대 1억3000만원을 보장합니다. 질병·상해 ‘1~5종 수술비 체증형’은 수술이 반복될 때마다 보험금이 올라가 최대 2배까지 지급합니다.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33748",
+      "topic": "general",
+      "kind": "press",
+      "title": "암·뇌심 넘어 '간폐신장'까지… 삼성화재, ‘통합치료비’ 보장축 넓혔다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33748",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33748"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33748"
+      ],
+      "summary": "삼성화재는 비급여 암통합치료비를 표준형 1억원 한도로 매년 보장하고, 순환계 통합치료비와 간·폐·신장 통합치료비를 각각 실속형 5000만원 한도로 구성했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33746",
+      "topic": "general",
+      "kind": "press",
+      "title": "암치료 1억4000만원 이상 보장·전이암 ‘출발지’까지… DB손보, '암·순환계' 보장 강화",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33746",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33746"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33746"
+      ],
+      "summary": "DB손해보험은 '디비통치'의 암치료비 가입한도를 높이고 4기·원격전이암을 원발 부위 기준으로 보장하는 진단비를 추가했어요. 또한 '마니&또 통합순환계' 신상품과 순환계통합치료비 신담보를 더했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33745",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"지자체는 알아서 안 줍니다\"…몰라서 못 챙기는 '시민안전보험' 숨은 돈 찾기",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33745",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33745"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33745"
+      ],
+      "summary": "지자체가 가입하는 시민안전보험은 자동으로 지급되지 않아 피해자나 상속인이 계약한 보험사에 직접 청구해야 해요. 사고 당시 주민등록지를 기준으로 보장하며 광역과 기초 지자체 보험에서 중복으로 보상을 받을 수 있어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33744",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"500조 퇴직연금 시장 정조준\"…한화금융 4개사, '2030+ 비전' 선포",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33744",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33744"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33744"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33742",
+      "topic": "life",
+      "kind": "press",
+      "title": "\"과열된 보험 영업 꼼수 막는다\"…박성훈 의원·보험연구원, 모집질서 건전화 정책토론회 개최",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33742",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33742"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33742"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33740",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"교권침해 법률비용에 우울증까지 보장\"…한화손보, 교직원 특화 플랜 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33740",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33740"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33740"
+      ],
+      "summary": "한화손해보험은 교직원을 대상으로 교권 침해 피해와 법률 비용, 특정 정신질환 및 방학 기간 사고를 보장하는 전용 플랜을 출시했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33737",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"납입보험료 100% 빼써도 사망보장 그대로\"…ABL생명, '우리WON스테이블종신보험' 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33737",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33737"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33737"
+      ],
+      "summary": "ABL생명은 보험료 납입 완료 후 총 납입보험료를 인출하거나 사망보험금을 늘릴 수 있는 '(무)우리WON스테이블종신보험'을 출시했어요. 밸런스플랜으로 전환하면 매년 총 납입보험료의 10%씩 10년간 인출 한도가 증가하고 총 납입보험료의 100%를 인출해도 가입 금액이 유지돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110381",
+      "topic": "life",
+      "kind": "press",
+      "title": "치매·여행·교권보호까지…손보사, 맞춤형 보장 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110381",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110381"
+        }
+      ],
+      "itemIds": [
+        "fins:110381"
+      ],
+      "summary": "하나손해보험은 치매 검사부터 치료·재활, 요양을 보장하는 치매플러스보험을 출시했어요. 현대해상은 1년 동안 횟수 제한 없이 보장하는 해외여행보험을 선보였고, 한화손보는 교직원의 권익과 건강을 보장하는 전용 플랜을 내놓았어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110379",
+      "topic": "auto",
+      "kind": "press",
+      "title": "車보험 첫 가입 청년, 운전경력 인정받으면 보험료 최대 46% 절감",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110379",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110379"
+        }
+      ],
+      "itemIds": [
+        "fins:110379"
+      ],
+      "summary": "금융당국은 만 19~34세 청년 운전자가 자동차보험 가입 시 부모 명의 차량 운전경력과 군 운전병 등의 경력을 활용해 보험료를 할인받을 수 있도록 이달 중 가입 절차를 개선해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:GNRTSODFMZSDEZDEGEZWCNZXMM",
+      "topic": "general",
+      "kind": "press",
+      "title": "부모 차 3년 무사고로 몰았더니… 첫 차 보험료 133만→72만원",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/02/GNRTSODFMZSDEZDEGEZWCNZXMM/",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/02/GNRTSODFMZSDEZDEGEZWCNZXMM/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GNRTSODFMZSDEZDEGEZWCNZXMM"
+      ],
+      "summary": "금융감독원은 손해보험협회, 보험개발원과 함께 만 19~34세 청년 운전자를 대상으로 자동차보험료 할인제도를 안내하고 이달 중 보험 가입 절차를 개선해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261102075700002",
+      "topic": "auto",
+      "kind": "press",
+      "title": "\"청년 자동차보험 가입시 부모님 자동차 운전경력 활용하세요\"",
+      "url": "https://www.yna.co.kr/view/AKR20261102075700002",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-02",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261102075700002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261102075700002"
+      ],
+      "summary": "금융당국은 청년층이 자동차보험 가입 시 부모 자동차 운전경력이나 군 운전병 및 장기렌터카 경력을 활용해 보험료를 할인받도록 이달 중 가입 절차를 개선해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -1247,7 +1915,7 @@
     {
       "source": "fss-press",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -1327,7 +1995,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -1335,7 +2003,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -1343,7 +2011,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 69,
       "error": null,
       "note": null,
       "disabled": false
@@ -1351,7 +2019,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 53,
       "error": null,
       "note": null,
       "disabled": false
@@ -1375,7 +2043,7 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
@@ -1383,7 +2051,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false

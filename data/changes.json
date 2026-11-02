@@ -47,6 +47,32 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:fins:110379:ai",
+    "category": "auto",
+    "title": "청년 자동차보험 가입절차 개편 및 경력인정 안내 강화",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "이달 중",
+    "quote": "금융감독원은 2일 손해보험협회, 보험개발원과 함께 만 19~34세 청년 운전자의 자동차보험료 부담을 덜기 위해 이달 중 보험 가입절차를 개편한다고 밝혔다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-02",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110379"
+      },
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261102075700002"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-02"
+  },
+  {
     "id": "c:insweek:72855:ai",
     "category": "life",
     "title": "의료자문제도 개선 방안 연내 확정 및 내년 시행",

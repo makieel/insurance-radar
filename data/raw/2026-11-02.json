@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T00:38:50.941Z",
+  "generatedAt": "2026-11-02T07:00:20.339Z",
   "items": [
     {
       "id": "fsc-press:88021",
@@ -4277,7 +4277,7 @@
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33731",
       "published": "2026-10-30",
       "hints": [
-        "종합뉴스"
+        "인사·동정"
       ],
       "attachments": []
     },
@@ -5283,6 +5283,513 @@
       "published": "2026-10-31",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "fss-press:249670",
+      "source": "fss-press",
+      "title": "사회초년생 청년 운전자가 자동차보험 할인혜택을 쉽게 받을 수 있도록 가입 절차를 개선합니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249670&menuNo=200218",
+      "published": "2026-11-02",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "261102_(보도자료) 사회초년생 청년 운전자가 자동차보험 할인혜택을 쉽게 받을 수 있도록 가입 절차를 개선합니다.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=1e899a41a8264ec48f60c84f4b2a9a01&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261102_(보도자료) 사회초년생 청년 운전자가 자동차보험 할인혜택을 쉽게 받을 수 있도록 가입 절차를 개선합니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=1e899a41a8264ec48f60c84f4b2a9a01&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "insnews:93631",
+      "source": "insnews",
+      "title": "카카오페이, 인터넷은행 3사 제휴로 개인사업자 대출 선택지 넓혀",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93631",
+      "published": "2026-11-02",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93630",
+      "source": "insnews",
+      "title": "우리금융, 에너지 취약계층 525가구에 연탄 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93630",
+      "published": "2026-11-02",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93628",
+      "source": "insnews",
+      "title": "ABL생명, 자금 인출·사망보장 선택하는 ‘우리WON스테이블종신보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93628",
+      "published": "2026-11-02",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93627",
+      "source": "insnews",
+      "title": "생명보험재단, 제4회 ‘비:리브유 60초 영상제’ 수상작 발표",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93627",
+      "published": "2026-11-02",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93625",
+      "source": "insnews",
+      "title": "금감원, 청년 운전자 자동차보험 할인 안내 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93625",
+      "published": "2026-11-02",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93624",
+      "source": "insnews",
+      "title": "[인사] 라이나생명",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93624",
+      "published": "2026-11-02",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93623",
+      "source": "insnews",
+      "title": "하나은행 을지로 본점이 초대형 스크린으로… ‘하나 캔버스’ 운영",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93623",
+      "published": "2026-11-02",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93622",
+      "source": "insnews",
+      "title": "NH농협생명, 재해복구센터 가동해 ‘IT 재해’ 대응체계 점검",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93622",
+      "published": "2026-11-02",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93620",
+      "source": "insnews",
+      "title": "하나손해보험, 검사부터 재활·장기요양까지 ‘치매 전 과정’ 보장 상품 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93620",
+      "published": "2026-11-02",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93621",
+      "source": "insnews",
+      "title": "보험사 경영진 보수, 장기성과·소비자 보호 반영해야",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93621",
+      "published": "2026-11-02",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93619",
+      "source": "insnews",
+      "title": "기금형 퇴직연금 시대 대비하는 한화금융… 4개사 공동전략 가동",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93619",
+      "published": "2026-11-02",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93618",
+      "source": "insnews",
+      "title": "KDB생명, ‘더!행복플러스UP연금보험’ 개정… 돌봄 비용 대비 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93618",
+      "published": "2026-11-02",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93617",
+      "source": "insnews",
+      "title": "현대해상, 1년 내내 여행 횟수 무제한 보장 ‘해외여행보험’ 선봬",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93617",
+      "published": "2026-11-02",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72907",
+      "source": "insweek",
+      "title": "하나손해보험, ‘하나더넥스트 치매플러스보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72907",
+      "published": "2026-11-02",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72909",
+      "source": "insweek",
+      "title": "ABL생명, ‘우리WON스테이블종신보험(해약환급금 일부지급형)’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72909",
+      "published": "2026-11-02",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72905",
+      "source": "insweek",
+      "title": "현대해상, '트래블패스365 해외여행보험' 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72905",
+      "published": "2026-11-02",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72903",
+      "source": "insweek",
+      "title": "한화손해보험, 교직원 특화 상품 '교직원 전용 플랜' 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72903",
+      "published": "2026-11-02",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72910",
+      "source": "insweek",
+      "title": "KDB생명, ‘더!행복플러스UP연금보험’ 개정 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72910",
+      "published": "2026-11-02",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72908",
+      "source": "insweek",
+      "title": "AIA생명, ‘2026 JTBC 서울마라톤’ 4년 연속 후원",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72908",
+      "published": "2026-11-02",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72906",
+      "source": "insweek",
+      "title": "생명보험사회공헌재단, 제4회 비:리브유 60초 영상제 수상작 발표",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72906",
+      "published": "2026-11-02",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72879",
+      "source": "insweek",
+      "title": "보험연구원, '보험 모집질서 건전화와 소비자 보호를 위한 정책토론회' 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72879",
+      "published": "2026-11-02",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33753",
+      "source": "insjournal",
+      "title": "\"설계사 3500명·월매출 14억 쾌속 질주\"…더베스트GA그룹, 포브스 프리미엄 브랜드 '2년 연속 대상'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33753",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33752",
+      "source": "insjournal",
+      "title": "‘몰라서 놓친’ 첫차 보험료 할인… 금감원, 청년 가입화면부터 바꾼다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33752",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33751",
+      "source": "insjournal",
+      "title": "'순환계' 매년 최대 1억3000만원·'반복수술' 최대 2배… 메리츠화재, '치료·수술' 보장 확대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33751",
+      "published": "2026-11-02",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33750",
+      "source": "insjournal",
+      "title": "[2026년 10월 손보 GA채널] “파이는 줄었는데 상위 3사 비중은 커져”… 메리츠·삼성·KB 점유율 50.5%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33750",
+      "published": "2026-11-02",
+      "hints": [
+        "실적 · 통계 분석"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33748",
+      "source": "insjournal",
+      "title": "암·뇌심 넘어 '간폐신장'까지… 삼성화재, ‘통합치료비’ 보장축 넓혔다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33748",
+      "published": "2026-11-02",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33749",
+      "source": "insjournal",
+      "title": "[인사] 라이나생명, 오영택 '대면영업' 부사장ㆍ김재홍 '최고정보보호책임자' 신규 선임",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33749",
+      "published": "2026-11-02",
+      "hints": [
+        "인사·동정"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33747",
+      "source": "insjournal",
+      "title": "GA협회, 20일 '보험판매전문회사' 입법토론회…'분급 설명회·인증심사'도 가동",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33747",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33746",
+      "source": "insjournal",
+      "title": "암치료 1억4000만원 이상 보장·전이암 ‘출발지’까지… DB손보, '암·순환계' 보장 강화",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33746",
+      "published": "2026-11-02",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33745",
+      "source": "insjournal",
+      "title": "\"지자체는 알아서 안 줍니다\"…몰라서 못 챙기는 '시민안전보험' 숨은 돈 찾기",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33745",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33744",
+      "source": "insjournal",
+      "title": "\"500조 퇴직연금 시장 정조준\"…한화금융 4개사, '2030+ 비전' 선포",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33744",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33743",
+      "source": "insjournal",
+      "title": "\"지식 나누고 희망 쑥쑥\"…KB라이프, 나눔아카데미 기부금 4천만 원 전달",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33743",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33742",
+      "source": "insjournal",
+      "title": "\"과열된 보험 영업 꼼수 막는다\"…박성훈 의원·보험연구원, 모집질서 건전화 정책토론회 개최",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33742",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33741",
+      "source": "insjournal",
+      "title": "\"고립감 벗고 땀 흘리며 하나로\"…한화생명, 암경험청년 응원 운동회 개최",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33741",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33740",
+      "source": "insjournal",
+      "title": "\"교권침해 법률비용에 우울증까지 보장\"…한화손보, 교직원 특화 플랜 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33740",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33739",
+      "source": "insjournal",
+      "title": "\"한 번 가입으로 1년 내내 무제한 보장\"…현대해상, '트래블패스365 해외여행보험' 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33739",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33738",
+      "source": "insjournal",
+      "title": "\"괜찮다는 말 뒤 숨겨진 마음\"…생명보험재단, 제4회 '비:리브유' 영상제 수상작 발표",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33738",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33737",
+      "source": "insjournal",
+      "title": "\"납입보험료 100% 빼써도 사망보장 그대로\"…ABL생명, '우리WON스테이블종신보험' 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33737",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33736",
+      "source": "insjournal",
+      "title": "\"치매·요양 시 연금 1.5배\"…KDB생명, '더!행복플러스UP연금보험' 개정 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33736",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33735",
+      "source": "insjournal",
+      "title": "AIA생명, ‘2026 JTBC 서울마라톤’ 4년 연속 후원…\"함께 달리고, 함께 기부해요\"",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33735",
+      "published": "2026-11-02",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110381",
+      "source": "fins",
+      "title": "치매·여행·교권보호까지…손보사, 맞춤형 보장 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110381",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110379",
+      "source": "fins",
+      "title": "車보험 첫 가입 청년, 운전경력 인정받으면 보험료 최대 46% 절감",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110379",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110378",
+      "source": "fins",
+      "title": "[인사] 라이나생명",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110378",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GNRTSODFMZSDEZDEGEZWCNZXMM",
+      "source": "chosun",
+      "title": "부모 차 3년 무사고로 몰았더니… 첫 차 보험료 133만→72만원",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/02/GNRTSODFMZSDEZDEGEZWCNZXMM/",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261102075700002",
+      "source": "yna",
+      "title": "\"청년 자동차보험 가입시 부모님 자동차 운전경력 활용하세요\"",
+      "url": "https://www.yna.co.kr/view/AKR20261102075700002",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -5503,7 +6010,7 @@
     {
       "source": "fss-press",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -5583,7 +6090,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -5591,7 +6098,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -5599,7 +6106,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 69,
       "error": null,
       "note": null,
       "disabled": false
@@ -5607,7 +6114,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 53,
       "error": null,
       "note": null,
       "disabled": false
@@ -5631,7 +6138,7 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
@@ -5639,7 +6146,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
