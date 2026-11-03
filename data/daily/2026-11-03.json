@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T06:50:52.253Z",
+  "generatedAt": "2026-11-03T12:47:57.052Z",
   "groups": [
     {
       "id": "g:insjournal:33759",
@@ -554,6 +554,102 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93654",
+      "topic": "industry",
+      "kind": "press",
+      "title": "‘퇴직연금 오래오래’ 캠페인 출범… 558조 노후자금 장기투자 유도",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93654",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93654"
+        }
+      ],
+      "itemIds": [
+        "insnews:93654"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93652",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험 모집질서 개선, 판매 권한만큼 ‘책임’도 강화해야",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93652",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93652"
+        }
+      ],
+      "itemIds": [
+        "insnews:93652"
+      ],
+      "summary": "3일 서울 여의도 국회 의원회관에서 보험 모집질서 건전화와 소비자 보호를 위한 정책토론회가 열렸어요. 보험상품을 판매할 때 충분히 설명하고 사후에 확인할 수 있어야 하며, 불공정 영업에 대한 제재 실효성을 높여야 한다는 제언이 나왔어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72919",
+      "topic": "industry",
+      "kind": "press",
+      "title": "교보교육재단, ‘제28회 교보교육대상’ 수상자 선정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72919",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72919"
+        }
+      ],
+      "itemIds": [
+        "insweek:72919"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33764",
+      "topic": "general",
+      "kind": "press",
+      "title": "[보험저널TV] 보험저널WM과정①...부자마케팅의 '골든타임'을 잡아라!",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33764",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33764"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33764"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -562,7 +658,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -570,7 +666,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -578,7 +674,7 @@
       "ok": true,
       "count": 82,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -586,7 +682,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -594,7 +690,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -610,7 +706,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -656,7 +752,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 59,
+      "count": 62,
       "error": null,
       "note": null,
       "disabled": false
@@ -664,7 +760,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 56,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -672,16 +768,16 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 54,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "fins",
-      "ok": true,
+      "ok": false,
       "count": 55,
-      "error": null,
+      "error": "기사 본문을 찾을 수 없습니다",
       "note": null,
       "disabled": false
     },
@@ -696,7 +792,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
@@ -704,7 +800,7 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false
@@ -714,7 +810,7 @@
       "ok": true,
       "count": 3,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
       "disabled": false
     },
     {

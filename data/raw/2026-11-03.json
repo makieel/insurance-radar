@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T06:50:52.253Z",
+  "generatedAt": "2026-11-03T12:47:57.052Z",
   "items": [
     {
       "id": "fsc-press:88021",
@@ -7444,6 +7444,90 @@
       "published": "2026-11-03",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93657",
+      "source": "insnews",
+      "title": "금융기본권, 권리 선언 넘어 제도 설계로… 법제화 세부안 윤곽",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93657",
+      "published": "2026-11-03",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93654",
+      "source": "insnews",
+      "title": "‘퇴직연금 오래오래’ 캠페인 출범… 558조 노후자금 장기투자 유도",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93654",
+      "published": "2026-11-03",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93652",
+      "source": "insnews",
+      "title": "보험 모집질서 개선, 판매 권한만큼 ‘책임’도 강화해야",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93652",
+      "published": "2026-11-03",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72919",
+      "source": "insweek",
+      "title": "교보교육재단, ‘제28회 교보교육대상’ 수상자 선정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72919",
+      "published": "2026-11-03",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33766",
+      "source": "insjournal",
+      "title": "[3일 보험주 마감시황] 인카 0.95%↑·에이플러스 2.83%↓·삼성생명 3.33%↓",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33766",
+      "published": "2026-11-03",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33764",
+      "source": "insjournal",
+      "title": "[보험저널TV] 보험저널WM과정①...부자마케팅의 '골든타임'을 잡아라!",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33764",
+      "published": "2026-11-03",
+      "hints": [
+        "보험저널TV"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "donga:134958513",
+      "source": "donga",
+      "title": "스무살 라이벌 맞대결…김민솔 vs 서교림, KLPGA 최종전서 한판승부",
+      "url": "https://www.donga.com/news/Sports/article/all/20261103/134958513/1",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GQ3TKYLGGM4GCYJWGI2DSYRZGE",
+      "source": "chosun",
+      "title": "삼성 파운드리, 대만 설계사 앞세워 美 클라우드 업체에 2나노 칩 공급 추진",
+      "url": "https://www.chosun.com/economy/tech_it/2026/11/03/GQ3TKYLGGM4GCYJWGI2DSYRZGE/",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7650,7 +7734,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -7658,7 +7742,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7666,7 +7750,7 @@
       "ok": true,
       "count": 82,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7674,7 +7758,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7682,7 +7766,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7698,7 +7782,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7744,7 +7828,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 59,
+      "count": 62,
       "error": null,
       "note": null,
       "disabled": false
@@ -7752,7 +7836,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 56,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -7760,16 +7844,16 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 54,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "fins",
-      "ok": true,
+      "ok": false,
       "count": 55,
-      "error": null,
+      "error": "기사 본문을 찾을 수 없습니다",
       "note": null,
       "disabled": false
     },
@@ -7784,7 +7868,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
@@ -7792,7 +7876,7 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false
@@ -7802,7 +7886,7 @@
       "ok": true,
       "count": 3,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
       "disabled": false
     },
     {
