@@ -47,6 +47,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:fins:110380:ai",
+    "category": "auto",
+    "title": "DB손보, 자동차보험 주행거리 할인 특약 할인율 축소",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "이달",
+    "quote": "DB손해보험은 이달 6일 책임개시 계약부터 개인용 자동차보험 주행거리 할인 특약의 할인율을 조정한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-03",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110380"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-03"
+  },
+  {
     "id": "c:fins:110379:ai",
     "category": "auto",
     "title": "청년 자동차보험 가입절차 개편 및 경력인정 안내 강화",

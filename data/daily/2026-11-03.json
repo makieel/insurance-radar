@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T00:39:15.389Z",
+  "groups": [
+    {
+      "id": "g:insjournal:33759",
+      "topic": "life",
+      "kind": "press",
+      "title": "\"납입 완료하면 암·순환계 치료비 100세 보장\"…동양생명, '(무)우리WON하는건강플러스종신보험' 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33759",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33759"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33759"
+      ],
+      "summary": "동양생명은 10년의 보험료 납입기간 중 선택한 유형에 해당하는 질환을 진단받으면 이후 보험료 납입을 전면 면제해주는 '우리WON하는건강플러스종신보험'을 10월 30일 출시했어요. 납입면제 사유 없이 10년 납입을 정상적으로 마친 고객에게는 암 또는 특정순환계 질환 핵심치료를 100세까지 보장하는 건강플러스 보장서비스를 추가로 제공해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33758",
+      "topic": "life",
+      "kind": "press",
+      "title": "\"무사고 15년 깎아주고, 암·뇌심 따로 심사\"…NH농협손보, 건강보험 개편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33758",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33758"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33758"
+      ],
+      "summary": "NH농협손해보험은 무사고전환을 통해 최대 15년 고지형까지 보험료를 낮추는 '5.N.5 굿플러스 건강보험(1040)'을 선보였어요. 암 병력 고객의 뇌·심장질환 보장을 심사하는 '뇌심레디 플랜'과 뇌·심장질환 병력 고객의 암 관련 위험을 심사하는 '암레디 플랜'으로 유병자 인수심사를 확대했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33756",
+      "topic": "life",
+      "kind": "press",
+      "title": "처브라이프, '의료비' 지원하는 체증형 종신보험...‘Chubb 플러스 건강종신보험 무배당’ 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33756",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33756"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33756"
+      ],
+      "summary": "처브라이프는 가입 1년 후부터 10년간 매년 10%씩 사망보험금이 증가하는 'Chubb 플러스 건강종신보험 무배당'을 출시했어요. 납입 완료 후 제2보험기간에는 가입 금액의 80% 한도 내에서 입원비와 수술비를 종신토록 지급하고 3대 질병 최초 1회 진단 시 가입 금액의 100%를 지급해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110385",
+      "topic": "general",
+      "kind": "press",
+      "title": "퇴직연금 500조 시장, 보험사 단독 경쟁서 '금융그룹 대항전'으로",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110385",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110385"
+        }
+      ],
+      "itemIds": [
+        "fins:110385"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110384",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 CEO 성과급, 이익보다 '책임' 따져야…해외는 고객보호까지 평가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110384",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110384"
+        }
+      ],
+      "itemIds": [
+        "fins:110384"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110383",
+      "topic": "industry",
+      "kind": "press",
+      "title": "[보험사 실적 평가의 딜레마] ②CSM 높으면 좋은 실적?…숫자 뒤에 가려진 수익성",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110383",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110383"
+        }
+      ],
+      "itemIds": [
+        "fins:110383"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110380",
+      "topic": "auto",
+      "kind": "press",
+      "title": "대형사 차보험료 할인 특약 축소…내년 차보험료 향방은",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110380",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110380"
+        }
+      ],
+      "itemIds": [
+        "fins:110380"
+      ],
+      "summary": "DB손해보험은 이달 6일 책임개시 계약부터 개인용 자동차보험 주행거리 할인 특약의 할인율을 조정해요. 일반승용과 수소·전기차 등 36개 조건 가운데 34개 조건에서 할인율이 낮아져요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261103041200002",
+      "topic": "general",
+      "kind": "press",
+      "title": "[게시판] 한화손보 '안심위치공유서비스' 배타적사용권 3개월",
+      "url": "https://www.yna.co.kr/view/AKR20261103041200002",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261103041200002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261103041200002"
+      ],
+      "summary": "한화손해보험은 여성 운전자의 자동차 사고 발생 시 현장 출동과 안심 위치 공유 서비스를 결합한 '안심위치공유서비스'로 3개월 배타적사용권을 획득했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 82,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 32,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 13,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": "과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
