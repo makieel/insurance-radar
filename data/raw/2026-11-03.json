@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T00:39:15.389Z",
+  "generatedAt": "2026-11-03T06:50:52.253Z",
   "items": [
     {
       "id": "fsc-press:88021",
@@ -7145,6 +7145,305 @@
       "published": "2026-02-03",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93648",
+      "source": "insnews",
+      "title": "금감원, 금융권 해킹 대응 강화… “경영진 책임 엄중히 물을 것”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93648",
+      "published": "2026-11-03",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93646",
+      "source": "insnews",
+      "title": "은행연합회, 취약계층 3만3000여 가구에 백미 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93646",
+      "published": "2026-11-03",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93645",
+      "source": "insnews",
+      "title": "자동차손해배상진흥원-강원재활병원, 자동차사고 피해가족 지원 협력",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93645",
+      "published": "2026-11-03",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93644",
+      "source": "insnews",
+      "title": "신협, 연 최고 7.0% ‘동행사랑적금’ 출시… 금융 취약계층의 경제적 자립 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93644",
+      "published": "2026-11-03",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93643",
+      "source": "insnews",
+      "title": "제28회 교보교육대상 수상자 선정… 참사람육성·평생교육·미래혁신 성과 조명",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93643",
+      "published": "2026-11-03",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93642",
+      "source": "insnews",
+      "title": "하나은행, 장애인 자녀의 재산보호로 ‘포용금융’ 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93642",
+      "published": "2026-11-03",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93640",
+      "source": "insnews",
+      "title": "동양생명, ‘우리WON하는건강플러스종신보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93640",
+      "published": "2026-11-03",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93639",
+      "source": "insnews",
+      "title": "“여성 운전자 안심 솔루션”… 한화손보 ‘안심위치공유서비스’ 배타적사용권 획득",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93639",
+      "published": "2026-11-03",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93638",
+      "source": "insnews",
+      "title": "NH농협손보, 제주도·제주농협과 ‘고향사랑기부제’ 홍보 캠페인 펼쳐",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93638",
+      "published": "2026-11-03",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72916",
+      "source": "insweek",
+      "title": "NH농협손해보험, ‘고향사랑기부제’ 홍보 캠페인 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72916",
+      "published": "2026-11-03",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72918",
+      "source": "insweek",
+      "title": "동양생명, ‘우리WON하는건강플러스종신보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72918",
+      "published": "2026-11-03",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72917",
+      "source": "insweek",
+      "title": "처브라이프, ‘Chubb 플러스 건강종신보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72917",
+      "published": "2026-11-03",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72915",
+      "source": "insweek",
+      "title": "한화손해보험, ‘안심위치공유서비스’ 배타적사용권 3개월 획득",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72915",
+      "published": "2026-11-03",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72913",
+      "source": "insweek",
+      "title": "NH농협생명, IT재해복구 훈련 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72913",
+      "published": "2026-11-02",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72912",
+      "source": "insweek",
+      "title": "한화금융, ‘퇴직연금 2030+ VISION’ 선포식 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72912",
+      "published": "2026-11-02",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33763",
+      "source": "insjournal",
+      "title": "'달러연금' 10년 확정이율 6.40%·월납 4.93%… AIA생명, '금리보너스·암 납입면제'로 승부",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33763",
+      "published": "2026-11-03",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33761",
+      "source": "insjournal",
+      "title": "GA 검사 대응, 정도영업이 답이다③ \"서류만 갖춰선 부족하다\"… '상시 내부통제'로 취약점부터 잡아야",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33761",
+      "published": "2026-11-03",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33762",
+      "source": "insjournal",
+      "title": "\"사고 나면 가족에 자동 알림\"…한화손보, '안심위치공유서비스' 배타적사용권 획득",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33762",
+      "published": "2026-11-03",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33760",
+      "source": "insjournal",
+      "title": "[26년 10월 생보 GA채널] “700종신 빠지자 실적 희비 교차”… 동양생명 82.8% 급감, 라이나생명 72% 급증",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33760",
+      "published": "2026-11-03",
+      "hints": [
+        "실적 · 통계 분석"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110390",
+      "source": "fins",
+      "title": "보험사 해킹사고에 CEO 책임 묻는다…금감원, 제재 강화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110390",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110389",
+      "source": "fins",
+      "title": "'고의 자해'로 보험금 타낸 보험설계사 낀 일당 검거",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110389",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110388",
+      "source": "fins",
+      "title": "한화손보, ‘안심위치공유서비스’ 배타적사용권 획득",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110388",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110387",
+      "source": "fins",
+      "title": "동양생명, 납입 완료 후 치료보장…사망보험금 2배",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110387",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110386",
+      "source": "fins",
+      "title": "처브라이프, 종신보험에 입원·수술·3대질병 보장 강화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110386",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134956582",
+      "source": "donga",
+      "title": "롯데오토케어 특별조사팀, 2년 반 동안 부당 보험사고 245건 적발",
+      "url": "https://www.donga.com/news/list/article/all/20261103/134956582/2",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134956409",
+      "source": "donga",
+      "title": "IBK연금보험, 홈페이지 개편 기념 이벤트…보험료 계산만 해도 커피 쿠폰",
+      "url": "https://www.donga.com/news/Economy/article/all/20261103/134956409/1",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MIYDINZUMMZDGMZXMVTGKNTGME",
+      "source": "chosun",
+      "title": "보장금 1억원인데, 받을 확률 희박… 보험사 ‘뻥튀기 특약’ 막는다",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/03/MIYDINZUMMZDGMZXMVTGKNTGME/",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261103078700054",
+      "source": "yna",
+      "title": "'고의 자해'로 보험금 타내…보험설계사 낀 일당 검거",
+      "url": "https://www.yna.co.kr/view/AKR20261103078700054",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261103063800002",
+      "source": "yna",
+      "title": "동양생명 종신보험 출시…암·뇌심 질환 시 보험료 면제",
+      "url": "https://www.yna.co.kr/view/AKR20261103063800002",
+      "published": "2026-11-03",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7351,7 +7650,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7359,7 +7658,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7367,7 +7666,7 @@
       "ok": true,
       "count": 82,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7375,7 +7674,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7383,7 +7682,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7399,7 +7698,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7445,7 +7744,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -7453,7 +7752,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -7461,7 +7760,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -7469,39 +7768,39 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "joongang",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "fetch failed",
-      "note": "과거 기사 채우기 완료: 중앙일보",
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T00:39:15.389Z",
+  "generatedAt": "2026-11-03T06:50:52.253Z",
   "groups": [
     {
       "id": "g:insjournal:33759",
@@ -193,6 +193,367 @@
       "relevanceBy": "ai",
       "importance": 2,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93640",
+      "topic": "life",
+      "kind": "press",
+      "title": "동양생명, ‘우리WON하는건강플러스종신보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93640",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93640"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72918"
+        }
+      ],
+      "itemIds": [
+        "insnews:93640",
+        "insweek:72918"
+      ],
+      "summary": "동양생명은 사망보장에 보험료 납입면제와 납입 완료 후 치료 보장을 더한 ‘우리WON하는건강플러스종신보험’을 출시했어요. 10년의 납입기간 중 암 또는 2대 질환 진단 시 보험료 납입이 면제되며, 납입 완료 고객에게는 100세까지 핵심치료를 보장하는 건강플러스 보장서비스를 제공해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93639",
+      "topic": "auto",
+      "kind": "press",
+      "title": "“여성 운전자 안심 솔루션”… 한화손보 ‘안심위치공유서비스’ 배타적사용권 획득",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93639",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93639"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72915"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33762"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110388"
+        }
+      ],
+      "itemIds": [
+        "insnews:93639",
+        "insweek:72915",
+        "insjournal:33762",
+        "fins:110388"
+      ],
+      "summary": "한화손보는 자동차 사고 발생 시 고객의 위치와 출동 정보를 가족과 지인에게 실시간으로 전달하는 ‘안심위치공유서비스’로 배타적사용권 3개월을 획득했어요. 해당 서비스는 한화손보 Carrot 앱에서 비상연락처를 등록하면 이용할 수 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72917",
+      "topic": "life",
+      "kind": "press",
+      "title": "처브라이프, ‘Chubb 플러스 건강종신보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72917",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72917"
+        }
+      ],
+      "itemIds": [
+        "insweek:72917"
+      ],
+      "summary": "처브라이프는 입원비와 수술비, 3대질병진단보험금을 보장하는 ‘Chubb 플러스 건강종신보험’을 출시했어요. 이 상품은 가입 1년 후부터 10년간 매년 사망보험금이 증가하는 체증형 종신보험이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33763",
+      "topic": "general",
+      "kind": "press",
+      "title": "'달러연금' 10년 확정이율 6.40%·월납 4.93%… AIA생명, '금리보너스·암 납입면제'로 승부",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33763",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33763"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33763"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110390",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 해킹사고에 CEO 책임 묻는다…금감원, 제재 강화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110390",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110390"
+        }
+      ],
+      "itemIds": [
+        "fins:110390"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110389",
+      "topic": "industry",
+      "kind": "press",
+      "title": "'고의 자해'로 보험금 타낸 보험설계사 낀 일당 검거",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110389",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110389"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261103078700054"
+        }
+      ],
+      "itemIds": [
+        "fins:110389",
+        "yna:AKR20261103078700054"
+      ],
+      "summary": "고의로 자해하는 수법으로 5년 동안 8개 보험사로부터 약 9억원의 보험금을 타낸 보험설계사 등 일당이 경찰에 붙잡혔어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110387",
+      "topic": "general",
+      "kind": "press",
+      "title": "동양생명, 납입 완료 후 치료보장…사망보험금 2배",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110387",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110387"
+        }
+      ],
+      "itemIds": [
+        "fins:110387"
+      ],
+      "summary": "동양생명은 사망보장에 납입면제와 납입 완료 후 치료 보장을 더한 ‘(무)우리WON하는건강플러스종신보험’을 지난달 30일 출시했어요. 10년 납입기간 중 암 또는 2대 질환 진단 시 이후 보험료 납입이 면제되고, 납입 완료 시 최대 1억원 한도의 핵심치료 보장서비스가 제공돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110386",
+      "topic": "life",
+      "kind": "press",
+      "title": "처브라이프, 종신보험에 입원·수술·3대질병 보장 강화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110386",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110386"
+        }
+      ],
+      "itemIds": [
+        "fins:110386"
+      ],
+      "summary": "처브라이프생명은 사망보장과 함께 입원비, 수술비, 3대질병 진단보험금을 보장하는 ‘Chubb 플러스 건강종신보험’을 출시했어요. 가입 1년 후부터 10년간 매년 사망보험금이 증가하는 체증형 구조로 운영돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134956582",
+      "topic": "auto",
+      "kind": "press",
+      "title": "롯데오토케어 특별조사팀, 2년 반 동안 부당 보험사고 245건 적발",
+      "url": "https://www.donga.com/news/list/article/all/20261103/134956582/2",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/list/article/all/20261103/134956582/2"
+        }
+      ],
+      "itemIds": [
+        "donga:134956582"
+      ],
+      "summary": "롯데오토케어는 2024년 4월 렌터카 사고 전담 특별조사팀을 신설한 이후 2026년 9월까지 부당 보험사고 245건을 적발했어요. 이를 통해 되돌려 받거나 부당한 지급을 막은 금액은 약 29억2000만 원이에요. 금융감독원에 따르면 올해 상반기 보험사기 적발금액은 6200억 원으로 지난해 같은 기간보다 9.1% 늘었어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:134956409",
+      "topic": "life",
+      "kind": "press",
+      "title": "IBK연금보험, 홈페이지 개편 기념 이벤트…보험료 계산만 해도 커피 쿠폰",
+      "url": "https://www.donga.com/news/Economy/article/all/20261103/134956409/1",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261103/134956409/1"
+        }
+      ],
+      "itemIds": [
+        "donga:134956409"
+      ],
+      "summary": "IBK연금보험은 다이렉트 홈페이지를 개편하고 보험료 계산 고객 선착순 300명에게 커피 쿠폰을 지급하는 이벤트를 진행해요. 아울러 ‘IBK 원금보장 연금저축보험’의 5년 확정금리를 연 3.5%에서 연 4.5%로 1.0%포인트 올렸어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:MIYDINZUMMZDGMZXMVTGKNTGME",
+      "topic": "general",
+      "kind": "press",
+      "title": "보장금 1억원인데, 받을 확률 희박… 보험사 ‘뻥튀기 특약’ 막는다",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/03/MIYDINZUMMZDGMZXMVTGKNTGME/",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/03/MIYDINZUMMZDGMZXMVTGKNTGME/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MIYDINZUMMZDGMZXMVTGKNTGME"
+      ],
+      "summary": "내년부터 발생 가능성이 극히 낮은 질병이나 치료를 고액 보장하는 보험 특약의 출시가 제한돼요. 금감원은 이러한 내용을 담아 ‘보험업감독업무 시행세칙’을 개정할 방침이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261103063800002",
+      "topic": "general",
+      "kind": "press",
+      "title": "동양생명 종신보험 출시…암·뇌심 질환 시 보험료 면제",
+      "url": "https://www.yna.co.kr/view/AKR20261103063800002",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261103063800002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261103063800002"
+      ],
+      "summary": "동양생명은 사망보장에 보험료 납입 면제와 납입 완료 후 치료를 보장하는 '(무)우리WON하는건강플러스종신보험'을 출시했어요. 10년의 납입기간 중 암 또는 2대 질환을 진단받으면 이후 보험료 납입이 면제돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72913",
+      "topic": "general",
+      "kind": "press",
+      "title": "NH농협생명, IT재해복구 훈련 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72913",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72913"
+        }
+      ],
+      "itemIds": [
+        "insweek:72913"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72912",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화금융, ‘퇴직연금 2030+ VISION’ 선포식 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72912",
+      "published": "2026-11-02",
+      "firstSeen": "2026-11-03",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72912"
+        }
+      ],
+      "itemIds": [
+        "insweek:72912"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -201,7 +562,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -209,7 +570,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -217,7 +578,7 @@
       "ok": true,
       "count": 82,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -225,7 +586,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -233,7 +594,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -249,7 +610,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -295,7 +656,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -303,7 +664,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -311,7 +672,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -319,39 +680,39 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
     },
     {
       "source": "joongang",
-      "ok": false,
+      "ok": true,
       "count": 0,
-      "error": "fetch failed",
-      "note": "과거 기사 채우기 완료: 중앙일보",
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
       "disabled": false
     },
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
