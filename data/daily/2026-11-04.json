@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T00:37:18.526Z",
+  "generatedAt": "2026-11-04T06:55:09.403Z",
   "groups": [
     {
       "id": "g:fins:110410",
@@ -19,7 +19,7 @@
       "itemIds": [
         "fins:110410"
       ],
-      "summary": null,
+      "summary": "한화생명이 지난달 14일부터 지난 3일까지 ‘한화생명 필요할때 쓰는 종신보험’ 가입 고객의 연령 분포를 분석한 결과 20·30대 가입 비중은 31%로 집계됐어요. 이는 일반 종신보험의 20·30대 가입 비중인 16%와 비교해 약 2배 수준이에요. 반면 50·60대 가입 비중은 45%로 일반 종신보험의 63%보다 낮았고, 20대의 평균 가입금액은 약 1,300만원이며 월평균 보험료는 약 15만원이에요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -289,15 +289,366 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:fsc-press:88081",
+      "topic": "general",
+      "kind": "gov",
+      "title": "계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결",
+      "url": "https://www.fsc.go.kr/no010101/88081",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "금융위원회",
+          "url": "https://www.fsc.go.kr/no010101/88081"
+        },
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249734&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fsc-press:88081",
+        "fss-press:249734"
+      ],
+      "summary": "금융위원회는 지난 4일 계리가정보고서 도입 등을 담은 ｢보험업감독규정｣ 개정안을 의결했어요. 이에 따라 보험회사는 매년 사업보고서 제출기한에 맞추어 계리가정보고서를 금융감독원에 제출해야 해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:hanwha:3572",
+      "topic": "life",
+      "kind": "insurer",
+      "title": "달라진 종신보험에 2030세대도 호응",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3572",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "한화생명",
+          "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3572"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33775"
+        }
+      ],
+      "itemIds": [
+        "hanwha:3572",
+        "insjournal:33775"
+      ],
+      "summary": "한화생명이 지난달 14일 출시한 ‘한화생명 필요할때 쓰는 종신보험’의 가입 고객을 분석한 결과 2030세대 가입률은 31%로 일반 종신보험의 16%보다 높게 나타났어요. 이 상품 가입 고객 중 20대의 평균 가입금액은 1,300만원 수준으로 월 평균 보험료는 약 15만원인 반면, 60대는 동일 보장금액에서 월 평균 보험료가 약 21만원이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72923",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, 발달장애 아동 지원사업 '아이마음 탐사대' 최종 진출팀 선발",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72923",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72923"
+        }
+      ],
+      "itemIds": [
+        "insweek:72923"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72924",
+      "topic": "life",
+      "kind": "press",
+      "title": "한화생명, ‘한화생명 필요할때 쓰는 종신보험’ 2030 가입비중 31%",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72924",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72924"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261104050700002"
+        }
+      ],
+      "itemIds": [
+        "insweek:72924",
+        "yna:AKR20261104050700002"
+      ],
+      "summary": "한화생명은 지난달 14일 출시한 ‘한화생명 필요할때 쓰는 종신보험’의 2030세대 가입률이 31%로 일반 종신보험의 16%보다 2배 가까이 높았다고 지난 4일 밝혔어요. 가입 고객 중 20대의 평균 가입금액은 1300만원 수준이며 월 평균 보험료는 약 15만원이고 60대는 월 평균 보험료가 약 21만원이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72920",
+      "topic": "industry",
+      "kind": "press",
+      "title": "강병관 신한EZ손해보험 대표, '사람 살리는 금융' 릴레이 캠페인 참여",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72920",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72920"
+        }
+      ],
+      "itemIds": [
+        "insweek:72920"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72921",
+      "topic": "life",
+      "kind": "press",
+      "title": "삼성생명, 지역 통합돌봄 모델 ‘시니어 커넥티드 케어’ 공개",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72921",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72921"
+        }
+      ],
+      "itemIds": [
+        "insweek:72921"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33782",
+      "topic": "life",
+      "kind": "press",
+      "title": "“700종신 빠진 자리 누가 주도할까”… 생보사, 건강종신·인출형종신 2파전 양상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33782",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33782"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33782"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33779",
+      "topic": "industry",
+      "kind": "press",
+      "title": "\"K-보험 동남아 영토 넓힌다\"… 금감원, 베트남·인니 감독당국 초청 세미나 개최",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33779",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33779"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33779"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33773",
+      "topic": "general",
+      "kind": "press",
+      "title": "“사망률 9배 치솟아도 절반은 안 맸다”… 뒷좌석 안전벨트 여전히 ‘생존 장치’ 아닌 ‘선택 사항’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33773",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33773"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33773"
+      ],
+      "summary": "악사손보의 ‘2025 운전자 교통안전 의식 조사’에 따르면 뒷좌석 안전벨트를 항상 착용한다는 응답은 51.1%에 그쳤어요. 현재 전 좌석 안전벨트 미착용 시 승합차 기준 3만원, 13세 미만 아동은 6만원의 과태료가 부과돼요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110418",
+      "topic": "general",
+      "kind": "press",
+      "title": "퇴직연금 디폴트옵션, 보험사 장기 수익률 업권 최하위",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110418",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110418"
+        }
+      ],
+      "itemIds": [
+        "fins:110418"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110417",
+      "topic": "life",
+      "kind": "press",
+      "title": "희귀·중증난치질환자 의료비 부담 낮춘다…연간 22만원 경감",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110417",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110417"
+        }
+      ],
+      "itemIds": [
+        "fins:110417"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110416",
+      "topic": "general",
+      "kind": "press",
+      "title": "자사주 소각에 보험사 지분구조 변화…주주환원·출자관리 맞물려",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110416",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110416"
+        }
+      ],
+      "itemIds": [
+        "fins:110416"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110415",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험약관 이해도 ‘양호’…평가상품 36개 중 우수는 1개",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110415",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110415"
+        }
+      ],
+      "itemIds": [
+        "fins:110415"
+      ],
+      "summary": "보험개발원이 지난 4일 공개한 ‘제32차 보험약관등 이해도 평가결과’에 따르면 평가 대상 상품 36개 중 35개가 ‘양호’ 등급을 받았고 ‘우수’ 등급은 1개에 그쳤어요. 생명보험사 21곳의 제3보험 상품과 손해보험사 15곳의 장기손해보험 상품이 각각 평균 74.6점과 74.4점으로 모두 양호 등급을 받았어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110411",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험사 CEO 연임 시험대…순익·건전성 저울질",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110411",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110411"
+        }
+      ],
+      "itemIds": [
+        "fins:110411"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
     {
       "source": "fsc-press",
       "ok": true,
-      "count": 60,
+      "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -305,15 +656,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 82,
+      "count": 83,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -321,7 +672,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -329,7 +680,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -345,7 +696,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -359,7 +710,7 @@
     {
       "source": "hanwha",
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null,
       "note": null,
       "disabled": false
@@ -391,7 +742,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -399,7 +750,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -407,7 +758,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -415,7 +766,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -431,9 +782,9 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -441,13 +792,13 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false

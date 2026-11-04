@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T00:37:18.526Z",
+  "generatedAt": "2026-11-04T06:55:09.403Z",
   "items": [
     {
       "id": "fsc-press:88021",
@@ -4427,9 +4427,9 @@
     {
       "id": "insjournal:33753",
       "source": "insjournal",
-      "title": "\"설계사 3500명·월매출 14억 쾌속 질주\"…더베스트GA그룹, 포브스 프리미엄 브랜드 '2년 연속 대상'",
+      "title": "\"설계사 3500명·월매출 14억 쾌속 질주\"…더베스트GA그룹, 포브스 프리미엄 브랜드 '2년 연속 대상'(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33753",
-      "published": "2026-11-02",
+      "published": "2026-11-04",
       "hints": [
         "종합뉴스"
       ],
@@ -4449,9 +4449,9 @@
     {
       "id": "insjournal:33751",
       "source": "insjournal",
-      "title": "'순환계' 매년 최대 1억3000만원·'반복수술' 최대 2배… 메리츠화재, '치료·수술' 보장 확대",
+      "title": "'순환계' 매년 최대 1억3000만원·'반복수술' 최대 2배… 메리츠화재, '치료·수술' 보장 확대(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33751",
-      "published": "2026-11-02",
+      "published": "2026-11-04",
       "hints": [
         "소비자선택"
       ],
@@ -4471,9 +4471,9 @@
     {
       "id": "insjournal:33748",
       "source": "insjournal",
-      "title": "암·뇌심 넘어 '간폐신장'까지… 삼성화재, ‘통합치료비’ 보장축 넓혔다",
+      "title": "암·뇌심 넘어 '간폐신장'까지… 삼성화재, ‘통합치료비’ 보장축 넓혔다(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33748",
-      "published": "2026-11-02",
+      "published": "2026-11-04",
       "hints": [
         "소비자선택"
       ],
@@ -4819,7 +4819,7 @@
     {
       "id": "fins:110408",
       "source": "fins",
-      "title": "자사주 소각 때마다 주식 파는 삼성 보험사",
+      "title": "자사주 소각 때마다 주식 파는 삼성 보험사…보험계열사 금산법 규제 다시 수면 위로",
       "url": "http://www.fins.co.kr/news/articleView.html?idxno=110408",
       "published": "2026-11-04",
       "hints": [],
@@ -7163,6 +7163,391 @@
       "published": "2026-02-03",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "fsc-press:88081",
+      "source": "fsc-press",
+      "title": "계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결",
+      "url": "https://www.fsc.go.kr/no010101/88081",
+      "published": "2026-11-04",
+      "hints": [
+        "보험과"
+      ],
+      "attachments": [
+        {
+          "name": "(보도자료) 보험업감독규정 개정안 금융위 의결_FN.hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88081&fileTy=ATTACH&fileNo=1",
+          "type": "hwp"
+        },
+        {
+          "name": "(보도자료) 보험업감독규정 개정안 금융위 의결_FN.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88081&fileTy=ATTACH&fileNo=2",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:249734",
+      "source": "fss-press",
+      "title": "계리가정보고서 도입 등 보험업감독규정 개정안 금융위원회 의결",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249734&menuNo=200218",
+      "published": "2026-11-04",
+      "hints": [
+        "계리리스크감독국/보험감독국/보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "261104_(보도자료) 계리가정보고서 도입 등 보험업감독규정 개정안 금융위원회 의결.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=2bca6e2f3a04499ea5c4d582e3c604e6&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261104_(보도자료) 계리가정보고서 도입 등 보험업감독규정 개정안 금융위원회 의결.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=2bca6e2f3a04499ea5c4d582e3c604e6&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "hanwha:3572",
+      "source": "hanwha",
+      "title": "달라진 종신보험에 2030세대도 호응",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3572",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93667",
+      "source": "insnews",
+      "title": "ABL생명, 아동복지시설 환경 개선 위한 ‘DIY 가구 만들기’ 봉사활동 펼쳐",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93667",
+      "published": "2026-11-04",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93653",
+      "source": "insnews",
+      "title": "중은삼성인수, 진위밍 신임 사장 선임… 성장세 속 경영진 개편",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93653",
+      "published": "2026-11-04",
+      "hints": [
+        "해외/제휴기사"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93665",
+      "source": "insnews",
+      "title": "현대해상, 아동 발달 조기개입 지원 8개 팀 최종 선정… ‘골든타임’ 확보 모색",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93665",
+      "published": "2026-11-04",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93663",
+      "source": "insnews",
+      "title": "서민금융진흥원, 유선상담 서비스 개편… 전화로 정책서민금융 대출 신청",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93663",
+      "published": "2026-11-04",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93662",
+      "source": "insnews",
+      "title": "신용회복위원회·법률구조공단, 위기채무자 지원 연계… 회생·파산 절차 간소화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93662",
+      "published": "2026-11-04",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93661",
+      "source": "insnews",
+      "title": "삼성생명, AI 기반 ‘시니어 통합돌봄 모델’ 선보여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93661",
+      "published": "2026-11-04",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72923",
+      "source": "insweek",
+      "title": "현대해상, 발달장애 아동 지원사업 '아이마음 탐사대' 최종 진출팀 선발",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72923",
+      "published": "2026-11-04",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72924",
+      "source": "insweek",
+      "title": "한화생명, ‘한화생명 필요할때 쓰는 종신보험’ 2030 가입비중 31%",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72924",
+      "published": "2026-11-04",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72920",
+      "source": "insweek",
+      "title": "강병관 신한EZ손해보험 대표, '사람 살리는 금융' 릴레이 캠페인 참여",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72920",
+      "published": "2026-11-04",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72922",
+      "source": "insweek",
+      "title": "ABL생명, 아동복지시설 환경 개선 위한 ‘DIY 가구 만들기’ 봉사활동 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72922",
+      "published": "2026-11-04",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72921",
+      "source": "insweek",
+      "title": "삼성생명, 지역 통합돌봄 모델 ‘시니어 커넥티드 케어’ 공개",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72921",
+      "published": "2026-11-04",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33771",
+      "source": "insjournal",
+      "title": "[GA 품질경영 시대] 스카이블루에셋, 매월 '준법 DAY' 운영… 현장 밀착 준법경영으로 '질적 성장' 정조준",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33771",
+      "published": "2026-11-04",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33782",
+      "source": "insjournal",
+      "title": "“700종신 빠진 자리 누가 주도할까”… 생보사, 건강종신·인출형종신 2파전 양상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33782",
+      "published": "2026-11-04",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33781",
+      "source": "insjournal",
+      "title": "보험 갈아타기 '사인 한 장'으론 부족…상담기록 보존·대형 'GA 책임 강화론' 부상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33781",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33780",
+      "source": "insjournal",
+      "title": "[프라임에셋 IPO 대해부] ③보험사도 주목한 '밸류체인'… 질적 성장 전환 후 매출 3배",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33780",
+      "published": "2026-11-04",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33779",
+      "source": "insjournal",
+      "title": "\"K-보험 동남아 영토 넓힌다\"… 금감원, 베트남·인니 감독당국 초청 세미나 개최",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33779",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33778",
+      "source": "insjournal",
+      "title": "\"발달장애 골든타임 사수하라\"… 현대해상, 150억 쏟아붓는 혁신 솔루션 8팀 띄운다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33778",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33777",
+      "source": "insjournal",
+      "title": "\"받은 사랑, 경제교육으로 돌려줍니다\"… KB라이프 '링크비' 2기 청년들의 아름다운 홀로서기",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33777",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33775",
+      "source": "insjournal",
+      "title": "“살아서 100% 꺼내 쓴다”... 확 달라진 '종신보험', 2030세대 호응",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33775",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33774",
+      "source": "insjournal",
+      "title": "\"아이들의 쾌적한 내일을 조립합니다\"… ABL생명, 아동 돕기 'DIY 가구 만들기' 구슬땀",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33774",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33773",
+      "source": "insjournal",
+      "title": "“사망률 9배 치솟아도 절반은 안 맸다”… 뒷좌석 안전벨트 여전히 ‘생존 장치’ 아닌 ‘선택 사항’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33773",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33701",
+      "source": "insjournal",
+      "title": "'종신보장' 유지하고 노후엔 '생활자금' 인출… ABL생명 ‘WON스테이블종신’ 11월 출격(영상+)",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33701",
+      "published": "2026-11-04",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110420",
+      "source": "fins",
+      "title": "산재보험급여 첫 8조원 돌파…수급자 42만명 육박",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110420",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110418",
+      "source": "fins",
+      "title": "퇴직연금 디폴트옵션, 보험사 장기 수익률 업권 최하위",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110418",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110417",
+      "source": "fins",
+      "title": "희귀·중증난치질환자 의료비 부담 낮춘다…연간 22만원 경감",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110417",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110416",
+      "source": "fins",
+      "title": "자사주 소각에 보험사 지분구조 변화…주주환원·출자관리 맞물려",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110416",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110415",
+      "source": "fins",
+      "title": "보험약관 이해도 ‘양호’…평가상품 36개 중 우수는 1개",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110415",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110413",
+      "source": "fins",
+      "title": "금융·연금소득에도 건보료 부과 검토…보험료 형평성 손질",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110413",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110412",
+      "source": "fins",
+      "title": "베트남·인니 보험시장 공략 지원…금감원, 현지 인허가 장벽 해소 나서",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110412",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110411",
+      "source": "fins",
+      "title": "보험사 CEO 연임 시험대…순익·건전성 저울질",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110411",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134963370",
+      "source": "donga",
+      "title": "LPGA 투어 2026시즌 올해의 선수는 세계랭킹 1위 코르다",
+      "url": "https://www.donga.com/news/Sports/article/all/20261104/134963370/1",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261104050700002",
+      "source": "yna",
+      "title": "한화생명 \"'필요할때 인출' 종신보험 2030 가입 비중 31%\"",
+      "url": "https://www.yna.co.kr/view/AKR20261104050700002",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7367,9 +7752,9 @@
     {
       "source": "fsc-press",
       "ok": true,
-      "count": 60,
+      "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7377,15 +7762,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 82,
+      "count": 83,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7393,7 +7778,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7401,7 +7786,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7417,7 +7802,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7431,7 +7816,7 @@
     {
       "source": "hanwha",
       "ok": true,
-      "count": 9,
+      "count": 10,
       "error": null,
       "note": null,
       "disabled": false
@@ -7463,7 +7848,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -7471,7 +7856,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -7479,7 +7864,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -7487,7 +7872,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -7503,9 +7888,9 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -7513,13 +7898,13 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false

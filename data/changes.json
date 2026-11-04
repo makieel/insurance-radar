@@ -1,5 +1,57 @@
 [
   {
+    "id": "c:fsc-press:88081:2028-01-01",
+    "category": "general",
+    "title": "계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결",
+    "when": "exact",
+    "date": "2028-01-01",
+    "period": null,
+    "phrase": "'28.1.1.",
+    "quote": "타내는 민감도 ￭ (듀레이션 갭) 자산·부채 간 듀레이션의 차이로서, 금리 변동에 따라 순자산 가치가 얼마나 변화하는지 나타내는 지표 (듀레이션 갭 = 자산듀레이션 – 부채듀레이션 × [금리부 부채 / 금리부 자산]) 다만, 최근 금리 여건 등 시장상황과 보험회사의 충분한 준비기간 확보 필요성 등을 고려하여 듀레이션 갭 지표는 '28.1.1.부터 시행한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-04",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/88081"
+      },
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249734&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-11-04"
+  },
+  {
+    "id": "c:fsc-press:88081:2027-01-01",
+    "category": "general",
+    "title": "계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결",
+    "when": "exact",
+    "date": "2027-01-01",
+    "period": null,
+    "phrase": "'27.1.1.",
+    "quote": "다만, 계리가정 산출·변경 내부통제, GA 운영위험 평가항목 신설 및 재무제표 작성기준 개정사항은 '27.1.1.부터, 듀레이션 갭 지표 신설은 '28.1.1.부터 시행한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-04",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/88081"
+      },
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249734&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-11-04"
+  },
+  {
     "id": "c:insjournal:33692:ai",
     "category": "general",
     "title": "2027년 1월 보험 판매수수료 4년 분급제 시행",
@@ -45,6 +97,28 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:fins:110417:ai",
+    "category": "medical",
+    "title": "희귀·중증난치질환자 건강보험 본인부담률 7%로 인하",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "1일부터",
+    "quote": "정부는 입법예고와 법제처 심사, 국무회의 의결 등을 거쳐 다음달 1일부터 개정안을 시행할 계획이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-04",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110417"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-04"
   },
   {
     "id": "c:fins:110380:ai",
@@ -659,6 +733,32 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:fsc-press:88081:2026-09-11",
+    "category": "general",
+    "title": "계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결",
+    "when": "exact",
+    "date": "2026-09-11",
+    "period": null,
+    "phrase": "'26.9.11.",
+    "quote": "※ 규정변경예고안('26.9.11. 보도자료 참조)에 포함되었던 보험회사의 부동산PF 신용공여 한도 신설은 별도로 감독규정 개정을 진행중('27.1.1. 시행 목표) 금융위원회와 금융감독원은 개정 사항이 현장에 안착될 수 있도록 이행상황을 점검해 나갈 계획이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-04",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/88081"
+      },
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249734&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-11-04"
   },
   {
     "id": "c:fsc-rule:4171:notice",
