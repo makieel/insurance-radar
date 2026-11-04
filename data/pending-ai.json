@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "type": "judge",
+    "id": "fins:110391",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110391",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "judge",
+    "id": "fins:110399",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110399",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "judge",
+    "id": "fins:110398",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110398",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110407",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110407",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110406",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110406",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110397",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110397",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110391",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110391",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110399",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110399",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110410",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110410",
+    "date": "2026-11-04",
+    "source": "fins"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110396",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110396",
+    "date": "2026-11-04",
+    "source": "fins"
+  }
+]

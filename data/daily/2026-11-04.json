@@ -1,0 +1,464 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T00:37:18.526Z",
+  "groups": [
+    {
+      "id": "g:fins:110410",
+      "topic": "life",
+      "kind": "press",
+      "title": "한화생명, 생애자금형 종신보험 2030 가입 비중 31%",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110410",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110410"
+        }
+      ],
+      "itemIds": [
+        "fins:110410"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110408",
+      "topic": "general",
+      "kind": "press",
+      "title": "자사주 소각 때마다 주식 파는 삼성 보험사",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110408",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110408"
+        }
+      ],
+      "itemIds": [
+        "fins:110408"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110407",
+      "topic": "general",
+      "kind": "press",
+      "title": "예보, 금융계약자 보호 범위 넓힌다…디지털 금융 사각지대 선제 대응",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110407",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110407"
+        }
+      ],
+      "itemIds": [
+        "fins:110407"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110406",
+      "topic": "general",
+      "kind": "press",
+      "title": "로봇 고장도 보험으로…아시아 보험시장 '신위험 대응' 속도",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110406",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110406"
+        }
+      ],
+      "itemIds": [
+        "fins:110406"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110397",
+      "topic": "general",
+      "kind": "press",
+      "title": "생·손보 광고심의 손질…단순 수치 변경 승인 간소화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110397",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110397"
+        }
+      ],
+      "itemIds": [
+        "fins:110397"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110395",
+      "topic": "industry",
+      "kind": "press",
+      "title": "[보험사 실적 평가의 딜레마] ③같은 보험도 다른 계리가정…실적 비교 신뢰성은",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110395",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110395"
+        }
+      ],
+      "itemIds": [
+        "fins:110395"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110391",
+      "topic": "life",
+      "kind": "press",
+      "title": "생보사 공시이율 제자리걸음…기준금리 동결에 관망세",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110391",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110391"
+        }
+      ],
+      "itemIds": [
+        "fins:110391"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:GU3DINJSHA4GCMRVHAYTMYRVHE",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원, 베트남·인도네시아 감독당국 초청… 韓 보험사 해외 진출 지원",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/04/GU3DINJSHA4GCMRVHAYTMYRVHE/",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/04/GU3DINJSHA4GCMRVHAYTMYRVHE/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GU3DINJSHA4GCMRVHAYTMYRVHE"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:MM3WGZJUGNSGGN3CGE3DSZLFG4",
+      "topic": "industry",
+      "kind": "press",
+      "title": "한화투자증권 4000억 신종자본증권에 산업은행·DB손보 등 참여",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/04/MM3WGZJUGNSGGN3CGE3DSZLFG4/",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/04/MM3WGZJUGNSGGN3CGE3DSZLFG4/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MM3WGZJUGNSGGN3CGE3DSZLFG4"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110399",
+      "topic": "life",
+      "kind": "press",
+      "title": "보험사 건강보험 설계도 맞춤형…'추천 플랜' 세분화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110399",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110399"
+        }
+      ],
+      "itemIds": [
+        "fins:110399"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110398",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화생명, 후순위채 4000억 수요예측 '턱걸이'…금리 상단 5.3% 확정",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110398",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110398"
+        }
+      ],
+      "itemIds": [
+        "fins:110398"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110396",
+      "topic": "industry",
+      "kind": "press",
+      "title": "퇴직연금 550조 시대…'안전·위험' 투자 양극화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110396",
+      "published": "2026-11-03",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110396"
+        }
+      ],
+      "itemIds": [
+        "fins:110396"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 82,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 32,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 13,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
