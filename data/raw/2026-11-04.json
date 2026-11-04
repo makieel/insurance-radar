@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T06:55:09.403Z",
+  "generatedAt": "2026-11-04T12:46:13.669Z",
   "items": [
     {
       "id": "fsc-press:88021",
@@ -7363,7 +7363,7 @@
     {
       "id": "insjournal:33781",
       "source": "insjournal",
-      "title": "보험 갈아타기 '사인 한 장'으론 부족…상담기록 보존·대형 'GA 책임 강화론' 부상",
+      "title": "FP '1200%룰' · 4~7년 '분급제' 이은 다음 수순… 슬그머니 '상담기록 보존' 등 GA 판매자 책임 확대 '시동'",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33781",
       "published": "2026-11-04",
       "hints": [
@@ -7545,6 +7545,121 @@
       "source": "yna",
       "title": "한화생명 \"'필요할때 인출' 종신보험 2030 가입 비중 31%\"",
       "url": "https://www.yna.co.kr/view/AKR20261104050700002",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93686",
+      "source": "insnews",
+      "title": "보험사 계리가정 감독 강화… 금감원 정기 보고 의무화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93686",
+      "published": "2026-11-04",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93683",
+      "source": "insnews",
+      "title": "한국금융연구원, ‘사람 살리는 금융 캠페인’ 동참",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93683",
+      "published": "2026-11-04",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93673",
+      "source": "insnews",
+      "title": "한국금융연구원, 디지털 금융소비자 보호·보안 강화 방안 논의",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93673",
+      "published": "2026-11-04",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93670",
+      "source": "insnews",
+      "title": "자립준비청년 12명, 경제교육으로 재능나눔… KB라이프재단 ‘링크비’ 2기 마무리",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93670",
+      "published": "2026-11-04",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93668",
+      "source": "insnews",
+      "title": "신한EZ손보, ‘사람 살리는 금융’ 캠페인 동참",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93668",
+      "published": "2026-11-04",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72925",
+      "source": "insweek",
+      "title": "KB라이프생명사회공헌재단, ‘링크비 2기 활동 보고회’ 성료",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72925",
+      "published": "2026-11-04",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33784",
+      "source": "insjournal",
+      "title": "[4일 보험주 마감시황] 에이플러스 3.68%↓·인카 0.73%↑…현대해상 1.52% 상승",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33784",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33783",
+      "source": "insjournal",
+      "title": "메타리치, 수수료 경쟁 넘어 ‘GA 2.0’ 전환… 통합 업무시스템 ‘MetaArena’ 구축",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33783",
+      "published": "2026-11-04",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110423",
+      "source": "fins",
+      "title": "보험사 보험부채 평가 관리 강화…GA 감독 책임도 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110423",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GNRGCMTGMU2DCNZSGRSDSZBSGY",
+      "source": "chosun",
+      "title": "보험사 계리가정 관리 체계 강화… GA 위탁 위험평가 기준 신설",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/04/GNRGCMTGMU2DCNZSGRSDSZBSGY/",
+      "published": "2026-11-04",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261104144500002",
+      "source": "yna",
+      "title": "보험사 보험부채 '부실 산출' 막는다…GA 관리 책임도 강화",
+      "url": "https://www.yna.co.kr/view/AKR20261104144500002",
       "published": "2026-11-04",
       "hints": [],
       "attachments": []
@@ -7848,7 +7963,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 56,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -7856,7 +7971,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 55,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -7864,7 +7979,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 61,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -7872,7 +7987,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 58,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -7890,21 +8005,21 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false

@@ -121,6 +121,28 @@
     "firstSeen": "2026-11-04"
   },
   {
+    "id": "c:insnews:93686:ai",
+    "category": "medical",
+    "title": "보험사 계리가정 감독 강화 및 5세대 실손 할인",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "이달 중",
+    "quote": "해당 제도는 선택형 특약 할인제도와 함께 이달 중 시행될 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-04",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93686"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-04"
+  },
+  {
     "id": "c:fins:110380:ai",
     "category": "auto",
     "title": "DB손보, 자동차보험 주행거리 할인 특약 할인율 축소",

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T06:55:09.403Z",
+  "generatedAt": "2026-11-04T12:46:13.669Z",
   "groups": [
     {
       "id": "g:fins:110410",
@@ -640,6 +640,30 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93686",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 계리가정 감독 강화… 금감원 정기 보고 의무화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93686",
+      "published": "2026-11-04",
+      "firstSeen": "2026-11-04",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93686"
+        }
+      ],
+      "itemIds": [
+        "insnews:93686"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -742,7 +766,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 56,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -750,7 +774,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 55,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -758,7 +782,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 61,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -766,7 +790,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 58,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -784,21 +808,21 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
