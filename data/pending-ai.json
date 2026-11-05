@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "type": "relevance",
+    "id": "g:insnews:93701",
+    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93701",
+    "date": "2026-11-05",
+    "source": "insnews"
+  },
+  {
+    "type": "relevance",
+    "id": "g:insnews:93698",
+    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93698",
+    "date": "2026-11-05",
+    "source": "insnews"
+  },
+  {
+    "type": "relevance",
+    "id": "g:chosun:MJRTSYJXGNRTQNTCGBSTCN3DME",
+    "url": "https://www.chosun.com/economy/stock-finance/2026/11/05/MJRTSYJXGNRTQNTCGBSTCN3DME/",
+    "date": "2026-11-05",
+    "source": "chosun"
+  },
+  {
+    "type": "importance",
+    "id": "g:insnews:93701",
+    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93701",
+    "date": "2026-11-05",
+    "source": "insnews"
+  },
+  {
+    "type": "importance",
+    "id": "g:insnews:93698",
+    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93698",
+    "date": "2026-11-05",
+    "source": "insnews"
+  },
+  {
+    "type": "summary",
+    "id": "g:insnews:93701",
+    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93701",
+    "date": "2026-11-05",
+    "source": "insnews"
+  },
+  {
+    "type": "summary",
+    "id": "g:insnews:93698",
+    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93698",
+    "date": "2026-11-05",
+    "source": "insnews"
+  }
+]

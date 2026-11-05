@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T06:57:02.451Z",
+  "generatedAt": "2026-11-05T12:51:30.536Z",
   "groups": [
     {
       "id": "g:insjournal:33789",
@@ -313,6 +313,78 @@
       "relevanceBy": "ai",
       "importance": 3,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93701",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한라이프, 보험 분쟁 심의에 외부 전문위원 위촉… 소비자보호 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93701",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93701"
+        }
+      ],
+      "itemIds": [
+        "insnews:93701"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93698",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보생명, 고객 응대부터 민원 처리까지 ‘소비자보호’ 체계 정비",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93698",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93698"
+        }
+      ],
+      "itemIds": [
+        "insnews:93698"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:MJRTSYJXGNRTQNTCGBSTCN3DME",
+      "topic": "industry",
+      "kind": "press",
+      "title": "김용태 GA협회장 “소비자 보호 위해 보험판매전문회사 도입해야”",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/05/MJRTSYJXGNRTQNTCGBSTCN3DME/",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/05/MJRTSYJXGNRTQNTCGBSTCN3DME/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MJRTSYJXGNRTQNTCGBSTCN3DME"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -321,23 +393,23 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
       "source": "fsc-rule",
-      "ok": true,
+      "ok": false,
       "count": 10,
-      "error": null,
-      "note": null,
+      "error": "fetch failed",
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 10,
+      "count": 82,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -345,15 +417,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "knia-press",
       "ok": true,
-      "count": 10,
+      "count": 32,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -369,7 +441,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -415,7 +487,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -431,7 +503,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 60,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -439,7 +511,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 56,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -463,9 +535,9 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
