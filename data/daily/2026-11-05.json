@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T00:43:34.099Z",
+  "groups": [
+    {
+      "id": "g:insjournal:33789",
+      "topic": "industry",
+      "kind": "press",
+      "title": "“보장분석 DB 넘어 특화시장으로”… 메타리치, 특화DB 전문사업단 출범",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33789",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33789"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33789"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110432",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한라이프, 민원·분쟁 심의에 외부 전문가 참여 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110432",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110432"
+        }
+      ],
+      "itemIds": [
+        "fins:110432"
+      ],
+      "summary": "신한라이프는 보험 분쟁 사례에 대한 전문성과 객관성을 높이기 위해 지난 5일 외부 전문가 3명을 소비자권익보호위원회 위원으로 위촉했어요. 새로 위촉된 외부 위원들은 앞으로 2년간 소비자보호 관련 자문 역할과 함께 내부 위원과 동일한 심의·의결권을 갖고 위원회 활동에 참여해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110431",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보생명, 민원·보험금 안내 체계 개선…고객 응대 강화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110431",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110431"
+        }
+      ],
+      "itemIds": [
+        "fins:110431"
+      ],
+      "summary": "교보생명은 고객센터 상담 접근성과 보험금 지급 안내, 민원 처리 절차 등을 개선하며 금융소비자보호 체계를 강화하고 있어요. 올해 2분기 고객센터의 20초 내 응대율은 90%를 기록해 1분기보다 20%포인트 상승했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110429",
+      "topic": "life",
+      "kind": "press",
+      "title": "건보 국고지원 13조원 부족…내년에도 법정기준 미달",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110429",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110429"
+        }
+      ],
+      "itemIds": [
+        "fins:110429"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110427",
+      "topic": "medical",
+      "kind": "press",
+      "title": "실손보험 비급여 관리 강화…진료 전 설명·동의 의무화 추진",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110427",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110427"
+        }
+      ],
+      "itemIds": [
+        "fins:110427"
+      ],
+      "summary": "비급여 진료를 받기 전 환자에게 비용과 진료 내용을 설명하고 동의를 받도록 하는 한편, 정부가 비급여 가격과 진료 적정성을 체계적으로 관리하는 법안이 지난 3일 국회에서 발의됐어요. 해당 법안에는 비급여 관리에 관한 주요 사항을 심의·의결하는 '비급여항목관리위원회'를 설치하고 5년 단위 기본계획과 연도별 시행계획을 수립하도록 하는 내용이 담겼어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}

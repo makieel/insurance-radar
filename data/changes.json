@@ -1075,27 +1075,5 @@
     "origin": "rule",
     "rate": null,
     "firstSeen": "2026-10-23"
-  },
-  {
-    "id": "c:joongang:25425812:ai",
-    "category": "medical",
-    "title": "5세대 실손의료보험 및 선택형 할인 특약 도입",
-    "when": "phrase",
-    "date": null,
-    "period": null,
-    "phrase": "오는 11월부터",
-    "quote": "오는 11월부터 계약 전환 할인 제도를 시행하는데, 구체적인 할인율과 기간은 업계에서 추후 발표할 예정이다.",
-    "status": "confirmed",
-    "past": false,
-    "announced": "2026-05-05",
-    "sources": [
-      {
-        "name": "중앙일보",
-        "url": "https://www.joongang.co.kr/article/25425812"
-      }
-    ],
-    "origin": "ai",
-    "rate": null,
-    "firstSeen": "2026-10-25"
   }
 ]
