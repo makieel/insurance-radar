@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T00:43:34.099Z",
+  "generatedAt": "2026-11-05T06:57:02.451Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -4543,7 +4543,7 @@
     {
       "id": "insjournal:33761",
       "source": "insjournal",
-      "title": "GA 검사 대응, 정도영업이 답이다③ \"서류만 갖춰선 부족하다\"… '상시 내부통제'로 취약점부터 잡아야",
+      "title": "GA 검사 대응, 정도영업이 답이다...③\"서류만 갖춰선 부족\", 상시 내부통제로 '취약점'부터 잡아야",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33761",
       "published": "2026-11-03",
       "hints": [
@@ -5251,6 +5251,179 @@
       "published": "2026-11-04",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insjournal:33800",
+      "source": "insjournal",
+      "title": "김용태 GA협회장 “매출 1조 시대, GA 행정규제 한계… ‘보험판매전문회사’ 도입 시급”",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33800",
+      "published": "2026-11-05",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33799",
+      "source": "insjournal",
+      "title": "NH농협생명, 경기 김포 농가에서 가지치기 작업 지원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33799",
+      "published": "2026-11-05",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33797",
+      "source": "insjournal",
+      "title": "푸본현대생명, 서울시 발달장애인 플라잉디스크대회서 자원봉사활동",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33797",
+      "published": "2026-11-05",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33791",
+      "source": "insjournal",
+      "title": "GA 검사 대응, 정도영업이 답이다...④몸집 키운 GA, 이제 '책임' 키울 때… 내부통제가 '기업가치' 가른다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33791",
+      "published": "2026-11-05",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33795",
+      "source": "insjournal",
+      "title": "중국은 ‘로봇’ 품고 대만은 ‘규제’ 조이고… 새판 짜는 아시아 보험시장",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33795",
+      "published": "2026-11-05",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33794",
+      "source": "insjournal",
+      "title": "\"장기성과 외면하면 보험사 망가진다\"… 글로벌 보험사는 이미 '평가 혁명' 중",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33794",
+      "published": "2026-11-05",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33793",
+      "source": "insjournal",
+      "title": "“위자료 다 냈으니 토해내라?”… 대법, 보험·공제사 '쪼개기 구상' 셈법에 쐐기",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33793",
+      "published": "2026-11-05",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33786",
+      "source": "insjournal",
+      "title": "“삼성생명도 GA채널 목표 20~30% 줄인다는데”… 2027년 생보 GA시장 위축 신호인가",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33786",
+      "published": "2026-11-05",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33792",
+      "source": "insjournal",
+      "title": "“뚫리면 즉각 셧다운”… AI 해킹 공포 덮친 금융권, 580개사 싹 다 뒤진다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33792",
+      "published": "2026-11-05",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33790",
+      "source": "insjournal",
+      "title": "“GA 미래 권력, 결국 교육이 가른다”… 메타리치, ‘META 부트캠프’로 설계사 육성 '판' 바꾼다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33790",
+      "published": "2026-11-05",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110438",
+      "source": "fins",
+      "title": "美 민주당 압승에 국채금리 출렁…보험사 자산운용 촉각",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110438",
+      "published": "2026-11-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110435",
+      "source": "fins",
+      "title": "보험사 경영평가에 GA 관리 반영…판매위탁 책임 강화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110435",
+      "published": "2026-11-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110437",
+      "source": "fins",
+      "title": "보험 AI 의사결정 확대…판단 책임·소비자보호 논의",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110437",
+      "published": "2026-11-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110436",
+      "source": "fins",
+      "title": "GA 정착지원금 40~50% 감소…설계사 이동도 줄었다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110436",
+      "published": "2026-11-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110434",
+      "source": "fins",
+      "title": "손보업계, 직업변경 통지 관리 강화…보험금 분쟁 예방",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110434",
+      "published": "2026-11-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110433",
+      "source": "fins",
+      "title": "금융권 해킹 37개사로 확산…보험사 3곳 뚫렸다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110433",
+      "published": "2026-11-05",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261105111700002",
+      "source": "yna",
+      "title": "김용태 GA협회장 \"보험판매전문회사 도입해 법으로 규율해야\"",
+      "url": "https://www.yna.co.kr/view/AKR20261105111700002",
+      "published": "2026-11-05",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -5567,7 +5740,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -5575,7 +5748,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -5607,7 +5780,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false

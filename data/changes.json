@@ -77,6 +77,31 @@
     "firstSeen": "2026-10-29"
   },
   {
+    "id": "c:insjournal:33792:ai",
+    "category": "general",
+    "title": "금융위, 2027년 1분기 디지털금융 안전법 추진",
+    "when": "period",
+    "date": null,
+    "period": {
+      "start": "2027-01-01",
+      "end": "2027-03-31"
+    },
+    "phrase": "2027년 1분기 중",
+    "quote": "현금성 자산 탈취 우려가 큰 가상자산사업자와 대형 법인보험대리점(GA), 제3자 위수탁업체 등도 촘촘한 보안 규율 안에 두기 위해 2027년 1분기 중 ‘디지털금융 안전법’ 마련을 추진하기로 했다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-05",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33792"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-05"
+  },
+  {
     "id": "c:joongang:25465476:ai",
     "category": "life",
     "title": "18세 청년 생애 첫 연금보험료 국가 지원",
@@ -97,6 +122,50 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:fins:110434:ai",
+    "category": "life",
+    "title": "손보업계 직업정보 불일치 시 신규계약 청약 제한 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "1월 1일부터",
+    "quote": "5일 보험업계에 따르면 일부 손해보험사는 내년 1월 1일부터 피보험자의 직업정보가 기존 계약과 일치하지 않을 경우 신규계약 청약을 제한하는 절차를 시행할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-05",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110434"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-05"
+  },
+  {
+    "id": "c:insjournal:33795:ai",
+    "category": "life",
+    "title": "홍콩, 16대 중대질병 보험 공통 기준 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "9월부터",
+    "quote": "홍콩보험업연합회(HKFI)는 회사마다 중구난방이던 중대질병(CI) 보험의 질병 정의를 통일하기 위해 지난 9월부터 업계 자율 기준을 전면 시행했다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-05",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33795"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-05"
   },
   {
     "id": "c:fins:110417:ai",

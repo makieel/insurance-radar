@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T00:43:34.099Z",
+  "generatedAt": "2026-11-05T06:57:02.451Z",
   "groups": [
     {
       "id": "g:insjournal:33789",
@@ -121,6 +121,198 @@
       "relevanceBy": "ai",
       "importance": 4,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33795",
+      "topic": "general",
+      "kind": "press",
+      "title": "중국은 ‘로봇’ 품고 대만은 ‘규제’ 조이고… 새판 짜는 아시아 보험시장",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33795",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33795"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33795"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33794",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"장기성과 외면하면 보험사 망가진다\"… 글로벌 보험사는 이미 '평가 혁명' 중",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33794",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33794"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33794"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33793",
+      "topic": "general",
+      "kind": "press",
+      "title": "“위자료 다 냈으니 토해내라?”… 대법, 보험·공제사 '쪼개기 구상' 셈법에 쐐기",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33793",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33793"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33793"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33792",
+      "topic": "general",
+      "kind": "press",
+      "title": "“뚫리면 즉각 셧다운”… AI 해킹 공포 덮친 금융권, 580개사 싹 다 뒤진다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33792",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33792"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33792"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110438",
+      "topic": "general",
+      "kind": "press",
+      "title": "美 민주당 압승에 국채금리 출렁…보험사 자산운용 촉각",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110438",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110438"
+        }
+      ],
+      "itemIds": [
+        "fins:110438"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110437",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험 AI 의사결정 확대…판단 책임·소비자보호 논의",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110437",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110437"
+        }
+      ],
+      "itemIds": [
+        "fins:110437"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110434",
+      "topic": "general",
+      "kind": "press",
+      "title": "손보업계, 직업변경 통지 관리 강화…보험금 분쟁 예방",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110434",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110434"
+        }
+      ],
+      "itemIds": [
+        "fins:110434"
+      ],
+      "summary": "오는 내년 1월 1일부터 일부 손해보험사는 피보험자의 직업정보가 기존 계약과 일치하지 않을 경우 신규계약 청약을 제한하는 절차를 시행할 예정이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110433",
+      "topic": "general",
+      "kind": "press",
+      "title": "금융권 해킹 37개사로 확산…보험사 3곳 뚫렸다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110433",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110433"
+        }
+      ],
+      "itemIds": [
+        "fins:110433"
+      ],
+      "summary": "최근 한 달여 동안 보험사 3곳을 비롯해 금융회사 37곳에서 침해사고가 발생해 47만건이 넘는 정보가 유출됐어요. 금융당국은 보험사뿐 아니라 법인보험대리점까지 보안규제 대상을 확대하기로 했어요.",
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -239,7 +431,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -247,7 +439,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -279,7 +471,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false
