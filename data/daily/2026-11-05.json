@@ -332,9 +332,9 @@
         "insnews:93701"
       ],
       "summary": null,
-      "relevance": "high",
+      "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -356,9 +356,9 @@
         "insnews:93698"
       ],
       "summary": null,
-      "relevance": "medium",
+      "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -382,7 +382,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     }

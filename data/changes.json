@@ -1122,27 +1122,5 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
-  },
-  {
-    "id": "c:fsc-press:86831:2026-05-06",
-    "category": "medical",
-    "title": "5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.",
-    "when": "exact",
-    "date": "2026-05-06",
-    "period": null,
-    "phrase": "2026.5.6.",
-    "quote": "- 1 - 보도자료 보도시점 2026.5.6.(수) 조간 배포 2026.5.4.(월) 08:00 5월 6일부터 치료비 부담이 큰 중증질환의 보장을 강화하고, 보험료는 낮춘 5세대 실손의료보험이 새롭게 출시·판매됩니다.",
-    "status": "confirmed",
-    "past": false,
-    "announced": "2026-05-06",
-    "sources": [
-      {
-        "name": "금융위원회",
-        "url": "https://www.fsc.go.kr/no010101/86831"
-      }
-    ],
-    "origin": "rule",
-    "rate": null,
-    "firstSeen": "2026-10-23"
   }
 ]

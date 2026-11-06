@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T00:42:04.496Z",
+  "groups": [
+    {
+      "id": "g:insjournal:33807",
+      "topic": "general",
+      "kind": "press",
+      "title": "토스인슈어런스, 대구 오피스 오픈… 전국 6대 광역시 거점 모두 확보",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33807",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33807"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33807"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110421",
+      "topic": "medical",
+      "kind": "press",
+      "title": "[기자수첩] 실손 전환의 데자뷔, 할인 다음은",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110421",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110421"
+        }
+      ],
+      "itemIds": [
+        "fins:110421"
+      ],
+      "summary": "지난 5월 5세대 실손이 출시되었고, 이달부터 2013년 3월 이전 가입한 재가입 조건 없는 계약을 대상으로 계약전환 할인과 선택형 할인특약이 시행돼요. 금융당국은 5세대 전환 시 보험료를 3년간 50% 할인하는 방안을 예시로 제시했어요. 기존 계약을 유지하면서 일부 보장을 제외해 보험료를 낮추는 선택지도 마련되었어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110442",
+      "topic": "industry",
+      "kind": "press",
+      "title": "1200%룰 시행 후 설계사 증가세 둔화…초회보험료는 급증",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110442",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110442"
+        }
+      ],
+      "itemIds": [
+        "fins:110442"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110446",
+      "topic": "life",
+      "kind": "press",
+      "title": "日 우체국보험 민영화 제동…韓도 '공정경쟁' 과제",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110446",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110446"
+        }
+      ],
+      "itemIds": [
+        "fins:110446"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
