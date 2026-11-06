@@ -124,6 +124,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:fins:110449:ai",
+    "category": "general",
+    "title": "2030년까지 퇴직급여 사외적립 전면 의무화",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "2030년까지",
+    "quote": "정부는 2030년까지 모든 사업장에 퇴직급여 사외적립을 의무화할 계획이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-06",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110449"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-06"
+  },
+  {
     "id": "c:fins:110434:ai",
     "category": "life",
     "title": "손보업계 직업정보 불일치 시 신규계약 청약 제한 시행",

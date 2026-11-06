@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T06:56:27.192Z",
+  "generatedAt": "2026-11-06T12:48:41.785Z",
   "groups": [
     {
       "id": "g:insjournal:33807",
@@ -241,6 +241,78 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93714",
+      "topic": "general",
+      "kind": "press",
+      "title": "법원, 2천억원대 ‘깡통 보증서’ 발행한 유령 보험사에 해산명령",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93714",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93714"
+        }
+      ],
+      "itemIds": [
+        "insnews:93714"
+      ],
+      "summary": "서울중앙지법은 금융위원회 허가 없이 2002억원 규모의 보험증서를 발행한 무허가 보증보험사 K법인에 대해 법인 해산을 명령했어요. 법원의 해산 명령 결정이 확정되면 K법인은 즉시 청산 절차에 돌입해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110450",
+      "topic": "general",
+      "kind": "press",
+      "title": "AI로 만든 '가짜 흠집' 보험금 청구…日손보업계 비상",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110450",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110450"
+        }
+      ],
+      "itemIds": [
+        "fins:110450"
+      ],
+      "summary": "일본 미쓰이스미토모해상화재보험 등은 보험금 청구 사진의 AI 조작 여부를 판별하는 시스템을 개발해 지난 8월부터 운용하고 있어요. 지난 9월 화재·상해보험 등 청구자 7504명 중 16명이 제출한 사진이 AI 생성 이미지로 판정됐어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110449",
+      "topic": "general",
+      "kind": "press",
+      "title": "퇴직연금 대수술…금융권 '수익률·책임경영' 시험대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110449",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110449"
+        }
+      ],
+      "itemIds": [
+        "fins:110449"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -249,7 +321,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -257,15 +329,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 10,
+      "count": 81,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -273,15 +345,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "knia-press",
       "ok": true,
-      "count": 10,
+      "count": 32,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -295,9 +367,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 12,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -343,7 +415,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 57,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -359,7 +431,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 56,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -367,7 +439,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 52,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -383,7 +455,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 1,
+      "count": 4,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
