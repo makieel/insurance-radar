@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T00:42:04.496Z",
+  "generatedAt": "2026-11-06T06:56:27.192Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -4477,9 +4477,9 @@
     {
       "id": "insjournal:33783",
       "source": "insjournal",
-      "title": "메타리치, 수수료 경쟁 넘어 ‘GA 2.0’ 전환… 통합 업무시스템 ‘MetaArena’ 구축",
+      "title": "메타리치, 수수료 경쟁 넘어 ‘GA 2.0’ 전환… 통합 업무시스템 ‘MetaArena’ 구축(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33783",
-      "published": "2026-11-04",
+      "published": "2026-11-06",
       "hints": [
         "종합뉴스"
       ],
@@ -4488,9 +4488,9 @@
     {
       "id": "insjournal:33771",
       "source": "insjournal",
-      "title": "[GA 품질경영 시대] 스카이블루에셋, 매월 '준법 DAY' 운영… 현장 밀착 준법경영으로 '질적 성장' 정조준",
+      "title": "[GA 품질경영 시대] 스카이블루에셋, 매월 '준법 DAY' 운영… 현장 밀착 준법경영으로 '질적 성장' 정조준(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33771",
-      "published": "2026-11-04",
+      "published": "2026-11-06",
       "hints": [
         "기획특집&단독"
       ],
@@ -5242,6 +5242,185 @@
       "published": "2026-11-03",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93710",
+      "source": "insnews",
+      "title": "KB국민은행, 아동수당 수령 고객 우대 ‘KB아동수당통장’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93710",
+      "published": "2026-11-06",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93709",
+      "source": "insnews",
+      "title": "메트라이프생명, 고객 서비스 활동 성과 공개… ‘MetLife ONE’으로 고객 경험 확장",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93709",
+      "published": "2026-11-06",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93708",
+      "source": "insnews",
+      "title": "신협중앙회, ‘신협발전유공 정부포상 수여식’ 개최… 유공자 11명 수상",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93708",
+      "published": "2026-11-06",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93707",
+      "source": "insnews",
+      "title": "이준수 금융연수원장, ‘사람 살리는 금융’ 캠페인 동참… 불법사금융 피해 예방에 한뜻",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93707",
+      "published": "2026-11-06",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93705",
+      "source": "insnews",
+      "title": "신한금융, 제주서 자연자본 공시·생태보전 금융 역할 논의",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93705",
+      "published": "2026-11-06",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93703",
+      "source": "insnews",
+      "title": "하나금융, 창사 첫 개인주주 간담회… 배당·자사주 정책 설명",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93703",
+      "published": "2026-11-06",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93704",
+      "source": "insnews",
+      "title": "토스인슈어런스, 대구에 새 거점… 6개 광역시 진출",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93704",
+      "published": "2026-11-06",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33815",
+      "source": "insjournal",
+      "title": "쏟아지는 '반대매매' 막는다… 정부, 신용융자 담보비율 3개월 면제 ‘강수’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33815",
+      "published": "2026-11-06",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33813",
+      "source": "insjournal",
+      "title": "GA 잡으려다 '중소형 보험사' 먼저 잡나…4년·7년 분급제의 '역설'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33813",
+      "published": "2026-11-06",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33814",
+      "source": "insjournal",
+      "title": "“아이 근시 억제한다며 검사용 안약 장기 처방”… 정식 치료제 등장에 실손 심사 ‘도마’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33814",
+      "published": "2026-11-06",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33812",
+      "source": "insjournal",
+      "title": "7차례 처벌에도 2002억원 '깡통 보증'…법원, 무허가 보험법인 해산명령",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33812",
+      "published": "2026-11-06",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33810",
+      "source": "insjournal",
+      "title": "“잇따른 GA 특명검사, 제재수위에 업계 촉각”… 금융당국 위반행위별 처분 기준",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33810",
+      "published": "2026-11-06",
+      "hints": [
+        "팩트체크"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33798",
+      "source": "insjournal",
+      "title": "[GA 품질경영 시대] 불완전판매 제재 '3OUT→2OUT'… 어센틱금융그룹, '클린 영업' 강화",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33798",
+      "published": "2026-11-06",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110448",
+      "source": "fins",
+      "title": "토스인슈어런스, 대구 오피스 개소…6대 광역시 거점 확보",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110448",
+      "published": "2026-11-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110447",
+      "source": "fins",
+      "title": "실손보험 비급여 관리 강화에 의료계 반발…“민간보험 손해율 관리 수단 전락”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110447",
+      "published": "2026-11-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134978643",
+      "source": "donga",
+      "title": "커크, PGA WWT 챔피언십 첫날 단독 선두…통산 7승 도전",
+      "url": "https://www.donga.com/news/Sports/article/all/20261106/134978643/1",
+      "published": "2026-11-06",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261106113900009",
+      "source": "yna",
+      "title": "日손보사 \"가짜 車흠집 잡는다\"…'생성형AI' 보험사기 대응 강화",
+      "url": "https://www.yna.co.kr/view/AKR20261106113900009",
+      "published": "2026-11-06",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -5542,7 +5721,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -5558,7 +5737,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -5566,7 +5745,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -5582,9 +5761,9 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -5598,9 +5777,9 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "note": null,
       "disabled": false
     },
     {

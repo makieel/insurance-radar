@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T00:42:04.496Z",
+  "generatedAt": "2026-11-06T06:56:27.192Z",
   "groups": [
     {
       "id": "g:insjournal:33807",
@@ -90,6 +90,150 @@
       ],
       "itemIds": [
         "fins:110446"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93704",
+      "topic": "general",
+      "kind": "press",
+      "title": "토스인슈어런스, 대구에 새 거점… 6개 광역시 진출",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93704",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93704"
+        }
+      ],
+      "itemIds": [
+        "insnews:93704"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33814",
+      "topic": "medical",
+      "kind": "press",
+      "title": "“아이 근시 억제한다며 검사용 안약 장기 처방”… 정식 치료제 등장에 실손 심사 ‘도마’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33814",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33814"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33814"
+      ],
+      "summary": "식품의약품안전처가 지난 10월 소아 근시 진행 억제 효능을 인정한 점안제를 허가하면서, 그동안 근시 억제 목적으로 처방되던 검사용 산동제의 처방 관행과 실손보험 심사 적정성 점검 필요성이 커지고 있어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33812",
+      "topic": "general",
+      "kind": "press",
+      "title": "7차례 처벌에도 2002억원 '깡통 보증'…법원, 무허가 보험법인 해산명령",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33812",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33812"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33812"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110448",
+      "topic": "industry",
+      "kind": "press",
+      "title": "토스인슈어런스, 대구 오피스 개소…6대 광역시 거점 확보",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110448",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110448"
+        }
+      ],
+      "itemIds": [
+        "fins:110448"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110447",
+      "topic": "medical",
+      "kind": "press",
+      "title": "실손보험 비급여 관리 강화에 의료계 반발…“민간보험 손해율 관리 수단 전락”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110447",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110447"
+        }
+      ],
+      "itemIds": [
+        "fins:110447"
+      ],
+      "summary": "정부가 비급여 진료내역 보고와 가격관리, 공·사보험 연계 등을 추진하자 의료계가 민간 보험사의 손해율 관리 수단으로 변질될 수 있다며 반발하고 있어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261106113900009",
+      "topic": "general",
+      "kind": "press",
+      "title": "日손보사 \"가짜 車흠집 잡는다\"…'생성형AI' 보험사기 대응 강화",
+      "url": "https://www.yna.co.kr/view/AKR20261106113900009",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-06",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261106113900009"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261106113900009"
       ],
       "summary": null,
       "relevance": "low",
@@ -199,7 +343,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -215,7 +359,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -223,7 +367,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -239,9 +383,9 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -255,9 +399,9 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "note": null,
       "disabled": false
     },
     {
