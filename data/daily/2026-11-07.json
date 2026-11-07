@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T06:41:45.936Z",
+  "generatedAt": "2026-11-07T12:34:44.740Z",
   "groups": [
     {
       "id": "g:chosun:GFSTIMTFGEYTMNZUMZTDQMJQGA",
@@ -79,9 +79,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 12,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -167,7 +167,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 4,
+      "count": 6,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false

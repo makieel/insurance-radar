@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T06:41:45.936Z",
+  "generatedAt": "2026-11-07T12:34:44.740Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7145,6 +7145,42 @@
       "published": "2026-02-11",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "donga:134983640",
+      "source": "donga",
+      "title": "황재민, KPGA 투어 챔피언십 3라운드도 단독 선두 유지",
+      "url": "https://www.donga.com/news/Sports/article/all/20261107/134983640/1",
+      "published": "2026-11-07",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134983545",
+      "source": "donga",
+      "title": "황유민, LPGA 토토 저팬 클래식 3라운드 공동 3위 도약",
+      "url": "https://www.donga.com/news/Sports/article/all/20261107/134983545/1",
+      "published": "2026-11-07",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "klia-press:123660",
+      "source": "klia-press",
+      "title": "상생보험 관련 보험업권-지자체 협약식",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123660&boardMngNo=2&seq=1",
+      "published": "2026-03-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "klia-press:123657",
+      "source": "klia-press",
+      "title": "생명보험사회공헌위원회, 보험전공 대학(원) 장학생 25명 선발, 총 2억 2,000만원 장학금 지급",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123657&boardMngNo=2&seq=1",
+      "published": "2026-03-12",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7397,9 +7433,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 12,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7485,7 +7521,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 4,
+      "count": 6,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
