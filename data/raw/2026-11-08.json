@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T00:38:52.875Z",
+  "generatedAt": "2026-11-08T06:43:10.352Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7141,6 +7141,26 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insjournal:33818",
+      "source": "insjournal",
+      "title": "금리 올랐는데 생보사 '기본자본'은 되레 약해졌다…100bp 더 오르면 62.9%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33818",
+      "published": "2026-11-08",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261106164300530",
+      "source": "yna",
+      "title": "고용보험 부정수급 자진신고하면 추가징수 면제…제보시 포상금",
+      "url": "https://www.yna.co.kr/view/AKR20261106164300530",
+      "published": "2026-11-08",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7347,7 +7367,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7355,7 +7375,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7363,7 +7383,7 @@
       "ok": true,
       "count": 80,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7371,7 +7391,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7379,7 +7399,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7395,7 +7415,7 @@
       "ok": true,
       "count": 12,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7457,7 +7477,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -7491,13 +7511,13 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 99건)",
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
