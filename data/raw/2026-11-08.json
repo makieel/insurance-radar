@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T06:43:10.352Z",
+  "generatedAt": "2026-11-08T12:32:54.803Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7161,6 +7161,24 @@
       "published": "2026-11-08",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "donga:134986371",
+      "source": "donga",
+      "title": "유현조, KLPGA 최종전 우승…김민솔 신인상·대상·상금왕 석권",
+      "url": "https://www.donga.com/news/Sports/article/all/20261108/134986371/1",
+      "published": "2026-11-08",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:134985905",
+      "source": "donga",
+      "title": "죽기전 꺼내쓰고, 보험금 ‘리필’도…2030 사로잡은 종신보험의 변신",
+      "url": "https://www.donga.com/news/Economy/article/all/20261108/134985905/1",
+      "published": "2026-11-08",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7501,7 +7519,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 4,
+      "count": 6,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
