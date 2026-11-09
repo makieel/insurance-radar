@@ -256,6 +256,28 @@
     "firstSeen": "2026-11-09"
   },
   {
+    "id": "c:joongang:25476980:ai",
+    "category": "auto",
+    "title": "자동차보험 경상환자 8주룰 제도 도입",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "9월 10일부터",
+    "quote": "8주룰 제도는 이른바 ‘나이롱 환자’에게 새나가는 보험금을 막기 위한 제도로, 지난 9월 10일부터 시행됐다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-09",
+    "sources": [
+      {
+        "name": "중앙일보",
+        "url": "https://www.joongang.co.kr/article/25476980"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-09"
+  },
+  {
     "id": "c:fins:110449:ai",
     "category": "general",
     "title": "2030년까지 퇴직급여 사외적립 전면 의무화",

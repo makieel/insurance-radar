@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generatedAt": "2026-11-09T07:07:38.693Z",
+  "generatedAt": "2026-11-09T12:53:21.380Z",
   "groups": [
     {
       "id": "g:insnews:93706",
@@ -1259,6 +1259,179 @@
       "relevanceBy": "ai",
       "importance": 2,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93732",
+      "topic": "general",
+      "kind": "press",
+      "title": "FM “에너지 인프라 위험 대응, 엔지니어링 조기 참여 중요”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93732",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93732"
+        }
+      ],
+      "itemIds": [
+        "insnews:93732"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93731",
+      "topic": "general",
+      "kind": "press",
+      "title": "롯데손보, 차 세워둔 날만큼 보험료 할인… 업계 첫 주차일수 특약",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93731",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93731"
+        }
+      ],
+      "itemIds": [
+        "insnews:93731"
+      ],
+      "summary": "롯데손해보험이 차량 미운행 일수에 따라 자동차보험료를 최대 15% 할인하는 주차일수 할인특약을 9일 출시했어요. 최근 30일간 주차일수가 10일 이상이면 3%, 15일 이상이면 10%, 25일 이상이면 15%가 할인돼요. 커넥티드카 정보나 아파트 관리 앱의 주차 기록을 활용해 산정하며, 9일 책임개시 계약부터 적용해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110478",
+      "topic": "auto",
+      "kind": "press",
+      "title": "카카오페이손보, 운전자보험 4종으로 세분화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110478",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110478"
+        }
+      ],
+      "itemIds": [
+        "fins:110478"
+      ],
+      "summary": "카카오페이손해보험이 운전자의 주행 빈도와 생활 방식에 맞춰 보장을 선택할 수 있도록 운전자보험을 4종의 플랜으로 개편했어요. 엄마아빠 플랜, 일상 운전자 플랜, 동네 운전자 플랜, 실속 운전자 플랜으로 구성되었으며 엄마아빠 플랜은 자녀를 최대 9명까지 함께 보장해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110477",
+      "topic": "general",
+      "kind": "press",
+      "title": "롯데손보, '안 탄 날' 보험료 깎아준다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110477",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110477"
+        }
+      ],
+      "itemIds": [
+        "fins:110477"
+      ],
+      "summary": "롯데손해보험이 차량을 운행하지 않은 날을 기준으로 자동차보험료를 최대 15% 깎아주는 주차일수 할인특약을 9일 출시했어요. 최근 30일간 주차일수가 10일 이상이면 3%, 15일 이상이면 10%, 25일 이상이면 최대 15%의 할인을 받을 수 있어요. 커넥티드카 데이터와 아파트 관리 플랫폼의 주차정보를 활용하며 9일 책임개시 계약부터 적용돼요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110475",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험금 타내려 본인 소유 창고에 불 지른 60대 징역 3년",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110475",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110475"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261109127100063"
+        }
+      ],
+      "itemIds": [
+        "fins:110475",
+        "yna:AKR20261109127100063"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110474",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성화재, 英캐노피우스 경영권 인수 추진…해외보험 공략 가속",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110474",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110474"
+        }
+      ],
+      "itemIds": [
+        "fins:110474"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:joongang:25476980",
+      "topic": "auto",
+      "kind": "press",
+      "title": "나이롱 환자 방지법 본격화에…보험사 “합의금 줄어드는 흐름”",
+      "url": "https://www.joongang.co.kr/article/25476980",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "중앙일보",
+          "url": "https://www.joongang.co.kr/article/25476980"
+        }
+      ],
+      "itemIds": [
+        "joongang:25476980"
+      ],
+      "summary": "교통사고 경상 환자가 8주를 초과해 치료받기 위해 심사를 요청한 건수가 5700여 건을 기록했어요. 상해 등급 12~14급에 해당하는 경미한 부상으로 8주 넘게 치료받으려면 외부 전문의료인의 심사를 거치는 제도가 지난 9월 10일부터 시행되고 있어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -1267,7 +1440,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -1275,7 +1448,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -1283,7 +1456,7 @@
       "ok": true,
       "count": 80,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -1291,7 +1464,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -1299,7 +1472,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -1313,9 +1486,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 12,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -1361,7 +1534,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 58,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -1385,7 +1558,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 59,
+      "count": 64,
       "error": null,
       "note": null,
       "disabled": false
@@ -1393,9 +1566,9 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "note": "과거 기사 채우기 완료: 중앙일보",
       "disabled": false
     },
     {
@@ -1417,7 +1590,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null,
       "note": null,
       "disabled": false

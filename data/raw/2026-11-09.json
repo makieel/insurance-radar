@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generatedAt": "2026-11-09T07:07:38.693Z",
+  "generatedAt": "2026-11-09T12:53:21.380Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7534,6 +7534,120 @@
       "published": "2026-11-09",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93732",
+      "source": "insnews",
+      "title": "FM “에너지 인프라 위험 대응, 엔지니어링 조기 참여 중요”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93732",
+      "published": "2026-11-09",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93730",
+      "source": "insnews",
+      "title": "금융권, 보이스피싱 피해자 일상 회복 지원 나선다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93730",
+      "published": "2026-11-09",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93731",
+      "source": "insnews",
+      "title": "롯데손보, 차 세워둔 날만큼 보험료 할인… 업계 첫 주차일수 특약",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93731",
+      "published": "2026-11-09",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110479",
+      "source": "fins",
+      "title": "DB손해보험, 소방공무원 응원 봉사활동",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110479",
+      "published": "2026-11-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110478",
+      "source": "fins",
+      "title": "카카오페이손보, 운전자보험 4종으로 세분화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110478",
+      "published": "2026-11-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110477",
+      "source": "fins",
+      "title": "롯데손보, '안 탄 날' 보험료 깎아준다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110477",
+      "published": "2026-11-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110475",
+      "source": "fins",
+      "title": "보험금 타내려 본인 소유 창고에 불 지른 60대 징역 3년",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110475",
+      "published": "2026-11-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110474",
+      "source": "fins",
+      "title": "삼성화재, 英캐노피우스 경영권 인수 추진…해외보험 공략 가속",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110474",
+      "published": "2026-11-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "joongang:25476980",
+      "source": "joongang",
+      "title": "나이롱 환자 방지법 본격화에…보험사 “합의금 줄어드는 흐름”",
+      "url": "https://www.joongang.co.kr/article/25476980",
+      "published": "2026-11-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261109127100063",
+      "source": "yna",
+      "title": "보험금 타내려 본인 소유 창고에 불 지른 60대 징역 3년",
+      "url": "https://www.yna.co.kr/view/AKR20261109127100063",
+      "published": "2026-11-09",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "klia-press:123660",
+      "source": "klia-press",
+      "title": "상생보험 관련 보험업권-지자체 협약식",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123660&boardMngNo=2&seq=1",
+      "published": "2026-03-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "klia-press:123657",
+      "source": "klia-press",
+      "title": "생명보험사회공헌위원회, 보험전공 대학(원) 장학생 25명 선발, 총 2억 2,000만원 장학금 지급",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123657&boardMngNo=2&seq=1",
+      "published": "2026-03-12",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7740,7 +7854,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -7748,7 +7862,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7756,7 +7870,7 @@
       "ok": true,
       "count": 80,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7764,7 +7878,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7772,7 +7886,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7786,9 +7900,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 12,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -7834,7 +7948,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 58,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -7858,7 +7972,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 59,
+      "count": 64,
       "error": null,
       "note": null,
       "disabled": false
@@ -7866,9 +7980,9 @@
     {
       "source": "joongang",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "note": "과거 기사 채우기 완료: 중앙일보",
       "disabled": false
     },
     {
@@ -7890,7 +8004,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null,
       "note": null,
       "disabled": false
