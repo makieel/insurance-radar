@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generatedAt": "2026-11-09T00:40:50.413Z",
+  "generatedAt": "2026-11-09T07:07:38.693Z",
   "groups": [
     {
       "id": "g:insnews:93706",
@@ -697,6 +697,568 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93719",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험연구원, 스위스 생갈렌대와 ‘보험 연구’ 협력",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93719",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93719"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72934"
+        }
+      ],
+      "itemIds": [
+        "insnews:93719",
+        "insweek:72934"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72928",
+      "topic": "auto",
+      "kind": "press",
+      "title": "카카오페이손해보험, 운전자보험 개편···맞춤형 플랜 4종 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72928",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72928"
+        }
+      ],
+      "itemIds": [
+        "insweek:72928"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33834",
+      "topic": "life",
+      "kind": "press",
+      "title": "“생보 70:30, 손보 80:20… 수수료 경쟁력 달라지나”… 연만기·세만기 상품믹스 변수",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33834",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33834"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33834"
+      ],
+      "summary": "내년 1월부터 보험판매수수료가 상품별 계약체결비용 한도 내로 제한되면서 연만기와 세만기 상품믹스가 GA의 수수료 경쟁력 변수로 떠올랐어요. 업계가 추정하는 건강보험 판매 비중은 생보사가 세만기 70%·연만기 30%, 손보사가 세만기 80%·연만기 20% 수준이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33830",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"영업과 리크루팅의 가장 강력한 무기\"… 보험저널, 공식 인증 '명인 열전' 프로젝트 가동",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33830",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33830"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33830"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33829",
+      "topic": "life",
+      "kind": "press",
+      "title": "\"아프고 나서 가입하는 보험?\"… '돌봄 파산' 막을 중산층 구원투수 '즉시형 장기요양연금' 뜬다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33829",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33829"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33829"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33828",
+      "topic": "life",
+      "kind": "press",
+      "title": "\"자문 수요 폭발에 채널 권력 이동\"… 글로벌 생보 시장, '독립 중개업자·AI'가 판 바꾼다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33828",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33828"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33828"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33827",
+      "topic": "auto",
+      "kind": "press",
+      "title": "자녀 태운 부모 운전자까지…카카오페이손보, '운전자보험' 4개 플랜 개편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33827",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33827"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33827"
+      ],
+      "summary": "카카오페이손해보험이 주행 빈도와 생활 방식에 따라 보장을 선택할 수 있도록 운전자보험을 개편했어요. 동승 자녀의 자동차사고 부상과 일상생활 배상책임을 함께 대비할 수 있는 ‘엄마아빠 플랜’ 등 4가지 플랜을 마련했어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33826",
+      "topic": "general",
+      "kind": "press",
+      "title": "연말까지 '고용보험 부정수급' 자진신고…추가징수 면제",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33826",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33826"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110462"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33826",
+        "fins:110462"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33825",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"AI·자율주행 사고, 누가 책임질까?\"… 보험연구원, 스위스 최고 석학과 글로벌 해법 찾는다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33825",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33825"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33825"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110470",
+      "topic": "general",
+      "kind": "press",
+      "title": "산재보상 이의제기도 국가가 지원…내년 3월 시행",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110470",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110470"
+        }
+      ],
+      "itemIds": [
+        "fins:110470"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110469",
+      "topic": "auto",
+      "kind": "press",
+      "title": "신호위반 차량만 골라서 '쾅'…렌터카로 사고 유발한 21명 덜미",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110469",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110469"
+        }
+      ],
+      "itemIds": [
+        "fins:110469"
+      ],
+      "summary": "2024년 1월부터 2025년 11월까지 렌터카를 이용해 교통법규 위반 차량과 고의로 사고를 내고 합의금 약 3억2천만 원을 편취한 일당 21명이 검거됐어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110466",
+      "topic": "life",
+      "kind": "press",
+      "title": "생보사 연금저축보험 수익률 ‘마이너스’",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110466",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110466"
+        }
+      ],
+      "itemIds": [
+        "fins:110466"
+      ],
+      "summary": "올해 3분기 기준 생명보험사들의 연금저축보험 누적 연평균 수익률은 마이너스(-)0.75%를 기록했어요. 연간 납입액 가운데 최대 600만원까지 세액공제가 적용되며, 개인형 퇴직연금(IRP)과 합산하면 최대 900만원까지 공제받을 수 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110463",
+      "topic": "life",
+      "kind": "press",
+      "title": "돌봄 시작된 고령층 보장 공백…'즉시형 요양연금' 도입론",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110463",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110463"
+        }
+      ],
+      "itemIds": [
+        "fins:110463"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110461",
+      "topic": "auto",
+      "kind": "press",
+      "title": "카카오페이손보, 운전자보험에 동승 자녀 보장 추가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110461",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110461"
+        }
+      ],
+      "itemIds": [
+        "fins:110461"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261109095300008",
+      "topic": "general",
+      "kind": "press",
+      "title": "대신증권, '해킹 정보유출' 고객에 보상보험 가입 등 지원",
+      "url": "https://www.yna.co.kr/view/AKR20261109095300008",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261109095300008"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261109095300008"
+      ],
+      "summary": "대신증권은 해킹으로 개인신용정보가 유출된 고객을 대상으로 1년간 최대 1천만 원 한도의 보이스피싱·스미싱 피해보상보험 가입을 지원해요. 또한 12월 한 달간 국내 주식 거래수수료와 각종 업무 수수료를 면제하고 고객 1인당 현금 1만 원을 지급해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261109072300530",
+      "topic": "general",
+      "kind": "press",
+      "title": "29세 이하 고용보험 가입자 50개월째 감소…역대 최장",
+      "url": "https://www.yna.co.kr/view/AKR20261109072300530",
+      "published": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261109072300530"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261109072300530"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72929",
+      "topic": "general",
+      "kind": "press",
+      "title": "NH농협생명, 경기 안성 농가 찾아 농촌일손돕기 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72929",
+      "published": "2026-11-07",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72929"
+        }
+      ],
+      "itemIds": [
+        "insweek:72929"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72938",
+      "topic": "general",
+      "kind": "press",
+      "title": "인카금융서비스, 취약계층 겨울나기 지원",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72938",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72938"
+        }
+      ],
+      "itemIds": [
+        "insweek:72938"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72936",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보교육재단, ‘2026년 제2회 청소년 AI윤리ON 캠프’ 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72936",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72936"
+        }
+      ],
+      "itemIds": [
+        "insweek:72936"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72935",
+      "topic": "general",
+      "kind": "press",
+      "title": "메트라이프생명, 고객서비스 주간맞아 고객옹호 활동 성과 공유",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72935",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72935"
+        }
+      ],
+      "itemIds": [
+        "insweek:72935"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72937",
+      "topic": "general",
+      "kind": "press",
+      "title": "토스인슈어런스, 대구 오피스 오픈",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72937",
+      "published": "2026-11-06",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72937"
+        }
+      ],
+      "itemIds": [
+        "insweek:72937"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72933",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한라이프, 소비자권익보호위원회 외부 전문위원 위촉",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72933",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72933"
+        }
+      ],
+      "itemIds": [
+        "insweek:72933"
+      ],
+      "summary": "신한라이프는 보험 분쟁 사례에 대한 전문적이고 객관적인 심의를 강화하기 위해 외부 전문가 3명을 소비자권익보호위원회 위원으로 위촉했어요. 외부 위원은 2년간 소비자보호 자문 역할과 함께 내부 위원과 동일한 심의·의결권을 갖고 활동해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72931",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보생명, 소비자보호 체계 강화···금감원 모범사례 선정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72931",
+      "published": "2026-11-05",
+      "firstSeen": "2026-11-09",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72931"
+        }
+      ],
+      "itemIds": [
+        "insweek:72931"
+      ],
+      "summary": "교보생명은 고객이 전화한 뒤 20초 이내에 상담사와 연결된 비율을 높이고 어려운 금융·보험 용어를 일상적인 표현으로 바꿨어요. 또한 알림톡에 상세내역 확인하기 기능을 마련하고 44종의 표준 회신문을 운영해 소비자보호 체계를 강화했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -705,7 +1267,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -713,7 +1275,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -721,7 +1283,7 @@
       "ok": true,
       "count": 80,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -729,7 +1291,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -737,7 +1299,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -753,7 +1315,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": null,
       "disabled": false
     },
     {
@@ -799,7 +1361,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -807,7 +1369,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -815,7 +1377,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -823,7 +1385,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -841,7 +1403,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
@@ -849,13 +1411,13 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 4,
       "error": null,
       "note": null,
       "disabled": false

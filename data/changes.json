@@ -146,6 +146,72 @@
     "firstSeen": "2026-11-09"
   },
   {
+    "id": "c:fins:110462:ai",
+    "category": "general",
+    "title": "고용보험 부정수급 집중신고 및 특별점검 실시",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "다음 달",
+    "quote": "9일 고용노동부에 따르면 이날부터 다음 달 31일까지 ‘2026년 하반기 고용보험 부정수급 집중신고기간’을 운영한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-09",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110462"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-09"
+  },
+  {
+    "id": "c:fins:110470:ai",
+    "category": "life",
+    "title": "저소득 산재노동자 대리인 선임 비용 지원 제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "3월 30일부터",
+    "quote": "9일 근로복지공단에 따르면 내년 3월 30일부터 ‘산재보상 대리인 제도’가 시행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-09",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110470"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-09"
+  },
+  {
+    "id": "c:insjournal:33834:ai",
+    "category": "general",
+    "title": "내년 1월부터 보험판매수수료 상품별 계약체결비용 한도 내 제한",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년 1월부터",
+    "quote": "내년 1월부터 보험판매수수료가 상품별 계약체결비용 한도 내로 제한되면서 GA(법인보험대리점)이 상품을 판매할 때 따져야 할 요소가 늘어나고 있다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-09",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33834"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-09"
+  },
+  {
     "id": "c:insnews:93681:ai",
     "category": "general",
     "title": "베트남, 2028년부터 RBC 제도 시행",
@@ -210,6 +276,28 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-11-06"
+  },
+  {
+    "id": "c:insweek:72937:ai",
+    "category": "general",
+    "title": "GA 수수료 분급제 내년 1월 도입",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "7월부터",
+    "quote": "토스인슈어런스는 7월부터 GA 업계에서 시행 중인 1200%룰과 내년 1월 도입 예정인 수수료 분급제로 인해 장기적인 안정성과 성장 가능성을 우선시하는 설계사가 늘고 있는 만큼 마이데이터 기반의 플랫폼 DB영업 환경을 제공하는 강점을 앞세워 신입 설계사 육성 규모를 늘려나간다는 계획이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-06",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72937"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-09"
   },
   {
     "id": "c:fins:110434:ai",
