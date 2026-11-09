@@ -124,6 +124,72 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:fins:110456:ai",
+    "category": "auto",
+    "title": "교통사고 경상환자 8주 초과 치료 시 필요성 검토 제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "9월 10일부터",
+    "quote": "8주룰은 9월 10일부터 시행됐다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-09",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110456"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-09"
+  },
+  {
+    "id": "c:insnews:93681:ai",
+    "category": "general",
+    "title": "베트남, 2028년부터 RBC 제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "2028년부터",
+    "quote": "베트남은 2028년부터 RBC와 자체위험 및 지급여력 평가체제(ORSA)를 시행하고, 제도 도입 이후 3년간 경과기간을 운영할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-09",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93681"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-09"
+  },
+  {
+    "id": "c:insnews:93689:ai",
+    "category": "general",
+    "title": "퇴직연금 기금형 활성화 및 계약형 제도 개선 추진",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "연내",
+    "quote": "관련 법안이 연내 통과되면 1년의 준비기간을 거쳐 2028년부터 사업장 규모에 따라 의무화할 계획이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-09",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93689"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-09"
+  },
+  {
     "id": "c:fins:110449:ai",
     "category": "general",
     "title": "2030년까지 퇴직급여 사외적립 전면 의무화",
