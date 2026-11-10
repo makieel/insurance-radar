@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T06:51:17.050Z",
+  "generatedAt": "2026-11-10T12:50:02.577Z",
   "groups": [
     {
       "id": "g:samsungfire:1419",
@@ -443,6 +443,150 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93774",
+      "topic": "industry",
+      "kind": "press",
+      "title": "서비스 수출실적, 무역보험과 연계… 기업 증빙 부담 줄인다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93774",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93774"
+        }
+      ],
+      "itemIds": [
+        "insnews:93774"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93766",
+      "topic": "general",
+      "kind": "press",
+      "title": "한국금융연구원, 내년 경제 3.1% 성장 전망",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93766",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93766"
+        }
+      ],
+      "itemIds": [
+        "insnews:93766"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93759",
+      "topic": "life",
+      "kind": "press",
+      "title": "금융보안원, ‘2026 금융 AI Challenge’ 개최… 대상에 한화손보 ‘모의창구’",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93759",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93759"
+        }
+      ],
+      "itemIds": [
+        "insnews:93759"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33853",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"억울한 교권침해, 신고부터 90만원\"… 한화손보, 교직원 '방학 상해·법률비용'까지 챙긴다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33853",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33853"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33853"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110491",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원, PF 보증보험 발급 내부통제 강화 주문",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110491",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110491"
+        }
+      ],
+      "itemIds": [
+        "fins:110491"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110492",
+      "topic": "general",
+      "kind": "press",
+      "title": "동양생명, 금감원 정기검사 돌입…재무건전성 점검 주목",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110492",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110492"
+        }
+      ],
+      "itemIds": [
+        "fins:110492"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -464,10 +608,10 @@
     },
     {
       "source": "fss-press",
-      "ok": false,
-      "count": 10,
-      "error": "The operation was aborted due to timeout",
-      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
+      "ok": true,
+      "count": 80,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -475,15 +619,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "knia-press",
       "ok": true,
-      "count": 10,
+      "count": 32,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -497,9 +641,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 11,
+      "count": 13,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -545,7 +689,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 60,
+      "count": 64,
       "error": null,
       "note": null,
       "disabled": false
@@ -561,7 +705,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 56,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -569,7 +713,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 58,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
