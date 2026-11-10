@@ -124,6 +124,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:fins:110485:ai",
+    "category": "general",
+    "title": "내년 1월부터 설계사 판매수수료 4년 분급제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년 1월부터",
+    "quote": "내년 1월부터는 설계사 판매수수료 4년 분급제도가 시행될 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-10",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110485"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-10"
+  },
+  {
     "id": "c:fins:110456:ai",
     "category": "auto",
     "title": "교통사고 경상환자 8주 초과 치료 시 필요성 검토 제도 시행",
@@ -205,6 +227,10 @@
       {
         "name": "보험저널",
         "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33834"
+      },
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33849"
       }
     ],
     "origin": "ai",

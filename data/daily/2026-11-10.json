@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T00:38:07.858Z",
+  "generatedAt": "2026-11-10T06:51:17.050Z",
   "groups": [
     {
       "id": "g:samsungfire:1419",
@@ -97,6 +97,352 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:klia-press:123850",
+      "topic": "industry",
+      "kind": "assoc",
+      "title": "사람살리는 금융 릴레이 캠페인",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123850&boardMngNo=2&seq=1",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "생명보험협회",
+          "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123850&boardMngNo=2&seq=1"
+        }
+      ],
+      "itemIds": [
+        "klia-press:123850"
+      ],
+      "summary": "생명보험협회 김철주 회장이 11월 10일 서민금융진흥원이 주관하는 '사람 살리는 금융' 릴레이 캠페인에 동참했어요.",
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93755",
+      "topic": "life",
+      "kind": "press",
+      "title": "교보라이프플래닛생명, 아토머스에 ‘라플레이’ 건강관리 기능 공급",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93755",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93755"
+        }
+      ],
+      "itemIds": [
+        "insnews:93755"
+      ],
+      "summary": "교보라이프플래닛생명이 10일 심리상담 플랫폼을 운영하는 아토머스와 전략적 제휴를 맺고 자체 건강관리 플랫폼 '라플레이'의 포인트를 적립하는 기능을 서비스형 소프트웨어 방식으로 공급한다고 밝혔어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93749",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성화재, 영국 로이즈 캐노피우스 경영권 인수… 지분율 80.6%로 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93749",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93749"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72944"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110481"
+        }
+      ],
+      "itemIds": [
+        "insnews:93749",
+        "insweek:72944",
+        "fins:110481"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72945",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, 성남시의료원에 ‘마음도서관’ 개관",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72945",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72945"
+        }
+      ],
+      "itemIds": [
+        "insweek:72945"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72942",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보라이프플래닛생명, 심리상담 플랫폼 아토머스와 헬스케어 협력",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72942",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72942"
+        }
+      ],
+      "itemIds": [
+        "insweek:72942"
+      ],
+      "summary": "교보라이프플래닛생명은 10일 아토머스와 제휴를 맺고 건강관리 플랫폼 '라플레이'의 서비스형 소프트웨어 공급을 확대한다고 밝혔어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33849",
+      "topic": "general",
+      "kind": "press",
+      "title": "[기자의 눈] “수수료 지급 제한되는데, 현행 등급 표기 필요할까”… 수수료 공시 실효성 의문",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33849",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33849"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33849"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33848",
+      "topic": "general",
+      "kind": "press",
+      "title": "수억 원 보험금 노린 '창고 방화'…옆 건물까지 번져 징역 3년",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33848",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33848"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33848"
+      ],
+      "summary": "수억 원의 화재보험금을 노리고 자신이 운영하던 물류창고에 고의로 불을 질러 1억5000여만원의 재산 피해를 발생시킨 60대 남성이 징역 3년을 선고받았어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33847",
+      "topic": "life",
+      "kind": "press",
+      "title": "“낸 보험료 다 꺼내 쓰고, 치매 땐 연금 증액”… 생보사 11월 신상품 ‘봇물’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33847",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33847"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33847"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33844",
+      "topic": "life",
+      "kind": "press",
+      "title": "김철주 생명보험협회장, '사람 살리는 금융' 릴레이 동참…\"사각지대 없는 안전망 구축\"",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33844",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33844"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33844"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110488",
+      "topic": "life",
+      "kind": "press",
+      "title": "700종신 막히자 '중도인출' 부각…생보사 영업전략 변화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110488",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110488"
+        }
+      ],
+      "itemIds": [
+        "fins:110488"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110485",
+      "topic": "life",
+      "kind": "press",
+      "title": "내년 생보 수익성 약화 우려…손보는 소폭 개선 전망",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110485",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110485"
+        }
+      ],
+      "itemIds": [
+        "fins:110485"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110482",
+      "topic": "industry",
+      "kind": "press",
+      "title": "생보협회, 불법사금융 피해 예방 캠페인 동참",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110482",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110482"
+        }
+      ],
+      "itemIds": [
+        "fins:110482"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:GI3WMZRRMIZWCMRUGQYDSNTFGY",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한은행, 정보 유출 고객에 ‘안심 보험’ 지원…수수료 1년 우대",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/10/GI3WMZRRMIZWCMRUGQYDSNTFGY/",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/10/GI3WMZRRMIZWCMRUGQYDSNTFGY/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GI3WMZRRMIZWCMRUGQYDSNTFGY"
+      ],
+      "summary": "신한은행이 해킹 사고로 개인정보가 유출된 고객 2만5000여 명을 대상으로 금융안심보험 가입을 지원하고 거래 수수료 우대 혜택을 제공해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261110089900002",
+      "topic": "industry",
+      "kind": "press",
+      "title": "KIC, 전략적 투자로 英 보험사 지분 인수…3억달러 규모",
+      "url": "https://www.yna.co.kr/view/AKR20261110089900002",
+      "published": "2026-11-10",
+      "firstSeen": "2026-11-10",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261110089900002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261110089900002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -105,7 +451,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -113,15 +459,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "fss-press",
-      "ok": true,
+      "ok": false,
       "count": 10,
-      "error": null,
-      "note": null,
+      "error": "The operation was aborted due to timeout",
+      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
@@ -129,7 +475,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
@@ -137,7 +483,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -151,7 +497,7 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -199,7 +545,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -207,7 +553,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -215,7 +561,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -223,7 +569,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -247,7 +593,7 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false
@@ -255,7 +601,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false

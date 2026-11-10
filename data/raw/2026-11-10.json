@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T00:38:07.858Z",
+  "generatedAt": "2026-11-10T06:51:17.050Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -4323,9 +4323,9 @@
     {
       "id": "insjournal:33830",
       "source": "insjournal",
-      "title": "\"영업과 리크루팅의 가장 강력한 무기\"… 보험저널, 공식 인증 '명인 열전' 프로젝트 가동",
+      "title": "\"영업과 리크루팅의 가장 강력한 무기\"… 보험저널, 공식 인증 '명인 열전' 프로젝트 가동(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33830",
-      "published": "2026-11-09",
+      "published": "2026-11-10",
       "hints": [
         "종합뉴스"
       ],
@@ -4510,9 +4510,9 @@
     {
       "id": "insjournal:33813",
       "source": "insjournal",
-      "title": "GA 잡으려다 '중소형 보험사' 먼저 잡나…4년·7년 분급제의 '역설'",
+      "title": "GA 잡으려다 '중소형 보험사' 먼저 잡나…4년·7년 분급제의 '역설'(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33813",
-      "published": "2026-11-06",
+      "published": "2026-11-10",
       "hints": [
         "기획특집&단독"
       ],
@@ -4554,9 +4554,9 @@
     {
       "id": "insjournal:33798",
       "source": "insjournal",
-      "title": "[GA 품질경영 시대] 불완전판매 제재 '3OUT→2OUT'… 어센틱금융그룹, '클린 영업' 강화",
+      "title": "[GA 품질경영 시대] 불완전판매 제재 '3OUT→2OUT'… 어센틱금융그룹, '클린 영업' 강화(영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33798",
-      "published": "2026-11-06",
+      "published": "2026-11-10",
       "hints": [
         "기획특집&단독"
       ],
@@ -4823,7 +4823,7 @@
     {
       "id": "fins:110479",
       "source": "fins",
-      "title": "DB손해보험, 소방공무원 응원 봉사활동",
+      "title": "DB손보, 소방공무원 응원 봉사활동",
       "url": "http://www.fins.co.kr/news/articleView.html?idxno=110479",
       "published": "2026-11-09",
       "hints": [],
@@ -4850,7 +4850,7 @@
     {
       "id": "fins:110475",
       "source": "fins",
-      "title": "보험금 타내려 본인 소유 창고에 불 지른 60대 징역 3년",
+      "title": "보험금 타내려 물류 창고에 불 지른 60대 실형",
       "url": "http://www.fins.co.kr/news/articleView.html?idxno=110475",
       "published": "2026-11-09",
       "hints": [],
@@ -5278,6 +5278,380 @@
       "published": "2026-11-09",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "klia-press:123850",
+      "source": "klia-press",
+      "title": "사람살리는 금융 릴레이 캠페인",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123850&boardMngNo=2&seq=1",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": [
+        {
+          "name": "_보도자료__사람살리는_금융_릴레이_캠페인_FN.hwp",
+          "url": "https://www.klia.or.kr/FileDown.do?fileNo=21692&seq=1",
+          "type": "hwp"
+        },
+        {
+          "name": "_보도자료__사람살리는_금융_릴레이_캠페인_FN.pdf",
+          "url": "https://www.klia.or.kr/FileDown.do?fileNo=21692&seq=2",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "insnews:93757",
+      "source": "insnews",
+      "title": "우리은행, 키오스크서 통장 분실 신고부터 재발행까지 음성으로",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93757",
+      "published": "2026-11-10",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93755",
+      "source": "insnews",
+      "title": "교보라이프플래닛생명, 아토머스에 ‘라플레이’ 건강관리 기능 공급",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93755",
+      "published": "2026-11-10",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93752",
+      "source": "insnews",
+      "title": "교보생명, 보호아동과 베트남서 ‘사랑의 집’ 건립 지원… 나눔의 가치 확산",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93752",
+      "published": "2026-11-10",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93751",
+      "source": "insnews",
+      "title": "김철주 생명보험협회장, 생명존중 가치 바탕 ‘사람 살리는 금융’ 캠페인 동참",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93751",
+      "published": "2026-11-10",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93750",
+      "source": "insnews",
+      "title": "우리은행, 연말 퇴직연금 가입·납입 이벤트… 배달의민족 쿠폰 혜택",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93750",
+      "published": "2026-11-10",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93749",
+      "source": "insnews",
+      "title": "삼성화재, 영국 로이즈 캐노피우스 경영권 인수… 지분율 80.6%로 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93749",
+      "published": "2026-11-10",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93748",
+      "source": "insnews",
+      "title": "DB생명, 독서소외 아동 위한 ‘동화낭독 목소리 봉사활동’ 진행",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93748",
+      "published": "2026-11-10",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93746",
+      "source": "insnews",
+      "title": "ABL생명, 불법사금융 예방 ‘사람 살리는 금융’ 동참",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93746",
+      "published": "2026-11-10",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93745",
+      "source": "insnews",
+      "title": "NH농협손보, 임직원 300여명 ‘고향사랑기부제’ 동참",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93745",
+      "published": "2026-11-10",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93744",
+      "source": "insnews",
+      "title": "현대해상, 성남시의료원에 ‘마음도서관’ 개관",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93744",
+      "published": "2026-11-10",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72946",
+      "source": "insweek",
+      "title": "NH농협손해보험, 임직원 300여명 ‘고향사랑기부제’ 동참",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72946",
+      "published": "2026-11-10",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72947",
+      "source": "insweek",
+      "title": "교보생명, 보호아동과 함께 베트남 봉사활동 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72947",
+      "published": "2026-11-10",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72945",
+      "source": "insweek",
+      "title": "현대해상, 성남시의료원에 ‘마음도서관’ 개관",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72945",
+      "published": "2026-11-10",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72944",
+      "source": "insweek",
+      "title": "삼성화재, 영국 로이즈 캐노피우스 경영권 인수",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72944",
+      "published": "2026-11-10",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72943",
+      "source": "insweek",
+      "title": "DB생명, 독서소외 아동위한 ‘동화낭독 목소리 봉사활동’ 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72943",
+      "published": "2026-11-10",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72942",
+      "source": "insweek",
+      "title": "교보라이프플래닛생명, 심리상담 플랫폼 아토머스와 헬스케어 협력",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72942",
+      "published": "2026-11-10",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72940",
+      "source": "insweek",
+      "title": "김철주 생명보험협회 회장, ‘사람 살리는 금융’ 릴레이 캠페인 동참",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72940",
+      "published": "2026-11-10",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72939",
+      "source": "insweek",
+      "title": "ABL생명, ‘사람 살리는 금융’ 릴레이 캠페인 동참",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72939",
+      "published": "2026-11-10",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33849",
+      "source": "insjournal",
+      "title": "[기자의 눈] “수수료 지급 제한되는데, 현행 등급 표기 필요할까”… 수수료 공시 실효성 의문",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33849",
+      "published": "2026-11-10",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33848",
+      "source": "insjournal",
+      "title": "수억 원 보험금 노린 '창고 방화'…옆 건물까지 번져 징역 3년",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33848",
+      "published": "2026-11-10",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33847",
+      "source": "insjournal",
+      "title": "“낸 보험료 다 꺼내 쓰고, 치매 땐 연금 증액”… 생보사 11월 신상품 ‘봇물’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33847",
+      "published": "2026-11-10",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33845",
+      "source": "insjournal",
+      "title": "주요 GA 10월 평균 실적, 전월比 15.2%↓…‘700종신’ 판매중단 여파 생보 22% 급감",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33845",
+      "published": "2026-11-10",
+      "hints": [
+        "실적 · 통계 분석"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33846",
+      "source": "insjournal",
+      "title": "DB생명, 독서소외 아동 위한 ‘동화낭독 목소리 봉사활동’ 진행",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33846",
+      "published": "2026-11-10",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33844",
+      "source": "insjournal",
+      "title": "김철주 생명보험협회장, '사람 살리는 금융' 릴레이 동참…\"사각지대 없는 안전망 구축\"",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33844",
+      "published": "2026-11-10",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110488",
+      "source": "fins",
+      "title": "700종신 막히자 '중도인출' 부각…생보사 영업전략 변화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110488",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110486",
+      "source": "fins",
+      "title": "보험설계사도 환자 알선 가담…17억원 수수",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110486",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110485",
+      "source": "fins",
+      "title": "내년 생보 수익성 약화 우려…손보는 소폭 개선 전망",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110485",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110484",
+      "source": "fins",
+      "title": "손보사, 지역사회 상생 활동…농촌 기부·병원 쉼터 조성",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110484",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110483",
+      "source": "fins",
+      "title": "교보라플, 헬스케어 SaaS 사업 국내로 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110483",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110482",
+      "source": "fins",
+      "title": "생보협회, 불법사금융 피해 예방 캠페인 동참",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110482",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110481",
+      "source": "fins",
+      "title": "삼성화재, 영국 캐노피우스 경영권 인수 계약",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110481",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110480",
+      "source": "fins",
+      "title": "삼성화재, 포튜나 탑코 주식 2조2647억원에 추가 취득",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110480",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GI3WMZRRMIZWCMRUGQYDSNTFGY",
+      "source": "chosun",
+      "title": "신한은행, 정보 유출 고객에 ‘안심 보험’ 지원…수수료 1년 우대",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/10/GI3WMZRRMIZWCMRUGQYDSNTFGY/",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261110089900002",
+      "source": "yna",
+      "title": "KIC, 전략적 투자로 英 보험사 지분 인수…3억달러 규모",
+      "url": "https://www.yna.co.kr/view/AKR20261110089900002",
+      "published": "2026-11-10",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -5484,7 +5858,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -5492,15 +5866,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "fss-press",
-      "ok": true,
+      "ok": false,
       "count": 10,
-      "error": null,
-      "note": null,
+      "error": "The operation was aborted due to timeout",
+      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
@@ -5508,7 +5882,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
@@ -5516,7 +5890,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -5530,7 +5904,7 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null,
       "note": null,
       "disabled": false
@@ -5578,7 +5952,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -5586,7 +5960,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -5594,7 +5968,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 56,
       "error": null,
       "note": null,
       "disabled": false
@@ -5602,7 +5976,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -5626,7 +6000,7 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false
@@ -5634,7 +6008,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
