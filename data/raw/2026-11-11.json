@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T06:55:01.145Z",
+  "generatedAt": "2026-11-11T12:52:06.779Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7494,6 +7494,179 @@
       "published": "2026-11-11",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93792",
+      "source": "insnews",
+      "title": "KB국민은행, 2026년 국가고객만족도(NCSI) 시중은행 1위",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93792",
+      "published": "2026-11-11",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93791",
+      "source": "insnews",
+      "title": "KB손해보험, 피프티피프티와 함께한 신규 웹예능 ‘Z-톡스’ 공개",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93791",
+      "published": "2026-11-11",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93790",
+      "source": "insnews",
+      "title": "NH농협손해보험, ‘지역사회공헌 인정기업’ 6년 연속 선정",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93790",
+      "published": "2026-11-11",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72956",
+      "source": "insweek",
+      "title": "메리츠화재, 3분기 누적 순이익 1조3528억원···전년비 6.8% 감소",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72956",
+      "published": "2026-11-11",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72953",
+      "source": "insweek",
+      "title": "KB손해보험, 2030세대 타깃 웹예능 ‘Z-톡스’ 공개",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72953",
+      "published": "2026-11-11",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72955",
+      "source": "insweek",
+      "title": "KB라이프, 한국ESG기준원 지배구조 평가 4년 연속 ‘A’ 획득",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72955",
+      "published": "2026-11-11",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72954",
+      "source": "insweek",
+      "title": "KDB생명, ‘더!행복플러스종신보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72954",
+      "published": "2026-11-11",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72952",
+      "source": "insweek",
+      "title": "라이나전성기재단, 한국전통호텔 ‘바랑재’ 5성급 획득",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72952",
+      "published": "2026-11-11",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33878",
+      "source": "insjournal",
+      "title": "메리츠화재, 3분기 누적 순이익 1조 3,528억…장기보험 성장 견인",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33878",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33877",
+      "source": "insjournal",
+      "title": "[11일 보험주 마감시황] 증시 강세에도 대형 손보 3사 동반 하락…미래에셋생명 8.11% 급등",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33877",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110516",
+      "source": "fins",
+      "title": "한화손보, 3분기 순익 961억원…작년 동기대비 34%↑",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110516",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110515",
+      "source": "fins",
+      "title": "메리츠화재, 3분기 순익 29% 감소…투자손익 부진 영향",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110515",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110513",
+      "source": "fins",
+      "title": "손보사, 생활 밀착 활동으로 시민 접점 넓힌다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110513",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110512",
+      "source": "fins",
+      "title": "산재보상 대리인 제도 내년 도입…저소득 노동자 무료 법률지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110512",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110511",
+      "source": "fins",
+      "title": "고령자 돌봄비용 보장 공백…즉시형 장기요양연금 도입 제안",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110511",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:HFRTEZDGMFQTQZJTGRRGCZRXGU",
+      "source": "chosun",
+      "title": "한화손보, 올해 3분기 순이익 961억… 전년비 34.1% 증가",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/11/HFRTEZDGMFQTQZJTGRRGCZRXGU/",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261111160400002",
+      "source": "yna",
+      "title": "한화손보, 3분기 순익 961억원…작년 동기대비 34%↑",
+      "url": "https://www.yna.co.kr/view/AKR20261111160400002",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7794,7 +7967,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 60,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -7802,7 +7975,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 54,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -7810,7 +7983,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 64,
+      "count": 66,
       "error": null,
       "note": null,
       "disabled": false
@@ -7818,7 +7991,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 58,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -7842,15 +8015,15 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false

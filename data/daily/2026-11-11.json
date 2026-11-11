@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T06:55:01.145Z",
+  "generatedAt": "2026-11-11T12:52:06.779Z",
   "groups": [
     {
       "id": "g:insjournal:33860",
@@ -187,7 +187,7 @@
       "itemIds": [
         "insnews:93782"
       ],
-      "summary": null,
+      "summary": "KDB생명이 사망보험금이 단계적으로 늘어나고 납입완료보너스와 장기유지보너스 혜택을 더한 종신보험을 선보였어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -606,6 +606,280 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93791",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손해보험, 피프티피프티와 함께한 신규 웹예능 ‘Z-톡스’ 공개",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93791",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93791"
+        }
+      ],
+      "itemIds": [
+        "insnews:93791"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72956",
+      "topic": "industry",
+      "kind": "press",
+      "title": "메리츠화재, 3분기 누적 순이익 1조3528억원···전년비 6.8% 감소",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72956",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72956"
+        }
+      ],
+      "itemIds": [
+        "insweek:72956"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72953",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손해보험, 2030세대 타깃 웹예능 ‘Z-톡스’ 공개",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72953",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72953"
+        }
+      ],
+      "itemIds": [
+        "insweek:72953"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72954",
+      "topic": "life",
+      "kind": "press",
+      "title": "KDB생명, ‘더!행복플러스종신보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72954",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72954"
+        }
+      ],
+      "itemIds": [
+        "insweek:72954"
+      ],
+      "summary": "KDB생명은 사망보장과 계약유지 혜택을 강화하고 노후자금 준비까지 가능한 ‘더!행복플러스종신보험’을 출시했어요. 사망보험금은 계약일부터 10년간 매년 보험가입금액의 10%씩 증가하며 계약일부터 10년이 경과하면 보험가입금액의 200% 수준으로 보장해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72952",
+      "topic": "general",
+      "kind": "press",
+      "title": "라이나전성기재단, 한국전통호텔 ‘바랑재’ 5성급 획득",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72952",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72952"
+        }
+      ],
+      "itemIds": [
+        "insweek:72952"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33878",
+      "topic": "industry",
+      "kind": "press",
+      "title": "메리츠화재, 3분기 누적 순이익 1조 3,528억…장기보험 성장 견인",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33878",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33878"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33878"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110516",
+      "topic": "industry",
+      "kind": "press",
+      "title": "한화손보, 3분기 순익 961억원…작년 동기대비 34%↑",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110516",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110516"
+        },
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/11/HFRTEZDGMFQTQZJTGRRGCZRXGU/"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261111160400002"
+        }
+      ],
+      "itemIds": [
+        "fins:110516",
+        "chosun:HFRTEZDGMFQTQZJTGRRGCZRXGU",
+        "yna:AKR20261111160400002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110515",
+      "topic": "industry",
+      "kind": "press",
+      "title": "메리츠화재, 3분기 순익 29% 감소…투자손익 부진 영향",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110515",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110515"
+        }
+      ],
+      "itemIds": [
+        "fins:110515"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110513",
+      "topic": "general",
+      "kind": "press",
+      "title": "손보사, 생활 밀착 활동으로 시민 접점 넓힌다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110513",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110513"
+        }
+      ],
+      "itemIds": [
+        "fins:110513"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110512",
+      "topic": "general",
+      "kind": "press",
+      "title": "산재보상 대리인 제도 내년 도입…저소득 노동자 무료 법률지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110512",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110512"
+        }
+      ],
+      "itemIds": [
+        "fins:110512"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110511",
+      "topic": "life",
+      "kind": "press",
+      "title": "고령자 돌봄비용 보장 공백…즉시형 장기요양연금 도입 제안",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110511",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110511"
+        }
+      ],
+      "itemIds": [
+        "fins:110511"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -708,7 +982,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 60,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -716,7 +990,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 54,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -724,7 +998,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 64,
+      "count": 66,
       "error": null,
       "note": null,
       "disabled": false
@@ -732,7 +1006,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 58,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -756,15 +1030,15 @@
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
