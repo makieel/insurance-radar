@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T00:39:26.751Z",
+  "groups": [
+    {
+      "id": "g:insjournal:33860",
+      "topic": "general",
+      "kind": "press",
+      "title": "KDB생명, 사망보험금 200% 체증에 노후 연금까지… ‘더!행복플러스종신보험(무)’ 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33860",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33860"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33860"
+      ],
+      "summary": "KDB생명이 사망보험금이 10년간 매년 10%씩 증가해 200% 수준을 보장하고 납입완료보너스와 장기유지보너스 및 연금전환 기능을 더한 ‘더!행복플러스종신보험(무)’을 출시했어요. 보험료 납입기간은 10년납과 20년납 중 선택할 수 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33859",
+      "topic": "general",
+      "kind": "press",
+      "title": "DB손보, ‘교통·환경챌린지 8기’ 데모데이 성황리 개최… 소셜벤처 5개사 혁신 성과 공유",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33859",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33859"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33859"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33857",
+      "topic": "life",
+      "kind": "press",
+      "title": "라이나전성기재단 운영 '한국전통호텔 바랑재', 5성급 획득",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33857",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33857"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33857"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33856",
+      "topic": "life",
+      "kind": "press",
+      "title": "[단독] “간병인보험 보장한도 손보나”… 금감원, 보장금액·손해율 정밀 조사 착수",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33856",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33856"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33856"
+      ],
+      "summary": "금융감독원이 2021년부터 2026년 10월까지의 간병인보험 판매현황과 손해율에 대한 정밀 조사에 나섰어요. 금감원은 간병인사용일당의 보장금액을 5만원 단위로 구분하고 의료기관 유형과 상품구조별 통계 제출을 요구했어요.",
+      "relevance": "high",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110498",
+      "topic": "general",
+      "kind": "press",
+      "title": "KDB생명, 종신보험 사망보험금 최대 2배 체증",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110498",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110498"
+        }
+      ],
+      "itemIds": [
+        "fins:110498"
+      ],
+      "summary": "KDB생명이 사망보험금을 계약일부터 10년간 매년 10%씩 늘려 200%까지 보장하고 납입완료 및 장기유지 보너스와 연금전환 기능을 포함한 ‘더!행복플러스종신보험(무)’을 출시했어요. 납입기간은 10년납과 20년납 중에서 선택할 수 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110490",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험사 해외투자 셈법…당장 수익보다 ‘미래 포석’",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110490",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110490"
+        }
+      ],
+      "itemIds": [
+        "fins:110490"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110489",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험권 첫 해킹 사고 일단락…정보보안 과제 여전",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110489",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110489"
+        }
+      ],
+      "itemIds": [
+        "fins:110489"
+      ],
+      "summary": "미래에셋생명에 대한 금융감독원의 해킹 사고 현장점검 연장 일정이 종료되었고 추가로 확인된 피해 규모는 없어요. 피해 규모는 약 6,800명으로 유지되었으며 회사는 2차 피해 방지와 시스템 복구에 집중하고 있어요.",
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 79,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 32,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 13,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}

@@ -1324,27 +1324,5 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
-  },
-  {
-    "id": "c:joongang:25427276:ai",
-    "category": "general",
-    "title": "필수의료 의료진 배상보험료 정부 지원 확대",
-    "when": "phrase",
-    "date": null,
-    "period": null,
-    "phrase": "올해",
-    "quote": "정부가 올해 산부인과 등 필수의료 전문의 1인당 배상보험료로 연간 175만원을 지원한다.",
-    "status": "confirmed",
-    "past": false,
-    "announced": "2026-05-11",
-    "sources": [
-      {
-        "name": "중앙일보",
-        "url": "https://www.joongang.co.kr/article/25427276"
-      }
-    ],
-    "origin": "ai",
-    "rate": null,
-    "firstSeen": "2026-10-25"
   }
 ]
