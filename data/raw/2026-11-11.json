@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T00:39:26.751Z",
+  "generatedAt": "2026-11-11T06:55:01.145Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -4312,9 +4312,9 @@
     {
       "id": "insjournal:33853",
       "source": "insjournal",
-      "title": "\"억울한 교권침해, 신고부터 90만원\"… 한화손보, 교직원 '방학 상해·법률비용'까지 챙긴다",
+      "title": "\"억울한 교권침해, 신고부터 90만원\"… 한화손보, 교직원 '방학 상해·법률비용'까지 챙긴다 (영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33853",
-      "published": "2026-11-10",
+      "published": "2026-11-11",
       "hints": [
         "소비자선택"
       ],
@@ -4356,9 +4356,9 @@
     {
       "id": "insjournal:33847",
       "source": "insjournal",
-      "title": "“낸 보험료 다 꺼내 쓰고, 치매 땐 연금 증액”… 생보사 11월 신상품 ‘봇물’",
+      "title": "“낸 보험료 다 꺼내 쓰고, 치매 땐 연금 증액”… 생보사 11월 신상품 ‘봇물’ (영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33847",
-      "published": "2026-11-10",
+      "published": "2026-11-11",
       "hints": [
         "소비자선택"
       ],
@@ -7074,6 +7074,426 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "fss-press:249804",
+      "source": "fss-press",
+      "title": "2026년 10월 가계대출 동향(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249804&menuNo=200218",
+      "published": "2026-11-11",
+      "hints": [
+        "은행리스크감독국/보험감독국/중소금융감독국/여신금융감독국"
+      ],
+      "attachments": [
+        {
+          "name": "261111_(보도자료) 2026년 10월 가계대출 동향(잠정).hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cf42a7c8472c4a3abd6e3dad748fa2bf&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261111_(보도자료) 2026년 10월 가계대출 동향(잠정).pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=cf42a7c8472c4a3abd6e3dad748fa2bf&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "insnews:93786",
+      "source": "insnews",
+      "title": "전국 우체국 2000여 곳, ‘한파 쉼터’로 운영",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93786",
+      "published": "2026-11-11",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93783",
+      "source": "insnews",
+      "title": "금융보안원 상시평가 시스템서 정보 유출… 접속 차단·정밀 조사",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93783",
+      "published": "2026-11-11",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93782",
+      "source": "insnews",
+      "title": "KDB생명, 사망보험금 10년간 늘어나는 ‘더!행복플러스종신보험(무)’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93782",
+      "published": "2026-11-11",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93781",
+      "source": "insnews",
+      "title": "우리다문화장학재단, 다문화·취약계층 청소년 대학탐방 진행",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93781",
+      "published": "2026-11-11",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93787",
+      "source": "insnews",
+      "title": "횡단보도 6명 중 1명 스마트폰 사용… ‘스몸비’ 주의보",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93787",
+      "published": "2026-11-11",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93780",
+      "source": "insnews",
+      "title": "한화손보, ‘웰니스 존’ 조성으로 친환경 치유센터 개소",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93780",
+      "published": "2026-11-11",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93779",
+      "source": "insnews",
+      "title": "라이나전성기재단 운영 한국전통호텔 ‘바랑재’, 5성급 획득",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93779",
+      "published": "2026-11-11",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93778",
+      "source": "insnews",
+      "title": "보험연수원, ‘AI 안경’ 부정행위 적발 시 최대 3년 응시 제한",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93778",
+      "published": "2026-11-11",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93777",
+      "source": "insnews",
+      "title": "NH농협금융, ‘NH올원더풀’ 1주년 감사제… 청년 지원 기부 연계",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93777",
+      "published": "2026-11-11",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93776",
+      "source": "insnews",
+      "title": "DB손해보험, ‘교통·환경챌린지 8기’ 데모데이 열어",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93776",
+      "published": "2026-11-11",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72951",
+      "source": "insweek",
+      "title": "NH농협손해보험, '지역사회공헌 인정기업' 6년 연속 선정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72951",
+      "published": "2026-11-11",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72950",
+      "source": "insweek",
+      "title": "삼성화재 교통안전문화연구소, 횡단보도 보행자 6명중 1명 스마트폰 사용",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72950",
+      "published": "2026-11-11",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72949",
+      "source": "insweek",
+      "title": "한화손해보험, 이대서울병원에 '웰니스 존' 조성",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72949",
+      "published": "2026-11-11",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72948",
+      "source": "insweek",
+      "title": "DB손해보험, '교통·환경챌린지 8기 데모데이' 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72948",
+      "published": "2026-11-11",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33875",
+      "source": "insjournal",
+      "title": "“리쿠르팅은 막히고 수입은 줄고”…GA 지사장들, 고난의 시대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33875",
+      "published": "2026-11-11",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33865",
+      "source": "insjournal",
+      "title": "\"1200% 룰 시행 여파\"… 3분기 GA 정착지원금 총액 74% 급감",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33865",
+      "published": "2026-11-11",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33867",
+      "source": "insjournal",
+      "title": "‘보장 덜고 40% 인하’ vs ‘5세대 전환 50% 할인’… 기로에 선 1·2세대 실손, '득실' 따져보니",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33867",
+      "published": "2026-11-11",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33874",
+      "source": "insjournal",
+      "title": "KB손보, 피프티피프티와 손잡고 2030 공략… 웰니스 웹예능 ‘Z-톡스’ 공개",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33874",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33872",
+      "source": "insjournal",
+      "title": "KB라이프, 출범 후 줄곧 지배구조 ‘A’… ‘대표·이사회 분리’ 통했다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33872",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33871",
+      "source": "insjournal",
+      "title": "“회사 돈으로 보험 들면 대표에게 현금”…732억 리베이트에 GA 본사 224억 손실",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33871",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33870",
+      "source": "insjournal",
+      "title": "보험사 가계대출, 두 달 감소 끝에 '반전'…8000억원 줄더니 3000억원 증가",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33870",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33869",
+      "source": "insjournal",
+      "title": "허위계약 1890건에 부당 승환까지……인카금융서비스 '53억 과태료' 중징계",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33869",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33868",
+      "source": "insjournal",
+      "title": "보행자 6명 중 1명은 횡단보도 위 ‘스몸비’… 좌우도 안 보고 건너는데 과실은 ‘0%’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33868",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33866",
+      "source": "insjournal",
+      "title": "“실적은 당연히, 유지는 필수”…설계사아카데미, 12월 2일 대전서 ‘4년 분급’ 대응 특강",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33866",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33864",
+      "source": "insjournal",
+      "title": "“수수료 규제에 상품·특약까지 막히나”… 내년 GA채널 판매 제약 확대 조짐",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33864",
+      "published": "2026-11-11",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33863",
+      "source": "insjournal",
+      "title": "한화손보, 이대서울병원 內 친환경 치유 쉼터 ‘웰니스 존’ 조성",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33863",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33861",
+      "source": "insjournal",
+      "title": "“10년 뒤 보장 2배, 치매 재활에 집안 누수까지”…손보사 신상품, ‘틈새 보장’ 정조준",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33861",
+      "published": "2026-11-11",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33862",
+      "source": "insjournal",
+      "title": "보험연수원, ‘AI 안경’ 대리응시로 규정… 3년 자격 제한·형사고발 '초강수'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33862",
+      "published": "2026-11-11",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110509",
+      "source": "fins",
+      "title": "건보 진료비 과다납부 환급…3년 내 신청해야",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110509",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110507",
+      "source": "fins",
+      "title": "생보사 사업비 18조원 돌파…영업비용 10% 증가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110507",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110506",
+      "source": "fins",
+      "title": "금융보안원 해킹, 허위 계정으로 자료 탈취…당국 조사",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110506",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110504",
+      "source": "fins",
+      "title": "KB라이프, 지배구조 평가 4년 연속 A등급",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110504",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110503",
+      "source": "fins",
+      "title": "건설노동자 근로 이력도 대출심사 반영…내년 맞춤형 상품 나온다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110503",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110502",
+      "source": "fins",
+      "title": "스마트폰 보며 횡단하다 사고…3건 중 2건 운전자 100% 과실",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110502",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110501",
+      "source": "fins",
+      "title": "보험권 가계대출 3천억 증가…금융권 대출 다시 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110501",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110500",
+      "source": "fins",
+      "title": "법인보험 리베이트 732억…GA 모집수당 '줄줄'",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110500",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261111117500055",
+      "source": "yna",
+      "title": "김제시, 플랫폼 종사자에 산재보험료 연간 최대 10만원 지원",
+      "url": "https://www.yna.co.kr/view/AKR20261111117500055",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261111087900004",
+      "source": "yna",
+      "title": "\"법인보험 들면 현금줄게\"…법인대표에 732억원 리베이트 덜미",
+      "url": "https://www.yna.co.kr/view/AKR20261111087900004",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7280,7 +7700,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7288,15 +7708,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 79,
+      "count": 80,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7304,7 +7724,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7312,7 +7732,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7328,7 +7748,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7374,7 +7794,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -7382,7 +7802,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -7390,7 +7810,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 64,
       "error": null,
       "note": null,
       "disabled": false
@@ -7398,7 +7818,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -7429,9 +7849,9 @@
     },
     {
       "source": "yna",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 2,
+      "error": null,
       "note": null,
       "disabled": false
     },

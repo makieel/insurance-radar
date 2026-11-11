@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T00:39:26.751Z",
+  "generatedAt": "2026-11-11T06:55:01.145Z",
   "groups": [
     {
       "id": "g:insjournal:33860",
@@ -169,6 +169,443 @@
       "relevanceBy": "ai",
       "importance": 3,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93782",
+      "topic": "general",
+      "kind": "press",
+      "title": "KDB생명, 사망보험금 10년간 늘어나는 ‘더!행복플러스종신보험(무)’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93782",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93782"
+        }
+      ],
+      "itemIds": [
+        "insnews:93782"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93780",
+      "topic": "industry",
+      "kind": "press",
+      "title": "한화손보, ‘웰니스 존’ 조성으로 친환경 치유센터 개소",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93780",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93780"
+        }
+      ],
+      "itemIds": [
+        "insnews:93780"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93778",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험연수원, ‘AI 안경’ 부정행위 적발 시 최대 3년 응시 제한",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93778",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93778"
+        }
+      ],
+      "itemIds": [
+        "insnews:93778"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93776",
+      "topic": "general",
+      "kind": "press",
+      "title": "DB손해보험, ‘교통·환경챌린지 8기’ 데모데이 열어",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93776",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93776"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72948"
+        }
+      ],
+      "itemIds": [
+        "insnews:93776",
+        "insweek:72948"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72950",
+      "topic": "auto",
+      "kind": "press",
+      "title": "삼성화재 교통안전문화연구소, 횡단보도 보행자 6명중 1명 스마트폰 사용",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72950",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72950"
+        }
+      ],
+      "itemIds": [
+        "insweek:72950"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72949",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손해보험, 이대서울병원에 '웰니스 존' 조성",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72949",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72949"
+        }
+      ],
+      "itemIds": [
+        "insweek:72949"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33865",
+      "topic": "industry",
+      "kind": "press",
+      "title": "\"1200% 룰 시행 여파\"… 3분기 GA 정착지원금 총액 74% 급감",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33865",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33865"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33865"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33867",
+      "topic": "medical",
+      "kind": "press",
+      "title": "‘보장 덜고 40% 인하’ vs ‘5세대 전환 50% 할인’… 기로에 선 1·2세대 실손, '득실' 따져보니",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33867",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33867"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33867"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33874",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손보, 피프티피프티와 손잡고 2030 공략… 웰니스 웹예능 ‘Z-톡스’ 공개",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33874",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33874"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33874"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33869",
+      "topic": "general",
+      "kind": "press",
+      "title": "허위계약 1890건에 부당 승환까지……인카금융서비스 '53억 과태료' 중징계",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33869",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33869"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33869"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33864",
+      "topic": "industry",
+      "kind": "press",
+      "title": "“수수료 규제에 상품·특약까지 막히나”… 내년 GA채널 판매 제약 확대 조짐",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33864",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33864"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33864"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33863",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손보, 이대서울병원 內 친환경 치유 쉼터 ‘웰니스 존’ 조성",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33863",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33863"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33863"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33861",
+      "topic": "life",
+      "kind": "press",
+      "title": "“10년 뒤 보장 2배, 치매 재활에 집안 누수까지”…손보사 신상품, ‘틈새 보장’ 정조준",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33861",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33861"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33861"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33862",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험연수원, ‘AI 안경’ 대리응시로 규정… 3년 자격 제한·형사고발 '초강수'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33862",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33862"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33862"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110509",
+      "topic": "life",
+      "kind": "press",
+      "title": "건보 진료비 과다납부 환급…3년 내 신청해야",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110509",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110509"
+        }
+      ],
+      "itemIds": [
+        "fins:110509"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110507",
+      "topic": "life",
+      "kind": "press",
+      "title": "생보사 사업비 18조원 돌파…영업비용 10% 증가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110507",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110507"
+        }
+      ],
+      "itemIds": [
+        "fins:110507"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110502",
+      "topic": "auto",
+      "kind": "press",
+      "title": "스마트폰 보며 횡단하다 사고…3건 중 2건 운전자 100% 과실",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110502",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110502"
+        }
+      ],
+      "itemIds": [
+        "fins:110502"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261111087900004",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"법인보험 들면 현금줄게\"…법인대표에 732억원 리베이트 덜미",
+      "url": "https://www.yna.co.kr/view/AKR20261111087900004",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-11",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261111087900004"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261111087900004"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -177,7 +614,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -185,15 +622,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 79,
+      "count": 80,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -201,7 +638,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -209,7 +646,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -225,7 +662,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -271,7 +708,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -279,7 +716,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -287,7 +724,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 64,
       "error": null,
       "note": null,
       "disabled": false
@@ -295,7 +732,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -326,9 +763,9 @@
     },
     {
       "source": "yna",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 2,
+      "error": null,
       "note": null,
       "disabled": false
     },
