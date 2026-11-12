@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T00:53:16.011Z",
+  "generatedAt": "2026-11-12T06:57:12.535Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -4279,7 +4279,7 @@
     {
       "id": "insjournal:33884",
       "source": "insjournal",
-      "title": "삼성화재, 3분기 누적 순익 1조8676억원…전년比 4.6% 증가",
+      "title": "삼성화재, 3분기 누적 순익 1조8676억원…보험·투자손익 동반 증가",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33884",
       "published": "2026-11-12",
       "hints": [
@@ -4477,7 +4477,7 @@
     {
       "id": "insjournal:33864",
       "source": "insjournal",
-      "title": "“수수료 규제에 상품·특약까지 막히나”… 내년 GA채널 판매 제약 확대 조짐",
+      "title": "“수수료 규제에 상품·특약까지 막히나”… 내년 GA채널 판매 규제 강화 조짐",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33864",
       "published": "2026-11-11",
       "hints": [
@@ -7105,6 +7105,251 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "samsungfire:1420",
+      "source": "samsungfire",
+      "title": "삼성화재, 2026년 3분기 경영실적 발표",
+      "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1420",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "samsungfire:1421",
+      "source": "samsungfire",
+      "title": "삼성화재, 스몸비 위험실태 분석 \"6명중 1명 횡단보도 건너며 스마트폰 본다\"",
+      "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1421",
+      "published": "2026-11-11",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93812",
+      "source": "insnews",
+      "title": "삼성생명, 3분기 누적 순익 2조6859억원… 전년比 26.9%↑",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93812",
+      "published": "2026-11-12",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93810",
+      "source": "insnews",
+      "title": "ABL생명, 고객 참여형 게임 콘텐츠 ‘FC 챌린지’ 공개",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93810",
+      "published": "2026-11-12",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93809",
+      "source": "insnews",
+      "title": "현대해상, 암 치료부터 태아·어린이 건강까지 보장 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93809",
+      "published": "2026-11-12",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93808",
+      "source": "insnews",
+      "title": "라이나생명, ‘신경계질환 진단 통합 보장’ 배타적사용권 획득",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93808",
+      "published": "2026-11-12",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93806",
+      "source": "insnews",
+      "title": "삼성화재, 3분기 누적 순익 1조8655억원… 전년比 4.6% 증가",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93806",
+      "published": "2026-11-12",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33893",
+      "source": "insjournal",
+      "title": "[팩트체크] “GA 기관경고 받아도 대표이사 연임 가능?”… 수위별 제재 따져보니",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33893",
+      "published": "2026-11-12",
+      "hints": [
+        "팩트체크"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33892",
+      "source": "insjournal",
+      "title": "NH농협생명·서울시, 농촌 일손 돕고 노숙인 자립 이끄는 ‘같이 일해, 가치 더해’ 첫 가동",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33892",
+      "published": "2026-11-12",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33890",
+      "source": "insjournal",
+      "title": "보험사 'CEO 선임' 판 바뀐다…현직 대표 '부당 개입' 차단·성과급 '환수' 추진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33890",
+      "published": "2026-11-12",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33889",
+      "source": "insjournal",
+      "title": "‘시설 입소’에서 ‘내 집 요양’으로…재가 돌봄 확대가 바꿀 '간병보험' 공식",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33889",
+      "published": "2026-11-12",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33888",
+      "source": "insjournal",
+      "title": "현대해상, 최신 '암 치료'·'배타적사용권 신담보' 탑재 다이렉트 보험 2종 선보여",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33888",
+      "published": "2026-11-12",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110538",
+      "source": "fins",
+      "title": "손보 GA채널 상위사 쏠림 심화…중위권 판매경쟁 변화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110538",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110537",
+      "source": "fins",
+      "title": "GA 정착지원금 74% 급감…설계사 영입전략 변화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110537",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110536",
+      "source": "fins",
+      "title": "근로자추정제 논의에 GA 설계사 위촉관리 재정비 과제",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110536",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110534",
+      "source": "fins",
+      "title": "정년연장에 퇴직연금 3조5,000억원 이동 가능성…보험사 대응 과제",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110534",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110533",
+      "source": "fins",
+      "title": "보험사 투자이익 3분기 급감…4분기 회복도 불투명",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110533",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110531",
+      "source": "fins",
+      "title": "DB손보, 3분기 누적 순이익 1조5,605억원…10.5% 증가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110531",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110530",
+      "source": "fins",
+      "title": "삼성생명, 3분기 누적 순이익 2조7,916억원…전년比 8.3% 증가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110530",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110529",
+      "source": "fins",
+      "title": "삼성화재, 캐노피우스 인수로 해외 이익 비중 26%",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110529",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110528",
+      "source": "fins",
+      "title": "이태원 참사 의료비 건보 청구액 13.7억원…358명 지원 대상",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110528",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110525",
+      "source": "fins",
+      "title": "교보생명, 퇴직연금 DC·IRP 1년 수익률 1위",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110525",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110524",
+      "source": "fins",
+      "title": "라이나생명, 신경계질환 통합 보장…배타적사용권 6개월",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110524",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110523",
+      "source": "fins",
+      "title": "현대해상, 암 치료·어린이 보장 강화…다이렉트보험 2종 개편",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110523",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261112078300002",
+      "source": "yna",
+      "title": "삼성화재, 3분기 누적 순익 1.8조로 4.6%↑…車보험 흑자 흐름",
+      "url": "https://www.yna.co.kr/view/AKR20261112078300002",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7311,7 +7556,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7319,7 +7564,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7327,7 +7572,7 @@
       "ok": true,
       "count": 80,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7335,7 +7580,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7343,7 +7588,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7359,7 +7604,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7389,7 +7634,7 @@
     {
       "source": "samsungfire",
       "ok": true,
-      "count": 15,
+      "count": 17,
       "error": null,
       "note": null,
       "disabled": false
@@ -7405,7 +7650,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -7421,7 +7666,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -7429,7 +7674,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 62,
       "error": null,
       "note": null,
       "disabled": false
@@ -7461,7 +7706,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false

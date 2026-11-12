@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T00:53:16.011Z",
+  "generatedAt": "2026-11-12T06:57:12.535Z",
   "groups": [
     {
       "id": "g:insnews:93801",
@@ -150,6 +150,357 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:samsungfire:1420",
+      "topic": "industry",
+      "kind": "insurer",
+      "title": "삼성화재, 2026년 3분기 경영실적 발표",
+      "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1420",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "삼성화재",
+          "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1420"
+        }
+      ],
+      "itemIds": [
+        "samsungfire:1420"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93812",
+      "topic": "industry",
+      "kind": "press",
+      "title": "삼성생명, 3분기 누적 순익 2조6859억원… 전년比 26.9%↑",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93812",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93812"
+        },
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93806"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261112078300002"
+        }
+      ],
+      "itemIds": [
+        "insnews:93812",
+        "insnews:93806",
+        "yna:AKR20261112078300002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93810",
+      "topic": "general",
+      "kind": "press",
+      "title": "ABL생명, 고객 참여형 게임 콘텐츠 ‘FC 챌린지’ 공개",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93810",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93810"
+        }
+      ],
+      "itemIds": [
+        "insnews:93810"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93809",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, 암 치료부터 태아·어린이 건강까지 보장 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93809",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93809"
+        }
+      ],
+      "itemIds": [
+        "insnews:93809"
+      ],
+      "summary": "현대해상은 다이렉트 퍼펙트건강보험 암플랜과 다이렉트 굿앤굿어린이종합보험 등 다이렉트 상품 2종을 개편 및 출시했어요. 어린이종합보험에는 융모막 및 양수검사 지원비와 특정질병 항바이러스제 치료비 등 배타적사용권을 획득한 신담보 2종이 추가되었어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93808",
+      "topic": "general",
+      "kind": "press",
+      "title": "라이나생명, ‘신경계질환 진단 통합 보장’ 배타적사용권 획득",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93808",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93808"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110524"
+        }
+      ],
+      "itemIds": [
+        "insnews:93808",
+        "fins:110524"
+      ],
+      "summary": "라이나생명은 신경계질환 진단을 통합 보장하는 (무)신경계질환통합진단특약에 대해 배타적사용권을 획득했어요. 보장 대상 신경계질환으로 진단이 확정되면 종별 누적 지급액은 특약보험가입금액의 2~100%를 지급해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33889",
+      "topic": "life",
+      "kind": "press",
+      "title": "‘시설 입소’에서 ‘내 집 요양’으로…재가 돌봄 확대가 바꿀 '간병보험' 공식",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33889",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33889"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33889"
+      ],
+      "summary": "정부는 장기요양 1등급 수급자의 재가급여 월 이용 한도액을 올해 251만2900원에서 내년 289만1400원으로 늘려요. 또한 통합재가서비스 제공기관을 2027년 700곳까지 확대하고 재택의료센터를 내년 500곳까지 늘릴 계획이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33888",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, 최신 '암 치료'·'배타적사용권 신담보' 탑재 다이렉트 보험 2종 선보여",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33888",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33888"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33888"
+      ],
+      "summary": "현대해상은 다이렉트 퍼펙트건강보험 암플랜과 신담보를 추가한 다이렉트 굿앤굿어린이종합보험 등 다이렉트 상품 2종을 개편·출시했어요. 어린이종합보험에 추가된 선별검사 이상 소견 후 융모막 및 양수검사 지원비는 최초 1회에 한해 최대 70만원을 지원해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110534",
+      "topic": "general",
+      "kind": "press",
+      "title": "정년연장에 퇴직연금 3조5,000억원 이동 가능성…보험사 대응 과제",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110534",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110534"
+        }
+      ],
+      "itemIds": [
+        "fins:110534"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110533",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험사 투자이익 3분기 급감…4분기 회복도 불투명",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110533",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110533"
+        }
+      ],
+      "itemIds": [
+        "fins:110533"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110531",
+      "topic": "industry",
+      "kind": "press",
+      "title": "DB손보, 3분기 누적 순이익 1조5,605억원…10.5% 증가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110531",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110531"
+        }
+      ],
+      "itemIds": [
+        "fins:110531"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110529",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성화재, 캐노피우스 인수로 해외 이익 비중 26%",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110529",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110529"
+        }
+      ],
+      "itemIds": [
+        "fins:110529"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110528",
+      "topic": "medical",
+      "kind": "press",
+      "title": "이태원 참사 의료비 건보 청구액 13.7억원…358명 지원 대상",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110528",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110528"
+        }
+      ],
+      "itemIds": [
+        "fins:110528"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110523",
+      "topic": "general",
+      "kind": "press",
+      "title": "현대해상, 암 치료·어린이 보장 강화…다이렉트보험 2종 개편",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110523",
+      "published": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110523"
+        }
+      ],
+      "itemIds": [
+        "fins:110523"
+      ],
+      "summary": "현대해상은 다이렉트 퍼펙트건강보험 암플랜을 출시하고 다이렉트 굿앤굿어린이종합보험의 보장 내용을 확대했어요. 어린이종합보험에는 태아 선별검사 후 융모막·양수검사 시 최대 70만원을 지원하는 등 배타적사용권을 획득한 신규 담보 2종이 반영되었어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:samsungfire:1421",
+      "topic": "general",
+      "kind": "insurer",
+      "title": "삼성화재, 스몸비 위험실태 분석 \"6명중 1명 횡단보도 건너며 스마트폰 본다\"",
+      "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1421",
+      "published": "2026-11-11",
+      "firstSeen": "2026-11-12",
+      "sources": [
+        {
+          "name": "삼성화재",
+          "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1421"
+        }
+      ],
+      "itemIds": [
+        "samsungfire:1421"
+      ],
+      "summary": "삼성화재 교통안전문화연구소가 보행 중 스마트폰 사용 위험실태를 분석한 결과, 횡단보도를 건너는 보행자 6명 중 1명이 스마트폰을 사용하며 이들 중 96.4%는 진입 전 좌우를 확인하지 않는 것으로 나타났어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -158,7 +509,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -166,7 +517,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -174,7 +525,7 @@
       "ok": true,
       "count": 80,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -182,7 +533,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -190,7 +541,7 @@
       "ok": true,
       "count": 32,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -206,7 +557,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -236,7 +587,7 @@
     {
       "source": "samsungfire",
       "ok": true,
-      "count": 15,
+      "count": 17,
       "error": null,
       "note": null,
       "disabled": false
@@ -252,7 +603,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -268,7 +619,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -276,7 +627,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 62,
       "error": null,
       "note": null,
       "disabled": false
@@ -308,7 +659,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false

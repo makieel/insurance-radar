@@ -124,6 +124,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:insjournal:33889:ai",
+    "category": "general",
+    "title": "2027년 장기요양 재가급여 월 이용 한도액 인상",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "올해",
+    "quote": "장기요양 1등급 수급자의 재가급여 월 이용 한도액은 올해 251만2900원에서 내년 289만1400원으로 37만8500원 늘어난다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-12",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33889"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-12"
+  },
+  {
     "id": "c:fins:110485:ai",
     "category": "general",
     "title": "내년 1월부터 설계사 판매수수료 4년 분급제도 시행",
