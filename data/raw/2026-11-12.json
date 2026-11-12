@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T06:57:12.535Z",
+  "generatedAt": "2026-11-12T12:53:14.896Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7246,7 +7246,7 @@
     {
       "id": "fins:110537",
       "source": "fins",
-      "title": "GA 정착지원금 74% 급감…설계사 영입전략 변화",
+      "title": "GA 정착지원금 '74% 급감'…설계사 영입전략 변화",
       "url": "http://www.fins.co.kr/news/articleView.html?idxno=110537",
       "published": "2026-11-12",
       "hints": [],
@@ -7347,6 +7347,249 @@
       "source": "yna",
       "title": "삼성화재, 3분기 누적 순익 1.8조로 4.6%↑…車보험 흑자 흐름",
       "url": "https://www.yna.co.kr/view/AKR20261112078300002",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93820",
+      "source": "insnews",
+      "title": "교보생명, 퇴직연금 DC·IRP 수익률 동반 1위… 장단기 운용 두각",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93820",
+      "published": "2026-11-12",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93817",
+      "source": "insnews",
+      "title": "한화생명 3분기 누적 순익 8656억원, 전년 比 12.6% 증가… 분기는 적자 전환",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93817",
+      "published": "2026-11-12",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93818",
+      "source": "insnews",
+      "title": "소부장 수입자금 조달 지원… 무보, 보험 한도 최대 두 배",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93818",
+      "published": "2026-11-12",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93816",
+      "source": "insnews",
+      "title": "DB손보, 3분기 누적 순익 1조5605억원… 전년比 10.5% 증가",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93816",
+      "published": "2026-11-12",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72967",
+      "source": "insweek",
+      "title": "보험연구원 '의학기술 혁신과 금융·보험의 미래' 세미나 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72967",
+      "published": "2026-11-12",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72964",
+      "source": "insweek",
+      "title": "프라임에셋, ‘픽앤플랜’ 서비스 고도화로 이용자 확대 추진",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72964",
+      "published": "2026-11-12",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72968",
+      "source": "insweek",
+      "title": "NH농협생명, 서울시와 자활지원 프로그램 ‘같이 일해, 가치 더해’ 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72968",
+      "published": "2026-11-12",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72969",
+      "source": "insweek",
+      "title": "삼성화재, 3분기 누적 순이익 1조8655억원···전년비 4.6% 증가",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72969",
+      "published": "2026-11-12",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72966",
+      "source": "insweek",
+      "title": "교보생명, 3분기 퇴직연금 DC·IRP 수익률 1위",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72966",
+      "published": "2026-11-12",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72963",
+      "source": "insweek",
+      "title": "iM라이프, 김장 나눔 봉사활동 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72963",
+      "published": "2026-11-12",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72960",
+      "source": "insweek",
+      "title": "현대해상, 다이렉트 암플랜·어린이보험 개정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72960",
+      "published": "2026-11-12",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72962",
+      "source": "insweek",
+      "title": "ABL생명, 고객 참여형 게임 콘텐츠 ‘ABL생명 FC 챌린지’ 론칭",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72962",
+      "published": "2026-11-12",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72961",
+      "source": "insweek",
+      "title": "라이나생명, ‘신경계질환통합진단특약’ 배타적사용권 6개월 획득",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72961",
+      "published": "2026-11-12",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33898",
+      "source": "insjournal",
+      "title": "“상품기사 읽고, 바로 가입설계”…보험저널, 설계사 맞춤 가입설계 연동 서비스 오픈",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33898",
+      "published": "2026-11-12",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33897",
+      "source": "insjournal",
+      "title": "오래 살수록 커지는 노후불안…보험사엔 '연금·돌봄' 새 기회",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33897",
+      "published": "2026-11-12",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33896",
+      "source": "insjournal",
+      "title": "[12일 마감시황] 보험 관련 14종목 중 13개 하락…메리츠금융 13.05% 급락",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33896",
+      "published": "2026-11-12",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33895",
+      "source": "insjournal",
+      "title": "삼성생명, 3분기 영업익 9000억원대 회복…누적 순익 2조6859억원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33895",
+      "published": "2026-11-12",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33894",
+      "source": "insjournal",
+      "title": "DB손보, 3분기 보험손익 4배 급증…투자이익 감소에도 순익 35.3% 증가",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33894",
+      "published": "2026-11-12",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110541",
+      "source": "fins",
+      "title": "‘스시자로’까지 등장…비만치료제 건보 급여화 논의 재점화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110541",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110543",
+      "source": "fins",
+      "title": "한화손보, 3분기 누적 순익 3,114억…전년 比 5.8%↑",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110543",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110542",
+      "source": "fins",
+      "title": "한화생명, 3분기 누적 순익 8,656억…전년 比 12.6%↑",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110542",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110540",
+      "source": "fins",
+      "title": "보험 가입 늘려도 보장 공백 여전…‘가입률 중심 평가’ 한계",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110540",
+      "published": "2026-11-12",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110522",
+      "source": "fins",
+      "title": "의학기술 발전에 “연금·돌봄 보장 확대 필요”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110522",
       "published": "2026-11-12",
       "hints": [],
       "attachments": []
@@ -7650,7 +7893,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 55,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -7658,7 +7901,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -7666,7 +7909,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 55,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -7674,7 +7917,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 62,
+      "count": 67,
       "error": null,
       "note": null,
       "disabled": false
@@ -7708,7 +7951,7 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
       "disabled": false
     },
     {
