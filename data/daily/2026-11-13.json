@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T00:46:13.887Z",
+  "generatedAt": "2026-11-13T06:56:10.368Z",
   "groups": [
     {
       "id": "g:insjournal:33904",
@@ -121,6 +121,285 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93830",
+      "topic": "industry",
+      "kind": "press",
+      "title": "현대해상, 3분기 누적 순익 7808억원… 전년比 23.1%↑",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93830",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93830"
+        }
+      ],
+      "itemIds": [
+        "insnews:93830"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93828",
+      "topic": "general",
+      "kind": "press",
+      "title": "‘보험판매전문회사’ 도입 논의 재점화… 20일 국회서 입법토론회 열려",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93828",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93828"
+        }
+      ],
+      "itemIds": [
+        "insnews:93828"
+      ],
+      "summary": "오는 11월 20일 오전 10시 국회 의원회관 제3세미나실에서 ‘금융소비자 보호 강화를 위한 보험판매전문회사 제도 도입 입법토론회’가 열려요. 이번 토론회는 국민의힘 주호영 의원과 더불어민주당 민병덕·김용만 의원이 공동 개최해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93826",
+      "topic": "life",
+      "kind": "press",
+      "title": "한화생명, ‘보조기기 지원금특약’ 6개월 배타적사용권 획득",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93826",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93826"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72986"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33906"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110548"
+        }
+      ],
+      "itemIds": [
+        "insnews:93826",
+        "insweek:72986",
+        "insjournal:33906",
+        "fins:110548"
+      ],
+      "summary": "한화생명은 장애인 보조기기 이용에 따른 경제적 부담을 덜어주는 ‘보조기기지원금특약(연 1회)’으로 13일 생명보험협회로부터 6개월 배타적사용권을 획득했어요. 건강보험 또는 의료급여를 통해 보조기기를 이용할 경우 보험금을 지급하며, 각각 연 1회 한도로 보장해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93825",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손해보험, 제천 옹달샘그룹홈에 ‘희망의 집’ 60호 선물",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93825",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93825"
+        }
+      ],
+      "itemIds": [
+        "insnews:93825"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:72999",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성화재, 주택 화재·위험 진단 '착!한 우리집진단' 서비스 제공",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72999",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72999"
+        }
+      ],
+      "itemIds": [
+        "insweek:72999"
+      ],
+      "summary": "삼성화재는 삼성전자 스마트홈 플랫폼 '스마트싱스'와 제휴해 주택의 화재·누수 위험을 진단하는 '착!한 우리집진단' 서비스를 13일부터 제공한다고 밝혔어요. 고객이 주소와 건물 유형 등 기본정보를 입력하면 화재·누수 위험을 분석해 종합 위험등급과 세부 항목별 분석 결과 등을 제공해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:72987",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손해보험, '옹달샘그룹홈'서 'KB 희망의 집짓기‘ 활동 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72987",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72987"
+        }
+      ],
+      "itemIds": [
+        "insweek:72987"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33913",
+      "topic": "auto",
+      "kind": "press",
+      "title": "같은 500만원인데 사고 뒤는 다르다…운전자보험, 변호사 ‘지원 방식’이 새 경쟁축",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33913",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33913"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33913"
+      ],
+      "summary": "운전자보험의 변호사선임비용 담보에 자기부담금 50%와 심급별 보장한도가 순차적으로 적용되면서, 메리츠화재 등 5개사는 보험금 대신 제휴 변호사 지원을 받는 현물급부 선택지를 운영하고 있어요. 메리츠화재, DB손해보험, KB손해보험, 롯데손해보험, 하나손해보험 등 5개사가 운전자보험에서 변호사 현물급부 서비스를 운영하고 있어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33901",
+      "topic": "general",
+      "kind": "press",
+      "title": "“보험 고민? 굿리치로 끝-easy!”… 배우 소지섭·돌고래유괴단 뭉친 반전 광고 6편 공개",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33901",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33901"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33901"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33908",
+      "topic": "general",
+      "kind": "press",
+      "title": "“작성계약 차익거래도 이제 끝물?”… 4년 분급에 허위·가공계약 초기 돈벌이 막힌다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33908",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33908"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33908"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110550",
+      "topic": "industry",
+      "kind": "press",
+      "title": "현대해상, 3분기 순익 9.6%↓…투자손익 적자 전환",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110550",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110550"
+        }
+      ],
+      "itemIds": [
+        "fins:110550"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110546",
+      "topic": "life",
+      "kind": "press",
+      "title": "미래에셋생명, 3분기 적자 전환…순손실 339억원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110546",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110546"
+        }
+      ],
+      "itemIds": [
+        "fins:110546"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -158,17 +437,17 @@
     },
     {
       "source": "knia-press",
-      "ok": false,
+      "ok": true,
       "count": 31,
-      "error": "fetch failed",
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "error": null,
+      "note": "과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
       "source": "knia-rates",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 28,
+      "error": null,
       "note": null,
       "disabled": false
     },
@@ -223,7 +502,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -231,7 +510,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 53,
       "error": null,
       "note": null,
       "disabled": false
@@ -239,7 +518,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -247,7 +526,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -263,17 +542,17 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "note": null,
       "disabled": false
     },
     {

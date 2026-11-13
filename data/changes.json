@@ -102,6 +102,31 @@
     "firstSeen": "2026-11-05"
   },
   {
+    "id": "c:insjournal:33908:ai",
+    "category": "general",
+    "title": "2027년부터 4년 수수료 분급 및 차익거래 금지기간 확대",
+    "when": "period",
+    "date": null,
+    "period": {
+      "start": "2027-01-01",
+      "end": "2027-01-31"
+    },
+    "phrase": "2027년 1월부터",
+    "quote": "그러나 2027년 1월부터 4년 수수료 분급이 시행되면 초기 수수료 유입이 제한되고 차익 실현 시점도 늦어질 것으로 예상된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-13",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33908"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-13"
+  },
+  {
     "id": "c:joongang:25465476:ai",
     "category": "life",
     "title": "18세 청년 생애 첫 연금보험료 국가 지원",

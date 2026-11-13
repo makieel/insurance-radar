@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T00:46:13.887Z",
+  "generatedAt": "2026-11-13T06:56:10.368Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7055,9 +7055,487 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93831",
+      "source": "insnews",
+      "title": "정진완 우리은행장, 임기 1년 연장",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93831",
+      "published": "2026-11-13",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93830",
+      "source": "insnews",
+      "title": "현대해상, 3분기 누적 순익 7808억원… 전년比 23.1%↑",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93830",
+      "published": "2026-11-13",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93828",
+      "source": "insnews",
+      "title": "‘보험판매전문회사’ 도입 논의 재점화… 20일 국회서 입법토론회 열려",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93828",
+      "published": "2026-11-13",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93827",
+      "source": "insnews",
+      "title": "하나금융, MSCI ESG 평가서 3년 연속 최고 등급 ‘AAA’ 획득",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93827",
+      "published": "2026-11-13",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93826",
+      "source": "insnews",
+      "title": "한화생명, ‘보조기기 지원금특약’ 6개월 배타적사용권 획득",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93826",
+      "published": "2026-11-13",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93825",
+      "source": "insnews",
+      "title": "KB손해보험, 제천 옹달샘그룹홈에 ‘희망의 집’ 60호 선물",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93825",
+      "published": "2026-11-13",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93824",
+      "source": "insnews",
+      "title": "토스인슈어런스, 연말까지 신입 보험설계사 육성 ‘지원’",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93824",
+      "published": "2026-11-13",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93823",
+      "source": "insnews",
+      "title": "은행연합회 차기 회장 후보군 6명 확정",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93823",
+      "published": "2026-11-13",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72999",
+      "source": "insweek",
+      "title": "삼성화재, 주택 화재·위험 진단 '착!한 우리집진단' 서비스 제공",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72999",
+      "published": "2026-11-13",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72987",
+      "source": "insweek",
+      "title": "KB손해보험, '옹달샘그룹홈'서 'KB 희망의 집짓기‘ 활동 진행",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72987",
+      "published": "2026-11-13",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:72986",
+      "source": "insweek",
+      "title": "한화생명, ‘보조기기 지원금특약’ 배타적사용권 6개월 획득",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=72986",
+      "published": "2026-11-13",
+      "hints": [
+        "상품"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33913",
+      "source": "insjournal",
+      "title": "같은 500만원인데 사고 뒤는 다르다…운전자보험, 변호사 ‘지원 방식’이 새 경쟁축",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33913",
+      "published": "2026-11-13",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33901",
+      "source": "insjournal",
+      "title": "“보험 고민? 굿리치로 끝-easy!”… 배우 소지섭·돌고래유괴단 뭉친 반전 광고 6편 공개",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33901",
+      "published": "2026-11-13",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33912",
+      "source": "insjournal",
+      "title": "‘성수·옥수 이어 성동까지’… 인카금융서비스, 지역 복지관 3곳에 각 1,000만 원 릴레이 후원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33912",
+      "published": "2026-11-13",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33910",
+      "source": "insjournal",
+      "title": "“우리 집 화재·누수 위험 몇 등급일까?”… 삼성화재, 스마트싱스 앱서 ‘착!한 우리집진단’ 선보여",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33910",
+      "published": "2026-11-13",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33908",
+      "source": "insjournal",
+      "title": "“작성계약 차익거래도 이제 끝물?”… 4년 분급에 허위·가공계약 초기 돈벌이 막힌다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33908",
+      "published": "2026-11-13",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33907",
+      "source": "insjournal",
+      "title": "[칼럼] 회사 돈으로 보험 들고 대표는 현금…법인보험 리베이트, 누구도 빠져나갈 수 없다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33907",
+      "published": "2026-11-13",
+      "hints": [
+        "오피니언"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33891",
+      "source": "insjournal",
+      "title": "[GA 품질경영 시대] 1만5000 FC에 '손안의 교실'… 글로벌금융판매, '교육'으로 완전판매 다진다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33891",
+      "published": "2026-11-13",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33906",
+      "source": "insjournal",
+      "title": "“65세 미만도, 96개 품목까지 보장”… 한화생명, ‘보조기기 지원금 특약’ 배타적사용권 획득",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33906",
+      "published": "2026-11-13",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110550",
+      "source": "fins",
+      "title": "현대해상, 3분기 순익 9.6%↓…투자손익 적자 전환",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110550",
+      "published": "2026-11-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110549",
+      "source": "fins",
+      "title": "삼성화재, 스마트싱스서 주택 화재·누수 위험 진단",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110549",
+      "published": "2026-11-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110547",
+      "source": "fins",
+      "title": "토스인슈어런스, 신입 설계사 육성 확대…500만원 지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110547",
+      "published": "2026-11-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110548",
+      "source": "fins",
+      "title": "한화생명, '보조기기 지원금특약' 배타적사용권 획득",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110548",
+      "published": "2026-11-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110546",
+      "source": "fins",
+      "title": "미래에셋생명, 3분기 적자 전환…순손실 339억원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110546",
+      "published": "2026-11-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:135019974",
+      "source": "donga",
+      "title": "19세 브라운, PGA 투어 오스틴 챔피언십 1R 4위로 출발",
+      "url": "https://www.donga.com/news/Sports/article/all/20261113/135019974/1",
+      "published": "2026-11-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:135019211",
+      "source": "donga",
+      "title": "‘직장 내 괴롭힘’ KPGA 전 임원, 2심서도 징역 8개월 선고",
+      "url": "https://www.donga.com/news/Sports/article/all/20261113/135019211/1",
+      "published": "2026-11-13",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MM4TCMLGGQ3DSYRQG5TDSYJZGI",
+      "source": "chosun",
+      "title": "재보험사 코리안리, 美 법인 설립 검토… 해외 사업 확대",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/13/MM4TCMLGGQ3DSYRQG5TDSYJZGI/",
+      "published": "2026-11-13",
+      "hints": [],
+      "attachments": []
     }
   ],
-  "rates": [],
+  "rates": [
+    {
+      "company": "메리츠화재",
+      "kind": "개인용",
+      "total": 1.3,
+      "effective": "2026-02-21",
+      "reason": "손해율실적 반영에 따른 조정 (대물가입금액확대 특약 포함)"
+    },
+    {
+      "company": "메리츠화재",
+      "kind": "업무용",
+      "total": -1,
+      "effective": "2026-09-26",
+      "reason": "예정사업비 변경에 따른 보험료 조정"
+    },
+    {
+      "company": "메리츠화재",
+      "kind": "업무용",
+      "total": 1,
+      "effective": "2026-02-21",
+      "reason": "손해율실적 반영에 따른 조정 (대물가입금액확대 및 자동차상해 특약 포함)"
+    },
+    {
+      "company": "메리츠화재",
+      "kind": "영업용",
+      "total": -1,
+      "effective": "2026-09-26",
+      "reason": "예정사업비 변경에 따른 보험료 조정"
+    },
+    {
+      "company": "한화손보",
+      "kind": "개인용",
+      "total": 1.2,
+      "effective": "2026-02-21",
+      "reason": "손해율실적 반영에 따른 조정 (대물확장특약, 차량단독특약, 자동차상해특약 포함)"
+    },
+    {
+      "company": "한화손보",
+      "kind": "개인용",
+      "total": 0,
+      "effective": "2025-12-31",
+      "reason": "손해율실적 반영에 따른 조정 (대물확장특약, 차량단독특약, 자동차상해특약 포함)"
+    },
+    {
+      "company": "한화손보",
+      "kind": "업무용",
+      "total": 1.2,
+      "effective": "2026-02-21",
+      "reason": "손해율실적 반영에 따른 조정 (대물확장특약, 차량단독특약, 자동차상해특약 포함)"
+    },
+    {
+      "company": "한화손보",
+      "kind": "업무용",
+      "total": 0,
+      "effective": "2025-12-31",
+      "reason": "손해율실적 반영에 따른 조정 (대물확장특약, 차량단독특약, 자동차상해특약 포함)"
+    },
+    {
+      "company": "롯데손보",
+      "kind": "개인용",
+      "total": 1.4,
+      "effective": "2026-03-01",
+      "reason": "담보별 보험료 조정"
+    },
+    {
+      "company": "흥국화재",
+      "kind": "개인용",
+      "total": 1.4,
+      "effective": "2026-03-13",
+      "reason": "손해율 실적 반영에 따른 보험료 조정(대물확대 특약 포함)"
+    },
+    {
+      "company": "흥국화재",
+      "kind": "업무용",
+      "total": 1.4,
+      "effective": "2026-03-13",
+      "reason": "손해율 실적 반영에 따른 보험료 조정(대물확대 특약 포함)"
+    },
+    {
+      "company": "삼성화재",
+      "kind": "개인용",
+      "total": 1.4,
+      "effective": "2026-02-11",
+      "reason": "손해율 실적 반영한 보험료 조정 (차량단독특약 등 포함)"
+    },
+    {
+      "company": "삼성화재",
+      "kind": "업무용",
+      "total": 1.4,
+      "effective": "2026-02-11",
+      "reason": "손해율 실적 반영한 보험료 조정 (차량단독특약 등 포함)"
+    },
+    {
+      "company": "현대해상",
+      "kind": "개인용",
+      "total": 1.4,
+      "effective": "2026-02-16",
+      "reason": "손해율 및 실제사업비율 반영에 따른 보험료 조정(대물확장, 자차보장확대특약 포함)"
+    },
+    {
+      "company": "현대해상",
+      "kind": "업무용",
+      "total": 0,
+      "effective": "2026-06-16",
+      "reason": "손해율 실적 반영한 보험료 조정 (대물확장, 자차보장확대특약 포함)"
+    },
+    {
+      "company": "현대해상",
+      "kind": "업무용",
+      "total": 1.3,
+      "effective": "2026-02-16",
+      "reason": "손해율 및 실제사업비율 반영에 따른 보험료 조정(대물확장, 자차보장확대특약 포함)"
+    },
+    {
+      "company": "현대해상",
+      "kind": "영업용",
+      "total": 0,
+      "effective": "2026-09-21",
+      "reason": "손해율 실적 반영한 보험료 조정(대물확장, 자차보장확대 특약 포함)"
+    },
+    {
+      "company": "KB손보",
+      "kind": "개인용",
+      "total": 1.3,
+      "effective": "2026-02-18",
+      "reason": "손해율 실적을 반영한 보험료 조정 (대물확장, 자차포괄특약 포함)"
+    },
+    {
+      "company": "KB손보",
+      "kind": "업무용",
+      "total": 1.4,
+      "effective": "2026-02-18",
+      "reason": "손해율 실적을 반영한 보험료 조정 (대물확장, 자차포괄특약 포함)"
+    },
+    {
+      "company": "KB손보",
+      "kind": "업무용",
+      "total": 0,
+      "effective": "2025-12-13",
+      "reason": "손해율 실적을 반영한 보험료 조정 (대물확장, 자차포괄특약 포함)"
+    },
+    {
+      "company": "DB손보",
+      "kind": "개인용",
+      "total": 1.3,
+      "effective": "2026-02-16",
+      "reason": "실적손해율 반영 (대물확장 특약 등 포함)"
+    },
+    {
+      "company": "DB손보",
+      "kind": "업무용",
+      "total": 1.4,
+      "effective": "2026-02-16",
+      "reason": "실적손해율 반영 (대물확장 특약 등 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "개인용",
+      "total": 0,
+      "effective": "2026-06-08",
+      "reason": "손해실적에 따른 담보별 보험료 조정(자동차상해특약, 차량단독사고 특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "개인용",
+      "total": 1.3,
+      "effective": "2026-03-01",
+      "reason": "손해실적에 따른 담보별 보험료 조정(대물확장특약 포함, 자동차상해특약 포함, 차단독사고특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "개인용",
+      "total": 0,
+      "effective": "2026-01-01",
+      "reason": "손해실적에 따른 담보별 보험료 조정(차단독사고특약 포함, 자동차상해 특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "업무용",
+      "total": 0,
+      "effective": "2026-03-31",
+      "reason": "손해실적에 따른 담보별 보험료 조정(자동차상해특약, 차량단독사고특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "업무용",
+      "total": 1.3,
+      "effective": "2026-03-20",
+      "reason": "손해실적에 따른 담보별 보험료 조정(대물확장특약, 자동차상해특약, 차량단독사고특약 포함)"
+    },
+    {
+      "company": "하나손보",
+      "kind": "영업용",
+      "total": 0,
+      "effective": "2026-01-01",
+      "reason": "손해실적에 따른 담보별 보험료 조정"
+    }
+  ],
   "status": [
     {
       "source": "fsc-press",
@@ -7093,17 +7571,17 @@
     },
     {
       "source": "knia-press",
-      "ok": false,
+      "ok": true,
       "count": 31,
-      "error": "fetch failed",
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "error": null,
+      "note": "과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
       "source": "knia-rates",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 28,
+      "error": null,
       "note": null,
       "disabled": false
     },
@@ -7158,7 +7636,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -7166,7 +7644,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 53,
       "error": null,
       "note": null,
       "disabled": false
@@ -7174,7 +7652,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -7182,7 +7660,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -7198,17 +7676,17 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 0,
+      "count": 2,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "note": null,
       "disabled": false
     },
     {
