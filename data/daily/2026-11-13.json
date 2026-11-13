@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T00:46:13.887Z",
+  "groups": [
+    {
+      "id": "g:insjournal:33904",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손보, 제천 옹달샘그룹홈에 60번째 'KB 희망의 집' 선물",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33904",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33904"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33904"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33900",
+      "topic": "life",
+      "kind": "press",
+      "title": "'단기납 종신보험' 7년납 환급률…10년 시점 메트라이프 124.8%·처브 120.0%·동양 등 6개사 117.6%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33900",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33900"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33900"
+      ],
+      "summary": "11월 주요 생명보험사 14곳의 7년납 단기납 종신보험을 분석한 결과, 10년 시점 해약환급률은 메트라이프생명이 124.8%로 가장 높았어요. 원화 상품 중에서는 처브라이프가 120.0%, 6개사가 117.6%를 기록했어요. 납입 완료 시점인 7년 시점에는 8개 생보사가 100.0%의 환급률을 나타냈어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33903",
+      "topic": "industry",
+      "kind": "press",
+      "title": "한화생명, 보험손익 176% 급증에도 3분기 적자…'투자손실'이 발목",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33903",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33903"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33903"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110545",
+      "topic": "life",
+      "kind": "press",
+      "title": "종신보험의 귀환…생보사, 사망보장 넘어 노후자금 경쟁",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110545",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110545"
+        }
+      ],
+      "itemIds": [
+        "fins:110545"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110544",
+      "topic": "industry",
+      "kind": "press",
+      "title": "DB손보, 삼성화재 턱밑 추격…순익 격차 501억원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110544",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110544"
+        }
+      ],
+      "itemIds": [
+        "fins:110544"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 79,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": false,
+      "count": 31,
+      "error": "fetch failed",
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 13,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 99건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
