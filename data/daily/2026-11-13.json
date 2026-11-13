@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T06:56:10.368Z",
+  "generatedAt": "2026-11-13T12:51:04.532Z",
   "groups": [
     {
       "id": "g:insjournal:33904",
@@ -400,6 +400,54 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93832",
+      "topic": "life",
+      "kind": "press",
+      "title": "미래에셋생명, 3분기 누적 매출 8조889억원… 보유 CSM 12.7%↑",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93832",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93832"
+        }
+      ],
+      "itemIds": [
+        "insnews:93832"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110553",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손해보험, 60번째 희망의 집 완공…아동 주거 지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110553",
+      "published": "2026-11-13",
+      "firstSeen": "2026-11-13",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110553"
+        }
+      ],
+      "itemIds": [
+        "fins:110553"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -408,7 +456,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -416,7 +464,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -424,7 +472,7 @@
       "ok": true,
       "count": 79,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -432,7 +480,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -440,7 +488,7 @@
       "ok": true,
       "count": 31,
       "error": null,
-      "note": "과거 기사 수집 중단: fetch failed",
+      "note": null,
       "disabled": false
     },
     {
@@ -456,7 +504,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -502,7 +550,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 58,
+      "count": 62,
       "error": null,
       "note": null,
       "disabled": false
@@ -518,7 +566,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 58,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -526,7 +574,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 55,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -542,7 +590,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
@@ -552,7 +600,7 @@
       "ok": true,
       "count": 1,
       "error": null,
-      "note": null,
+      "note": "오늘 보험 기사 없음(읽은 글 98건)",
       "disabled": false
     },
     {
