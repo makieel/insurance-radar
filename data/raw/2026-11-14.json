@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T00:39:37.810Z",
+  "generatedAt": "2026-11-14T06:44:45.400Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7037,6 +7037,17 @@
       "published": "2026-02-19",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93840",
+      "source": "insnews",
+      "title": "[다음주 경제] 2천조원 넘긴 가계부채, 얼마나 더 늘었을까",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93840",
+      "published": "2026-11-14",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7243,7 +7254,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
@@ -7337,7 +7348,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false

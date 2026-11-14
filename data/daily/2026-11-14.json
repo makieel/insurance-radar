@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T00:39:37.810Z",
+  "generatedAt": "2026-11-14T06:44:45.400Z",
   "groups": [
     {
       "id": "g:fins:110557",
@@ -33,7 +33,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
@@ -127,7 +127,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
