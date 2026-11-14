@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T06:44:45.400Z",
+  "generatedAt": "2026-11-14T12:33:44.824Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7048,6 +7048,33 @@
         "금융"
       ],
       "attachments": []
+    },
+    {
+      "id": "klia-press:123689",
+      "source": "klia-press",
+      "title": "생명-손해보험업계 공동, 쪽방촌 주민에게 에너지 비용 1억원 지원",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123689&boardMngNo=2&seq=1",
+      "published": "2026-04-29",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "klia-press:123660",
+      "source": "klia-press",
+      "title": "상생보험 관련 보험업권-지자체 협약식",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123660&boardMngNo=2&seq=1",
+      "published": "2026-03-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "klia-press:123657",
+      "source": "klia-press",
+      "title": "생명보험사회공헌위원회, 보험전공 대학(원) 장학생 25명 선발, 총 2억 2,000만원 장학금 지급",
+      "url": "https://www.klia.or.kr/board/2/view.do?boardNo=123657&boardMngNo=2&seq=1",
+      "published": "2026-03-12",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7254,7 +7281,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: The operation was aborted due to timeout",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -7300,9 +7327,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 13,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
