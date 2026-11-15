@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T00:39:57.335Z",
+  "generatedAt": "2026-11-15T06:49:02.016Z",
   "groups": [
     {
       "id": "g:fins:110560",
@@ -73,6 +73,30 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110562",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원, 보험 약관·상품설명서 손질…소비자 눈높이로 바꾼다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110562",
+      "published": "2026-11-15",
+      "firstSeen": "2026-11-15",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110562"
+        }
+      ],
+      "itemIds": [
+        "fins:110562"
+      ],
+      "summary": "금융감독원이 보험 상품설명서와 약관의 개선방안을 이달 넷째 주와 12월 첫째 주에 공개할 예정이에요. 이번 개선은 소비자가 보험상품의 핵심 내용을 쉽게 이해할 수 있도록 설명 체계를 손질하는 데 초점을 맞추고 있어요. 또한 환매중단펀드를 보유한 퇴직연금 계좌의 실물이전 제한 문제를 개선하기 위해 해당 계좌의 퇴직연금 실물이전을 허용하는 방안을 논의했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -175,7 +199,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -199,7 +223,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -215,7 +239,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false

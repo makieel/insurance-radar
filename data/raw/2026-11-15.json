@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T00:39:57.335Z",
+  "generatedAt": "2026-11-15T06:49:02.016Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7064,6 +7064,44 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93834",
+      "source": "insnews",
+      "title": "금감원, 은행 탄력점포 운영 개선… “금융접근성 높인다”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93834",
+      "published": "2026-11-15",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110562",
+      "source": "fins",
+      "title": "금감원, 보험 약관·상품설명서 손질…소비자 눈높이로 바꾼다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110562",
+      "published": "2026-11-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110561",
+      "source": "fins",
+      "title": "25일 중 하루 빼고 연속 격무하다 심정지…법원 \"업무상 재해\"",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110561",
+      "published": "2026-11-15",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "donga:135025101",
+      "source": "donga",
+      "title": "최혜진, LPGA 디안니카 3R 2위로 하락…내일 첫 우승 판가름",
+      "url": "https://www.donga.com/news/Sports/article/all/20261115/135025101/1",
+      "published": "2026-11-15",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7364,7 +7402,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -7388,7 +7426,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -7404,7 +7442,7 @@
     {
       "source": "donga",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
