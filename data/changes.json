@@ -26,6 +26,28 @@
     "firstSeen": "2026-11-04"
   },
   {
+    "id": "c:insjournal:33926:ai",
+    "category": "medical",
+    "title": "의료배상책임보험 의무가입 제도 시행",
+    "when": "exact",
+    "date": "2027-05-27",
+    "period": null,
+    "phrase": "2027년 5월 27일",
+    "quote": "지난 5월 26일 공포된 개정 '의료사고 피해구제 및 의료분쟁 조정 등에 관한 법률'(의료분쟁조정법)은 2027년 5월 27일부터 시행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-16",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33926"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-16"
+  },
+  {
     "id": "c:fsc-press:88081:2027-01-01",
     "category": "general",
     "title": "계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결",
@@ -172,6 +194,50 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:fins:110565:ai",
+    "category": "medical",
+    "title": "5세대 실손보험 전환 할인제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "이달",
+    "quote": "특히 1·2세대 가입자의 전환 비중이 지속적으로 하락하는 가운데 이달 시행 예정인 보험료 할인제도가 가입자 이동의 분수령이 될 전망이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-16",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110565"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-16"
+  },
+  {
+    "id": "c:fins:110567:ai",
+    "category": "general",
+    "title": "의료배상책임보험 의무화 법안 내년 5월 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "5월 27일부터",
+    "quote": "개정 의료분쟁조정법은 내년 5월 27일부터 시행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-16",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110567"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-16"
   },
   {
     "id": "c:insnews:93815:ai",
@@ -1366,6 +1432,31 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
+  },
+  {
+    "id": "c:insjournal:33919:ai",
+    "category": "life",
+    "title": "한화생명, WE CARE DREAM 저축보험 개편",
+    "when": "period",
+    "date": null,
+    "period": {
+      "start": "2026-07-01",
+      "end": "2026-07-31"
+    },
+    "phrase": "2026년 7월부터",
+    "quote": "이에 한화생명은 2026년 7월부터 2029년 8월까지 3년간 ‘청년 금융 자립 프로젝트’를 운영한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-16",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33919"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-16"
   },
   {
     "id": "c:fss-press:218711:2026-06-22",
