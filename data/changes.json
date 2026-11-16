@@ -350,6 +350,28 @@
     "firstSeen": "2026-11-16"
   },
   {
+    "id": "c:yna:AKR20261116148000061:ai",
+    "category": "general",
+    "title": "경기도 기후보험 폐지 및 기후보장 지원금 지급",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년 5월부터",
+    "quote": "경기도는 내년 5월부터 '기후보험' 사업을 폐지하고 '기후보장 지원금'을 지급할 계획이라고 16일 밝혔다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-16",
+    "sources": [
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261116148000061"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-16"
+  },
+  {
     "id": "c:insjournal:33889:ai",
     "category": "general",
     "title": "2027년 장기요양 재가급여 월 이용 한도액 인상",

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T04:39:03.770Z",
+  "generatedAt": "2026-11-16T14:43:26.998Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -7468,6 +7468,204 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insweek:73020",
+      "source": "insweek",
+      "title": "롯데손해보험, 3분기 보험영업이익 198억원···전년동기대비 46억원 증가",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73020",
+      "published": "2026-11-16",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73018",
+      "source": "insweek",
+      "title": "화재보험협회, 소규모 음식점 화재 안전 강화 위해 ‘AI 지능형 CCTV 기증식’ 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73018",
+      "published": "2026-11-16",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73021",
+      "source": "insweek",
+      "title": "에이플러스에셋, 3분기 누적 영업이익 411억원···전년비 82% 증가",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73021",
+      "published": "2026-11-16",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73017",
+      "source": "insweek",
+      "title": "한화금융, ‘PLUS NY 2026’ 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73017",
+      "published": "2026-11-16",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33933",
+      "source": "insjournal",
+      "title": "‘덩치’와 생산성은 달랐다…초대형 GA 설계사 규모 톱5, ‘인당 수수료’ 순위는 딴판",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33933",
+      "published": "2026-11-16",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33935",
+      "source": "insjournal",
+      "title": "[16일 마감시황] 코스피 3.66% 급락에도 손보주 강세…한화손보 5.01%↑",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33935",
+      "published": "2026-11-16",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33934",
+      "source": "insjournal",
+      "title": "인카금융서비스, 3분기 만에 작년 실적 97%… 누적 매출 9878억 '사상 최대'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33934",
+      "published": "2026-11-16",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33932",
+      "source": "insjournal",
+      "title": "한화생명, 보험요율 산출·신용정보 관리 위반…과태료 6억5200만원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33932",
+      "published": "2026-11-16",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33931",
+      "source": "insjournal",
+      "title": "신한금융플러스, 보험모집 규정 위반 과태료 170만원…설계사 8명 제재",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33931",
+      "published": "2026-11-16",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110578",
+      "source": "fins",
+      "title": "금감원, '불법리베이트' 한국보험금융에 등록취소 사전통지",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110578",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110577",
+      "source": "fins",
+      "title": "LH 보험 입찰담합' 삼성화재 등 보험사 3곳 대법서 무죄 확정",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110577",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110576",
+      "source": "fins",
+      "title": "롯데손보, 금리·환율변동에 투자손실",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110576",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110575",
+      "source": "fins",
+      "title": "대리기사 보험 중복가입 부담 줄인다…카카오·티맵 개선 추진",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110575",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110572",
+      "source": "fins",
+      "title": "에이플러스에셋, 3분기 누적 영업익 411억원…전년 연간 실적 상회",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110572",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GVQTCM3CHAYDQZTEGZSGIMZVGU",
+      "source": "chosun",
+      "title": "롯데손보, 투자손실에 3분기 937억원 순손실… 보험영업은 흑자",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/16/GVQTCM3CHAYDQZTEGZSGIMZVGU/",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:MI2WMMTGHE2DQOLDMRQTIOLFHE",
+      "source": "chosun",
+      "title": "[기자수첩] 팔 만큼 팔고 문제 있다며 중단… 반복되는 보험 ‘두더지 잡기’",
+      "url": "https://www.chosun.com/economy/economy_general/2026/11/16/MI2WMMTGHE2DQOLDMRQTIOLFHE/",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261116171100002",
+      "source": "yna",
+      "title": "금감원, '불법리베이트' 한국보험금융에 등록취소 사전통지",
+      "url": "https://www.yna.co.kr/view/AKR20261116171100002",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261116165500004",
+      "source": "yna",
+      "title": "'LH 보험 입찰담합' 삼성화재 등 보험사 3곳 대법서 무죄 확정",
+      "url": "https://www.yna.co.kr/view/AKR20261116165500004",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261116161400002",
+      "source": "yna",
+      "title": "롯데손보, 3분기 순손실 937억원…금리·환율변동에 투자손실",
+      "url": "https://www.yna.co.kr/view/AKR20261116161400002",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261116148000061",
+      "source": "yna",
+      "title": "경기도, 내년 '기후보험' 폐지…온열질환 진단비 등 직접지원",
+      "url": "https://www.yna.co.kr/view/AKR20261116148000061",
+      "published": "2026-11-16",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7674,7 +7872,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7682,7 +7880,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7690,7 +7888,7 @@
       "ok": true,
       "count": 79,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7698,7 +7896,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7706,7 +7904,7 @@
       "ok": true,
       "count": 31,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7722,7 +7920,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7767,16 +7965,16 @@
     },
     {
       "source": "insnews",
-      "ok": true,
+      "ok": false,
       "count": 56,
-      "error": null,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
     {
       "source": "insweek",
       "ok": true,
-      "count": 53,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -7784,7 +7982,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 63,
+      "count": 68,
       "error": null,
       "note": null,
       "disabled": false
@@ -7792,7 +7990,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 60,
+      "count": 65,
       "error": null,
       "note": null,
       "disabled": false
@@ -7807,16 +8005,16 @@
     },
     {
       "source": "donga",
-      "ok": true,
+      "ok": false,
       "count": 1,
-      "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "error": "The operation was aborted due to timeout",
+      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
@@ -7824,7 +8022,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 4,
+      "count": 8,
       "error": null,
       "note": null,
       "disabled": false

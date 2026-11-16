@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T04:39:03.770Z",
+  "generatedAt": "2026-11-16T14:43:26.998Z",
   "groups": [
     {
       "id": "g:insnews:93829",
@@ -1677,6 +1677,290 @@
       "relevanceBy": "ai",
       "importance": 3,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73020",
+      "topic": "industry",
+      "kind": "press",
+      "title": "롯데손해보험, 3분기 보험영업이익 198억원···전년동기대비 46억원 증가",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73020",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73020"
+        }
+      ],
+      "itemIds": [
+        "insweek:73020"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73021",
+      "topic": "industry",
+      "kind": "press",
+      "title": "에이플러스에셋, 3분기 누적 영업이익 411억원···전년비 82% 증가",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73021",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73021"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110572"
+        }
+      ],
+      "itemIds": [
+        "insweek:73021",
+        "fins:110572"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73017",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화금융, ‘PLUS NY 2026’ 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73017",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73017"
+        }
+      ],
+      "itemIds": [
+        "insweek:73017"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33932",
+      "topic": "life",
+      "kind": "press",
+      "title": "한화생명, 보험요율 산출·신용정보 관리 위반…과태료 6억5200만원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33932",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33932"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33932"
+      ],
+      "summary": "한화생명은 보험요율 산출 과정에서 위험률을 실제보다 높게 산출하고, 신용정보 관리와 전자금융거래 관련 규정을 위반해 금융당국으로부터 과태료 6억5200만원을 부과받았어요.",
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110578",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원, '불법리베이트' 한국보험금융에 등록취소 사전통지",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110578",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110578"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261116171100002"
+        }
+      ],
+      "itemIds": [
+        "fins:110578",
+        "yna:AKR20261116171100002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110577",
+      "topic": "industry",
+      "kind": "press",
+      "title": "LH 보험 입찰담합' 삼성화재 등 보험사 3곳 대법서 무죄 확정",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110577",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110577"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261116165500004"
+        }
+      ],
+      "itemIds": [
+        "fins:110577",
+        "yna:AKR20261116165500004"
+      ],
+      "summary": "대법원은 한국토지주택공사(LH)가 발주한 보험계약의 입찰 담합 혐의로 재판에 넘겨진 삼성화재·한화손해보험·메리츠화재 등의 공정거래법 위반 사건에서 무죄 판결을 확정했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110576",
+      "topic": "industry",
+      "kind": "press",
+      "title": "롯데손보, 금리·환율변동에 투자손실",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110576",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110576"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261116161400002"
+        }
+      ],
+      "itemIds": [
+        "fins:110576",
+        "yna:AKR20261116161400002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110575",
+      "topic": "general",
+      "kind": "press",
+      "title": "대리기사 보험 중복가입 부담 줄인다…카카오·티맵 개선 추진",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110575",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110575"
+        }
+      ],
+      "itemIds": [
+        "fins:110575"
+      ],
+      "summary": "공정거래위원회는 카카오모빌리티와 티맵모빌리티 등 4개 사업자가 신청한 동의의결 절차를 개시하기로 결정했어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:GVQTCM3CHAYDQZTEGZSGIMZVGU",
+      "topic": "industry",
+      "kind": "press",
+      "title": "롯데손보, 투자손실에 3분기 937억원 순손실… 보험영업은 흑자",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/16/GVQTCM3CHAYDQZTEGZSGIMZVGU/",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/16/GVQTCM3CHAYDQZTEGZSGIMZVGU/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GVQTCM3CHAYDQZTEGZSGIMZVGU"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:MI2WMMTGHE2DQOLDMRQTIOLFHE",
+      "topic": "general",
+      "kind": "press",
+      "title": "[기자수첩] 팔 만큼 팔고 문제 있다며 중단… 반복되는 보험 ‘두더지 잡기’",
+      "url": "https://www.chosun.com/economy/economy_general/2026/11/16/MI2WMMTGHE2DQOLDMRQTIOLFHE/",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/economy_general/2026/11/16/MI2WMMTGHE2DQOLDMRQTIOLFHE/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MI2WMMTGHE2DQOLDMRQTIOLFHE"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261116148000061",
+      "topic": "general",
+      "kind": "press",
+      "title": "경기도, 내년 '기후보험' 폐지…온열질환 진단비 등 직접지원",
+      "url": "https://www.yna.co.kr/view/AKR20261116148000061",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261116148000061"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261116148000061"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -1685,7 +1969,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -1693,7 +1977,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -1701,7 +1985,7 @@
       "ok": true,
       "count": 79,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -1709,7 +1993,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -1717,7 +2001,7 @@
       "ok": true,
       "count": 31,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -1733,7 +2017,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -1778,16 +2062,16 @@
     },
     {
       "source": "insnews",
-      "ok": true,
+      "ok": false,
       "count": 56,
-      "error": null,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
     {
       "source": "insweek",
       "ok": true,
-      "count": 53,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -1795,7 +2079,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 63,
+      "count": 68,
       "error": null,
       "note": null,
       "disabled": false
@@ -1803,7 +2087,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 60,
+      "count": 65,
       "error": null,
       "note": null,
       "disabled": false
@@ -1818,16 +2102,16 @@
     },
     {
       "source": "donga",
-      "ok": true,
+      "ok": false,
       "count": 1,
-      "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "error": "The operation was aborted due to timeout",
+      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
@@ -1835,7 +2119,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 4,
+      "count": 8,
       "error": null,
       "note": null,
       "disabled": false
