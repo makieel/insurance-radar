@@ -196,6 +196,36 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:fins:110598:ai",
+    "category": "general",
+    "title": "다음 달 말부터 계리가정보고서 제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "다음 달",
+    "quote": "다음 달 말부터는 관련 내용을 담은 계리가정보고서 제도도 시행할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-17",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110598"
+      },
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261117144851002"
+      },
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261117144800002"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-18"
+  },
+  {
     "id": "c:fins:110565:ai",
     "category": "medical",
     "title": "5세대 실손보험 전환 할인제도 시행",

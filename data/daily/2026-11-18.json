@@ -1,0 +1,426 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-17T20:26:06.220Z",
+  "groups": [
+    {
+      "id": "g:donga:135041938",
+      "topic": "general",
+      "kind": "press",
+      "title": "[단독]보험료 비싼 ‘유병자 보험’ 가입 20대 4년새 6배로",
+      "url": "https://www.donga.com/news/Economy/article/all/20261117/135041938/2",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261117/135041938/2"
+        }
+      ],
+      "itemIds": [
+        "donga:135041938"
+      ],
+      "summary": "32개 손해보험사와 생명보험사의 유병자보험 신계약 건수는 2021년 269만7718건에서 지난해 693만3562건으로 늘었어요. 만 19세 이하 가입은 3934명에서 2만5398명으로, 20대 가입은 2만6348건에서 15만8862건으로 증가했어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:135041919",
+      "topic": "general",
+      "kind": "press",
+      "title": "상반기 車사고 건수 줄었는데… 보험금 지급액은 되레 늘어나",
+      "url": "https://www.donga.com/news/Economy/article/all/20261117/135041919/2",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261117/135041919/2"
+        }
+      ],
+      "itemIds": [
+        "donga:135041919"
+      ],
+      "summary": "대형 손해보험사 4곳의 올해 상반기 자동차보험 물적 담보 지급보험금은 4조940억 원으로 전년 동기보다 652억 원 늘었어요. 반면 같은 기간 물적 담보 사고 건수는 242만2000건에서 235만8000건으로 6만4000건 줄었어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:hanwha:3578",
+      "topic": "industry",
+      "kind": "insurer",
+      "title": "3040 자산가, 부동산보다 금융투자상품 물려준다",
+      "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3578",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "한화생명",
+          "url": "https://company.hanwhalife.com/ko/about/company-overview/newsroom/press/3578"
+        }
+      ],
+      "itemIds": [
+        "hanwha:3578"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93889",
+      "topic": "general",
+      "kind": "press",
+      "title": "시민단체, 금융권 해킹 개인정보 유출 규탄… “보안체계 점검”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93889",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93889"
+        }
+      ],
+      "itemIds": [
+        "insnews:93889"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33948",
+      "topic": "general",
+      "kind": "press",
+      "title": "[오해풀기] 모든 상품 계약체결비용이 1,250% 아니다… 금융당국, 수수료 분급 설명 위한 가정치일 뿐",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33948",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33948"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33948"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33946",
+      "topic": "general",
+      "kind": "press",
+      "title": "한국보험금융, “등록취소 예고는 최종 처분 전 소명 단계…소중한 일터 지킬 것”",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33946",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33946"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33946"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110598",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 손해율 104%→89% 전망…낙관적 계리가정 논란",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110598",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110598"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261117144851002"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261117144800002"
+        }
+      ],
+      "itemIds": [
+        "fins:110598",
+        "yna:AKR20261117144851002",
+        "yna:AKR20261117144800002"
+      ],
+      "summary": "지난해 말 36개 보험사의 실제손해율 평균은 103.8%였지만, 올해 말 예상손해율 평균은 88.5%로 나타났어요. 생명보험사 21곳의 실제손해율은 95.3%, 예상손해율은 83.9%였고 손해보험사 15곳은 실제손해율 115.6%, 예상손해율 94.8%였어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110596",
+      "topic": "general",
+      "kind": "press",
+      "title": "보조배터리 과충전에 침구류까지 불길…화재감지기 점검 중요",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110596",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110596"
+        }
+      ],
+      "itemIds": [
+        "fins:110596"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110594",
+      "topic": "general",
+      "kind": "press",
+      "title": "주요 손보사 3분기 보험손익 24.7%↑…신계약 CSM은 주춤",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110594",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110594"
+        }
+      ],
+      "itemIds": [
+        "fins:110594"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:yna:AKR20261117127500055",
+      "topic": "general",
+      "kind": "press",
+      "title": "\"재해·화재 피해 덜어드려요\" 익산시, 가축재해보험료 75% 지원",
+      "url": "https://www.yna.co.kr/view/AKR20261117127500055",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261117127500055"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261117127500055"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 79,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 31,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 3,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
