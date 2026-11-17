@@ -1,0 +1,734 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T06:25:03.042Z",
+  "groups": [
+    {
+      "id": "g:insnews:93885",
+      "topic": "general",
+      "kind": "press",
+      "title": "해경청, 드론보험 보장 강화… 기체손해 보장, 보험료 3배→11배",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93885",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93885"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110583"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261117047500065"
+        }
+      ],
+      "itemIds": [
+        "insnews:93885",
+        "fins:110583",
+        "yna:AKR20261117047500065"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93883",
+      "topic": "life",
+      "kind": "press",
+      "title": "교보생명, 배타적사용권 1년 새 6건… 생보업계 최다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93883",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93883"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73026"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110581"
+        }
+      ],
+      "itemIds": [
+        "insnews:93883",
+        "insweek:73026",
+        "fins:110581"
+      ],
+      "summary": "교보생명이 2025년 11월부터 2026년 10월까지 1년간 생명보험업계 최다인 6건의 배타적사용권을 획득했어요. 신상품과 특약을 통해 가입 심사, 치료 단계, 검사 범위 등의 보장 사각지대를 보완했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93882",
+      "topic": "life",
+      "kind": "press",
+      "title": "생명보험재단, 제주에 세대통합형 카페 ‘할로마켓’ 3호점 개소",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93882",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93882"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33937"
+        }
+      ],
+      "itemIds": [
+        "insnews:93882",
+        "insjournal:33937"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93880",
+      "topic": "general",
+      "kind": "press",
+      "title": "상반기 車보험 물적담보 지급보험금, 사고 줄었는데 1.6%↑",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93880",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93880"
+        }
+      ],
+      "itemIds": [
+        "insnews:93880"
+      ],
+      "summary": "올해 상반기 대형 손해보험사 4곳의 자동차보험 물적담보 지급보험금은 4조940억원으로 전년 동기보다 1.6% 증가했어요. 같은 기간 물적담보 사고 건수는 2.6% 줄었지만 건당 지급액은 4.4% 늘어났어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93873",
+      "topic": "general",
+      "kind": "press",
+      "title": "금감원, ‘불법리베이트’ 한국보험금융에 등록취소 사전통지",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93873",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93873"
+        }
+      ],
+      "itemIds": [
+        "insnews:93873"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73023",
+      "topic": "general",
+      "kind": "press",
+      "title": "푸본현대생명, 수능앞둔 임직원 자녀에 응원메시지 전달",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73023",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73023"
+        }
+      ],
+      "itemIds": [
+        "insweek:73023"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73025",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화생명, 젊은 부자 보고서 ‘자산이전 편’ 발간",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73025",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73025"
+        }
+      ],
+      "itemIds": [
+        "insweek:73025"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33941",
+      "topic": "auto",
+      "kind": "press",
+      "title": "'렌터카' 남에게 운전 맡겼다가 사고…계약 '위반'해도 '구상' 못 하는 이유",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33941",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33941"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33941"
+      ],
+      "summary": "대법원은 렌터카를 빌린 사람이 계약을 어기고 다른 사람에게 운전을 맡겼더라도 보험사가 차량 임차인에게 구상금을 청구할 수 없다고 판단했어요. 계약 위반 사실만으로 자동차보험상 피보험자 지위가 사라지는 것은 아니라는 취지예요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33943",
+      "topic": "general",
+      "kind": "press",
+      "title": "카카오·티맵, 대리기사 보험료 부담 줄인다…중복가입 개선 추진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33943",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33943"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33943"
+      ],
+      "summary": "카카오모빌리티와 티맵모빌리티가 대리운전 기사의 개인보험 가입정보를 플랫폼에 연동해 중복 단체보험 가입 부담을 줄이는 개선방안을 냈어요. 절감되는 단체보험료는 기사가 콜을 수행할 때마다 건당 지원금으로 지급할 예정이에요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33909",
+      "topic": "general",
+      "kind": "press",
+      "title": "[명인 열전] “18번의 수술도 멈추지 못한 열정”…10년 연속 3W, 김민희 대표의 보험영업 15년",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33909",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33909"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33909"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33938",
+      "topic": "general",
+      "kind": "press",
+      "title": "[기획칼럼] 정착지원금 폐지 이후 남은 '반환' 분쟁",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33938",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33938"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33938"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110589",
+      "topic": "medical",
+      "kind": "press",
+      "title": "실손보험 선택형 출시 임박…“비급여 이용 적으면 유리”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110589",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110589"
+        }
+      ],
+      "itemIds": [
+        "fins:110589"
+      ],
+      "summary": "기존 1·2세대 실손보험의 일부 비급여 보장을 제외하고 보험료를 할인받을 수 있는 '선택형 할인 특약'이 이르면 이번 주부터 늦어도 이달 말까지 출시돼요. 도수치료나 비급여 주사제, MRI 검사 등의 이용이 적은 가입자에게 유리해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110588",
+      "topic": "industry",
+      "kind": "press",
+      "title": "한국보험금융 등록취소 사전통지…설계사 6,000명 계약관리 변수",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110588",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110588"
+        }
+      ],
+      "itemIds": [
+        "fins:110588"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110580",
+      "topic": "general",
+      "kind": "press",
+      "title": "車사고 줄었지만 건당 보험금은 4.4% 증가",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110580",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110580"
+        }
+      ],
+      "itemIds": [
+        "fins:110580"
+      ],
+      "summary": "올해 상반기 대형 손해보험사 4곳의 자동차보험 물적담보 지급보험금은 4조940억원으로 지난해 같은 기간보다 1.6% 늘었어요. 같은 기간 사고 건수는 2.6% 줄었지만 건당 지급보험금은 4.4% 증가했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110574",
+      "topic": "life",
+      "kind": "press",
+      "title": "AIA생명, 새 수장 체제 전환 앞두고…경영 정상화 속도",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110574",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110574"
+        }
+      ],
+      "itemIds": [
+        "fins:110574"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110573",
+      "topic": "industry",
+      "kind": "press",
+      "title": "추가 출자 없는 동양·ABL생명…자본건전성 관리 시험대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110573",
+      "published": "2026-11-17",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110573"
+        }
+      ],
+      "itemIds": [
+        "fins:110573"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93871",
+      "topic": "industry",
+      "kind": "press",
+      "title": "롯데손보, 보험영업 흑자에도 투자손실 확대… 누적 순손실 1122억원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93871",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93871"
+        }
+      ],
+      "itemIds": [
+        "insnews:93871"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93869",
+      "topic": "industry",
+      "kind": "press",
+      "title": "교보생명, IFRS17 도입 후 보유 CSM 첫 7조원 돌파… 누적 순익 19.9%↓",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93869",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93869"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110579"
+        }
+      ],
+      "itemIds": [
+        "insnews:93869",
+        "fins:110579"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93868",
+      "topic": "industry",
+      "kind": "press",
+      "title": "인카금융서비스, 3분기 누적 매출 9878억원… 사상 최대 실적",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93868",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93868"
+        }
+      ],
+      "itemIds": [
+        "insnews:93868"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93850",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손보, 한국ESG기준원 지배구조 평가서 8년 연속 ‘A등급’",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93850",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93850"
+        }
+      ],
+      "itemIds": [
+        "insnews:93850"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93847",
+      "topic": "life",
+      "kind": "press",
+      "title": "DB손보, 암 치료비 보완하는 인터넷 전용 ‘미니암보험’ 출시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93847",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93847"
+        }
+      ],
+      "itemIds": [
+        "insnews:93847"
+      ],
+      "summary": "DB손해보험이 암 치료비 보장을 보완하는 인터넷 전용 ‘참좋은암보험(미니암플랜)’을 출시했어요. 암 주요치료비와 계속받는 항암방사선약물치료비 등을 담았어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93855",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험개발원, ‘아시아 보험포럼(IIRFA)’서 기후·기술 기반 위험관리 방안 공유",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93855",
+      "published": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93855"
+        }
+      ],
+      "itemIds": [
+        "insnews:93855"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 수집 중단: terminated",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 13,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
