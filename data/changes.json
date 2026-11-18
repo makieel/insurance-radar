@@ -196,6 +196,28 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:insnews:93916:ai",
+    "category": "medical",
+    "title": "제대군인 전역 후 최대 18개월 실손보험 지원 추진",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "2027년 7월 1일",
+    "quote": "개정안은 시행일을 2027년 7월 1일로 정하고, 시행 이후 전역하거나 소집해제된 사람부터 적용하도록 했다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-18",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93916"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
     "id": "c:fins:110598:ai",
     "category": "general",
     "title": "다음 달 말부터 계리가정보고서 제도 시행",

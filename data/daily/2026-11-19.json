@@ -1,0 +1,474 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-18T15:02:45.994Z",
+  "groups": [
+    {
+      "id": "g:samsungfire:1422",
+      "topic": "general",
+      "kind": "insurer",
+      "title": "삼성화재, 'Global AIDC Forum 2026' 개최",
+      "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1422",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "삼성화재",
+          "url": "https://www.samsungfire.com/vh/page/VH.HPMK0602.do?articleId=1422"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73035"
+        }
+      ],
+      "itemIds": [
+        "samsungfire:1422",
+        "insweek:73035"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93924",
+      "topic": "general",
+      "kind": "press",
+      "title": "한국보험금융 등록취소 사전통지 후폭풍… 6000명 영업조직 촉각",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93924",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93924"
+        }
+      ],
+      "itemIds": [
+        "insnews:93924"
+      ],
+      "summary": "금융감독원이 소속 설계사가 6000여 명에 이르는 대형 법인보험대리점 한국보험금융에 보험대리점 등록취소를 사전 통지했어요.",
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93920",
+      "topic": "general",
+      "kind": "press",
+      "title": "우리금융, 영업부터 내부통제까지… ‘AI DAY’ 통해 계열사 AI 활용 사례 공유",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93920",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93920"
+        }
+      ],
+      "itemIds": [
+        "insnews:93920"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93918",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한EZ손보, 카셰어링 고액 사고 부담 낮춘다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93918",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93918"
+        }
+      ],
+      "itemIds": [
+        "insnews:93918"
+      ],
+      "summary": "신한EZ손해보험이 피플카와 업무협약을 맺고 카셰어링 이용 중 차량손해면책제도 보상 한도를 초과한 손해를 보장하는 전용보험을 개발해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93916",
+      "topic": "medical",
+      "kind": "press",
+      "title": "박성훈 의원, 제대군인 실손보험 지원법 발의… 전역 후 의료보장 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93916",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93916"
+        }
+      ],
+      "itemIds": [
+        "insnews:93916"
+      ],
+      "summary": "국회에서 병역의무를 마친 제대군인을 대상으로 전역 후 최대 18개월간 실손의료보험 가입 및 보험료를 국가가 지원할 수 있는 법안이 발의되었어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93906",
+      "topic": "life",
+      "kind": "press",
+      "title": "NH농협생명, ‘NH농협금융 올원더풀 1주년 감사제’ 대고객 이벤트 실시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93906",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93906"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73033"
+        }
+      ],
+      "itemIds": [
+        "insnews:93906",
+        "insweek:73033"
+      ],
+      "summary": "NH농협생명이 오는 30일까지 모바일 앱에서 보험 가입 여부와 관계없이 누구나 참여할 수 있는 대고객 이벤트를 진행해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73034",
+      "topic": "general",
+      "kind": "press",
+      "title": "DB생명, 제19회 대한민국소통어워즈 3관왕",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73034",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73034"
+        }
+      ],
+      "itemIds": [
+        "insweek:73034"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33968",
+      "topic": "life",
+      "kind": "press",
+      "title": "“종신 신상품 쏟아지는데 팔리는 건, 몇 개뿐”… 환급률 인하 앞둔 단기납 판매 압도적",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33968",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33968"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33968"
+      ],
+      "summary": "2026년 10월 생명보험사 법인보험대리점 채널 종신보험 판매실적 중 단기납종신이 전체의 73%를 차지하며 판매 쏠림 현상이 나타났어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110622",
+      "topic": "general",
+      "kind": "press",
+      "title": "한투, KDB생명 접고 카디프생명 인수 추진",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110622",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110622"
+        }
+      ],
+      "itemIds": [
+        "fins:110622"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110621",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성화재, AI 데이터센터 안전기준·보험 역할 논의",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110621",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110621"
+        }
+      ],
+      "itemIds": [
+        "fins:110621"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110619",
+      "topic": "industry",
+      "kind": "press",
+      "title": "한보금, 설계사 6,356명 거취 불안…‘잘못은 일부, 피해는 전체’",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110619",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110619"
+        }
+      ],
+      "itemIds": [
+        "fins:110619"
+      ],
+      "summary": "금융감독원의 등록취소 사전통지를 받은 한국보험금융 소속 설계사 6356명의 거취와 잔여수수료 정산 문제 등이 업계의 현안으로 떠올랐어요.",
+      "relevance": "medium",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110616",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한금융플러스 모집규정 위반 제재…인수 영업조직 사후관리 과제",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110616",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-19",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110616"
+        }
+      ],
+      "itemIds": [
+        "fins:110616"
+      ],
+      "summary": "금융감독원이 모집수수료 지급 및 모집자 명의 관련 규정을 위반한 신한금융플러스에 과태료 170만원을 부과하고 소속 보험설계사 8명에게 제재를 내렸어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 80,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 31,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": "과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
