@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-17T20:26:06.220Z",
+  "generatedAt": "2026-11-18T05:49:28.551Z",
   "groups": [
     {
       "id": "g:donga:135041938",
@@ -251,6 +251,463 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:249905",
+      "topic": "general",
+      "kind": "gov",
+      "title": "전동킥보드로 사고 내고 음주운전 차량 표적 사고 유발까지... 자동차 보험사기, 이렇게 예방하세요",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249905&menuNo=200218",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249905&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:249905"
+      ],
+      "summary": "금융감독원은 전동킥보드 고의사고와 대리운전·택시기사의 허위입원, 음주운전 차량 표적 사고 등 자동차 보험사기 주요 사례를 안내했어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93904",
+      "topic": "general",
+      "kind": "press",
+      "title": "고의사고·허위입원으로 보험금 편취… 자동차 보험사기 주의보",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93904",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93904"
+        }
+      ],
+      "itemIds": [
+        "insnews:93904"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93908",
+      "topic": "general",
+      "kind": "press",
+      "title": "NH농협손해보험, 화훼 농가 찾아 ‘농촌 일손돕기’ 실시",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93908",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93908"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73030"
+        }
+      ],
+      "itemIds": [
+        "insnews:93908",
+        "insweek:73030"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73031",
+      "topic": "general",
+      "kind": "press",
+      "title": "DBCSI손해사정, ‘여가친화인증’ 재인증 획득",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73031",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73031"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110603"
+        }
+      ],
+      "itemIds": [
+        "insweek:73031",
+        "fins:110603"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33963",
+      "topic": "general",
+      "kind": "press",
+      "title": "킥보드 고의사고 80여 차례에 음주차량 표적까지…금감원, 보험사기 경고",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33963",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33963"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110612"
+        },
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/economy_general/2026/11/18/RESGRP25ZFAOBOIQRVXJ274DNA/"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261118095100002"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33963",
+        "fins:110612",
+        "chosun:RESGRP25ZFAOBOIQRVXJ274DNA",
+        "yna:AKR20261118095100002"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33962",
+      "topic": "auto",
+      "kind": "press",
+      "title": "'자기부담금 면제에 기존 흠집 수리까지'... 일부 정비업체 과잉청구에 차보험 6년 만의 적자",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33962",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33962"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33962"
+      ],
+      "summary": "일부 자동차 정비업체의 과잉청구 관행으로 인해 올해 상반기 자동차보험이 6년 만에 적자로 돌아섰어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33959",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험판매전문회사 법제화 논의 국회로…20일, 소비자보호 강화 '입법토론회'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33959",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33959"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33959"
+      ],
+      "summary": "대형 GA를 보험판매전문업체로 법제화하는 방안과 소비자보호 체계를 논의하는 입법토론회가 오는 20일 열려요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33955",
+      "topic": "life",
+      "kind": "press",
+      "title": "[속보] “KDB생명 7번째 매각도 난항”… 한국금융지주, 우선협상대상자 지위 상실",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33955",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33955"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33955"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33957",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사도 'IT자산' 관리 의무화…대형 금융사 '취약점' 점검 연 2회로 확대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33957",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33957"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33957"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33954",
+      "topic": "life",
+      "kind": "press",
+      "title": "NH농협생명, '올원더풀' 출시 1주년 맞이 대고객 이벤트... 총 1365명에 경품 쏜다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33954",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33954"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33954"
+      ],
+      "summary": "NH농협생명은 오는 30일까지 모바일 앱에서 'NH농협금융 올원더풀 1주년 감사제' 대고객 이벤트를 진행해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33950",
+      "topic": "general",
+      "kind": "press",
+      "title": "DBCSI손해사정, 문체부 '여가친화기업' 재인증... 야근 줄이고 휴가 문턱 낮췄다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33950",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33950"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33950"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110611",
+      "topic": "general",
+      "kind": "press",
+      "title": "연말 퇴직연금 유치전…보험사 GIC 금리 은행 앞질러",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110611",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110611"
+        }
+      ],
+      "itemIds": [
+        "fins:110611"
+      ],
+      "summary": "퇴직연금 전용 1년 만기 상품의 금리는 은행 정기예금이 3.7%, 보험사 GIC가 3.9%로 나타났어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110606",
+      "topic": "general",
+      "kind": "press",
+      "title": "대형 보험사 보안점검 연 2회로…주변 전산망까지 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110606",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110606"
+        }
+      ],
+      "itemIds": [
+        "fins:110606"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110605",
+      "topic": "industry",
+      "kind": "press",
+      "title": "대신증권, \"보험업종 실적부진·주주환원 불확실\"",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110605",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110605"
+        }
+      ],
+      "itemIds": [
+        "fins:110605"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110597",
+      "topic": "general",
+      "kind": "press",
+      "title": "AI 부정행위에 수능 감독관 ‘긴장’…보험 대비책은",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110597",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110597"
+        }
+      ],
+      "itemIds": [
+        "fins:110597"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110595",
+      "topic": "auto",
+      "kind": "press",
+      "title": "보험광고 스타 마케팅 진화…신뢰 넘어 재미·화제성 경쟁",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110595",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110595"
+        }
+      ],
+      "itemIds": [
+        "fins:110595"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110593",
+      "topic": "auto",
+      "kind": "press",
+      "title": "잇따른 차보험 할인 특약 하향 조정…보험료 인상 변수",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110593",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110593"
+        }
+      ],
+      "itemIds": [
+        "fins:110593"
+      ],
+      "summary": "현대해상은 오는 12월 26일 책임개시 계약부터 커넥티드카 안전운전 할인 특약 등의 할인율을 조정해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261118117200530",
+      "topic": "life",
+      "kind": "press",
+      "title": "\"근로자 1명 이상 고용한 사업장은 건강보험 가입하세요\"",
+      "url": "https://www.yna.co.kr/view/AKR20261118117200530",
+      "published": "2026-11-18",
+      "firstSeen": "2026-11-18",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261118117200530"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261118117200530"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -259,7 +716,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
@@ -267,13 +724,13 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": "과거 기사 수집 중단: The operation was aborted due to timeout",
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 79,
+      "count": 80,
       "error": null,
       "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
@@ -305,9 +762,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 13,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -353,7 +810,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -361,7 +818,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -369,7 +826,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 63,
       "error": null,
       "note": null,
       "disabled": false
@@ -377,7 +834,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 66,
       "error": null,
       "note": null,
       "disabled": false
@@ -395,13 +852,13 @@
       "ok": true,
       "count": 2,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false
@@ -409,7 +866,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null,
       "note": null,
       "disabled": false
