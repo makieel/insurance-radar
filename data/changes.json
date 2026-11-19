@@ -196,6 +196,186 @@
     "firstSeen": "2026-10-25"
   },
   {
+    "id": "c:fss-press:249916:2026-12-01",
+    "category": "general",
+    "title": "저축성보험, 만기 후에도 최대 3년까지 연금으로 전환할 수 있습니다",
+    "when": "exact",
+    "date": "2026-12-01",
+    "period": null,
+    "phrase": "’26.12.1.",
+    "quote": "Ⅲ 향후 계획 및 소비자 유의사항 1 향후 계획 □ 생명보험회사는 관련 약관과 업무절차 등을 정비하여 이번 개선사항을 ’26.12.1.부터 시행할 예정이며, ◦ 홈페이지·고객센터 등을 통해 적용 대상과 예약·신청방법 등을 안내할 계획입니다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249916&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:chosun:4CHFUXEN6JF7FNRVKUSK63MYSA:ai",
+    "category": "medical",
+    "title": "1·2세대 실손보험 5세대 전환 시 보험료 50% 할인",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "23일부터",
+    "quote": "23일부터는 2013년 3월 이전 가입한 1·2세대 실손 보험을 5세대로 바꾸면 3년간 보험료를 50% 할인해 주는 제도도 시행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "조선일보",
+        "url": "https://www.chosun.com/economy/economy_general/2026/11/19/4CHFUXEN6JF7FNRVKUSK63MYSA/"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:chosun:GVSGKNZXGZSTQZTCMU3WKMJQMY:ai",
+    "category": "medical",
+    "title": "구형 실손보험 5세대 전환 시 보험료 할인",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 23일부터",
+    "quote": "2013년 이전 초기 실손보험 가입자가 5세대로 상품을 갈아타면 보험료를 할인해 주는 제도도 오는 23일부터 시행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "조선일보",
+        "url": "https://www.chosun.com/economy/stock-finance/2026/11/19/GVSGKNZXGZSTQZTCMU3WKMJQMY/"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:fins:110626:ai",
+    "category": "auto",
+    "title": "전기차 화재안심보험 대물피해 보장 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "7월 1일",
+    "quote": "19일 보험업계에 따르면 지난 7월 1일 시행된 전기자동차 화재안심보험은 주차·충전 중 전기차 화재로 주변 차량과 건물 등에 발생한 제3자 대물피해를 사고당 최대 150억원까지 보상한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110626"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:insnews:93930:ai",
+    "category": "life",
+    "title": "저축성보험 만기 후 3년 내 연금전환 허용",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 12월 1일부터",
+    "quote": "생명보험사들은 관련 약관과 업무절차를 정비해 오는 12월 1일부터 개선사항을 시행할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93930"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:yna:AKR20261119078700002:ai",
+    "category": "life",
+    "title": "저축성보험 만기 후 연금 전환 신청 기간 확대",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "12월 1일부터",
+    "quote": "개선사항은 12월 1일부터 시행되며, 생명보험사는 홈페이지·고객센터 등을 통해 적용 대상과 예약·신청 방법을 안내할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119078700002"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:yna:AKR20261119086300002:ai",
+    "category": "medical",
+    "title": "5세대 실손보험 갈아타기 할인 제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "23일부터",
+    "quote": "5세대 실손보험 갈아타기 소비자를 위한 할인제도도 23일부터 시행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261119086300002"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:fsc-press:88173:2026-11-18",
+    "category": "medical",
+    "title": "깜빡 잊고 지나가버린 지난 3년간 실손보험금, '실손24'를 통해 한방에 청구하고 받을 수 있습니다",
+    "when": "exact",
+    "date": "2026-11-18",
+    "period": null,
+    "phrase": "’26.11.18일",
+    "quote": "있도록 실손24 연계율 제고 노력도 지속 * 실손24 연계율은 54.2%(’26.11.18일 기준)로, 연말까지 80~90% 달성을 위해 요양기관 참여 독려 지속 ◈ 11.23일부터 초기 실손보험* 가입자의 선택권 제고와 의료정상화 촉진 등을 위한 (1)계약전환할인 제도와 (2)선택형 할인특약 제도 시행 * ‘13.3월 이전 체결된 재가입 조건이 없는 1",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/88173"
+      },
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249919&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-11-19"
+  },
+  {
     "id": "c:insnews:93916:ai",
     "category": "medical",
     "title": "제대군인 전역 후 최대 18개월 실손보험 지원 추진",

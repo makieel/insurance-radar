@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-18T15:02:45.994Z",
+  "generatedAt": "2026-11-19T05:48:59.855Z",
   "items": [
     {
       "id": "fsc-press:88081",
@@ -4246,7 +4246,7 @@
     {
       "id": "insjournal:33969",
       "source": "insjournal",
-      "title": "“GA 관리책임 어디까지 늘어나나?”… CPO에 CISO까지 두고 영업해야 한다는데",
+      "title": "“GA 관리책임 어디까지 늘어나나?”… 이제 CPO에 CISO까지 두고 영업해야 한다는 데",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33969",
       "published": "2026-11-18",
       "hints": [
@@ -4257,7 +4257,7 @@
     {
       "id": "insjournal:33968",
       "source": "insjournal",
-      "title": "“종신 신상품 쏟아지는데 팔리는 건, 몇 개뿐”… 환급률 인하 앞둔 단기납 판매 압도적",
+      "title": "“종신 신상품 쏟아지는데 팔리는 건, 몇 개뿐”… 내년 환급률 인하 앞둔 단기납 판매 압도적",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33968",
       "published": "2026-11-18",
       "hints": [
@@ -7059,6 +7059,476 @@
       "published": "2026-02-19",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "fsc-press:88173",
+      "source": "fsc-press",
+      "title": "깜빡 잊고 지나가버린 지난 3년간 실손보험금, '실손24'를 통해 한방에 청구하고 받을 수 있습니다",
+      "url": "https://www.fsc.go.kr/no010101/88173",
+      "published": "2026-11-19",
+      "hints": [
+        "보험과"
+      ],
+      "attachments": [
+        {
+          "name": "261119(보도자료) 깜빡 잊고 지나가버린 지난 3년간 실손보험금, '실손24'를 통해 한방에 청구하고 받을 수 있습니다.hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=1",
+          "type": "hwp"
+        },
+        {
+          "name": "261119(보도자료) 깜빡 잊고 지나가버린 지난 3년간 실손보험금, '실손24'를 통해 한방에 청구하고 받을 수 있습니다.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=2",
+          "type": "pdf"
+        },
+        {
+          "name": "261119[별첨1] 금융위원회 부위원장 모두발언.hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=3",
+          "type": "hwp"
+        },
+        {
+          "name": "261119[별첨1] 금융위원회 부위원장 모두발언.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=4",
+          "type": "pdf"
+        },
+        {
+          "name": "261119[별첨2-1] 실손24 미청구 보험금 찾아주기 서비스.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=5",
+          "type": "pdf"
+        },
+        {
+          "name": "261119[별첨2-2] 실손24 연계 추진 현황.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=6",
+          "type": "pdf"
+        },
+        {
+          "name": "261119[별첨2-3] 실손 계약전환할인 및 선택형 할인특약 제도 관련 발표안건.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=7",
+          "type": "pdf"
+        },
+        {
+          "name": "261119[별첨3] 실손 계약전환 할인 및 선택형 할인특약 제도 관련 Q&A.hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=8",
+          "type": "hwp"
+        },
+        {
+          "name": "261119[별첨3] 실손 계약전환 할인 및 선택형 할인특약 제도 관련 Q&A.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88173&fileTy=ATTACH&fileNo=9",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:249919",
+      "source": "fss-press",
+      "title": "깜빡 잊고 지나가버린 지난 3년간 실손보험금, '실손24'를 통해 한방에 청구하고 받을 수 있습니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249919&menuNo=200218",
+      "published": "2026-11-19",
+      "hints": [
+        "보험상품분쟁2국"
+      ],
+      "attachments": [
+        {
+          "name": "261119_(보도자료) 깜빡 잊고 지나가버린 지난 3년간 실손보험금, '실손24'를 통해 한방에 청구하고 받을 수 있습니다.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d1f34471b7144b509f4af4c0febfa82f&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261119_(보도자료) 깜빡 잊고 지나가버린 지난 3년간 실손보험금, '실손24'를 통해 한방에 청구하고 받을 수 있습니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d1f34471b7144b509f4af4c0febfa82f&fileSn=2&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "261119_(별첨1) 금융위원회 부위원장 모두발언.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d1f34471b7144b509f4af4c0febfa82f&fileSn=3&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261119_(별첨2-1) 실손24 미청구 보험금 찾아주기 서비스.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d1f34471b7144b509f4af4c0febfa82f&fileSn=4&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "261119_(별첨2-2) 실손24 연계 추진 현황.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d1f34471b7144b509f4af4c0febfa82f&fileSn=5&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "261119_(별첨2-3) 실손 계약전환할인 및 선택형 할인특약 제도 관련 발표안건.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d1f34471b7144b509f4af4c0febfa82f&fileSn=6&bbsId=",
+          "type": "pdf"
+        },
+        {
+          "name": "261119_(별첨3) 실손 계약전환 할인 및 선택형 할인특약 제도 관련 Q&A.hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=d1f34471b7144b509f4af4c0febfa82f&fileSn=7&bbsId=",
+          "type": "hwp"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:249916",
+      "source": "fss-press",
+      "title": "저축성보험, 만기 후에도 최대 3년까지 연금으로 전환할 수 있습니다",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249916&menuNo=200218",
+      "published": "2026-11-19",
+      "hints": [
+        "보험상품분쟁1국"
+      ],
+      "attachments": [
+        {
+          "name": "261119_(보도자료) 저축성보험, 만기 후에도 최대 3년까지 연금으로 전환할 수 있습니다.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=c6b13dca46254391b04930e35d325f9e&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261119_(보도자료) 저축성보험, 만기 후에도 최대 3년까지 연금으로 전환할 수 있습니다.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=c6b13dca46254391b04930e35d325f9e&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "insnews:93948",
+      "source": "insnews",
+      "title": "이노에이엑스, 비과세 배당재원 50억원 확보… “2년 연속 주주환원 확대”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93948",
+      "published": "2026-11-19",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93944",
+      "source": "insnews",
+      "title": "미래에셋생명, 임직원 주도 ‘AI 전환’ 속도",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93944",
+      "published": "2026-11-19",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93939",
+      "source": "insnews",
+      "title": "교보생명 ‘이어드림 캠페인’… 실효된 보험계약 회복 돕는다",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93939",
+      "published": "2026-11-19",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93930",
+      "source": "insnews",
+      "title": "저축성보험 만기 지나도 3년 이내 ‘연금전환’ 가능",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93930",
+      "published": "2026-11-19",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93937",
+      "source": "insnews",
+      "title": "KB라이프, 법인보험대리점 6개사와 ‘금융소비자보호’ 협력 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93937",
+      "published": "2026-11-19",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93934",
+      "source": "insnews",
+      "title": "NH농협생명, 대한적십자사와 ‘사랑의 김장나눔’ 펼쳐",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93934",
+      "published": "2026-11-19",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93933",
+      "source": "insnews",
+      "title": "한화손보, ESG 평가 6년 연속 ‘통합 A등급’",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93933",
+      "published": "2026-11-19",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:93932",
+      "source": "insnews",
+      "title": "삼성생명, ‘100년 기업 차세대 CEO 과정’ 4기 수료식 열어",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93932",
+      "published": "2026-11-19",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33983",
+      "source": "insjournal",
+      "title": "저축성보험 만기 놓쳐도 '연금전환' 가능…12월부터 최대 '3년'까지 허용",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33983",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33982",
+      "source": "insjournal",
+      "title": "임직원이 직접 문제 찾고 AI로 푼다…미래에셋생명, ‘AI 챔피언'이 바꾸는 일하는 방식",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33982",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33980",
+      "source": "insjournal",
+      "title": "해외 부동산 투자 30.8조원 쥔 보험사…금융권의 55.4%, 북미에 63.6% 집중",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33980",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33978",
+      "source": "insjournal",
+      "title": "DB생명, 2026 KCPI 우수기업 4년 연속 달성… 현장 중심 소비자보호 성과",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33978",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33977",
+      "source": "insjournal",
+      "title": "삼성화재, AI 데이터센터 안전·보험 해법 모색… ‘Risk Partner’ 역할 강화",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33977",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33976",
+      "source": "insjournal",
+      "title": "‘여성 웰니스’ 통했다… 한화손보, 손보사 유일 6년 연속 ESG 통합 A등급",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33976",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33975",
+      "source": "insjournal",
+      "title": "NH농협생명, 대한적십자사와 '사랑의 김장나눔' 실시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33975",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33974",
+      "source": "insjournal",
+      "title": "KB라이프·협약 GA 6개사, 민원 예방 및 내부통제 강화 위해 머리 맞대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33974",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33973",
+      "source": "insjournal",
+      "title": "삼성생명, ‘100년 기업 차세대 CEO 과정’ 4기 배출… 후속 네트워크 가동",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33973",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33972",
+      "source": "insjournal",
+      "title": "부모 병원비에 자녀 교육비까지… 더 힘들어진 4050세대의 '이중 부양'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33972",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:33971",
+      "source": "insjournal",
+      "title": "DB손보, 23년 만에 NCSI 자동차보험 1위 탈환… 올해 서비스품질 지표 석권",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33971",
+      "published": "2026-11-19",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110626",
+      "source": "fins",
+      "title": "전기차 화재안심보험, 주변 재산피해 보장…발화 차량·인명피해 제외",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110626",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110629",
+      "source": "fins",
+      "title": "등락 반복하는 증시…변액보험 초회료 16% 감소",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110629",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110628",
+      "source": "fins",
+      "title": "KB라이프, GA 불완전판매 예방·내부통제 강화 지원 세미나",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110628",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110627",
+      "source": "fins",
+      "title": "농협생명, 김장 나눔으로 ESG 경영 실천",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110627",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110618",
+      "source": "fins",
+      "title": "설계사 확보전 끝나니 보험업계 ‘인력 셈법’ 복잡",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110618",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110614",
+      "source": "fins",
+      "title": "이번엔 손보협, 내년 신정원 이동 임원은",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110614",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110625",
+      "source": "fins",
+      "title": "계약은 손보가 더 많은데 수수료는 생보 우위…GA 수익구조 엇갈려",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110625",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110624",
+      "source": "fins",
+      "title": "설계사 관리 강화하랬더니 근로자성 논란…GA 위촉계약 시험대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110624",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110623",
+      "source": "fins",
+      "title": "GA 인력 확보전 달라진다…토스인슈, 신인 육성에 500만원 지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110623",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GVSGKNZXGZSTQZTCMU3WKMJQMY",
+      "source": "chosun",
+      "title": "3년간 안 찾은 실손보험금 1조원… 내년부터 실손24서 찾는다",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/19/GVSGKNZXGZSTQZTCMU3WKMJQMY/",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:4CHFUXEN6JF7FNRVKUSK63MYSA",
+      "source": "chosun",
+      "title": "3년간 안 찾아간 실손보험금 최대 1조원...내년부터 앱으로 손 쉽게 찾는다",
+      "url": "https://www.chosun.com/economy/economy_general/2026/11/19/4CHFUXEN6JF7FNRVKUSK63MYSA/",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:7MMD522TIVE4DJZ4ZPB7TOA63I",
+      "source": "chosun",
+      "title": "저축성보험 만기 후에도 3년간 연금 전환 가능…사전예약도 도입",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/19/7MMD522TIVE4DJZ4ZPB7TOA63I/",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261119086300002",
+      "source": "yna",
+      "title": "3년간 1조 쌓인 미청구 보험금 찾아준다…23일부터 5세대 할인",
+      "url": "https://www.yna.co.kr/view/AKR20261119086300002",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261119091600056",
+      "source": "yna",
+      "title": "제주, 건설현장 기후보험 지급조건 개선 추진",
+      "url": "https://www.yna.co.kr/view/AKR20261119091600056",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261119078700002",
+      "source": "yna",
+      "title": "저축성보험 만기 후 3년까지 연금 전환된다…1년 전 사전예약도",
+      "url": "https://www.yna.co.kr/view/AKR20261119078700002",
+      "published": "2026-11-19",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7263,9 +7733,9 @@
     {
       "source": "fsc-press",
       "ok": true,
-      "count": 60,
+      "count": 61,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7273,15 +7743,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 80,
+      "count": 82,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7289,7 +7759,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7297,7 +7767,7 @@
       "ok": true,
       "count": 31,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7313,7 +7783,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": null,
       "disabled": false
     },
     {
@@ -7359,7 +7829,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -7375,7 +7845,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 61,
       "error": null,
       "note": null,
       "disabled": false
@@ -7383,7 +7853,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -7400,22 +7870,22 @@
       "source": "donga",
       "ok": false,
       "count": 0,
-      "error": "fetch failed",
+      "error": "The operation was aborted due to timeout",
       "note": "과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 0,
+      "count": 3,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 100건)",
+      "note": null,
       "disabled": false
     },
     {
       "source": "yna",
       "ok": true,
-      "count": 2,
+      "count": 5,
       "error": null,
       "note": null,
       "disabled": false
