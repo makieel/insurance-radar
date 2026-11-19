@@ -1,0 +1,633 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-19T15:12:34.117Z",
+  "groups": [
+    {
+      "id": "g:insnews:93960",
+      "topic": "industry",
+      "kind": "press",
+      "title": "롯데손해보험, 무상감자로 재무구조 재편… 기본자본비율 개선 추진",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93960",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93960"
+        }
+      ],
+      "itemIds": [
+        "insnews:93960"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93959",
+      "topic": "general",
+      "kind": "press",
+      "title": "15세 미만 사망보장 공백 해소에 국회 나서… 상법 개정 논의 본격화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93959",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93959"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110637"
+        }
+      ],
+      "itemIds": [
+        "insnews:93959",
+        "fins:110637"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93950",
+      "topic": "auto",
+      "kind": "press",
+      "title": "DB손해보험, 국가고객만족도(NCSI) 자동차보험부문1위 선정",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93950",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93950"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73047"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110636"
+        }
+      ],
+      "itemIds": [
+        "insnews:93950",
+        "insweek:73047",
+        "fins:110636"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73039",
+      "topic": "general",
+      "kind": "press",
+      "title": "NH농협손해보험, 3년 연속 금융소비자보호 우수기업 선정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73039",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73039"
+        }
+      ],
+      "itemIds": [
+        "insweek:73039"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73040",
+      "topic": "general",
+      "kind": "press",
+      "title": "코리안리, ‘KR광화문타워’ 착공식 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73040",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73040"
+        }
+      ],
+      "itemIds": [
+        "insweek:73040"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73036",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손해보험, ESG평가 6년 연속 ‘통합 A등급’ 달성",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73036",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73036"
+        }
+      ],
+      "itemIds": [
+        "insweek:73036"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33989",
+      "topic": "general",
+      "kind": "press",
+      "title": "재난으로 숨진 14세, 시민안전보험금 못 받았다…국회·정부, 상법 개정 추진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33989",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33989"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33989"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33987",
+      "topic": "life",
+      "kind": "press",
+      "title": "대기업엔 고금리 상품, 중소기업은 뒷전…금감원, 퇴직연금 '차별 영업' 경고",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33987",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33987"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33987"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33986",
+      "topic": "general",
+      "kind": "press",
+      "title": "'실손보험료' 17.7만원→2.2만원…갈아타기 전 꼭 따질 '13가지'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33986",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33986"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33986"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33985",
+      "topic": "medical",
+      "kind": "press",
+      "title": "청구 안 한 실손보험금 최대 1조원…내년부터 ‘실손24’가 찾아준다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33985",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33985"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33985"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110640",
+      "topic": "auto",
+      "kind": "press",
+      "title": "롯데손보 무상감자 의결…신한 편입 전 재무구조 개선 추진",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110640",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110640"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261119146451002"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261119146400002"
+        }
+      ],
+      "itemIds": [
+        "fins:110640",
+        "yna:AKR20261119146451002",
+        "yna:AKR20261119146400002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110639",
+      "topic": "general",
+      "kind": "press",
+      "title": "손보사, 소비자보호·ESG 평가서 잇단 성과…경영 경쟁력 부각",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110639",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110639"
+        }
+      ],
+      "itemIds": [
+        "fins:110639"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110635",
+      "topic": "industry",
+      "kind": "press",
+      "title": "코리안리, 종로 수송동에 신사옥 착공…2030년 준공 목표",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110635",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110635"
+        }
+      ],
+      "itemIds": [
+        "fins:110635"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110631",
+      "topic": "general",
+      "kind": "press",
+      "title": "교보생명, 실효 보험계약 부활 지원…모바일 청약 대상 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110631",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110631"
+        }
+      ],
+      "itemIds": [
+        "fins:110631"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:135054070",
+      "topic": "medical",
+      "kind": "press",
+      "title": "1·2세대 실손보험가입자, 5세대로 전환하면 3년간 보험료 반값",
+      "url": "https://www.donga.com/news/Economy/article/all/20261119/135054070/1",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261119/135054070/1"
+        }
+      ],
+      "itemIds": [
+        "donga:135054070"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:135054074",
+      "topic": "general",
+      "kind": "press",
+      "title": "“월 17만7000원 실손보험료가 2만2000원으로”…23일부터 전환 할인",
+      "url": "https://www.donga.com/news/Economy/article/all/20261119/135054074/1",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261119/135054074/1"
+        }
+      ],
+      "itemIds": [
+        "donga:135054074"
+      ],
+      "summary": null,
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:MFRDGZDBGZRWIMLGMQYDGN3FHE",
+      "topic": "general",
+      "kind": "press",
+      "title": "롯데손보, 신한 편입 앞두고 액면가 10분의 1로 무상감자",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/19/MFRDGZDBGZRWIMLGMQYDGN3FHE/",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/19/MFRDGZDBGZRWIMLGMQYDGN3FHE/"
+        }
+      ],
+      "itemIds": [
+        "chosun:MFRDGZDBGZRWIMLGMQYDGN3FHE"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:G5SWIOBSGMZDQMTGGU3GIODCGA",
+      "topic": "general",
+      "kind": "press",
+      "title": "저축성보험 만기 놓쳐도 3년 안에 연금 전환 가능",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/19/G5SWIOBSGMZDQMTGGU3GIODCGA/",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/19/G5SWIOBSGMZDQMTGGU3GIODCGA/"
+        }
+      ],
+      "itemIds": [
+        "chosun:G5SWIOBSGMZDQMTGGU3GIODCGA"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "rule",
+      "importance": 3,
+      "importanceVersion": 2
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 82,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 31,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 3,
+      "error": null,
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 2,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 5,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}

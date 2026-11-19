@@ -1829,27 +1829,5 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-25"
-  },
-  {
-    "id": "c:joongang:25429792:ai",
-    "category": "medical",
-    "title": "체외충격파 치료 연 12회 한도 실손보험금 제한",
-    "when": "phrase",
-    "date": null,
-    "period": null,
-    "phrase": "오는 7월부터",
-    "quote": "오는 7월부터 대표적인 과잉 비급여 항목으로 꼽혀온 체외충격파 치료에 대해 실손보험금이 연간 12회까지만 적용될 전망이다.",
-    "status": "confirmed",
-    "past": false,
-    "announced": "2026-05-20",
-    "sources": [
-      {
-        "name": "중앙일보",
-        "url": "https://www.joongang.co.kr/article/25429792"
-      }
-    ],
-    "origin": "ai",
-    "rate": null,
-    "firstSeen": "2026-10-25"
   }
 ]
