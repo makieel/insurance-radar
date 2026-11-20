@@ -149,6 +149,31 @@
     "firstSeen": "2026-11-13"
   },
   {
+    "id": "c:insjournal:34008:ai",
+    "category": "general",
+    "title": "보험 판매수수료 4년 분급제 시행",
+    "when": "period",
+    "date": null,
+    "period": {
+      "start": "2027-01-01",
+      "end": "2027-01-31"
+    },
+    "phrase": "2027년 1월부터",
+    "quote": "2027년 1월부터 2028년까지 4년 분급제를 먼저 시행하고, 2029년 1월부터는 7년 분급제로 확대 적용한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-20",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34008"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-20"
+  },
+  {
     "id": "c:insweek:73010:ai",
     "category": "life",
     "title": "한화손보, 신규·기존 계약 직업정보 다르면 청약 제한",
@@ -218,6 +243,28 @@
     "firstSeen": "2026-11-19"
   },
   {
+    "id": "c:fins:110642:ai",
+    "category": "medical",
+    "title": "실손보험 미청구금 찾기 서비스 도입 및 할인제도 시행",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 23일부터",
+    "quote": "오는 23일부터는 초기 실손보험 가입자의 보험료 부담을 낮추기 위한 계약전환 할인과 선택형 할인특약도 시행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-20",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110642"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-20"
+  },
+  {
     "id": "c:chosun:4CHFUXEN6JF7FNRVKUSK63MYSA:ai",
     "category": "medical",
     "title": "1·2세대 실손보험 5세대 전환 시 보험료 50% 할인",
@@ -260,6 +307,28 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:donga:135054074:ai",
+    "category": "medical",
+    "title": "오는 23일부터 1·2세대 실손 5세대 전환 할인",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 23일부터",
+    "quote": "오는 23일부터 1·2세대 실손의료보험 가입자가 5세대 실손보험으로 갈아타거나 기존 계약의 일부 보장을 제외하면 보험료를 최대 87.8% 낮출 수 있게 된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-19",
+    "sources": [
+      {
+        "name": "동아일보",
+        "url": "https://www.donga.com/news/Economy/article/all/20261119/135054074/1"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-20"
   },
   {
     "id": "c:fins:110626:ai",
@@ -321,6 +390,10 @@
       {
         "name": "연합뉴스",
         "url": "https://www.yna.co.kr/view/AKR20261119078700002"
+      },
+      {
+        "name": "조선일보",
+        "url": "https://www.chosun.com/economy/stock-finance/2026/11/19/G5SWIOBSGMZDQMTGGU3GIODCGA/"
       }
     ],
     "origin": "ai",

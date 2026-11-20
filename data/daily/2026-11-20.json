@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-19T15:12:34.117Z",
+  "generatedAt": "2026-11-20T05:38:19.833Z",
   "groups": [
     {
       "id": "g:insnews:93960",
@@ -22,7 +22,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -50,8 +50,8 @@
       ],
       "summary": null,
       "relevance": "high",
-      "important": false,
-      "relevanceBy": "rule",
+      "important": true,
+      "relevanceBy": "ai",
       "importance": 4,
       "importanceVersion": 2
     },
@@ -85,7 +85,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -107,9 +107,9 @@
         "insweek:73039"
       ],
       "summary": null,
-      "relevance": "medium",
+      "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": 2,
       "importanceVersion": 2
     },
@@ -133,7 +133,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -157,7 +157,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -180,8 +180,8 @@
       ],
       "summary": null,
       "relevance": "high",
-      "important": false,
-      "relevanceBy": "rule",
+      "important": true,
+      "relevanceBy": "ai",
       "importance": 4,
       "importanceVersion": 2
     },
@@ -205,7 +205,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -227,9 +227,9 @@
         "insjournal:33986"
       ],
       "summary": null,
-      "relevance": "medium",
+      "relevance": "high",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": 5,
       "importanceVersion": 2
     },
@@ -253,7 +253,7 @@
       "summary": null,
       "relevance": "high",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": 5,
       "importanceVersion": 2
     },
@@ -287,7 +287,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -309,9 +309,9 @@
         "fins:110639"
       ],
       "summary": null,
-      "relevance": "medium",
+      "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": 2,
       "importanceVersion": 2
     },
@@ -335,7 +335,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -356,10 +356,10 @@
       "itemIds": [
         "fins:110631"
       ],
-      "summary": null,
-      "relevance": "medium",
+      "summary": "교보생명이 오는 12월까지 보험료 미납으로 효력이 중단된 보험계약의 회복을 지원하기 위해 '이어드림 캠페인'을 실시해요.",
+      "relevance": "high",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": 3,
       "importanceVersion": 2
     },
@@ -380,10 +380,10 @@
       "itemIds": [
         "donga:135054070"
       ],
-      "summary": null,
+      "summary": "다음 주부터 2013년 3월 이전에 실손보험에 든 1·2세대 초기 가입자가 5세대 실손보험으로 전환하면 3년간 보험료를 반값으로 깎아줘요.",
       "relevance": "high",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": 5,
       "importanceVersion": 2
     },
@@ -404,10 +404,10 @@
       "itemIds": [
         "donga:135054074"
       ],
-      "summary": null,
+      "summary": "오는 23일부터 1·2세대 실손의료보험 가입자가 5세대 실손보험으로 갈아타거나 기존 계약의 일부 보장을 제외하면 보험료를 최대 87.8% 낮출 수 있어요.",
       "relevance": "high",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": 5,
       "importanceVersion": 2
     },
@@ -431,7 +431,7 @@
       "summary": null,
       "relevance": "low",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
     },
@@ -452,12 +452,430 @@
       "itemIds": [
         "chosun:G5SWIOBSGMZDQMTGGU3GIODCGA"
       ],
-      "summary": null,
-      "relevance": "medium",
+      "summary": "12월 1일부터 저축성보험 만기 이후 최대 3년까지 연금 전환이 허용되고 만기 1년 전 사전예약 제도가 도입돼요.",
+      "relevance": "high",
       "important": false,
-      "relevanceBy": "rule",
+      "relevanceBy": "ai",
       "importance": 3,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73064",
+      "topic": "auto",
+      "kind": "press",
+      "title": "삼성화재, ‘동절기 비상대응 캠프’ 가동",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73064",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73064"
+        }
+      ],
+      "itemIds": [
+        "insweek:73064"
+      ],
+      "summary": "삼성화재는 겨울철 한파와 폭설에 대비해 긴급출동 인력을 최대 4300명까지 확대하는 등 '동절기 비상대응 캠프'를 가동해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73063",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한라이프, 전직원 참여 소비자보호 개선 아이디어 발굴",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73063",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73063"
+        }
+      ],
+      "itemIds": [
+        "insweek:73063"
+      ],
+      "summary": "신한라이프는 임직원들이 제안한 고객 불편사항 개선 아이디어 86건을 발굴해 실질적인 개선을 추진해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73062",
+      "topic": "general",
+      "kind": "press",
+      "title": "푸본현대생명, ‘100세까지 암케어보험’ 출시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73062",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73062"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34000"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261120062100002"
+        }
+      ],
+      "itemIds": [
+        "insweek:73062",
+        "insjournal:34000",
+        "yna:AKR20261120062100002"
+      ],
+      "summary": "푸본현대생명은 암의 전조단계부터 치료까지 보장하는 ‘푸본현대 100세까지 암케어보험’을 출시했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:34008",
+      "topic": "general",
+      "kind": "press",
+      "title": "4년 분급에 수입 줄면…보험인 71%, “수수료 높은 상품으로 바꾸겠다”",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34008",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34008"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34008"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34007",
+      "topic": "general",
+      "kind": "press",
+      "title": "허위 장기요양등급으로 보험금 15억원 편취 혐의…설계사 등 16명 송치",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34007",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34007"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34007"
+      ],
+      "summary": "부산 남부경찰서는 허위 장기요양등급을 이용해 15억원의 보험금을 편취한 혐의로 30대 보험설계사 A씨 등 16명을 송치했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:33998",
+      "topic": "auto",
+      "kind": "press",
+      "title": "‘제판분리 자회사’ 전속 복귀설 솔솔… 업계, “실익·행정 한계로 현실성 낮아”",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33998",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33998"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33998"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:33994",
+      "topic": "general",
+      "kind": "press",
+      "title": "AXA손보, 김장김치와 방한용품으로 장애인 가정에 온기 전해",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33994",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=33994"
+        }
+      ],
+      "itemIds": [
+        "insjournal:33994"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110645",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한라이프, 고객 불편 개선안 86건 발굴…소비자보호 강화",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110645",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110645"
+        }
+      ],
+      "itemIds": [
+        "fins:110645"
+      ],
+      "summary": "신한라이프는 전 임직원이 참여해 고객 불편사항을 개선할 아이디어 86건을 발굴했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110644",
+      "topic": "general",
+      "kind": "press",
+      "title": "푸본현대생명, 암 전 단계부터 항암치료까지 보장 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110644",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110644"
+        }
+      ],
+      "itemIds": [
+        "fins:110644"
+      ],
+      "summary": "푸본현대생명은 양성종양과 용종 진단부터 항암치료까지 보장하는 '푸본현대 100세까지 암케어보험(무)'을 출시했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110642",
+      "topic": "general",
+      "kind": "press",
+      "title": "미청구 실손보험금 최대 1조원…내년부터 앱으로 찾아준다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110642",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110642"
+        }
+      ],
+      "itemIds": [
+        "fins:110642"
+      ],
+      "summary": "내년 1분기부터 실손보험 미청구 내역을 앱으로 확인하고 청구하는 서비스가 도입되며, 오는 23일부터는 1·2세대 실손보험 계약전환 및 선택형 할인특약이 시행돼요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 5,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:T345S2262FDI5CP7HGVRCZNEN4",
+      "topic": "general",
+      "kind": "press",
+      "title": "저축성 보험, 만기 후에도 3년간 연금 전환 가능",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/20/T345S2262FDI5CP7HGVRCZNEN4/",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/20/T345S2262FDI5CP7HGVRCZNEN4/"
+        }
+      ],
+      "itemIds": [
+        "chosun:T345S2262FDI5CP7HGVRCZNEN4"
+      ],
+      "summary": "저축성보험 만기 후 보험금을 받지 않았다면 최대 3년까지 연금으로 바꿀 수 있으며, 만기 1년 전 사전예약 제도도 생겨요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 4,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:chosun:GE4TKZJZMFSTEMZVME4TIYJZMU",
+      "topic": "life",
+      "kind": "press",
+      "title": "금감원, ‘장기 미제’ 보험사 분쟁 점검 속도… 이달 중 마무리",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/20/GE4TKZJZMFSTEMZVME4TIYJZMU/",
+      "published": "2026-11-20",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/20/GE4TKZJZMFSTEMZVME4TIYJZMU/"
+        }
+      ],
+      "itemIds": [
+        "chosun:GE4TKZJZMFSTEMZVME4TIYJZMU"
+      ],
+      "summary": "금융감독원이 장기간 해결되지 않은 보험 분쟁을 처리하기 위한 보험사 현장점검을 이달 안에 마무리할 목표로 진행하고 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73046",
+      "topic": "industry",
+      "kind": "press",
+      "title": "교보생명, 실효 보험계약 회복지원 캠페인 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73046",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73046"
+        }
+      ],
+      "itemIds": [
+        "insweek:73046"
+      ],
+      "summary": "교보생명은 오는 12월까지 보험료 미납으로 효력이 중단된 보험계약의 회복을 지원하기 위해 ‘이어드림 캠페인’을 진행해요. 알림톡 문구를 정비하고 스마트폰 부활 청약 대상을 확대했어요. 또한 실효 후 3개월 이내이거나 사고 이력이 없는 계약 등은 심사 절차를 간소화했어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73044",
+      "topic": "general",
+      "kind": "press",
+      "title": "DB생명, ‘2026 한국의 소비자보호지수’ 우수기업 4년 연속 선정",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73044",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73044"
+        }
+      ],
+      "itemIds": [
+        "insweek:73044"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73043",
+      "topic": "general",
+      "kind": "press",
+      "title": "삼성생명, ‘100년 기업 차세대 CEO 과정 4기 수료식’ 성료",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73043",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73043"
+        }
+      ],
+      "itemIds": [
+        "insweek:73043"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73042",
+      "topic": "industry",
+      "kind": "press",
+      "title": "KB라이프, GA 초청 금융소비자보호 세미나 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73042",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73042"
+        }
+      ],
+      "itemIds": [
+        "insweek:73042"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73041",
+      "topic": "general",
+      "kind": "press",
+      "title": "NH농협생명, 대한적십자사와 ‘사랑의 김장나눔’ 실시",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73041",
+      "published": "2026-11-19",
+      "firstSeen": "2026-11-20",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73041"
+        }
+      ],
+      "itemIds": [
+        "insweek:73041"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -495,26 +913,26 @@
     },
     {
       "source": "knia-press",
-      "ok": true,
+      "ok": false,
       "count": 31,
-      "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "error": "fetch failed",
+      "note": "과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
       "source": "knia-rates",
-      "ok": true,
-      "count": 28,
-      "error": null,
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
       "note": null,
       "disabled": false
     },
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 13,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -560,7 +978,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -568,7 +986,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -576,7 +994,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -584,7 +1002,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 55,
       "error": null,
       "note": null,
       "disabled": false
@@ -602,13 +1020,13 @@
       "ok": true,
       "count": 3,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 2,
+      "count": 4,
       "error": null,
       "note": null,
       "disabled": false
@@ -616,7 +1034,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 5,
+      "count": 6,
       "error": null,
       "note": null,
       "disabled": false
