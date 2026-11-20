@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "type": "summary",
+    "id": "g:insnews:93969",
+    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93969",
+    "date": "2026-11-20",
+    "source": "insnews"
+  },
+  {
+    "type": "summary",
+    "id": "g:insnews:93966",
+    "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93966",
+    "date": "2026-11-20",
+    "source": "insnews"
+  },
+  {
+    "type": "summary",
+    "id": "g:fins:110647",
+    "url": "http://www.fins.co.kr/news/articleView.html?idxno=110647",
+    "date": "2026-11-20",
+    "source": "fins"
+  }
+]

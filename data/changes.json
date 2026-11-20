@@ -265,6 +265,50 @@
     "firstSeen": "2026-11-20"
   },
   {
+    "id": "c:fins:110647:ai",
+    "category": "life",
+    "title": "저축성보험 만기 후 연금전환 신청기간 최대 3년으로 확대",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 12월 1일부터",
+    "quote": "생명보험업계는 저축성보험의 연금전환 신청기간 확대와 사전예약제도 도입 등을 골자로 한 제도개선 방안을 오는 12월 1일부터 시행한다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-20",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110647"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-20"
+  },
+  {
+    "id": "c:yna:AKR20261120159800017:ai",
+    "category": "medical",
+    "title": "림카토 치료제 건강보험 적용",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "12월 1일부터",
+    "quote": "12월 1일부터 최초의 국산 CAR-T(키메라 항원 수용체 T세포) 치료제 '림카토'에 건강보험 급여가 적용된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-20",
+    "sources": [
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261120159800017"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-20"
+  },
+  {
     "id": "c:chosun:4CHFUXEN6JF7FNRVKUSK63MYSA:ai",
     "category": "medical",
     "title": "1·2세대 실손보험 5세대 전환 시 보험료 50% 할인",
