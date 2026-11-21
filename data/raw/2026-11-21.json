@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T05:31:06.848Z",
+  "generatedAt": "2026-11-21T14:10:18.785Z",
   "items": [
     {
       "id": "fsc-press:88173",
@@ -7197,6 +7197,53 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insnews:93975",
+      "source": "insnews",
+      "title": "(사)한국보험연구원, ‘2028년 ESG 공시와 보험업의 과제’ 세미나 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93975",
+      "published": "2026-11-21",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110656",
+      "source": "fins",
+      "title": "보험사 ESG 공시, 보험금 지급·민원처리까지 담아야",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110656",
+      "published": "2026-11-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110654",
+      "source": "fins",
+      "title": "4600년 된 이집트 유물 한국 온다…보험가액만 1500억원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110654",
+      "published": "2026-11-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110653",
+      "source": "fins",
+      "title": "차 빌릴 때 보험도...일상 속으로 들어온 '생활밀착형보험'",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110653",
+      "published": "2026-11-21",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110651",
+      "source": "fins",
+      "title": "보험사 해외부동산 투자 30.8조…금융권 전체의 55%",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110651",
+      "published": "2026-11-21",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7403,7 +7450,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7411,7 +7458,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7419,7 +7466,7 @@
       "ok": true,
       "count": 82,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7427,7 +7474,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7435,7 +7482,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7451,7 +7498,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7497,7 +7544,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -7521,7 +7568,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false

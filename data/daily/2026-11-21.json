@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T05:31:06.848Z",
+  "generatedAt": "2026-11-21T14:10:18.785Z",
   "groups": [
     {
       "id": "g:fins:110650",
@@ -25,6 +25,126 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:93975",
+      "topic": "industry",
+      "kind": "press",
+      "title": "(사)한국보험연구원, ‘2028년 ESG 공시와 보험업의 과제’ 세미나 개최",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93975",
+      "published": "2026-11-21",
+      "firstSeen": "2026-11-21",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93975"
+        }
+      ],
+      "itemIds": [
+        "insnews:93975"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110656",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 ESG 공시, 보험금 지급·민원처리까지 담아야",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110656",
+      "published": "2026-11-21",
+      "firstSeen": "2026-11-21",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110656"
+        }
+      ],
+      "itemIds": [
+        "fins:110656"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110654",
+      "topic": "general",
+      "kind": "press",
+      "title": "4600년 된 이집트 유물 한국 온다…보험가액만 1500억원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110654",
+      "published": "2026-11-21",
+      "firstSeen": "2026-11-21",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110654"
+        }
+      ],
+      "itemIds": [
+        "fins:110654"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110653",
+      "topic": "auto",
+      "kind": "press",
+      "title": "차 빌릴 때 보험도...일상 속으로 들어온 '생활밀착형보험'",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110653",
+      "published": "2026-11-21",
+      "firstSeen": "2026-11-21",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110653"
+        }
+      ],
+      "itemIds": [
+        "fins:110653"
+      ],
+      "summary": "상품이나 서비스를 구매하는 과정에 보험을 결합하는 임베디드 보험이 소비자와 보험의 거리를 좁히고 있어요. 신한EZ손해보험은 피플카와 손잡고 투루카에서 차량 예약부터 보험 가입과 결제까지 처리할 수 있는 카셰어링 전용보험 개발에 나섰어요. 해외여행 항공권을 예약하면서 여행자보험을 선택하거나 전자제품을 구매하면서 파손·고장에 대비한 보장을 추가하는 방식도 대표적인 사례예요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110651",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험사 해외부동산 투자 30.8조…금융권 전체의 55%",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110651",
+      "published": "2026-11-21",
+      "firstSeen": "2026-11-21",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110651"
+        }
+      ],
+      "itemIds": [
+        "fins:110651"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -33,7 +153,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -41,7 +161,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -49,7 +169,7 @@
       "ok": true,
       "count": 82,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -57,7 +177,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -65,7 +185,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -81,7 +201,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -127,7 +247,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -151,7 +271,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
