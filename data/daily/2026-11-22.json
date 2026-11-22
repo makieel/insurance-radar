@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T04:56:45.565Z",
+  "generatedAt": "2026-11-22T13:59:40.658Z",
   "groups": [
     {
       "id": "g:insjournal:34003",
@@ -73,6 +73,54 @@
       "relevanceBy": "ai",
       "importance": 1,
       "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:93976",
+      "topic": "general",
+      "kind": "press",
+      "title": "“재해보험으로 겨울철 자연재난 대비”… 보험료 최대100% 지원",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93976",
+      "published": "2026-11-22",
+      "firstSeen": "2026-11-22",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93976"
+        }
+      ],
+      "itemIds": [
+        "insnews:93976"
+      ],
+      "summary": "행정안전부가 대설과 강풍 등 겨울철 자연재난에 대비해 풍수해·지진재해보험 집중 홍보를 22일 추진한다고 밝혔어요. 정부는 총보험료의 55%에서 100%까지 지원하며 소상공인에게는 대출 금리 우대와 보증 수수료 인하 등 혜택이 주어져요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 1,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110658",
+      "topic": "general",
+      "kind": "press",
+      "title": "이억원, 英 로이즈와 보험협력 논의…해외진출 지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110658",
+      "published": "2026-11-22",
+      "firstSeen": "2026-11-22",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110658"
+        }
+      ],
+      "itemIds": [
+        "fins:110658"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -81,7 +129,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -89,15 +137,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 10,
+      "count": 82,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -105,15 +153,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "knia-press",
       "ok": true,
-      "count": 10,
+      "count": 30,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -127,9 +175,9 @@
     {
       "source": "klia-press",
       "ok": true,
-      "count": 10,
+      "count": 13,
       "error": null,
-      "note": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
@@ -175,7 +223,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
@@ -199,7 +247,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "note": null,
       "disabled": false
