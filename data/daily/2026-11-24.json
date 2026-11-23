@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-23T17:18:48.157Z",
+  "groups": [
+    {
+      "id": "g:insweek:73102",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화생명, 증여 자산관리 앱 ‘PLUS 파이’ 개편",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73102",
+      "published": "2026-11-23",
+      "firstSeen": "2026-11-24",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73102"
+        }
+      ],
+      "itemIds": [
+        "insweek:73102"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34001",
+      "topic": "general",
+      "kind": "press",
+      "title": "‘0.01건 팔고 1175만 원’… 인슈어런스파이낸스메타엠 '수수료' 구조에 쏠린 눈",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34001",
+      "published": "2026-11-23",
+      "firstSeen": "2026-11-24",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34001"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34001"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34033",
+      "topic": "general",
+      "kind": "press",
+      "title": "“3차 FAQ, 12월 넘기나?”… 계약체결비용 한도 공개·공통비 배분·준법경영비 증빙 쟁점",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34033",
+      "published": "2026-11-23",
+      "firstSeen": "2026-11-24",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34033"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34033"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34031",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험판매전문회사 법안 2건, 국회 자동 상정…'법안심사' 본격화",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34031",
+      "published": "2026-11-23",
+      "firstSeen": "2026-11-24",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34031"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34031"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110671",
+      "topic": "life",
+      "kind": "press",
+      "title": "의료급여·건강보험 격차 줄인다…검진·간병 지원 확대",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110671",
+      "published": "2026-11-23",
+      "firstSeen": "2026-11-24",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110671"
+        }
+      ],
+      "itemIds": [
+        "fins:110671"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 82,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 30,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 13,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
