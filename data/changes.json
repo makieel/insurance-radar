@@ -243,6 +243,116 @@
     "firstSeen": "2026-11-19"
   },
   {
+    "id": "c:insjournal:34018:ai",
+    "category": "life",
+    "title": "DB손보, 간병인·수술비 담보 연계조건 완화 및 최저보험료 인하",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "19일부터",
+    "quote": "DB손해보험은 지난 19일부터 간병인·수술비 담보의 최저 보장보험료 기준을 7만원에서 5만원으로 낮췄다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-23",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34018"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-23"
+  },
+  {
+    "id": "c:insjournal:34027:ai",
+    "category": "general",
+    "title": "영국, 2027년 맞춤형 캡티브보험 규제 체계 도입",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "2027년",
+    "quote": "영국은 2027년 중반 시행을 목표로 설립·소유구조, 위험인수 범위, 자본요건, 지배구조 및 인가절차 전반을 아우르는 맞춤형 규제를 마련하고 있다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-23",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34027"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-23"
+  },
+  {
+    "id": "c:insnews:93874:ai",
+    "category": "general",
+    "title": "경기도, 기후보험 대신 직접지원 체계로 전환",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년부터",
+    "quote": "도는 내년부터 보험사를 거치지 않고 피해 도민에게 직접 보상금을 지급하는 ‘경기 기후보장 지원’ 사업으로 전환할 계획이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-23",
+    "sources": [
+      {
+        "name": "한국보험신문",
+        "url": "https://www.insnews.co.kr/news/articleView.html?idxno=93874"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-23"
+  },
+  {
+    "id": "c:insweek:73050:ai",
+    "category": "general",
+    "title": "보험부채 할인율 산출기준 강화 및 신용위험 반영 확대",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년부터",
+    "quote": "금융감독원이 내년부터 보험부채 할인율 산출 때 유동성프리미엄을 축소하고 신용위험 반영을 확대하기로 했기 때문이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-23",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73050"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-23"
+  },
+  {
+    "id": "c:insweek:73083:ai",
+    "category": "life",
+    "title": "동양·ABL생명 IT통합 시스템 구축",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 12월부터",
+    "quote": "오는 12월부터 2028년 말까지 ‘동양·ABL생명 AI 네이티브 IT통합 시스템’을 만드는 것이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-23",
+    "sources": [
+      {
+        "name": "보험신보",
+        "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73083"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-23"
+  },
+  {
     "id": "c:fins:110642:ai",
     "category": "medical",
     "title": "실손보험 미청구금 찾기 서비스 도입 및 할인제도 시행",
