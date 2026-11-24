@@ -295,6 +295,28 @@
     "firstSeen": "2026-11-24"
   },
   {
+    "id": "c:fins:110692:ai",
+    "category": "medical",
+    "title": "희귀·중증난치질환자 건강보험 본인부담률 인하",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "오는 12월 1일",
+    "quote": "오는 12월 1일 진료분부터 해당 질환의 건강보험 급여 진료비 가운데 7%만 부담하면 된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-24",
+    "sources": [
+      {
+        "name": "보험매일",
+        "url": "http://www.fins.co.kr/news/articleView.html?idxno=110692"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-25"
+  },
+  {
     "id": "c:insjournal:34064:ai",
     "category": "medical",
     "title": "희귀·중증난치질환자 건강보험 본인부담률 인하",

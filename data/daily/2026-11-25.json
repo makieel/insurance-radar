@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-24T21:54:20.254Z",
+  "groups": [
+    {
+      "id": "g:insnews:94027",
+      "topic": "auto",
+      "kind": "press",
+      "title": "보함사기 수사는 ‘겸임’… 전담조직 신설 필요성 커져",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94027",
+      "published": "2026-11-24",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94027"
+        }
+      ],
+      "itemIds": [
+        "insnews:94027"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34068",
+      "topic": "life",
+      "kind": "press",
+      "title": "[단독] 보험사 계약체결비용 제동… ‘표준해약공제액 이내’로, 기준 초과 상품 한도 축소 전망",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34068",
+      "published": "2026-11-24",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34068"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34068"
+      ],
+      "summary": "금융당국이 계약체결비용을 표준해약공제액 이내로 설정하는 방향으로 가닥을 잡았어요. 이에 따라 새 기준이 적용되면 일부 상품의 계약체결비용과 수수료 지급 여력이 줄어들 수 있어요. 보험사들과 보험협회는 25일 오후 3시 생명보험협회에서 간담회를 열고 관련 방침을 안내했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110692",
+      "topic": "life",
+      "kind": "press",
+      "title": "희귀·중증난치질환자 의료비 부담 낮아진다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110692",
+      "published": "2026-11-24",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110692"
+        }
+      ],
+      "itemIds": [
+        "fins:110692"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:yna:AKR20261124165700002",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험사 순익 8천800억원 줄었다…생보·손보 희비",
+      "url": "https://www.yna.co.kr/view/AKR20261124165700002",
+      "published": "2026-11-24",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261124165700002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261124165700002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 83,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": false,
+      "count": 30,
+      "error": "fetch failed",
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 13,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": "과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 4,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
