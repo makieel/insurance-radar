@@ -48,6 +48,32 @@
     "firstSeen": "2026-11-16"
   },
   {
+    "id": "c:fsc-press:88198:2027-03-09",
+    "category": "general",
+    "title": "보험업법 시행령‧금융기관검사및제재에관한규정 개정안 입법예고('26.11.25.~'27.1.4.) 실시",
+    "when": "exact",
+    "date": "2027-03-09",
+    "period": null,
+    "phrase": "'27.3.9일",
+    "quote": "이후 규제개혁위원회·법제처 심사, 차관회의·국무회의 의결 및 금융위원회 의결 등을 거쳐 개정 보험업법 시행일('27.3.9일)에 맞추어 시행할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-24",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/88198"
+      },
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249964&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-11-24"
+  },
+  {
     "id": "c:fsc-press:88081:2027-01-01",
     "category": "general",
     "title": "계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결",
@@ -241,6 +267,76 @@
     "origin": "rule",
     "rate": null,
     "firstSeen": "2026-11-19"
+  },
+  {
+    "id": "c:fsc-press:88198:2026-11-25",
+    "category": "general",
+    "title": "보험업법 시행령‧금융기관검사및제재에관한규정 개정안 입법예고('26.11.25.~'27.1.4.) 실시",
+    "when": "exact",
+    "date": "2026-11-25",
+    "period": null,
+    "phrase": "'26.11.25일",
+    "quote": "< 향후 계획 > 금번 시행령 및 검사제재규정 개정안은 '26.11.25일(수)부터 '27.1.4일(월)까지 입법예고·규정변경예고가 진행된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-24",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/88198"
+      },
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249964&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-11-24"
+  },
+  {
+    "id": "c:insjournal:34064:ai",
+    "category": "medical",
+    "title": "희귀·중증난치질환자 건강보험 본인부담률 인하",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "12월 1일",
+    "quote": "산정특례에 등록된 희귀·중증난치질환자는 12월 1일 진료분부터 해당 질환의 건강보험 급여 진료비 중 7%만 부담하면 된다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-24",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34064"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-24"
+  },
+  {
+    "id": "c:yna:AKR20261124053100002:ai",
+    "category": "general",
+    "title": "보험사기 전력자 보험모집 자격 결격사유 강화",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년 3월",
+    "quote": "개정안은 내년 3월 9일 개정 보험업법 시행일에 맞춰 시행할 예정이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-24",
+    "sources": [
+      {
+        "name": "연합뉴스",
+        "url": "https://www.yna.co.kr/view/AKR20261124053100002"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-24"
   },
   {
     "id": "c:fins:110671:ai",
@@ -1869,6 +1965,32 @@
     "origin": "ai",
     "rate": null,
     "firstSeen": "2026-10-26"
+  },
+  {
+    "id": "c:fsc-press:88198:2026-09-08",
+    "category": "general",
+    "title": "보험업법 시행령‧금융기관검사및제재에관한규정 개정안 입법예고('26.11.25.~'27.1.4.) 실시",
+    "when": "exact",
+    "date": "2026-09-08",
+    "period": null,
+    "phrase": "'26.9.8일",
+    "quote": "이번 개정안은 개정 ｢보험업법｣(법률 제21907호, '26.9.8일 공포, '27.3.9일 시행)에서 위임한 사항을 정하기 위한 것으로, 1)보험모집종사자 결격사유의 기준이 되는 금융관계법률의 범위를 규정하고, 2)보험대리점‧보험중개사에 대한 업무정지 갈음 과징금의 부과기준을 마련하는 내용을 담고 있다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-24",
+    "sources": [
+      {
+        "name": "금융위원회",
+        "url": "https://www.fsc.go.kr/no010101/88198"
+      },
+      {
+        "name": "금융감독원",
+        "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249964&menuNo=200218"
+      }
+    ],
+    "origin": "rule",
+    "rate": null,
+    "firstSeen": "2026-11-24"
   },
   {
     "id": "c:fss-press:226952:2026-09-07",
