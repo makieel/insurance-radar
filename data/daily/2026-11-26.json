@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-25T21:00:25.772Z",
+  "groups": [
+    {
+      "id": "g:donga:135083275",
+      "topic": "general",
+      "kind": "press",
+      "title": "사망보험금 일부 ‘연금’으로 받는 보험",
+      "url": "https://www.donga.com/news/Economy/article/all/20261125/135083275/2",
+      "published": "2026-11-26",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261125/135083275/2"
+        }
+      ],
+      "itemIds": [
+        "donga:135083275"
+      ],
+      "summary": "삼성생명은 사망보험금 일부만 연금으로 돌려받을 수 있도록 구조를 바꾼 삼성 밸런스 종신보험 개정 상품을 판매해요. 연금 전환 시기가 가입 후 20년에서 10년으로 앞당겨졌고 병력이 있는 사람도 가입할 수 있는 간편고지형이 새로 생겼어요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:135083342",
+      "topic": "general",
+      "kind": "press",
+      "title": "“보험, AIDC 리스크 관리 파트너 될 것”",
+      "url": "https://www.donga.com/news/Economy/article/all/20261125/135083342/2",
+      "published": "2026-11-26",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261125/135083342/2"
+        }
+      ],
+      "itemIds": [
+        "donga:135083342"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:donga:135083241",
+      "topic": "life",
+      "kind": "press",
+      "title": "건강보장 50년, ‘리부트 건강보험’으로 새로운 50년을 설계한다",
+      "url": "https://www.donga.com/news/Economy/article/all/20261125/135083241/2",
+      "published": "2026-11-26",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261125/135083241/2"
+        }
+      ],
+      "itemIds": [
+        "donga:135083241"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:chosun:IG2ISJJLMFFTVCYXJHGV2EOGWM",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험사 1~3분기 순익 8800억원 줄어",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/26/IG2ISJJLMFFTVCYXJHGV2EOGWM/",
+      "published": "2026-11-26",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/26/IG2ISJJLMFFTVCYXJHGV2EOGWM/"
+        }
+      ],
+      "itemIds": [
+        "chosun:IG2ISJJLMFFTVCYXJHGV2EOGWM"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94068",
+      "topic": "life",
+      "kind": "press",
+      "title": "보험금청구권신탁 개선 논의… 치매·간병보험금까지 넓혀 초고령사회 대응",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94068",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94068"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110709"
+        }
+      ],
+      "itemIds": [
+        "insnews:94068",
+        "fins:110709"
+      ],
+      "summary": "치매 등으로 의사결정 능력이 떨어진 고령자가 보험금을 안정적으로 사용할 수 있도록 보험금청구권신탁의 범위를 치매와 장기간병보험금까지 확대해야 한다는 주장이 나왔어요. 일반사망보험금에 한정된 현행 제도의 제약으로 인해 최저 보험금액과 보험계약대출 관련 규제를 완화하고 요양법인 등 전문기관과 연계한 재산관리 체계를 마련할 필요가 있다는 제언이에요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:94054",
+      "topic": "auto",
+      "kind": "press",
+      "title": "10월 자동차보험 손해율 80.4%… 주요 5개사 전년보다 7.2%p 개선",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94054",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94054"
+        }
+      ],
+      "itemIds": [
+        "insnews:94054"
+      ],
+      "summary": "주요 손해보험사 5곳의 올해 10월 자동차보험 손해율이 단순 평균 80.4%로 지난해 같은 달보다 7.2%포인트 하락했어요. 올해 1-10월 누적 손해율도 5개사 평균 83.9%로 지난해 같은 기간보다 약 1.5%포인트 낮아졌어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73122",
+      "topic": "medical",
+      "kind": "press",
+      "title": "삼성화재, “녹내장, 40대 이하도 지속 관리 필요”",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73122",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73122"
+        }
+      ],
+      "itemIds": [
+        "insweek:73122"
+      ],
+      "summary": "삼성화재가 건강DB를 분석한 결과 녹내장 실손의보 지급고객 3명 중 1명이 40대 이하로 나타났어요. 과거 근시 이력이 있는 고객의 녹내장 발생률은 이력이 없는 고객의 최대 5.9배에 달했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insweek:73125",
+      "topic": "life",
+      "kind": "press",
+      "title": "교보생명, ‘대한민국 지속가능성대회’ 생명보험 부문 1위 수상",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73125",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73125"
+        }
+      ],
+      "itemIds": [
+        "insweek:73125"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73121",
+      "topic": "general",
+      "kind": "press",
+      "title": "동양생명·ABL생명, ‘Agentic 코딩 해커톤’ 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73121",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73121"
+        }
+      ],
+      "itemIds": [
+        "insweek:73121"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34085",
+      "topic": "general",
+      "kind": "press",
+      "title": "[기고] 보험회사는 보험상품 계약체결비용을 투명하게 공개해야 한다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34085",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-26",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34085"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34085"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 83,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": true,
+      "count": 30,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": true,
+      "count": 28,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 4,
+      "error": null,
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
