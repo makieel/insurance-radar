@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-24T21:54:20.254Z",
+  "generatedAt": "2026-11-25T06:53:45.035Z",
   "groups": [
     {
       "id": "g:insnews:94027",
@@ -97,6 +97,747 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:fsc-rule:4190",
+      "topic": "general",
+      "kind": "gov",
+      "title": "「보험업법 시행령」 일부개정령안 입법예고",
+      "url": "https://www.fsc.go.kr/po040301/view?noticeId=4190",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "금융위원회 입법·규정변경예고",
+          "url": "https://www.fsc.go.kr/po040301/view?noticeId=4190"
+        }
+      ],
+      "itemIds": [
+        "fsc-rule:4190"
+      ],
+      "summary": "보험설계사 등 모집종사자 결격사유 기준이 되는 위반 법령을 금융관계법률로 확대하고, 보험대리점 및 보험중개사에 대한 과징금 부과기준 등을 정하는 ｢보험업법 시행령 일부개정령안｣이 2026년 11월 25일 입법예고되었어요.",
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fss-press:250011",
+      "topic": "industry",
+      "kind": "gov",
+      "title": "2026년 1~9월 보험회사 경영실적(잠정)",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250011&menuNo=200218",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "금융감독원",
+          "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250011&menuNo=200218"
+        }
+      ],
+      "itemIds": [
+        "fss-press:250011"
+      ],
+      "summary": "2026년 1~9월 보험회사의 당기순이익은 10조 4,087억원으로 전년동기 대비 8,823억원 감소했어요.",
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94041",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB헬스케어, 에버엑스와 ‘근골격계 건강관리 서비스’ 개발 추진",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94041",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94041"
+        }
+      ],
+      "itemIds": [
+        "insnews:94041"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94037",
+      "topic": "life",
+      "kind": "press",
+      "title": "교보생명, 지속가능성 평가 17년 연속 ‘1위’ 달성",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94037",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94037"
+        },
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110695"
+        }
+      ],
+      "itemIds": [
+        "insnews:94037",
+        "fins:110695"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94036",
+      "topic": "medical",
+      "kind": "press",
+      "title": "삼성화재 “녹내장 환자 3명 중 1명은 40대 이하”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94036",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94036"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34070"
+        }
+      ],
+      "itemIds": [
+        "insnews:94036",
+        "insjournal:34070"
+      ],
+      "summary": "녹내장 환자 3명 중 1명은 40대 이하인 것으로 나타났으며, 근시 이력이 있는 고객은 녹내장 발생률이 최대 5.9배 높았어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insnews:94031",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험연구원, ‘사람 살리는 금융’ 릴레이 캠페인 참여",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94031",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94031"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73118"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34074"
+        }
+      ],
+      "itemIds": [
+        "insnews:94031",
+        "insweek:73118",
+        "insjournal:34074"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94028",
+      "topic": "general",
+      "kind": "press",
+      "title": "한화손보, 성북우리아이들병원과 병원학교 ‘다숨교실’ 개교",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94028",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94028"
+        },
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73117"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34069"
+        }
+      ],
+      "itemIds": [
+        "insnews:94028",
+        "insweek:73117",
+        "insjournal:34069"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94022",
+      "topic": "industry",
+      "kind": "press",
+      "title": "3분기 누적 보험사 순익 10조4087억원… 전년比 7.8% 감소",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94022",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94022"
+        },
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/stock-finance/2026/11/25/VOOFD67B3NGDRHL5P26E77FAGU/"
+        }
+      ],
+      "itemIds": [
+        "insnews:94022",
+        "chosun:VOOFD67B3NGDRHL5P26E77FAGU"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34082",
+      "topic": "general",
+      "kind": "press",
+      "title": "엑셀로 만들던 금감원 업무보고서 14종 ‘한 번에’…보험사 계리팀, 연 200시간 절감",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34082",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34082"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34082"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34083",
+      "topic": "general",
+      "kind": "press",
+      "title": "128억원에 발 묶인 '퇴직연금' 7835억원…내년 1월 ‘갈아타기’ 길 열린다",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34083",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34083"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34083"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34081",
+      "topic": "general",
+      "kind": "press",
+      "title": "AI가 스스로 판단하고 행동하는 시대…새로운 안전망으로 떠오른 ‘AI 책임보험’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34081",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34081"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34081"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34080",
+      "topic": "auto",
+      "kind": "press",
+      "title": "車보험 손해율 80.5%, 10월 기준 역대 최저…사고 감소에도 '건당 보험금' 증가 부담",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34080",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34080"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261125073300002"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34080",
+        "yna:AKR20261125073300002"
+      ],
+      "summary": "대형 손해보험사 4개사의 10월 자동차보험 손해율은 80.5%로 전년 동기 대비 6.9%p 낮아졌어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:34078",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험료 수입 28.6조원 늘었지만, '순이익' 8823억원 감소…생보·손보 엇갈린 성적표",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34078",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34078"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34078"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34077",
+      "topic": "life",
+      "kind": "press",
+      "title": "보험연수원, 금융위에 '부원장직 폐지 정관 개정안' 즉각 승인 촉구",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34077",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34077"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34077"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34073",
+      "topic": "industry",
+      "kind": "press",
+      "title": "[4년 분급 D-1개월] GA 수수료 배분 주의보… 계약체결비용 총액만 보면 초기 과다 배분 우려",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34073",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34073"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34073"
+      ],
+      "summary": "판매수수료 4년 분급 시행을 앞두고 GA는 초기 과다 배분을 막기 위해 계약체결비용 총액만이 아니라 연차별 실제 지급액을 기준으로 배분 재원을 산정해야 해요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34075",
+      "topic": "general",
+      "kind": "press",
+      "title": "KB손보 자회사 KB헬스케어, 에버엑스와 손잡고 스마트폰 기반 '근골격계 관리 서비스' 구축",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34075",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34075"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34075"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34071",
+      "topic": "general",
+      "kind": "press",
+      "title": "동양생명 · ABL생명, 업계 최초 자율형 AI 코딩 도입해 통합 보험사 개발 기반 구축",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34071",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34071"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34071"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110706",
+      "topic": "general",
+      "kind": "press",
+      "title": "퇴직연금 자금 빠진 보험사…DB형은 6,393억원↑",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110706",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110706"
+        }
+      ],
+      "itemIds": [
+        "fins:110706"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110705",
+      "topic": "life",
+      "kind": "press",
+      "title": "보험연수원, 부원장직 폐지 추진…금융위 동의 촉구",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110705",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110705"
+        }
+      ],
+      "itemIds": [
+        "fins:110705"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110704",
+      "topic": "life",
+      "kind": "press",
+      "title": "등락 반복하는 증시…변액보험 보증 부담 커지나",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110704",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110704"
+        }
+      ],
+      "itemIds": [
+        "fins:110704"
+      ],
+      "summary": "하반기 증시가 등락을 거듭하면서 생명보험사들은 변액보험 최저보증 위험 관리의 중요성이 커지고 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110703",
+      "topic": "auto",
+      "kind": "press",
+      "title": "車보험 손해율 올 들어 최저치",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110703",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110703"
+        }
+      ],
+      "itemIds": [
+        "fins:110703"
+      ],
+      "summary": "대형 손해보험사 4곳의 10월 자동차보험 손해율은 80.5%로 떨어졌어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110702",
+      "topic": "general",
+      "kind": "press",
+      "title": "자율 AI 사고 피해 보상…‘AI 책임보험’ 제안",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110702",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110702"
+        }
+      ],
+      "itemIds": [
+        "fins:110702"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110701",
+      "topic": "general",
+      "kind": "press",
+      "title": "국내 보험사, 법인세 환급 소송 최종 패소",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110701",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110701"
+        }
+      ],
+      "itemIds": [
+        "fins:110701"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110698",
+      "topic": "life",
+      "kind": "press",
+      "title": "탈모 치료제 급여 확대에도…기존 환자 증빙 부담",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110698",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110698"
+        }
+      ],
+      "itemIds": [
+        "fins:110698"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110697",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험업계, 보험료 28조 더 걷고도 수익성 뒷걸음질 왜?",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110697",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110697"
+        }
+      ],
+      "itemIds": [
+        "fins:110697"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110694",
+      "topic": "general",
+      "kind": "press",
+      "title": "동양생명·ABL생명, AI 기반 개발 역량 강화…통합 준비 속도",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110694",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110694"
+        }
+      ],
+      "itemIds": [
+        "fins:110694"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110693",
+      "topic": "medical",
+      "kind": "press",
+      "title": "“녹내장 수술 후 장기치료, 40대 이하 가장 많아”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110693",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110693"
+        }
+      ],
+      "itemIds": [
+        "fins:110693"
+      ],
+      "summary": "녹내장으로 실손보험금을 받은 고객 3명 중 1명이 40대 이하이며, 40대 이하 수술고객 중 5년 이상 치료를 받은 비중은 57.4%로 나타났어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110691",
+      "topic": "life",
+      "kind": "press",
+      "title": "증시 출렁여도 변액보험은 ‘신중’…펀드 변경보다 관망",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110691",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110691"
+        }
+      ],
+      "itemIds": [
+        "fins:110691"
+      ],
+      "summary": "증시 급락에도 변액보험 가입자들은 펀드 변경을 자제하고 기존 전략을 유지하는 경향을 보이고 있어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:donga:135086180",
+      "topic": "general",
+      "kind": "press",
+      "title": "한전, 개인정보 유출 고객에 최대 1000만원 보상보험 무상 제공",
+      "url": "https://www.donga.com/news/Economy/article/all/20261125/135086180/1",
+      "published": "2026-11-25",
+      "firstSeen": "2026-11-25",
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Economy/article/all/20261125/135086180/1"
+        },
+        {
+          "name": "조선일보",
+          "url": "https://www.chosun.com/economy/economy_general/2026/11/25/VIIQO7CMWJG5HBYUDHFNILTHVY/"
+        }
+      ],
+      "itemIds": [
+        "donga:135086180",
+        "chosun:VIIQO7CMWJG5HBYUDHFNILTHVY"
+      ],
+      "summary": "한국전력은 개인정보 유출 고객에게 금융사기 피해를 최대 1000만 원까지 보상하는 보험이 포함된 이용권을 무상으로 제공해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -111,7 +852,7 @@
     {
       "source": "fsc-rule",
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null,
       "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
@@ -119,7 +860,7 @@
     {
       "source": "fss-press",
       "ok": true,
-      "count": 83,
+      "count": 84,
       "error": null,
       "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
@@ -134,17 +875,17 @@
     },
     {
       "source": "knia-press",
-      "ok": false,
+      "ok": true,
       "count": 30,
-      "error": "fetch failed",
+      "error": null,
       "note": "과거 기사 채우기 완료: 정부·협회",
       "disabled": false
     },
     {
       "source": "knia-rates",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
+      "ok": true,
+      "count": 28,
+      "error": null,
       "note": null,
       "disabled": false
     },
@@ -199,7 +940,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -207,7 +948,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -215,7 +956,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 71,
       "error": null,
       "note": null,
       "disabled": false
@@ -223,7 +964,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 65,
       "error": null,
       "note": null,
       "disabled": false
@@ -238,16 +979,16 @@
     },
     {
       "source": "donga",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed",
-      "note": "과거 기사 수집 중단: fetch failed",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null,
       "note": null,
       "disabled": false
@@ -255,7 +996,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null,
       "note": null,
       "disabled": false
