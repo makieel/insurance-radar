@@ -269,7 +269,7 @@
         "fsc-press:88236",
         "fss-press:250030"
       ],
-      "summary": null,
+      "summary": "금융위원회와 금융감독원은 보험 판매수수료의 과도한 경쟁을 억제하여 소비자의 보험료 부담을 낮추겠어요.",
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
@@ -293,7 +293,7 @@
       "itemIds": [
         "fsc-press:88232"
       ],
-      "summary": null,
+      "summary": "금융위원회는 건전성 규제, 금융 공급, 연체채권 관리체계를 종합적으로 정비해 지속가능한 포용금융을 실현하겠어요.",
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
@@ -317,7 +317,7 @@
       "itemIds": [
         "kiri:228294"
       ],
-      "summary": null,
+      "summary": "보험연구원은 「코리아 핀테크 위크 2026」에서 「AI와 보험 공존을 위한 방안」 세미나를 개최해요.",
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
@@ -490,7 +490,7 @@
       "itemIds": [
         "insjournal:34119"
       ],
-      "summary": null,
+      "summary": "NH농협손보는 12월 마지막에 '5% 할인·5만원 프리패스' 건강보험 2종 연말 판매를 종료해요.",
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
@@ -538,7 +538,7 @@
       "itemIds": [
         "insjournal:34101"
       ],
-      "summary": null,
+      "summary": "DB생명은 10년 무사고 시 암 치료비 2배 주는 ‘백년친구 더블업 암치료 보장보험’을 출시했어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -634,7 +634,7 @@
       "itemIds": [
         "insjournal:34094"
       ],
-      "summary": null,
+      "summary": "일반 사망 묶인 ‘보험금청구권신탁’을 치매와 장기간병까지 넓혀야 한다는 여야와 학계의 목소리가 나와요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -687,7 +687,7 @@
       "itemIds": [
         "fins:110723"
       ],
-      "summary": null,
+      "summary": "흥국화재는 상품 차별화로 소비자 보장 공백을 줄이기 위해 노력하고 있어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -735,7 +735,7 @@
       "itemIds": [
         "fins:110721"
       ],
-      "summary": null,
+      "summary": "한국은행 금융통화위원회는 기준금리를 3.00%에서 3.25%로 0.25%포인트 인상했어요. 금리 상승은 보험업계에 양날의 검으로 작용할 전망이에요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -759,7 +759,7 @@
       "itemIds": [
         "fins:110714"
       ],
-      "summary": null,
+      "summary": "손해보험협회와 국회 교통안전포럼, 함안군, 한국교통안전공단은 26일 고령자 교통안전 강화를 위한 업무협약을 체결했어요. 65세 이상 교통사고 사망자는 2023년 1,240명에서 2024년 1,299명, 지난해 1,378명으로 매년 증가하고 있어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -783,7 +783,7 @@
       "itemIds": [
         "fins:110713"
       ],
-      "summary": null,
+      "summary": "DB생명은 가입 후 10년간 암 진단 이력이 없는 경우 이후 암 진단 시 암 치료비 보장 금액이 두 배로 늘어나는 ‘백년친구 더블업 암치료 보장보험’을 출시했어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -807,7 +807,7 @@
       "itemIds": [
         "fins:110708"
       ],
-      "summary": null,
+      "summary": "정비업계는 시간당 공임을 7% 넘게 올려야 한다는 입장이지만 최근 3년간 실제 타결률은 2~3%대에 머물렀어요.",
       "relevance": "high",
       "important": false,
       "relevanceBy": "ai",
@@ -855,7 +855,7 @@
       "itemIds": [
         "chosun:GM3DONLDGYZDCMZUMQ3WMOJRGM"
       ],
-      "summary": null,
+      "summary": "금융 당국은 내년 1월부터 보험사 판매수수료 지급 한도를 계약체결비용과 표준해약공제액 중 낮은 금액으로 제한해요. 또한 2월부터는 모든 보험 가입 조건에 대해 계약체결비용 초과 사실을 공시하도록 의무를 확대해요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -879,7 +879,7 @@
       "itemIds": [
         "yna:AKR20261126093600002"
       ],
-      "summary": null,
+      "summary": "금융당국이 보험 판매수수료의 과도한 경쟁을 억제하기 위해 지급한도 규제를 강화하고, 사업비 공시 의무도 확대했어요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
@@ -903,7 +903,7 @@
       "itemIds": [
         "kiri:227294"
       ],
-      "summary": null,
+      "summary": "보험연구원은 스위스 생갈렌대학교 마틴 엘링 교수와 연구 교류를 진행했어요.",
       "relevance": "low",
       "important": false,
       "relevanceBy": "ai",
@@ -927,7 +927,7 @@
       "itemIds": [
         "kiri:226794"
       ],
-      "summary": null,
+      "summary": "박성훈 의원과 보험연구원은 「보험 모집질서 건전화와 소비자 보호를 위한 정책토론회」 세미나를 개최해요.",
       "relevance": "medium",
       "important": false,
       "relevanceBy": "ai",
