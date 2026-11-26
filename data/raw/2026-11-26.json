@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-25T21:00:25.772Z",
+  "generatedAt": "2026-11-26T06:44:51.136Z",
   "items": [
     {
       "id": "fsc-press:88198",
@@ -2754,13 +2754,7 @@
       "url": "https://kiri.or.kr/community/materialView.do?bid=226294",
       "published": "2026-11-25",
       "hints": [],
-      "attachments": [
-        {
-          "name": "보도자료_26-18_사람 살리는 금융 릴레이 캠페인 동참.pdf",
-          "url": "https://kiri.or.kr/community/boardDownloadFile.do?bid=226294&seq=1",
-          "type": "pdf"
-        }
-      ]
+      "attachments": []
     },
     {
       "id": "kiri:224294",
@@ -4407,9 +4401,9 @@
     {
       "id": "insjournal:34062",
       "source": "insjournal",
-      "title": "'허수 설계사' 빼고 보상 높였더니…뉴니케, 인당 수수료 1948만원·정착률 84% '두 토끼' 잡았다",
+      "title": "'허수 설계사' 빼고 보상 높였더니…뉴니케, 인당 수수료 1948만원·정착률 84% '두 토끼' 잡았다 (영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34062",
-      "published": "2026-11-25",
+      "published": "2026-11-26",
       "hints": [
         "기획특집&단독"
       ],
@@ -4627,9 +4621,9 @@
     {
       "id": "insjournal:34060",
       "source": "insjournal",
-      "title": "[GA 신인 육성시대] ‘스카우트 경쟁’보다 ‘신인 육성’…KGA에셋, 분급 시대 GA 성장 공식 다시 쓴다",
+      "title": "[GA 신인 육성시대] ‘스카우트 경쟁’보다 ‘신인 육성’…KGA에셋, 분급 시대 GA 성장 공식 다시 쓴다 (영상+)",
       "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34060",
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "hints": [
         "기획특집&단독"
       ],
@@ -7194,6 +7188,649 @@
       "published": "2026-02-27",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "fsc-press:88236",
+      "source": "fsc-press",
+      "title": "보험 판매수수료의 과도한 경쟁을 억제하여 소비자의 보험료 부담을 낮추겠습니다.",
+      "url": "https://www.fsc.go.kr/no010101/88236",
+      "published": "2026-11-26",
+      "hints": [
+        "보험과"
+      ],
+      "attachments": [
+        {
+          "name": "261126(보도자료) 보험 판매수수료의 과도한 경쟁을 억제하여 소비자의 보험료 부담을 낮추겠습니다..hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88236&fileTy=ATTACH&fileNo=1",
+          "type": "hwp"
+        },
+        {
+          "name": "261126(보도자료) 보험 판매수수료의 과도한 경쟁을 억제하여 소비자의 보험료 부담을 낮추겠습니다..pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88236&fileTy=ATTACH&fileNo=2",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fsc-press:88232",
+      "source": "fsc-press",
+      "title": "건전성 규제, 금융 공급, 연체채권 관리체계를 종합적으로 정비해 일회성이 아닌, 지속가능한 포용금융을 실현하겠습니다.",
+      "url": "https://www.fsc.go.kr/no010101/88232",
+      "published": "2026-11-26",
+      "hints": [
+        "은행과,보험과,중소금융과,서민금융과"
+      ],
+      "attachments": [
+        {
+          "name": "261125(보도자료) 건전성 규제 금융 공급 연체채권 관리체계를 종합적으로 정비해 일회성이 아닌 지속가능한 포용금융을 실현하겠습니다..hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=1",
+          "type": "hwp"
+        },
+        {
+          "name": "261125(보도자료) 건전성 규제 금융 공급 연체채권 관리체계를 종합적으로 정비해 일회성이 아닌 지속가능한 포용금융을 실현하겠습니다..pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=2",
+          "type": "pdf"
+        },
+        {
+          "name": "261125[별첨] 금융위원장 모두발언.hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=3",
+          "type": "hwp"
+        },
+        {
+          "name": "261125[별첨] 금융위원장 모두발언.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=4",
+          "type": "pdf"
+        },
+        {
+          "name": "261125[안건1] 포용금융 확대를 위한 금융권 건전성 규제 합리화 방안.hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=5",
+          "type": "hwp"
+        },
+        {
+          "name": "261125[안건1] 포용금융 확대를 위한 금융권 건전성 규제 합리화 방안.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=6",
+          "type": "pdf"
+        },
+        {
+          "name": "261125[안건2] 은행-저축은행 협업 포용 온렌딩 대출방안.hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=7",
+          "type": "hwp"
+        },
+        {
+          "name": "261125[안건2] 은행-저축은행 협업 포용 온렌딩 대출방안.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=8",
+          "type": "pdf"
+        },
+        {
+          "name": "261125[안건3] 금융권 개인 연체채권 관리 실적 공시안.hwpx",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=9",
+          "type": "hwp"
+        },
+        {
+          "name": "261125[안건3] 금융권 개인 연체채권 관리 실적 공시안.pdf",
+          "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88232&fileTy=ATTACH&fileNo=10",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "fss-press:250030",
+      "source": "fss-press",
+      "title": "보험 판매수수료의 과도한 경쟁을 억제하여 소비자의 보험료 부담을 낮추겠습니다.",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250030&menuNo=200218",
+      "published": "2026-11-26",
+      "hints": [
+        "보험상품분쟁1국/보험감독국/보험검사1국/보험검사2국/보험검사3국"
+      ],
+      "attachments": [
+        {
+          "name": "261126_(보도자료) 보험 판매수수료의 과도한 경쟁을 억제하여 소비자의 보험료 부담을 낮추겠습니다..hwpx",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=2c1c35428aee40349f36ec7fb91a85a6&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261126_(보도자료) 보험 판매수수료의 과도한 경쟁을 억제하여 소비자의 보험료 부담을 낮추겠습니다..pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=2c1c35428aee40349f36ec7fb91a85a6&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "kiri:228294",
+      "source": "kiri",
+      "title": "보험연구원, 세미나 개최 「코리아 핀테크 위크 2026」에서 「AI와 보험 공존을 위한 방안」",
+      "url": "https://kiri.or.kr/community/materialView.do?bid=228294",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": [
+        {
+          "name": "보도자료_26-20호_코리아 핀테크 위크 2026_AI와 보험 공존을 위한 방안_세미나.pdf",
+          "url": "https://kiri.or.kr/community/boardDownloadFile.do?bid=228294&seq=1",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "kiri:227794",
+      "source": "kiri",
+      "title": "보험연구원, 「자동차보험 자기부담금 제도 평가 및 개선 방안」 연구보고서 발간",
+      "url": "https://kiri.or.kr/community/materialView.do?bid=227794",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": [
+        {
+          "name": "보도자료_26-19호_자동차보험 자기부담금 제도 평가 및 개선 방안_연구보고서 발간.pdf",
+          "url": "https://kiri.or.kr/community/boardDownloadFile.do?bid=227794&seq=1",
+          "type": "pdf"
+        },
+        {
+          "name": "자동차보험 자기부담금 제도 평가 및 개선 방안.pdf",
+          "url": "https://kiri.or.kr/community/boardDownloadFile.do?bid=227794&seq=2",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "kiri:227294",
+      "source": "kiri",
+      "title": "보험연구원, 스위스 생갈렌대학교(장크트갈렌대) 마틴 엘링 교수와 연구 교류",
+      "url": "https://kiri.or.kr/community/materialView.do?bid=227294",
+      "published": "2026-11-09",
+      "hints": [],
+      "attachments": [
+        {
+          "name": "보도자료_26-17호_스위스 장크트갈렌대학교 마틴 엘링 교수와 연구 교류.pdf",
+          "url": "https://kiri.or.kr/community/boardDownloadFile.do?bid=227294&seq=1",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "kiri:226794",
+      "source": "kiri",
+      "title": "박성훈 의원·보험연구원, 세미나 개최 「보험 모집질서 건전화와 소비자 보호를 위한 정책토론회」",
+      "url": "https://kiri.or.kr/community/materialView.do?bid=226794",
+      "published": "2026-11-02",
+      "hints": [],
+      "attachments": [
+        {
+          "name": "보도자료_26-16호_보험 모집질서 건전화와 소비자 보호를 위한 정책토론회_세미나.pdf",
+          "url": "https://kiri.or.kr/community/boardDownloadFile.do?bid=226794&seq=1",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "insnews:94081",
+      "source": "insnews",
+      "title": "마이데이터 ‘체질 전환’… AI 활용·수익성 확보 관건",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94081",
+      "published": "2026-11-26",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94077",
+      "source": "insnews",
+      "title": "보험 판매수수료 지급한도 손본다… 과도한 경쟁 차단",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94077",
+      "published": "2026-11-26",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94086",
+      "source": "insnews",
+      "title": "‘채용비리’ 함영주 하나금융회장, 파기환송심서 업무방해 무죄",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94086",
+      "published": "2026-11-26",
+      "hints": [
+        "은행"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94085",
+      "source": "insnews",
+      "title": "농협손보 유튜브 ‘왕구랜드’, ‘농심천심’으로 누적 조회수 5천만회 돌파",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94085",
+      "published": "2026-11-26",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94083",
+      "source": "insnews",
+      "title": "한은, 기준금리 3.25%로 인상… “물가·경기 대응”",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94083",
+      "published": "2026-11-26",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94075",
+      "source": "insnews",
+      "title": "금융당국, 포용금융 건전성 규제 손질… 중저신용자 대출 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94075",
+      "published": "2026-11-26",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94078",
+      "source": "insnews",
+      "title": "고령자 교통안전 ‘사각지대 해소’ 관계기관 협력 강화",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94078",
+      "published": "2026-11-26",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94072",
+      "source": "insnews",
+      "title": "[인사] 삼성생명",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94072",
+      "published": "2026-11-26",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94073",
+      "source": "insnews",
+      "title": "[인사] 삼성화재",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94073",
+      "published": "2026-11-26",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73129",
+      "source": "insweek",
+      "title": "삼성화재 임원 인사",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73129",
+      "published": "2026-11-26",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73128",
+      "source": "insweek",
+      "title": "삼성생명 임원 인사",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73128",
+      "published": "2026-11-26",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34129",
+      "source": "insjournal",
+      "title": "금융규제 법령해석도 'AI 학습'에 활용…금융공공데이터 API 6개 추가 개방",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34129",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34128",
+      "source": "insjournal",
+      "title": "보험사 서민금융 대출 '자본부담' 낮춘다…보증부대출 위험계수 8%→2.5%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34128",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34127",
+      "source": "insjournal",
+      "title": "분급제 앞두고 보험사 '수수료 경쟁' 추가 제동…'판매수수료' 지급 재원까지 제한",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34127",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34119",
+      "source": "insjournal",
+      "title": "‘5% 할인·5만원 프리패스’ 12월 마지막… NH농협손보, 건강보험 2종 연말 판매 종료",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34119",
+      "published": "2026-11-26",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34114",
+      "source": "insjournal",
+      "title": "한은, 기준금리 0.25%p 인상, 연 3.25%…석 달 만에 긴축 재개",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34114",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34107",
+      "source": "insjournal",
+      "title": "갈 길 바쁜 'KDB생명'… 내년 1월 기본자본 킥스 규제 앞두고 재매각 움직임",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34107",
+      "published": "2026-11-26",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34101",
+      "source": "insjournal",
+      "title": "DB생명, 10년 무사고 시 암 치료비 2배 주는 ‘백년친구 더블업 암치료 보장보험’ 출시",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34101",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34100",
+      "source": "insjournal",
+      "title": "이륜차 전복 즉시 119 자동 신고… 손보협회·국회·함안군, 고령 운전자 ‘AI 안심케어’ 가동",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34100",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34079",
+      "source": "insjournal",
+      "title": "[명인 열전] 3년만 하려던 보험영업이 어느덧 21년…고객이 고객을 부르는 더베스트금융서비스 문용천 FC",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34079",
+      "published": "2026-11-26",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34087",
+      "source": "insjournal",
+      "title": "“GA 업무정지, 과징금으로 대체”…내년 3월 9일 시행 전 위반행위에도 적용될까",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34087",
+      "published": "2026-11-26",
+      "hints": [
+        "팩트체크"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34094",
+      "source": "insjournal",
+      "title": "일반 사망 묶인 ‘보험금청구권신탁’, 치매·장기간병까지 넓혀야… 여야·학계 한목소리",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34094",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34092",
+      "source": "insjournal",
+      "title": "DB손보, ‘2026 국가품질혁신상’ 고객만족 부문 대통령 표창… AI 기반 소비자보호 체계 호평",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34092",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34091",
+      "source": "insjournal",
+      "title": "삼성화재, 2027년 정기 임원인사 단행… 조번형·황상민 부사장 등 총 8명 승진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34091",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34090",
+      "source": "insjournal",
+      "title": "삼성생명, 2027년 정기 임원인사 단행… 부사장 1명·상무 5명 등 총 6명 승진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34090",
+      "published": "2026-11-26",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34055",
+      "source": "insjournal",
+      "title": "[10월 생보사 GA M/S] KDB생명…지에이코리아 1위 복귀, 사랑모아금융서비스 8계단 ‘뚝’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34055",
+      "published": "2026-11-26",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34057",
+      "source": "insjournal",
+      "title": "[10월 생보사 GA M/S] BNP카디프생명…영진에셋 31.9% ‘1위’, 상위 3사 50% 점유",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34057",
+      "published": "2026-11-26",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34056",
+      "source": "insjournal",
+      "title": "[10월 생보사 GA M/S] ABL생명…1위 독주, 에이비에이금융서비스",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34056",
+      "published": "2026-11-26",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34058",
+      "source": "insjournal",
+      "title": "[10월 생보사 GA M/S] IBK연금보험…에이플러스에셋 29.4% ‘우뚝’, 상위 3개사 점유율 절반 육박",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34058",
+      "published": "2026-11-26",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110723",
+      "source": "fins",
+      "title": "흥국화재, 상품 차별화로 소비자 보장 공백 줄인다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110723",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110722",
+      "source": "fins",
+      "title": "금융당국, 보험 판매수수료 과당경쟁 제동",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110722",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110721",
+      "source": "fins",
+      "title": "한은, 기준금리 인상…보험업계 '양날의 검'",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110721",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110720",
+      "source": "fins",
+      "title": "한은, 기준금리 3.25%로 인상…올해만 세 번째",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110720",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110719",
+      "source": "fins",
+      "title": "생보사 GA 매출, 특정 판매조직 의존도 뚜렷",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110719",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110718",
+      "source": "fins",
+      "title": "GA 영업 생산성, 신계약 많다고 효율 높은 건 아니다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110718",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110717",
+      "source": "fins",
+      "title": "GA 업무정지 대신 과징금…본사 책임 커진다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110717",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110716",
+      "source": "fins",
+      "title": "DB손보, 국가품질혁신상 고객만족부문 대통령 표창 수상",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110716",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110714",
+      "source": "fins",
+      "title": "손보협회·국회 교통안전포럼, 고령자 교통안전 강화 맞손",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110714",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110713",
+      "source": "fins",
+      "title": "DB생명, 10년간 암 진단 없으면 치료비 2배 보장한다",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110713",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110712",
+      "source": "fins",
+      "title": "[인사] 삼성화재",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110712",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110711",
+      "source": "fins",
+      "title": "[인사] 삼성생명",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110711",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110710",
+      "source": "fins",
+      "title": "농협손보 유튜브 ‘왕구랜드’, 누적 조회수 5,000만 회 돌파",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110710",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110708",
+      "source": "fins",
+      "title": "7%로 시작한 정비수가 요구…차보험료 부담은?",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110708",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110707",
+      "source": "fins",
+      "title": "KDB생명, 신계약보다 해약 많아져…경영정상화 험로",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110707",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "chosun:GM3DONLDGYZDCMZUMQ3WMOJRGM",
+      "source": "chosun",
+      "title": "보험 판매수수료 한도 규제 강화… 계약체결비용도 공시 확대",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/11/26/GM3DONLDGYZDCMZUMQ3WMOJRGM/",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261126093600002",
+      "source": "yna",
+      "title": "보험 판매수수료 과당경쟁 막는다…지급한도·공시 규제 강화",
+      "url": "https://www.yna.co.kr/view/AKR20261126093600002",
+      "published": "2026-11-26",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7398,9 +8035,9 @@
     {
       "source": "fsc-press",
       "ok": true,
-      "count": 60,
+      "count": 62,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7408,15 +8045,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 83,
+      "count": 84,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7424,7 +8061,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7432,7 +8069,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7448,13 +8085,13 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
+      "note": null,
       "disabled": false
     },
     {
       "source": "kiri",
       "ok": true,
-      "count": 15,
+      "count": 19,
       "error": null,
       "note": null,
       "disabled": false
@@ -7494,7 +8131,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 59,
       "error": null,
       "note": null,
       "disabled": false
@@ -7502,7 +8139,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -7510,7 +8147,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 68,
       "error": null,
       "note": null,
       "disabled": false
@@ -7518,7 +8155,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 65,
       "error": null,
       "note": null,
       "disabled": false
@@ -7536,13 +8173,13 @@
       "ok": true,
       "count": 4,
       "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "note": "오늘 보험 기사 없음(읽은 글 50건) / 과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
       "disabled": false
     },
     {
       "source": "chosun",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false
@@ -7550,9 +8187,9 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "note": null,
       "disabled": false
     },
     {
