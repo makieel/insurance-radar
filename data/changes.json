@@ -269,6 +269,28 @@
     "firstSeen": "2026-11-19"
   },
   {
+    "id": "c:insjournal:34166:ai",
+    "category": "life",
+    "title": "라이나생명 건강보험 일부 특약 지급조건 변경",
+    "when": "phrase",
+    "date": null,
+    "period": null,
+    "phrase": "내년 1월",
+    "quote": "내년 1월 개정안은 해당 15개 특약에 가입 후 1년 이내 50% 감액조건을 적용하는 내용이다.",
+    "status": "confirmed",
+    "past": false,
+    "announced": "2026-11-27",
+    "sources": [
+      {
+        "name": "보험저널",
+        "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34166"
+      }
+    ],
+    "origin": "ai",
+    "rate": null,
+    "firstSeen": "2026-11-27"
+  },
+  {
     "id": "c:fins:110698:ai",
     "category": "medical",
     "title": "중증 원형탈모 치료제 건강보험 급여 확대 적용",

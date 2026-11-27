@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-26T20:53:22.105Z",
+  "generatedAt": "2026-11-27T06:36:21.715Z",
   "items": [
     {
       "id": "fsc-press:88236",
@@ -7222,6 +7222,481 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "fss-press:250054",
+      "source": "fss-press",
+      "title": "26.9월말 보험회사 대출채권 현황",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250054&menuNo=200218",
+      "published": "2026-11-27",
+      "hints": [
+        "보험감독국"
+      ],
+      "attachments": [
+        {
+          "name": "261126_(보도자료) 26.9월말 보험회사 대출채권 현황.hwp",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e7192e6e2e3e4e3299b1d3b5adeaa1af&fileSn=1&bbsId=",
+          "type": "hwp"
+        },
+        {
+          "name": "261126_(보도자료) 26.9월말 보험회사 대출채권 현황.pdf",
+          "url": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=e7192e6e2e3e4e3299b1d3b5adeaa1af&fileSn=2&bbsId=",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "insnews:94109",
+      "source": "insnews",
+      "title": "암경험청년, 또래와 함께 일상으로… 한화생명 ‘위케어리셋’ 성과 공유",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94109",
+      "published": "2026-11-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94108",
+      "source": "insnews",
+      "title": "이종성 신협자산관리회사 대표이사, ‘사람 살리는 금융’ 릴레이 캠페인 동참",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94108",
+      "published": "2026-11-27",
+      "hints": [
+        "보도자료"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94107",
+      "source": "insnews",
+      "title": "화재보험협회, 여의도 신사옥 건립 착수… 2030년 준공 목표",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94107",
+      "published": "2026-11-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94106",
+      "source": "insnews",
+      "title": "[인사] DB손해보험",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94106",
+      "published": "2026-11-27",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94105",
+      "source": "insnews",
+      "title": "보험연수원, 12월 AI 기반 ‘개인맞춤형 학습플랫폼 보험 직무교육’ 본격 운영",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94105",
+      "published": "2026-11-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94025",
+      "source": "insnews",
+      "title": "신한금융플러스 감탄에셋, 광명 넘어 전국 영업조직으로",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94025",
+      "published": "2026-11-27",
+      "hints": [
+        "보험"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94104",
+      "source": "insnews",
+      "title": "교보생명, 강동경희대병원과 협약… 설계사·가족 의료복지 확대",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94104",
+      "published": "2026-11-27",
+      "hints": [
+        "IN PLUS"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insnews:94102",
+      "source": "insnews",
+      "title": "금융을 체험 콘텐츠로… 제21회 금융공모전 수상작 선정",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94102",
+      "published": "2026-11-27",
+      "hints": [
+        "금융"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73162",
+      "source": "insweek",
+      "title": "DB손해보험 인사",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73162",
+      "published": "2026-11-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73151",
+      "source": "insweek",
+      "title": "한화생명, 암경험청년 사회복귀 지원캠페인 성과공유회 개최",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73151",
+      "published": "2026-11-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73149",
+      "source": "insweek",
+      "title": "교보생명, 강동경희대병원과 협약···설계사 건강관리 지원 확대",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73149",
+      "published": "2026-11-27",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insweek:73150",
+      "source": "insweek",
+      "title": "화재보험협회, ‘여의도 신사옥’ 착공",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73150",
+      "published": "2026-11-26",
+      "hints": [
+        "보험가 소식"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34166",
+      "source": "insjournal",
+      "title": "라이나생명 건강보험, 가입조건 주목…15개 특약 무감액·수술비 한도 우대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34166",
+      "published": "2026-11-27",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34164",
+      "source": "insjournal",
+      "title": "암 진단 시점 따라 치료비 ‘2배 차이’… DB생명, 10년 이후 보장 확대·환급률 112%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34164",
+      "published": "2026-11-27",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34163",
+      "source": "insjournal",
+      "title": "‘AI 보험설계’ 권한 어디까지… 가입 권하고 청약까지 연결하면 ‘무자격 모집’인가",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34163",
+      "published": "2026-11-27",
+      "hints": [
+        "기획특집&단독"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34162",
+      "source": "insjournal",
+      "title": "금융당국, ‘저인망 검사·중간발표’ 원칙적 금지… 검사·제재 ‘사전예방’ 중심 대수술",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34162",
+      "published": "2026-11-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34161",
+      "source": "insjournal",
+      "title": "[팩트체크] 대체 ‘표준해약공제액’이 뭐길래… 내년 1월 신계약, GA 수수료·시책 얼마나 깎일까",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34161",
+      "published": "2026-11-27",
+      "hints": [
+        "팩트체크"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34160",
+      "source": "insjournal",
+      "title": "변호사선임비용 ‘현물급부’ 신설… 흥국화재, 5대질병 진단비 최대 2억2100만원",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34160",
+      "published": "2026-11-27",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34159",
+      "source": "insjournal",
+      "title": "[인사] DB손해보험, 부서장 승진",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34159",
+      "published": "2026-11-27",
+      "hints": [
+        "인사·동정"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34158",
+      "source": "insjournal",
+      "title": "보험연수원, 12월부터 AI 맞춤형 학습플랫폼 ‘LXP’ 직무교육 본격 운영",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34158",
+      "published": "2026-11-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34157",
+      "source": "insjournal",
+      "title": "사망보험금 최대 4배·진단금 100% 선지급… ABL생명, 종신보험 4종 '보장 차별화'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34157",
+      "published": "2026-11-27",
+      "hints": [
+        "소비자선택"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34156",
+      "source": "insjournal",
+      "title": "전원 민간 ‘자본시장 대전환위’ 수장에 김용범 메리츠 부회장…“대주주·일반주주 1주 가치 동일 원칙 세운다”",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34156",
+      "published": "2026-11-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34155",
+      "source": "insjournal",
+      "title": "9월말 보험권 대출 263.9조원 감소 전환…연체율 1.27%·중소기업 부실비율 1.94% 치솟아",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34155",
+      "published": "2026-11-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34153",
+      "source": "insjournal",
+      "title": "[칼럼] 실적 고민, 혼자 삼키지 마라…‘털어놓기’가 영업을 다시 움직이는 이유",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34153",
+      "published": "2026-11-27",
+      "hints": [
+        "오피니언"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34152",
+      "source": "insjournal",
+      "title": "고령운전 위험 체감 78%인데…면허 강제 반납엔 69%가 ‘반대’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34152",
+      "published": "2026-11-27",
+      "hints": [
+        "종합뉴스"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34088",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 스카이블루에셋…DB생명·한화생명 1·2위 맞바꿔",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34088",
+      "published": "2026-11-27",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34098",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 글로벌금융판매…상위 3개사 11%대 각축, 한화생명 1위",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34098",
+      "published": "2026-11-27",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34095",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 아너스금융서비스…한화생명 1위, 동양생명 점유율 26.0%→9.2%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34095",
+      "published": "2026-11-27",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34096",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 영진에셋…DB생명 점유율 4.4%→17.4%, 선두 교체",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34096",
+      "published": "2026-11-27",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34138",
+      "source": "insjournal",
+      "title": "[10월 생보사 GA M/S] 지에이스타금융서비스…한화생명 나홀로 20%대 1위 탈환, 라이나 2위 급등·상위권 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34138",
+      "published": "2026-11-27",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34097",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 에이플러스에셋어드바이저…AIA생명 1위, IBK연금보험·메트라이프생명 12%대 경쟁",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34097",
+      "published": "2026-11-27",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34139",
+      "source": "insjournal",
+      "title": "[10월 생보사 GA M/S] 에이비에이금융서비스…ABL생명 나홀로 20%대 선두 유지, 한화 2위 부상·상위권 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34139",
+      "published": "2026-11-27",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34154",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 더블유에셋…KB라이프 18.0%로 1위 등극, 신한라이프와 선두 접전 속 상위권 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34154",
+      "published": "2026-11-27",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110737",
+      "source": "fins",
+      "title": "화보협회, 녹산국가산단 소규모 공장 화재 예방 지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110737",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110736",
+      "source": "fins",
+      "title": "금감원 노조 “반쪽짜리 금융행정 쇄신…금융위도 바뀌어야”",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110736",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110735",
+      "source": "fins",
+      "title": "금융감독 대전환…적발·제재서 예방·시정으로",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110735",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110734",
+      "source": "fins",
+      "title": "[인사] DB손해보험",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110734",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110732",
+      "source": "fins",
+      "title": "한화리츠, 한화손보 서소문 사옥 매입 추진",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110732",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110731",
+      "source": "fins",
+      "title": "교보생명, 설계사·가족 의료비 부담 완화 지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110731",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110730",
+      "source": "fins",
+      "title": "보험사 대출 부실 확대…금리 인상에 건전성 '이중 부담'",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110730",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261127067600002",
+      "source": "yna",
+      "title": "[인사] DB손해보험",
+      "url": "https://www.yna.co.kr/view/AKR20261127067600002",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261127029000008",
+      "source": "yna",
+      "title": "한화리츠, 한화손보 서소문 사옥 815억원에 매입 추진",
+      "url": "https://www.yna.co.kr/view/AKR20261127029000008",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261126188100002",
+      "source": "yna",
+      "title": "3분기 보험사 대출잔액 2.1조원 줄어…연체율·부실채권비율↑",
+      "url": "https://www.yna.co.kr/view/AKR20261126188100002",
+      "published": "2026-11-27",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [
@@ -7428,7 +7903,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -7436,15 +7911,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 84,
+      "count": 85,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7452,7 +7927,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7460,7 +7935,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7476,7 +7951,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7522,7 +7997,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -7530,7 +8005,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -7538,7 +8013,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 71,
       "error": null,
       "note": null,
       "disabled": false
@@ -7546,7 +8021,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -7578,9 +8053,9 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 0,
+      "count": 3,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "note": null,
       "disabled": false
     },
     {

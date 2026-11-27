@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-26T20:53:22.105Z",
+  "generatedAt": "2026-11-27T06:36:21.715Z",
   "groups": [
     {
       "id": "g:insnews:94101",
@@ -294,6 +294,328 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94105",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험연수원, 12월 AI 기반 ‘개인맞춤형 학습플랫폼 보험 직무교육’ 본격 운영",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94105",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94105"
+        },
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34158"
+        }
+      ],
+      "itemIds": [
+        "insnews:94105",
+        "insjournal:34158"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94025",
+      "topic": "general",
+      "kind": "press",
+      "title": "신한금융플러스 감탄에셋, 광명 넘어 전국 영업조직으로",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94025",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94025"
+        }
+      ],
+      "itemIds": [
+        "insnews:94025"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34166",
+      "topic": "life",
+      "kind": "press",
+      "title": "라이나생명 건강보험, 가입조건 주목…15개 특약 무감액·수술비 한도 우대",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34166",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34166"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34166"
+      ],
+      "summary": "라이나생명은 내년 1월 건강보험 주요 특약의 가입 후 1년 이내 50% 감액조건 적용과 심뇌혈관질환수술특약Ⅱ 보장범위 조정을 추진해요. 종별 연간 1회 지급형 1~5종 수술특약과 3·2·5 간편고지 갱신형 어무디 플랜은 12월 31일까지 청약을 받아요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:34164",
+      "topic": "life",
+      "kind": "press",
+      "title": "암 진단 시점 따라 치료비 ‘2배 차이’… DB생명, 10년 이후 보장 확대·환급률 112%",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34164",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34164"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34164"
+      ],
+      "summary": "DB생명은 가입 후 10년간 암과 유사암 진단 이력이 없는 고객에게 이후 주요 암치료비를 두 배로 보장하는 상품을 12월 주력 상품으로 운영해요. 40세 남성 10년납 기준 10년 시점 해약환급률은 1종 암보장강화형과 2종 암보장형 모두 112.0%예요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:34163",
+      "topic": "general",
+      "kind": "press",
+      "title": "‘AI 보험설계’ 권한 어디까지… 가입 권하고 청약까지 연결하면 ‘무자격 모집’인가",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34163",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34163"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34163"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:34162",
+      "topic": "general",
+      "kind": "press",
+      "title": "금융당국, ‘저인망 검사·중간발표’ 원칙적 금지… 검사·제재 ‘사전예방’ 중심 대수술",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34162",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34162"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34162"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": true,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34157",
+      "topic": "general",
+      "kind": "press",
+      "title": "사망보험금 최대 4배·진단금 100% 선지급… ABL생명, 종신보험 4종 '보장 차별화'",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34157",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34157"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34157"
+      ],
+      "summary": "ABL생명은 12월 사망보장과 질병 진단비를 차별화한 종신보험 4종을 운영해요. 더블종신은 암 또는 3대질병 진단 시 사망보험금을 최대 4배까지 보장하고, 더채움종신은 진단 1년 경과 후 진단금 100%를 선지급해요.",
+      "relevance": "high",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 3,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:34155",
+      "topic": "general",
+      "kind": "press",
+      "title": "9월말 보험권 대출 263.9조원 감소 전환…연체율 1.27%·중소기업 부실비율 1.94% 치솟아",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34155",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34155"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34155"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:insjournal:34152",
+      "topic": "general",
+      "kind": "press",
+      "title": "고령운전 위험 체감 78%인데…면허 강제 반납엔 69%가 ‘반대’",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34152",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34152"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34152"
+      ],
+      "summary": "AXA손해보험이 운전자 1,400명을 조사한 결과, 78%가 고령 운전자로부터 사고 위험을 느낀 반면 면허 강제 반납에는 69.2%가 반대했어요. 지자체 고령자 운전면허 자진 반납 바우처 정책은 응답자의 65.5%가 인지하고 있었어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:fins:110737",
+      "topic": "general",
+      "kind": "press",
+      "title": "화보협회, 녹산국가산단 소규모 공장 화재 예방 지원",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110737",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110737"
+        }
+      ],
+      "itemIds": [
+        "fins:110737"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110732",
+      "topic": "industry",
+      "kind": "press",
+      "title": "한화리츠, 한화손보 서소문 사옥 매입 추진",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110732",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110732"
+        },
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261127029000008"
+        }
+      ],
+      "itemIds": [
+        "fins:110732",
+        "yna:AKR20261127029000008"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110730",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 대출 부실 확대…금리 인상에 건전성 '이중 부담'",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110730",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110730"
+        }
+      ],
+      "itemIds": [
+        "fins:110730"
+      ],
+      "summary": null,
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
+    },
+    {
+      "id": "g:yna:AKR20261126188100002",
+      "topic": "general",
+      "kind": "press",
+      "title": "3분기 보험사 대출잔액 2.1조원 줄어…연체율·부실채권비율↑",
+      "url": "https://www.yna.co.kr/view/AKR20261126188100002",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-27",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261126188100002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261126188100002"
+      ],
+      "summary": "9월 말 기준 보험회사 대출채권 잔액은 263조9천억원으로 전분기 대비 2조1천억원 감소했어요. 같은 기간 대출채권 연체율은 1.27%, 부실채권비율은 1.42%로 모두 상승했어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": 2,
+      "importanceVersion": 2
     }
   ],
   "status": [
@@ -302,7 +624,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -310,15 +632,15 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
       "source": "fss-press",
       "ok": true,
-      "count": 84,
+      "count": 85,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -326,7 +648,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -334,7 +656,7 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -350,7 +672,7 @@
       "ok": true,
       "count": 13,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -396,7 +718,7 @@
     {
       "source": "insnews",
       "ok": true,
-      "count": 50,
+      "count": 58,
       "error": null,
       "note": null,
       "disabled": false
@@ -404,7 +726,7 @@
     {
       "source": "insweek",
       "ok": true,
-      "count": 50,
+      "count": 54,
       "error": null,
       "note": null,
       "disabled": false
@@ -412,7 +734,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 71,
       "error": null,
       "note": null,
       "disabled": false
@@ -420,7 +742,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 57,
       "error": null,
       "note": null,
       "disabled": false
@@ -452,9 +774,9 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 0,
+      "count": 3,
       "error": null,
-      "note": "오늘 보험 기사 없음(읽은 글 145건)",
+      "note": null,
       "disabled": false
     },
     {
