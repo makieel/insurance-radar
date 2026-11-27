@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-27T20:38:51.405Z",
+  "groups": [
+    {
+      "id": "g:insnews:94113",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험사 대출 2.1조원 줄었는데… 연체율 1.27%로 상승",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94113",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-28",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94113"
+        }
+      ],
+      "itemIds": [
+        "insnews:94113"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insnews:94112",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험금 지급 넘어 예방·돌봄까지… 한·일 전문가, 보험의 역할 재조명",
+      "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94112",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-28",
+      "sources": [
+        {
+          "name": "한국보험신문",
+          "url": "https://www.insnews.co.kr/news/articleView.html?idxno=94112"
+        }
+      ],
+      "itemIds": [
+        "insnews:94112"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73171",
+      "topic": "general",
+      "kind": "press",
+      "title": "보험연수원, AI 기반 개인맞춤형 학습플랫폼 직무교육 운영",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73171",
+      "published": "2026-11-27",
+      "firstSeen": "2026-11-28",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73171"
+        }
+      ],
+      "itemIds": [
+        "insweek:73171"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:insweek:73170",
+      "topic": "industry",
+      "kind": "press",
+      "title": "보험 판매수수료 과열경쟁 차단···지급한도·공시 규제 강화",
+      "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73170",
+      "published": "2026-11-26",
+      "firstSeen": "2026-11-28",
+      "sources": [
+        {
+          "name": "보험신보",
+          "url": "https://www.insweek.co.kr/news/articleView.html?idxno=73170"
+        }
+      ],
+      "itemIds": [
+        "insweek:73170"
+      ],
+      "summary": "오는 2027년 1월부터 선지급수수료와 유지관리수수료의 지급한도가 각각 보험료에 반영된 계약체결비용과 표준해약공제액 중 작은 금액으로 제한돼요. 내년 2월부터는 계약체결비용 공시 대상이 전체 연령과 보험료 납입기간 등 모든 가입조건으로 넓어져요. 금융위원회와 금융감독원은 이같은 내용의 판매수수료 관련 행정지도를 26일 시행한다고 밝혔어요.",
+      "relevance": "medium",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    }
+  ],
+  "status": [
+    {
+      "source": "fsc-press",
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "fsc-rule",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-press",
+      "ok": true,
+      "count": 84,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "fss-alert",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "knia-press",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": "과거 기사 수집 중단: fetch failed",
+      "disabled": false
+    },
+    {
+      "source": "knia-rates",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "klia-press",
+      "ok": true,
+      "count": 13,
+      "error": null,
+      "note": "과거 기사 채우기 완료: 정부·협회",
+      "disabled": false
+    },
+    {
+      "source": "kiri",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "hanwha",
+      "ok": true,
+      "count": 9,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "kyobo",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 for https://news.kyobo.com/feed/",
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "samsungfire",
+      "ok": true,
+      "count": 15,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "meritz",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insnews",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insweek",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "insjournal",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "fins",
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "joongang",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 24건) / 과거 기사 채우기 완료: 중앙일보",
+      "disabled": false
+    },
+    {
+      "source": "donga",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "disabled": false
+    },
+    {
+      "source": "chosun",
+      "ok": true,
+      "count": 0,
+      "error": null,
+      "note": "오늘 보험 기사 없음(읽은 글 98건)",
+      "disabled": false
+    },
+    {
+      "source": "yna",
+      "ok": true,
+      "count": 1,
+      "error": null,
+      "note": null,
+      "disabled": false
+    },
+    {
+      "source": "naver",
+      "ok": false,
+      "count": 0,
+      "error": null,
+      "note": "설정에서 꺼진 출처입니다.",
+      "disabled": true
+    }
+  ]
+}
