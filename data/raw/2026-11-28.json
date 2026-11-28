@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-27T20:38:51.405Z",
+  "generatedAt": "2026-11-28T06:10:29.719Z",
   "items": [
     {
       "id": "fsc-press:88236",
@@ -6965,6 +6965,143 @@
       "published": "2026-03-12",
       "hints": [],
       "attachments": []
+    },
+    {
+      "id": "insjournal:34108",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 에즈금융서비스…3개월 연속 비중 키운 흥국생명 21.0% 선두, 미래에셋·KB라이프 순",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34108",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34105",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 굿리치…메트라이프생명 19.7%로 1위 등극, 한화·IM라이프 뒤이어 상위권 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34105",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34106",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 사랑모아금융서비스…메트라이프생명 54.3% 선두, 한화생명 2위 유지, 라이나 3위 부상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34106",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34099",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 인카금융서비스…메트라이프생명 2위로, 라이나생명 7계단 상승",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34099",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34102",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 지에이코리아…한화생명·라이나생명 1·2위로 상위권 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34102",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34103",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 한국보험금융…한화생명 15.9%로 1위 탈환, AIA·라이나 급등 속 상위권 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34103",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34104",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 케이지에이에셋…3개월 연속 비중 키운 한화생명 21.6% 선두 유지, 라이나·KB 상위권 부상",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34104",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34140",
+      "source": "insjournal",
+      "title": "[10월 생보사 GA M/S] 서울법인금융센터…3개월 연속 비중 키운 푸본현대생명 56.0% 독주, 라이나 2위 유지",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34140",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34149",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 봄금융서비스…3개월 연속 비중 키운 메트라이프생명 46.0% 1위 탈환, KDB·AIA와 상위 3개사 집중",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34149",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "insjournal:34148",
+      "source": "insjournal",
+      "title": "[10월 GA 생보사 실적 M/S] 에프엠에셋…신한라이프 나홀로 20.0% 선두 유지, 흥국·미래에셋 상위권 형성",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34148",
+      "published": "2026-11-28",
+      "hints": [
+        "GA인사이트"
+      ],
+      "attachments": []
+    },
+    {
+      "id": "fins:110738",
+      "source": "fins",
+      "title": "美보험사 올스테이트 닷새째 전산 장애…연휴 고객 불편 가중",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110738",
+      "published": "2026-11-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "fins:110724",
+      "source": "fins",
+      "title": "보험사·GA, ‘제판분리’ 넘어 ‘전문성 분업’으로",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110724",
+      "published": "2026-11-28",
+      "hints": [],
+      "attachments": []
+    },
+    {
+      "id": "yna:AKR20261128027400002",
+      "source": "yna",
+      "title": "[부고] 임문택(IBK연금보험 사장)씨 모친상",
+      "url": "https://www.yna.co.kr/view/AKR20261128027400002",
+      "published": "2026-11-28",
+      "hints": [],
+      "attachments": []
     }
   ],
   "rates": [],
@@ -6974,7 +7111,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -6982,7 +7119,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -6990,7 +7127,7 @@
       "ok": true,
       "count": 84,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -6998,7 +7135,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -7006,7 +7143,7 @@
       "ok": false,
       "count": 0,
       "error": "fetch failed",
-      "note": "과거 기사 수집 중단: fetch failed",
+      "note": null,
       "disabled": false
     },
     {
@@ -7019,10 +7156,10 @@
     },
     {
       "source": "klia-press",
-      "ok": true,
+      "ok": false,
       "count": 13,
-      "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "error": "fetch failed",
+      "note": null,
       "disabled": false
     },
     {
@@ -7084,7 +7221,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -7092,7 +7229,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -7107,10 +7244,10 @@
     },
     {
       "source": "donga",
-      "ok": true,
+      "ok": false,
       "count": 1,
-      "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "error": "fetch failed",
+      "note": "과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -7124,7 +7261,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false

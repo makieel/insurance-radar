@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-27T20:38:51.405Z",
+  "generatedAt": "2026-11-28T06:10:29.719Z",
   "groups": [
     {
       "id": "g:insnews:94113",
@@ -97,6 +97,78 @@
       "relevanceBy": "ai",
       "importance": null,
       "importanceVersion": null
+    },
+    {
+      "id": "g:insjournal:34103",
+      "topic": "industry",
+      "kind": "press",
+      "title": "[10월 GA 생보사 실적 M/S] 한국보험금융…한화생명 15.9%로 1위 탈환, AIA·라이나 급등 속 상위권 재편",
+      "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34103",
+      "published": "2026-11-28",
+      "firstSeen": "2026-11-28",
+      "sources": [
+        {
+          "name": "보험저널",
+          "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=34103"
+        }
+      ],
+      "itemIds": [
+        "insjournal:34103"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:fins:110738",
+      "topic": "general",
+      "kind": "press",
+      "title": "美보험사 올스테이트 닷새째 전산 장애…연휴 고객 불편 가중",
+      "url": "http://www.fins.co.kr/news/articleView.html?idxno=110738",
+      "published": "2026-11-28",
+      "firstSeen": "2026-11-28",
+      "sources": [
+        {
+          "name": "보험매일",
+          "url": "http://www.fins.co.kr/news/articleView.html?idxno=110738"
+        }
+      ],
+      "itemIds": [
+        "fins:110738"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
+    },
+    {
+      "id": "g:yna:AKR20261128027400002",
+      "topic": "life",
+      "kind": "press",
+      "title": "[부고] 임문택(IBK연금보험 사장)씨 모친상",
+      "url": "https://www.yna.co.kr/view/AKR20261128027400002",
+      "published": "2026-11-28",
+      "firstSeen": "2026-11-28",
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20261128027400002"
+        }
+      ],
+      "itemIds": [
+        "yna:AKR20261128027400002"
+      ],
+      "summary": null,
+      "relevance": "low",
+      "important": false,
+      "relevanceBy": "ai",
+      "importance": null,
+      "importanceVersion": null
     }
   ],
   "status": [
@@ -105,7 +177,7 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: fetch failed",
+      "note": "RSS 점검 중(503) → 목록 페이지로 수집 / 과거 기사 수집 중단: 과거 기사 수집 제한 시간에 도달했습니다.",
       "disabled": false
     },
     {
@@ -113,7 +185,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -121,7 +193,7 @@
       "ok": true,
       "count": 84,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -129,7 +201,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "note": null,
       "disabled": false
     },
     {
@@ -137,7 +209,7 @@
       "ok": false,
       "count": 0,
       "error": "fetch failed",
-      "note": "과거 기사 수집 중단: fetch failed",
+      "note": null,
       "disabled": false
     },
     {
@@ -150,10 +222,10 @@
     },
     {
       "source": "klia-press",
-      "ok": true,
+      "ok": false,
       "count": 13,
-      "error": null,
-      "note": "과거 기사 채우기 완료: 정부·협회",
+      "error": "fetch failed",
+      "note": null,
       "disabled": false
     },
     {
@@ -215,7 +287,7 @@
     {
       "source": "insjournal",
       "ok": true,
-      "count": 50,
+      "count": 60,
       "error": null,
       "note": null,
       "disabled": false
@@ -223,7 +295,7 @@
     {
       "source": "fins",
       "ok": true,
-      "count": 50,
+      "count": 52,
       "error": null,
       "note": null,
       "disabled": false
@@ -238,10 +310,10 @@
     },
     {
       "source": "donga",
-      "ok": true,
+      "ok": false,
       "count": 1,
-      "error": null,
-      "note": "과거 기사 수집 중단: 동아일보 기사 제목이나 본문을 찾을 수 없습니다.",
+      "error": "fetch failed",
+      "note": "과거 기사 수집 중단: fetch failed",
       "disabled": false
     },
     {
@@ -255,7 +327,7 @@
     {
       "source": "yna",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null,
       "note": null,
       "disabled": false
